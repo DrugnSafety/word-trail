@@ -1,0 +1,58 @@
+# 71. Watch Out for the Snapping Turtles!
+
+- Video: https://www.youtube.com/watch?v=T4hCDwS0tV8
+- Length: 02:05
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:04
+
+---
+
+- `[00:00 - 00:01]` You have to pay me money for a ticket.
+- `[00:01 - 00:04]` Oh, yes. Here you go. Thank you! Here's your ticket.
+- `[00:04 - 00:07]` Oh, now, if you aren't happy
+- `[00:07 - 00:08]` with your whale-watching trip,
+- `[00:08 - 00:09]` I'll give you your money back.
+- `[00:09 - 00:11]` Lovely. But that won't happen.
+- `[00:11 - 00:15]` This will be the best whale-watching tour you've ever been on.
+- `[00:15 - 00:17]` I don't know about that, kid.
+- `[00:17 - 00:17]` All aboard!
+- `[00:17 - 00:19]` Oh, Bluey, that's too loud.
+- `[00:19 - 00:21]` Off we go! Yay!
+- `[00:21 - 00:24]` It's a lovely day to go boat riding.
+- `[00:24 - 00:26]` The sea is nice and calm.
+- `[00:26 - 00:28]` Yeah, it's smooth sailing today.
+- `[00:28 - 00:31]` Oh, no! We've hit rough seas!
+- `[00:31 - 00:33]` What? Hold on, customer!
+- `[00:33 - 00:37]` Here comes a big wave!
+- `[00:37 - 00:39]` Dad, we hit rough seas.
+- `[00:39 - 00:40]` No, we hit smooth seas.
+- `[00:40 - 00:42]` And, oh, look, we're at the whales!
+- `[00:42 - 00:45]` Ah, no, you're not. The whales are ages away.
+- `[00:45 - 00:47]` And point of fact, the boat
+- `[00:47 - 00:48]` doesn't decide about rough seas.
+- `[00:48 - 00:49]` The boat driver does.
+- `[00:49 - 00:50]` Yeah!
+- `[00:50 - 00:52]` Uh, point of fact, whales can't talk.
+- `[00:52 - 00:57]` Second point of fact, today there are no rough seas.
+- `[00:57 - 01:01]` Well, I'm gonna find some rough seas.
+- `[01:01 - 01:03]` Here we are, rough seas!
+- `[01:03 - 01:04]` Nope.
+- `[01:04 - 01:07]` Well, I'm just gonna sail around till I find them!
+- `[01:07 - 01:08]` Ah, okay, fine.
+- `[01:08 - 01:10]` Hold on to your breakfast.
+- `[01:10 - 01:14]` Here we go. Hold on, customer!
+- `[01:14 - 01:16]` Sorry, customer, we have seemed to
+- `[01:16 - 01:20]` accidentally wandered into some rough seas,
+- `[01:20 - 01:22]` accidentally?!
+- `[01:22 - 01:27]` Please don't go to the lunch food thing before
+- `[01:27 - 01:29]` And look, we're at the whales!
+- `[01:29 - 01:31]` Watch out! Snappy turtles!
+- `[01:31 - 01:33]` Oh, yeah! Snappy turtles!
+- `[01:33 - 01:35]` Oh, for... alright.
+- `[01:35 - 01:51]` Snap! Snap! Snap! Snap! Snap!
+- `[01:51 - 01:54]` Oh, man! Are you okay, customer?
+- `[01:54 - 01:55]` Yes, I'm fine.
+- `[01:55 - 01:58]` You don't want your money back?
+- `[01:58 - 01:59]` No, this is fun.
+- `[01:59 - 02:03]` But are we almost at the whales?
+- `[02:03 - 02:04]` Yes.

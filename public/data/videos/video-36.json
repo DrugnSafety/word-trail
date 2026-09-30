@@ -1,0 +1,1343 @@
+{
+  "id": "video-36",
+  "number": 36,
+  "title": "Crazy Walks! | Housework | Bluey",
+  "duration": 125,
+  "declaredDuration": 125,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=eeDCKY_qJBk",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/36_Crazy Walks!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/36_Crazy Walks!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Crazy Walks! | Housework | Bluey",
+      "start": 0,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 14,
+      "sentenceText": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 14,
+          "text": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "originalText": "you're really doing this I think I have to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "you're really doing this I think I have"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 6,
+              "text": "to okay at least set the rules what will"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 7,
+              "text": "it take for you to get back to the"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "housework just you know one foot in"
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 11,
+              "text": "front of the other I don't think that's"
+            },
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 14,
+              "text": "too much to ask okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "text": "You're really doing this?"
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 2,
+              "text": "I think I have to."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0001",
+          "quote": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "start": 0,
+          "end": 14,
+          "matchStart": 36,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0001",
+          "quote": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "start": 0,
+          "end": 14,
+          "matchStart": 28,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "start": 0,
+          "end": 14,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "start": 0,
+          "end": 14,
+          "matchStart": 76,
+          "matchEnd": 80
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0001",
+          "quote": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "start": 0,
+          "end": 14,
+          "matchStart": 140,
+          "matchEnd": 144
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0001",
+          "quote": "You're really doing this? I think I have to. to okay at least set the rules what will it take for you to get back to the housework just you know one foot in front of the other I don't think that's too much to ask okay",
+          "start": 0,
+          "end": 14,
+          "matchStart": 178,
+          "matchEnd": 183
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 14,
+      "end": 24,
+      "sentenceText": "see that looks good Boom come on look at her arms they're following her legs legs really yeah they're meant to go the other way the opposite of your legs oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 14,
+          "end": 24,
+          "text": "see that looks good Boom come on look at her arms they're following her legs legs really yeah they're meant to go the other way the opposite of your legs oh",
+          "originalText": "see that looks good Boom come on look at her arms they're following her legs legs really yeah they're meant to go the other way the opposite of your legs oh",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 18,
+              "text": "see that looks good Boom come on look at"
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 20,
+              "text": "her arms they're following her legs legs"
+            },
+            {
+              "id": "c0009",
+              "start": 20,
+              "end": 22,
+              "text": "really yeah they're meant to go the"
+            },
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 24,
+              "text": "other way the opposite of your legs oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 20,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0002",
+          "quote": "see that looks good Boom come on look at her arms they're following her legs legs really yeah they're meant to go the other way the opposite of your legs oh",
+          "start": 14,
+          "end": 24,
+          "matchStart": 25,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "see that looks good Boom come on look at her arms they're following her legs legs really yeah they're meant to go the other way the opposite of your legs oh",
+          "start": 14,
+          "end": 24,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0002",
+          "quote": "see that looks good Boom come on look at her arms they're following her legs legs really yeah they're meant to go the other way the opposite of your legs oh",
+          "start": 14,
+          "end": 24,
+          "matchStart": 15,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0002",
+          "quote": "see that looks good Boom come on look at her arms they're following her legs legs really yeah they're meant to go the other way the opposite of your legs oh",
+          "start": 14,
+          "end": 24,
+          "matchStart": 33,
+          "matchEnd": 37
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 24,
+      "end": 31,
+      "sentenceText": "Oh, yeah, that's crazy! That's what I'm saying!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 24,
+          "end": 31,
+          "text": "Oh, yeah, that's crazy! That's what I'm saying!",
+          "originalText": "yeah that's crazy that's what I'm saying",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 31,
+              "text": "yeah that's crazy that's what I'm saying"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 24,
+              "end": 27,
+              "text": "Oh, yeah, that's crazy!"
+            },
+            {
+              "id": "c0014",
+              "start": 27,
+              "end": 31,
+              "text": "That's what I'm saying!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "Oh, yeah, that's crazy! That's what I'm saying!",
+          "start": 24,
+          "end": 31,
+          "matchStart": 31,
+          "matchEnd": 35
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 31,
+      "end": 37,
+      "sentenceText": "Okay, that's not even close to her normal walk. Oh, hang on, hang on, here we go.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 31,
+          "end": 37,
+          "text": "Okay, that's not even close to her normal walk. Oh, hang on, hang on, here we go.",
+          "originalText": "okay that's not even close to her normal walk oh hang on hang on here we go feed",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 31,
+              "end": 33,
+              "text": "okay that's not even close to her normal"
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 37,
+              "text": "walk oh hang on hang on here we go feed"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 31,
+              "end": 33,
+              "text": "Okay, that's not even close to her normal walk."
+            },
+            {
+              "id": "c0016",
+              "start": 33,
+              "end": 37,
+              "text": "Oh, hang on, hang on, here we go."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 31,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "Okay, that's not even close to her normal walk. Oh, hang on, hang on, here we go.",
+          "start": 31,
+          "end": 37,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 37,
+      "end": 45,
+      "sentenceText": "Feet okay, arms okay. I think we're good. Backwards! And there it is. This is hard.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 37,
+          "end": 45,
+          "text": "Feet okay, arms okay. I think we're good. Backwards! And there it is. This is hard.",
+          "originalText": "okay arm's okay I think we're good backwards and there it is this is hard",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 41,
+              "text": "okay arm's okay I think we're good"
+            },
+            {
+              "id": "c0015",
+              "start": 41,
+              "end": 45,
+              "text": "backwards and there it is this is hard"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 37,
+              "end": 39,
+              "text": "Feet okay, arms okay."
+            },
+            {
+              "id": "c0018",
+              "start": 39,
+              "end": 41,
+              "text": "I think we're good."
+            },
+            {
+              "id": "c0019",
+              "start": 41,
+              "end": 42,
+              "text": "Backwards!"
+            },
+            {
+              "id": "c0020",
+              "start": 42,
+              "end": 44,
+              "text": "And there it is."
+            },
+            {
+              "id": "c0021",
+              "start": 44,
+              "end": 45,
+              "text": "This is hard."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 41,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "Feet okay, arms okay. I think we're good. Backwards! And there it is. This is hard.",
+          "start": 37,
+          "end": 45,
+          "matchStart": 5,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0005",
+          "quote": "Feet okay, arms okay. I think we're good. Backwards! And there it is. This is hard.",
+          "start": 37,
+          "end": 45,
+          "matchStart": 24,
+          "matchEnd": 29
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0005",
+          "quote": "Feet okay, arms okay. I think we're good. Backwards! And there it is. This is hard.",
+          "start": 37,
+          "end": 45,
+          "matchStart": 36,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 45,
+      "end": 59,
+      "sentenceText": "I'll even settle for the same crazy walk from there to there but look one two three different walks in three meters why do they do it because they're nuts",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 45,
+          "end": 59,
+          "text": "I'll even settle for the same crazy walk from there to there but look one two three different walks in three meters why do they do it because they're nuts",
+          "originalText": "I'll even settle for the same crazy walk from there to there but look one two three different walks in three meters why do they do it because they're nuts",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 45,
+              "end": 47,
+              "text": "I'll even settle for the same crazy walk"
+            },
+            {
+              "id": "c0017",
+              "start": 47,
+              "end": 51,
+              "text": "from there to there but look one"
+            },
+            {
+              "id": "c0018",
+              "start": 51,
+              "end": 53,
+              "text": "two three different walks in three"
+            },
+            {
+              "id": "c0019",
+              "start": 53,
+              "end": 56,
+              "text": "meters why do they do it because they're"
+            },
+            {
+              "id": "c0020",
+              "start": 56,
+              "end": 59,
+              "text": "nuts"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 45,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 47,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 51,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 56,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0006",
+          "quote": "I'll even settle for the same crazy walk from there to there but look one two three different walks in three meters why do they do it because they're nuts",
+          "start": 45,
+          "end": 59,
+          "matchStart": 65,
+          "matchEnd": 69
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0006",
+          "quote": "I'll even settle for the same crazy walk from there to there but look one two three different walks in three meters why do they do it because they're nuts",
+          "start": 45,
+          "end": 59,
+          "matchStart": 116,
+          "matchEnd": 119
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 59,
+      "end": 73,
+      "sentenceText": "Gently down the stream. That's not even a walk! walk I'm making a copper we're gonna be here a while Elephant.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 59,
+          "end": 73,
+          "text": "Gently down the stream. That's not even a walk! walk I'm making a copper we're gonna be here a while Elephant.",
+          "originalText": "get me down the stream that's not even a walk I'm making a copper we're gonna be here a while elephant",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 59,
+              "end": 62,
+              "text": "get me down the stream that's not even a"
+            },
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 65,
+              "text": "walk I'm making a copper we're gonna be"
+            },
+            {
+              "id": "c0023",
+              "start": 65,
+              "end": 66,
+              "text": "here a while"
+            },
+            {
+              "id": "c0024",
+              "start": 66,
+              "end": 73,
+              "text": "elephant"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 59,
+              "end": 61,
+              "text": "Gently down the stream."
+            },
+            {
+              "id": "c0026",
+              "start": 61,
+              "end": 62,
+              "text": "That's not even a walk!"
+            },
+            {
+              "id": "c0028",
+              "start": 66,
+              "end": 73,
+              "text": "Elephant."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 59,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 65,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 66,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 80,
+      "end": 95,
+      "sentenceText": "Kangaroo. What did I miss? chicken working our way through the animal kingdom that's an emu yeah or maybe an ostrich or a big duck and that's some sort of uh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 80,
+          "end": 95,
+          "text": "Kangaroo. What did I miss? chicken working our way through the animal kingdom that's an emu yeah or maybe an ostrich or a big duck and that's some sort of uh",
+          "originalText": "kangaroo what did I miss chicken working our way through the animal kingdom that's an emu yeah or maybe an ostrich or a big duck and that's some sort of uh",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 83,
+              "text": "kangaroo what did I miss"
+            },
+            {
+              "id": "c0026",
+              "start": 83,
+              "end": 85,
+              "text": "chicken working our way through the"
+            },
+            {
+              "id": "c0027",
+              "start": 85,
+              "end": 89,
+              "text": "animal kingdom that's an emu yeah or"
+            },
+            {
+              "id": "c0028",
+              "start": 89,
+              "end": 92,
+              "text": "maybe an ostrich or a big duck and"
+            },
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 95,
+              "text": "that's some sort of uh"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 80,
+              "end": 81,
+              "text": "Kangaroo."
+            },
+            {
+              "id": "c0030",
+              "start": 81,
+              "end": 83,
+              "text": "What did I miss?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 83,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 85,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 89,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "Kangaroo. What did I miss? chicken working our way through the animal kingdom that's an emu yeah or maybe an ostrich or a big duck and that's some sort of uh",
+          "start": 80,
+          "end": 95,
+          "matchStart": 10,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0008",
+          "quote": "Kangaroo. What did I miss? chicken working our way through the animal kingdom that's an emu yeah or maybe an ostrich or a big duck and that's some sort of uh",
+          "start": 80,
+          "end": 95,
+          "matchStart": 122,
+          "matchEnd": 125
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 95,
+      "end": 110,
+      "sentenceText": "um donkey some of these look really hard to do I know don't they get tired Whoa, we have a winner, holy dooley, that's impressive.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 95,
+          "end": 110,
+          "text": "um donkey some of these look really hard to do I know don't they get tired Whoa, we have a winner, holy dooley, that's impressive.",
+          "originalText": "um donkey some of these look really hard to do I know don't they get tired whoa we have a winner holy Dooley that's",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 95,
+              "end": 96,
+              "text": "um"
+            },
+            {
+              "id": "c0031",
+              "start": 96,
+              "end": 99,
+              "text": "donkey some of these look really hard to"
+            },
+            {
+              "id": "c0032",
+              "start": 99,
+              "end": 105,
+              "text": "do I know don't they get tired"
+            },
+            {
+              "id": "c0033",
+              "start": 105,
+              "end": 110,
+              "text": "whoa we have a winner holy Dooley that's"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 105,
+              "end": 110,
+              "text": "Whoa, we have a winner, holy dooley, that's impressive."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 95,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 96,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 99,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 105,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0009",
+          "quote": "um donkey some of these look really hard to do I know don't they get tired Whoa, we have a winner, holy dooley, that's impressive.",
+          "start": 95,
+          "end": 110,
+          "matchStart": 24,
+          "matchEnd": 28
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0009",
+          "quote": "um donkey some of these look really hard to do I know don't they get tired Whoa, we have a winner, holy dooley, that's impressive.",
+          "start": 95,
+          "end": 110,
+          "matchStart": 49,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "um donkey some of these look really hard to do I know don't they get tired Whoa, we have a winner, holy dooley, that's impressive.",
+          "start": 95,
+          "end": 110,
+          "matchStart": 54,
+          "matchEnd": 59
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 110,
+      "end": 124,
+      "sentenceText": "How do you even do that? have to like have your feet out like a duck out but then pop them in while spinning oh yeah while spinning oh my growing",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 110,
+          "end": 124,
+          "text": "How do you even do that? have to like have your feet out like a duck out but then pop them in while spinning oh yeah while spinning oh my growing",
+          "originalText": "impressive how do you even do that you have to like have your feet out like a duck out but then pop them in while spinning oh yeah while spinning oh my growing",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 110,
+              "end": 113,
+              "text": "impressive how do you even do that you"
+            },
+            {
+              "id": "c0035",
+              "start": 113,
+              "end": 115,
+              "text": "have to like have your feet out like a"
+            },
+            {
+              "id": "c0036",
+              "start": 115,
+              "end": 118,
+              "text": "duck out but then pop them in while"
+            },
+            {
+              "id": "c0037",
+              "start": 118,
+              "end": 121,
+              "text": "spinning oh yeah while spinning oh my"
+            },
+            {
+              "id": "c0038",
+              "start": 121,
+              "end": 124,
+              "text": "growing"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0039",
+              "start": 110,
+              "end": 113,
+              "text": "How do you even do that?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 110,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 113,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0010",
+          "quote": "How do you even do that? have to like have your feet out like a duck out but then pop them in while spinning oh yeah while spinning oh my growing",
+          "start": 110,
+          "end": 124,
+          "matchStart": 25,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0010",
+          "quote": "How do you even do that? have to like have your feet out like a duck out but then pop them in while spinning oh yeah while spinning oh my growing",
+          "start": 110,
+          "end": 124,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0010",
+          "quote": "How do you even do that? have to like have your feet out like a duck out but then pop them in while spinning oh yeah while spinning oh my growing",
+          "start": 110,
+          "end": 124,
+          "matchStart": 33,
+          "matchEnd": 37
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

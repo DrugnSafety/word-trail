@@ -1,0 +1,48 @@
+# 84. Bluey and Chilli's Magic Battle! 🪄 😯 | Bluey Season 3 Highlight ⭐️ | Bluey
+
+- Video: https://www.youtube.com/watch?v=kVR69XcuaHs
+- Length: 02:07
+- Captions: YouTube auto-generated English captions
+- Script: 00:01 ~ 02:06
+
+---
+
+- `[00:01 - 00:06]` Grown-ups should play with kids whenever the kids want.
+- `[00:08 - 00:10]` Grown-ups can't just drop everything and
+- `[00:10 - 00:14]` play when kids ask them to.
+- `[00:17 - 00:18]` Why not?
+- `[00:18 - 00:20]` 'Cause then who will do all the chores
+- `[00:20 - 00:23]` like cleaning the house and making the dinners?
+- `[00:23 - 00:25]` We'll ring the pizza boy.
+- `[00:25 - 00:28]` You can't just ring the pizza boy.
+- `[00:28 - 00:31]` We can do whatever we want, aren't we, Bingo?
+- `[00:31 - 00:34]` Um, I guess.
+- `[00:34 - 00:37]` No, Bingo, don't listen to her.
+- `[00:37 - 00:41]` The pizza boy is not the solution.
+- `[00:41 - 00:44]` Bingo, I need your help. Join your magic to mine.
+- `[00:44 - 00:47]` People should play with you because they want to,
+- `[00:47 - 00:51]` not because you make them. Otherwise, it's not playing.
+- `[00:51 - 00:55]` Hey, uh, is all that crazy stuff still happening?
+- `[00:55 - 00:57]` Oh, get off, it's not up to me.
+- `[00:57 - 01:05]` You see, Bingo, cheeky magic always wins 'cause we've got Tim.
+- `[01:06 - 01:10]` Now, Bingo, bring all the pizza boys.
+- `[01:10 - 01:13]` Me? Yes, you. Why do I have to do it?
+- `[01:13 - 01:16]` 'Cause I said so. You can't just tell me what to do.
+- `[01:16 - 01:19]` Yes, I can.
+- `[01:19 - 01:20]` Stop it!
+- `[01:20 - 01:24]` Hurry, babe, it's the magic.
+- `[01:24 - 01:27]` Huh? Who's doing that?
+- `[01:27 - 01:30]` Bingo, no!
+- `[01:30 - 01:35]` Hooray! Bingo, join the good side.
+- `[01:35 - 01:39]` I am not an object!
+- `[01:39 - 01:41]` Well, that was a big day.
+- `[01:41 - 01:42]` Nice grass, Dad.
+- `[01:42 - 01:44]` Thanks, kid.
+- `[01:44 - 01:45]` That'll be the pizza boy.
+- `[01:45 - 01:49]` Hooray! Come on, who's coming? We need a grown-up.
+- `[01:49 - 01:50]` Off you, pup.
+- `[01:50 - 01:53]` Actually, I'm pretty comfortable right here.
+- `[01:53 - 01:55]` Yeah, but you're still going. You going to make me
+- `[01:55 - 01:56]` if I have to.
+- `[01:56 - 02:01]` Oh man, okay, wish I knew magic.
+- `[02:01 - 02:06]` That was cheating.

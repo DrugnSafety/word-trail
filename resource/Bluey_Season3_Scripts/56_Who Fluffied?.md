@@ -1,0 +1,64 @@
+# 56. Who Fluffied? | Family Meeting - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=4rYZFi7a0Ao
+- Length: 02:05
+- Captions: YouTube auto-generated English captions
+- Script: 00:02 ~ 02:05
+
+---
+
+- `[00:02 - 00:04]` Is this what you had for breakfast yesterday?
+- `[00:04 - 00:06]` Baked beans on wheat toast.
+- `[00:06 - 00:07]` Yep.
+- `[00:07 - 00:10]` Bingo, what's the fluffy level on this?
+- `[00:10 - 00:12]` Hi, thank you.
+- `[00:12 - 00:16]` And then what did you have for lunch, Mr Heeler?
+- `[00:16 - 00:19]` Ah, just some... uh, sauerkraut?
+- `[00:19 - 00:21]` Excuse me, sauerkraut?
+- `[00:21 - 00:24]` Finger... fluffy level.
+- `[00:24 - 00:27]` Now, we had dinner at Indy's house, didn't we?
+- `[00:27 - 00:28]` Yep.
+- `[00:28 - 00:29]` Can you tell us what you ate?
+- `[00:29 - 00:30]` Um, no.
+- `[00:30 - 00:34]` I'm not sure I ate much, Mr Heeler.
+- `[00:34 - 00:37]` Okay, I had a vegan nut roast, oh dear.
+- `[00:37 - 00:38]` Anything else?
+- `[00:38 - 00:41]` Uh, nothing comes to mind, really.
+- `[00:41 - 00:43]` Nothing from the petrol station on the way home
+- `[00:43 - 00:44]` that might
+- `[00:44 - 00:46]` have come in, though.
+- `[00:46 - 00:49]` Oh well, maybe I had a pie.
+- `[00:49 - 00:50]` Bandit,
+- `[00:50 - 00:52]` well, all I'd had was nut roast.
+- `[00:52 - 00:55]` Bingo, where is the fluffy meter now?
+- `[00:55 - 00:57]` Now at the top!
+- `[00:57 - 00:59]` Sounds like you were ready to blow!
+- `[00:59 - 01:02]` My food choices are not on trial.
+- `[01:02 - 01:04]` Bingo, on the morning of this morning,
+- `[01:04 - 01:07]` did you see Dad fluffy in my face?
+- `[01:07 - 01:08]` Yes, I did.
+- `[01:08 - 01:11]` Oh, what? Bingo, you weren't even there!
+- `[01:11 - 01:12]` Yes, I was.
+- `[01:12 - 01:16]` Thank you, Bingo, you can leave. Here's your lollipop.
+- `[01:16 - 01:18]` Hey, hold on, Bingo!
+- `[01:18 - 01:20]` Are you fibbing to get a lollipop?
+- `[01:20 - 01:23]` Yes! Give me that back.
+- `[01:23 - 01:25]` Everyone forget that bit, Bluey.
+- `[01:25 - 01:27]` That has not helped your case.
+- `[01:27 - 01:33]` Remember, the truth will set you free. Okay,
+- `[01:33 - 01:37]` Mum, I would like to call on Mum.
+- `[01:37 - 01:38]` Me, Mrs Heeler?
+- `[01:38 - 01:41]` On the morning of this morning,
+- `[01:41 - 01:44]` you didn't hear me fluffy, did you?
+- `[01:44 - 01:44]` No.
+- `[01:44 - 01:47]` Let's repeat that, you didn't hear me fluffy
+- `[01:47 - 01:49]` 'cause she was asleep.
+- `[01:49 - 01:51]` Yeah, well, I wasn't asleep.
+- `[01:51 - 01:52]` I was dozing.
+- `[01:52 - 01:54]` I mean, I heard you get up
+- `[01:54 - 01:55]` and move the bedside table.
+- `[01:55 - 01:57]` What? Oh, really? Tell me
+- `[01:57 - 01:59]` about this bedside table.
+- `[01:59 - 02:02]` Uh, no further questions.
+- `[02:02 - 02:04]` You can go now.
+- `[02:04 - 02:05]` Come on, get

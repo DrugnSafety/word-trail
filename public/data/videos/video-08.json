@@ -1,0 +1,1281 @@
+{
+  "id": "video-08",
+  "number": 8,
+  "title": "Unicorse Returns! | Puppets - Series 3 | Bluey",
+  "duration": 123,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=2pxAPOlKivA",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/08_Unicorse Returns!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/08_Unicorse Returns!.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Unicorse Returns! | Puppets - Series 3 | Bluey",
+      "start": 0,
+      "end": 123,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 13,
+      "sentenceText": "this is toothpaste do I eat it yeah it makes your teeth clean what does this button do it",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 13,
+          "text": "this is toothpaste do I eat it yeah it makes your teeth clean what does this button do it",
+          "originalText": "this is toothpaste do I eat it yeah it makes your teeth clean what does this button do it",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "this is toothpaste do I eat it yeah it"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": "makes your teeth clean what does this"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 7,
+              "text": "button do"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 13,
+              "text": "it"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "this is toothpaste do I eat it yeah it makes your teeth clean what does this button do it",
+          "start": 0,
+          "end": 13,
+          "matchStart": 62,
+          "matchEnd": 66
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 13,
+      "end": 21,
+      "sentenceText": "oh that's it you get the horse",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 13,
+          "end": 21,
+          "text": "oh that's it you get the horse",
+          "originalText": "oh that's it you get the horse",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 21,
+              "text": "oh that's it you get the horse"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0002",
+          "quote": "oh that's it you get the horse",
+          "start": 13,
+          "end": 21,
+          "matchStart": 3,
+          "matchEnd": 12
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 24,
+      "end": 37,
+      "sentenceText": "Maybe self-improvement just isn't for you. you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 24,
+          "end": 37,
+          "text": "Maybe self-improvement just isn't for you. you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+          "originalText": "maybe self-improvement just isn't for you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 24,
+              "end": 26,
+              "text": "maybe self-improvement just isn't for"
+            },
+            {
+              "id": "c0007",
+              "start": 26,
+              "end": 29,
+              "text": "you listen unicorns no one wants to eat"
+            },
+            {
+              "id": "c0008",
+              "start": 29,
+              "end": 32,
+              "text": "broccoli except me you just have to do"
+            },
+            {
+              "id": "c0009",
+              "start": 32,
+              "end": 35,
+              "text": "it but why do I have to because she"
+            },
+            {
+              "id": "c0010",
+              "start": 35,
+              "end": 37,
+              "text": "wants to marry mum and she loves"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 24,
+              "end": 26,
+              "text": "Maybe self-improvement just isn't for you."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 24,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 26,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 29,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 32,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 35,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0003",
+          "quote": "Maybe self-improvement just isn't for you. you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+          "start": 24,
+          "end": 37,
+          "matchStart": 111,
+          "matchEnd": 118
+        },
+        {
+          "expressionId": "listen",
+          "cueId": "c0003",
+          "quote": "Maybe self-improvement just isn't for you. you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+          "start": 24,
+          "end": 37,
+          "matchStart": 47,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "Maybe self-improvement just isn't for you. you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+          "start": 24,
+          "end": 37,
+          "matchStart": 63,
+          "matchEnd": 65
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0003",
+          "quote": "Maybe self-improvement just isn't for you. you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+          "start": 24,
+          "end": 37,
+          "matchStart": 129,
+          "matchEnd": 132
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0003",
+          "quote": "Maybe self-improvement just isn't for you. you listen unicorns no one wants to eat broccoli except me you just have to do it but why do I have to because she wants to marry mum and she loves",
+          "start": 24,
+          "end": 37,
+          "matchStart": 173,
+          "matchEnd": 176
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 37,
+      "end": 40,
+      "sentenceText": "broccoli eaters okay let's do this",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 37,
+          "end": 40,
+          "text": "broccoli eaters okay let's do this",
+          "originalText": "broccoli eaters okay let's do this",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 37,
+              "end": 38,
+              "text": "broccoli eaters"
+            },
+            {
+              "id": "c0012",
+              "start": 38,
+              "end": 40,
+              "text": "okay let's do this"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 37,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 38,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "broccoli eaters okay let's do this",
+          "start": 37,
+          "end": 40,
+          "matchStart": 16,
+          "matchEnd": 20
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0004",
+          "quote": "broccoli eaters okay let's do this",
+          "start": 37,
+          "end": 40,
+          "matchStart": 21,
+          "matchEnd": 26
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 52,
+      "end": 66,
+      "sentenceText": "You're ready? Go and talk to Mum, okay? okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 52,
+          "end": 66,
+          "text": "You're ready? Go and talk to Mum, okay? okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+          "originalText": "okay you're ready go and talk to Mom okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 52,
+              "end": 55,
+              "text": "okay you're ready go and talk to Mom"
+            },
+            {
+              "id": "c0014",
+              "start": 55,
+              "end": 58,
+              "text": "okay a quick tip for the ride whoa whoa"
+            },
+            {
+              "id": "c0015",
+              "start": 58,
+              "end": 60,
+              "text": "you cannot either take in front of Mom"
+            },
+            {
+              "id": "c0016",
+              "start": 60,
+              "end": 63,
+              "text": "you got that okay yep got it you got"
+            },
+            {
+              "id": "c0017",
+              "start": 63,
+              "end": 66,
+              "text": "that Dad what's it got to do with me"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 52,
+              "end": 55,
+              "text": "You're ready? Go and talk to Mum, okay?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 52,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 60,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0005",
+          "quote": "You're ready? Go and talk to Mum, okay? okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+          "start": 52,
+          "end": 66,
+          "matchStart": 7,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0005",
+          "quote": "You're ready? Go and talk to Mum, okay? okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+          "start": 52,
+          "end": 66,
+          "matchStart": 29,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "You're ready? Go and talk to Mum, okay? okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+          "start": 52,
+          "end": 66,
+          "matchStart": 34,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0005",
+          "quote": "You're ready? Go and talk to Mum, okay? okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+          "start": 52,
+          "end": 66,
+          "matchStart": 161,
+          "matchEnd": 164
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "You're ready? Go and talk to Mum, okay? okay a quick tip for the ride whoa whoa you cannot either take in front of Mom you got that okay yep got it you got that Dad what's it got to do with me",
+          "start": 52,
+          "end": 66,
+          "matchStart": 165,
+          "matchEnd": 169
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 66,
+      "end": 74,
+      "sentenceText": "Yeah, what's it got to do with him? I didn't mean to scare you. That's okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 66,
+          "end": 74,
+          "text": "Yeah, what's it got to do with him? I didn't mean to scare you. That's okay.",
+          "originalText": "yeah what's it got to do with him I didn't mean to scare you that's okay",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 66,
+              "end": 70,
+              "text": "yeah what's it got to do with him"
+            },
+            {
+              "id": "c0019",
+              "start": 71,
+              "end": 74,
+              "text": "I didn't mean to scare you that's okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 70,
+              "text": "Yeah, what's it got to do with him?"
+            },
+            {
+              "id": "c0020",
+              "start": 71,
+              "end": 73,
+              "text": "I didn't mean to scare you."
+            },
+            {
+              "id": "c0021",
+              "start": 73,
+              "end": 74,
+              "text": "That's okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 66,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 71,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "Yeah, what's it got to do with him? I didn't mean to scare you. That's okay.",
+          "start": 66,
+          "end": 74,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0006",
+          "quote": "Yeah, what's it got to do with him? I didn't mean to scare you. That's okay.",
+          "start": 66,
+          "end": 74,
+          "matchStart": 71,
+          "matchEnd": 75
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 74,
+      "end": 89,
+      "sentenceText": "I've just stepped out of the shower brushed my teeth and I'm wondering would you like to join me for some broccoli broccoli I mean broccoli well I must say you really have cleaned yourself up and",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 74,
+          "end": 89,
+          "text": "I've just stepped out of the shower brushed my teeth and I'm wondering would you like to join me for some broccoli broccoli I mean broccoli well I must say you really have cleaned yourself up and",
+          "originalText": "I've just stepped out of the shower and brushed my teeth and I'm wondering would you like to join me for some broccoli broccoli I mean broccoli well I must say you really have cleaned yourself up and",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 74,
+              "end": 77,
+              "text": "I've just stepped out of the shower and"
+            },
+            {
+              "id": "c0021",
+              "start": 77,
+              "end": 79,
+              "text": "brushed my teeth and I'm wondering would"
+            },
+            {
+              "id": "c0022",
+              "start": 79,
+              "end": 81,
+              "text": "you like to join me for some broccoli"
+            },
+            {
+              "id": "c0023",
+              "start": 81,
+              "end": 86,
+              "text": "broccoli I mean broccoli well I must say"
+            },
+            {
+              "id": "c0024",
+              "start": 86,
+              "end": 89,
+              "text": "you really have cleaned yourself up and"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 74,
+              "end": 77,
+              "text": "I've just stepped out of the shower"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 74,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 77,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 79,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 81,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 86,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0007",
+          "quote": "I've just stepped out of the shower brushed my teeth and I'm wondering would you like to join me for some broccoli broccoli I mean broccoli well I must say you really have cleaned yourself up and",
+          "start": 74,
+          "end": 89,
+          "matchStart": 81,
+          "matchEnd": 85
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 89,
+      "end": 102,
+      "sentenceText": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 89,
+          "end": 102,
+          "text": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "originalText": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah well that could have gone a bit better",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 89,
+              "end": 92,
+              "text": "I love your little bow tie okay yes I'd"
+            },
+            {
+              "id": "c0026",
+              "start": 92,
+              "end": 97,
+              "text": "like oh my gosh yeah yeah wait no come"
+            },
+            {
+              "id": "c0027",
+              "start": 97,
+              "end": 99,
+              "text": "back yeah"
+            },
+            {
+              "id": "c0028",
+              "start": 99,
+              "end": 102,
+              "text": "well that could have gone a bit better"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 99,
+              "end": 102,
+              "text": "Well, that could have gone a bit better, Dad."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 89,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 92,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 97,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 99,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "love",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 2,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 12,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 27,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 32,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 40,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 66,
+          "matchEnd": 70
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 71,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0008",
+          "quote": "I love your little bow tie okay yes I'd like oh my gosh yeah yeah wait no come back yeah Well, that could have gone a bit better, Dad.",
+          "start": 89,
+          "end": 102,
+          "matchStart": 130,
+          "matchEnd": 133
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 102,
+      "end": 113,
+      "sentenceText": "Dad, I'm sorry, kids, I couldn't help it. it's not your fault unicorn yeah it's his me him I don't understand I'm the one who ate the tick and of course",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 102,
+          "end": 113,
+          "text": "Dad, I'm sorry, kids, I couldn't help it. it's not your fault unicorn yeah it's his me him I don't understand I'm the one who ate the tick and of course",
+          "originalText": "Dad I'm sorry kids I couldn't help it it's not your fault unicorn yeah it's his me him I don't understand I'm the one who ate the tick and of course",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 102,
+              "end": 105,
+              "text": "Dad I'm sorry kids I couldn't help it"
+            },
+            {
+              "id": "c0030",
+              "start": 105,
+              "end": 108,
+              "text": "it's not your fault unicorn yeah it's"
+            },
+            {
+              "id": "c0031",
+              "start": 108,
+              "end": 112,
+              "text": "his me him I don't understand I'm the"
+            },
+            {
+              "id": "c0032",
+              "start": 112,
+              "end": 113,
+              "text": "one who ate the tick and of course"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0032",
+              "start": 102,
+              "end": 105,
+              "text": "Dad, I'm sorry, kids, I couldn't help it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 102,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 108,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 112,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0009",
+          "quote": "Dad, I'm sorry, kids, I couldn't help it. it's not your fault unicorn yeah it's his me him I don't understand I'm the one who ate the tick and of course",
+          "start": 102,
+          "end": 113,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0009",
+          "quote": "Dad, I'm sorry, kids, I couldn't help it. it's not your fault unicorn yeah it's his me him I don't understand I'm the one who ate the tick and of course",
+          "start": 102,
+          "end": 113,
+          "matchStart": 9,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0009",
+          "quote": "Dad, I'm sorry, kids, I couldn't help it. it's not your fault unicorn yeah it's his me him I don't understand I'm the one who ate the tick and of course",
+          "start": 102,
+          "end": 113,
+          "matchStart": 33,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "Dad, I'm sorry, kids, I couldn't help it. it's not your fault unicorn yeah it's his me him I don't understand I'm the one who ate the tick and of course",
+          "start": 102,
+          "end": 113,
+          "matchStart": 93,
+          "matchEnd": 98
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 113,
+      "end": 123,
+      "sentenceText": "and of course, you're a puppet, he controls you. That's a good one.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 113,
+          "end": 123,
+          "text": "and of course, you're a puppet, he controls you. That's a good one.",
+          "originalText": "you're a puppet he controls you that's a good one",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 113,
+              "end": 118,
+              "text": "you're a puppet he controls you"
+            },
+            {
+              "id": "c0034",
+              "start": 119,
+              "end": 123,
+              "text": "that's a good one"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 113,
+              "end": 118,
+              "text": "and of course, you're a puppet, he controls you."
+            },
+            {
+              "id": "c0037",
+              "start": 119,
+              "end": 123,
+              "text": "That's a good one."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 113,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 119,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0010",
+          "quote": "and of course, you're a puppet, he controls you. That's a good one.",
+          "start": 113,
+          "end": 123,
+          "matchStart": 58,
+          "matchEnd": 62
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1258 @@
+{
+  "id": "video-47",
+  "number": 47,
+  "title": "Ragdoll Mode | Ragdoll - Series 3",
+  "duration": 121,
+  "declaredDuration": 121,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=ps2MOFurJC0",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/47_Ragdoll Mode.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/47_Ragdoll Mode.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Ragdoll Mode | Ragdoll - Series 3",
+      "start": 8,
+      "end": 119,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 8,
+      "end": 13,
+      "sentenceText": "This is easy!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 8,
+          "end": 13,
+          "text": "This is easy!",
+          "originalText": "this is easy",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 13,
+              "text": "this is easy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 13,
+              "text": "This is easy!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 13,
+      "end": 18,
+      "sentenceText": "Let's skateboard him down the stairs! What?! No, do not skateboard me down those stairs.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 13,
+          "end": 18,
+          "text": "Let's skateboard him down the stairs! What?! No, do not skateboard me down those stairs.",
+          "originalText": "let's skateboard him down the stairs what no do not skateboard me down those",
+          "originalCueRefs": [
+            {
+              "id": "c0002",
+              "start": 13,
+              "end": 16,
+              "text": "let's skateboard him down the stairs"
+            },
+            {
+              "id": "c0003",
+              "start": 16,
+              "end": 18,
+              "text": "what no do not skateboard me down those"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0002",
+              "start": 13,
+              "end": 16,
+              "text": "Let's skateboard him down the stairs!"
+            },
+            {
+              "id": "c0003",
+              "start": 16,
+              "end": 18,
+              "text": "What?! No, do not skateboard me down those stairs."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0002",
+              "start": 13,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 16,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets",
+          "cueId": "c0002",
+          "quote": "Let's skateboard him down the stairs! What?! No, do not skateboard me down those stairs.",
+          "start": 13,
+          "end": 18,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Let's skateboard him down the stairs! What?! No, do not skateboard me down those stairs.",
+          "start": 13,
+          "end": 18,
+          "matchStart": 38,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0002",
+          "quote": "Let's skateboard him down the stairs! What?! No, do not skateboard me down those stairs.",
+          "start": 13,
+          "end": 18,
+          "matchStart": 45,
+          "matchEnd": 47
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 18,
+      "end": 29,
+      "sentenceText": "stairs okay fine where the bullfrog jumps oh my goodness morning Wendy What's going on? Are you okay? He stole our monies!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 29,
+          "text": "stairs okay fine where the bullfrog jumps oh my goodness morning Wendy What's going on? Are you okay? He stole our monies!",
+          "originalText": "stairs okay fine where the bullfrog jumps oh my goodness morning Wendy what's going on are you okay hey solo",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 22,
+              "text": "stairs okay fine where the bullfrog"
+            },
+            {
+              "id": "c0005",
+              "start": 22,
+              "end": 25,
+              "text": "jumps oh my goodness morning Wendy"
+            },
+            {
+              "id": "c0006",
+              "start": 25,
+              "end": 29,
+              "text": "what's going on are you okay hey solo"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 28,
+              "text": "What's going on? Are you okay?"
+            },
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 29,
+              "text": "He stole our monies!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 22,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 25,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "stairs okay fine where the bullfrog jumps oh my goodness morning Wendy What's going on? Are you okay? He stole our monies!",
+          "start": 18,
+          "end": 29,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0003",
+          "quote": "stairs okay fine where the bullfrog jumps oh my goodness morning Wendy What's going on? Are you okay? He stole our monies!",
+          "start": 18,
+          "end": 29,
+          "matchStart": 17,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "stairs okay fine where the bullfrog jumps oh my goodness morning Wendy What's going on? Are you okay? He stole our monies!",
+          "start": 18,
+          "end": 29,
+          "matchStart": 71,
+          "matchEnd": 75
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 29,
+      "end": 39,
+      "sentenceText": "monies what Ah that's putting a bit of a slant on it he said he'll only give it back if we go Is that right? Just keep walking, Wendy.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 29,
+          "end": 39,
+          "text": "monies what Ah that's putting a bit of a slant on it he said he'll only give it back if we go Is that right? Just keep walking, Wendy.",
+          "originalText": "monies what Ah that's putting a bit of a slant on it he said he'll only give it back if we go is that right just keep walking Wendy",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 29,
+              "end": 31,
+              "text": "monies what Ah that's putting a bit of a"
+            },
+            {
+              "id": "c0008",
+              "start": 31,
+              "end": 34,
+              "text": "slant on it he said he'll only give it"
+            },
+            {
+              "id": "c0009",
+              "start": 34,
+              "end": 36,
+              "text": "back if we go"
+            },
+            {
+              "id": "c0010",
+              "start": 36,
+              "end": 39,
+              "text": "is that right just keep walking Wendy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 37,
+              "text": "Is that right?"
+            },
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 39,
+              "text": "Just keep walking, Wendy."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 29,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 34,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 36,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "monies what Ah that's putting a bit of a slant on it he said he'll only give it back if we go Is that right? Just keep walking, Wendy.",
+          "start": 29,
+          "end": 39,
+          "matchStart": 7,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 39,
+      "end": 49,
+      "sentenceText": "This doesn't concern you. It does now. Come on, girls. Hey, Wendy, watch the hands. Bossing around young children!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 39,
+          "end": 49,
+          "text": "This doesn't concern you. It does now. Come on, girls. Hey, Wendy, watch the hands. Bossing around young children!",
+          "originalText": "this doesn't concern you it does now come on girls hey Wendy watch the hands around young children",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 39,
+              "end": 42,
+              "text": "this doesn't concern you it does now"
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 46,
+              "text": "come on girls hey Wendy watch the hands"
+            },
+            {
+              "id": "c0013",
+              "start": 46,
+              "end": 49,
+              "text": "around young children"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 39,
+              "end": 41,
+              "text": "This doesn't concern you."
+            },
+            {
+              "id": "c0016",
+              "start": 41,
+              "end": 42,
+              "text": "It does now."
+            },
+            {
+              "id": "c0017",
+              "start": 42,
+              "end": 43,
+              "text": "Come on, girls."
+            },
+            {
+              "id": "c0018",
+              "start": 43,
+              "end": 46,
+              "text": "Hey, Wendy, watch the hands."
+            },
+            {
+              "id": "c0019",
+              "start": 46,
+              "end": 49,
+              "text": "Bossing around young children!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 39,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 46,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0005",
+          "quote": "This doesn't concern you. It does now. Come on, girls. Hey, Wendy, watch the hands. Bossing around young children!",
+          "start": 39,
+          "end": 49,
+          "matchStart": 39,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 53,
+      "end": 58,
+      "sentenceText": "We'll never lift him into the car seat! He's too heavy! Ah, well, what are you gonna do? Get the door, girls.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 53,
+          "end": 58,
+          "text": "We'll never lift him into the car seat! He's too heavy! Ah, well, what are you gonna do? Get the door, girls.",
+          "originalText": "into the car seat he's too heavy oh well what you gonna do get the door girls",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 53,
+              "end": 56,
+              "text": "into the car seat he's too heavy oh well"
+            },
+            {
+              "id": "c0015",
+              "start": 56,
+              "end": 58,
+              "text": "what you gonna do get the door girls"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 55,
+              "text": "We'll never lift him into the car seat! He's too heavy!"
+            },
+            {
+              "id": "c0021",
+              "start": 55,
+              "end": 56,
+              "text": "Ah, well, what are you gonna do?"
+            },
+            {
+              "id": "c0022",
+              "start": 56,
+              "end": 58,
+              "text": "Get the door, girls."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "We'll never lift him into the car seat! He's too heavy! Ah, well, what are you gonna do? Get the door, girls.",
+          "start": 53,
+          "end": 58,
+          "matchStart": 66,
+          "matchEnd": 70
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 58,
+      "end": 70,
+      "sentenceText": "I'll show you what 10 years of Pilates can do hey Wendy what are you doing pay attention girls ready Engage The Core Straight back. Ready, Wendy? And...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 58,
+          "end": 70,
+          "text": "I'll show you what 10 years of Pilates can do hey Wendy what are you doing pay attention girls ready Engage The Core Straight back. Ready, Wendy? And...",
+          "originalText": "I'll show you what 10 years of Pilates can do hey Wendy what are you doing pay attention girls ready Engage The Core straight back ready Wendy and",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 58,
+              "end": 60,
+              "text": "I'll show you what 10 years of Pilates"
+            },
+            {
+              "id": "c0017",
+              "start": 60,
+              "end": 64,
+              "text": "can do hey Wendy what are you doing pay"
+            },
+            {
+              "id": "c0018",
+              "start": 64,
+              "end": 66,
+              "text": "attention girls ready Engage The Core"
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 70,
+              "text": "straight back ready Wendy and"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 66,
+              "end": 70,
+              "text": "Straight back. Ready, Wendy? And..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 60,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 64,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "I'll show you what 10 years of Pilates can do hey Wendy what are you doing pay attention girls ready Engage The Core Straight back. Ready, Wendy? And...",
+          "start": 58,
+          "end": 70,
+          "matchStart": 14,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0007",
+          "quote": "I'll show you what 10 years of Pilates can do hey Wendy what are you doing pay attention girls ready Engage The Core Straight back. Ready, Wendy? And...",
+          "start": 58,
+          "end": 70,
+          "matchStart": 95,
+          "matchEnd": 100
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 70,
+      "end": 84,
+      "sentenceText": "Look at those quads! promise me you'll work hard to maintain a strong call girls don't get lazy yes Wendy we won't oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 70,
+          "end": 84,
+          "text": "Look at those quads! promise me you'll work hard to maintain a strong call girls don't get lazy yes Wendy we won't oh",
+          "originalText": "look at those quads promise me you'll work hard to maintain a strong call girls don't get lazy yes Wendy we won't oh",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 70,
+              "end": 73,
+              "text": "look at those quads"
+            },
+            {
+              "id": "c0021",
+              "start": 73,
+              "end": 76,
+              "text": "promise me you'll work hard to maintain"
+            },
+            {
+              "id": "c0022",
+              "start": 76,
+              "end": 80,
+              "text": "a strong call girls don't get lazy yes"
+            },
+            {
+              "id": "c0023",
+              "start": 80,
+              "end": 82,
+              "text": "Wendy we won't"
+            },
+            {
+              "id": "c0024",
+              "start": 82,
+              "end": 84,
+              "text": "oh"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0027",
+              "start": 70,
+              "end": 73,
+              "text": "Look at those quads!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 73,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 80,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 82,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0008",
+          "quote": "Look at those quads! promise me you'll work hard to maintain a strong call girls don't get lazy yes Wendy we won't oh",
+          "start": 70,
+          "end": 84,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0008",
+          "quote": "Look at those quads! promise me you'll work hard to maintain a strong call girls don't get lazy yes Wendy we won't oh",
+          "start": 70,
+          "end": 84,
+          "matchStart": 96,
+          "matchEnd": 99
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0008",
+          "quote": "Look at those quads! promise me you'll work hard to maintain a strong call girls don't get lazy yes Wendy we won't oh",
+          "start": 70,
+          "end": 84,
+          "matchStart": 81,
+          "matchEnd": 86
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 84,
+      "end": 97,
+      "sentenceText": "yeah now we can have ice cream I'm not sure I should be driving in this condition what we don't get ice cream not unless",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 84,
+          "end": 97,
+          "text": "yeah now we can have ice cream I'm not sure I should be driving in this condition what we don't get ice cream not unless",
+          "originalText": "yeah now we can have ice cream I'm not sure I should be driving in this condition what we don't get ice cream not unless",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 84,
+              "end": 89,
+              "text": "yeah now we can have ice cream"
+            },
+            {
+              "id": "c0026",
+              "start": 90,
+              "end": 92,
+              "text": "I'm not sure I should be driving in this"
+            },
+            {
+              "id": "c0027",
+              "start": 92,
+              "end": 94,
+              "text": "condition"
+            },
+            {
+              "id": "c0028",
+              "start": 94,
+              "end": 97,
+              "text": "what we don't get ice cream not unless"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 84,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0009",
+          "quote": "yeah now we can have ice cream I'm not sure I should be driving in this condition what we don't get ice cream not unless",
+          "start": 84,
+          "end": 97,
+          "matchStart": 39,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "yeah now we can have ice cream I'm not sure I should be driving in this condition what we don't get ice cream not unless",
+          "start": 84,
+          "end": 97,
+          "matchStart": 82,
+          "matchEnd": 86
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "yeah now we can have ice cream I'm not sure I should be driving in this condition what we don't get ice cream not unless",
+          "start": 84,
+          "end": 97,
+          "matchStart": 90,
+          "matchEnd": 95
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 97,
+      "end": 108,
+      "sentenceText": "you can drive drop yourself in kids I'll drive you to the shops",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 97,
+          "end": 108,
+          "text": "you can drive drop yourself in kids I'll drive you to the shops",
+          "originalText": "you can drive drop yourself in kids I'll drive you to the shops",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 97,
+              "end": 100,
+              "text": "you can drive drop yourself in kids I'll"
+            },
+            {
+              "id": "c0030",
+              "start": 100,
+              "end": 108,
+              "text": "drive you to the shops"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 97,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 100,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 110,
+      "end": 119,
+      "sentenceText": "Here you go, my darlings. Thanks, Wendy! Wendy I paid for him oh yes here's your change",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 110,
+          "end": 119,
+          "text": "Here you go, my darlings. Thanks, Wendy! Wendy I paid for him oh yes here's your change",
+          "originalText": "here you go my darlings Wendy thanks Wendy I paid for him oh yes here's your change",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 110,
+              "end": 114,
+              "text": "here you go my darlings Wendy thanks"
+            },
+            {
+              "id": "c0032",
+              "start": 114,
+              "end": 117,
+              "text": "Wendy I paid for him oh yes here's your"
+            },
+            {
+              "id": "c0033",
+              "start": 117,
+              "end": 119,
+              "text": "change"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 110,
+              "end": 112,
+              "text": "Here you go, my darlings."
+            },
+            {
+              "id": "c0037",
+              "start": 112,
+              "end": 114,
+              "text": "Thanks, Wendy!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 110,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 114,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 117,
+              "end": 119,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "here-you-go",
+          "cueId": "c0011",
+          "quote": "Here you go, my darlings. Thanks, Wendy! Wendy I paid for him oh yes here's your change",
+          "start": 110,
+          "end": 119,
+          "matchStart": 0,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0011",
+          "quote": "Here you go, my darlings. Thanks, Wendy! Wendy I paid for him oh yes here's your change",
+          "start": 110,
+          "end": 119,
+          "matchStart": 65,
+          "matchEnd": 68
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

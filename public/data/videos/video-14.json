@@ -1,0 +1,1435 @@
+{
+  "id": "video-14",
+  "number": 14,
+  "title": "Adult Bluey Visits Home 👀💙 | BRAND NEW CLIP - Surprise 🎾 | Bluey",
+  "duration": 126,
+  "declaredDuration": 126,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=0uxmFpGFKyY",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/14_Adult Bluey Visits Home.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/14_Adult Bluey Visits Home.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Adult Bluey Visits Home 👀💙 | BRAND NEW CLIP - Surprise 🎾 | Bluey",
+      "start": 0,
+      "end": 126,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 7,
+      "sentenceText": "There you go for Lucan. Uh, can the hospital be in the TV room? No, it's under the tree.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 7,
+          "text": "There you go for Lucan. Uh, can the hospital be in the TV room? No, it's under the tree.",
+          "originalText": "There you go for Lucan. Uh, can the hospital be in the TV room? No, it's under the tree.",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "There you go for Lucan. Uh, can the"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "text": "hospital be in the TV room? No, it's"
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "text": "under the tree."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0001",
+          "quote": "There you go for Lucan. Uh, can the hospital be in the TV room? No, it's under the tree.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 64,
+          "matchEnd": 66
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 7,
+      "end": 13,
+      "sentenceText": "Okay, here you go. Now, I'll be right here, little mate.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 7,
+          "end": 13,
+          "text": "Okay, here you go. Now, I'll be right here, little mate.",
+          "originalText": "Okay. Here you go. Now, I'll be right here, little mate.",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 10,
+              "text": "Okay. Here you go."
+            },
+            {
+              "id": "c0005",
+              "start": 10,
+              "end": 13,
+              "text": "Now, I'll be right here, little mate."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 10,
+              "text": "Okay, here you go."
+            },
+            {
+              "id": "c0005",
+              "start": 10,
+              "end": 13,
+              "text": "Now, I'll be right here, little mate."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 10,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "here-you-go",
+          "cueId": "c0002",
+          "quote": "Okay, here you go. Now, I'll be right here, little mate.",
+          "start": 7,
+          "end": 13,
+          "matchStart": 6,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "Okay, here you go. Now, I'll be right here, little mate.",
+          "start": 7,
+          "end": 13,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0002",
+          "quote": "Okay, here you go. Now, I'll be right here, little mate.",
+          "start": 7,
+          "end": 13,
+          "matchStart": 44,
+          "matchEnd": 50
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 13,
+      "end": 28,
+      "sentenceText": "You have to talk to him. Uh, yep, we'll do. do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, It's just you got something going on with your head and your body.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 13,
+          "end": 28,
+          "text": "You have to talk to him. Uh, yep, we'll do. do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, It's just you got something going on with your head and your body.",
+          "originalText": "You have to talk to him. Uh, yep. We'll do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, mate. It's just you got something going on with your head and your body. It's",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 16,
+              "text": "You have to talk to him. Uh, yep. We'll"
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 19,
+              "text": "do. Um, oh, look. You've got your very"
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 22,
+              "text": "own bed. How good's that? Oh, sorry,"
+            },
+            {
+              "id": "c0009",
+              "start": 22,
+              "end": 25,
+              "text": "mate. It's just you got something going"
+            },
+            {
+              "id": "c0010",
+              "start": 25,
+              "end": 28,
+              "text": "on with your head and your body. It's"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 15,
+              "text": "You have to talk to him."
+            },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 16,
+              "text": "Uh, yep, we'll do."
+            },
+            {
+              "id": "c0012",
+              "start": 22,
+              "end": 25,
+              "text": "It's just you got something going on"
+            },
+            {
+              "id": "c0013",
+              "start": 25,
+              "end": 28,
+              "text": "with your head and your body."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 22,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0003",
+          "quote": "You have to talk to him. Uh, yep, we'll do. do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, It's just you got something going on with your head and your body.",
+          "start": 13,
+          "end": 28,
+          "matchStart": 4,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0003",
+          "quote": "You have to talk to him. Uh, yep, we'll do. do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, It's just you got something going on with your head and your body.",
+          "start": 13,
+          "end": 28,
+          "matchStart": 56,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0003",
+          "quote": "You have to talk to him. Uh, yep, we'll do. do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, It's just you got something going on with your head and your body.",
+          "start": 13,
+          "end": 28,
+          "matchStart": 92,
+          "matchEnd": 95
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0003",
+          "quote": "You have to talk to him. Uh, yep, we'll do. do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, It's just you got something going on with your head and your body.",
+          "start": 13,
+          "end": 28,
+          "matchStart": 96,
+          "matchEnd": 100
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0003",
+          "quote": "You have to talk to him. Uh, yep, we'll do. do. Um, oh, look. You've got your very own bed. How good's that? Oh, sorry, It's just you got something going on with your head and your body.",
+          "start": 13,
+          "end": 28,
+          "matchStart": 113,
+          "matchEnd": 118
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 28,
+      "end": 33,
+      "sentenceText": "It's basically your head and your body. But don't worry, this won't hold you back.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 28,
+          "end": 33,
+          "text": "It's basically your head and your body. But don't worry, this won't hold you back.",
+          "originalText": "basically your head and your body. But don't worry, this won't hold you back.",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 30,
+              "text": "basically your head and your body. But"
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "text": "don't worry, this won't hold you back."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 28,
+              "end": 30,
+              "text": "It's basically your head and your body."
+            },
+            {
+              "id": "c0015",
+              "start": 30,
+              "end": 33,
+              "text": "But don't worry, this won't hold you back."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dont",
+          "cueId": "c0004",
+          "quote": "It's basically your head and your body. But don't worry, this won't hold you back.",
+          "start": 28,
+          "end": 33,
+          "matchStart": 44,
+          "matchEnd": 49
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 33,
+      "end": 46,
+      "sentenceText": "You know why? You've got a whole bunch of brothers and sisters who've got your back. And your mum and I are behind you all the way. Cuz we're a family and you mean the world to us. Um, hey Bingo.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 33,
+          "end": 46,
+          "text": "You know why? You've got a whole bunch of brothers and sisters who've got your back. And your mum and I are behind you all the way. Cuz we're a family and you mean the world to us. Um, hey Bingo.",
+          "originalText": "You know why? You've got a whole bunch of brothers and sisters who've got your back. And your mum and I are behind you all the way. Cuz we're a family and you mean the world to us. Um, hey Bingo.",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 35,
+              "text": "You know why? You've got a whole bunch"
+            },
+            {
+              "id": "c0014",
+              "start": 35,
+              "end": 37,
+              "text": "of brothers and sisters who've got your"
+            },
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 40,
+              "text": "back. And your mum and I are behind you"
+            },
+            {
+              "id": "c0016",
+              "start": 40,
+              "end": 43,
+              "text": "all the way. Cuz we're a family and you"
+            },
+            {
+              "id": "c0017",
+              "start": 43,
+              "end": 46,
+              "text": "mean the world to us. Um, hey Bingo."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 35,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 40,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0005",
+          "quote": "You know why? You've got a whole bunch of brothers and sisters who've got your back. And your mum and I are behind you all the way. Cuz we're a family and you mean the world to us. Um, hey Bingo.",
+          "start": 33,
+          "end": 46,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0005",
+          "quote": "You know why? You've got a whole bunch of brothers and sisters who've got your back. And your mum and I are behind you all the way. Cuz we're a family and you mean the world to us. Um, hey Bingo.",
+          "start": 33,
+          "end": 46,
+          "matchStart": 9,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0005",
+          "quote": "You know why? You've got a whole bunch of brothers and sisters who've got your back. And your mum and I are behind you all the way. Cuz we're a family and you mean the world to us. Um, hey Bingo.",
+          "start": 33,
+          "end": 46,
+          "matchStart": 94,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "family",
+          "cueId": "c0005",
+          "quote": "You know why? You've got a whole bunch of brothers and sisters who've got your back. And your mum and I are behind you all the way. Cuz we're a family and you mean the world to us. Um, hey Bingo.",
+          "start": 33,
+          "end": 46,
+          "matchStart": 144,
+          "matchEnd": 150
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 46,
+      "end": 56,
+      "sentenceText": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 46,
+          "end": 56,
+          "text": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "originalText": "What's this kid's name? Fukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 46,
+              "end": 50,
+              "text": "What's this kid's name? Fukan."
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 54,
+              "text": "Fenukan. No. It's okay, Dad. I'm"
+            },
+            {
+              "id": "c0020",
+              "start": 54,
+              "end": 56,
+              "text": "Fenukan's sister. I'll look after him."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 46,
+              "end": 49,
+              "text": "What's this kid's name?"
+            },
+            {
+              "id": "c0023",
+              "start": 49,
+              "end": 50,
+              "text": "Fenukan."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 46,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "start": 46,
+          "end": 56,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "start": 46,
+          "end": 56,
+          "matchStart": 42,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0006",
+          "quote": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "start": 46,
+          "end": 56,
+          "matchStart": 51,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0006",
+          "quote": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "start": 46,
+          "end": 56,
+          "matchStart": 57,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "sister",
+          "cueId": "c0006",
+          "quote": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "start": 46,
+          "end": 56,
+          "matchStart": 76,
+          "matchEnd": 82
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0006",
+          "quote": "What's this kid's name? Fenukan. Fenukan. No. It's okay, Dad. I'm Fenukan's sister. I'll look after him.",
+          "start": 46,
+          "end": 56,
+          "matchStart": 89,
+          "matchEnd": 93
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 56,
+      "end": 69,
+      "sentenceText": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 56,
+          "end": 69,
+          "text": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+          "originalText": "You take the others to daycare. Really? You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, Fukin. They're always surprising you.",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 56,
+              "end": 59,
+              "text": "You take the others to daycare. Really?"
+            },
+            {
+              "id": "c0022",
+              "start": 59,
+              "end": 61,
+              "text": "You sure? You don't want to play your"
+            },
+            {
+              "id": "c0023",
+              "start": 61,
+              "end": 65,
+              "text": "game? No, I'm okay."
+            },
+            {
+              "id": "c0024",
+              "start": 65,
+              "end": 67,
+              "text": "That's the thing about kids, Fukin."
+            },
+            {
+              "id": "c0025",
+              "start": 67,
+              "end": 69,
+              "text": "They're always surprising you."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 56,
+              "end": 59,
+              "text": "You take the others to daycare."
+            },
+            {
+              "id": "c0033",
+              "start": 65,
+              "end": 67,
+              "text": "That's the thing about kids,"
+            },
+            {
+              "id": "c0035",
+              "start": 67,
+              "end": 69,
+              "text": "They're always surprising you."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 56,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 59,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 61,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 65,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 67,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+          "start": 56,
+          "end": 69,
+          "matchStart": 36,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+          "start": 56,
+          "end": 69,
+          "matchStart": 52,
+          "matchEnd": 56
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+          "start": 56,
+          "end": 69,
+          "matchStart": 60,
+          "matchEnd": 64
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+          "start": 56,
+          "end": 69,
+          "matchStart": 76,
+          "matchEnd": 78
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+          "start": 56,
+          "end": 69,
+          "matchStart": 84,
+          "matchEnd": 88
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+          "start": 56,
+          "end": 69,
+          "matchStart": 46,
+          "matchEnd": 51
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 88,
+      "end": 93,
+      "sentenceText": "Hi, Mum! Bluey, what a lovely surprise!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 88,
+          "end": 93,
+          "text": "Hi, Mum! Bluey, what a lovely surprise!",
+          "originalText": "Hi, Mom. Louie, what a lovely surprise.",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 88,
+              "end": 93,
+              "text": "Hi, Mom. Louie, what a lovely surprise."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 88,
+              "end": 89,
+              "text": "Hi, Mum!"
+            },
+            {
+              "id": "c0037",
+              "start": 89,
+              "end": 93,
+              "text": "Bluey, what a lovely surprise!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 88,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0008",
+          "quote": "Hi, Mum! Bluey, what a lovely surprise!",
+          "start": 88,
+          "end": 93,
+          "matchStart": 4,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "Hi, Mum! Bluey, what a lovely surprise!",
+          "start": 88,
+          "end": 93,
+          "matchStart": 16,
+          "matchEnd": 20
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 93,
+      "end": 100,
+      "sentenceText": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 93,
+          "end": 100,
+          "text": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
+          "originalText": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit. I",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 93,
+              "end": 96,
+              "text": "Bandit, I just thought I'd pop by. It's"
+            },
+            {
+              "id": "c0028",
+              "start": 96,
+              "end": 100,
+              "text": "so good to see you. Come in, Bandit. I"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 93,
+              "end": 96,
+              "text": "Bandit, I just thought I'd pop by."
+            },
+            {
+              "id": "c0039",
+              "start": 96,
+              "end": 98,
+              "text": "It's so good to see you."
+            },
+            {
+              "id": "c0040",
+              "start": 98,
+              "end": 100,
+              "text": "Come in, Bandit."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 93,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 96,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0009",
+          "quote": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
+          "start": 93,
+          "end": 100,
+          "matchStart": 43,
+          "matchEnd": 47
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0009",
+          "quote": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
+          "start": 93,
+          "end": 100,
+          "matchStart": 51,
+          "matchEnd": 54
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 100,
+      "end": 114,
+      "sentenceText": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 100,
+          "end": 114,
+          "text": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
+          "originalText": "hear you. Hey, Blueie. Hey, Dad. Come on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 100,
+              "end": 103,
+              "text": "hear you. Hey, Blueie. Hey, Dad. Come"
+            },
+            {
+              "id": "c0030",
+              "start": 103,
+              "end": 105,
+              "text": "on. Bingo's out the back. Oh, the house"
+            },
+            {
+              "id": "c0031",
+              "start": 105,
+              "end": 108,
+              "text": "is looking good. Thanks. Can you believe"
+            },
+            {
+              "id": "c0032",
+              "start": 108,
+              "end": 111,
+              "text": "dad almost sold it? Are you ever going"
+            },
+            {
+              "id": "c0033",
+              "start": 111,
+              "end": 114,
+              "text": "to let that go?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 100,
+              "end": 101,
+              "text": "I hear you."
+            },
+            {
+              "id": "c0042",
+              "start": 101,
+              "end": 102,
+              "text": "Hey, Bluey!"
+            },
+            {
+              "id": "c0043",
+              "start": 102,
+              "end": 103,
+              "text": "Hey, Dad."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 100,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 103,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 111,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0010",
+          "quote": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
+          "start": 100,
+          "end": 114,
+          "matchStart": 29,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0010",
+          "quote": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
+          "start": 100,
+          "end": 114,
+          "matchStart": 85,
+          "matchEnd": 89
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 115,
+      "end": 126,
+      "sentenceText": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 115,
+          "end": 126,
+          "text": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
+          "originalText": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 115,
+              "end": 122,
+              "text": "Huh? Hello. Huh? No one. That's"
+            },
+            {
+              "id": "c0035",
+              "start": 122,
+              "end": 126,
+              "text": "weird. Oh, no."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 115,
+              "end": 122,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 122,
+              "end": 126,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "hello",
+          "cueId": "c0011",
+          "quote": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
+          "start": 115,
+          "end": 126,
+          "matchStart": 5,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0011",
+          "quote": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
+          "start": 115,
+          "end": 126,
+          "matchStart": 17,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

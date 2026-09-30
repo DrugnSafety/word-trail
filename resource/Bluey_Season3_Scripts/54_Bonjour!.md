@@ -1,0 +1,49 @@
+# 54. Bonjour! | Pavlova - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=246Ujtt5cx0
+- Length: 02:03
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:04
+
+---
+
+- `[00:00 - 00:01]` Hello, hello.
+- `[00:01 - 00:04]` Would you like to come to my café?
+- `[00:04 - 00:06]` Why, yes, I would.
+- `[00:06 - 00:11]` Please look at our menu and let me know what you want.
+- `[00:11 - 00:11]` Hmm...
+- `[00:11 - 00:13]` Pavlova, please.
+- `[00:13 - 00:17]` Certainly, that will be ready in a jiffy.
+- `[00:17 - 00:20]` Hey! Oh, uh, excuse me.
+- `[00:20 - 00:23]` I think he wants to be the chef.
+- `[00:23 - 00:26]` Uh, no, Dad, we don't need you as chef.
+- `[00:26 - 00:30]` You can go back outside and play the game with the little men.
+- `[00:30 - 00:33]` But what?
+- `[00:33 - 00:34]` Okay, fine,
+- `[00:34 - 00:36]` you can work here.
+- `[00:36 - 00:36]` Super!
+- `[00:36 - 00:40]` I need you to get one piece of pavlova.
+- `[00:40 - 00:45]` Yeah, pavlova! From the fridge.
+- `[00:46 - 00:49]` Pavlova? No,
+- `[00:49 - 00:51]` that's a magnet, in the fridge!
+- `[00:51 - 00:55]` See? Aha! Pavlova! Yes, pavlova. Give to customer.
+- `[00:55 - 01:00]` Bonjour! Bonjour!
+- `[01:00 - 01:02]` Sorry about this, customer, your pavlova
+- `[01:02 - 01:08]` will be right out. Our new chef is just getting it.
+- `[01:08 - 01:11]` Hey, this is pavlova?
+- `[01:11 - 01:13]` Yeah! This isn't pavlova!
+- `[01:13 - 01:18]` Yes, we... edamame beans?
+- `[01:21 - 01:24]` I was pointing there, see?
+- `[01:24 - 01:25]` Pavlova? Ah,
+- `[01:25 - 01:27]` got it? No! Pavlova!
+- `[01:27 - 01:29]` Yes, beans.
+- `[01:29 - 01:32]` Yes, that's beans, but we don't want beans,
+- `[01:32 - 01:36]` we want pavlova! Okay? Sure.
+- `[01:37 - 01:40]` So sorry, customer, he's new.
+- `[01:40 - 01:41]` That's okay.
+- `[01:49 - 01:50]` That's a crumb!
+- `[01:50 - 01:52]` It's so small!
+- `[01:52 - 01:53]` Where is my passport?!
+- `[01:53 - 01:56]` Go back and get a piece
+- `[01:56 - 01:59]` that's this big!
+- `[01:59 - 02:04]` See? This big!

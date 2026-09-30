@@ -1,0 +1,1176 @@
+{
+  "id": "video-39",
+  "number": 39,
+  "title": "Wendy and Judo's Brand New Look!",
+  "duration": 120,
+  "declaredDuration": 120,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=esE91SVXKUE",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/39_Wendy and Judo's Brand New Look!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/39_Wendy and Judo's Brand New Look!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Wendy and Judo's Brand New Look!",
+      "start": 0,
+      "end": 120,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 7,
+      "sentenceText": "Oh, go on. It's important to play and have fun. But what about my long, lovely It takes so long to clean.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 7,
+          "text": "Oh, go on. It's important to play and have fun. But what about my long, lovely It takes so long to clean.",
+          "originalText": "Oh, go on. It's important to play and have fun. But what about my long, lovely coat? It takes so long to clean. Oh,",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "Oh, go on. It's important to play and"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "have fun. But what about my long, lovely"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "coat? It takes so long to clean. Oh,"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 4,
+              "end": 7,
+              "text": "It takes so long to clean."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "play",
+          "cueId": "c0001",
+          "quote": "Oh, go on. It's important to play and have fun. But what about my long, lovely It takes so long to clean.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 29,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "Oh, go on. It's important to play and have fun. But what about my long, lovely It takes so long to clean.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 52,
+          "matchEnd": 56
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 7,
+      "end": 14,
+      "sentenceText": "Oh, yes. I said that, didn't I?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 7,
+          "end": 14,
+          "text": "Oh, yes. I said that, didn't I?",
+          "originalText": "yes. I said that, didn't I?",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 14,
+              "text": "yes. I said that, didn't I?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 7,
+              "end": 8,
+              "text": "Oh, yes."
+            },
+            {
+              "id": "c0006",
+              "start": 8,
+              "end": 14,
+              "text": "I said that, didn't I?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0002",
+          "quote": "Oh, yes. I said that, didn't I?",
+          "start": 7,
+          "end": 14,
+          "matchStart": 4,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 14,
+      "end": 20,
+      "sentenceText": "Oh, fiddlesticks. I'll be right back, sweetheart.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 14,
+          "end": 20,
+          "text": "Oh, fiddlesticks. I'll be right back, sweetheart.",
+          "originalText": "Oh, fiddlesticks. I'll be right back, sweetheart.",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 17,
+              "text": "Oh, fiddlesticks. I'll be right back,"
+            },
+            {
+              "id": "c0006",
+              "start": 17,
+              "end": 20,
+              "text": "sweetheart."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 17,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 27,
+      "end": 35,
+      "sentenceText": "Mom, what are you doing? I'm going short. Dirty clean. Dirty clean.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 27,
+          "end": 35,
+          "text": "Mom, what are you doing? I'm going short. Dirty clean. Dirty clean.",
+          "originalText": "Mom, what are you doing? I'm going short. Dirty clean. Dirty clean.",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 27,
+              "end": 30,
+              "text": "Mom, what are you doing? I'm going"
+            },
+            {
+              "id": "c0008",
+              "start": 30,
+              "end": 35,
+              "text": "short. Dirty clean. Dirty clean."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 27,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 30,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "Mom, what are you doing? I'm going short. Dirty clean. Dirty clean.",
+          "start": 27,
+          "end": 35,
+          "matchStart": 5,
+          "matchEnd": 9
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 35,
+      "end": 40,
+      "sentenceText": "Hey, check it out. Wendy's gone nuts.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 35,
+          "end": 40,
+          "text": "Hey, check it out. Wendy's gone nuts.",
+          "originalText": "Hey, check it out. Wendy's gone nuts.",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 35,
+              "end": 40,
+              "text": "Hey, check it out. Wendy's gone nuts."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 35,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 50,
+      "end": 56,
+      "sentenceText": "Wa! And... finished! What do you think? I love it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 50,
+          "end": 56,
+          "text": "Wa! And... finished! What do you think? I love it.",
+          "originalText": "Wa. And finished. What do you think? I love it.",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 50,
+              "end": 54,
+              "text": "Wa. And finished. What do you think? I"
+            },
+            {
+              "id": "c0011",
+              "start": 54,
+              "end": 56,
+              "text": "love it."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 50,
+              "end": 52,
+              "text": "Wa! And... finished!"
+            },
+            {
+              "id": "c0015",
+              "start": 52,
+              "end": 54,
+              "text": "What do you think?"
+            },
+            {
+              "id": "c0016",
+              "start": 54,
+              "end": 56,
+              "text": "I love it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 50,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "finished",
+          "cueId": "c0006",
+          "quote": "Wa! And... finished! What do you think? I love it.",
+          "start": 50,
+          "end": 56,
+          "matchStart": 11,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "Wa! And... finished! What do you think? I love it.",
+          "start": 50,
+          "end": 56,
+          "matchStart": 21,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0006",
+          "quote": "Wa! And... finished! What do you think? I love it.",
+          "start": 50,
+          "end": 56,
+          "matchStart": 33,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0006",
+          "quote": "Wa! And... finished! What do you think? I love it.",
+          "start": 50,
+          "end": 56,
+          "matchStart": 42,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 56,
+      "end": 65,
+      "sentenceText": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 56,
+          "end": 65,
+          "text": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+          "originalText": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 56,
+              "end": 60,
+              "text": "Feels so lush. Can you do me? Are you"
+            },
+            {
+              "id": "c0013",
+              "start": 60,
+              "end": 65,
+              "text": "sure? Yes, I'm sure. Okay, let's do it."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 56,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 60,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0007",
+          "quote": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 30,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0007",
+          "quote": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 38,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0007",
+          "quote": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 44,
+          "matchEnd": 47
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 59,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0007",
+          "quote": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 65,
+          "matchEnd": 70
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 65,
+      "end": 71,
+      "sentenceText": "Okay, kids, don't scoot. I've got to top dress the lawn now. Okay, Dad.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 65,
+          "end": 71,
+          "text": "Okay, kids, don't scoot. I've got to top dress the lawn now. Okay, Dad.",
+          "originalText": "Okay, kids, don't scoot. I've got to top dress the lawn now. Okay, Dad.",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 65,
+              "end": 67,
+              "text": "Okay, kids, don't scoot. I've got to top"
+            },
+            {
+              "id": "c0015",
+              "start": 67,
+              "end": 71,
+              "text": "dress the lawn now. Okay, Dad."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 65,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 67,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "Okay, kids, don't scoot. I've got to top dress the lawn now. Okay, Dad.",
+          "start": 65,
+          "end": 71,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0008",
+          "quote": "Okay, kids, don't scoot. I've got to top dress the lawn now. Okay, Dad.",
+          "start": 65,
+          "end": 71,
+          "matchStart": 67,
+          "matchEnd": 70
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0008",
+          "quote": "Okay, kids, don't scoot. I've got to top dress the lawn now. Okay, Dad.",
+          "start": 65,
+          "end": 71,
+          "matchStart": 12,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 75,
+      "end": 85,
+      "sentenceText": "Oh, yeah. I'll do it later.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 75,
+          "end": 85,
+          "text": "Oh, yeah. I'll do it later.",
+          "originalText": "Oh, yeah. I'll do it later.",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 75,
+              "end": 79,
+              "text": "Oh,"
+            },
+            {
+              "id": "c0017",
+              "start": 79,
+              "end": 82,
+              "text": "yeah. I'll do it"
+            },
+            {
+              "id": "c0018",
+              "start": 82,
+              "end": 85,
+              "text": "later."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 75,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 79,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 82,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 92,
+      "end": 104,
+      "sentenceText": "Here I come. Woo! Woo! Woohoo!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 92,
+          "end": 104,
+          "text": "Here I come. Woo! Woo! Woohoo!",
+          "originalText": "Here I come. Woo! Woo! Woohoo!",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 92,
+              "end": 94,
+              "text": "Here I"
+            },
+            {
+              "id": "c0020",
+              "start": 94,
+              "end": 96,
+              "text": "come."
+            },
+            {
+              "id": "c0021",
+              "start": 96,
+              "end": 104,
+              "text": "Woo! Woo! Woohoo!"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 96,
+              "end": 104,
+              "text": "Woo! Woo! Woohoo!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 94,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 96,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 104,
+      "end": 110,
+      "sentenceText": "Morning again, Dad. Morning again, Wendy. Woo! I like the new look.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 104,
+          "end": 110,
+          "text": "Morning again, Dad. Morning again, Wendy. Woo! I like the new look.",
+          "originalText": "Morning again, Dand. Morning again, Wendy. Woo! I like the new look. Thanks.",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 104,
+              "end": 107,
+              "text": "Morning again, Dand. Morning again,"
+            },
+            {
+              "id": "c0023",
+              "start": 107,
+              "end": 110,
+              "text": "Wendy. Woo! I like the new look. Thanks."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 104,
+              "end": 106,
+              "text": "Morning again, Dad."
+            },
+            {
+              "id": "c0030",
+              "start": 106,
+              "end": 107,
+              "text": "Morning again, Wendy."
+            },
+            {
+              "id": "c0031",
+              "start": 107,
+              "end": 110,
+              "text": "Woo! I like the new look."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 104,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 107,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0011",
+          "quote": "Morning again, Dad. Morning again, Wendy. Woo! I like the new look.",
+          "start": 104,
+          "end": 110,
+          "matchStart": 8,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0011",
+          "quote": "Morning again, Dad. Morning again, Wendy. Woo! I like the new look.",
+          "start": 104,
+          "end": 110,
+          "matchStart": 15,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0011",
+          "quote": "Morning again, Dad. Morning again, Wendy. Woo! I like the new look.",
+          "start": 104,
+          "end": 110,
+          "matchStart": 49,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0011",
+          "quote": "Morning again, Dad. Morning again, Wendy. Woo! I like the new look.",
+          "start": 104,
+          "end": 110,
+          "matchStart": 62,
+          "matchEnd": 66
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 110,
+      "end": 120,
+      "sentenceText": "What brought that on? Oh, you know, Mum, watch this. Woohoo! It was time for a change.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 110,
+          "end": 120,
+          "text": "What brought that on? Oh, you know, Mum, watch this. Woohoo! It was time for a change.",
+          "originalText": "What brought that on? Oh, you know, mom, watch this. Woohoo! It was time for a change.",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 110,
+              "end": 113,
+              "text": "What brought that on? Oh, you know, mom,"
+            },
+            {
+              "id": "c0025",
+              "start": 113,
+              "end": 117,
+              "text": "watch this. Woohoo! It was time for a"
+            },
+            {
+              "id": "c0026",
+              "start": 117,
+              "end": 120,
+              "text": "change."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 110,
+              "end": 112,
+              "text": "What brought that on?"
+            },
+            {
+              "id": "c0034",
+              "start": 112,
+              "end": 113,
+              "text": "Oh, you know, Mum,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 110,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 113,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 117,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0012",
+          "quote": "What brought that on? Oh, you know, Mum, watch this. Woohoo! It was time for a change.",
+          "start": 110,
+          "end": 120,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0012",
+          "quote": "What brought that on? Oh, you know, Mum, watch this. Woohoo! It was time for a change.",
+          "start": 110,
+          "end": 120,
+          "matchStart": 30,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0012",
+          "quote": "What brought that on? Oh, you know, Mum, watch this. Woohoo! It was time for a change.",
+          "start": 110,
+          "end": 120,
+          "matchStart": 36,
+          "matchEnd": 39
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

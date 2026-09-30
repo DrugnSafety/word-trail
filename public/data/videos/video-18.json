@@ -1,0 +1,927 @@
+{
+  "id": "video-18",
+  "number": 18,
+  "title": "There's a Gold Team! 💛 🏉 💚 | New Season 3 Clip - The Decider | Bluey",
+  "duration": 122,
+  "declaredDuration": 122,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=CVWNu3Drxpw",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/18_There's a Gold Team!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/18_There's a Gold Team!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "There's a Gold Team! 💛 🏉 💚 | New Season 3 Clip - The Decider | Bluey",
+      "start": 8,
+      "end": 122,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 8,
+      "end": 18,
+      "sentenceText": "I'll be purple. No worries, sweetie. Good luck, but not too much. Thanks,",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 8,
+          "end": 18,
+          "text": "I'll be purple. No worries, sweetie. Good luck, but not too much. Thanks,",
+          "originalText": "I'll be purple. No worries, sweetie. Good luck, but not too much. Thanks,",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 10,
+              "text": "I'll be purple."
+            },
+            {
+              "id": "c0002",
+              "start": 10,
+              "end": 12,
+              "text": "No worries,"
+            },
+            {
+              "id": "c0003",
+              "start": 12,
+              "end": 16,
+              "text": "sweetie. Good luck, but not too much."
+            },
+            {
+              "id": "c0004",
+              "start": 16,
+              "end": 18,
+              "text": "Thanks,"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 10,
+              "text": "I'll be purple."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 10,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 12,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 16,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0001",
+          "quote": "I'll be purple. No worries, sweetie. Good luck, but not too much. Thanks,",
+          "start": 8,
+          "end": 18,
+          "matchStart": 16,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0001",
+          "quote": "I'll be purple. No worries, sweetie. Good luck, but not too much. Thanks,",
+          "start": 8,
+          "end": 18,
+          "matchStart": 37,
+          "matchEnd": 41
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 27,
+      "end": 31,
+      "sentenceText": "Mom. Heat. Heat.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 27,
+          "end": 31,
+          "text": "Mom. Heat. Heat.",
+          "originalText": "Mom. Heat. Heat.",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 27,
+              "end": 31,
+              "text": "Mom. Heat. Heat."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 27,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 65,
+      "end": 75,
+      "sentenceText": "Welcome back. And what a game we have ahead of us today. Hey, here we go. Look Look out. Come on. The maroon and gold!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 65,
+          "end": 75,
+          "text": "Welcome back. And what a game we have ahead of us today. Hey, here we go. Look Look out. Come on. The maroon and gold!",
+          "originalText": "Welcome back. And what a game we have ahead of us today. Hey, here we go. Look out. Come on. The grain and gold. Yeah.",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 65,
+              "end": 67,
+              "text": "Welcome back. And what a game we have"
+            },
+            {
+              "id": "c0007",
+              "start": 67,
+              "end": 71,
+              "text": "ahead of us today. Hey, here we go. Look"
+            },
+            {
+              "id": "c0008",
+              "start": 71,
+              "end": 75,
+              "text": "out. Come on. The grain and gold. Yeah."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 71,
+              "end": 72,
+              "text": "Look out."
+            },
+            {
+              "id": "c0010",
+              "start": 72,
+              "end": 73,
+              "text": "Come on."
+            },
+            {
+              "id": "c0011",
+              "start": 73,
+              "end": 75,
+              "text": "The maroon and gold!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 65,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 67,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 71,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0003",
+          "quote": "Welcome back. And what a game we have ahead of us today. Hey, here we go. Look Look out. Come on. The maroon and gold!",
+          "start": 65,
+          "end": 75,
+          "matchStart": 89,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "Welcome back. And what a game we have ahead of us today. Hey, here we go. Look Look out. Come on. The maroon and gold!",
+          "start": 65,
+          "end": 75,
+          "matchStart": 18,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0003",
+          "quote": "Welcome back. And what a game we have ahead of us today. Hey, here we go. Look Look out. Come on. The maroon and gold!",
+          "start": 65,
+          "end": 75,
+          "matchStart": 74,
+          "matchEnd": 78
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 75,
+      "end": 82,
+      "sentenceText": "What's going on? There's a gold team. There's a gold team. What? Let's do this.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 75,
+          "end": 82,
+          "text": "What's going on? There's a gold team. There's a gold team. What? Let's do this.",
+          "originalText": "What's going on? There's a gold team. There's a gold team. What? Let's do this.",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 75,
+              "end": 77,
+              "text": "What's going on? There's a gold team."
+            },
+            {
+              "id": "c0010",
+              "start": 77,
+              "end": 80,
+              "text": "There's a gold team. What? Let's do"
+            },
+            {
+              "id": "c0011",
+              "start": 80,
+              "end": 82,
+              "text": "this."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 75,
+              "end": 76,
+              "text": "What's going on?"
+            },
+            {
+              "id": "c0014",
+              "start": 76,
+              "end": 77,
+              "text": "There's a gold team."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 75,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 77,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 80,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "What's going on? There's a gold team. There's a gold team. What? Let's do this.",
+          "start": 75,
+          "end": 82,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0004",
+          "quote": "What's going on? There's a gold team. There's a gold team. What? Let's do this.",
+          "start": 75,
+          "end": 82,
+          "matchStart": 65,
+          "matchEnd": 70
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 82,
+      "end": 92,
+      "sentenceText": "There's another game of football, and there's a gold team, and Mum and Dad both on it. Really? They're on the same team? Yeah, we're all on it. Yeah.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 82,
+          "end": 92,
+          "text": "There's another game of football, and there's a gold team, and Mum and Dad both on it. Really? They're on the same team? Yeah, we're all on it. Yeah.",
+          "originalText": "There's another game of football and there's a gold team and mom and dad are both on it. Really? They're on the same team? Yeah, we're all on it. Yeah.",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 82,
+              "end": 83,
+              "text": "There's another game of football and"
+            },
+            {
+              "id": "c0013",
+              "start": 83,
+              "end": 85,
+              "text": "there's a gold team and mom and dad are"
+            },
+            {
+              "id": "c0014",
+              "start": 85,
+              "end": 88,
+              "text": "both on it. Really? They're on the same"
+            },
+            {
+              "id": "c0015",
+              "start": 88,
+              "end": 92,
+              "text": "team? Yeah, we're all on it. Yeah."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0018",
+              "start": 82,
+              "end": 83,
+              "text": "There's another game of football,"
+            },
+            {
+              "id": "c0019",
+              "start": 83,
+              "end": 85,
+              "text": "and there's a gold team, and Mum and Dad"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 82,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 83,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 85,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 88,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0005",
+          "quote": "There's another game of football, and there's a gold team, and Mum and Dad both on it. Really? They're on the same team? Yeah, we're all on it. Yeah.",
+          "start": 82,
+          "end": 92,
+          "matchStart": 63,
+          "matchEnd": 66
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0005",
+          "quote": "There's another game of football, and there's a gold team, and Mum and Dad both on it. Really? They're on the same team? Yeah, we're all on it. Yeah.",
+          "start": 82,
+          "end": 92,
+          "matchStart": 71,
+          "matchEnd": 74
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 92,
+      "end": 98,
+      "sentenceText": "Except for your mate McKenzie. You got that? Got it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 92,
+          "end": 98,
+          "text": "Except for your mate McKenzie. You got that? Got it.",
+          "originalText": "Except for your mate McKenzie. You got that? Got it.",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 92,
+              "end": 94,
+              "text": "Except for your mate McKenzie. You got"
+            },
+            {
+              "id": "c0017",
+              "start": 94,
+              "end": 98,
+              "text": "that? Got it."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 94,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 98,
+      "end": 104,
+      "sentenceText": "We're going to vlog you. We're going to vlog you.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 98,
+          "end": 104,
+          "text": "We're going to vlog you. We're going to vlog you.",
+          "originalText": "We're going to vlog you. We're going to vlog you.",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 98,
+              "end": 101,
+              "text": "We're going to vlog you. We're going to"
+            },
+            {
+              "id": "c0019",
+              "start": 101,
+              "end": 104,
+              "text": "vlog you."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 98,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 101,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 104,
+      "end": 115,
+      "sentenceText": "What's going on? Go the Kway! This could be the clincher. They can't stop it. Yes, you can.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 104,
+          "end": 115,
+          "text": "What's going on? Go the Kway! This could be the clincher. They can't stop it. Yes, you can.",
+          "originalText": "What's going on? Go the Kway. This could be the clincher. They can't stop it. Yes, you can.",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 104,
+              "end": 108,
+              "text": "What's going on? Go the Kway."
+            },
+            {
+              "id": "c0021",
+              "start": 108,
+              "end": 111,
+              "text": "This could be the clincher. They can't"
+            },
+            {
+              "id": "c0022",
+              "start": 111,
+              "end": 115,
+              "text": "stop it. Yes, you can."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 104,
+              "end": 106,
+              "text": "What's going on?"
+            },
+            {
+              "id": "c0030",
+              "start": 106,
+              "end": 108,
+              "text": "Go the Kway!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 104,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 111,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "What's going on? Go the Kway! This could be the clincher. They can't stop it. Yes, you can.",
+          "start": 104,
+          "end": 115,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0008",
+          "quote": "What's going on? Go the Kway! This could be the clincher. They can't stop it. Yes, you can.",
+          "start": 104,
+          "end": 115,
+          "matchStart": 69,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0008",
+          "quote": "What's going on? Go the Kway! This could be the clincher. They can't stop it. Yes, you can.",
+          "start": 104,
+          "end": 115,
+          "matchStart": 78,
+          "matchEnd": 81
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 118,
+      "end": 122,
+      "sentenceText": "That's what it's all about.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 118,
+          "end": 122,
+          "text": "That's what it's all about.",
+          "originalText": "That's what it's all about.",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 118,
+              "end": 122,
+              "text": "That's what it's all about."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0034",
+              "start": 118,
+              "end": 122,
+              "text": "That's what it's all about."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 118,
+              "end": 122,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "That's what it's all about.",
+          "start": 118,
+          "end": 122,
+          "matchStart": 7,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

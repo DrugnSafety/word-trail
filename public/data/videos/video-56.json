@@ -1,0 +1,1450 @@
+{
+  "id": "video-56",
+  "number": 56,
+  "title": "Who Fluffied? | Family Meeting - Series 3 | Bluey",
+  "duration": 125,
+  "declaredDuration": 125,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=4rYZFi7a0Ao",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/56_Who Fluffied?.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/56_Who Fluffied?.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Who Fluffied? | Family Meeting - Series 3 | Bluey",
+      "start": 2,
+      "end": 125,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 2,
+      "end": 10,
+      "sentenceText": "is this what you had for breakfast yesterday bake beans on wheat toast yep Bingo, what's the fluffy level on this?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 2,
+          "end": 10,
+          "text": "is this what you had for breakfast yesterday bake beans on wheat toast yep Bingo, what's the fluffy level on this?",
+          "originalText": "is this what you had for breakfast yesterday bake beans on wheat toast yep Bingo what's the fluffy level on",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 2,
+              "end": 3,
+              "text": "is this what you had for breakfast"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 7,
+              "text": "yesterday bake beans on wheat toast yep"
+            },
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 10,
+              "text": "Bingo what's the fluffy level on"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 10,
+              "text": "Bingo, what's the fluffy level on this?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 2,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "is this what you had for breakfast yesterday bake beans on wheat toast yep Bingo, what's the fluffy level on this?",
+          "start": 2,
+          "end": 10,
+          "matchStart": 8,
+          "matchEnd": 12
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 10,
+      "end": 23,
+      "sentenceText": "this hi thank you and then what did you have for lunch Mr heiler ah just some U sauerkraut excuse me sauerkraut finger fluffy",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 10,
+          "end": 23,
+          "text": "this hi thank you and then what did you have for lunch Mr heiler ah just some U sauerkraut excuse me sauerkraut finger fluffy",
+          "originalText": "this hi thank you and then what did you have for lunch Mr heiler ah just some U sauerkraut excuse me sauerkraut finger fluffy",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 10,
+              "end": 14,
+              "text": "this hi thank you and then what did you"
+            },
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 18,
+              "text": "have for lunch Mr heiler ah just some U"
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 22,
+              "text": "sauerkraut excuse me sauerkraut finger"
+            },
+            {
+              "id": "c0007",
+              "start": 22,
+              "end": 23,
+              "text": "fluffy"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 10,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 22,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0002",
+          "quote": "this hi thank you and then what did you have for lunch Mr heiler ah just some U sauerkraut excuse me sauerkraut finger fluffy",
+          "start": 10,
+          "end": 23,
+          "matchStart": 8,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "excuse-me",
+          "cueId": "c0002",
+          "quote": "this hi thank you and then what did you have for lunch Mr heiler ah just some U sauerkraut excuse me sauerkraut finger fluffy",
+          "start": 10,
+          "end": 23,
+          "matchStart": 91,
+          "matchEnd": 100
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "this hi thank you and then what did you have for lunch Mr heiler ah just some U sauerkraut excuse me sauerkraut finger fluffy",
+          "start": 10,
+          "end": 23,
+          "matchStart": 27,
+          "matchEnd": 31
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 23,
+      "end": 29,
+      "sentenceText": "level now we had dinner at Indy's house Yep. Can you tell us what you ate?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 23,
+          "end": 29,
+          "text": "level now we had dinner at Indy's house Yep. Can you tell us what you ate?",
+          "originalText": "level now we had dinner at Indy's house didn't we yep can you tell us what you",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 27,
+              "text": "level now we had dinner at Indy's house"
+            },
+            {
+              "id": "c0009",
+              "start": 27,
+              "end": 29,
+              "text": "didn't we yep can you tell us what you"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 28,
+              "text": "Yep."
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 29,
+              "text": "Can you tell us what you ate?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 27,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "level now we had dinner at Indy's house Yep. Can you tell us what you ate?",
+          "start": 23,
+          "end": 29,
+          "matchStart": 61,
+          "matchEnd": 65
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 29,
+      "end": 42,
+      "sentenceText": "ate eat no I'm not sure I ate much Mr healer okay I had a vegan nut roast oh dear anything else uh nothing comes to mind really nothing from the petrol",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 29,
+          "end": 42,
+          "text": "ate eat no I'm not sure I ate much Mr healer okay I had a vegan nut roast oh dear anything else uh nothing comes to mind really nothing from the petrol",
+          "originalText": "ate eat no I'm not sure I ate much Mr healer okay I had a vegan nut roast oh dear anything else uh nothing comes to mind really nothing from the petrol",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 33,
+              "text": "ate eat no I'm not sure I ate much Mr"
+            },
+            {
+              "id": "c0011",
+              "start": 33,
+              "end": 37,
+              "text": "healer okay I had a vegan nut roast oh"
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 40,
+              "text": "dear anything else uh nothing comes to"
+            },
+            {
+              "id": "c0013",
+              "start": 40,
+              "end": 42,
+              "text": "mind really nothing from the petrol"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 33,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 40,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "ate eat no I'm not sure I ate much Mr healer okay I had a vegan nut roast oh dear anything else uh nothing comes to mind really nothing from the petrol",
+          "start": 29,
+          "end": 42,
+          "matchStart": 8,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0004",
+          "quote": "ate eat no I'm not sure I ate much Mr healer okay I had a vegan nut roast oh dear anything else uh nothing comes to mind really nothing from the petrol",
+          "start": 29,
+          "end": 42,
+          "matchStart": 19,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "ate eat no I'm not sure I ate much Mr healer okay I had a vegan nut roast oh dear anything else uh nothing comes to mind really nothing from the petrol",
+          "start": 29,
+          "end": 42,
+          "matchStart": 45,
+          "matchEnd": 49
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 42,
+      "end": 52,
+      "sentenceText": "station on the way home that might have have come in, though. Oh well, maybe I had a pie. Bandit, well, all I'd had was nut roast.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 42,
+          "end": 52,
+          "text": "station on the way home that might have have come in, though. Oh well, maybe I had a pie. Bandit, well, all I'd had was nut roast.",
+          "originalText": "station on the way home that might have come in this train oh well maybe I had a pie a bandit well all I'd had was nut roast fingo",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 42,
+              "end": 44,
+              "text": "station on the way home that might have"
+            },
+            {
+              "id": "c0015",
+              "start": 44,
+              "end": 46,
+              "text": "come in this"
+            },
+            {
+              "id": "c0016",
+              "start": 46,
+              "end": 50,
+              "text": "train oh well maybe I had a pie a bandit"
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 52,
+              "text": "well all I'd had was nut roast fingo"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 44,
+              "end": 46,
+              "text": "have come in, though."
+            },
+            {
+              "id": "c0021",
+              "start": 46,
+              "end": 49,
+              "text": "Oh well, maybe I had a pie."
+            },
+            {
+              "id": "c0022",
+              "start": 49,
+              "end": 50,
+              "text": "Bandit,"
+            },
+            {
+              "id": "c0023",
+              "start": 50,
+              "end": 52,
+              "text": "well, all I'd had was nut roast."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 42,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 44,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 46,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "home",
+          "cueId": "c0005",
+          "quote": "station on the way home that might have have come in, though. Oh well, maybe I had a pie. Bandit, well, all I'd had was nut roast.",
+          "start": 42,
+          "end": 52,
+          "matchStart": 19,
+          "matchEnd": 23
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 52,
+      "end": 67,
+      "sentenceText": "Bingo, where is the fluffy meter now? now at the top sounds like you were ready to blow my food choices are not on Bingo, on the morning of this morning, did you see Dad fluffy in my face?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 52,
+          "end": 67,
+          "text": "Bingo, where is the fluffy meter now? now at the top sounds like you were ready to blow my food choices are not on Bingo, on the morning of this morning, did you see Dad fluffy in my face?",
+          "originalText": "where is the fluffy Meer now at the top sounds like you were ready to blow my food choices are not on trial Bingo on the morning of this morning did you see Dad fluffy in my",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 52,
+              "end": 55,
+              "text": "where is the fluffy Meer"
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 58,
+              "text": "now at the top sounds like you were"
+            },
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 62,
+              "text": "ready to blow my food choices are not on"
+            },
+            {
+              "id": "c0021",
+              "start": 62,
+              "end": 64,
+              "text": "trial Bingo on the morning of this"
+            },
+            {
+              "id": "c0022",
+              "start": 64,
+              "end": 67,
+              "text": "morning did you see Dad fluffy in my"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 52,
+              "end": 55,
+              "text": "Bingo, where is the fluffy meter now?"
+            },
+            {
+              "id": "c0028",
+              "start": 62,
+              "end": 64,
+              "text": "Bingo, on the morning of this morning,"
+            },
+            {
+              "id": "c0029",
+              "start": 64,
+              "end": 67,
+              "text": "did you see Dad fluffy in my face?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 52,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 62,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 64,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0006",
+          "quote": "Bingo, where is the fluffy meter now? now at the top sounds like you were ready to blow my food choices are not on Bingo, on the morning of this morning, did you see Dad fluffy in my face?",
+          "start": 52,
+          "end": 67,
+          "matchStart": 7,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0006",
+          "quote": "Bingo, where is the fluffy meter now? now at the top sounds like you were ready to blow my food choices are not on Bingo, on the morning of this morning, did you see Dad fluffy in my face?",
+          "start": 52,
+          "end": 67,
+          "matchStart": 60,
+          "matchEnd": 64
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0006",
+          "quote": "Bingo, where is the fluffy meter now? now at the top sounds like you were ready to blow my food choices are not on Bingo, on the morning of this morning, did you see Dad fluffy in my face?",
+          "start": 52,
+          "end": 67,
+          "matchStart": 74,
+          "matchEnd": 79
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0006",
+          "quote": "Bingo, where is the fluffy meter now? now at the top sounds like you were ready to blow my food choices are not on Bingo, on the morning of this morning, did you see Dad fluffy in my face?",
+          "start": 52,
+          "end": 67,
+          "matchStart": 162,
+          "matchEnd": 165
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0006",
+          "quote": "Bingo, where is the fluffy meter now? now at the top sounds like you were ready to blow my food choices are not on Bingo, on the morning of this morning, did you see Dad fluffy in my face?",
+          "start": 52,
+          "end": 67,
+          "matchStart": 166,
+          "matchEnd": 169
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 67,
+      "end": 80,
+      "sentenceText": "face yes I did oh what Bingo you weren't even there yes I was thank you Bingo you can leave here your lollipop hey you're on H bingo are you fibbing to get a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 67,
+          "end": 80,
+          "text": "face yes I did oh what Bingo you weren't even there yes I was thank you Bingo you can leave here your lollipop hey you're on H bingo are you fibbing to get a",
+          "originalText": "face yes I did oh what Bingo you weren't even there yes I was thank you Bingo you can leave here your lollipop hey you're on H bingo are you fibbing to get a",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 67,
+              "end": 70,
+              "text": "face yes I did oh what Bingo you weren't"
+            },
+            {
+              "id": "c0024",
+              "start": 70,
+              "end": 73,
+              "text": "even there yes I was thank you Bingo you"
+            },
+            {
+              "id": "c0025",
+              "start": 73,
+              "end": 77,
+              "text": "can leave here your lollipop hey you're"
+            },
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 80,
+              "text": "on H bingo are you fibbing to get a"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 67,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 73,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0007",
+          "quote": "face yes I did oh what Bingo you weren't even there yes I was thank you Bingo you can leave here your lollipop hey you're on H bingo are you fibbing to get a",
+          "start": 67,
+          "end": 80,
+          "matchStart": 62,
+          "matchEnd": 71
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0007",
+          "quote": "face yes I did oh what Bingo you weren't even there yes I was thank you Bingo you can leave here your lollipop hey you're on H bingo are you fibbing to get a",
+          "start": 67,
+          "end": 80,
+          "matchStart": 5,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "face yes I did oh what Bingo you weren't even there yes I was thank you Bingo you can leave here your lollipop hey you're on H bingo are you fibbing to get a",
+          "start": 67,
+          "end": 80,
+          "matchStart": 18,
+          "matchEnd": 22
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 80,
+      "end": 93,
+      "sentenceText": "Yes! Give me that back. forget that bit Louie that has not helped your case remember the truth will set you free okay",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 80,
+          "end": 93,
+          "text": "Yes! Give me that back. forget that bit Louie that has not helped your case remember the truth will set you free okay",
+          "originalText": "lollipop yes give me that a everyone forget that bit Louie that has not helped your case remember the truth will set you free okay",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 80,
+              "end": 83,
+              "text": "lollipop yes give me that a everyone"
+            },
+            {
+              "id": "c0028",
+              "start": 83,
+              "end": 86,
+              "text": "forget that bit Louie that has not"
+            },
+            {
+              "id": "c0029",
+              "start": 86,
+              "end": 89,
+              "text": "helped your case remember the truth will"
+            },
+            {
+              "id": "c0030",
+              "start": 89,
+              "end": 93,
+              "text": "set you free okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 80,
+              "end": 83,
+              "text": "Yes! Give me that back."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 80,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 83,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 86,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 89,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "give-me",
+          "cueId": "c0008",
+          "quote": "Yes! Give me that back. forget that bit Louie that has not helped your case remember the truth will set you free okay",
+          "start": 80,
+          "end": 93,
+          "matchStart": 5,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0008",
+          "quote": "Yes! Give me that back. forget that bit Louie that has not helped your case remember the truth will set you free okay",
+          "start": 80,
+          "end": 93,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "Yes! Give me that back. forget that bit Louie that has not helped your case remember the truth will set you free okay",
+          "start": 80,
+          "end": 93,
+          "matchStart": 113,
+          "matchEnd": 117
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 93,
+      "end": 98,
+      "sentenceText": "Mum, I would like to call on Mum. Me, Mrs Heeler?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 93,
+          "end": 98,
+          "text": "Mum, I would like to call on Mum. Me, Mrs Heeler?",
+          "originalText": "Mom I would like to call on Mom me Mrs",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 93,
+              "end": 98,
+              "text": "Mom I would like to call on Mom me Mrs"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0040",
+              "start": 93,
+              "end": 97,
+              "text": "Mum, I would like to call on Mum."
+            },
+            {
+              "id": "c0041",
+              "start": 97,
+              "end": 98,
+              "text": "Me, Mrs Heeler?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 93,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0009",
+          "quote": "Mum, I would like to call on Mum. Me, Mrs Heeler?",
+          "start": 93,
+          "end": 98,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0009",
+          "quote": "Mum, I would like to call on Mum. Me, Mrs Heeler?",
+          "start": 93,
+          "end": 98,
+          "matchStart": 13,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 98,
+      "end": 104,
+      "sentenceText": "On the morning of this morning, you didn't hear me fluffy, did you?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 98,
+          "end": 104,
+          "text": "On the morning of this morning, you didn't hear me fluffy, did you?",
+          "originalText": "healer on the morning of this morning you didn't hear me fluffy did you no",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 98,
+              "end": 101,
+              "text": "healer on the morning of this morning"
+            },
+            {
+              "id": "c0033",
+              "start": 101,
+              "end": 104,
+              "text": "you didn't hear me fluffy did you no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0042",
+              "start": 98,
+              "end": 101,
+              "text": "On the morning of this morning,"
+            },
+            {
+              "id": "c0043",
+              "start": 101,
+              "end": 104,
+              "text": "you didn't hear me fluffy, did you?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 98,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 101,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 104,
+      "end": 118,
+      "sentenceText": "Let's repeat that, you didn't hear me fluffy fluffy cuz she was asleep yeah well I wasn't asleep I was dozing I mean I heard you get up and move the bedside table what oh really tell me about this",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 104,
+          "end": 118,
+          "text": "Let's repeat that, you didn't hear me fluffy fluffy cuz she was asleep yeah well I wasn't asleep I was dozing I mean I heard you get up and move the bedside table what oh really tell me about this",
+          "originalText": "let's repeat that you didn't hear me fluffy cuz she was asleep yeah well I wasn't asleep I was dozing I mean I heard you get up and move the bedside table what oh really tell me about this",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 104,
+              "end": 107,
+              "text": "let's repeat that you didn't hear me"
+            },
+            {
+              "id": "c0035",
+              "start": 107,
+              "end": 110,
+              "text": "fluffy cuz she was asleep yeah well I"
+            },
+            {
+              "id": "c0036",
+              "start": 110,
+              "end": 113,
+              "text": "wasn't asleep I was dozing I mean I"
+            },
+            {
+              "id": "c0037",
+              "start": 113,
+              "end": 114,
+              "text": "heard you get up and move the bedside"
+            },
+            {
+              "id": "c0038",
+              "start": 114,
+              "end": 118,
+              "text": "table what oh really tell me about this"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0045",
+              "start": 104,
+              "end": 107,
+              "text": "Let's repeat that, you didn't hear me fluffy"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 104,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 107,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 110,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 113,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 114,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets",
+          "cueId": "c0011",
+          "quote": "Let's repeat that, you didn't hear me fluffy fluffy cuz she was asleep yeah well I wasn't asleep I was dozing I mean I heard you get up and move the bedside table what oh really tell me about this",
+          "start": 104,
+          "end": 118,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "Let's repeat that, you didn't hear me fluffy fluffy cuz she was asleep yeah well I wasn't asleep I was dozing I mean I heard you get up and move the bedside table what oh really tell me about this",
+          "start": 104,
+          "end": 118,
+          "matchStart": 163,
+          "matchEnd": 167
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 118,
+      "end": 125,
+      "sentenceText": "bedside table uh no further questions R you can go now come on get",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 118,
+          "end": 125,
+          "text": "bedside table uh no further questions R you can go now come on get",
+          "originalText": "bedside table uh no further questions R you can go now come on get",
+          "originalCueRefs": [
+            {
+              "id": "c0039",
+              "start": 118,
+              "end": 121,
+              "text": "bedside table uh no further questions R"
+            },
+            {
+              "id": "c0040",
+              "start": 121,
+              "end": 125,
+              "text": "you can go now come on get"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0039",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 121,
+              "end": 125,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0012",
+          "quote": "bedside table uh no further questions R you can go now come on get",
+          "start": 118,
+          "end": 125,
+          "matchStart": 55,
+          "matchEnd": 62
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0012",
+          "quote": "bedside table uh no further questions R you can go now come on get",
+          "start": 118,
+          "end": 125,
+          "matchStart": 17,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

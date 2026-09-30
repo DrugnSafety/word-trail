@@ -1,0 +1,35 @@
+{
+  "contentVersion": "2026.09.29-2",
+  "videos": {
+    "video-01": [
+      {
+        "sourceCueIds": ["c0001", "c0002", "c0003", "c0004"],
+        "start": 26,
+        "end": 34,
+        "provenance": "parent-explicit-grouping",
+        "qualityFlags": ["explicit-parent-grouping", "overlapping-playback-window", "timing-unverified"]
+      },
+      {
+        "sourceCueIds": ["c0005"],
+        "start": 33,
+        "end": 37,
+        "provenance": "parent-explicit-grouping",
+        "qualityFlags": ["explicit-parent-grouping", "overlapping-playback-window", "timing-unverified"]
+      },
+      {
+        "sourceCueIds": ["c0006", "c0007"],
+        "start": 37,
+        "end": 41,
+        "provenance": "parent-explicit-grouping",
+        "qualityFlags": ["explicit-parent-grouping"]
+      },
+      {
+        "sourceCueIds": ["c0008", "c0009", "c0010", "c0011"],
+        "start": 41,
+        "end": 49,
+        "provenance": "parent-explicit-grouping",
+        "qualityFlags": ["explicit-parent-grouping"]
+      }
+    ]
+  }
+}

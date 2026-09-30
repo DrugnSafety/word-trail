@@ -1,0 +1,1469 @@
+{
+  "id": "video-72",
+  "number": 72,
+  "title": "No More Kisses! | Smoochy Kiss - Series 3 | Bluey",
+  "duration": 135,
+  "declaredDuration": 135,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=o6MtNdG6a-w",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/72_No More Kisses!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/72_No More Kisses!.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "No More Kisses! | Smoochy Kiss - Series 3 | Bluey",
+      "start": 0,
+      "end": 134,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 6,
+      "sentenceText": "This way, this way! Keep an eye for Mum, Bingo. She just wants a Smoochy kiss.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 6,
+          "text": "This way, this way! Keep an eye for Mum, Bingo. She just wants a Smoochy kiss.",
+          "originalText": "this way this way keep an eye for mum Bingo she just wants a Smoochy kiss no",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "this way this way keep an eye for mum"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": "Bingo she just wants a Smoochy kiss no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "This way, this way! Keep an eye for Mum, Bingo."
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": "She just wants a Smoochy kiss."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0001",
+          "quote": "This way, this way! Keep an eye for Mum, Bingo. She just wants a Smoochy kiss.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 36,
+          "matchEnd": 39
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 6,
+      "end": 15,
+      "sentenceText": "more Smoochy kisses for her yeah you belong to us all right so am I still married we'll figure that out later but now we have to get you somewhere safe.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 6,
+          "end": 15,
+          "text": "more Smoochy kisses for her yeah you belong to us all right so am I still married we'll figure that out later but now we have to get you somewhere safe.",
+          "originalText": "more Smoochy kisses for her yeah you belong to us all right so am I still married we'll figure that out later but now we have to get you somewhere safe",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "text": "more Smoochy kisses for her yeah you"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 11,
+              "text": "belong to us all right so am I still"
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "text": "married we'll figure that out later but"
+            },
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 15,
+              "text": "now we have to get you somewhere safe"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0007",
+              "start": 13,
+              "end": 15,
+              "text": "now we have to get you somewhere safe."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0002",
+          "quote": "more Smoochy kisses for her yeah you belong to us all right so am I still married we'll figure that out later but now we have to get you somewhere safe.",
+          "start": 6,
+          "end": 15,
+          "matchStart": 50,
+          "matchEnd": 59
+        },
+        {
+          "expressionId": "have-to",
+          "cueId": "c0002",
+          "quote": "more Smoochy kisses for her yeah you belong to us all right so am I still married we'll figure that out later but now we have to get you somewhere safe.",
+          "start": 6,
+          "end": 15,
+          "matchStart": 121,
+          "matchEnd": 128
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 15,
+      "end": 20,
+      "sentenceText": "Yeah, come with you. Pictures, please!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 15,
+          "end": 20,
+          "text": "Yeah, come with you. Pictures, please!",
+          "originalText": "yeah come with you pictures please",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 18,
+              "text": "yeah come with you"
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 20,
+              "text": "pictures please"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 15,
+              "end": 18,
+              "text": "Yeah, come with you."
+            },
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 20,
+              "text": "Pictures, please!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "please",
+          "cueId": "c0003",
+          "quote": "Yeah, come with you. Pictures, please!",
+          "start": 15,
+          "end": 20,
+          "matchStart": 31,
+          "matchEnd": 37
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 20,
+      "end": 34,
+      "sentenceText": "what was this one yeah I've just been for a run okay well just keep your arms down please come on check for Mom Bingo she could be hiding okay",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 20,
+          "end": 34,
+          "text": "what was this one yeah I've just been for a run okay well just keep your arms down please come on check for Mom Bingo she could be hiding okay",
+          "originalText": "what was this one yeah I've just been for a run okay well just keep your arms down please come on check for Mom Bingo she could be hiding okay",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 20,
+              "end": 22,
+              "text": "what was this one yeah I've just been"
+            },
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 25,
+              "text": "for a run okay well just keep your arms"
+            },
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "text": "down please"
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "text": "come on check for Mom Bingo she could be"
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "text": "hiding okay"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 20,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0004",
+          "quote": "what was this one yeah I've just been for a run okay well just keep your arms down please come on check for Mom Bingo she could be hiding okay",
+          "start": 20,
+          "end": 34,
+          "matchStart": 90,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "what was this one yeah I've just been for a run okay well just keep your arms down please come on check for Mom Bingo she could be hiding okay",
+          "start": 20,
+          "end": 34,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "what was this one yeah I've just been for a run okay well just keep your arms down please come on check for Mom Bingo she could be hiding okay",
+          "start": 20,
+          "end": 34,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0004",
+          "quote": "what was this one yeah I've just been for a run okay well just keep your arms down please come on check for Mom Bingo she could be hiding okay",
+          "start": 20,
+          "end": 34,
+          "matchStart": 83,
+          "matchEnd": 89
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 37,
+      "end": 42,
+      "sentenceText": "Ew, Dad, what's that? Oh, looks like gravy.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 37,
+          "end": 42,
+          "text": "Ew, Dad, what's that? Oh, looks like gravy.",
+          "originalText": "ew Dad what's that oh looks like gravy",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 42,
+              "text": "ew Dad what's that oh looks like gravy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 42,
+              "text": "Ew, Dad, what's that? Oh, looks like gravy."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0005",
+          "quote": "Ew, Dad, what's that? Oh, looks like gravy.",
+          "start": 37,
+          "end": 42,
+          "matchStart": 4,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "Ew, Dad, what's that? Oh, looks like gravy.",
+          "start": 37,
+          "end": 42,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0005",
+          "quote": "Ew, Dad, what's that? Oh, looks like gravy.",
+          "start": 37,
+          "end": 42,
+          "matchStart": 32,
+          "matchEnd": 36
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 42,
+      "end": 48,
+      "sentenceText": "oh yep gravy she's not here I looked everywhere",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 42,
+          "end": 48,
+          "text": "oh yep gravy she's not here I looked everywhere",
+          "originalText": "oh yep gravy she's not here I looked everywhere",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 42,
+              "end": 45,
+              "text": "oh yep gravy she's not here I looked"
+            },
+            {
+              "id": "c0016",
+              "start": 45,
+              "end": 48,
+              "text": "everywhere"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 52,
+      "end": 63,
+      "sentenceText": "Me as well, yes, okay. Like, just what a Smoochy kiss and kids... I actually need the toilet. What?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 52,
+          "end": 63,
+          "text": "Me as well, yes, okay. Like, just what a Smoochy kiss and kids... I actually need the toilet. What?",
+          "originalText": "me as well yes okay like just what a Smoochy kiss and kids I actually need the toilet what",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 52,
+              "end": 56,
+              "text": "me as well yes okay"
+            },
+            {
+              "id": "c0018",
+              "start": 56,
+              "end": 59,
+              "text": "like just what a Smoochy kiss"
+            },
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 63,
+              "text": "and kids I actually need the toilet what"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0016",
+              "start": 52,
+              "end": 56,
+              "text": "Me as well, yes, okay."
+            },
+            {
+              "id": "c0017",
+              "start": 56,
+              "end": 59,
+              "text": "Like, just what a Smoochy kiss"
+            },
+            {
+              "id": "c0018",
+              "start": 59,
+              "end": 63,
+              "text": "and kids... I actually need the toilet. What?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 52,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 56,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0007",
+          "quote": "Me as well, yes, okay. Like, just what a Smoochy kiss and kids... I actually need the toilet. What?",
+          "start": 52,
+          "end": 63,
+          "matchStart": 12,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "Me as well, yes, okay. Like, just what a Smoochy kiss and kids... I actually need the toilet. What?",
+          "start": 52,
+          "end": 63,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0007",
+          "quote": "Me as well, yes, okay. Like, just what a Smoochy kiss and kids... I actually need the toilet. What?",
+          "start": 52,
+          "end": 63,
+          "matchStart": 23,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "Me as well, yes, okay. Like, just what a Smoochy kiss and kids... I actually need the toilet. What?",
+          "start": 52,
+          "end": 63,
+          "matchStart": 34,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0007",
+          "quote": "Me as well, yes, okay. Like, just what a Smoochy kiss and kids... I actually need the toilet. What?",
+          "start": 52,
+          "end": 63,
+          "matchStart": 77,
+          "matchEnd": 81
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 63,
+      "end": 78,
+      "sentenceText": "no way it's too risky oh well your mum lets me go to the toilet okay it's clear okay do your business and do it quickly yes boss I'm peeing only",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 63,
+          "end": 78,
+          "text": "no way it's too risky oh well your mum lets me go to the toilet okay it's clear okay do your business and do it quickly yes boss I'm peeing only",
+          "originalText": "no way it's too risky oh well your mum lets me go to the toilet okay it's clear okay do your business and do it quickly yes boss I'm peeing only",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 63,
+              "end": 66,
+              "text": "no way it's too risky oh well your mum"
+            },
+            {
+              "id": "c0021",
+              "start": 66,
+              "end": 70,
+              "text": "lets me go to the toilet okay"
+            },
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 74,
+              "text": "it's clear okay do your business and do"
+            },
+            {
+              "id": "c0023",
+              "start": 74,
+              "end": 78,
+              "text": "it quickly yes boss I'm peeing only"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 66,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 74,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "no way it's too risky oh well your mum lets me go to the toilet okay it's clear okay do your business and do it quickly yes boss I'm peeing only",
+          "start": 63,
+          "end": 78,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0008",
+          "quote": "no way it's too risky oh well your mum lets me go to the toilet okay it's clear okay do your business and do it quickly yes boss I'm peeing only",
+          "start": 63,
+          "end": 78,
+          "matchStart": 35,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "no way it's too risky oh well your mum lets me go to the toilet okay it's clear okay do your business and do it quickly yes boss I'm peeing only",
+          "start": 63,
+          "end": 78,
+          "matchStart": 64,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0008",
+          "quote": "no way it's too risky oh well your mum lets me go to the toilet okay it's clear okay do your business and do it quickly yes boss I'm peeing only",
+          "start": 63,
+          "end": 78,
+          "matchStart": 120,
+          "matchEnd": 123
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 78,
+      "end": 91,
+      "sentenceText": "I'll stay here Bingo you got outside okay oh keep your eye out for mum she'll do anything for a Smoochy kiss Godzilla blamer",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 78,
+          "end": 91,
+          "text": "I'll stay here Bingo you got outside okay oh keep your eye out for mum she'll do anything for a Smoochy kiss Godzilla blamer",
+          "originalText": "I'll stay here Bingo you got outside okay oh keep your eye out for mum she'll do anything for a Smoochy kiss Godzilla blamer",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 78,
+              "end": 80,
+              "text": "I'll stay here Bingo you got outside"
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 83,
+              "text": "okay oh"
+            },
+            {
+              "id": "c0026",
+              "start": 83,
+              "end": 86,
+              "text": "keep your eye out for mum she'll do"
+            },
+            {
+              "id": "c0027",
+              "start": 86,
+              "end": 89,
+              "text": "anything for a Smoochy kiss Godzilla"
+            },
+            {
+              "id": "c0028",
+              "start": 89,
+              "end": 91,
+              "text": "blamer"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 78,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 83,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 86,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 89,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "I'll stay here Bingo you got outside okay oh keep your eye out for mum she'll do anything for a Smoochy kiss Godzilla blamer",
+          "start": 78,
+          "end": 91,
+          "matchStart": 37,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0009",
+          "quote": "I'll stay here Bingo you got outside okay oh keep your eye out for mum she'll do anything for a Smoochy kiss Godzilla blamer",
+          "start": 78,
+          "end": 91,
+          "matchStart": 67,
+          "matchEnd": 70
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 95,
+      "end": 109,
+      "sentenceText": "are you almost finished almost oh it's that cake what happened nothing Why are you hopping? The pain on my foot.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 95,
+          "end": 109,
+          "text": "are you almost finished almost oh it's that cake what happened nothing Why are you hopping? The pain on my foot.",
+          "originalText": "are you almost finished almost oh it's that cake what happened nothing why are you hopping the pain on my foot",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 95,
+              "end": 100,
+              "text": "are you almost finished almost oh it's"
+            },
+            {
+              "id": "c0030",
+              "start": 100,
+              "end": 104,
+              "text": "that cake what happened nothing"
+            },
+            {
+              "id": "c0031",
+              "start": 104,
+              "end": 109,
+              "text": "why are you hopping the pain on my foot"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 104,
+              "end": 109,
+              "text": "Why are you hopping? The pain on my foot."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 95,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 100,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 104,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "finished",
+          "cueId": "c0010",
+          "quote": "are you almost finished almost oh it's that cake what happened nothing Why are you hopping? The pain on my foot.",
+          "start": 95,
+          "end": 109,
+          "matchStart": 15,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "are you almost finished almost oh it's that cake what happened nothing Why are you hopping? The pain on my foot.",
+          "start": 95,
+          "end": 109,
+          "matchStart": 49,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0010",
+          "quote": "are you almost finished almost oh it's that cake what happened nothing Why are you hopping? The pain on my foot.",
+          "start": 95,
+          "end": 109,
+          "matchStart": 71,
+          "matchEnd": 74
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 109,
+      "end": 118,
+      "sentenceText": "I wasn't paying attention why not I was trying to pull a nose hair out you've You've got hands in your nose, that's disgusting.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 109,
+          "end": 118,
+          "text": "I wasn't paying attention why not I was trying to pull a nose hair out you've You've got hands in your nose, that's disgusting.",
+          "originalText": "I wasn't paying attention why not I was trying to pull a nose hair out you've got hands in your nose that's disgusting",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 109,
+              "end": 113,
+              "text": "I wasn't paying attention why not I was"
+            },
+            {
+              "id": "c0033",
+              "start": 113,
+              "end": 115,
+              "text": "trying to pull a nose hair out you've"
+            },
+            {
+              "id": "c0034",
+              "start": 115,
+              "end": 118,
+              "text": "got hands in your nose that's disgusting"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 115,
+              "end": 118,
+              "text": "You've got hands in your nose, that's disgusting."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 109,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 113,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0011",
+          "quote": "I wasn't paying attention why not I was trying to pull a nose hair out you've You've got hands in your nose, that's disgusting.",
+          "start": 109,
+          "end": 118,
+          "matchStart": 26,
+          "matchEnd": 29
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 118,
+      "end": 129,
+      "sentenceText": "welcome to middle age kid what are you doing now what's it look like I'm I'm watching the pee-after-foot, so so it's not for watching pay off your",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 118,
+          "end": 129,
+          "text": "welcome to middle age kid what are you doing now what's it look like I'm I'm watching the pee-after-foot, so so it's not for watching pay off your",
+          "originalText": "welcome to middle age kid what are you doing now what's it look like I'm watching the pee after foot so it's not for watching pay off your",
+          "originalCueRefs": [
+            {
+              "id": "c0035",
+              "start": 118,
+              "end": 121,
+              "text": "welcome to middle age kid what are you"
+            },
+            {
+              "id": "c0036",
+              "start": 121,
+              "end": 123,
+              "text": "doing now what's it look like I'm"
+            },
+            {
+              "id": "c0037",
+              "start": 123,
+              "end": 126,
+              "text": "watching the pee after foot"
+            },
+            {
+              "id": "c0038",
+              "start": 126,
+              "end": 129,
+              "text": "so it's not for watching pay off your"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0034",
+              "start": 123,
+              "end": 126,
+              "text": "I'm watching the pee-after-foot, so"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0035",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 121,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 123,
+              "end": 126,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 126,
+              "end": 129,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0012",
+          "quote": "welcome to middle age kid what are you doing now what's it look like I'm I'm watching the pee-after-foot, so so it's not for watching pay off your",
+          "start": 118,
+          "end": 129,
+          "matchStart": 26,
+          "matchEnd": 30
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0012",
+          "quote": "welcome to middle age kid what are you doing now what's it look like I'm I'm watching the pee-after-foot, so so it's not for watching pay off your",
+          "start": 118,
+          "end": 129,
+          "matchStart": 59,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0012",
+          "quote": "welcome to middle age kid what are you doing now what's it look like I'm I'm watching the pee-after-foot, so so it's not for watching pay off your",
+          "start": 118,
+          "end": 129,
+          "matchStart": 64,
+          "matchEnd": 68
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 129,
+      "end": 134,
+      "sentenceText": "foot well it is now",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 129,
+          "end": 134,
+          "text": "foot well it is now",
+          "originalText": "foot well it is now",
+          "originalCueRefs": [
+            {
+              "id": "c0039",
+              "start": 129,
+              "end": 134,
+              "text": "foot well it is now"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0039",
+              "start": 129,
+              "end": 134,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    }
+  ]
+}

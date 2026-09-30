@@ -1,0 +1,1158 @@
+{
+  "id": "video-70",
+  "number": 70,
+  "title": "Food! | Born Yesterday - Series 3 | Bluey",
+  "duration": 124,
+  "declaredDuration": 124,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=XI7gHhuFYYQ",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/70_Food!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/70_Food!.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Food! | Born Yesterday - Series 3 | Bluey",
+      "start": 0,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 5,
+      "sentenceText": "I like food. Thanks for the update, and stools can't talk.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 5,
+          "text": "I like food. Thanks for the update, and stools can't talk.",
+          "originalText": "i like food thanks for the update and stools can't talk",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "i like food thanks for the update and"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "stools can't talk"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "text": "I like food."
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 3,
+              "text": "Thanks for the update,"
+            },
+            {
+              "id": "c0003",
+              "start": 3,
+              "end": 5,
+              "text": "and stools can't talk."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0001",
+          "quote": "I like food. Thanks for the update, and stools can't talk.",
+          "start": 0,
+          "end": 5,
+          "matchStart": 2,
+          "matchEnd": 6
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 5,
+      "end": 18,
+      "sentenceText": "Kids, what have you done to your dad? was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 5,
+          "end": 18,
+          "text": "Kids, what have you done to your dad? was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+          "originalText": "kids what have you done to your dad he was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 8,
+              "text": "kids what have you done to your dad he"
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 10,
+              "text": "was born yesterday he doesn't know"
+            },
+            {
+              "id": "c0005",
+              "start": 10,
+              "end": 14,
+              "text": "anything are you alive yoo-hoo hi i'm"
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 18,
+              "text": "your wife my wife yes and if you want me"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 5,
+              "end": 8,
+              "text": "Kids, what have you done to your dad?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 10,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Kids, what have you done to your dad? was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+          "start": 5,
+          "end": 18,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0002",
+          "quote": "Kids, what have you done to your dad? was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+          "start": 5,
+          "end": 18,
+          "matchStart": 33,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0002",
+          "quote": "Kids, what have you done to your dad? was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+          "start": 5,
+          "end": 18,
+          "matchStart": 68,
+          "matchEnd": 72
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0002",
+          "quote": "Kids, what have you done to your dad? was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+          "start": 5,
+          "end": 18,
+          "matchStart": 129,
+          "matchEnd": 132
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0002",
+          "quote": "Kids, what have you done to your dad? was born yesterday he doesn't know anything are you alive yoo-hoo hi i'm your wife my wife yes and if you want me",
+          "start": 5,
+          "end": 18,
+          "matchStart": 144,
+          "matchEnd": 148
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 18,
+      "end": 30,
+      "sentenceText": "to stay your wife you'll learn about dishwashers dishwasher wife Wow, there's just so much to learn.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 30,
+          "text": "to stay your wife you'll learn about dishwashers dishwasher wife Wow, there's just so much to learn.",
+          "originalText": "to stay your wife you'll learn about dishwashers dishwasher wife wow there's just so much to learn",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "text": "to stay your wife you'll learn about"
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 24,
+              "text": "dishwashers dishwasher wife"
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 30,
+              "text": "wow there's just so much to learn"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 24,
+              "end": 30,
+              "text": "Wow, there's just so much to learn."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 30,
+      "end": 39,
+      "sentenceText": "this is outside you've got some grass and some wood events Look out! What is it?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 30,
+          "end": 39,
+          "text": "this is outside you've got some grass and some wood events Look out! What is it?",
+          "originalText": "this is outside you've got some grass and some wood events look out what is it",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 30,
+              "end": 34,
+              "text": "this is outside you've got some grass"
+            },
+            {
+              "id": "c0011",
+              "start": 34,
+              "end": 37,
+              "text": "and some wood events"
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 39,
+              "text": "look out what is it"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 37,
+              "end": 38,
+              "text": "Look out!"
+            },
+            {
+              "id": "c0018",
+              "start": 38,
+              "end": 39,
+              "text": "What is it?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 30,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 34,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0004",
+          "quote": "this is outside you've got some grass and some wood events Look out! What is it?",
+          "start": 30,
+          "end": 39,
+          "matchStart": 59,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "this is outside you've got some grass and some wood events Look out! What is it?",
+          "start": 30,
+          "end": 39,
+          "matchStart": 69,
+          "matchEnd": 73
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 39,
+      "end": 45,
+      "sentenceText": "There's a giant fireball in the big blue thing. That's the sun. It's meant to be there.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 39,
+          "end": 45,
+          "text": "There's a giant fireball in the big blue thing. That's the sun. It's meant to be there.",
+          "originalText": "there's a giant fireball in the big blue thing that's the sun it's meant to be",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 39,
+              "end": 42,
+              "text": "there's a giant fireball in the big blue"
+            },
+            {
+              "id": "c0014",
+              "start": 42,
+              "end": 45,
+              "text": "thing that's the sun it's meant to be"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 39,
+              "end": 42,
+              "text": "There's a giant fireball in the big blue thing."
+            },
+            {
+              "id": "c0020",
+              "start": 42,
+              "end": 45,
+              "text": "That's the sun. It's meant to be there."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 39,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0005",
+          "quote": "There's a giant fireball in the big blue thing. That's the sun. It's meant to be there.",
+          "start": 39,
+          "end": 45,
+          "matchStart": 32,
+          "matchEnd": 35
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 45,
+      "end": 51,
+      "sentenceText": "And the big blue thing is the sky. Oh, phew.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 45,
+          "end": 51,
+          "text": "And the big blue thing is the sky. Oh, phew.",
+          "originalText": "there and the big blue thing is the sky oh phew",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 45,
+              "end": 48,
+              "text": "there and the big blue thing is the sky"
+            },
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 51,
+              "text": "oh phew"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 45,
+              "end": 48,
+              "text": "And the big blue thing is the sky."
+            },
+            {
+              "id": "c0022",
+              "start": 48,
+              "end": 51,
+              "text": "Oh, phew."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0006",
+          "quote": "And the big blue thing is the sky. Oh, phew.",
+          "start": 45,
+          "end": 51,
+          "matchStart": 8,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 51,
+      "end": 58,
+      "sentenceText": "This is a swing. Push me! Swing! The other way.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 51,
+          "end": 58,
+          "text": "This is a swing. Push me! Swing! The other way.",
+          "originalText": "this is a swing push me swing the other way",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 51,
+              "end": 54,
+              "text": "this is a swing push me"
+            },
+            {
+              "id": "c0018",
+              "start": 54,
+              "end": 55,
+              "text": "swing"
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 58,
+              "text": "the other way"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 51,
+              "end": 53,
+              "text": "This is a swing."
+            },
+            {
+              "id": "c0024",
+              "start": 53,
+              "end": 54,
+              "text": "Push me!"
+            },
+            {
+              "id": "c0025",
+              "start": 54,
+              "end": 55,
+              "text": "Swing!"
+            },
+            {
+              "id": "c0026",
+              "start": 55,
+              "end": 58,
+              "text": "The other way."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 51,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 54,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 73,
+      "end": 82,
+      "sentenceText": "don't worry about the sun it's meant to be there uh okay oh come on bandit keep I have a wife.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 73,
+          "end": 82,
+          "text": "don't worry about the sun it's meant to be there uh okay oh come on bandit keep I have a wife.",
+          "originalText": "don't worry about the sun it's meant to be there uh okay oh come on bandit keep walking i have a wife",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 73,
+              "end": 76,
+              "text": "don't worry about the sun it's meant to"
+            },
+            {
+              "id": "c0021",
+              "start": 76,
+              "end": 80,
+              "text": "be there uh okay oh come on bandit keep"
+            },
+            {
+              "id": "c0022",
+              "start": 80,
+              "end": 82,
+              "text": "walking i have a wife"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0030",
+              "start": 80,
+              "end": 82,
+              "text": "I have a wife."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 73,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 80,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0008",
+          "quote": "don't worry about the sun it's meant to be there uh okay oh come on bandit keep I have a wife.",
+          "start": 73,
+          "end": 82,
+          "matchStart": 60,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "don't worry about the sun it's meant to be there uh okay oh come on bandit keep I have a wife.",
+          "start": 73,
+          "end": 82,
+          "matchStart": 52,
+          "matchEnd": 56
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0008",
+          "quote": "don't worry about the sun it's meant to be there uh okay oh come on bandit keep I have a wife.",
+          "start": 73,
+          "end": 82,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 82,
+      "end": 96,
+      "sentenceText": "okay bandit probably don't say things about the sun to people at bus stops yeah why uh it's hard to explain okay i want food yeah i got mistaken bacon oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 82,
+          "end": 96,
+          "text": "okay bandit probably don't say things about the sun to people at bus stops yeah why uh it's hard to explain okay i want food yeah i got mistaken bacon oh",
+          "originalText": "okay bandit probably don't say things about the sun to people at bus stops yeah why uh it's hard to explain okay i want food yeah i got mistaken bacon oh",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 82,
+              "end": 85,
+              "text": "okay bandit probably don't say things"
+            },
+            {
+              "id": "c0024",
+              "start": 85,
+              "end": 88,
+              "text": "about the sun to people at bus stops"
+            },
+            {
+              "id": "c0025",
+              "start": 88,
+              "end": 92,
+              "text": "yeah why uh it's hard to explain okay i"
+            },
+            {
+              "id": "c0026",
+              "start": 92,
+              "end": 96,
+              "text": "want food yeah i got mistaken bacon oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 82,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 85,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 88,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 92,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "okay bandit probably don't say things about the sun to people at bus stops yeah why uh it's hard to explain okay i want food yeah i got mistaken bacon oh",
+          "start": 82,
+          "end": 96,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0009",
+          "quote": "okay bandit probably don't say things about the sun to people at bus stops yeah why uh it's hard to explain okay i want food yeah i got mistaken bacon oh",
+          "start": 82,
+          "end": 96,
+          "matchStart": 80,
+          "matchEnd": 83
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0009",
+          "quote": "okay bandit probably don't say things about the sun to people at bus stops yeah why uh it's hard to explain okay i want food yeah i got mistaken bacon oh",
+          "start": 82,
+          "end": 96,
+          "matchStart": 115,
+          "matchEnd": 119
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "okay bandit probably don't say things about the sun to people at bus stops yeah why uh it's hard to explain okay i want food yeah i got mistaken bacon oh",
+          "start": 82,
+          "end": 96,
+          "matchStart": 21,
+          "matchEnd": 26
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 96,
+      "end": 100,
+      "sentenceText": "Oh, hey Bandit!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 96,
+          "end": 100,
+          "text": "Oh, hey Bandit!",
+          "originalText": "hi bear boy",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 96,
+              "end": 100,
+              "text": "hi bear boy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0037",
+              "start": 96,
+              "end": 100,
+              "text": "Oh, hey Bandit!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 96,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 120,
+      "end": 124,
+      "sentenceText": "Argh! My food!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 120,
+          "end": 124,
+          "text": "Argh! My food!",
+          "originalText": "ah buy food",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 120,
+              "end": 124,
+              "text": "ah buy food"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 120,
+              "end": 124,
+              "text": "Argh! My food!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 120,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

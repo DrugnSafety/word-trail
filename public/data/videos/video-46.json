@@ -1,0 +1,886 @@
+{
+  "id": "video-46",
+  "number": 46,
+  "title": "No Try | The Decider - Series 3 | Bluey",
+  "duration": 115,
+  "declaredDuration": 115,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=l07BB65eoi4",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/46_No Try.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/46_No Try.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "No Try | The Decider - Series 3 | Bluey",
+      "start": 5,
+      "end": 106,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 5,
+      "end": 11,
+      "sentenceText": "And there's pizzas coming at half-time, and Bucko is...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 5,
+          "end": 11,
+          "text": "And there's pizzas coming at half-time, and Bucko is...",
+          "originalText": "and there's pizza's coming at halftime and bucko is",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 5,
+              "end": 8,
+              "text": "and there's pizza's coming at halftime"
+            },
+            {
+              "id": "c0002",
+              "start": 8,
+              "end": 11,
+              "text": "and bucko is"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 5,
+              "end": 8,
+              "text": "And there's pizzas coming at half-time,"
+            },
+            {
+              "id": "c0002",
+              "start": 8,
+              "end": 11,
+              "text": "and Bucko is..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 5,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 8,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 11,
+      "end": 20,
+      "sentenceText": "I can't see, Mum? If your dad is on the purple team but your mum is on the blue team, then what team are you on, Mum? Mum said I could choose either.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 11,
+          "end": 20,
+          "text": "I can't see, Mum? If your dad is on the purple team but your mum is on the blue team, then what team are you on, Mum? Mum said I could choose either.",
+          "originalText": "I can't see Mom if your dad is on the purple team but your mom is on the blue team then what team are you on mum said I could choose",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 11,
+              "end": 13,
+              "text": "I can't see Mom"
+            },
+            {
+              "id": "c0004",
+              "start": 13,
+              "end": 16,
+              "text": "if your dad is on the purple team but"
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 18,
+              "text": "your mom is on the blue team then what"
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 20,
+              "text": "team are you on mum said I could choose"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 11,
+              "end": 13,
+              "text": "I can't see, Mum?"
+            },
+            {
+              "id": "c0004",
+              "start": 13,
+              "end": 16,
+              "text": "If your dad is on the purple team"
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 18,
+              "text": "but your mum is on the blue team, then"
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 19,
+              "text": "what team are you on, Mum?"
+            },
+            {
+              "id": "c0007",
+              "start": 19,
+              "end": 20,
+              "text": "Mum said I could choose either."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 13,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "I can't see, Mum? If your dad is on the purple team but your mum is on the blue team, then what team are you on, Mum? Mum said I could choose either.",
+          "start": 11,
+          "end": 20,
+          "matchStart": 8,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0002",
+          "quote": "I can't see, Mum? If your dad is on the purple team but your mum is on the blue team, then what team are you on, Mum? Mum said I could choose either.",
+          "start": 11,
+          "end": 20,
+          "matchStart": 13,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0002",
+          "quote": "I can't see, Mum? If your dad is on the purple team but your mum is on the blue team, then what team are you on, Mum? Mum said I could choose either.",
+          "start": 11,
+          "end": 20,
+          "matchStart": 26,
+          "matchEnd": 29
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "I can't see, Mum? If your dad is on the purple team but your mum is on the blue team, then what team are you on, Mum? Mum said I could choose either.",
+          "start": 11,
+          "end": 20,
+          "matchStart": 91,
+          "matchEnd": 95
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 20,
+      "end": 34,
+      "sentenceText": "either my mum and dad are all on the purple team so I'm purple even though I'm blue it's confusing I'm gold is there a gold teeth no it's just purple or blue huh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 20,
+          "end": 34,
+          "text": "either my mum and dad are all on the purple team so I'm purple even though I'm blue it's confusing I'm gold is there a gold teeth no it's just purple or blue huh",
+          "originalText": "either my mum and dad are all on the purple team so I'm purple even though I'm blue it's confusing I'm gold is there a gold teeth no it's just purple or blue huh",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 20,
+              "end": 23,
+              "text": "either my mum and dad are all on the"
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 25,
+              "text": "purple team so I'm purple even though"
+            },
+            {
+              "id": "c0009",
+              "start": 25,
+              "end": 29,
+              "text": "I'm blue it's confusing I'm gold is"
+            },
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 32,
+              "text": "there a gold teeth no it's just purple"
+            },
+            {
+              "id": "c0011",
+              "start": 32,
+              "end": 34,
+              "text": "or blue huh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 20,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 25,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 32,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0003",
+          "quote": "either my mum and dad are all on the purple team so I'm purple even though I'm blue it's confusing I'm gold is there a gold teeth no it's just purple or blue huh",
+          "start": 20,
+          "end": 34,
+          "matchStart": 10,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0003",
+          "quote": "either my mum and dad are all on the purple team so I'm purple even though I'm blue it's confusing I'm gold is there a gold teeth no it's just purple or blue huh",
+          "start": 20,
+          "end": 34,
+          "matchStart": 18,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "either my mum and dad are all on the purple team so I'm purple even though I'm blue it's confusing I'm gold is there a gold teeth no it's just purple or blue huh",
+          "start": 20,
+          "end": 34,
+          "matchStart": 130,
+          "matchEnd": 132
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 34,
+      "end": 38,
+      "sentenceText": "Can I help you choose a color? Yes, please.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 34,
+          "end": 38,
+          "text": "Can I help you choose a color? Yes, please.",
+          "originalText": "can I help you choose a color yes please",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 34,
+              "end": 38,
+              "text": "can I help you choose a color yes please"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 34,
+              "end": 38,
+              "text": "Can I help you choose a color? Yes, please."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 34,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0004",
+          "quote": "Can I help you choose a color? Yes, please.",
+          "start": 34,
+          "end": 38,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0004",
+          "quote": "Can I help you choose a color? Yes, please.",
+          "start": 34,
+          "end": 38,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0004",
+          "quote": "Can I help you choose a color? Yes, please.",
+          "start": 34,
+          "end": 38,
+          "matchStart": 31,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0004",
+          "quote": "Can I help you choose a color? Yes, please.",
+          "start": 34,
+          "end": 38,
+          "matchStart": 36,
+          "matchEnd": 42
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 48,
+      "end": 53,
+      "sentenceText": "What do you think about that, Janelle?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 48,
+          "end": 53,
+          "text": "What do you think about that, Janelle?",
+          "originalText": "what do you think about that Janelle",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 48,
+              "end": 53,
+              "text": "what do you think about that Janelle"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 53,
+              "text": "What do you think about that, Janelle?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 48,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "What do you think about that, Janelle?",
+          "start": 48,
+          "end": 53,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0005",
+          "quote": "What do you think about that, Janelle?",
+          "start": 48,
+          "end": 53,
+          "matchStart": 12,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 55,
+      "end": 69,
+      "sentenceText": "Wants to check if Flogger obstructed the defender on the way through well there you go no try Come on, what's going on?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 55,
+          "end": 69,
+          "text": "Wants to check if Flogger obstructed the defender on the way through well there you go no try Come on, what's going on?",
+          "originalText": "wants to check if flogger obstructed the defender on the way through well there you go no try come on what's going on",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 55,
+              "end": 59,
+              "text": "wants to check if flogger obstructed the"
+            },
+            {
+              "id": "c0015",
+              "start": 59,
+              "end": 61,
+              "text": "defender on the way through well there"
+            },
+            {
+              "id": "c0016",
+              "start": 61,
+              "end": 64,
+              "text": "you go no try"
+            },
+            {
+              "id": "c0017",
+              "start": 64,
+              "end": 69,
+              "text": "come on what's going on"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 55,
+              "end": 59,
+              "text": "Wants to check if Flogger obstructed the"
+            },
+            {
+              "id": "c0018",
+              "start": 64,
+              "end": 69,
+              "text": "Come on, what's going on?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 55,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 59,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 61,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 64,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0006",
+          "quote": "Wants to check if Flogger obstructed the defender on the way through well there you go no try Come on, what's going on?",
+          "start": 55,
+          "end": 69,
+          "matchStart": 94,
+          "matchEnd": 101
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "Wants to check if Flogger obstructed the defender on the way through well there you go no try Come on, what's going on?",
+          "start": 55,
+          "end": 69,
+          "matchStart": 87,
+          "matchEnd": 89
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "Wants to check if Flogger obstructed the defender on the way through well there you go no try Come on, what's going on?",
+          "start": 55,
+          "end": 69,
+          "matchStart": 103,
+          "matchEnd": 107
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 69,
+      "end": 74,
+      "sentenceText": "You're the... chicks intercepted!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 69,
+          "end": 74,
+          "text": "You're the... chicks intercepted!",
+          "originalText": "you're the chicks intercepted",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 69,
+              "end": 74,
+              "text": "you're the chicks intercepted"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 69,
+              "end": 74,
+              "text": "You're the... chicks intercepted!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 69,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 95,
+      "end": 106,
+      "sentenceText": "Oh, that's nice, in ages.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 95,
+          "end": 106,
+          "text": "Oh, that's nice, in ages.",
+          "originalText": "oh that's nice in ages",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 95,
+              "end": 102,
+              "text": "oh that's nice"
+            },
+            {
+              "id": "c0020",
+              "start": 102,
+              "end": 106,
+              "text": "in ages"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 95,
+              "end": 102,
+              "text": "Oh, that's nice,"
+            },
+            {
+              "id": "c0021",
+              "start": 102,
+              "end": 106,
+              "text": "in ages."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 95,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 102,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "nice",
+          "cueId": "c0008",
+          "quote": "Oh, that's nice, in ages.",
+          "start": 95,
+          "end": 106,
+          "matchStart": 11,
+          "matchEnd": 15
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

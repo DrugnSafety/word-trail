@@ -1,0 +1,61 @@
+# 65. Ready, Set... Go! | Obstacle Course - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=YD-_bnqlJcw
+- Length: 02:04
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:04
+
+---
+
+- `[00:00 - 00:04]` Go, Bingo!
+- `[00:04 - 00:06]` Go, Bluey!
+- `[00:21 - 00:23]` Hey, have you kids seen my green ball?
+- `[00:23 - 00:26]` Look, Dad! We set up an obstacle course!
+- `[00:26 - 00:28]` Do you want to have a go?
+- `[00:28 - 00:28]` Righto,
+- `[00:28 - 00:29]` I'll race you.
+- `[00:29 - 00:31]` Where's the finish line?
+- `[00:31 - 00:32]` No-one's racing anyone.
+- `[00:32 - 00:35]` This is just for having fun!
+- `[00:35 - 00:36]` Yeah!
+- `[00:36 - 00:38]` Oh, I see.
+- `[00:39 - 00:41]` What are you doing?
+- `[00:41 - 00:43]` I'm doing chicken.
+- `[00:43 - 00:45]` Why is Dad acting like a chicken?
+- `[00:45 - 00:47]` He's saying you're scared.
+- `[00:47 - 00:48]` Of chickens?
+- `[00:48 - 00:48]` No,
+- `[00:48 - 00:49]` of racing me.
+- `[00:49 - 00:50]` Don't you kids know
+- `[00:50 - 00:51]` what 'chicken' means?
+- `[00:51 - 00:52]` No.
+- `[00:52 - 00:55]` And they don't need everything turned into a competition.
+- `[00:55 - 00:56]` That's loser talk!
+- `[00:56 - 00:57]` Come on,
+- `[00:57 - 00:59]` the hose is the finish line.
+- `[00:59 - 01:00]` Ready, set—
+- `[01:00 - 01:00]` No,
+- `[01:00 - 01:01]` they're not racing.
+- `[01:01 - 01:03]` Yeah, we're happy just having fun
+- `[01:03 - 01:06]` when it gets sherbet.
+- `[01:19 - 01:21]` Yes! Dad wins!
+- `[01:21 - 01:23]` Okay, well done, thanks.
+- `[01:23 - 01:26]` Now I might go and get my sherbet.
+- `[01:26 - 01:27]` Ah, yeah, you
+- `[01:27 - 01:28]` do that. I think we've had enough
+- `[01:28 - 01:30]` Dad for one morning.
+- `[01:30 - 01:33]` Okay, let's go back to having fun.
+- `[01:33 - 01:34]` That was fun, yeah.
+- `[01:34 - 01:36]` What? I'm on another race?
+- `[01:36 - 01:38]` Can you help me beat Dad?
+- `[01:38 - 01:40]` Yeah, I want sherbet.
+- `[01:40 - 01:44]` Okay, he won't let you win though, that's true.
+- `[01:44 - 01:46]` There's only one thing you can do:
+- `[01:46 - 01:46]` cheat.
+- `[01:46 - 01:47]` Yeah! Yeah!
+- `[01:47 - 01:50]` What? No, I meant practice.
+- `[01:50 - 01:53]` You kids sure are keen to get whooped again.
+- `[01:53 - 01:55]` Oh, yes, we are.
+- `[01:55 - 01:57]` All we can do is try harder this time.
+- `[01:57 - 01:58]` That's the way.
+- `[01:58 - 02:04]` See, Mum? Losing doesn't stop these kids.

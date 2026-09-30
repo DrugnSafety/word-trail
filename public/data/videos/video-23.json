@@ -1,0 +1,1364 @@
+{
+  "id": "video-23",
+  "number": 23,
+  "title": "Cubby",
+  "duration": 124,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=enXGh23RQtE",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/23_Cubby.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/23_Cubby.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-repaired-zero-duration-cues",
+    "contains-corrected-chapter-title",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "도입부",
+      "start": 0,
+      "end": 42,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Cubby",
+      "start": 42,
+      "markerStart": 43,
+      "source": "script-heading",
+      "capturedTitle": "Puppy",
+      "titleSource": "video-title",
+      "titleCorrectionReason": "captured-heading-conflicts-with-video-title",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption",
+        "chapter-title-corrected-from-video-title"
+      ],
+      "snapSeconds": 1,
+      "end": 124,
+      "sceneIds": [
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 14,
+      "sentenceText": "Ah, there's no room for Kimjim to sleep. Oh, I know. I think if we knock this wall out, this room will feel so much bigger, already big enough babe it's not it's too cramped the only thing in this room",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 14,
+          "text": "Ah, there's no room for Kimjim to sleep. Oh, I know. I think if we knock this wall out, this room will feel so much bigger, already big enough babe it's not it's too cramped the only thing in this room",
+          "originalText": "H there's no room for Kim J to sleep oh I know I think if we knock this wall out this room will feel so much bigger it's already big enough babe it's not it's too cramped the only thing in this room",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "H there's no room for Kim J to sleep oh"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 7,
+              "text": "I know I think if we knock this wall out"
+            },
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 9,
+              "text": "this room will feel so much bigger it's"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "text": "already big enough babe it's not it's"
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 14,
+              "text": "too cramped the only thing in this room"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "Ah, there's no room for Kimjim to sleep."
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 4,
+              "text": "Oh, I know."
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "I think if we knock this wall out,"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "this room will feel so much bigger,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0001",
+          "quote": "Ah, there's no room for Kimjim to sleep. Oh, I know. I think if we knock this wall out, this room will feel so much bigger, already big enough babe it's not it's too cramped the only thing in this room",
+          "start": 0,
+          "end": 14,
+          "matchStart": 12,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0001",
+          "quote": "Ah, there's no room for Kimjim to sleep. Oh, I know. I think if we knock this wall out, this room will feel so much bigger, already big enough babe it's not it's too cramped the only thing in this room",
+          "start": 0,
+          "end": 14,
+          "matchStart": 47,
+          "matchEnd": 51
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0001",
+          "quote": "Ah, there's no room for Kimjim to sleep. Oh, I know. I think if we knock this wall out, this room will feel so much bigger, already big enough babe it's not it's too cramped the only thing in this room",
+          "start": 0,
+          "end": 14,
+          "matchStart": 55,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0001",
+          "quote": "Ah, there's no room for Kimjim to sleep. Oh, I know. I think if we knock this wall out, this room will feel so much bigger, already big enough babe it's not it's too cramped the only thing in this room",
+          "start": 0,
+          "end": 14,
+          "matchStart": 132,
+          "matchEnd": 135
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 14,
+      "end": 26,
+      "sentenceText": "that needs to be bigger is the TV. are you talking about it's huge it's not 50 in is no longer an acceptable size in this day and age I can hardly see what's going on I'm getting the tape measure",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 14,
+          "end": 26,
+          "text": "that needs to be bigger is the TV. are you talking about it's huge it's not 50 in is no longer an acceptable size in this day and age I can hardly see what's going on I'm getting the tape measure",
+          "originalText": "that needs to be bigger is the TV what are you talking about it's huge it's not 50 in is no longer an acceptable size in this day and age I can hardly see what's going on I'm getting the tape measure",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "text": "that needs to be bigger is the TV what"
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 19,
+              "text": "are you talking about it's huge it's not"
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 21,
+              "text": "50 in is no longer an acceptable size in"
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "text": "this day and age I can hardly see what's"
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 26,
+              "text": "going on I'm getting the tape measure"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 14,
+              "end": 16,
+              "text": "that needs to be bigger is the TV."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0002",
+          "quote": "that needs to be bigger is the TV. are you talking about it's huge it's not 50 in is no longer an acceptable size in this day and age I can hardly see what's going on I'm getting the tape measure",
+          "start": 14,
+          "end": 26,
+          "matchStart": 85,
+          "matchEnd": 87
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "that needs to be bigger is the TV. are you talking about it's huge it's not 50 in is no longer an acceptable size in this day and age I can hardly see what's going on I'm getting the tape measure",
+          "start": 14,
+          "end": 26,
+          "matchStart": 147,
+          "matchEnd": 150
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "that needs to be bigger is the TV. are you talking about it's huge it's not 50 in is no longer an acceptable size in this day and age I can hardly see what's going on I'm getting the tape measure",
+          "start": 14,
+          "end": 26,
+          "matchStart": 151,
+          "matchEnd": 155
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 26,
+      "end": 38,
+      "sentenceText": "Dad, we need this cushion. Huh? What? Why? building a bedroom for Kim Jin oh uh yeah Right, we need that one too. Uh, okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 26,
+          "end": 38,
+          "text": "Dad, we need this cushion. Huh? What? Why? building a bedroom for Kim Jin oh uh yeah Right, we need that one too. Uh, okay.",
+          "originalText": "Dad we need this cushion huh what why building a bedroom for Kim Jin oh uh yeah right we need that one too uh okay and",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 26,
+              "end": 30,
+              "text": "Dad we need this cushion huh what why"
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "text": "building a bedroom for Kim Jin oh uh"
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 34,
+              "text": "yeah"
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 38,
+              "text": "right we need that one too uh okay and"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 26,
+              "end": 29,
+              "text": "Dad, we need this cushion."
+            },
+            {
+              "id": "c0015",
+              "start": 29,
+              "end": 30,
+              "text": "Huh? What? Why?"
+            },
+            {
+              "id": "c0018",
+              "start": 34,
+              "end": 37,
+              "text": "Right, we need that one too."
+            },
+            {
+              "id": "c0019",
+              "start": 37,
+              "end": 38,
+              "text": "Uh, okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 26,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0003",
+          "quote": "Dad, we need this cushion. Huh? What? Why? building a bedroom for Kim Jin oh uh yeah Right, we need that one too. Uh, okay.",
+          "start": 26,
+          "end": 38,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0003",
+          "quote": "Dad, we need this cushion. Huh? What? Why? building a bedroom for Kim Jin oh uh yeah Right, we need that one too. Uh, okay.",
+          "start": 26,
+          "end": 38,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "Dad, we need this cushion. Huh? What? Why? building a bedroom for Kim Jin oh uh yeah Right, we need that one too. Uh, okay.",
+          "start": 26,
+          "end": 38,
+          "matchStart": 32,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0003",
+          "quote": "Dad, we need this cushion. Huh? What? Why? building a bedroom for Kim Jin oh uh yeah Right, we need that one too. Uh, okay.",
+          "start": 26,
+          "end": 38,
+          "matchStart": 38,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "Dad, we need this cushion. Huh? What? Why? building a bedroom for Kim Jin oh uh yeah Right, we need that one too. Uh, okay.",
+          "start": 26,
+          "end": 38,
+          "matchStart": 118,
+          "matchEnd": 122
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 38,
+      "end": 42,
+      "sentenceText": "that one thank",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 38,
+          "end": 42,
+          "text": "that one thank",
+          "originalText": "that one thank",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 38,
+              "end": 40,
+              "text": "that"
+            },
+            {
+              "id": "c0016",
+              "start": 40,
+              "end": 42,
+              "text": "one thank"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 38,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 40,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 1",
+      "start": 42,
+      "end": 55,
+      "sentenceText": "you this episode of blue is called puppy here you are Kim Jim your new bedroom do you like it yes I love Do you think we should build a",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 42,
+          "end": 55,
+          "text": "you this episode of blue is called puppy here you are Kim Jim your new bedroom do you like it yes I love Do you think we should build a",
+          "originalText": "you this episode of blue is called puppy here you are Kim Jim your new bedroom do you like it yes I love it do you think we should build a",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 42,
+              "end": 46,
+              "text": "you this episode of blue is called"
+            },
+            {
+              "id": "c0018",
+              "start": 46,
+              "end": 49,
+              "text": "puppy here you are Kim Jim your new"
+            },
+            {
+              "id": "c0019",
+              "start": 49,
+              "end": 53,
+              "text": "bedroom do you like it yes I love"
+            },
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 55,
+              "text": "it do you think we should build a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 53,
+              "end": 55,
+              "text": "Do you think we should build a"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 42,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 46,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 49,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0005",
+          "quote": "you this episode of blue is called puppy here you are Kim Jim your new bedroom do you like it yes I love Do you think we should build a",
+          "start": 42,
+          "end": 55,
+          "matchStart": 86,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0005",
+          "quote": "you this episode of blue is called puppy here you are Kim Jim your new bedroom do you like it yes I love Do you think we should build a",
+          "start": 42,
+          "end": 55,
+          "matchStart": 94,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0005",
+          "quote": "you this episode of blue is called puppy here you are Kim Jim your new bedroom do you like it yes I love Do you think we should build a",
+          "start": 42,
+          "end": 55,
+          "matchStart": 100,
+          "matchEnd": 104
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0005",
+          "quote": "you this episode of blue is called puppy here you are Kim Jim your new bedroom do you like it yes I love Do you think we should build a",
+          "start": 42,
+          "end": 55,
+          "matchStart": 112,
+          "matchEnd": 117
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 2",
+      "start": 55,
+      "end": 60,
+      "sentenceText": "playroom here for Kim Jim yeah I think we should",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 55,
+          "end": 60,
+          "text": "playroom here for Kim Jim yeah I think we should",
+          "originalText": "playroom here for Kim Jim yeah I think we should",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 55,
+              "end": 58,
+              "text": "playroom here for Kim Jim yeah I think"
+            },
+            {
+              "id": "c0022",
+              "start": 58,
+              "end": 60,
+              "text": "we should"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0006",
+          "quote": "playroom here for Kim Jim yeah I think we should",
+          "start": 55,
+          "end": 60,
+          "matchStart": 33,
+          "matchEnd": 38
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 3",
+      "start": 70,
+      "end": 85,
+      "sentenceText": "dad you're in the way ah can't you build around me trying to watch The Cricket no well that settles that then oh can we have that cushion it can be a bath for Kim Jim oh yeah let's build a bathroom",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 70,
+          "end": 85,
+          "text": "dad you're in the way ah can't you build around me trying to watch The Cricket no well that settles that then oh can we have that cushion it can be a bath for Kim Jim oh yeah let's build a bathroom",
+          "originalText": "dad you're in the way ah can't you build around me trying to watch The Cricket no well that settles that then oh can we have that cushion it can be a bath for Kim Jim oh yeah let's build a bathroom",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 70,
+              "end": 72,
+              "text": "dad you're in the way ah can't you build"
+            },
+            {
+              "id": "c0024",
+              "start": 72,
+              "end": 75,
+              "text": "around me trying to watch The Cricket no"
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 77,
+              "text": "well that settles that then oh can we"
+            },
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 80,
+              "text": "have that cushion it can be a bath for"
+            },
+            {
+              "id": "c0027",
+              "start": 80,
+              "end": 85,
+              "text": "Kim Jim oh yeah let's build a bathroom"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 70,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 72,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 80,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0007",
+          "quote": "dad you're in the way ah can't you build around me trying to watch The Cricket no well that settles that then oh can we have that cushion it can be a bath for Kim Jim oh yeah let's build a bathroom",
+          "start": 70,
+          "end": 85,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "dad you're in the way ah can't you build around me trying to watch The Cricket no well that settles that then oh can we have that cushion it can be a bath for Kim Jim oh yeah let's build a bathroom",
+          "start": 70,
+          "end": 85,
+          "matchStart": 79,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0007",
+          "quote": "dad you're in the way ah can't you build around me trying to watch The Cricket no well that settles that then oh can we have that cushion it can be a bath for Kim Jim oh yeah let's build a bathroom",
+          "start": 70,
+          "end": 85,
+          "matchStart": 175,
+          "matchEnd": 180
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 4",
+      "start": 88,
+      "end": 94,
+      "sentenceText": "Okay, five and a half metres, that's just too small.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 88,
+          "end": 94,
+          "text": "Okay, five and a half metres, that's just too small.",
+          "originalText": "okay 5 and 1/2 M that's just too small",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 94,
+              "text": "okay 5 and 1/2 M that's just too small"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 88,
+              "end": 94,
+              "text": "Okay, five and a half metres, that's just too small."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "Okay, five and a half metres, that's just too small.",
+          "start": 88,
+          "end": 94,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 5",
+      "start": 94,
+      "end": 99,
+      "sentenceText": "Hey, mind the towel cupboard! Sorry, look, Kimjim, this is your new bathroom.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 94,
+          "end": 99,
+          "text": "Hey, mind the towel cupboard! Sorry, look, Kimjim, this is your new bathroom.",
+          "originalText": "hey mind the towel covero sorry look Kim Jim this is your new bathroom yay thank",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 97,
+              "text": "hey mind the towel covero sorry look Kim"
+            },
+            {
+              "id": "c0030",
+              "start": 97,
+              "end": 99,
+              "text": "Jim this is your new bathroom yay thank"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 94,
+              "end": 96,
+              "text": "Hey, mind the towel cupboard!"
+            },
+            {
+              "id": "c0037",
+              "start": 96,
+              "end": 97,
+              "text": "Sorry, look, Kimjim,"
+            },
+            {
+              "id": "c0038",
+              "start": 97,
+              "end": 99,
+              "text": "this is your new bathroom."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 97,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0009",
+          "quote": "Hey, mind the towel cupboard! Sorry, look, Kimjim, this is your new bathroom.",
+          "start": 94,
+          "end": 99,
+          "matchStart": 30,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0009",
+          "quote": "Hey, mind the towel cupboard! Sorry, look, Kimjim, this is your new bathroom.",
+          "start": 94,
+          "end": 99,
+          "matchStart": 37,
+          "matchEnd": 41
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 6",
+      "start": 99,
+      "end": 108,
+      "sentenceText": "you but we hungry now oh yeah it's your dinner time where should we eat let's build a dining",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 99,
+          "end": 108,
+          "text": "you but we hungry now oh yeah it's your dinner time where should we eat let's build a dining",
+          "originalText": "you but we hungry now oh yeah it's your dinner time where should we eat let's build a dining",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 99,
+              "end": 103,
+              "text": "you but we hungry now oh yeah it's your"
+            },
+            {
+              "id": "c0032",
+              "start": 103,
+              "end": 105,
+              "text": "dinner time where should we eat let's"
+            },
+            {
+              "id": "c0033",
+              "start": 105,
+              "end": 108,
+              "text": "build a dining"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 99,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 103,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0010",
+          "quote": "you but we hungry now oh yeah it's your dinner time where should we eat let's build a dining",
+          "start": 99,
+          "end": 108,
+          "matchStart": 52,
+          "matchEnd": 57
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0010",
+          "quote": "you but we hungry now oh yeah it's your dinner time where should we eat let's build a dining",
+          "start": 99,
+          "end": 108,
+          "matchStart": 72,
+          "matchEnd": 77
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 7",
+      "start": 114,
+      "end": 124,
+      "sentenceText": "room finished eaing mommy Kim Jim you ate all your dinner well done Done!",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 114,
+          "end": 124,
+          "text": "room finished eaing mommy Kim Jim you ate all your dinner well done Done!",
+          "originalText": "room finished eaing mommy Kim Jim you ate all your dinner well done done",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 114,
+              "end": 118,
+              "text": "room finished eaing mommy Kim Jim you"
+            },
+            {
+              "id": "c0035",
+              "start": 118,
+              "end": 121,
+              "text": "ate all your dinner well done"
+            },
+            {
+              "id": "c0036",
+              "start": 121,
+              "end": 124,
+              "text": "done"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0046",
+              "start": 121,
+              "end": 124,
+              "text": "Done!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 114,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "finished",
+          "cueId": "c0011",
+          "quote": "room finished eaing mommy Kim Jim you ate all your dinner well done Done!",
+          "start": 114,
+          "end": 124,
+          "matchStart": 5,
+          "matchEnd": 13
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

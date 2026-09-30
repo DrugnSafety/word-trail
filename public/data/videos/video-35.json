@@ -1,0 +1,1740 @@
+{
+  "id": "video-35",
+  "number": 35,
+  "title": "That Was a Big One",
+  "duration": 123,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=mJi6mR_yo-I",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/35_That Was a Big One.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/35_That Was a Big One.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "That Was a Big One",
+      "start": 0,
+      "end": 123,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 5,
+      "sentenceText": "Come here, eggies! Not you, celery! I'll get that.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 5,
+          "text": "Come here, eggies! Not you, celery! I'll get that.",
+          "originalText": "come here and use not you celery i'll get that",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "come here and use"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "text": "not you celery i'll get that"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "Come here, eggies!"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "text": "Not you, celery! I'll get that."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-here",
+          "cueId": "c0001",
+          "quote": "Come here, eggies! Not you, celery! I'll get that.",
+          "start": 0,
+          "end": 5,
+          "matchStart": 0,
+          "matchEnd": 9
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 5,
+      "end": 13,
+      "sentenceText": "Oh. Do you want me to carry those for you? It's okay, I'm almost there!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 5,
+          "end": 13,
+          "text": "Oh. Do you want me to carry those for you? It's okay, I'm almost there!",
+          "originalText": "oh do you want me to carry those for you no it's okay i'm on my step",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 6,
+              "text": "oh"
+            },
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 9,
+              "text": "do you want me to carry those for you no"
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 13,
+              "text": "it's okay i'm on my step"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 6,
+              "text": "Oh."
+            },
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 9,
+              "text": "Do you want me to carry those for you?"
+            },
+            {
+              "id": "c0006",
+              "start": 9,
+              "end": 13,
+              "text": "It's okay, I'm almost there!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0002",
+          "quote": "Oh. Do you want me to carry those for you? It's okay, I'm almost there!",
+          "start": 5,
+          "end": 13,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "Oh. Do you want me to carry those for you? It's okay, I'm almost there!",
+          "start": 5,
+          "end": 13,
+          "matchStart": 48,
+          "matchEnd": 52
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 13,
+      "end": 21,
+      "sentenceText": "oops it's okay i'll clean it up no i can do it okay here's the paper towels And... ah!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 13,
+          "end": 21,
+          "text": "oops it's okay i'll clean it up no i can do it okay here's the paper towels And... ah!",
+          "originalText": "oops it's okay i'll clean it up no i can do it okay here's the paper towels and",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 16,
+              "text": "oops it's okay i'll clean it up no i can"
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 20,
+              "text": "do it okay here's the paper towels"
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 21,
+              "text": "and"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 20,
+              "end": 21,
+              "text": "And... ah!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "oops it's okay i'll clean it up no i can do it okay here's the paper towels And... ah!",
+          "start": 13,
+          "end": 21,
+          "matchStart": 10,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "oops it's okay i'll clean it up no i can do it okay here's the paper towels And... ah!",
+          "start": 13,
+          "end": 21,
+          "matchStart": 32,
+          "matchEnd": 34
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 21,
+      "end": 30,
+      "sentenceText": "I'll make a start on the omelette, honey. i'll just crack the eggs can i help wrap the eggies um sure honey how about i sort this out and you get started on the eggs?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 21,
+          "end": 30,
+          "text": "I'll make a start on the omelette, honey. i'll just crack the eggs can i help wrap the eggies um sure honey how about i sort this out and you get started on the eggs?",
+          "originalText": "i'll make a start on the omelette honey i'll just crack the eggs can i help wrap the eggies um sure honey how about i sort this out and you get started on the",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "text": "i'll make a start on the omelette honey"
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 25,
+              "text": "i'll just crack the eggs can i help wrap"
+            },
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "text": "the eggies um sure honey how about i"
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 30,
+              "text": "sort this out and you get started on the"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0012",
+              "start": 21,
+              "end": 23,
+              "text": "I'll make a start on the omelette, honey."
+            },
+            {
+              "id": "c0016",
+              "start": 28,
+              "end": 30,
+              "text": "sort this out and you get started on the eggs?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0004",
+          "quote": "I'll make a start on the omelette, honey. i'll just crack the eggs can i help wrap the eggies um sure honey how about i sort this out and you get started on the eggs?",
+          "start": 21,
+          "end": 30,
+          "matchStart": 67,
+          "matchEnd": 72
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0004",
+          "quote": "I'll make a start on the omelette, honey. i'll just crack the eggs can i help wrap the eggies um sure honey how about i sort this out and you get started on the eggs?",
+          "start": 21,
+          "end": 30,
+          "matchStart": 73,
+          "matchEnd": 77
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0004",
+          "quote": "I'll make a start on the omelette, honey. i'll just crack the eggs can i help wrap the eggies um sure honey how about i sort this out and you get started on the eggs?",
+          "start": 21,
+          "end": 30,
+          "matchStart": 97,
+          "matchEnd": 101
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0004",
+          "quote": "I'll make a start on the omelette, honey. i'll just crack the eggs can i help wrap the eggies um sure honey how about i sort this out and you get started on the eggs?",
+          "start": 21,
+          "end": 30,
+          "matchStart": 108,
+          "matchEnd": 111
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 30,
+      "end": 45,
+      "sentenceText": "eggs grab a silver bowl from the cupboard okay Is this one okay? Oh, man. getting hungry",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 30,
+          "end": 45,
+          "text": "eggs grab a silver bowl from the cupboard okay Is this one okay? Oh, man. getting hungry",
+          "originalText": "eggs grab a silver bowl from the cupboard okay is this one okay oh man getting hungry",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 30,
+              "end": 32,
+              "text": "eggs grab a silver bowl from the"
+            },
+            {
+              "id": "c0014",
+              "start": 32,
+              "end": 35,
+              "text": "cupboard okay"
+            },
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 41,
+              "text": "is this one okay"
+            },
+            {
+              "id": "c0016",
+              "start": 41,
+              "end": 42,
+              "text": "oh man"
+            },
+            {
+              "id": "c0017",
+              "start": 42,
+              "end": 45,
+              "text": "getting hungry"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 37,
+              "end": 41,
+              "text": "Is this one okay?"
+            },
+            {
+              "id": "c0020",
+              "start": 41,
+              "end": 42,
+              "text": "Oh, man."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 30,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 32,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 41,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "eggs grab a silver bowl from the cupboard okay Is this one okay? Oh, man. getting hungry",
+          "start": 30,
+          "end": 45,
+          "matchStart": 42,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 48,
+      "end": 53,
+      "sentenceText": "How many eggs are in an omelette? Um... three or four. I'm hungry!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 48,
+          "end": 53,
+          "text": "How many eggs are in an omelette? Um... three or four. I'm hungry!",
+          "originalText": "how many eggs are in an omelette um three or four i'm hungry",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 50,
+              "text": "how many eggs are in an omelette um"
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 53,
+              "text": "three or four i'm hungry"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 48,
+              "end": 50,
+              "text": "How many eggs are in an omelette?"
+            },
+            {
+              "id": "c0023",
+              "start": 50,
+              "end": 52,
+              "text": "Um... three or four."
+            },
+            {
+              "id": "c0024",
+              "start": 52,
+              "end": 53,
+              "text": "I'm hungry!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0006",
+          "quote": "How many eggs are in an omelette? Um... three or four. I'm hungry!",
+          "start": 48,
+          "end": 53,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 53,
+      "end": 58,
+      "sentenceText": "Better make it four. One! Two!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 53,
+          "end": 58,
+          "text": "Better make it four. One! Two!",
+          "originalText": "better make it four one two",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 54,
+              "text": "better make it four"
+            },
+            {
+              "id": "c0021",
+              "start": 54,
+              "end": 56,
+              "text": "one"
+            },
+            {
+              "id": "c0022",
+              "start": 56,
+              "end": 58,
+              "text": "two"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 53,
+              "end": 54,
+              "text": "Better make it four."
+            },
+            {
+              "id": "c0026",
+              "start": 54,
+              "end": 56,
+              "text": "One!"
+            },
+            {
+              "id": "c0027",
+              "start": 56,
+              "end": 58,
+              "text": "Two!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 58,
+      "end": 66,
+      "sentenceText": "Three! Come on, Bingo, a bit quicker.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 58,
+          "end": 66,
+          "text": "Three! Come on, Bingo, a bit quicker.",
+          "originalText": "three come on bingo bit quicker",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 58,
+              "end": 59,
+              "text": "three"
+            },
+            {
+              "id": "c0024",
+              "start": 59,
+              "end": 66,
+              "text": "come on bingo bit quicker"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 58,
+              "end": 59,
+              "text": "Three!"
+            },
+            {
+              "id": "c0029",
+              "start": 59,
+              "end": 66,
+              "text": "Come on, Bingo, a bit quicker."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 58,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 59,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0008",
+          "quote": "Three! Come on, Bingo, a bit quicker.",
+          "start": 58,
+          "end": 66,
+          "matchStart": 7,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 66,
+      "end": 74,
+      "sentenceText": "hey where's four done how are the eggs doing bingo oh yes for Hello?!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 66,
+          "end": 74,
+          "text": "hey where's four done how are the eggs doing bingo oh yes for Hello?!",
+          "originalText": "hey where's four done how are the eggs doing bingo oh yes for hello",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 66,
+              "end": 69,
+              "text": "hey where's four done how are the eggs"
+            },
+            {
+              "id": "c0026",
+              "start": 69,
+              "end": 73,
+              "text": "doing bingo oh yes for"
+            },
+            {
+              "id": "c0027",
+              "start": 73,
+              "end": 74,
+              "text": "hello"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 73,
+              "end": 74,
+              "text": "Hello?!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 66,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 69,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 73,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0009",
+          "quote": "hey where's four done how are the eggs doing bingo oh yes for Hello?!",
+          "start": 66,
+          "end": 74,
+          "matchStart": 4,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0009",
+          "quote": "hey where's four done how are the eggs doing bingo oh yes for Hello?!",
+          "start": 66,
+          "end": 74,
+          "matchStart": 22,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0009",
+          "quote": "hey where's four done how are the eggs doing bingo oh yes for Hello?!",
+          "start": 66,
+          "end": 74,
+          "matchStart": 54,
+          "matchEnd": 57
+        },
+        {
+          "expressionId": "hello",
+          "cueId": "c0009",
+          "quote": "hey where's four done how are the eggs doing bingo oh yes for Hello?!",
+          "start": 66,
+          "end": 74,
+          "matchStart": 62,
+          "matchEnd": 67
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 74,
+      "end": 84,
+      "sentenceText": "is bricky almost ready it's coming okay birthday boy's getting cranky let's get Let's get cracking, Bingo. Ha! Get it? 'Cracking'!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 74,
+          "end": 84,
+          "text": "is bricky almost ready it's coming okay birthday boy's getting cranky let's get Let's get cracking, Bingo. Ha! Get it? 'Cracking'!",
+          "originalText": "is bricky almost ready it's coming okay birthday boy's getting cranky let's get cracking bingo ah getting cracking",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 74,
+              "end": 78,
+              "text": "is bricky almost ready it's coming okay"
+            },
+            {
+              "id": "c0029",
+              "start": 78,
+              "end": 79,
+              "text": "birthday boy's getting cranky let's get"
+            },
+            {
+              "id": "c0030",
+              "start": 79,
+              "end": 84,
+              "text": "cracking bingo ah getting cracking"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0039",
+              "start": 79,
+              "end": 81,
+              "text": "Let's get cracking, Bingo."
+            },
+            {
+              "id": "c0040",
+              "start": 81,
+              "end": 84,
+              "text": "Ha! Get it? 'Cracking'!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 74,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 78,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 79,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0010",
+          "quote": "is bricky almost ready it's coming okay birthday boy's getting cranky let's get Let's get cracking, Bingo. Ha! Get it? 'Cracking'!",
+          "start": 74,
+          "end": 84,
+          "matchStart": 17,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0010",
+          "quote": "is bricky almost ready it's coming okay birthday boy's getting cranky let's get Let's get cracking, Bingo. Ha! Get it? 'Cracking'!",
+          "start": 74,
+          "end": 84,
+          "matchStart": 35,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0010",
+          "quote": "is bricky almost ready it's coming okay birthday boy's getting cranky let's get Let's get cracking, Bingo. Ha! Get it? 'Cracking'!",
+          "start": 74,
+          "end": 84,
+          "matchStart": 70,
+          "matchEnd": 75
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 84,
+      "end": 95,
+      "sentenceText": "Oh, my goodness! Sorry, Bluey! It's okay, i'll clean it up thanks chloe i'll try again honey i'll just hold it for you A bit harder, honey.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 84,
+          "end": 95,
+          "text": "Oh, my goodness! Sorry, Bluey! It's okay, i'll clean it up thanks chloe i'll try again honey i'll just hold it for you A bit harder, honey.",
+          "originalText": "oh my goodness sorry bluey it's okay i'll clean it up thanks chloe i'll try again honey i'll just hold it for you bit harder honey",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 84,
+              "end": 87,
+              "text": "oh my goodness sorry bluey it's okay"
+            },
+            {
+              "id": "c0032",
+              "start": 87,
+              "end": 90,
+              "text": "i'll clean it up thanks chloe i'll try"
+            },
+            {
+              "id": "c0033",
+              "start": 90,
+              "end": 93,
+              "text": "again honey i'll just hold it for you"
+            },
+            {
+              "id": "c0034",
+              "start": 93,
+              "end": 95,
+              "text": "bit harder honey"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 84,
+              "end": 85,
+              "text": "Oh, my goodness!"
+            },
+            {
+              "id": "c0042",
+              "start": 85,
+              "end": 86,
+              "text": "Sorry, Bluey!"
+            },
+            {
+              "id": "c0043",
+              "start": 86,
+              "end": 87,
+              "text": "It's okay,"
+            },
+            {
+              "id": "c0048",
+              "start": 93,
+              "end": 95,
+              "text": "A bit harder, honey."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 84,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 90,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 93,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "try-again",
+          "cueId": "c0011",
+          "quote": "Oh, my goodness! Sorry, Bluey! It's okay, i'll clean it up thanks chloe i'll try again honey i'll just hold it for you A bit harder, honey.",
+          "start": 84,
+          "end": 95,
+          "matchStart": 77,
+          "matchEnd": 86
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0011",
+          "quote": "Oh, my goodness! Sorry, Bluey! It's okay, i'll clean it up thanks chloe i'll try again honey i'll just hold it for you A bit harder, honey.",
+          "start": 84,
+          "end": 95,
+          "matchStart": 17,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0011",
+          "quote": "Oh, my goodness! Sorry, Bluey! It's okay, i'll clean it up thanks chloe i'll try again honey i'll just hold it for you A bit harder, honey.",
+          "start": 84,
+          "end": 95,
+          "matchStart": 36,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0011",
+          "quote": "Oh, my goodness! Sorry, Bluey! It's okay, i'll clean it up thanks chloe i'll try again honey i'll just hold it for you A bit harder, honey.",
+          "start": 84,
+          "end": 95,
+          "matchStart": 81,
+          "matchEnd": 86
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 95,
+      "end": 108,
+      "sentenceText": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 95,
+          "end": 108,
+          "text": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "originalText": "give it a good whack that's too hard oh uh no honey the shells don't go in let's try again okay hello",
+          "originalCueRefs": [
+            {
+              "id": "c0035",
+              "start": 95,
+              "end": 98,
+              "text": "give it a good whack"
+            },
+            {
+              "id": "c0036",
+              "start": 98,
+              "end": 101,
+              "text": "that's too hard oh uh no honey the"
+            },
+            {
+              "id": "c0037",
+              "start": 101,
+              "end": 102,
+              "text": "shells don't go in"
+            },
+            {
+              "id": "c0038",
+              "start": 102,
+              "end": 106,
+              "text": "let's try again okay"
+            },
+            {
+              "id": "c0039",
+              "start": 107,
+              "end": 108,
+              "text": "hello"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0049",
+              "start": 95,
+              "end": 98,
+              "text": "Give it a good whack."
+            },
+            {
+              "id": "c0054",
+              "start": 107,
+              "end": 108,
+              "text": "Hello?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0035",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 98,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 101,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 102,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 107,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "try-again",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 82,
+          "matchEnd": 91
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 10,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 44,
+          "matchEnd": 46
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 76,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 86,
+          "matchEnd": 91
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 92,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "hello",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 97,
+          "matchEnd": 102
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0012",
+          "quote": "Give it a good whack. that's too hard oh uh no honey the shells don't go in let's try again okay Hello?",
+          "start": 95,
+          "end": 108,
+          "matchStart": 64,
+          "matchEnd": 69
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 108,
+      "end": 123,
+      "sentenceText": "Hi, uh... will breakfast be in my mouth soon? it's on its way i'm just letting bingo help me i don't want to complain but Sorry! Was that my breakfast?! That was a big one. I gotta go!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 108,
+          "end": 123,
+          "text": "Hi, uh... will breakfast be in my mouth soon? it's on its way i'm just letting bingo help me i don't want to complain but Sorry! Was that my breakfast?! That was a big one. I gotta go!",
+          "originalText": "hi uh will breakfast be in my mouth soon it's on its way i'm just letting bingo help me i don't want to complain but sorry was that my breakfast that was a big one i gotta go",
+          "originalCueRefs": [
+            {
+              "id": "c0040",
+              "start": 108,
+              "end": 111,
+              "text": "hi uh will breakfast be in my mouth soon"
+            },
+            {
+              "id": "c0041",
+              "start": 111,
+              "end": 114,
+              "text": "it's on its way i'm just letting bingo"
+            },
+            {
+              "id": "c0042",
+              "start": 114,
+              "end": 116,
+              "text": "help me i don't want to complain but"
+            },
+            {
+              "id": "c0043",
+              "start": 116,
+              "end": 119,
+              "text": "sorry was that my breakfast"
+            },
+            {
+              "id": "c0044",
+              "start": 119,
+              "end": 123,
+              "text": "that was a big one i gotta go"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0055",
+              "start": 108,
+              "end": 111,
+              "text": "Hi, uh... will breakfast be in my mouth soon?"
+            },
+            {
+              "id": "c0059",
+              "start": 116,
+              "end": 119,
+              "text": "Sorry! Was that my breakfast?!"
+            },
+            {
+              "id": "c0060",
+              "start": 119,
+              "end": 122,
+              "text": "That was a big one."
+            },
+            {
+              "id": "c0061",
+              "start": 122,
+              "end": 123,
+              "text": "I gotta go!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0040",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 111,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 114,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 116,
+              "end": 119,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 119,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "help",
+          "cueId": "c0013",
+          "quote": "Hi, uh... will breakfast be in my mouth soon? it's on its way i'm just letting bingo help me i don't want to complain but Sorry! Was that my breakfast?! That was a big one. I gotta go!",
+          "start": 108,
+          "end": 123,
+          "matchStart": 85,
+          "matchEnd": 89
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0013",
+          "quote": "Hi, uh... will breakfast be in my mouth soon? it's on its way i'm just letting bingo help me i don't want to complain but Sorry! Was that my breakfast?! That was a big one. I gotta go!",
+          "start": 108,
+          "end": 123,
+          "matchStart": 101,
+          "matchEnd": 105
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0013",
+          "quote": "Hi, uh... will breakfast be in my mouth soon? it's on its way i'm just letting bingo help me i don't want to complain but Sorry! Was that my breakfast?! That was a big one. I gotta go!",
+          "start": 108,
+          "end": 123,
+          "matchStart": 122,
+          "matchEnd": 127
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0013",
+          "quote": "Hi, uh... will breakfast be in my mouth soon? it's on its way i'm just letting bingo help me i don't want to complain but Sorry! Was that my breakfast?! That was a big one. I gotta go!",
+          "start": 108,
+          "end": 123,
+          "matchStart": 164,
+          "matchEnd": 167
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0013",
+          "quote": "Hi, uh... will breakfast be in my mouth soon? it's on its way i'm just letting bingo help me i don't want to complain but Sorry! Was that my breakfast?! That was a big one. I gotta go!",
+          "start": 108,
+          "end": 123,
+          "matchStart": 95,
+          "matchEnd": 100
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

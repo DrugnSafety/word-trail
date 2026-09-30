@@ -1,0 +1,30 @@
+# 46. No Try | The Decider - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=l07BB65eoi4
+- Length: 01:55
+- Captions: YouTube auto-generated English captions
+- Script: 00:05 ~ 01:46
+
+---
+
+- `[00:05 - 00:08]` And there's pizzas coming at half-time,
+- `[00:08 - 00:11]` and Bucko is...
+- `[00:11 - 00:13]` I can't see, Mum?
+- `[00:13 - 00:16]` If your dad is on the purple team
+- `[00:16 - 00:18]` but your mum is on the blue team, then
+- `[00:18 - 00:19]` what team are you on, Mum?
+- `[00:19 - 00:20]` Mum said I could choose either.
+- `[00:20 - 00:24]` My mum and dad are all on the purple team,
+- `[00:24 - 00:25]` so I'm purple, even though
+- `[00:25 - 00:28]` I'm blue. It's confusing. I'm gold.
+- `[00:28 - 00:31]` Is there a gold team? No,
+- `[00:31 - 00:34]` it's just purple or blue. Huh?
+- `[00:34 - 00:38]` Can I help you choose a color? Yes, please.
+- `[00:48 - 00:53]` What do you think about that, Janelle?
+- `[00:55 - 00:59]` Wants to check if Flogger obstructed the
+- `[00:59 - 01:00]` defender on the way through.
+- `[01:00 - 01:04]` Well, there you go. No try!
+- `[01:04 - 01:09]` Come on, what's going on?
+- `[01:09 - 01:14]` You're the... chicks intercepted!
+- `[01:35 - 01:42]` Oh, that's nice,
+- `[01:42 - 01:46]` in ages.

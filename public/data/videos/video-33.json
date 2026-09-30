@@ -1,0 +1,1573 @@
+{
+  "id": "video-33",
+  "number": 33,
+  "title": "Two Bluey's Are Better Than One | Mini Bluey - Series 3 | Bluey",
+  "duration": 130,
+  "declaredDuration": 130,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=RZ65LGgsvrI",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/33_Two Bluey's Are Better Than One.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/33_Two Bluey's Are Better Than One.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Two Bluey's Are Better Than One | Mini Bluey - Series 3 | Bluey",
+      "start": 0,
+      "end": 130,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 7,
+      "sentenceText": "Okay, Mini Bluey, let's learn about me. Hmm... oh! I like to say 'cereal' instead of 'serious'.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 7,
+          "text": "Okay, Mini Bluey, let's learn about me. Hmm... oh! I like to say 'cereal' instead of 'serious'.",
+          "originalText": "okay Minnie Bowie let's learn about me hmm oh I like to say cereal instead of",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "okay Minnie Bowie let's learn about me"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 7,
+              "text": "hmm oh I like to say cereal instead of"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "Okay, Mini Bluey, let's learn about me."
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 4,
+              "text": "Hmm... oh!"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "I like to say 'cereal' instead of 'serious'."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "Okay, Mini Bluey, let's learn about me. Hmm... oh! I like to say 'cereal' instead of 'serious'.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0001",
+          "quote": "Okay, Mini Bluey, let's learn about me. Hmm... oh! I like to say 'cereal' instead of 'serious'.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 18,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0001",
+          "quote": "Okay, Mini Bluey, let's learn about me. Hmm... oh! I like to say 'cereal' instead of 'serious'.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 53,
+          "matchEnd": 57
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 7,
+      "end": 21,
+      "sentenceText": "Oh, and I'll show you how I dance. I like to do this sort of thing, sometimes this yep that's it and I sort of just talk all the time it doesn't even need to make sense just noises are",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 7,
+          "end": 21,
+          "text": "Oh, and I'll show you how I dance. I like to do this sort of thing, sometimes this yep that's it and I sort of just talk all the time it doesn't even need to make sense just noises are",
+          "originalText": "serious oh and I'll show you how I dance I like to do this sort of thing and sometimes this yep that's it and I sort of just talk all the time it doesn't even need to make sense just noises are",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 9,
+              "text": "serious oh and I'll show you how I dance"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 13,
+              "text": "I like to do this sort of thing and"
+            },
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 17,
+              "text": "sometimes this yep that's it and I sort"
+            },
+            {
+              "id": "c0006",
+              "start": 17,
+              "end": 19,
+              "text": "of just talk all the time it doesn't"
+            },
+            {
+              "id": "c0007",
+              "start": 19,
+              "end": 21,
+              "text": "even need to make sense just noises are"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "Oh, and I'll show you how I dance."
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 13,
+              "text": "I like to do this sort of thing,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 17,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 19,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0002",
+          "quote": "Oh, and I'll show you how I dance. I like to do this sort of thing, sometimes this yep that's it and I sort of just talk all the time it doesn't even need to make sense just noises are",
+          "start": 7,
+          "end": 21,
+          "matchStart": 87,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0002",
+          "quote": "Oh, and I'll show you how I dance. I like to do this sort of thing, sometimes this yep that's it and I sort of just talk all the time it doesn't even need to make sense just noises are",
+          "start": 7,
+          "end": 21,
+          "matchStart": 22,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0002",
+          "quote": "Oh, and I'll show you how I dance. I like to do this sort of thing, sometimes this yep that's it and I sort of just talk all the time it doesn't even need to make sense just noises are",
+          "start": 7,
+          "end": 21,
+          "matchStart": 37,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0002",
+          "quote": "Oh, and I'll show you how I dance. I like to do this sort of thing, sometimes this yep that's it and I sort of just talk all the time it doesn't even need to make sense just noises are",
+          "start": 7,
+          "end": 21,
+          "matchStart": 150,
+          "matchEnd": 154
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 21,
+      "end": 24,
+      "sentenceText": "fine",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 21,
+          "end": 24,
+          "text": "fine",
+          "originalText": "fine",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 21,
+              "end": 24,
+              "text": "fine"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 21,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 35,
+      "end": 48,
+      "sentenceText": "A bit louder! yeah that's great I like to just leave my toys on the ground away yeah it doesn't make much",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 35,
+          "end": 48,
+          "text": "A bit louder! yeah that's great I like to just leave my toys on the ground away yeah it doesn't make much",
+          "originalText": "a bit louder yeah that's great I like to just leave my toys on the ground away yeah it doesn't make much",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 35,
+              "end": 38,
+              "text": "a bit louder"
+            },
+            {
+              "id": "c0010",
+              "start": 38,
+              "end": 42,
+              "text": "yeah that's great I like to just leave"
+            },
+            {
+              "id": "c0011",
+              "start": 42,
+              "end": 45,
+              "text": "my toys on the ground"
+            },
+            {
+              "id": "c0012",
+              "start": 45,
+              "end": 48,
+              "text": "away yeah it doesn't make much"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 35,
+              "end": 38,
+              "text": "A bit louder!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 35,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 38,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "great",
+          "cueId": "c0004",
+          "quote": "A bit louder! yeah that's great I like to just leave my toys on the ground away yeah it doesn't make much",
+          "start": 35,
+          "end": 48,
+          "matchStart": 26,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0004",
+          "quote": "A bit louder! yeah that's great I like to just leave my toys on the ground away yeah it doesn't make much",
+          "start": 35,
+          "end": 48,
+          "matchStart": 34,
+          "matchEnd": 38
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 48,
+      "end": 59,
+      "sentenceText": "difference where is it four four four I like to ask a lot of questions mom what are you You know what I'm doing, Blue.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 48,
+          "end": 59,
+          "text": "difference where is it four four four I like to ask a lot of questions mom what are you You know what I'm doing, Blue.",
+          "originalText": "difference where is it four four four I like to ask a lot of questions mom what are you doing you know what I'm doing blue I",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 48,
+              "end": 49,
+              "text": "difference"
+            },
+            {
+              "id": "c0014",
+              "start": 49,
+              "end": 54,
+              "text": "where is it four four four I like to ask"
+            },
+            {
+              "id": "c0015",
+              "start": 54,
+              "end": 56,
+              "text": "a lot of questions mom what are you"
+            },
+            {
+              "id": "c0016",
+              "start": 56,
+              "end": 59,
+              "text": "doing you know what I'm doing blue I"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 56,
+              "end": 59,
+              "text": "You know what I'm doing, Blue."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 48,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 49,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 56,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0005",
+          "quote": "difference where is it four four four I like to ask a lot of questions mom what are you You know what I'm doing, Blue.",
+          "start": 48,
+          "end": 59,
+          "matchStart": 11,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0005",
+          "quote": "difference where is it four four four I like to ask a lot of questions mom what are you You know what I'm doing, Blue.",
+          "start": 48,
+          "end": 59,
+          "matchStart": 40,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "difference where is it four four four I like to ask a lot of questions mom what are you You know what I'm doing, Blue.",
+          "start": 48,
+          "end": 59,
+          "matchStart": 75,
+          "matchEnd": 79
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0005",
+          "quote": "difference where is it four four four I like to ask a lot of questions mom what are you You know what I'm doing, Blue.",
+          "start": 48,
+          "end": 59,
+          "matchStart": 92,
+          "matchEnd": 96
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 59,
+      "end": 74,
+      "sentenceText": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 59,
+          "end": 74,
+          "text": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "originalText": "don't really listen to the whole answer and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 59,
+              "end": 60,
+              "text": "don't really listen to the whole answer"
+            },
+            {
+              "id": "c0018",
+              "start": 60,
+              "end": 63,
+              "text": "and if I see a bum I give it a little"
+            },
+            {
+              "id": "c0019",
+              "start": 63,
+              "end": 68,
+              "text": "bomb get it get out of it hey please I"
+            },
+            {
+              "id": "c0020",
+              "start": 68,
+              "end": 69,
+              "text": "need you to pick up these grass"
+            },
+            {
+              "id": "c0021",
+              "start": 69,
+              "end": 70,
+              "text": "clippings and put them in the"
+            },
+            {
+              "id": "c0022",
+              "start": 70,
+              "end": 74,
+              "text": "wheelbarrow yes Father whoa whoa where"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0018",
+              "start": 59,
+              "end": 60,
+              "text": "I don't really listen to the whole answer."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 59,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 60,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 63,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 68,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 69,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 70,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "listen",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 15,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 52,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 74,
+          "matchEnd": 80
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 111,
+          "matchEnd": 117
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 120,
+          "matchEnd": 124
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 194,
+          "matchEnd": 197
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 215,
+          "matchEnd": 220
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0006",
+          "quote": "I don't really listen to the whole answer. and if I see a bum I give it a little bomb get it get out of it hey please I need you to pick up these grass clippings and put them in the wheelbarrow yes Father whoa whoa where",
+          "start": 59,
+          "end": 74,
+          "matchStart": 2,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 74,
+      "end": 84,
+      "sentenceText": "where you're going to help Dad I like wheelbarrows Bingo likes wheelbarrows Bingo helps Dad. You're Mini Bluey now.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 74,
+          "end": 84,
+          "text": "where you're going to help Dad I like wheelbarrows Bingo likes wheelbarrows Bingo helps Dad. You're Mini Bluey now.",
+          "originalText": "where you're going to help Dad I like wheelbarrows Bingo likes wheelbarrows Bingo helps dad you're Minnie Bowie now",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 74,
+              "end": 77,
+              "text": "where you're going to help Dad I like"
+            },
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 80,
+              "text": "wheelbarrows Bingo likes wheelbarrows"
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 84,
+              "text": "Bingo helps dad you're Minnie Bowie now"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 80,
+              "end": 84,
+              "text": "Bingo helps Dad. You're Mini Bluey now."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 74,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0007",
+          "quote": "where you're going to help Dad I like wheelbarrows Bingo likes wheelbarrows Bingo helps Dad. You're Mini Bluey now.",
+          "start": 74,
+          "end": 84,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0007",
+          "quote": "where you're going to help Dad I like wheelbarrows Bingo likes wheelbarrows Bingo helps Dad. You're Mini Bluey now.",
+          "start": 74,
+          "end": 84,
+          "matchStart": 22,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0007",
+          "quote": "where you're going to help Dad I like wheelbarrows Bingo likes wheelbarrows Bingo helps Dad. You're Mini Bluey now.",
+          "start": 74,
+          "end": 84,
+          "matchStart": 27,
+          "matchEnd": 30
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0007",
+          "quote": "where you're going to help Dad I like wheelbarrows Bingo likes wheelbarrows Bingo helps Dad. You're Mini Bluey now.",
+          "start": 74,
+          "end": 84,
+          "matchStart": 33,
+          "matchEnd": 37
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 84,
+      "end": 92,
+      "sentenceText": "oh yeah and blurry does not like grass clippings I'll tell you that for free but Dad said we have to do it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 84,
+          "end": 92,
+          "text": "oh yeah and blurry does not like grass clippings I'll tell you that for free but Dad said we have to do it.",
+          "originalText": "oh yeah and blurry does not like grass clippings I'll tell you that for free but Dad said we have to do it let's find",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 84,
+              "end": 87,
+              "text": "oh yeah and blurry does not like grass"
+            },
+            {
+              "id": "c0027",
+              "start": 87,
+              "end": 89,
+              "text": "clippings I'll tell you that for free"
+            },
+            {
+              "id": "c0028",
+              "start": 89,
+              "end": 92,
+              "text": "but Dad said we have to do it let's find"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 89,
+              "end": 92,
+              "text": "but Dad said we have to do it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 84,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 87,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 89,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0008",
+          "quote": "oh yeah and blurry does not like grass clippings I'll tell you that for free but Dad said we have to do it.",
+          "start": 84,
+          "end": 92,
+          "matchStart": 93,
+          "matchEnd": 100
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0008",
+          "quote": "oh yeah and blurry does not like grass clippings I'll tell you that for free but Dad said we have to do it.",
+          "start": 84,
+          "end": 92,
+          "matchStart": 28,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0008",
+          "quote": "oh yeah and blurry does not like grass clippings I'll tell you that for free but Dad said we have to do it.",
+          "start": 84,
+          "end": 92,
+          "matchStart": 81,
+          "matchEnd": 84
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 92,
+      "end": 106,
+      "sentenceText": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 92,
+          "end": 106,
+          "text": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "originalText": "out if he's cereal um excuse me big fella here we go the glass clippings you're talking about why don't we have to put them in the wheelbarrow they don't belong to us well you know all that food in the fridge that doesn't belong to you either but if",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 94,
+              "text": "out if he's cereal"
+            },
+            {
+              "id": "c0030",
+              "start": 94,
+              "end": 97,
+              "text": "um excuse me big fella here we go the"
+            },
+            {
+              "id": "c0031",
+              "start": 97,
+              "end": 99,
+              "text": "glass clippings you're talking about why"
+            },
+            {
+              "id": "c0032",
+              "start": 99,
+              "end": 100,
+              "text": "don't we have to put them in the"
+            },
+            {
+              "id": "c0033",
+              "start": 100,
+              "end": 103,
+              "text": "wheelbarrow they don't belong to us well"
+            },
+            {
+              "id": "c0034",
+              "start": 103,
+              "end": 104,
+              "text": "you know all that food in the fridge"
+            },
+            {
+              "id": "c0035",
+              "start": 104,
+              "end": 106,
+              "text": "that doesn't belong to you either but if"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0030",
+              "start": 92,
+              "end": 94,
+              "text": "Let's find out if he's 'cereal'."
+            },
+            {
+              "id": "c0031",
+              "start": 94,
+              "end": 97,
+              "text": "Um, excuse me, big fella, here we go,"
+            },
+            {
+              "id": "c0032",
+              "start": 97,
+              "end": 99,
+              "text": "the grass clippings you're talking about, why don't we"
+            },
+            {
+              "id": "c0035",
+              "start": 103,
+              "end": 104,
+              "text": "Well, you know all that food in the fridge"
+            },
+            {
+              "id": "c0036",
+              "start": 104,
+              "end": 106,
+              "text": "that doesn't belong to you either,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 97,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 99,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 100,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 103,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 104,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "excuse-me",
+          "cueId": "c0009",
+          "quote": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "start": 92,
+          "end": 106,
+          "matchStart": 37,
+          "matchEnd": 46
+        },
+        {
+          "expressionId": "have-to",
+          "cueId": "c0009",
+          "quote": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "start": 92,
+          "end": 106,
+          "matchStart": 135,
+          "matchEnd": 142
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0009",
+          "quote": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "start": 92,
+          "end": 106,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0009",
+          "quote": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "start": 92,
+          "end": 106,
+          "matchStart": 48,
+          "matchEnd": 51
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0009",
+          "quote": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "start": 92,
+          "end": 106,
+          "matchStart": 113,
+          "matchEnd": 116
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0009",
+          "quote": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "start": 92,
+          "end": 106,
+          "matchStart": 210,
+          "matchEnd": 214
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "Let's find out if he's 'cereal'. Um, excuse me, big fella, here we go, the grass clippings you're talking about, why don't we don't we have to put them in the wheelbarrow they don't belong to us well Well, you know all that food in the fridge that doesn't belong to you either,",
+          "start": 92,
+          "end": 106,
+          "matchStart": 117,
+          "matchEnd": 122
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 106,
+      "end": 117,
+      "sentenceText": "you want to keep eating it I suggest you get to work okay he's through Mini Bluey, that's quite loud.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 106,
+          "end": 117,
+          "text": "you want to keep eating it I suggest you get to work okay he's through Mini Bluey, that's quite loud.",
+          "originalText": "you want to keep eating it I suggest you get to work okay he's through mini Bluey that's quite loud",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 106,
+              "end": 108,
+              "text": "you want to keep eating it I suggest you"
+            },
+            {
+              "id": "c0037",
+              "start": 108,
+              "end": 112,
+              "text": "get to work okay he's through"
+            },
+            {
+              "id": "c0038",
+              "start": 114,
+              "end": 117,
+              "text": "mini Bluey that's quite loud"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0040",
+              "start": 114,
+              "end": 117,
+              "text": "Mini Bluey, that's quite loud."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 106,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 108,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 114,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0010",
+          "quote": "you want to keep eating it I suggest you get to work okay he's through Mini Bluey, that's quite loud.",
+          "start": 106,
+          "end": 117,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0010",
+          "quote": "you want to keep eating it I suggest you get to work okay he's through Mini Bluey, that's quite loud.",
+          "start": 106,
+          "end": 117,
+          "matchStart": 53,
+          "matchEnd": 57
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 117,
+      "end": 130,
+      "sentenceText": "I don't really sing when I'm doing chores. chores I usually winch and do the job a lot slower than what you're doing well laughs",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 117,
+          "end": 130,
+          "text": "I don't really sing when I'm doing chores. chores I usually winch and do the job a lot slower than what you're doing well laughs",
+          "originalText": "I don't really sing when I'm doing chores I usually winch and do the job a lot slower than what you're doing well laughs",
+          "originalCueRefs": [
+            {
+              "id": "c0039",
+              "start": 117,
+              "end": 119,
+              "text": "I don't really sing when I'm doing"
+            },
+            {
+              "id": "c0040",
+              "start": 119,
+              "end": 123,
+              "text": "chores I usually winch and do the job a"
+            },
+            {
+              "id": "c0041",
+              "start": 123,
+              "end": 126,
+              "text": "lot slower than what you're doing well"
+            },
+            {
+              "id": "c0042",
+              "start": 126,
+              "end": 130,
+              "text": "laughs"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 117,
+              "end": 119,
+              "text": "I don't really sing when I'm doing chores."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0039",
+              "start": 117,
+              "end": 119,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 119,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 123,
+              "end": 126,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 126,
+              "end": 130,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "I don't really sing when I'm doing chores. chores I usually winch and do the job a lot slower than what you're doing well laughs",
+          "start": 117,
+          "end": 130,
+          "matchStart": 99,
+          "matchEnd": 103
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0011",
+          "quote": "I don't really sing when I'm doing chores. chores I usually winch and do the job a lot slower than what you're doing well laughs",
+          "start": 117,
+          "end": 130,
+          "matchStart": 2,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

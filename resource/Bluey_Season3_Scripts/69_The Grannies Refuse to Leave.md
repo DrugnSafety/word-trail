@@ -1,0 +1,66 @@
+# 69. The Grannies Refuse to Leave 🏠 | BRAND NEW CLIP - Ghostbasket 👻🧺 | Bluey
+
+- Video: https://www.youtube.com/watch?v=JTmE3xY-mBw
+- Length: 02:04
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:04
+
+---
+
+- `[00:00 - 00:03]` Notice the lovely period floorboards?
+- `[00:03 - 00:05]` Is anyone living here at the moment?
+- `[00:05 - 00:08]` Yes, but they're not home.
+- `[00:08 - 00:09]` Is everything okay?
+- `[00:09 - 00:12]` Uh, I'll be right back.
+- `[00:12 - 00:13]` What are you doing here?
+- `[00:13 - 00:15]` You said you'd be at lawn bowls.
+- `[00:15 - 00:17]` Phyllis had to cancel.
+- `[00:17 - 00:21]` Yeah, she went water-skiing.
+- `[00:21 - 00:22]` Well, beat it, you old fossils!
+- `[00:22 - 00:24]` I'm trying to sell this place.
+- `[00:24 - 00:27]` We don't want you to sell this place.
+- `[00:27 - 00:29]` Yeah. Look, we've been through this.
+- `[00:29 - 00:30]` It's not up to me.
+- `[00:30 - 00:32]` Your kids are sticking you in an old codger's home,
+- `[00:32 - 00:33]` and they told me to sell it.
+- `[00:33 - 00:35]` Those cheeky kids.
+- `[00:35 - 00:38]` If you've got a problem, take it up with them.
+- `[00:38 - 00:40]` But please let me get on with my job.
+- `[00:40 - 00:44]` But we've lived in this house for 50 years.
+- `[00:44 - 00:44]` No, you haven't!
+- `[00:44 - 00:47]` You won it in a raffle at the surf club last April.
+- `[00:47 - 00:48]` Did we?
+- `[00:48 - 00:50]` Yes. Look, just stay out of my way.
+- `[00:50 - 00:55]` Okay. Okay, love. We will.
+- `[00:55 - 00:59]` Please come in.
+- `[00:59 - 01:03]` So, here we have a lovely period.
+- `[01:03 - 01:05]` Don't look at me.
+- `[01:05 - 01:07]` What was that?
+- `[01:07 - 01:10]` Uh, let's just check out the kitchen, shall we?
+- `[01:10 - 01:12]` Uh, oven, stove, fridge.
+- `[01:12 - 01:14]` Uh, you got some drawers they can open and shut.
+- `[01:14 - 01:15]` All righty. Onto the living room.
+- `[01:15 - 01:16]` Well, hang on.
+- `[01:16 - 01:18]` I like these worktops.
+- `[01:18 - 01:20]` Is this Silky Oak?
+- `[01:20 - 01:23]` Here comes the grannies!
+- `[01:23 - 01:23]` Okay.
+- `[01:23 - 01:25]` Yeah, I was just asking.
+- `[01:25 - 01:27]` Uh, why don't you check out the spacious dining room?
+- `[01:27 - 01:29]` I'll be right back.
+- `[01:29 - 01:31]` What do you think you're doing?
+- `[01:31 - 01:35]` We told you, you're not selling our house.
+- `[01:35 - 01:36]` Look, relax.
+- `[01:36 - 01:38]` I don't think she's interested anyway.
+- `[01:38 - 01:40]` I'm interested.
+- `[01:40 - 01:41]` No! Bad grannies!
+- `[01:41 - 01:43]` Oh, and who is this?
+- `[01:43 - 01:46]` Oh, uh, this is... Rita and Janet!
+- `[01:46 - 01:48]` And this is our house!
+- `[01:48 - 01:49]` Not for long.
+- `[01:49 - 01:53]` I think I want to buy it.
+- `[01:53 - 01:54]` Really?
+- `[01:55 - 01:58]` Wow, deary. Has he told you about the
+- `[01:58 - 02:00]` custom fittings in the en suite?
+- `[02:00 - 02:00]` Oh, no.
+- `[02:00 - 02:04]` But I can if you like.

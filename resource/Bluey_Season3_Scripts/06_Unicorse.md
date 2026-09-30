@@ -1,0 +1,180 @@
+# 06. Unicorse
+
+- Video: https://www.youtube.com/watch?v=gvaeBYeN70g
+- Length: 07:00
+- Captions: YouTube auto-generated English captions
+- Script: 00:16 ~ 07:01
+
+---
+
+- `[00:16 - 00:26]` Dad?
+- `[00:26 - 00:28]` Bing, okay, she's asleep.
+- `[00:28 - 00:30]` What do you want to watch tonight?
+- `[00:30 - 00:33]` Do you watch TV after we go to sleep?
+- `[00:33 - 00:34]` Bluey! Not again.
+- `[00:34 - 00:36]` Come on, back to bed.
+- `[00:36 - 00:37]` I don't want to go to bed.
+- `[00:37 - 00:38]` Too bad, kid.
+- `[00:38 - 00:41]` But why do we have to sleep?
+- `[00:41 - 00:43]` Why can't we just stay awake all night?
+- `[00:43 - 00:45]` 'Cause that's the way the world is.
+- `[00:45 - 00:46]` Well, I'm going to make it
+- `[00:46 - 00:48]` so that's not how the world is.
+- `[00:48 - 00:50]` That might be tricky.
+- `[00:50 - 00:51]` People like to sleep.
+- `[00:51 - 00:53]` Well, I'll take everyone's bed to the dump.
+- `[00:53 - 00:55]` Yeah, they'll probably just sleep on the couch.
+- `[00:55 - 00:58]` Well, I'll take the couches to the dump too.
+- `[00:58 - 01:00]` Oh, sounds like a big job.
+- `[01:00 - 01:02]` You'll need a full night's sleep for that.
+- `[01:02 - 01:04]` Yeah, I will. 'Night.
+- `[01:04 - 01:05]` Hey, wait, no!
+- `[01:05 - 01:07]` Come on, I'll read you a story.
+- `[01:07 - 01:10]` You know she can't help it.
+- `[01:10 - 01:12]` I know. Can you help me?
+- `[01:12 - 01:13]` Oh, yeah, I've got an idea.
+- `[01:13 - 01:15]` Wait, is it a bad idea?
+- `[01:15 - 01:18]` Mum, are you grumpy with me?
+- `[01:18 - 01:20]` No, honey, I'm okay.
+- `[01:20 - 01:21]` Come on.
+- `[01:21 - 01:23]` Once upon a time, there was a village.
+- `[01:23 - 01:25]` Are you sure you're not grumpy?
+- `[01:25 - 01:28]` No, I just want you to go to sleep.
+- `[01:28 - 01:30]` And in the village...
+- `[01:30 - 01:31]` Unicorse!
+- `[01:31 - 01:33]` Oh, no, not Unicorse.
+- `[01:33 - 01:35]` This episode of Bluey, unfortunately,
+- `[01:35 - 01:38]` is called Unicorse.
+- `[01:38 - 01:40]` Watch the horn! What are we reading?
+- `[01:40 - 01:41]` Well, it's a story...
+- `[01:41 - 01:43]` Here, read this.
+- `[01:43 - 01:45]` It's got a unicorn in it.
+- `[01:45 - 01:46]` I'm not reading that.
+- `[01:46 - 01:48]` Fine, I'll read it.
+- `[01:48 - 01:50]` On up on... uh...
+- `[01:50 - 01:52]` I wish I could read!
+- `[01:52 - 01:56]` Unicorse, Bluey is finding it a little hard to get to sleep,
+- `[01:56 - 01:59]` so we're actually trying to calm things down a bit.
+- `[01:59 - 02:02]` Well, it's gonna be hard,
+- `[02:02 - 02:04]` 'cause Bingo's asleep.
+- `[02:04 - 02:06]` I don't care.
+- `[02:06 - 02:08]` What? So, how about you
+- `[02:08 - 02:10]` and your little mate jog on?
+- `[02:10 - 02:12]` I ain't going nowhere, toots.
+- `[02:12 - 02:14]` My name is Chilli.
+- `[02:14 - 02:17]` Oh, I'm sorry, Silly.
+- `[02:17 - 02:17]` Chilli.
+- `[02:17 - 02:20]` Billy. Yeah, that's what I said.
+- `[02:20 - 02:22]` Oh, Mum, please can Unicorse stay?
+- `[02:22 - 02:25]` Bluey, he's the most annoying unicorn in the world.
+- `[02:25 - 02:26]` Guilty!
+- `[02:26 - 02:28]` But I can turn him into a nice unicorn.
+- `[02:28 - 02:31]` I promise I can. Unicorse?
+- `[02:31 - 02:32]` Don't listen to him.
+- `[02:32 - 02:34]` Please, can he stay?
+- `[02:34 - 02:37]` Fine. But we're reading this book, not yours.
+- `[02:37 - 02:40]` You will live to regret that.
+- `[02:40 - 02:42]` Once upon a time there was a village,
+- `[02:42 - 02:46]` and in the village, everyone walked around barefoot.
+- `[02:46 - 02:46]` Ah, yay!
+- `[02:46 - 02:50]` Unicorse, I can't see the page!
+- `[02:50 - 02:52]` Why should I care?
+- `[02:52 - 02:54]` I forgot about the catchphrase.
+- `[02:54 - 02:55]` If you block the words,
+- `[02:55 - 02:57]` Mum can't read the story.
+- `[02:57 - 03:00]` And, uh... I should have known.
+- `[03:00 - 03:02]` Look, the stories are nice.
+- `[03:02 - 03:05]` My story was nice, it had a unicorn in it.
+- `[03:05 - 03:09]` This one has zero unicorns and the ending is boring.
+- `[03:09 - 03:10]` She just makes...
+- `[03:10 - 03:12]` Don't spoil the ending!
+- `[03:12 - 03:13]` Why not?
+- `[03:13 - 03:15]` 'Cause Bluey hasn't heard it.
+- `[03:15 - 03:17]` What? Should I get, Unicorse?
+- `[03:17 - 03:21]` I'm trying to make you a nice unicorse.
+- `[03:21 - 03:22]` Okay, okay, okay.
+- `[03:22 - 03:23]` Please continue, Millie.
+- `[03:23 - 03:26]` I won't spoil the ending
+- `[03:26 - 03:29]` where she makes shoes.
+- `[03:29 - 03:30]` Woo! Woo!
+- `[03:30 - 03:34]` One day, the queen decided to get off her litter
+- `[03:34 - 03:35]` and have a walk around.
+- `[03:35 - 03:39]` Changed my mind! Oh, wait, changed it again.
+- `[03:39 - 03:41]` Actually, I will. No, not today.
+- `[03:41 - 03:43]` Up, down, up, down, up, down, up, up, down, up...
+- `[03:43 - 03:48]` Course, that is bad behaviour.
+- `[03:48 - 03:51]` So is that?
+- `[03:51 - 03:53]` Shall we continue?
+- `[03:53 - 03:54]` Yes. Meep.
+- `[03:54 - 03:57]` So the queen walked a few steps
+- `[03:57 - 04:00]` and stood on a prickle. Ouch!
+- `[04:00 - 04:02]` A, Unicorse, that's mean.
+- `[04:02 - 04:05]` How would you feel if you stood on a prickle?
+- `[04:05 - 04:08]` I feel good, I feel so good, I'd dance!
+- `[04:08 - 04:12]` You wouldn't dance, you'd be crying like a queen.
+- `[04:12 - 04:15]` Well, maybe she should wear some shoes.
+- `[04:15 - 04:18]` You're... Anyway, the queen discovered
+- `[04:18 - 04:21]` that her whole kingdom was covered in prickles.
+- `[04:21 - 04:25]` What was she to do? Make shoes.
+- `[04:25 - 04:27]` Bluey, oh, I know, Unicorse,
+- `[04:27 - 04:31]` what's your favourite food?
+- `[04:31 - 04:31]` Children.
+- `[04:31 - 04:35]` Oh. Just kidding, I like chicken bucket.
+- `[04:35 - 04:38]` Oh, great, look, here's some chicken bucket.
+- `[04:38 - 04:41]` Ah, thank you, mighty kind.
+- `[04:41 - 04:42]` Okay, we're good to go.
+- `[04:42 - 04:44]` So the queen had an idea:
+- `[04:44 - 04:47]` she will cover the whole kingdom in leather.
+- `[04:47 - 04:52]` That way, no one will ever stand on the prickles again.
+- `[04:52 - 04:55]` So she got to work.
+- `[04:55 - 04:57]` All day and night the queen worked,
+- `[04:57 - 05:00]` covering her whole kingdom in leather.
+- `[05:00 - 05:02]` Oh, can you please chew with your mouth shut?
+- `[05:02 - 05:05]` I can chew with my mouth shut, of course I can.
+- `[05:05 - 05:06]` Thank you.
+- `[05:06 - 05:08]` The queen just... but I'm not gonna!
+- `[05:08 - 05:09]` That's it, I'm out.
+- `[05:09 - 05:11]` Catch you on the flip side, Willie.
+- `[05:11 - 05:12]` Wait, no!
+- `[05:12 - 05:15]` I'm done, Bluey. I can handle this, Mum.
+- `[05:15 - 05:17]` You're not all... ow! My back! My neck!
+- `[05:17 - 05:19]` My back and my neck!
+- `[05:19 - 05:22]` I just tap you on the shoulder.
+- `[05:22 - 05:24]` Whiplash! Whiplash! Call my lawyer!
+- `[05:24 - 05:27]` Look, Bluey, good on you for trying,
+- `[05:27 - 05:28]` but you can't change Unicorse.
+- `[05:28 - 05:30]` I think you're right.
+- `[05:30 - 05:33]` I'm not sure you can change anyone very much.
+- `[05:33 - 05:35]` But what can we change?
+- `[05:35 - 05:38]` Well, we can stop letting Unicorse annoy us.
+- `[05:38 - 05:39]` Really? How?
+- `[05:39 - 05:41]` Maybe we ignore him?
+- `[05:41 - 05:43]` He's pretty hard to ignore.
+- `[05:43 - 05:45]` Let's give it a go.
+- `[05:45 - 05:47]` The queen just couldn't do any more.
+- `[05:47 - 05:49]` She was too tired.
+- `[05:49 - 05:52]` Oh, here he comes. Remember, just ignore him.
+- `[05:52 - 05:54]` Are you really Heeler?
+- `[05:54 - 05:55]` I'm Chilli Heeler.
+- `[05:55 - 05:57]` Mum. Oh, yes, sorry.
+- `[05:57 - 05:59]` But then the jester said to the queen,
+- `[05:59 - 06:03]` "Your majesty, instead of covering the whole kingdom in leather,
+- `[06:03 - 06:05]` why not just cover your feet?"
+- `[06:05 - 06:07]` Stop that reading, this is a very serious matter.
+- `[06:07 - 06:10]` One of you karate chopped my client.
+- `[06:10 - 06:11]` Karate chopped? Bluey.
+- `[06:11 - 06:12]` Oh, yeah, sorry.
+- `[06:12 - 06:15]` So the queen cut two little bits of leather
+- `[06:15 - 06:17]` and made them into shoes.
+- `[06:17 - 06:19]` Hey, I'm talking to you.
+- `[06:19 - 06:20]` Yeah, listen to him.
+- `[06:20 - 06:22]` So the people could walk anywhere they wanted,
+- `[06:22 - 06:25]` and the prickles couldn't hurt them.
+- `[06:25 - 06:28]` Stop reading! Unicorse, let me handle this.
+- `[06:28 - 06:29]` Yeah, watch it, mate,
+- `[06:29 - 06:31]` I'll have to get a little poky.
+- `[06:31 - 06:35]` Okay, as your lawyer, here I go.
+- `[06:35 - 06:39]` They all lived happily ever after.
+- `[06:39 - 06:41]` Shall we leave them to it?
+- `[06:41 - 06:58]` Yeah, I'm tired. Let's get to bed now.
+- `[06:58 - 07:01]` Mate.

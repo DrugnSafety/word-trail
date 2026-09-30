@@ -1,0 +1,1271 @@
+{
+  "id": "video-66",
+  "number": 66,
+  "title": "Breaking the Golden Rule | Magic - SERIES 3 | Bluey",
+  "duration": 123,
+  "declaredDuration": 121,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=n5ZbpiFMQxo",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/66_Breaking the Golden Rule.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/66_Breaking the Golden Rule.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Breaking the Golden Rule | Magic - SERIES 3 | Bluey",
+      "start": 0,
+      "end": 123,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 5,
+      "sentenceText": "I think that's it. Hi, Dad! G'day, Bingo! Check out the new grass!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 5,
+          "text": "I think that's it. Hi, Dad! G'day, Bingo! Check out the new grass!",
+          "originalText": "I think that's it looking good by Dad good out Bingo check out the new grass",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "I think that's it looking good by Dad"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "good out Bingo check out the new grass"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "I think that's it."
+            },
+            {
+              "id": "c0003",
+              "start": 2,
+              "end": 3,
+              "text": "Hi, Dad!"
+            },
+            {
+              "id": "c0004",
+              "start": 3,
+              "end": 5,
+              "text": "G'day, Bingo! Check out the new grass!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0001",
+          "quote": "I think that's it. Hi, Dad! G'day, Bingo! Check out the new grass!",
+          "start": 0,
+          "end": 5,
+          "matchStart": 8,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0001",
+          "quote": "I think that's it. Hi, Dad! G'day, Bingo! Check out the new grass!",
+          "start": 0,
+          "end": 5,
+          "matchStart": 2,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "I think that's it. Hi, Dad! G'day, Bingo! Check out the new grass!",
+          "start": 0,
+          "end": 5,
+          "matchStart": 23,
+          "matchEnd": 26
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 5,
+      "end": 20,
+      "sentenceText": "Ooh, it looks great! Um, can you play with me? oh not right now mate we got to water this in oh well that's too bad is there something wrong with your arms mate it's not working I told you",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 5,
+          "end": 20,
+          "text": "Ooh, it looks great! Um, can you play with me? oh not right now mate we got to water this in oh well that's too bad is there something wrong with your arms mate it's not working I told you",
+          "originalText": "ooh looks great um can you play with me oh not right now mate we got to water this in oh well that's too bad is there something wrong with your arms mate it's not working I told you",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 8,
+              "text": "ooh looks great um can you play with me"
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 10,
+              "text": "oh not right now mate we got to water"
+            },
+            {
+              "id": "c0005",
+              "start": 10,
+              "end": 15,
+              "text": "this in oh well that's too"
+            },
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 17,
+              "text": "bad is there something wrong with your"
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 20,
+              "text": "arms mate it's not working I told you"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 5,
+              "end": 6,
+              "text": "Ooh, it looks great!"
+            },
+            {
+              "id": "c0006",
+              "start": 6,
+              "end": 8,
+              "text": "Um, can you play with me?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 10,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "right-now",
+          "cueId": "c0002",
+          "quote": "Ooh, it looks great! Um, can you play with me? oh not right now mate we got to water this in oh well that's too bad is there something wrong with your arms mate it's not working I told you",
+          "start": 5,
+          "end": 20,
+          "matchStart": 54,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "great",
+          "cueId": "c0002",
+          "quote": "Ooh, it looks great! Um, can you play with me? oh not right now mate we got to water this in oh well that's too bad is there something wrong with your arms mate it's not working I told you",
+          "start": 5,
+          "end": 20,
+          "matchStart": 14,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0002",
+          "quote": "Ooh, it looks great! Um, can you play with me? oh not right now mate we got to water this in oh well that's too bad is there something wrong with your arms mate it's not working I told you",
+          "start": 5,
+          "end": 20,
+          "matchStart": 33,
+          "matchEnd": 37
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 20,
+      "end": 33,
+      "sentenceText": "more dramatic like this bingo I think you need your racket rung racket rung I said that's too bad",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 20,
+          "end": 33,
+          "text": "more dramatic like this bingo I think you need your racket rung racket rung I said that's too bad",
+          "originalText": "more dramatic like this bingo I think you need your racket rung racket rung I said that's too bad",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "text": "more dramatic like"
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 27,
+              "text": "this bingo I think you need your racket"
+            },
+            {
+              "id": "c0010",
+              "start": 27,
+              "end": 33,
+              "text": "rung racket rung I said that's too bad"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 27,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0003",
+          "quote": "more dramatic like this bingo I think you need your racket rung racket rung I said that's too bad",
+          "start": 20,
+          "end": 33,
+          "matchStart": 14,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0003",
+          "quote": "more dramatic like this bingo I think you need your racket rung racket rung I said that's too bad",
+          "start": 20,
+          "end": 33,
+          "matchStart": 32,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0003",
+          "quote": "more dramatic like this bingo I think you need your racket rung racket rung I said that's too bad",
+          "start": 20,
+          "end": 33,
+          "matchStart": 42,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 33,
+      "end": 48,
+      "sentenceText": "oh no Bingo learned magic run Pat oh no you don't no what should we do with them this is not fair K stop making this",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 33,
+          "end": 48,
+          "text": "oh no Bingo learned magic run Pat oh no you don't no what should we do with them this is not fair K stop making this",
+          "originalText": "oh no Bingo learned magic run Pat oh no you don't no what should we do with them this is not fair K stop making this",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 33,
+              "end": 37,
+              "text": "oh no Bingo learned magic run Pat oh no"
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 43,
+              "text": "you don't no what should we do with"
+            },
+            {
+              "id": "c0013",
+              "start": 43,
+              "end": 48,
+              "text": "them this is not fair K stop making this"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 33,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 43,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "oh no Bingo learned magic run Pat oh no you don't no what should we do with them this is not fair K stop making this",
+          "start": 33,
+          "end": 48,
+          "matchStart": 3,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "oh no Bingo learned magic run Pat oh no you don't no what should we do with them this is not fair K stop making this",
+          "start": 33,
+          "end": 48,
+          "matchStart": 53,
+          "matchEnd": 57
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0004",
+          "quote": "oh no Bingo learned magic run Pat oh no you don't no what should we do with them this is not fair K stop making this",
+          "start": 33,
+          "end": 48,
+          "matchStart": 100,
+          "matchEnd": 104
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0004",
+          "quote": "oh no Bingo learned magic run Pat oh no you don't no what should we do with them this is not fair K stop making this",
+          "start": 33,
+          "end": 48,
+          "matchStart": 44,
+          "matchEnd": 49
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 48,
+      "end": 55,
+      "sentenceText": "dance stop Okay, time for the big finish! Oh, no.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 48,
+          "end": 55,
+          "text": "dance stop Okay, time for the big finish! Oh, no.",
+          "originalText": "dance stop it okay time for the big finish oh no",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 51,
+              "text": "dance stop"
+            },
+            {
+              "id": "c0015",
+              "start": 51,
+              "end": 55,
+              "text": "it okay time for the big finish oh no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 51,
+              "end": 54,
+              "text": "Okay, time for the big finish!"
+            },
+            {
+              "id": "c0023",
+              "start": 54,
+              "end": 55,
+              "text": "Oh, no."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 51,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "stop",
+          "cueId": "c0005",
+          "quote": "dance stop Okay, time for the big finish! Oh, no.",
+          "start": 48,
+          "end": 55,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "dance stop Okay, time for the big finish! Oh, no.",
+          "start": 48,
+          "end": 55,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0005",
+          "quote": "dance stop Okay, time for the big finish! Oh, no.",
+          "start": 48,
+          "end": 55,
+          "matchStart": 30,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "dance stop Okay, time for the big finish! Oh, no.",
+          "start": 48,
+          "end": 55,
+          "matchStart": 46,
+          "matchEnd": 48
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 55,
+      "end": 68,
+      "sentenceText": "You better stick the landing, Pat! not up to me we did it we did it Christmas crackers you I a turnon oh you losing me Pat",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 55,
+          "end": 68,
+          "text": "You better stick the landing, Pat! not up to me we did it we did it Christmas crackers you I a turnon oh you losing me Pat",
+          "originalText": "you better stick The Landing pack it's not up to me we did it we did it Christmas crackers you I a turnon oh you losing me Pat",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 55,
+              "end": 57,
+              "text": "you better stick The Landing pack it's"
+            },
+            {
+              "id": "c0017",
+              "start": 57,
+              "end": 58,
+              "text": "not up to"
+            },
+            {
+              "id": "c0018",
+              "start": 58,
+              "end": 62,
+              "text": "me"
+            },
+            {
+              "id": "c0019",
+              "start": 62,
+              "end": 65,
+              "text": "we did it we did it Christmas crackers"
+            },
+            {
+              "id": "c0020",
+              "start": 65,
+              "end": 68,
+              "text": "you I a turnon oh you losing me Pat"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 55,
+              "end": 57,
+              "text": "You better stick the landing, Pat!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 55,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 57,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 58,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 62,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 65,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 68,
+      "end": 83,
+      "sentenceText": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 68,
+          "end": 83,
+          "text": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+          "originalText": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 68,
+              "end": 71,
+              "text": "you're losing"
+            },
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 76,
+              "text": "me I love magic what's going on here oh"
+            },
+            {
+              "id": "c0023",
+              "start": 76,
+              "end": 79,
+              "text": "no you don't who taught you how to use"
+            },
+            {
+              "id": "c0024",
+              "start": 79,
+              "end": 83,
+              "text": "magic blue did I should have known and"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 68,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 76,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 79,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "love",
+          "cueId": "c0007",
+          "quote": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+          "start": 68,
+          "end": 83,
+          "matchStart": 19,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+          "start": 68,
+          "end": 83,
+          "matchStart": 30,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+          "start": 68,
+          "end": 83,
+          "matchStart": 54,
+          "matchEnd": 56
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0007",
+          "quote": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+          "start": 68,
+          "end": 83,
+          "matchStart": 82,
+          "matchEnd": 85
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0007",
+          "quote": "you're losing me I love magic what's going on here oh no you don't who taught you how to use magic blue did I should have known and",
+          "start": 68,
+          "end": 83,
+          "matchStart": 61,
+          "matchEnd": 66
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 83,
+      "end": 96,
+      "sentenceText": "did you teach her the most important rule about magic I couldn't remember it the rule is never use magic for cheekiness oh yeah that's right oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 83,
+          "end": 96,
+          "text": "did you teach her the most important rule about magic I couldn't remember it the rule is never use magic for cheekiness oh yeah that's right oh",
+          "originalText": "did you teach her the most important rule about magic I couldn't remember it the rule is never use magic for cheekiness oh yeah that's right oh",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 83,
+              "end": 85,
+              "text": "did you teach her the most important"
+            },
+            {
+              "id": "c0026",
+              "start": 85,
+              "end": 88,
+              "text": "rule about magic I couldn't remember"
+            },
+            {
+              "id": "c0027",
+              "start": 88,
+              "end": 93,
+              "text": "it the rule is never use magic for"
+            },
+            {
+              "id": "c0028",
+              "start": 93,
+              "end": 96,
+              "text": "cheekiness oh yeah that's right oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 83,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 85,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 88,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 93,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 96,
+      "end": 111,
+      "sentenceText": "Oh, Bandit, get your armpit out of my face. you two get out of here this doesn't concern you Bingo magic should only be used to help people we were helping we were helping them learn to dance",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 96,
+          "end": 111,
+          "text": "Oh, Bandit, get your armpit out of my face. you two get out of here this doesn't concern you Bingo magic should only be used to help people we were helping we were helping them learn to dance",
+          "originalText": "Bandit get your armpit out of my face you two get out of here this doesn't concern you Bingo magic should only be used to help people we were helping we were helping them learn to dance",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 96,
+              "end": 98,
+              "text": "Bandit get your armpit out of my face"
+            },
+            {
+              "id": "c0030",
+              "start": 98,
+              "end": 100,
+              "text": "you two get out of here this doesn't"
+            },
+            {
+              "id": "c0031",
+              "start": 100,
+              "end": 101,
+              "text": "concern"
+            },
+            {
+              "id": "c0032",
+              "start": 101,
+              "end": 105,
+              "text": "you Bingo magic should only be used to"
+            },
+            {
+              "id": "c0033",
+              "start": 105,
+              "end": 108,
+              "text": "help people we were helping we were"
+            },
+            {
+              "id": "c0034",
+              "start": 108,
+              "end": 111,
+              "text": "helping them learn to dance"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0040",
+              "start": 96,
+              "end": 98,
+              "text": "Oh, Bandit, get your armpit out of my face."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 96,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 98,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 100,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 101,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "help",
+          "cueId": "c0009",
+          "quote": "Oh, Bandit, get your armpit out of my face. you two get out of here this doesn't concern you Bingo magic should only be used to help people we were helping we were helping them learn to dance",
+          "start": 96,
+          "end": 111,
+          "matchStart": 128,
+          "matchEnd": 132
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 111,
+      "end": 123,
+      "sentenceText": "Lou okay okay normal cheekiness thank you starting toor a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 111,
+          "end": 123,
+          "text": "Lou okay okay normal cheekiness thank you starting toor a",
+          "originalText": "Lou okay okay normal cheekiness thank you starting toor a",
+          "originalCueRefs": [
+            {
+              "id": "c0035",
+              "start": 111,
+              "end": 115,
+              "text": "Lou okay okay normal cheekiness thank"
+            },
+            {
+              "id": "c0036",
+              "start": 115,
+              "end": 118,
+              "text": "you starting"
+            },
+            {
+              "id": "c0037",
+              "start": 118,
+              "end": 123,
+              "text": "toor a"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0035",
+              "start": 111,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 118,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0010",
+          "quote": "Lou okay okay normal cheekiness thank you starting toor a",
+          "start": 111,
+          "end": 123,
+          "matchStart": 32,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0010",
+          "quote": "Lou okay okay normal cheekiness thank you starting toor a",
+          "start": 111,
+          "end": 123,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

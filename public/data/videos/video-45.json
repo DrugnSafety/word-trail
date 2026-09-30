@@ -1,0 +1,4162 @@
+{
+  "id": "video-45",
+  "number": 45,
+  "title": "Stories 🌈 🐴 | NEW Bluey Full Episode 💙 | Bluey",
+  "duration": 417,
+  "declaredDuration": 417,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=8z2WihkDEHI",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/45_Stories.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/45_Stories.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Stories 🌈 🐴 | NEW Bluey Full Episode 💙 | Bluey",
+      "start": 16,
+      "end": 407,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016",
+        "c0017",
+        "c0018",
+        "c0019",
+        "c0020",
+        "c0021",
+        "c0022",
+        "c0023",
+        "c0024",
+        "c0025",
+        "c0026",
+        "c0027",
+        "c0028",
+        "c0029",
+        "c0030",
+        "c0031",
+        "c0032",
+        "c0033"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 16,
+      "end": 22,
+      "sentenceText": "Dad...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 16,
+          "end": 22,
+          "text": "Dad...",
+          "originalText": "dad",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 16,
+              "end": 22,
+              "text": "dad"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 16,
+              "end": 22,
+              "text": "Dad..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 16,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "Dad...",
+          "start": 16,
+          "end": 22,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 24,
+      "end": 37,
+      "sentenceText": "bing one day ind's class were making animals out of beeswax the Terriers were making piranhas blue was making a whale winon",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 24,
+          "end": 37,
+          "text": "bing one day ind's class were making animals out of beeswax the Terriers were making piranhas blue was making a whale winon",
+          "originalText": "bing one day ind's class were making animals out of beeswax the Terriers were making piranhas blue was making a whale winon",
+          "originalCueRefs": [
+            {
+              "id": "c0002",
+              "start": 24,
+              "end": 27,
+              "text": "bing one day ind's class were making"
+            },
+            {
+              "id": "c0003",
+              "start": 27,
+              "end": 30,
+              "text": "animals out of beeswax the Terriers were"
+            },
+            {
+              "id": "c0004",
+              "start": 30,
+              "end": 33,
+              "text": "making"
+            },
+            {
+              "id": "c0005",
+              "start": 33,
+              "end": 37,
+              "text": "piranhas blue was making a whale winon"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0002",
+              "start": 24,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 27,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 33,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 37,
+      "end": 50,
+      "sentenceText": "was booger e well winon was winon and Indie the hero of this story was making a horse she worked at it very hard first",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 37,
+          "end": 50,
+          "text": "was booger e well winon was winon and Indie the hero of this story was making a horse she worked at it very hard first",
+          "originalText": "was booger e well winon was winon and Indie the hero of this story was making a horse she worked at it very hard first",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 37,
+              "end": 43,
+              "text": "was booger e well winon was winon and"
+            },
+            {
+              "id": "c0007",
+              "start": 43,
+              "end": 46,
+              "text": "Indie the hero of this story was making"
+            },
+            {
+              "id": "c0008",
+              "start": 46,
+              "end": 50,
+              "text": "a horse she worked at it very hard first"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 37,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 46,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 50,
+      "end": 62,
+      "sentenceText": "First, she made the horse's body, then its legs, then she made the tail and finally the head She was very pleased with it. Hey, Bluey, look!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 50,
+          "end": 62,
+          "text": "First, she made the horse's body, then its legs, then she made the tail and finally the head She was very pleased with it. Hey, Bluey, look!",
+          "originalText": "she made the horse's body then its legs then she made the tail and finally the head py she was very pleased with it hey blue",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 50,
+              "end": 53,
+              "text": "she made the horse's body then its legs"
+            },
+            {
+              "id": "c0010",
+              "start": 53,
+              "end": 56,
+              "text": "then she made the tail and finally the"
+            },
+            {
+              "id": "c0011",
+              "start": 56,
+              "end": 58,
+              "text": "head"
+            },
+            {
+              "id": "c0012",
+              "start": 58,
+              "end": 62,
+              "text": "py she was very pleased with it hey blue"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 50,
+              "end": 52,
+              "text": "First, she made the horse's body,"
+            },
+            {
+              "id": "c0011",
+              "start": 52,
+              "end": 53,
+              "text": "then its legs,"
+            },
+            {
+              "id": "c0015",
+              "start": 58,
+              "end": 61,
+              "text": "She was very pleased with it."
+            },
+            {
+              "id": "c0016",
+              "start": 61,
+              "end": 62,
+              "text": "Hey, Bluey, look!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 58,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0004",
+          "quote": "First, she made the horse's body, then its legs, then she made the tail and finally the head She was very pleased with it. Hey, Bluey, look!",
+          "start": 50,
+          "end": 62,
+          "matchStart": 135,
+          "matchEnd": 139
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 62,
+      "end": 76,
+      "sentenceText": "Ooh, wow! But there was a problem. that's a great cow Indie cow Indy's horse looked like a cow nice cow Indy it's not a cow it's a horse no that's a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 62,
+          "end": 76,
+          "text": "Ooh, wow! But there was a problem. that's a great cow Indie cow Indy's horse looked like a cow nice cow Indy it's not a cow it's a horse no that's a",
+          "originalText": "look oh wow but there was a problem that's a great cow Indie cow Indy's horse looked like a cow nice cow Indy it's not a cow it's a horse no that's a",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 62,
+              "end": 65,
+              "text": "look oh wow but there was a problem"
+            },
+            {
+              "id": "c0014",
+              "start": 65,
+              "end": 69,
+              "text": "that's a great cow Indie cow Indy's"
+            },
+            {
+              "id": "c0015",
+              "start": 69,
+              "end": 72,
+              "text": "horse looked like a cow nice cow Indy"
+            },
+            {
+              "id": "c0016",
+              "start": 72,
+              "end": 76,
+              "text": "it's not a cow it's a horse no that's a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 62,
+              "end": 63,
+              "text": "Ooh, wow!"
+            },
+            {
+              "id": "c0018",
+              "start": 63,
+              "end": 65,
+              "text": "But there was a problem."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 62,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 65,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 69,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 72,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "great",
+          "cueId": "c0005",
+          "quote": "Ooh, wow! But there was a problem. that's a great cow Indie cow Indy's horse looked like a cow nice cow Indy it's not a cow it's a horse no that's a",
+          "start": 62,
+          "end": 76,
+          "matchStart": 44,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0005",
+          "quote": "Ooh, wow! But there was a problem. that's a great cow Indie cow Indy's horse looked like a cow nice cow Indy it's not a cow it's a horse no that's a",
+          "start": 62,
+          "end": 76,
+          "matchStart": 84,
+          "matchEnd": 88
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0005",
+          "quote": "Ooh, wow! But there was a problem. that's a great cow Indie cow Indy's horse looked like a cow nice cow Indy it's not a cow it's a horse no that's a",
+          "start": 62,
+          "end": 76,
+          "matchStart": 95,
+          "matchEnd": 99
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "Ooh, wow! But there was a problem. that's a great cow Indie cow Indy's horse looked like a cow nice cow Indy it's not a cow it's a horse no that's a",
+          "start": 62,
+          "end": 76,
+          "matchStart": 137,
+          "matchEnd": 139
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 76,
+      "end": 84,
+      "sentenceText": "cow winon yes Winton... Winton, why can't you just be good?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 76,
+          "end": 84,
+          "text": "cow winon yes Winton... Winton, why can't you just be good?",
+          "originalText": "cow winon yes winon Winton why can't you just be good",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 76,
+              "end": 80,
+              "text": "cow winon yes"
+            },
+            {
+              "id": "c0018",
+              "start": 80,
+              "end": 84,
+              "text": "winon Winton why can't you just be good"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 80,
+              "end": 81,
+              "text": "Winton..."
+            },
+            {
+              "id": "c0027",
+              "start": 81,
+              "end": 84,
+              "text": "Winton, why can't you just be good?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 80,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0006",
+          "quote": "cow winon yes Winton... Winton, why can't you just be good?",
+          "start": 76,
+          "end": 84,
+          "matchStart": 10,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0006",
+          "quote": "cow winon yes Winton... Winton, why can't you just be good?",
+          "start": 76,
+          "end": 84,
+          "matchStart": 32,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0006",
+          "quote": "cow winon yes Winton... Winton, why can't you just be good?",
+          "start": 76,
+          "end": 84,
+          "matchStart": 54,
+          "matchEnd": 58
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 84,
+      "end": 99,
+      "sentenceText": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 84,
+          "end": 99,
+          "text": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "originalText": "cuz I'm not good Indie was very upset she was so upset when her teacher came to see if she was all right Indie said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 84,
+              "end": 88,
+              "text": "cuz I'm not good Indie was very"
+            },
+            {
+              "id": "c0020",
+              "start": 88,
+              "end": 92,
+              "text": "upset she was so upset when her teacher"
+            },
+            {
+              "id": "c0021",
+              "start": 92,
+              "end": 94,
+              "text": "came to see if she was all right Indie"
+            },
+            {
+              "id": "c0022",
+              "start": 94,
+              "end": 96,
+              "text": "said I don't want to make animals out of"
+            },
+            {
+              "id": "c0023",
+              "start": 96,
+              "end": 99,
+              "text": "beeswax ever again oh goodness me tell"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 92,
+              "end": 94,
+              "text": "to see if she was all right,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 84,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 88,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 94,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 96,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0007",
+          "quote": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "start": 84,
+          "end": 99,
+          "matchStart": 90,
+          "matchEnd": 99
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0007",
+          "quote": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "start": 84,
+          "end": 99,
+          "matchStart": 12,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0007",
+          "quote": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "start": 84,
+          "end": 99,
+          "matchStart": 75,
+          "matchEnd": 78
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0007",
+          "quote": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "start": 84,
+          "end": 99,
+          "matchStart": 114,
+          "matchEnd": 118
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0007",
+          "quote": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "start": 84,
+          "end": 99,
+          "matchStart": 155,
+          "matchEnd": 160
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0007",
+          "quote": "cuz I'm not good Indie was very upset she was so upset when her teacher to see if she was all right, said I don't want to make animals out of beeswax ever again oh goodness me tell",
+          "start": 84,
+          "end": 99,
+          "matchStart": 108,
+          "matchEnd": 113
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 99,
+      "end": 113,
+      "sentenceText": "me why indeed because my holos looks like a cow and why do you think that is because and then Indie said something very sad I'm not very",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 99,
+          "end": 113,
+          "text": "me why indeed because my holos looks like a cow and why do you think that is because and then Indie said something very sad I'm not very",
+          "originalText": "me why indeed because my holos looks like a cow and why do you think that is because and then Indie said something very sad I'm not very",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 99,
+              "end": 102,
+              "text": "me why indeed because my holos looks"
+            },
+            {
+              "id": "c0025",
+              "start": 102,
+              "end": 106,
+              "text": "like a cow and why do you think that is"
+            },
+            {
+              "id": "c0026",
+              "start": 106,
+              "end": 109,
+              "text": "because and then Indie said something"
+            },
+            {
+              "id": "c0027",
+              "start": 109,
+              "end": 113,
+              "text": "very sad I'm not very"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 99,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 102,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 106,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 109,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0008",
+          "quote": "me why indeed because my holos looks like a cow and why do you think that is because and then Indie said something very sad I'm not very",
+          "start": 99,
+          "end": 113,
+          "matchStart": 3,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0008",
+          "quote": "me why indeed because my holos looks like a cow and why do you think that is because and then Indie said something very sad I'm not very",
+          "start": 99,
+          "end": 113,
+          "matchStart": 37,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0008",
+          "quote": "me why indeed because my holos looks like a cow and why do you think that is because and then Indie said something very sad I'm not very",
+          "start": 99,
+          "end": 113,
+          "matchStart": 63,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "sad",
+          "cueId": "c0008",
+          "quote": "me why indeed because my holos looks like a cow and why do you think that is because and then Indie said something very sad I'm not very",
+          "start": 99,
+          "end": 113,
+          "matchStart": 120,
+          "matchEnd": 123
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 115,
+      "end": 121,
+      "sentenceText": "So, rather than work at it, Indy never made anything out of beeswax ever again.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 115,
+          "end": 121,
+          "text": "So, rather than work at it, Indy never made anything out of beeswax ever again.",
+          "originalText": "good so rather than work at it Indie never made anything out of beeswax ever",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 115,
+              "end": 118,
+              "text": "good so rather than work at it Indie"
+            },
+            {
+              "id": "c0029",
+              "start": 118,
+              "end": 121,
+              "text": "never made anything out of beeswax ever"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0040",
+              "start": 115,
+              "end": 118,
+              "text": "So, rather than work at it, Indy"
+            },
+            {
+              "id": "c0041",
+              "start": 118,
+              "end": 121,
+              "text": "never made anything out of beeswax ever again."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0009",
+          "quote": "So, rather than work at it, Indy never made anything out of beeswax ever again.",
+          "start": 115,
+          "end": 121,
+          "matchStart": 73,
+          "matchEnd": 78
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 121,
+      "end": 136,
+      "sentenceText": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 121,
+          "end": 136,
+          "text": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "originalText": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 121,
+              "end": 124,
+              "text": "again what why because she told herself"
+            },
+            {
+              "id": "c0031",
+              "start": 124,
+              "end": 127,
+              "text": "she wasn't very good oh yeah I did and"
+            },
+            {
+              "id": "c0032",
+              "start": 127,
+              "end": 132,
+              "text": "it's true I'm not the"
+            },
+            {
+              "id": "c0033",
+              "start": 132,
+              "end": 136,
+              "text": "end I don't like that story Calypso me"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 124,
+              "end": 127,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 127,
+              "end": 132,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 132,
+              "end": 136,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0010",
+          "quote": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "start": 121,
+          "end": 136,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "start": 121,
+          "end": 136,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0010",
+          "quote": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "start": 121,
+          "end": 136,
+          "matchStart": 11,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0010",
+          "quote": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "start": 121,
+          "end": 136,
+          "matchStart": 56,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0010",
+          "quote": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "start": 121,
+          "end": 136,
+          "matchStart": 113,
+          "matchEnd": 117
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0010",
+          "quote": "again what why because she told herself she wasn't very good oh yeah I did and it's true I'm not the end I don't like that story Calypso me",
+          "start": 121,
+          "end": 136,
+          "matchStart": 107,
+          "matchEnd": 112
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 136,
+      "end": 143,
+      "sentenceText": "neither but it's your story I liked how I was in it I don't like how Indie gives Well, why don't you tell a different story?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 136,
+          "end": 143,
+          "text": "neither but it's your story I liked how I was in it I don't like how Indie gives Well, why don't you tell a different story?",
+          "originalText": "neither but it's your story I liked how I was in it I don't like how Indie gives up well why don't you tell a different",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 136,
+              "end": 139,
+              "text": "neither but it's your story I liked how"
+            },
+            {
+              "id": "c0035",
+              "start": 139,
+              "end": 141,
+              "text": "I was in it I don't like how Indie gives"
+            },
+            {
+              "id": "c0036",
+              "start": 141,
+              "end": 143,
+              "text": "up well why don't you tell a different"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0051",
+              "start": 141,
+              "end": 143,
+              "text": "Well, why don't you tell a different story?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 136,
+              "end": 139,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 139,
+              "end": 141,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 141,
+              "end": 143,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0011",
+          "quote": "neither but it's your story I liked how I was in it I don't like how Indie gives Well, why don't you tell a different story?",
+          "start": 136,
+          "end": 143,
+          "matchStart": 36,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0011",
+          "quote": "neither but it's your story I liked how I was in it I don't like how Indie gives Well, why don't you tell a different story?",
+          "start": 136,
+          "end": 143,
+          "matchStart": 60,
+          "matchEnd": 64
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0011",
+          "quote": "neither but it's your story I liked how I was in it I don't like how Indie gives Well, why don't you tell a different story?",
+          "start": 136,
+          "end": 143,
+          "matchStart": 87,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0011",
+          "quote": "neither but it's your story I liked how I was in it I don't like how Indie gives Well, why don't you tell a different story?",
+          "start": 136,
+          "end": 143,
+          "matchStart": 54,
+          "matchEnd": 59
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 143,
+      "end": 152,
+      "sentenceText": "story yeah and make me really musly please um okay This episode of Bluey is called Stories.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 143,
+          "end": 152,
+          "text": "story yeah and make me really musly please um okay This episode of Bluey is called Stories.",
+          "originalText": "story yeah and make me really musly please um okay this episode of blue is called",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 143,
+              "end": 146,
+              "text": "story yeah and make me really musly"
+            },
+            {
+              "id": "c0038",
+              "start": 146,
+              "end": 150,
+              "text": "please um okay"
+            },
+            {
+              "id": "c0039",
+              "start": 150,
+              "end": 152,
+              "text": "this episode of blue is called"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0054",
+              "start": 150,
+              "end": 152,
+              "text": "This episode of Bluey is called Stories."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 143,
+              "end": 146,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 146,
+              "end": 150,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 150,
+              "end": 152,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "please",
+          "cueId": "c0012",
+          "quote": "story yeah and make me really musly please um okay This episode of Bluey is called Stories.",
+          "start": 143,
+          "end": 152,
+          "matchStart": 36,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0012",
+          "quote": "story yeah and make me really musly please um okay This episode of Bluey is called Stories.",
+          "start": 143,
+          "end": 152,
+          "matchStart": 46,
+          "matchEnd": 50
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 152,
+      "end": 167,
+      "sentenceText": "stories once upon a time there was a kid called Andy he thought she was no good at anything I'm not very good at anything but then winon came Now, Winton could be a pickle sometimes,",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 152,
+          "end": 167,
+          "text": "stories once upon a time there was a kid called Andy he thought she was no good at anything I'm not very good at anything but then winon came Now, Winton could be a pickle sometimes,",
+          "originalText": "stories once upon a time there was a kid called Andy he thought she was no good at anything I'm not very good at anything but then winon came in now winon could be a pickle sometimes",
+          "originalCueRefs": [
+            {
+              "id": "c0040",
+              "start": 152,
+              "end": 155,
+              "text": "stories once upon a time there was a kid"
+            },
+            {
+              "id": "c0041",
+              "start": 155,
+              "end": 157,
+              "text": "called Andy he thought she was no good"
+            },
+            {
+              "id": "c0042",
+              "start": 157,
+              "end": 160,
+              "text": "at anything I'm not very good at"
+            },
+            {
+              "id": "c0043",
+              "start": 160,
+              "end": 164,
+              "text": "anything but then winon came"
+            },
+            {
+              "id": "c0044",
+              "start": 164,
+              "end": 167,
+              "text": "in now winon could be a pickle sometimes"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0059",
+              "start": 164,
+              "end": 167,
+              "text": "Now, Winton could be a pickle sometimes,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0040",
+              "start": 152,
+              "end": 155,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 155,
+              "end": 157,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 157,
+              "end": 160,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 160,
+              "end": 164,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 164,
+              "end": 167,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0013",
+          "quote": "stories once upon a time there was a kid called Andy he thought she was no good at anything I'm not very good at anything but then winon came Now, Winton could be a pickle sometimes,",
+          "start": 152,
+          "end": 167,
+          "matchStart": 72,
+          "matchEnd": 74
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0013",
+          "quote": "stories once upon a time there was a kid called Andy he thought she was no good at anything I'm not very good at anything but then winon came Now, Winton could be a pickle sometimes,",
+          "start": 152,
+          "end": 167,
+          "matchStart": 75,
+          "matchEnd": 79
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 167,
+      "end": 177,
+      "sentenceText": "but he had a very kind heart he said to Indie you are good at things Indie really I'm not look my horse looks like a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 167,
+          "end": 177,
+          "text": "but he had a very kind heart he said to Indie you are good at things Indie really I'm not look my horse looks like a",
+          "originalText": "but he had a very kind heart he said to Indie you are good at things Indie really I'm not look my horse looks like a",
+          "originalCueRefs": [
+            {
+              "id": "c0045",
+              "start": 167,
+              "end": 170,
+              "text": "but he had a very kind heart he said to"
+            },
+            {
+              "id": "c0046",
+              "start": 170,
+              "end": 173,
+              "text": "Indie you are good at things Indie"
+            },
+            {
+              "id": "c0047",
+              "start": 173,
+              "end": 176,
+              "text": "really I'm not look my horse looks like"
+            },
+            {
+              "id": "c0048",
+              "start": 176,
+              "end": 177,
+              "text": "a"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0045",
+              "start": 167,
+              "end": 170,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            },
+            {
+              "id": "c0046",
+              "start": 170,
+              "end": 173,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            },
+            {
+              "id": "c0047",
+              "start": 173,
+              "end": 176,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            },
+            {
+              "id": "c0048",
+              "start": 176,
+              "end": 177,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0048"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0014",
+          "quote": "but he had a very kind heart he said to Indie you are good at things Indie really I'm not look my horse looks like a",
+          "start": 167,
+          "end": 177,
+          "matchStart": 54,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0014",
+          "quote": "but he had a very kind heart he said to Indie you are good at things Indie really I'm not look my horse looks like a",
+          "start": 167,
+          "end": 177,
+          "matchStart": 90,
+          "matchEnd": 94
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0014",
+          "quote": "but he had a very kind heart he said to Indie you are good at things Indie really I'm not look my horse looks like a",
+          "start": 167,
+          "end": 177,
+          "matchStart": 110,
+          "matchEnd": 114
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 177,
+      "end": 192,
+      "sentenceText": "cow moo Winton sorry well I still say you're good at things was Indie going to believe Winton yes hey can you help me Winton",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 177,
+          "end": 192,
+          "text": "cow moo Winton sorry well I still say you're good at things was Indie going to believe Winton yes hey can you help me Winton",
+          "originalText": "cow moo Winton sorry well I still say you're good at things was Indie going to believe Winton yes hey can you help me Winton",
+          "originalCueRefs": [
+            {
+              "id": "c0049",
+              "start": 177,
+              "end": 183,
+              "text": "cow moo Winton sorry well I still say"
+            },
+            {
+              "id": "c0050",
+              "start": 183,
+              "end": 184,
+              "text": "you're good at"
+            },
+            {
+              "id": "c0051",
+              "start": 184,
+              "end": 188,
+              "text": "things was Indie going to believe"
+            },
+            {
+              "id": "c0052",
+              "start": 188,
+              "end": 192,
+              "text": "Winton yes hey can you help me Winton"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0049",
+              "start": 177,
+              "end": 183,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0049"
+              ]
+            },
+            {
+              "id": "c0050",
+              "start": 183,
+              "end": 184,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0050"
+              ]
+            },
+            {
+              "id": "c0051",
+              "start": 184,
+              "end": 188,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0051"
+              ]
+            },
+            {
+              "id": "c0052",
+              "start": 188,
+              "end": 192,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0052"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0015",
+          "quote": "cow moo Winton sorry well I still say you're good at things was Indie going to believe Winton yes hey can you help me Winton",
+          "start": 177,
+          "end": 192,
+          "matchStart": 15,
+          "matchEnd": 20
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0015",
+          "quote": "cow moo Winton sorry well I still say you're good at things was Indie going to believe Winton yes hey can you help me Winton",
+          "start": 177,
+          "end": 192,
+          "matchStart": 45,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0015",
+          "quote": "cow moo Winton sorry well I still say you're good at things was Indie going to believe Winton yes hey can you help me Winton",
+          "start": 177,
+          "end": 192,
+          "matchStart": 94,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0015",
+          "quote": "cow moo Winton sorry well I still say you're good at things was Indie going to believe Winton yes hey can you help me Winton",
+          "start": 177,
+          "end": 192,
+          "matchStart": 110,
+          "matchEnd": 114
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 192,
+      "end": 201,
+      "sentenceText": "I told you Winton had a kind heart, so Winton and Indy tried to figure out what was wrong with Cow-Horse. Is it the color?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 192,
+          "end": 201,
+          "text": "I told you Winton had a kind heart, so Winton and Indy tried to figure out what was wrong with Cow-Horse. Is it the color?",
+          "originalText": "okay I told you Winton had a kind heart so winon and Indie tried to figure out what was wrong with Cow Horse is it the",
+          "originalCueRefs": [
+            {
+              "id": "c0053",
+              "start": 192,
+              "end": 196,
+              "text": "okay I told you Winton had a kind heart"
+            },
+            {
+              "id": "c0054",
+              "start": 196,
+              "end": 198,
+              "text": "so winon and Indie tried to figure out"
+            },
+            {
+              "id": "c0055",
+              "start": 198,
+              "end": 201,
+              "text": "what was wrong with Cow Horse is it the"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0073",
+              "start": 192,
+              "end": 196,
+              "text": "I told you Winton had a kind heart,"
+            },
+            {
+              "id": "c0074",
+              "start": 196,
+              "end": 198,
+              "text": "so Winton and Indy tried to figure out"
+            },
+            {
+              "id": "c0075",
+              "start": 198,
+              "end": 200,
+              "text": "what was wrong with Cow-Horse."
+            },
+            {
+              "id": "c0076",
+              "start": 200,
+              "end": 201,
+              "text": "Is it the color?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0053",
+              "start": 192,
+              "end": 196,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0053"
+              ]
+            },
+            {
+              "id": "c0054",
+              "start": 196,
+              "end": 198,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0054"
+              ]
+            },
+            {
+              "id": "c0055",
+              "start": 198,
+              "end": 201,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0055"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0016",
+          "quote": "I told you Winton had a kind heart, so Winton and Indy tried to figure out what was wrong with Cow-Horse. Is it the color?",
+          "start": 192,
+          "end": 201,
+          "matchStart": 75,
+          "matchEnd": 79
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0017",
+      "title": "문단 17",
+      "start": 201,
+      "end": 216,
+      "sentenceText": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and the Three Little Pigs. Oh, Winton!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 17,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0017",
+          "start": 201,
+          "end": 216,
+          "text": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and the Three Little Pigs. Oh, Winton!",
+          "originalText": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and R for Little Pigs oh",
+          "originalCueRefs": [
+            {
+              "id": "c0056",
+              "start": 201,
+              "end": 204,
+              "text": "color uh I don't think so I know we"
+            },
+            {
+              "id": "c0057",
+              "start": 204,
+              "end": 206,
+              "text": "should find a picture of a cow and look"
+            },
+            {
+              "id": "c0058",
+              "start": 206,
+              "end": 208,
+              "text": "at it oh"
+            },
+            {
+              "id": "c0059",
+              "start": 208,
+              "end": 212,
+              "text": "yeah ohoh I'm liking this story me too"
+            },
+            {
+              "id": "c0060",
+              "start": 212,
+              "end": 216,
+              "text": "Cinderella and R for Little Pigs oh"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0084",
+              "start": 212,
+              "end": 215,
+              "text": "Cinderella and the Three Little Pigs."
+            },
+            {
+              "id": "c0085",
+              "start": 215,
+              "end": 216,
+              "text": "Oh, Winton!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0056",
+              "start": 201,
+              "end": 204,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0056"
+              ]
+            },
+            {
+              "id": "c0057",
+              "start": 204,
+              "end": 206,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0057"
+              ]
+            },
+            {
+              "id": "c0058",
+              "start": 206,
+              "end": 208,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0058"
+              ]
+            },
+            {
+              "id": "c0059",
+              "start": 208,
+              "end": 212,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0059"
+              ]
+            },
+            {
+              "id": "c0060",
+              "start": 212,
+              "end": 216,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0060"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 17,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0017",
+          "quote": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and the Three Little Pigs. Oh, Winton!",
+          "start": 201,
+          "end": 216,
+          "matchStart": 17,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0017",
+          "quote": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and the Three Little Pigs. Oh, Winton!",
+          "start": 201,
+          "end": 216,
+          "matchStart": 28,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0017",
+          "quote": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and the Three Little Pigs. Oh, Winton!",
+          "start": 201,
+          "end": 216,
+          "matchStart": 71,
+          "matchEnd": 75
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0017",
+          "quote": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and the Three Little Pigs. Oh, Winton!",
+          "start": 201,
+          "end": 216,
+          "matchStart": 149,
+          "matchEnd": 155
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0017",
+          "quote": "color uh I don't think so I know we should find a picture of a cow and look at it oh yeah ohoh I'm liking this story me too Cinderella and the Three Little Pigs. Oh, Winton!",
+          "start": 201,
+          "end": 216,
+          "matchStart": 11,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0018",
+      "title": "문단 18",
+      "start": 216,
+      "end": 227,
+      "sentenceText": "Oh, McDonald! He's got a cow, doesn't he? Let me check. Old McDonald had a farm, E-I-E-I-O. And on that farm he had a cow.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 18,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0018",
+          "start": 216,
+          "end": 227,
+          "text": "Oh, McDonald! He's got a cow, doesn't he? Let me check. Old McDonald had a farm, E-I-E-I-O. And on that farm he had a cow.",
+          "originalText": "winon oh McDonald he's got a cow doesn't he let me check Old McDonald had a farm e- i e i o and on that farm he had a cow",
+          "originalCueRefs": [
+            {
+              "id": "c0061",
+              "start": 216,
+              "end": 219,
+              "text": "winon oh McDonald he's got a cow doesn't"
+            },
+            {
+              "id": "c0062",
+              "start": 219,
+              "end": 223,
+              "text": "he let me check Old McDonald had a farm"
+            },
+            {
+              "id": "c0063",
+              "start": 223,
+              "end": 227,
+              "text": "e- i e i o and on that farm he had a cow"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0086",
+              "start": 216,
+              "end": 219,
+              "text": "Oh, McDonald! He's got a cow, doesn't he?"
+            },
+            {
+              "id": "c0087",
+              "start": 219,
+              "end": 221,
+              "text": "Let me check."
+            },
+            {
+              "id": "c0088",
+              "start": 221,
+              "end": 223,
+              "text": "Old McDonald had a farm,"
+            },
+            {
+              "id": "c0089",
+              "start": 223,
+              "end": 225,
+              "text": "E-I-E-I-O."
+            },
+            {
+              "id": "c0090",
+              "start": 225,
+              "end": 227,
+              "text": "And on that farm he had a cow."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0061",
+              "start": 216,
+              "end": 219,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0061"
+              ]
+            },
+            {
+              "id": "c0062",
+              "start": 219,
+              "end": 223,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0062"
+              ]
+            },
+            {
+              "id": "c0063",
+              "start": 223,
+              "end": 227,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0063"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 18,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0019",
+      "title": "문단 19",
+      "start": 227,
+      "end": 242,
+      "sentenceText": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 19,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0019",
+          "start": 227,
+          "end": 242,
+          "text": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "originalText": "yes e i e IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "originalCueRefs": [
+            {
+              "id": "c0064",
+              "start": 227,
+              "end": 231,
+              "text": "yes e i e"
+            },
+            {
+              "id": "c0065",
+              "start": 231,
+              "end": 234,
+              "text": "IO H they definitely look the same as"
+            },
+            {
+              "id": "c0066",
+              "start": 234,
+              "end": 237,
+              "text": "each other hang on we already knew that"
+            },
+            {
+              "id": "c0067",
+              "start": 237,
+              "end": 239,
+              "text": "oh yeah we need to know what a horse"
+            },
+            {
+              "id": "c0068",
+              "start": 239,
+              "end": 242,
+              "text": "look like see if all McDonald has a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0091",
+              "start": 227,
+              "end": 231,
+              "text": "Yes! E-I-E-I-O!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0064",
+              "start": 227,
+              "end": 231,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0064"
+              ]
+            },
+            {
+              "id": "c0065",
+              "start": 231,
+              "end": 234,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0065"
+              ]
+            },
+            {
+              "id": "c0066",
+              "start": 234,
+              "end": 237,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0066"
+              ]
+            },
+            {
+              "id": "c0067",
+              "start": 237,
+              "end": 239,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0067"
+              ]
+            },
+            {
+              "id": "c0068",
+              "start": 239,
+              "end": 242,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0068"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 19,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0019",
+          "quote": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "start": 227,
+          "end": 242,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0019",
+          "quote": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "start": 227,
+          "end": 242,
+          "matchStart": 37,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0019",
+          "quote": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "start": 227,
+          "end": 242,
+          "matchStart": 105,
+          "matchEnd": 109
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0019",
+          "quote": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "start": 227,
+          "end": 242,
+          "matchStart": 113,
+          "matchEnd": 117
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0019",
+          "quote": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "start": 227,
+          "end": 242,
+          "matchStart": 118,
+          "matchEnd": 122
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0019",
+          "quote": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "start": 227,
+          "end": 242,
+          "matchStart": 136,
+          "matchEnd": 140
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0019",
+          "quote": "Yes! E-I-E-I-O! IO H they definitely look the same as each other hang on we already knew that oh yeah we need to know what a horse look like see if all McDonald has a",
+          "start": 227,
+          "end": 242,
+          "matchStart": 141,
+          "matchEnd": 144
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0020",
+      "title": "문단 20",
+      "start": 242,
+      "end": 255,
+      "sentenceText": "horse chicken duck pig oh no horse a that's very strange Winton why wouldn't Old McDonald have a horse winon maybe it",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 20,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0020",
+          "start": 242,
+          "end": 255,
+          "text": "horse chicken duck pig oh no horse a that's very strange Winton why wouldn't Old McDonald have a horse winon maybe it",
+          "originalText": "horse chicken duck pig oh no horse a that's very strange Winton why wouldn't Old McDonald have a horse winon maybe it",
+          "originalCueRefs": [
+            {
+              "id": "c0069",
+              "start": 242,
+              "end": 248,
+              "text": "horse chicken duck pig oh no horse a"
+            },
+            {
+              "id": "c0070",
+              "start": 248,
+              "end": 252,
+              "text": "that's very strange Winton why wouldn't"
+            },
+            {
+              "id": "c0071",
+              "start": 252,
+              "end": 255,
+              "text": "Old McDonald have a horse winon maybe it"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0069",
+              "start": 242,
+              "end": 248,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0069"
+              ]
+            },
+            {
+              "id": "c0070",
+              "start": 248,
+              "end": 252,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0070"
+              ]
+            },
+            {
+              "id": "c0071",
+              "start": 252,
+              "end": 255,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0071"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 20,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0020",
+          "quote": "horse chicken duck pig oh no horse a that's very strange Winton why wouldn't Old McDonald have a horse winon maybe it",
+          "start": 242,
+          "end": 255,
+          "matchStart": 26,
+          "matchEnd": 28
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0020",
+          "quote": "horse chicken duck pig oh no horse a that's very strange Winton why wouldn't Old McDonald have a horse winon maybe it",
+          "start": 242,
+          "end": 255,
+          "matchStart": 64,
+          "matchEnd": 67
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0021",
+      "title": "문단 21",
+      "start": 255,
+      "end": 269,
+      "sentenceText": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 21,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0021",
+          "start": 255,
+          "end": 269,
+          "text": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+          "originalText": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+          "originalCueRefs": [
+            {
+              "id": "c0072",
+              "start": 255,
+              "end": 259,
+              "text": "ran away wion yes why don't I just say"
+            },
+            {
+              "id": "c0073",
+              "start": 259,
+              "end": 262,
+              "text": "my horse is a cow but it's not a cow"
+            },
+            {
+              "id": "c0074",
+              "start": 262,
+              "end": 265,
+              "text": "it's a horse I know but it's not a very"
+            },
+            {
+              "id": "c0075",
+              "start": 265,
+              "end": 269,
+              "text": "good horse but it is a pretty good cow"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0072",
+              "start": 255,
+              "end": 259,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0072"
+              ]
+            },
+            {
+              "id": "c0073",
+              "start": 259,
+              "end": 262,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0073"
+              ]
+            },
+            {
+              "id": "c0074",
+              "start": 262,
+              "end": 265,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0074"
+              ]
+            },
+            {
+              "id": "c0075",
+              "start": 265,
+              "end": 269,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0075"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 21,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0021",
+          "quote": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+          "start": 255,
+          "end": 269,
+          "matchStart": 14,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0021",
+          "quote": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+          "start": 255,
+          "end": 269,
+          "matchStart": 18,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0021",
+          "quote": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+          "start": 255,
+          "end": 269,
+          "matchStart": 91,
+          "matchEnd": 95
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0021",
+          "quote": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+          "start": 255,
+          "end": 269,
+          "matchStart": 116,
+          "matchEnd": 120
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0021",
+          "quote": "ran away wion yes why don't I just say my horse is a cow but it's not a cow it's a horse I know but it's not a very good horse but it is a pretty good cow",
+          "start": 255,
+          "end": 269,
+          "matchStart": 22,
+          "matchEnd": 27
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0022",
+      "title": "문단 22",
+      "start": 269,
+      "end": 281,
+      "sentenceText": "As well as having a kind heart and being really musly Winton was as honest as they come no Indie it's a Well, it will be. We just have to work at it, work at it but we don't have a picture",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 22,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0022",
+          "start": 269,
+          "end": 281,
+          "text": "As well as having a kind heart and being really musly Winton was as honest as they come no Indie it's a Well, it will be. We just have to work at it, work at it but we don't have a picture",
+          "originalText": "as well as well as having a kind heart and being really musly Winton was as honest as they come no Indie it's a horse well it will be we just have to work at it but we don't have a picture",
+          "originalCueRefs": [
+            {
+              "id": "c0076",
+              "start": 269,
+              "end": 271,
+              "text": "as well as well as having a kind heart"
+            },
+            {
+              "id": "c0077",
+              "start": 271,
+              "end": 273,
+              "text": "and being really musly Winton was as"
+            },
+            {
+              "id": "c0078",
+              "start": 273,
+              "end": 277,
+              "text": "honest as they come no Indie it's a"
+            },
+            {
+              "id": "c0079",
+              "start": 277,
+              "end": 280,
+              "text": "horse well it will be we just have to"
+            },
+            {
+              "id": "c0080",
+              "start": 280,
+              "end": 281,
+              "text": "work at it but we don't have a picture"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0107",
+              "start": 269,
+              "end": 271,
+              "text": "As well as having a kind heart"
+            },
+            {
+              "id": "c0110",
+              "start": 277,
+              "end": 280,
+              "text": "Well, it will be. We just have to work at it,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0076",
+              "start": 269,
+              "end": 271,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0076"
+              ]
+            },
+            {
+              "id": "c0077",
+              "start": 271,
+              "end": 273,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0077"
+              ]
+            },
+            {
+              "id": "c0078",
+              "start": 273,
+              "end": 277,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0078"
+              ]
+            },
+            {
+              "id": "c0079",
+              "start": 277,
+              "end": 280,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0079"
+              ]
+            },
+            {
+              "id": "c0080",
+              "start": 280,
+              "end": 281,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0080"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 22,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0022",
+          "quote": "As well as having a kind heart and being really musly Winton was as honest as they come no Indie it's a Well, it will be. We just have to work at it, work at it but we don't have a picture",
+          "start": 269,
+          "end": 281,
+          "matchStart": 130,
+          "matchEnd": 137
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0022",
+          "quote": "As well as having a kind heart and being really musly Winton was as honest as they come no Indie it's a Well, it will be. We just have to work at it, work at it but we don't have a picture",
+          "start": 269,
+          "end": 281,
+          "matchStart": 88,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0022",
+          "quote": "As well as having a kind heart and being really musly Winton was as honest as they come no Indie it's a Well, it will be. We just have to work at it, work at it but we don't have a picture",
+          "start": 269,
+          "end": 281,
+          "matchStart": 168,
+          "matchEnd": 173
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0023",
+      "title": "문단 23",
+      "start": 281,
+      "end": 286,
+      "sentenceText": "of a horse no but I've got a better idea Come on.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 23,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0023",
+          "start": 281,
+          "end": 286,
+          "text": "of a horse no but I've got a better idea Come on.",
+          "originalText": "of a horse no but I've got a better idea come",
+          "originalCueRefs": [
+            {
+              "id": "c0081",
+              "start": 281,
+              "end": 285,
+              "text": "of a horse no but I've got a better idea"
+            },
+            {
+              "id": "c0082",
+              "start": 285,
+              "end": 286,
+              "text": "come"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0113",
+              "start": 285,
+              "end": 286,
+              "text": "Come on."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0081",
+              "start": 281,
+              "end": 285,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0081"
+              ]
+            },
+            {
+              "id": "c0082",
+              "start": 285,
+              "end": 286,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0082"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 23,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0023",
+          "quote": "of a horse no but I've got a better idea Come on.",
+          "start": 281,
+          "end": 286,
+          "matchStart": 41,
+          "matchEnd": 48
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0023",
+          "quote": "of a horse no but I've got a better idea Come on.",
+          "start": 281,
+          "end": 286,
+          "matchStart": 11,
+          "matchEnd": 13
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0024",
+      "title": "문단 24",
+      "start": 286,
+      "end": 301,
+      "sentenceText": "on oh by the way Windon could also transform into a car they asked alipa if they could go see Major Tom the horse who lived next door hold up your Cow Horse Indie okay suddenly was all so",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 24,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0024",
+          "start": 286,
+          "end": 301,
+          "text": "on oh by the way Windon could also transform into a car they asked alipa if they could go see Major Tom the horse who lived next door hold up your Cow Horse Indie okay suddenly was all so",
+          "originalText": "on oh by the way Windon could also transform into a car they asked alipa if they could go see Major Tom the horse who lived next door hold up your Cow Horse Indie okay suddenly was all so",
+          "originalCueRefs": [
+            {
+              "id": "c0083",
+              "start": 286,
+              "end": 288,
+              "text": "on oh by the way Windon could also"
+            },
+            {
+              "id": "c0084",
+              "start": 288,
+              "end": 292,
+              "text": "transform into a car they asked alipa if"
+            },
+            {
+              "id": "c0085",
+              "start": 292,
+              "end": 294,
+              "text": "they could go see Major Tom the horse"
+            },
+            {
+              "id": "c0086",
+              "start": 294,
+              "end": 297,
+              "text": "who lived next door hold up your Cow"
+            },
+            {
+              "id": "c0087",
+              "start": 297,
+              "end": 301,
+              "text": "Horse Indie okay suddenly was all so"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0083",
+              "start": 286,
+              "end": 288,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0083"
+              ]
+            },
+            {
+              "id": "c0084",
+              "start": 288,
+              "end": 292,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0084"
+              ]
+            },
+            {
+              "id": "c0085",
+              "start": 292,
+              "end": 294,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0085"
+              ]
+            },
+            {
+              "id": "c0086",
+              "start": 294,
+              "end": 297,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0086"
+              ]
+            },
+            {
+              "id": "c0087",
+              "start": 297,
+              "end": 301,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0087"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 24,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0024",
+          "quote": "on oh by the way Windon could also transform into a car they asked alipa if they could go see Major Tom the horse who lived next door hold up your Cow Horse Indie okay suddenly was all so",
+          "start": 286,
+          "end": 301,
+          "matchStart": 90,
+          "matchEnd": 93
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0024",
+          "quote": "on oh by the way Windon could also transform into a car they asked alipa if they could go see Major Tom the horse who lived next door hold up your Cow Horse Indie okay suddenly was all so",
+          "start": 286,
+          "end": 301,
+          "matchStart": 163,
+          "matchEnd": 167
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0025",
+      "title": "문단 25",
+      "start": 301,
+      "end": 314,
+      "sentenceText": "It's the neck! It's the neck! too short horses have long necks we sure do hooray thanks M Tom no worries and winon Old McDonald does have a horse but she",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 25,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0025",
+          "start": 301,
+          "end": 314,
+          "text": "It's the neck! It's the neck! too short horses have long necks we sure do hooray thanks M Tom no worries and winon Old McDonald does have a horse but she",
+          "originalText": "clear it's the neck it's the neck it's too short horses have long necks we sure do hooray thanks M Tom no worries and winon Old McDonald does have a horse but she",
+          "originalCueRefs": [
+            {
+              "id": "c0088",
+              "start": 301,
+              "end": 304,
+              "text": "clear it's the neck it's the neck it's"
+            },
+            {
+              "id": "c0089",
+              "start": 304,
+              "end": 307,
+              "text": "too short horses have long necks we sure"
+            },
+            {
+              "id": "c0090",
+              "start": 307,
+              "end": 308,
+              "text": "do"
+            },
+            {
+              "id": "c0091",
+              "start": 308,
+              "end": 312,
+              "text": "hooray thanks M Tom no worries and winon"
+            },
+            {
+              "id": "c0092",
+              "start": 312,
+              "end": 314,
+              "text": "Old McDonald does have a horse but she"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0119",
+              "start": 301,
+              "end": 304,
+              "text": "It's the neck! It's the neck!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0088",
+              "start": 301,
+              "end": 304,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0088"
+              ]
+            },
+            {
+              "id": "c0089",
+              "start": 304,
+              "end": 307,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0089"
+              ]
+            },
+            {
+              "id": "c0090",
+              "start": 307,
+              "end": 308,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0090"
+              ]
+            },
+            {
+              "id": "c0091",
+              "start": 308,
+              "end": 312,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0091"
+              ]
+            },
+            {
+              "id": "c0092",
+              "start": 312,
+              "end": 314,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0092"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 25,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0025",
+          "quote": "It's the neck! It's the neck! too short horses have long necks we sure do hooray thanks M Tom no worries and winon Old McDonald does have a horse but she",
+          "start": 301,
+          "end": 314,
+          "matchStart": 66,
+          "matchEnd": 70
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0025",
+          "quote": "It's the neck! It's the neck! too short horses have long necks we sure do hooray thanks M Tom no worries and winon Old McDonald does have a horse but she",
+          "start": 301,
+          "end": 314,
+          "matchStart": 94,
+          "matchEnd": 96
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0026",
+      "title": "문단 26",
+      "start": 314,
+      "end": 320,
+      "sentenceText": "but she was on holiday when they wrote the book. Oh, now they were ready to fix Cow-Horse.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 26,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0026",
+          "start": 314,
+          "end": 320,
+          "text": "but she was on holiday when they wrote the book. Oh, now they were ready to fix Cow-Horse.",
+          "originalText": "was on holiday when they wrote the book oh now they were ready to fix Cow Horse",
+          "originalCueRefs": [
+            {
+              "id": "c0093",
+              "start": 314,
+              "end": 317,
+              "text": "was on holiday when they wrote the book"
+            },
+            {
+              "id": "c0094",
+              "start": 317,
+              "end": 320,
+              "text": "oh now they were ready to fix Cow Horse"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0127",
+              "start": 314,
+              "end": 317,
+              "text": "but she was on holiday when they wrote the book."
+            },
+            {
+              "id": "c0128",
+              "start": 317,
+              "end": 320,
+              "text": "Oh, now they were ready to fix Cow-Horse."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0093",
+              "start": 314,
+              "end": 317,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0093"
+              ]
+            },
+            {
+              "id": "c0094",
+              "start": 317,
+              "end": 320,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0094"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 26,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0026",
+          "quote": "but she was on holiday when they wrote the book. Oh, now they were ready to fix Cow-Horse.",
+          "start": 314,
+          "end": 320,
+          "matchStart": 67,
+          "matchEnd": 72
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0027",
+      "title": "문단 27",
+      "start": 320,
+      "end": 331,
+      "sentenceText": "rolling Beeswax is easy with these big muscles thanks winon bye-bye cow and hello horse h Nice.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 27,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0027",
+          "start": 320,
+          "end": 331,
+          "text": "rolling Beeswax is easy with these big muscles thanks winon bye-bye cow and hello horse h Nice.",
+          "originalText": "rolling Beeswax is easy with these big muscles thanks winon bye-bye cow and hello horse h nice",
+          "originalCueRefs": [
+            {
+              "id": "c0095",
+              "start": 320,
+              "end": 323,
+              "text": "rolling Beeswax is easy with these big"
+            },
+            {
+              "id": "c0096",
+              "start": 323,
+              "end": 327,
+              "text": "muscles thanks winon bye-bye cow and"
+            },
+            {
+              "id": "c0097",
+              "start": 327,
+              "end": 330,
+              "text": "hello horse h"
+            },
+            {
+              "id": "c0098",
+              "start": 330,
+              "end": 331,
+              "text": "nice"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0133",
+              "start": 330,
+              "end": 331,
+              "text": "Nice."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0095",
+              "start": 320,
+              "end": 323,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0095"
+              ]
+            },
+            {
+              "id": "c0096",
+              "start": 323,
+              "end": 327,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0096"
+              ]
+            },
+            {
+              "id": "c0097",
+              "start": 327,
+              "end": 330,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0097"
+              ]
+            },
+            {
+              "id": "c0098",
+              "start": 330,
+              "end": 331,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0098"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 27,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0027",
+          "quote": "rolling Beeswax is easy with these big muscles thanks winon bye-bye cow and hello horse h Nice.",
+          "start": 320,
+          "end": 331,
+          "matchStart": 35,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "hello",
+          "cueId": "c0027",
+          "quote": "rolling Beeswax is easy with these big muscles thanks winon bye-bye cow and hello horse h Nice.",
+          "start": 320,
+          "end": 331,
+          "matchStart": 76,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0027",
+          "quote": "rolling Beeswax is easy with these big muscles thanks winon bye-bye cow and hello horse h Nice.",
+          "start": 320,
+          "end": 331,
+          "matchStart": 90,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0028",
+      "title": "문단 28",
+      "start": 331,
+      "end": 346,
+      "sentenceText": "giraffe oh no we turned Cal horse into a giraffe horse I'm sorry it's my fault I'm just not very good Indie was back where she started",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 28,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0028",
+          "start": 331,
+          "end": 346,
+          "text": "giraffe oh no we turned Cal horse into a giraffe horse I'm sorry it's my fault I'm just not very good Indie was back where she started",
+          "originalText": "giraffe oh no we turned Cal horse into a giraffe horse I'm sorry it's my fault I'm just not very good Indie was back where she started",
+          "originalCueRefs": [
+            {
+              "id": "c0099",
+              "start": 331,
+              "end": 335,
+              "text": "giraffe oh no we turned Cal horse into a"
+            },
+            {
+              "id": "c0100",
+              "start": 335,
+              "end": 339,
+              "text": "giraffe horse I'm sorry it's my fault"
+            },
+            {
+              "id": "c0101",
+              "start": 339,
+              "end": 342,
+              "text": "I'm just not very"
+            },
+            {
+              "id": "c0102",
+              "start": 342,
+              "end": 346,
+              "text": "good Indie was back where she started"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0099",
+              "start": 331,
+              "end": 335,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0099"
+              ]
+            },
+            {
+              "id": "c0100",
+              "start": 335,
+              "end": 339,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0100"
+              ]
+            },
+            {
+              "id": "c0101",
+              "start": 339,
+              "end": 342,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0101"
+              ]
+            },
+            {
+              "id": "c0102",
+              "start": 342,
+              "end": 346,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0102"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 28,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0028",
+          "quote": "giraffe oh no we turned Cal horse into a giraffe horse I'm sorry it's my fault I'm just not very good Indie was back where she started",
+          "start": 331,
+          "end": 346,
+          "matchStart": 11,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0028",
+          "quote": "giraffe oh no we turned Cal horse into a giraffe horse I'm sorry it's my fault I'm just not very good Indie was back where she started",
+          "start": 331,
+          "end": 346,
+          "matchStart": 59,
+          "matchEnd": 64
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0028",
+          "quote": "giraffe oh no we turned Cal horse into a giraffe horse I'm sorry it's my fault I'm just not very good Indie was back where she started",
+          "start": 331,
+          "end": 346,
+          "matchStart": 97,
+          "matchEnd": 101
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0028",
+          "quote": "giraffe oh no we turned Cal horse into a giraffe horse I'm sorry it's my fault I'm just not very good Indie was back where she started",
+          "start": 331,
+          "end": 346,
+          "matchStart": 117,
+          "matchEnd": 122
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0029",
+      "title": "문단 29",
+      "start": 346,
+      "end": 360,
+      "sentenceText": "but what story was she going to tell herself this time McDonald Had A and on the farm he had a TR Force e e with a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 29,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0029",
+          "start": 346,
+          "end": 360,
+          "text": "but what story was she going to tell herself this time McDonald Had A and on the farm he had a TR Force e e with a",
+          "originalText": "but what story was she going to tell herself this time McDonald Had A and on the farm he had a TR Force e e with a",
+          "originalCueRefs": [
+            {
+              "id": "c0103",
+              "start": 346,
+              "end": 347,
+              "text": "but what story was she going to tell"
+            },
+            {
+              "id": "c0104",
+              "start": 347,
+              "end": 350,
+              "text": "herself this"
+            },
+            {
+              "id": "c0105",
+              "start": 350,
+              "end": 353,
+              "text": "time McDonald Had"
+            },
+            {
+              "id": "c0106",
+              "start": 353,
+              "end": 358,
+              "text": "A and on the farm he had a TR Force e e"
+            },
+            {
+              "id": "c0107",
+              "start": 358,
+              "end": 360,
+              "text": "with a"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0103",
+              "start": 346,
+              "end": 347,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0103"
+              ]
+            },
+            {
+              "id": "c0104",
+              "start": 347,
+              "end": 350,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0104"
+              ]
+            },
+            {
+              "id": "c0105",
+              "start": 350,
+              "end": 353,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0105"
+              ]
+            },
+            {
+              "id": "c0106",
+              "start": 353,
+              "end": 358,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0106"
+              ]
+            },
+            {
+              "id": "c0107",
+              "start": 358,
+              "end": 360,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0107"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 29,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0029",
+          "quote": "but what story was she going to tell herself this time McDonald Had A and on the farm he had a TR Force e e with a",
+          "start": 346,
+          "end": 360,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0030",
+      "title": "문단 30",
+      "start": 360,
+      "end": 373,
+      "sentenceText": "quack quack here and Quack Quack there okay okay then what happened so they worked at it some more we just made the neck too long",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 30,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0030",
+          "start": 360,
+          "end": 373,
+          "text": "quack quack here and Quack Quack there okay okay then what happened so they worked at it some more we just made the neck too long",
+          "originalText": "quack quack here and Quack Quack there okay okay then what happened so they worked at it some more we just made the neck too long",
+          "originalCueRefs": [
+            {
+              "id": "c0108",
+              "start": 360,
+              "end": 363,
+              "text": "quack quack here and Quack Quack there"
+            },
+            {
+              "id": "c0109",
+              "start": 363,
+              "end": 365,
+              "text": "okay okay then what happened so they"
+            },
+            {
+              "id": "c0110",
+              "start": 365,
+              "end": 368,
+              "text": "worked at it some"
+            },
+            {
+              "id": "c0111",
+              "start": 368,
+              "end": 373,
+              "text": "more we just made the neck too long"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0108",
+              "start": 360,
+              "end": 363,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0108"
+              ]
+            },
+            {
+              "id": "c0109",
+              "start": 363,
+              "end": 365,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0109"
+              ]
+            },
+            {
+              "id": "c0110",
+              "start": 365,
+              "end": 368,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0110"
+              ]
+            },
+            {
+              "id": "c0111",
+              "start": 368,
+              "end": 373,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0111"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 30,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0030",
+          "quote": "quack quack here and Quack Quack there okay okay then what happened so they worked at it some more we just made the neck too long",
+          "start": 360,
+          "end": 373,
+          "matchStart": 39,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0030",
+          "quote": "quack quack here and Quack Quack there okay okay then what happened so they worked at it some more we just made the neck too long",
+          "start": 360,
+          "end": 373,
+          "matchStart": 54,
+          "matchEnd": 58
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0031",
+      "title": "문단 31",
+      "start": 373,
+      "end": 382,
+      "sentenceText": "there horse Yeah, thanks for your help, Winton.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 31,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0031",
+          "start": 373,
+          "end": 382,
+          "text": "there horse Yeah, thanks for your help, Winton.",
+          "originalText": "there horse yeah thanks for your help winon that's",
+          "originalCueRefs": [
+            {
+              "id": "c0112",
+              "start": 373,
+              "end": 377,
+              "text": "there horse"
+            },
+            {
+              "id": "c0113",
+              "start": 379,
+              "end": 382,
+              "text": "yeah thanks for your help winon that's"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0147",
+              "start": 379,
+              "end": 382,
+              "text": "Yeah, thanks for your help, Winton."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0112",
+              "start": 373,
+              "end": 377,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0112"
+              ]
+            },
+            {
+              "id": "c0113",
+              "start": 379,
+              "end": 382,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0113"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 31,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "help",
+          "cueId": "c0031",
+          "quote": "there horse Yeah, thanks for your help, Winton.",
+          "start": 373,
+          "end": 382,
+          "matchStart": 34,
+          "matchEnd": 38
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0032",
+      "title": "문단 32",
+      "start": 382,
+      "end": 394,
+      "sentenceText": "okay I told you you were good I think you're good too aw that's nice what What should we call him? Major Tom. Hi, Major Tom!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 32,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0032",
+          "start": 382,
+          "end": 394,
+          "text": "okay I told you you were good I think you're good too aw that's nice what What should we call him? Major Tom. Hi, Major Tom!",
+          "originalText": "okay I told you you were good I think you're good too aw that's nice what should we call him Major Tom hi Maj Tom",
+          "originalCueRefs": [
+            {
+              "id": "c0114",
+              "start": 382,
+              "end": 386,
+              "text": "okay I told you you were good I think"
+            },
+            {
+              "id": "c0115",
+              "start": 386,
+              "end": 389,
+              "text": "you're good too aw that's nice what"
+            },
+            {
+              "id": "c0116",
+              "start": 389,
+              "end": 394,
+              "text": "should we call him Major Tom hi Maj Tom"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0151",
+              "start": 389,
+              "end": 391,
+              "text": "What should we call him?"
+            },
+            {
+              "id": "c0152",
+              "start": 391,
+              "end": 392,
+              "text": "Major Tom."
+            },
+            {
+              "id": "c0153",
+              "start": 392,
+              "end": 394,
+              "text": "Hi, Major Tom!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0114",
+              "start": 382,
+              "end": 386,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0114"
+              ]
+            },
+            {
+              "id": "c0115",
+              "start": 386,
+              "end": 389,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0115"
+              ]
+            },
+            {
+              "id": "c0116",
+              "start": 389,
+              "end": 394,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0116"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 32,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0032",
+          "quote": "okay I told you you were good I think you're good too aw that's nice what What should we call him? Major Tom. Hi, Major Tom!",
+          "start": 382,
+          "end": 394,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0032",
+          "quote": "okay I told you you were good I think you're good too aw that's nice what What should we call him? Major Tom. Hi, Major Tom!",
+          "start": 382,
+          "end": 394,
+          "matchStart": 25,
+          "matchEnd": 29
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0032",
+          "quote": "okay I told you you were good I think you're good too aw that's nice what What should we call him? Major Tom. Hi, Major Tom!",
+          "start": 382,
+          "end": 394,
+          "matchStart": 32,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0032",
+          "quote": "okay I told you you were good I think you're good too aw that's nice what What should we call him? Major Tom. Hi, Major Tom!",
+          "start": 382,
+          "end": 394,
+          "matchStart": 64,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0032",
+          "quote": "okay I told you you were good I think you're good too aw that's nice what What should we call him? Major Tom. Hi, Major Tom!",
+          "start": 382,
+          "end": 394,
+          "matchStart": 69,
+          "matchEnd": 73
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0033",
+      "title": "문단 33",
+      "start": 394,
+      "end": 407,
+      "sentenceText": "yeah Major Tom and they both lived happily ever after the end much better",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 33,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0033",
+          "start": 394,
+          "end": 407,
+          "text": "yeah Major Tom and they both lived happily ever after the end much better",
+          "originalText": "yeah Major Tom and they both lived happily ever after the end much better",
+          "originalCueRefs": [
+            {
+              "id": "c0117",
+              "start": 394,
+              "end": 397,
+              "text": "yeah Major"
+            },
+            {
+              "id": "c0118",
+              "start": 398,
+              "end": 401,
+              "text": "Tom and they both lived happily ever"
+            },
+            {
+              "id": "c0119",
+              "start": 401,
+              "end": 407,
+              "text": "after the end much better"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0117",
+              "start": 394,
+              "end": 397,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0117"
+              ]
+            },
+            {
+              "id": "c0118",
+              "start": 398,
+              "end": 401,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0118"
+              ]
+            },
+            {
+              "id": "c0119",
+              "start": 401,
+              "end": 407,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0119"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 33,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

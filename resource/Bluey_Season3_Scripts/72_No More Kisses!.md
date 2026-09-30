@@ -1,0 +1,45 @@
+# 72. No More Kisses! | Smoochy Kiss - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=o6MtNdG6a-w
+- Length: 02:15
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:14
+
+---
+
+- `[00:00 - 00:04]` This way, this way! Keep an eye for Mum, Bingo.
+- `[00:04 - 00:06]` She just wants a Smoochy kiss.
+- `[00:06 - 00:08]` No more Smoochy kisses for her!
+- `[00:08 - 00:10]` Yeah, you belong to us, all right?
+- `[00:10 - 00:12]` So, am I still married? We'll
+- `[00:12 - 00:13]` figure that out later, but
+- `[00:13 - 00:15]` now we have to get you somewhere safe.
+- `[00:15 - 00:18]` Yeah, come with you.
+- `[00:18 - 00:20]` Pictures, please!
+- `[00:20 - 00:21]` What was this one? Yeah,
+- `[00:21 - 00:23]` I've just been for a run, okay?
+- `[00:23 - 00:28]` Well, just keep your arms down, please.
+- `[00:28 - 00:34]` Come on, check for Mum, Bingo, she could be hiding, okay?
+- `[00:37 - 00:42]` Ew, Dad, what's that? Oh, looks like gravy.
+- `[00:42 - 00:48]` Oh yep, gravy. She's not here, I looked everywhere.
+- `[00:52 - 00:56]` Me as well, yes, okay.
+- `[00:56 - 00:59]` Like, just what a Smoochy kiss
+- `[00:59 - 01:03]` and kids... I actually need the toilet. What?
+- `[01:03 - 01:05]` No way, it's too risky. Oh,
+- `[01:05 - 01:10]` well, your mum lets me go to the toilet, okay.
+- `[01:11 - 01:15]` It's clear, okay, do your business, and do it quickly.
+- `[01:15 - 01:18]` Yes, boss, I'm peeing only!
+- `[01:18 - 01:22]` I'll stay here, Bingo, you got outside, okay?
+- `[01:22 - 01:26]` Oh, keep your eye out for Mum, she'll
+- `[01:26 - 01:31]` do anything for a Smoochy kiss, Godzilla blamer!
+- `[01:35 - 01:39]` Are you almost finished? Almost.
+- `[01:39 - 01:44]` Oh, it's that... cake? What happened? Nothing.
+- `[01:44 - 01:49]` Why are you hopping? The pain on my foot.
+- `[01:49 - 01:51]` I wasn't paying attention.
+- `[01:51 - 01:55]` Why not? I was trying to pull a nose hair out.
+- `[01:55 - 01:58]` You've got hands in your nose, that's disgusting.
+- `[01:58 - 02:00]` Welcome to middle age, kid.
+- `[02:00 - 02:03]` What are you doing now? What's it look like?
+- `[02:03 - 02:06]` I'm watching the pee-after-foot, so
+- `[02:06 - 02:10]` it's not for watching, pay off your foot.
+- `[02:10 - 02:14]` Well, it is now.

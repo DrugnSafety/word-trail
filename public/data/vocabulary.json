@@ -1,0 +1,1628 @@
+[
+  {
+    "term": "a",
+    "ipa": "/ə, eɪ/",
+    "meaningKo": "하나의, 어떤",
+    "explanationKo": "셀 수 있는 한 개를 처음 말할 때 써요."
+  },
+  {
+    "term": "about",
+    "ipa": "/əˈbaʊt/",
+    "meaningKo": "~에 관해; 약",
+    "explanationKo": "이야기의 대상이나 대략적인 양을 나타내요."
+  },
+  {
+    "term": "advise",
+    "ipa": "/ədˈvaɪz/",
+    "meaningKo": "충고하다",
+    "explanationKo": "무엇을 하는 게 좋을지 말해 주는 동사예요."
+  },
+  {
+    "term": "ages",
+    "ipa": "/ˈeɪdʒɪz/",
+    "meaningKo": "아주 오랜 시간",
+    "explanationKo": "'ages ago'에서는 아주 오래전을 뜻해요."
+  },
+  {
+    "term": "ago",
+    "ipa": "/əˈɡoʊ/",
+    "meaningKo": "~전에",
+    "explanationKo": "지금보다 앞선 시간을 나타내요."
+  },
+  {
+    "term": "ah",
+    "ipa": "/ɑː/",
+    "meaningKo": "아!, 아하",
+    "explanationKo": "놀람이나 깨달음을 나타내는 감탄사예요."
+  },
+  {
+    "term": "all",
+    "ipa": "/ɔːl/",
+    "meaningKo": "모두; 전부",
+    "explanationKo": "빠짐없이 전부라는 뜻이에요."
+  },
+  {
+    "term": "and",
+    "ipa": "/ænd, ən/",
+    "meaningKo": "그리고",
+    "explanationKo": "말이나 문장을 이어 줘요."
+  },
+  {
+    "term": "any",
+    "ipa": "/ˈeni/",
+    "meaningKo": "어떤; 조금이라도",
+    "explanationKo": "정해지지 않은 하나나 얼마를 말해요."
+  },
+  {
+    "term": "are",
+    "ipa": "/ɑːr, ər/",
+    "meaningKo": "~이다, ~에 있다",
+    "explanationKo": "you, we, they와 함께 쓰는 be동사예요."
+  },
+  {
+    "term": "argh",
+    "ipa": "/ɑːr/",
+    "meaningKo": "아악!, 으악!",
+    "explanationKo": "짜증이나 놀람을 나타내는 소리예요."
+  },
+  {
+    "term": "arghh",
+    "ipa": "/ɑːr/",
+    "meaningKo": "으아악!",
+    "explanationKo": "대본에서 길게 적은 감탄 소리이며 일반 철자 단어는 아니에요."
+  },
+  {
+    "term": "as",
+    "ipa": "/æz, əz/",
+    "meaningKo": "~로; ~처럼",
+    "explanationKo": "역할이나 같은 방식을 나타낼 때 써요."
+  },
+  {
+    "term": "aunt",
+    "ipa": "/ænt/",
+    "meaningKo": "이모, 고모, 숙모",
+    "explanationKo": "부모님의 여자 형제를 부르는 말이에요."
+  },
+  {
+    "term": "away",
+    "ipa": "/əˈweɪ/",
+    "meaningKo": "멀리; 없어져",
+    "explanationKo": "지금 있는 곳에서 멀어지는 뜻이에요."
+  },
+  {
+    "term": "aww",
+    "ipa": "/ɔː/",
+    "meaningKo": "아유!, 아이고",
+    "explanationKo": "아쉬움이나 귀여움을 나타내는 감탄 소리예요."
+  },
+  {
+    "term": "back",
+    "ipa": "/bæk/",
+    "meaningKo": "뒤로; 돌아와",
+    "explanationKo": "원래 있던 곳이나 뒤쪽을 나타내요."
+  },
+  {
+    "term": "be",
+    "ipa": "/biː/",
+    "meaningKo": "~이다, 있다",
+    "explanationKo": "be동사의 기본형이에요."
+  },
+  {
+    "term": "because",
+    "ipa": "/bɪˈkɔːz/",
+    "meaningKo": "왜냐하면, ~때문에",
+    "explanationKo": "이유를 말할 때 써요."
+  },
+  {
+    "term": "bed",
+    "ipa": "/bed/",
+    "meaningKo": "침대",
+    "explanationKo": "잠을 자는 가구예요."
+  },
+  {
+    "term": "beds",
+    "ipa": "/bedz/",
+    "meaningKo": "침대들",
+    "explanationKo": "bed가 두 개 이상일 때 쓰는 말이에요."
+  },
+  {
+    "term": "behind",
+    "ipa": "/bɪˈhaɪnd/",
+    "meaningKo": "~뒤에",
+    "explanationKo": "무언가의 뒤쪽 위치를 나타내요."
+  },
+  {
+    "term": "ber",
+    "ipa": "/bɜːr/",
+    "meaningKo": "버! (장난 소리)",
+    "explanationKo": "이 장면의 장난스러운 대답 소리로, 보통 영어 단어는 아니에요."
+  },
+  {
+    "term": "better",
+    "ipa": "/ˈbetər/",
+    "meaningKo": "더 좋은; ~하는 게 낫다",
+    "explanationKo": "good의 비교급이며 조언에도 써요."
+  },
+  {
+    "term": "bingo",
+    "ipa": "/ˈbɪŋɡoʊ/",
+    "meaningKo": "빙고 (이름)",
+    "explanationKo": "등장인물 이름이에요. 일반 명사 bingo는 빙고 게임을 뜻해요."
+  },
+  {
+    "term": "blog",
+    "ipa": "/blɑːɡ/",
+    "meaningKo": "블로그",
+    "explanationKo": "인터넷에 글을 올리는 공간이에요."
+  },
+  {
+    "term": "bluey",
+    "ipa": "/ˈbluːi/",
+    "meaningKo": "블루이 (이름)",
+    "explanationKo": "등장인물 이름이에요."
+  },
+  {
+    "term": "boy",
+    "ipa": "/bɔɪ/",
+    "meaningKo": "남자아이",
+    "explanationKo": "어린 남자아이를 뜻해요."
+  },
+  {
+    "term": "but",
+    "ipa": "/bʌt, bət/",
+    "meaningKo": "하지만",
+    "explanationKo": "앞말과 다른 내용을 이어 줘요."
+  },
+  {
+    "term": "bye",
+    "ipa": "/baɪ/",
+    "meaningKo": "안녕, 잘 가",
+    "explanationKo": "헤어질 때 하는 인사예요."
+  },
+  {
+    "term": "call",
+    "ipa": "/kɔːl/",
+    "meaningKo": "전화; 부르다",
+    "explanationKo": "여기서는 영상 통화를 가리켜요."
+  },
+  {
+    "term": "called",
+    "ipa": "/kɔːld/",
+    "meaningKo": "~라고 불리는",
+    "explanationKo": "이름이 무엇인지 소개할 때 써요."
+  },
+  {
+    "term": "can",
+    "ipa": "/kæn, kən/",
+    "meaningKo": "~할 수 있다; ~해도 된다",
+    "explanationKo": "능력이나 허락을 말하는 조동사예요."
+  },
+  {
+    "term": "can't",
+    "ipa": "/kænt/",
+    "meaningKo": "~할 수 없다",
+    "explanationKo": "cannot을 줄여 쓴 말이에요."
+  },
+  {
+    "term": "chance",
+    "ipa": "/tʃæns/",
+    "meaningKo": "기회",
+    "explanationKo": "무언가를 해 볼 수 있는 때예요."
+  },
+  {
+    "term": "chasing",
+    "ipa": "/ˈtʃeɪsɪŋ/",
+    "meaningKo": "쫓아가는 중인",
+    "explanationKo": "chase에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "chatting",
+    "ipa": "/ˈtʃætɪŋ/",
+    "meaningKo": "이야기하는 중인",
+    "explanationKo": "편하게 대화하는 것을 뜻해요."
+  },
+  {
+    "term": "classic",
+    "ipa": "/ˈklæsɪk/",
+    "meaningKo": "전형적인, 역시다운",
+    "explanationKo": "여기서는 '정말 그 사람답다'는 장난스러운 말이에요."
+  },
+  {
+    "term": "clear",
+    "ipa": "/klɪr/",
+    "meaningKo": "깨끗한; 아무도 없는",
+    "explanationKo": "여기서는 앞에 방해물이나 사람이 없다는 뜻이에요."
+  },
+  {
+    "term": "clouds",
+    "ipa": "/klaʊdz/",
+    "meaningKo": "구름들",
+    "explanationKo": "cloud가 두 개 이상일 때 쓰는 말이에요."
+  },
+  {
+    "term": "come",
+    "ipa": "/kʌm/",
+    "meaningKo": "오다",
+    "explanationKo": "말하는 사람 쪽으로 움직이는 뜻이에요."
+  },
+  {
+    "term": "coming",
+    "ipa": "/ˈkʌmɪŋ/",
+    "meaningKo": "오는 중인",
+    "explanationKo": "come에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "couch",
+    "ipa": "/kaʊtʃ/",
+    "meaningKo": "소파",
+    "explanationKo": "여러 사람이 앉는 푹신한 긴 의자예요."
+  },
+  {
+    "term": "couches",
+    "ipa": "/ˈkaʊtʃɪz/",
+    "meaningKo": "소파들",
+    "explanationKo": "couch가 두 개 이상일 때 쓰는 말이에요."
+  },
+  {
+    "term": "covered",
+    "ipa": "/ˈkʌvərd/",
+    "meaningKo": "처리할 수 있는",
+    "explanationKo": "'I've got it covered'는 내가 맡아서 해결할 수 있다는 뜻이에요."
+  },
+  {
+    "term": "cow",
+    "ipa": "/kaʊ/",
+    "meaningKo": "소",
+    "explanationKo": "여기서는 cowboy를 천천히 나누어 말한 첫 부분이에요."
+  },
+  {
+    "term": "cowboy",
+    "ipa": "/ˈkaʊbɔɪ/",
+    "meaningKo": "카우보이",
+    "explanationKo": "말을 타고 소를 돌보는 사람을 뜻해요."
+  },
+  {
+    "term": "cupcake",
+    "ipa": "/ˈkʌpkeɪk/",
+    "meaningKo": "컵케이크; 이름의 일부",
+    "explanationKo": "작은 컵 모양 케이크이며 여기서는 Muffin의 가운데 이름이에요."
+  },
+  {
+    "term": "dad",
+    "ipa": "/dæd/",
+    "meaningKo": "아빠",
+    "explanationKo": "아버지를 친근하게 부르는 말이에요."
+  },
+  {
+    "term": "dad's",
+    "ipa": "/dædz/",
+    "meaningKo": "아빠의",
+    "explanationKo": "dad에 소유를 나타내는 's가 붙은 말이에요."
+  },
+  {
+    "term": "didn't",
+    "ipa": "/ˈdɪdənt/",
+    "meaningKo": "~하지 않았다",
+    "explanationKo": "did not을 줄여 쓴 말이에요."
+  },
+  {
+    "term": "do",
+    "ipa": "/duː, də/",
+    "meaningKo": "하다",
+    "explanationKo": "행동을 나타내거나 질문을 만드는 동사예요."
+  },
+  {
+    "term": "doesn't",
+    "ipa": "/ˈdʌzənt/",
+    "meaningKo": "~하지 않는다",
+    "explanationKo": "does not을 줄여 쓴 말이에요."
+  },
+  {
+    "term": "doing",
+    "ipa": "/ˈduːɪŋ/",
+    "meaningKo": "하는 중인",
+    "explanationKo": "do에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "don't",
+    "ipa": "/doʊnt/",
+    "meaningKo": "~하지 않는다",
+    "explanationKo": "do not을 줄여 쓴 말이에요."
+  },
+  {
+    "term": "down",
+    "ipa": "/daʊn/",
+    "meaningKo": "아래로",
+    "explanationKo": "낮은 쪽으로 움직이는 뜻이에요."
+  },
+  {
+    "term": "draw",
+    "ipa": "/drɔː/",
+    "meaningKo": "그리다",
+    "explanationKo": "연필이나 도구로 그림을 만드는 동사예요."
+  },
+  {
+    "term": "drawing",
+    "ipa": "/ˈdrɔːɪŋ/",
+    "meaningKo": "그림 그리기; 그림",
+    "explanationKo": "draw에 -ing를 붙여 활동이나 진행을 나타내요."
+  },
+  {
+    "term": "ending",
+    "ipa": "/ˈendɪŋ/",
+    "meaningKo": "끝내는 중인",
+    "explanationKo": "end에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "episode",
+    "ipa": "/ˈepəsoʊd/",
+    "meaningKo": "회차, 에피소드",
+    "explanationKo": "TV 이야기 한 편을 뜻해요."
+  },
+  {
+    "term": "er",
+    "ipa": "/ɜːr/",
+    "meaningKo": "어…, 음…",
+    "explanationKo": "생각할 시간을 벌 때 내는 머뭇거림 소리예요."
+  },
+  {
+    "term": "face",
+    "ipa": "/feɪs/",
+    "meaningKo": "얼굴",
+    "explanationKo": "눈, 코, 입이 있는 머리 앞부분이에요."
+  },
+  {
+    "term": "facey",
+    "ipa": "/ˈfeɪsi/",
+    "meaningKo": "얼굴 모양의; 페이시",
+    "explanationKo": "face에 장난스럽게 -y를 붙인 말로, 보통 사전 단어는 아니에요."
+  },
+  {
+    "term": "faceytalk",
+    "ipa": "/ˈfeɪsi tɔːk/",
+    "meaningKo": "페이시톡 (작품 속 영상 통화)",
+    "explanationKo": "FaceTime을 떠올리게 만든 작품 속 이름이며 일반 영어 단어는 아니에요."
+  },
+  {
+    "term": "father",
+    "ipa": "/ˈfɑːðər/",
+    "meaningKo": "아버지",
+    "explanationKo": "dad보다 조금 더 격식 있는 말이에요."
+  },
+  {
+    "term": "feel",
+    "ipa": "/fiːl/",
+    "meaningKo": "느끼다",
+    "explanationKo": "마음이나 몸의 느낌을 말하는 동사예요."
+  },
+  {
+    "term": "find",
+    "ipa": "/faɪnd/",
+    "meaningKo": "찾다, 발견하다",
+    "explanationKo": "보이지 않던 사람이나 물건을 알아내는 뜻이에요."
+  },
+  {
+    "term": "fine",
+    "ipa": "/faɪn/",
+    "meaningKo": "괜찮은",
+    "explanationKo": "'That's fine'은 괜찮다고 허락하거나 동의하는 말이에요."
+  },
+  {
+    "term": "finish",
+    "ipa": "/ˈfɪnɪʃ/",
+    "meaningKo": "끝내다",
+    "explanationKo": "하던 일을 마지막까지 마치는 뜻이에요."
+  },
+  {
+    "term": "finished",
+    "ipa": "/ˈfɪnɪʃt/",
+    "meaningKo": "끝난, 다 한",
+    "explanationKo": "finish의 과거형 또는 완료된 상태예요."
+  },
+  {
+    "term": "for",
+    "ipa": "/fɔːr, fər/",
+    "meaningKo": "~을 위해; ~동안",
+    "explanationKo": "목적이나 기간을 나타내요."
+  },
+  {
+    "term": "freee",
+    "ipa": "/friː/",
+    "meaningKo": "자유다!",
+    "explanationKo": "free를 신나게 길게 적은 대본 표기이며 표준 철자는 free예요."
+  },
+  {
+    "term": "gah",
+    "ipa": "/ɡɑː/",
+    "meaningKo": "으악!",
+    "explanationKo": "놀람이나 짜증을 나타내는 감탄 소리예요."
+  },
+  {
+    "term": "gave",
+    "ipa": "/ɡeɪv/",
+    "meaningKo": "주었다",
+    "explanationKo": "give의 과거형이에요."
+  },
+  {
+    "term": "get",
+    "ipa": "/ɡet/",
+    "meaningKo": "얻다; 가다; ~하게 되다",
+    "explanationKo": "문장에 따라 여러 뜻을 가지며 여기서는 움직이라는 명령에도 써요."
+  },
+  {
+    "term": "girls",
+    "ipa": "/ɡɜːrlz/",
+    "meaningKo": "여자아이들",
+    "explanationKo": "girl이 두 명 이상일 때 쓰는 말이에요."
+  },
+  {
+    "term": "give",
+    "ipa": "/ɡɪv/",
+    "meaningKo": "주다",
+    "explanationKo": "다른 사람에게 건네거나 기회를 주는 뜻이에요."
+  },
+  {
+    "term": "go",
+    "ipa": "/ɡoʊ/",
+    "meaningKo": "가다; 차례",
+    "explanationKo": "움직이는 뜻이며 'give someone a go'에서는 해 볼 차례를 뜻해요."
+  },
+  {
+    "term": "goes",
+    "ipa": "/ɡoʊz/",
+    "meaningKo": "간다; 울린다",
+    "explanationKo": "go의 3인칭 단수형이에요."
+  },
+  {
+    "term": "going",
+    "ipa": "/ˈɡoʊɪŋ/",
+    "meaningKo": "가는 중인; 일어나는 중인",
+    "explanationKo": "go에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "good",
+    "ipa": "/ɡʊd/",
+    "meaningKo": "좋은",
+    "explanationKo": "마음에 들거나 알맞다는 뜻이에요."
+  },
+  {
+    "term": "got",
+    "ipa": "/ɡɑːt/",
+    "meaningKo": "가졌다; 얻었다",
+    "explanationKo": "get의 과거형이며 have got에서는 가지고 있다는 뜻이에요."
+  },
+  {
+    "term": "gowilla",
+    "ipa": "/ɡəˈwɪlə/",
+    "meaningKo": "고윌라 (장난말)",
+    "explanationKo": "이 장면에서 아이가 만든 듯한 장난말로, 일반 영어 단어가 아니며 정확한 표준 발음도 없어요."
+  },
+  {
+    "term": "gravy",
+    "ipa": "/ˈɡreɪvi/",
+    "meaningKo": "그레이비 소스",
+    "explanationKo": "'Good gravy!'에서는 놀람을 순하게 나타내는 감탄 표현이에요."
+  },
+  {
+    "term": "great",
+    "ipa": "/ɡreɪt/",
+    "meaningKo": "아주 좋은, 멋진",
+    "explanationKo": "무언가를 칭찬할 때 자주 써요."
+  },
+  {
+    "term": "guys",
+    "ipa": "/ɡaɪz/",
+    "meaningKo": "얘들아, 여러분",
+    "explanationKo": "여러 사람을 편하게 부르는 말이에요."
+  },
+  {
+    "term": "ha",
+    "ipa": "/hɑː/",
+    "meaningKo": "하! (웃음소리)",
+    "explanationKo": "웃음을 글로 나타낸 감탄 소리예요."
+  },
+  {
+    "term": "handle",
+    "ipa": "/ˈhændəl/",
+    "meaningKo": "처리하다, 다루다",
+    "explanationKo": "문제나 상황을 맡아 해결한다는 뜻이에요."
+  },
+  {
+    "term": "handling",
+    "ipa": "/ˈhændəlɪŋ/",
+    "meaningKo": "처리하는 중인",
+    "explanationKo": "handle에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "hang",
+    "ipa": "/hæŋ/",
+    "meaningKo": "걸다; 끊다",
+    "explanationKo": "'hang up'에서는 전화를 끊다는 뜻이에요."
+  },
+  {
+    "term": "happens",
+    "ipa": "/ˈhæpənz/",
+    "meaningKo": "일어난다",
+    "explanationKo": "happen의 3인칭 단수형이에요."
+  },
+  {
+    "term": "hat",
+    "ipa": "/hæt/",
+    "meaningKo": "모자",
+    "explanationKo": "머리에 쓰는 물건이에요."
+  },
+  {
+    "term": "have",
+    "ipa": "/hæv, həv/",
+    "meaningKo": "가지다; ~해야 한다",
+    "explanationKo": "소유를 나타내며 have to에서는 해야 한다는 뜻이에요."
+  },
+  {
+    "term": "he's",
+    "ipa": "/hiːz/",
+    "meaningKo": "그는 ~이다; 그는 ~했다",
+    "explanationKo": "he is 또는 he has를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "heeler",
+    "ipa": "/ˈhiːlər/",
+    "meaningKo": "힐러 (성씨·견종)",
+    "explanationKo": "등장인물의 성이며 Blue Heeler라는 개 품종 이름에도 쓰여요."
+  },
+  {
+    "term": "help",
+    "ipa": "/help/",
+    "meaningKo": "돕다",
+    "explanationKo": "다른 사람이 하기 쉽게 힘을 보태는 뜻이에요."
+  },
+  {
+    "term": "her",
+    "ipa": "/hɜːr, hər/",
+    "meaningKo": "그녀를; 그녀의",
+    "explanationKo": "여자 한 사람을 가리키는 대명사예요."
+  },
+  {
+    "term": "here",
+    "ipa": "/hɪr/",
+    "meaningKo": "여기에",
+    "explanationKo": "말하는 사람 가까운 곳을 나타내요."
+  },
+  {
+    "term": "hey",
+    "ipa": "/heɪ/",
+    "meaningKo": "이봐, 안녕",
+    "explanationKo": "주의를 끌거나 편하게 인사할 때 써요."
+  },
+  {
+    "term": "hi",
+    "ipa": "/haɪ/",
+    "meaningKo": "안녕",
+    "explanationKo": "만났을 때 하는 편한 인사예요."
+  },
+  {
+    "term": "hide",
+    "ipa": "/haɪd/",
+    "meaningKo": "숨다, 숨기다",
+    "explanationKo": "보이지 않게 하는 뜻이에요."
+  },
+  {
+    "term": "hiding",
+    "ipa": "/ˈhaɪdɪŋ/",
+    "meaningKo": "숨는 중인",
+    "explanationKo": "hide에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "him",
+    "ipa": "/hɪm/",
+    "meaningKo": "그를, 그에게",
+    "explanationKo": "남자 한 사람을 목적어로 가리켜요."
+  },
+  {
+    "term": "his",
+    "ipa": "/hɪz/",
+    "meaningKo": "그의",
+    "explanationKo": "남자 한 사람이 가진 것을 나타내요."
+  },
+  {
+    "term": "hog",
+    "ipa": "/hɑːɡ/",
+    "meaningKo": "독차지하다",
+    "explanationKo": "다른 사람과 나누지 않고 혼자 차지하는 뜻이에요."
+  },
+  {
+    "term": "hogging",
+    "ipa": "/ˈhɑːɡɪŋ/",
+    "meaningKo": "독차지하는 중인",
+    "explanationKo": "hog에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "house",
+    "ipa": "/haʊs/",
+    "meaningKo": "집",
+    "explanationKo": "사람이 사는 건물을 뜻해요."
+  },
+  {
+    "term": "how",
+    "ipa": "/haʊ/",
+    "meaningKo": "어떻게",
+    "explanationKo": "방법이나 상태를 물을 때 써요."
+  },
+  {
+    "term": "i",
+    "ipa": "/aɪ/",
+    "meaningKo": "나",
+    "explanationKo": "말하는 사람이 자신을 가리키는 대명사예요."
+  },
+  {
+    "term": "i'll",
+    "ipa": "/aɪl/",
+    "meaningKo": "나는 ~할 거야",
+    "explanationKo": "I will을 줄여 쓴 말이에요."
+  },
+  {
+    "term": "i'm",
+    "ipa": "/aɪm/",
+    "meaningKo": "나는 ~이다; ~하는 중이다",
+    "explanationKo": "I am을 줄여 쓴 말이에요."
+  },
+  {
+    "term": "i've",
+    "ipa": "/aɪv/",
+    "meaningKo": "나는 ~했다; 가지고 있다",
+    "explanationKo": "I have를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "idea",
+    "ipa": "/aɪˈdiːə/",
+    "meaningKo": "생각, 아이디어",
+    "explanationKo": "머릿속에 떠오른 방법이나 생각이에요."
+  },
+  {
+    "term": "if",
+    "ipa": "/ɪf/",
+    "meaningKo": "만약 ~라면",
+    "explanationKo": "어떤 조건을 말할 때 써요."
+  },
+  {
+    "term": "in",
+    "ipa": "/ɪn/",
+    "meaningKo": "~안에",
+    "explanationKo": "안쪽 위치나 시간 범위를 나타내요."
+  },
+  {
+    "term": "instant",
+    "ipa": "/ˈɪnstənt/",
+    "meaningKo": "즉시, 바로 그 순간",
+    "explanationKo": "'this instant'는 바로 지금이라는 강한 말이에요."
+  },
+  {
+    "term": "is",
+    "ipa": "/ɪz, z/",
+    "meaningKo": "~이다, ~에 있다",
+    "explanationKo": "he, she, it과 함께 쓰는 be동사예요."
+  },
+  {
+    "term": "it",
+    "ipa": "/ɪt/",
+    "meaningKo": "그것",
+    "explanationKo": "사물이나 앞에서 말한 일을 가리켜요."
+  },
+  {
+    "term": "it's",
+    "ipa": "/ɪts/",
+    "meaningKo": "그것은 ~이다; ~했다",
+    "explanationKo": "it is 또는 it has를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "just",
+    "ipa": "/dʒʌst/",
+    "meaningKo": "그냥; 바로; 잠깐",
+    "explanationKo": "문맥에 따라 행동을 가볍게 하거나 정확함을 강조해요."
+  },
+  {
+    "term": "kid",
+    "ipa": "/kɪd/",
+    "meaningKo": "아이",
+    "explanationKo": "child를 편하게 말하는 단어예요."
+  },
+  {
+    "term": "kids",
+    "ipa": "/kɪdz/",
+    "meaningKo": "아이들",
+    "explanationKo": "kid가 두 명 이상일 때 쓰는 말이에요."
+  },
+  {
+    "term": "know",
+    "ipa": "/noʊ/",
+    "meaningKo": "알다",
+    "explanationKo": "사실이나 방법을 알고 있다는 뜻이에요."
+  },
+  {
+    "term": "lady",
+    "ipa": "/ˈleɪdi/",
+    "meaningKo": "여자분; 아가씨",
+    "explanationKo": "여성을 부르는 말이며 'young lady'는 아이를 단호하게 부를 때도 써요."
+  },
+  {
+    "term": "last",
+    "ipa": "/læst/",
+    "meaningKo": "마지막의",
+    "explanationKo": "더 이상 뒤에 없는 순서를 나타내요."
+  },
+  {
+    "term": "learn",
+    "ipa": "/lɜːrn/",
+    "meaningKo": "배우다",
+    "explanationKo": "새로운 지식이나 방법을 알게 되는 뜻이에요."
+  },
+  {
+    "term": "lended",
+    "ipa": "/ˈlendɪd/",
+    "meaningKo": "빌려줬다 (아이의 비표준 표현)",
+    "explanationKo": "표준 과거형은 lent예요. 이 장면의 아이 말투를 그대로 적은 것이므로 표준형으로 외우지 않아요."
+  },
+  {
+    "term": "let",
+    "ipa": "/let/",
+    "meaningKo": "~하게 두다",
+    "explanationKo": "누군가가 행동하도록 허락하는 뜻이에요."
+  },
+  {
+    "term": "let's",
+    "ipa": "/lets/",
+    "meaningKo": "우리 ~하자",
+    "explanationKo": "let us를 줄인 제안 표현이에요."
+  },
+  {
+    "term": "like",
+    "ipa": "/laɪk/",
+    "meaningKo": "좋아하다; ~처럼",
+    "explanationKo": "좋아하는 마음이나 비슷한 방식을 나타내요."
+  },
+  {
+    "term": "listen",
+    "ipa": "/ˈlɪsən/",
+    "meaningKo": "듣다",
+    "explanationKo": "주의를 기울여 소리를 듣는 뜻이에요."
+  },
+  {
+    "term": "little",
+    "ipa": "/ˈlɪtəl/",
+    "meaningKo": "작은; 어린",
+    "explanationKo": "크기나 나이가 작다는 뜻이에요."
+  },
+  {
+    "term": "look",
+    "ipa": "/lʊk/",
+    "meaningKo": "보다; ~처럼 보이다",
+    "explanationKo": "눈으로 보거나 겉으로 보이는 상태를 말해요."
+  },
+  {
+    "term": "lots",
+    "ipa": "/lɑːts/",
+    "meaningKo": "많이, 많은 것",
+    "explanationKo": "'lots of'는 많은이라는 뜻이에요."
+  },
+  {
+    "term": "make",
+    "ipa": "/meɪk/",
+    "meaningKo": "만들다; ~하게 하다",
+    "explanationKo": "무언가를 만들거나 어떤 상태가 되게 하는 뜻이에요."
+  },
+  {
+    "term": "man",
+    "ipa": "/mæn/",
+    "meaningKo": "남자, 아저씨",
+    "explanationKo": "성인 남자를 뜻해요."
+  },
+  {
+    "term": "many",
+    "ipa": "/ˈmeni/",
+    "meaningKo": "많은",
+    "explanationKo": "셀 수 있는 것이 많을 때 써요."
+  },
+  {
+    "term": "march",
+    "ipa": "/mɑːrtʃ/",
+    "meaningKo": "씩씩하게 걷다",
+    "explanationKo": "규칙적인 큰 걸음으로 걷는 뜻이에요."
+  },
+  {
+    "term": "maybe",
+    "ipa": "/ˈmeɪbi/",
+    "meaningKo": "아마, 어쩌면",
+    "explanationKo": "확실하지 않은 가능성을 말해요."
+  },
+  {
+    "term": "me",
+    "ipa": "/miː/",
+    "meaningKo": "나를, 나에게",
+    "explanationKo": "말하는 사람을 목적어로 가리켜요."
+  },
+  {
+    "term": "mean",
+    "ipa": "/miːn/",
+    "meaningKo": "뜻하다; 의도하다",
+    "explanationKo": "말이나 행동의 뜻과 의도를 나타내요."
+  },
+  {
+    "term": "meant",
+    "ipa": "/ment/",
+    "meaningKo": "뜻했다; ~하기로 되어 있었다",
+    "explanationKo": "mean의 과거형이며 'be meant to'는 ~하기로 되어 있다는 뜻이에요."
+  },
+  {
+    "term": "more",
+    "ipa": "/mɔːr/",
+    "meaningKo": "더 많은; 더",
+    "explanationKo": "양이나 정도가 커지는 것을 나타내요."
+  },
+  {
+    "term": "muffin",
+    "ipa": "/ˈmʌfɪn/",
+    "meaningKo": "머핀 (이름)",
+    "explanationKo": "등장인물 이름이에요. 일반 명사 muffin은 작은 빵을 뜻해요."
+  },
+  {
+    "term": "muffles",
+    "ipa": "/ˈmʌfəlz/",
+    "meaningKo": "머플스 (애칭)",
+    "explanationKo": "Muffin을 장난스럽고 다정하게 부르는 작품 속 애칭이에요."
+  },
+  {
+    "term": "muffy",
+    "ipa": "/ˈmʌfi/",
+    "meaningKo": "머피 (애칭)",
+    "explanationKo": "Muffin을 짧고 다정하게 부르는 애칭이에요."
+  },
+  {
+    "term": "mum",
+    "ipa": "/mʌm/",
+    "meaningKo": "엄마",
+    "explanationKo": "영국·호주 영어에서 mother를 친근하게 부르는 말이에요. 미국에서는 mom을 더 많이 써요."
+  },
+  {
+    "term": "mum's",
+    "ipa": "/mʌmz/",
+    "meaningKo": "엄마의; 엄마는 ~이다",
+    "explanationKo": "mum의 소유형 또는 mum is를 줄인 말이에요."
+  },
+  {
+    "term": "mute",
+    "ipa": "/mjuːt/",
+    "meaningKo": "소리를 끄다",
+    "explanationKo": "기기의 소리가 나지 않게 하는 뜻이에요."
+  },
+  {
+    "term": "my",
+    "ipa": "/maɪ/",
+    "meaningKo": "나의",
+    "explanationKo": "내가 가진 것을 나타내요."
+  },
+  {
+    "term": "need",
+    "ipa": "/niːd/",
+    "meaningKo": "필요하다",
+    "explanationKo": "꼭 있어야 하거나 해야 한다는 뜻이에요."
+  },
+  {
+    "term": "needs",
+    "ipa": "/niːdz/",
+    "meaningKo": "필요로 한다",
+    "explanationKo": "need의 3인칭 단수형이에요."
+  },
+  {
+    "term": "never",
+    "ipa": "/ˈnevər/",
+    "meaningKo": "절대로 ~않다; 한 번도 ~않다",
+    "explanationKo": "어떤 일이 전혀 없음을 나타내요."
+  },
+  {
+    "term": "nice",
+    "ipa": "/naɪs/",
+    "meaningKo": "좋은, 멋진",
+    "explanationKo": "마음에 드는 것을 칭찬할 때 써요."
+  },
+  {
+    "term": "no",
+    "ipa": "/noʊ/",
+    "meaningKo": "아니; 안 돼",
+    "explanationKo": "부정하거나 거절할 때 써요."
+  },
+  {
+    "term": "nooo",
+    "ipa": "/noʊ/",
+    "meaningKo": "안 돼!",
+    "explanationKo": "no를 길게 외친 대본 표기이며 표준 철자는 no예요."
+  },
+  {
+    "term": "not",
+    "ipa": "/nɑːt/",
+    "meaningKo": "~아니다, ~않다",
+    "explanationKo": "말을 부정할 때 써요."
+  },
+  {
+    "term": "now",
+    "ipa": "/naʊ/",
+    "meaningKo": "지금",
+    "explanationKo": "바로 이때를 나타내요."
+  },
+  {
+    "term": "of",
+    "ipa": "/əv, ʌv/",
+    "meaningKo": "~의",
+    "explanationKo": "서로 관계가 있는 두 말을 이어 줘요."
+  },
+  {
+    "term": "off",
+    "ipa": "/ɔːf/",
+    "meaningKo": "꺼진; 떨어져",
+    "explanationKo": "켜진 것을 끄거나 붙은 것에서 떨어지는 뜻이에요."
+  },
+  {
+    "term": "oh",
+    "ipa": "/oʊ/",
+    "meaningKo": "오!, 아!",
+    "explanationKo": "놀람이나 이해 같은 느낌을 나타내요."
+  },
+  {
+    "term": "ok",
+    "ipa": "/ˌoʊˈkeɪ/",
+    "meaningKo": "좋아, 알겠어, 괜찮아",
+    "explanationKo": "동의하거나 상태가 괜찮음을 말해요."
+  },
+  {
+    "term": "on",
+    "ipa": "/ɑːn/",
+    "meaningKo": "~위에; 켜진",
+    "explanationKo": "접촉한 위치나 작동 중인 상태를 나타내요."
+  },
+  {
+    "term": "one",
+    "ipa": "/wʌn/",
+    "meaningKo": "하나; 한 사람/것",
+    "explanationKo": "숫자 1 또는 하나의 대상을 나타내요."
+  },
+  {
+    "term": "only",
+    "ipa": "/ˈoʊnli/",
+    "meaningKo": "오직; 단지",
+    "explanationKo": "하나로 제한되거나 그 정도뿐임을 나타내요."
+  },
+  {
+    "term": "oof",
+    "ipa": "/uːf/",
+    "meaningKo": "욱!, 끙!",
+    "explanationKo": "부딪히거나 힘들 때 내는 소리예요."
+  },
+  {
+    "term": "ooh",
+    "ipa": "/uː/",
+    "meaningKo": "오!",
+    "explanationKo": "감탄하거나 흥미로울 때 내는 소리예요."
+  },
+  {
+    "term": "or",
+    "ipa": "/ɔːr, ər/",
+    "meaningKo": "또는, 아니면",
+    "explanationKo": "둘 이상의 선택을 이어 줘요."
+  },
+  {
+    "term": "other",
+    "ipa": "/ˈʌðər/",
+    "meaningKo": "다른",
+    "explanationKo": "지금 말한 것과 다른 사람이나 것을 나타내요."
+  },
+  {
+    "term": "out",
+    "ipa": "/aʊt/",
+    "meaningKo": "밖으로; 끝난",
+    "explanationKo": "안에서 밖으로 나가거나 더 이상 참여하지 않는 상태를 말해요."
+  },
+  {
+    "term": "ow",
+    "ipa": "/aʊ/",
+    "meaningKo": "아야!",
+    "explanationKo": "아플 때 내는 감탄 소리예요."
+  },
+  {
+    "term": "parent",
+    "ipa": "/ˈperənt/",
+    "meaningKo": "부모; 부모 역할을 하다",
+    "explanationKo": "여기서는 아이를 돌보고 가르치는 부모 역할을 한다는 동사예요."
+  },
+  {
+    "term": "parenting",
+    "ipa": "/ˈperəntɪŋ/",
+    "meaningKo": "육아, 부모 역할",
+    "explanationKo": "아이를 돌보고 가르치는 일을 뜻해요."
+  },
+  {
+    "term": "people",
+    "ipa": "/ˈpiːpəl/",
+    "meaningKo": "사람들",
+    "explanationKo": "person이 여러 명일 때 흔히 쓰는 말이에요."
+  },
+  {
+    "term": "phone",
+    "ipa": "/foʊn/",
+    "meaningKo": "전화기",
+    "explanationKo": "통화하거나 메시지를 보내는 기기예요."
+  },
+  {
+    "term": "playing",
+    "ipa": "/ˈpleɪɪŋ/",
+    "meaningKo": "놀거나 연주하는 중인",
+    "explanationKo": "play에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "please",
+    "ipa": "/pliːz/",
+    "meaningKo": "부탁해요, 제발",
+    "explanationKo": "정중하게 부탁할 때 덧붙이는 말이에요."
+  },
+  {
+    "term": "problem",
+    "ipa": "/ˈprɑːbləm/",
+    "meaningKo": "문제",
+    "explanationKo": "해결해야 하는 어려운 일을 뜻해요."
+  },
+  {
+    "term": "read",
+    "ipa": "/red/",
+    "meaningKo": "읽었다",
+    "explanationKo": "이 문장에서는 read의 과거형이며 철자는 같고 /red/로 발음해요."
+  },
+  {
+    "term": "right",
+    "ipa": "/raɪt/",
+    "meaningKo": "맞는; 바로; 오른쪽",
+    "explanationKo": "여기서는 'all right'나 'right now'처럼 동의와 시간을 강조해요."
+  },
+  {
+    "term": "run",
+    "ipa": "/rʌn/",
+    "meaningKo": "달리다",
+    "explanationKo": "빠르게 뛰어 움직이는 뜻이에요."
+  },
+  {
+    "term": "running",
+    "ipa": "/ˈrʌnɪŋ/",
+    "meaningKo": "달리는 중인",
+    "explanationKo": "run에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "say",
+    "ipa": "/seɪ/",
+    "meaningKo": "말하다",
+    "explanationKo": "말로 표현하는 동사예요."
+  },
+  {
+    "term": "see",
+    "ipa": "/siː/",
+    "meaningKo": "보다",
+    "explanationKo": "눈으로 보거나 이해하는 뜻이에요."
+  },
+  {
+    "term": "setting",
+    "ipa": "/ˈsetɪŋ/",
+    "meaningKo": "설정하는 중인",
+    "explanationKo": "set에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "share",
+    "ipa": "/ʃer/",
+    "meaningKo": "나누어 쓰다",
+    "explanationKo": "다른 사람도 함께 쓰게 하는 뜻이에요."
+  },
+  {
+    "term": "she",
+    "ipa": "/ʃiː/",
+    "meaningKo": "그녀는",
+    "explanationKo": "여자 한 사람을 주어로 가리켜요."
+  },
+  {
+    "term": "she's",
+    "ipa": "/ʃiːz/",
+    "meaningKo": "그녀는 ~이다; 그녀는 ~했다",
+    "explanationKo": "she is 또는 she has를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "should",
+    "ipa": "/ʃʊd/",
+    "meaningKo": "~해야 한다; ~하는 게 좋다",
+    "explanationKo": "바람직한 행동이나 조언을 말해요."
+  },
+  {
+    "term": "silly",
+    "ipa": "/ˈsɪli/",
+    "meaningKo": "우스운, 엉뚱한",
+    "explanationKo": "진지하지 않고 장난스럽다는 뜻이에요."
+  },
+  {
+    "term": "since",
+    "ipa": "/sɪns/",
+    "meaningKo": "~이후로; 언제부터",
+    "explanationKo": "어떤 일이 시작된 때를 나타내요."
+  },
+  {
+    "term": "sister",
+    "ipa": "/ˈsɪstər/",
+    "meaningKo": "자매, 여자 형제",
+    "explanationKo": "누나, 언니, 여동생을 아우르는 말이에요."
+  },
+  {
+    "term": "so",
+    "ipa": "/soʊ/",
+    "meaningKo": "그래서; 아주",
+    "explanationKo": "결과를 잇거나 정도를 강조해요."
+  },
+  {
+    "term": "socks",
+    "ipa": "/sɑːks/",
+    "meaningKo": "삭스 (이름)",
+    "explanationKo": "등장인물 이름이에요. 일반 명사 socks는 양말들을 뜻해요."
+  },
+  {
+    "term": "socks's",
+    "ipa": "/ˈsɑːksɪz/",
+    "meaningKo": "삭스의",
+    "explanationKo": "이름 Socks에 소유를 나타내는 's가 붙은 형태예요."
+  },
+  {
+    "term": "some",
+    "ipa": "/sʌm, səm/",
+    "meaningKo": "몇몇의, 약간의",
+    "explanationKo": "정확히 정하지 않은 양을 나타내요."
+  },
+  {
+    "term": "somewhere",
+    "ipa": "/ˈsʌmwer/",
+    "meaningKo": "어딘가에",
+    "explanationKo": "정확히 말하지 않은 장소를 나타내요."
+  },
+  {
+    "term": "sorry",
+    "ipa": "/ˈsɑːri/",
+    "meaningKo": "미안해",
+    "explanationKo": "잘못이나 안타까움을 말할 때 써요."
+  },
+  {
+    "term": "sound",
+    "ipa": "/saʊnd/",
+    "meaningKo": "소리",
+    "explanationKo": "귀로 들을 수 있는 것을 뜻해요."
+  },
+  {
+    "term": "split",
+    "ipa": "/splɪt/",
+    "meaningKo": "나누다, 흩어지다",
+    "explanationKo": "'split up'은 여러 방향으로 나뉘어 움직인다는 뜻이에요."
+  },
+  {
+    "term": "steal",
+    "ipa": "/stiːl/",
+    "meaningKo": "훔치다",
+    "explanationKo": "허락 없이 남의 것을 가져가는 뜻이에요."
+  },
+  {
+    "term": "still",
+    "ipa": "/stɪl/",
+    "meaningKo": "아직도, 계속",
+    "explanationKo": "상태나 행동이 계속됨을 나타내요."
+  },
+  {
+    "term": "stop",
+    "ipa": "/stɑːp/",
+    "meaningKo": "멈추다",
+    "explanationKo": "하던 행동을 그만두는 뜻이에요."
+  },
+  {
+    "term": "stripe",
+    "ipa": "/straɪp/",
+    "meaningKo": "스트라이프 (이름)",
+    "explanationKo": "등장인물 이름이에요. 일반 명사 stripe는 줄무늬를 뜻해요."
+  },
+  {
+    "term": "stuff",
+    "ipa": "/stʌf/",
+    "meaningKo": "것들, 물건",
+    "explanationKo": "여러 물건이나 일을 편하게 한꺼번에 가리켜요."
+  },
+  {
+    "term": "sure",
+    "ipa": "/ʃʊr/",
+    "meaningKo": "확실한; 물론",
+    "explanationKo": "확신을 말하거나 부탁에 흔쾌히 답할 때 써요."
+  },
+  {
+    "term": "switch",
+    "ipa": "/swɪtʃ/",
+    "meaningKo": "바꾸다; 스위치",
+    "explanationKo": "기기를 켜거나 끄거나 상태를 바꾸는 뜻이에요."
+  },
+  {
+    "term": "switching",
+    "ipa": "/ˈswɪtʃɪŋ/",
+    "meaningKo": "바꾸거나 끄는 중인",
+    "explanationKo": "switch에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "take",
+    "ipa": "/teɪk/",
+    "meaningKo": "가져가다; 받아들이다",
+    "explanationKo": "손에 넣거나 다른 곳으로 옮기는 뜻이에요."
+  },
+  {
+    "term": "talking",
+    "ipa": "/ˈtɔːkɪŋ/",
+    "meaningKo": "말하는 중인",
+    "explanationKo": "talk에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "tell",
+    "ipa": "/tel/",
+    "meaningKo": "말해 주다",
+    "explanationKo": "정보나 이야기를 다른 사람에게 전하는 뜻이에요."
+  },
+  {
+    "term": "thanks",
+    "ipa": "/θæŋks/",
+    "meaningKo": "고마워",
+    "explanationKo": "thank you보다 조금 더 편한 감사 인사예요."
+  },
+  {
+    "term": "that",
+    "ipa": "/ðæt, ðət/",
+    "meaningKo": "저것; 그",
+    "explanationKo": "조금 떨어진 것이나 앞에서 말한 내용을 가리켜요."
+  },
+  {
+    "term": "that's",
+    "ipa": "/ðæts/",
+    "meaningKo": "그것은 ~이다",
+    "explanationKo": "that is를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "the",
+    "ipa": "/ðə, ðiː/",
+    "meaningKo": "그, 바로 그",
+    "explanationKo": "듣는 사람도 어떤 것인지 아는 명사 앞에 써요."
+  },
+  {
+    "term": "there",
+    "ipa": "/ðer/",
+    "meaningKo": "거기에; ~이 있다",
+    "explanationKo": "말하는 곳에서 떨어진 장소나 존재를 나타내요."
+  },
+  {
+    "term": "there's",
+    "ipa": "/ðerz/",
+    "meaningKo": "~이 있다",
+    "explanationKo": "there is를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "they",
+    "ipa": "/ðeɪ/",
+    "meaningKo": "그들은, 그것들은",
+    "explanationKo": "둘 이상의 사람이나 것을 주어로 가리켜요."
+  },
+  {
+    "term": "they're",
+    "ipa": "/ðer/",
+    "meaningKo": "그들은 ~이다; ~하는 중이다",
+    "explanationKo": "they are를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "thing",
+    "ipa": "/θɪŋ/",
+    "meaningKo": "것, 물건",
+    "explanationKo": "이름을 정확히 말하지 않은 사물이나 일을 가리켜요."
+  },
+  {
+    "term": "things",
+    "ipa": "/θɪŋz/",
+    "meaningKo": "것들, 물건들",
+    "explanationKo": "thing이 두 개 이상일 때 쓰는 말이에요."
+  },
+  {
+    "term": "think",
+    "ipa": "/θɪŋk/",
+    "meaningKo": "생각하다",
+    "explanationKo": "머릿속으로 판단하거나 의견을 가지는 뜻이에요."
+  },
+  {
+    "term": "this",
+    "ipa": "/ðɪs/",
+    "meaningKo": "이것, 이",
+    "explanationKo": "말하는 사람 가까이에 있는 것을 가리켜요."
+  },
+  {
+    "term": "time",
+    "ipa": "/taɪm/",
+    "meaningKo": "시간; 때",
+    "explanationKo": "시간의 길이나 어떤 때를 뜻해요."
+  },
+  {
+    "term": "timer",
+    "ipa": "/ˈtaɪmər/",
+    "meaningKo": "타이머",
+    "explanationKo": "정한 시간이 지나면 알려 주는 도구예요."
+  },
+  {
+    "term": "to",
+    "ipa": "/tuː, tə/",
+    "meaningKo": "~로; ~하기",
+    "explanationKo": "방향을 나타내거나 동사 기본형 앞에 써요."
+  },
+  {
+    "term": "together",
+    "ipa": "/təˈɡeðər/",
+    "meaningKo": "함께",
+    "explanationKo": "여럿이 같은 곳에서 같은 일을 하는 뜻이에요."
+  },
+  {
+    "term": "too",
+    "ipa": "/tuː/",
+    "meaningKo": "~도; 너무",
+    "explanationKo": "추가되거나 정도가 지나침을 나타내요."
+  },
+  {
+    "term": "trix",
+    "ipa": "/trɪks/",
+    "meaningKo": "트릭스 (애칭)",
+    "explanationKo": "Trixie를 짧게 부르는 작품 속 애칭이에요."
+  },
+  {
+    "term": "trixie",
+    "ipa": "/ˈtrɪksi/",
+    "meaningKo": "트릭시 (이름)",
+    "explanationKo": "등장인물 이름이에요."
+  },
+  {
+    "term": "try",
+    "ipa": "/traɪ/",
+    "meaningKo": "해 보다",
+    "explanationKo": "성공하는지 시도해 보는 뜻이에요."
+  },
+  {
+    "term": "turn",
+    "ipa": "/tɜːrn/",
+    "meaningKo": "차례; 돌리다",
+    "explanationKo": "여기서는 한 사람이 사용할 순서를 뜻해요."
+  },
+  {
+    "term": "ukulele",
+    "ipa": "/ˌjuːkəˈleɪli/",
+    "meaningKo": "우쿨렐레",
+    "explanationKo": "작은 기타처럼 생긴 네 줄 악기예요."
+  },
+  {
+    "term": "um",
+    "ipa": "/ʌm/",
+    "meaningKo": "음…, 저…",
+    "explanationKo": "생각할 시간을 벌 때 내는 머뭇거림 소리예요."
+  },
+  {
+    "term": "uncle",
+    "ipa": "/ˈʌŋkəl/",
+    "meaningKo": "삼촌, 아저씨",
+    "explanationKo": "부모님의 남자 형제나 가까운 어른 남성을 부르는 말이에요."
+  },
+  {
+    "term": "under",
+    "ipa": "/ˈʌndər/",
+    "meaningKo": "~아래에",
+    "explanationKo": "무언가보다 낮은 위치를 나타내요."
+  },
+  {
+    "term": "up",
+    "ipa": "/ʌp/",
+    "meaningKo": "위로; 완전히",
+    "explanationKo": "위쪽 움직임을 나타내며 구동사의 뜻을 완성하기도 해요."
+  },
+  {
+    "term": "urgently",
+    "ipa": "/ˈɜːrdʒəntli/",
+    "meaningKo": "급하게, 긴급히",
+    "explanationKo": "바로 행동해야 할 만큼 급하다는 뜻이에요."
+  },
+  {
+    "term": "urgh",
+    "ipa": "/ɜːr/",
+    "meaningKo": "으윽!",
+    "explanationKo": "힘들거나 짜증 날 때 내는 감탄 소리예요."
+  },
+  {
+    "term": "uss",
+    "ipa": "/ʌs/",
+    "meaningKo": "좋아! (장난스러운 소리)",
+    "explanationKo": "이 장면의 신난 대답 소리로 보이며, 보통 영어 단어는 아니에요."
+  },
+  {
+    "term": "wait",
+    "ipa": "/weɪt/",
+    "meaningKo": "기다리다; 잠깐",
+    "explanationKo": "멈추어 있거나 잠시 주의를 끌 때 써요."
+  },
+  {
+    "term": "want",
+    "ipa": "/wɑːnt/",
+    "meaningKo": "원하다",
+    "explanationKo": "무언가를 하고 싶거나 갖고 싶다는 뜻이에요."
+  },
+  {
+    "term": "was",
+    "ipa": "/wʌz, wəz/",
+    "meaningKo": "~이었다, ~에 있었다",
+    "explanationKo": "am과 is의 과거형이에요."
+  },
+  {
+    "term": "we",
+    "ipa": "/wiː/",
+    "meaningKo": "우리",
+    "explanationKo": "말하는 사람을 포함한 여러 사람을 가리켜요."
+  },
+  {
+    "term": "we're",
+    "ipa": "/wɪr/",
+    "meaningKo": "우리는 ~이다; ~하는 중이다",
+    "explanationKo": "we are를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "we've",
+    "ipa": "/wiːv/",
+    "meaningKo": "우리는 ~했다; 가지고 있다",
+    "explanationKo": "we have를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "well",
+    "ipa": "/wel/",
+    "meaningKo": "잘; 음, 그럼",
+    "explanationKo": "잘한다는 뜻이거나 말을 시작하며 생각을 정리할 때 써요."
+  },
+  {
+    "term": "what",
+    "ipa": "/wʌt/",
+    "meaningKo": "무엇",
+    "explanationKo": "사물이나 내용을 물을 때 써요."
+  },
+  {
+    "term": "what's",
+    "ipa": "/wʌts/",
+    "meaningKo": "무엇이 ~인가; 무엇이 ~했나",
+    "explanationKo": "what is 또는 what has를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "when",
+    "ipa": "/wen/",
+    "meaningKo": "언제; ~할 때",
+    "explanationKo": "시간을 묻거나 어떤 때를 이어 말해요."
+  },
+  {
+    "term": "where",
+    "ipa": "/wer/",
+    "meaningKo": "어디",
+    "explanationKo": "장소를 물을 때 써요."
+  },
+  {
+    "term": "whoa",
+    "ipa": "/woʊ/",
+    "meaningKo": "우와!, 워!",
+    "explanationKo": "놀라거나 멈추게 할 때 내는 감탄 소리예요."
+  },
+  {
+    "term": "whole",
+    "ipa": "/hoʊl/",
+    "meaningKo": "전체의, 온",
+    "explanationKo": "일부가 아니라 전부라는 뜻이에요."
+  },
+  {
+    "term": "whose",
+    "ipa": "/huːz/",
+    "meaningKo": "누구의 것",
+    "explanationKo": "주인이 누구인지 물을 때 써요."
+  },
+  {
+    "term": "why",
+    "ipa": "/waɪ/",
+    "meaningKo": "왜",
+    "explanationKo": "이유를 물을 때 써요."
+  },
+  {
+    "term": "will",
+    "ipa": "/wɪl, əl/",
+    "meaningKo": "~할 것이다",
+    "explanationKo": "앞으로 할 일이나 의지를 나타내는 조동사예요."
+  },
+  {
+    "term": "with",
+    "ipa": "/wɪð, wɪθ/",
+    "meaningKo": "~와 함께; ~을 가지고",
+    "explanationKo": "함께하는 사람이나 사용하는 것을 나타내요."
+  },
+  {
+    "term": "working",
+    "ipa": "/ˈwɜːrkɪŋ/",
+    "meaningKo": "일하거나 작동하는 중인",
+    "explanationKo": "work에 -ing를 붙인 말이에요."
+  },
+  {
+    "term": "worse",
+    "ipa": "/wɜːrs/",
+    "meaningKo": "더 나쁜",
+    "explanationKo": "bad의 비교급이에요."
+  },
+  {
+    "term": "would",
+    "ipa": "/wʊd/",
+    "meaningKo": "~할 것이다; ~하고 싶다",
+    "explanationKo": "정중한 말이나 가정한 상황에 쓰는 조동사예요."
+  },
+  {
+    "term": "wow",
+    "ipa": "/waʊ/",
+    "meaningKo": "우와!",
+    "explanationKo": "크게 감탄하거나 놀랄 때 써요."
+  },
+  {
+    "term": "wriggling",
+    "ipa": "/ˈrɪɡəlɪŋ/",
+    "meaningKo": "꼼지락거리는 중인",
+    "explanationKo": "몸을 작게 이리저리 계속 움직이는 뜻이에요."
+  },
+  {
+    "term": "yay",
+    "ipa": "/jeɪ/",
+    "meaningKo": "야호!",
+    "explanationKo": "기쁘거나 신날 때 내는 감탄 소리예요."
+  },
+  {
+    "term": "yeah",
+    "ipa": "/jæ/",
+    "meaningKo": "응, 그래",
+    "explanationKo": "yes를 편하게 말한 표현이에요."
+  },
+  {
+    "term": "yes",
+    "ipa": "/jes/",
+    "meaningKo": "네, 응",
+    "explanationKo": "동의하거나 긍정할 때 써요."
+  },
+  {
+    "term": "yet",
+    "ipa": "/jet/",
+    "meaningKo": "아직; 벌써",
+    "explanationKo": "주로 부정문과 질문에서 지금까지를 나타내요."
+  },
+  {
+    "term": "you",
+    "ipa": "/juː, jə/",
+    "meaningKo": "너, 당신, 너희",
+    "explanationKo": "듣는 사람을 가리키는 대명사예요."
+  },
+  {
+    "term": "you'll",
+    "ipa": "/juːl/",
+    "meaningKo": "너는 ~할 거야",
+    "explanationKo": "you will을 줄여 쓴 말이에요."
+  },
+  {
+    "term": "you're",
+    "ipa": "/jʊr, jər/",
+    "meaningKo": "너는 ~이다; ~하는 중이다",
+    "explanationKo": "you are를 줄여 쓴 말이에요."
+  },
+  {
+    "term": "young",
+    "ipa": "/jʌŋ/",
+    "meaningKo": "어린, 젊은",
+    "explanationKo": "나이가 많지 않다는 뜻이에요."
+  },
+  {
+    "term": "your",
+    "ipa": "/jʊr, jər/",
+    "meaningKo": "너의, 당신의",
+    "explanationKo": "듣는 사람이 가진 것을 나타내요."
+  }
+]

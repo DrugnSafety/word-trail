@@ -1,0 +1,1068 @@
+{
+  "id": "video-43",
+  "number": 43,
+  "title": "Aunt Brandy's Visit 🧡 | Season 3 Highlight - Onesies | Bluey",
+  "duration": 106,
+  "declaredDuration": 106,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=DRyDZBdNrzY",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/43_Aunt Brandy's Visit.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/43_Aunt Brandy's Visit.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Aunt Brandy's Visit 🧡 | Season 3 Highlight - Onesies | Bluey",
+      "start": 5,
+      "end": 104,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 5,
+      "end": 19,
+      "sentenceText": "It's all good, Brandy so then your hips go around like this yeah that's great me and my sister brandy made this dance up for our mom's birthday when we were kids I can't remember all the moves",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 5,
+          "end": 19,
+          "text": "It's all good, Brandy so then your hips go around like this yeah that's great me and my sister brandy made this dance up for our mom's birthday when we were kids I can't remember all the moves",
+          "originalText": "it's all good Brandy so then your hips go around like this yeah that's great me and my sister brandy made this dance up for our mom's birthday when we were kids I can't remember all the moves",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 5,
+              "end": 6,
+              "text": "it's all good"
+            },
+            {
+              "id": "c0002",
+              "start": 6,
+              "end": 9,
+              "text": "Brandy so then your hips go around like"
+            },
+            {
+              "id": "c0003",
+              "start": 9,
+              "end": 11,
+              "text": "this yeah that's"
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 14,
+              "text": "great me and my sister brandy made this"
+            },
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 16,
+              "text": "dance up for our mom's birthday when we"
+            },
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 19,
+              "text": "were kids I can't remember all the moves"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 5,
+              "end": 6,
+              "text": "It's all good,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 5,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 9,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0001",
+          "quote": "It's all good, Brandy so then your hips go around like this yeah that's great me and my sister brandy made this dance up for our mom's birthday when we were kids I can't remember all the moves",
+          "start": 5,
+          "end": 19,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0001",
+          "quote": "It's all good, Brandy so then your hips go around like this yeah that's great me and my sister brandy made this dance up for our mom's birthday when we were kids I can't remember all the moves",
+          "start": 5,
+          "end": 19,
+          "matchStart": 50,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "great",
+          "cueId": "c0001",
+          "quote": "It's all good, Brandy so then your hips go around like this yeah that's great me and my sister brandy made this dance up for our mom's birthday when we were kids I can't remember all the moves",
+          "start": 5,
+          "end": 19,
+          "matchStart": 72,
+          "matchEnd": 77
+        },
+        {
+          "expressionId": "sister",
+          "cueId": "c0001",
+          "quote": "It's all good, Brandy so then your hips go around like this yeah that's great me and my sister brandy made this dance up for our mom's birthday when we were kids I can't remember all the moves",
+          "start": 5,
+          "end": 19,
+          "matchStart": 88,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 19,
+      "end": 33,
+      "sentenceText": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 19,
+          "end": 33,
+          "text": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
+          "originalText": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 19,
+              "end": 23,
+              "text": "though that's"
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 28,
+              "text": "her hi girls hi hey Brandy hi Chile it's"
+            },
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 33,
+              "text": "good to see you yeah you too kids this"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 19,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0002",
+          "quote": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
+          "start": 19,
+          "end": 33,
+          "matchStart": 55,
+          "matchEnd": 59
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
+          "start": 19,
+          "end": 33,
+          "matchStart": 63,
+          "matchEnd": 66
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 33,
+      "end": 45,
+      "sentenceText": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 33,
+          "end": 45,
+          "text": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
+          "originalText": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 33,
+              "end": 35,
+              "text": "is your auntie Brandy you've grown so"
+            },
+            {
+              "id": "c0011",
+              "start": 35,
+              "end": 39,
+              "text": "much blue you look just like your father"
+            },
+            {
+              "id": "c0012",
+              "start": 39,
+              "end": 44,
+              "text": "oh what who do I look like you look just"
+            },
+            {
+              "id": "c0013",
+              "start": 44,
+              "end": 45,
+              "text": "like"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 33,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 35,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 39,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 44,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0003",
+          "quote": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
+          "start": 33,
+          "end": 45,
+          "matchStart": 52,
+          "matchEnd": 56
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0003",
+          "quote": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
+          "start": 33,
+          "end": 45,
+          "matchStart": 62,
+          "matchEnd": 66
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
+          "start": 33,
+          "end": 45,
+          "matchStart": 82,
+          "matchEnd": 86
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 45,
+      "end": 57,
+      "sentenceText": "you I brought you some presents really oh Brandy you shouldn't have onesies oh you really shouldn't have do they not like onesies they do it's just Bingo has",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 45,
+          "end": 57,
+          "text": "you I brought you some presents really oh Brandy you shouldn't have onesies oh you really shouldn't have do they not like onesies they do it's just Bingo has",
+          "originalText": "you I brought you some presents really oh Brandy you shouldn't have onesies oh you really shouldn't have do they not like onesies they do it's just Bingo has",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 45,
+              "end": 49,
+              "text": "you I brought you some presents really"
+            },
+            {
+              "id": "c0015",
+              "start": 49,
+              "end": 52,
+              "text": "oh Brandy you shouldn't have onesies oh"
+            },
+            {
+              "id": "c0016",
+              "start": 52,
+              "end": 54,
+              "text": "you really shouldn't have do they not"
+            },
+            {
+              "id": "c0017",
+              "start": 54,
+              "end": 57,
+              "text": "like onesies they do it's just Bingo has"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 45,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 49,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 52,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 54,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0004",
+          "quote": "you I brought you some presents really oh Brandy you shouldn't have onesies oh you really shouldn't have do they not like onesies they do it's just Bingo has",
+          "start": 45,
+          "end": 57,
+          "matchStart": 117,
+          "matchEnd": 121
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 57,
+      "end": 71,
+      "sentenceText": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 57,
+          "end": 71,
+          "text": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
+          "originalText": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 57,
+              "end": 61,
+              "text": "this thing um don't sorry I'm sure she's"
+            },
+            {
+              "id": "c0019",
+              "start": 61,
+              "end": 63,
+              "text": "grown out of it I hope they fit I wasn't"
+            },
+            {
+              "id": "c0020",
+              "start": 63,
+              "end": 67,
+              "text": "sure how much they'd grown in um four"
+            },
+            {
+              "id": "c0021",
+              "start": 67,
+              "end": 71,
+              "text": "years hey mine's too small and mine's"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 57,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 61,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 63,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 67,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0005",
+          "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
+          "start": 57,
+          "end": 71,
+          "matchStart": 20,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0005",
+          "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
+          "start": 57,
+          "end": 71,
+          "matchStart": 30,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0005",
+          "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
+          "start": 57,
+          "end": 71,
+          "matchStart": 87,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
+          "start": 57,
+          "end": 71,
+          "matchStart": 14,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 71,
+      "end": 77,
+      "sentenceText": "too big well then swap them around can Can you make my cheetah onesie fit me?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 71,
+          "end": 77,
+          "text": "too big well then swap them around can Can you make my cheetah onesie fit me?",
+          "originalText": "too big well then swap them around can you make my cheetah onesie fit me sorry",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 74,
+              "text": "too big well then swap them around can"
+            },
+            {
+              "id": "c0023",
+              "start": 74,
+              "end": 77,
+              "text": "you make my cheetah onesie fit me sorry"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0027",
+              "start": 74,
+              "end": 77,
+              "text": "Can you make my cheetah onesie fit me?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 74,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0006",
+          "quote": "too big well then swap them around can Can you make my cheetah onesie fit me?",
+          "start": 71,
+          "end": 77,
+          "matchStart": 4,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 77,
+      "end": 88,
+      "sentenceText": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 77,
+          "end": 88,
+          "text": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
+          "originalText": "blue if it doesn't fit it doesn't fit a but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 80,
+              "text": "blue if it doesn't fit it doesn't fit a"
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 82,
+              "text": "but I really want the cheetah it's not"
+            },
+            {
+              "id": "c0026",
+              "start": 82,
+              "end": 84,
+              "text": "meant to be kid"
+            },
+            {
+              "id": "c0027",
+              "start": 84,
+              "end": 88,
+              "text": "okay they're beautiful it's been too"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 77,
+              "end": 80,
+              "text": "if it doesn't fit, it doesn't fit."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 82,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 84,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0007",
+          "quote": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
+          "start": 77,
+          "end": 88,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
+          "start": 77,
+          "end": 88,
+          "matchStart": 90,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 88,
+      "end": 98,
+      "sentenceText": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 88,
+          "end": 98,
+          "text": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+          "originalText": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 94,
+              "text": "long I know look Chile yeah uh"
+            },
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 98,
+              "text": "Mom it's happening again oh no what's"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0008",
+          "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+          "start": 88,
+          "end": 98,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0008",
+          "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+          "start": 88,
+          "end": 98,
+          "matchStart": 12,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0008",
+          "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+          "start": 88,
+          "end": 98,
+          "matchStart": 50,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+          "start": 88,
+          "end": 98,
+          "matchStart": 59,
+          "matchEnd": 61
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
+          "start": 88,
+          "end": 98,
+          "matchStart": 62,
+          "matchEnd": 66
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 98,
+      "end": 104,
+      "sentenceText": "going on hey Brandy how you",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 98,
+          "end": 104,
+          "text": "going on hey Brandy how you",
+          "originalText": "going on hey Brandy how you",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 98,
+              "end": 104,
+              "text": "going on hey Brandy how you"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 98,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0009",
+          "quote": "going on hey Brandy how you",
+          "start": 98,
+          "end": 104,
+          "matchStart": 20,
+          "matchEnd": 23
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    }
+  ]
+}

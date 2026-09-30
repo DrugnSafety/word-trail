@@ -1,0 +1,46 @@
+# 08. Unicorse Returns! | Puppets - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=2pxAPOlKivA
+- Length: 02:03
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:03
+
+---
+
+- `[00:00 - 00:01]` This is toothpaste.
+- `[00:01 - 00:03]` Do I eat it?
+- `[00:03 - 00:05]` Yeah, it makes your teeth clean.
+- `[00:05 - 00:07]` What does this button do?
+- `[00:07 - 00:21]` Oh, that's it! You get the horse!
+- `[00:24 - 00:26]` Maybe self-improvement just isn't for you.
+- `[00:26 - 00:30]` Listen, Unicorse, no one wants to eat broccoli except me.
+- `[00:30 - 00:32]` You just have to do it.
+- `[00:32 - 00:34]` But why do I have to?
+- `[00:34 - 00:36]` Because she wants to marry Mum,
+- `[00:36 - 00:38]` and she loves broccoli eaters.
+- `[00:38 - 00:52]` Okay, let's do this. Okay.
+- `[00:52 - 00:55]` You're ready? Go and talk to Mum, okay?
+- `[00:55 - 00:57]` A quick tip for the ride.
+- `[00:57 - 01:00]` Whoa, whoa! You cannot eat that in front of Mum.
+- `[01:00 - 01:02]` You got that, okay? Yep, got it.
+- `[01:02 - 01:04]` You got that, Dad?
+- `[01:04 - 01:06]` What's it got to do with me?
+- `[01:06 - 01:10]` Yeah, what's it got to do with him?
+- `[01:11 - 01:13]` I didn't mean to scare you.
+- `[01:13 - 01:14]` That's okay.
+- `[01:14 - 01:17]` I've just stepped out of the shower
+- `[01:17 - 01:18]` and brushed my teeth, and
+- `[01:18 - 01:21]` I'm wondering, would you like to join me for some broccoli?
+- `[01:21 - 01:24]` Broccoli, I mean broccoli.
+- `[01:24 - 01:29]` Well, I must say, you really have cleaned yourself up,
+- `[01:29 - 01:31]` and I love your little bow tie.
+- `[01:31 - 01:33]` Okay, yes, I'd like...
+- `[01:33 - 01:35]` Oh my gosh! Yeah, yeah!
+- `[01:35 - 01:39]` Wait, no, come back! Yeah...
+- `[01:39 - 01:42]` Well, that could have gone a bit better, Dad.
+- `[01:42 - 01:45]` Dad, I'm sorry, kids, I couldn't help it.
+- `[01:45 - 01:47]` It's not your fault, Unicorse.
+- `[01:47 - 01:50]` Yeah, it's him, not me.
+- `[01:50 - 01:53]` I don't understand, I'm the one who ate the broccoli,
+- `[01:53 - 01:58]` and of course, you're a puppet, he controls you.
+- `[01:59 - 02:03]` That's a good one.

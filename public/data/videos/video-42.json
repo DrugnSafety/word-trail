@@ -1,0 +1,1479 @@
+{
+  "id": "video-42",
+  "number": 42,
+  "title": "Prawns and Pom Pom Heads",
+  "duration": 124,
+  "declaredDuration": 124,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=LsBvTX9AMO0",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/42_Prawns and Pom Pom Heads.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/42_Prawns and Pom Pom Heads.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Prawns and Pom Pom Heads",
+      "start": 0,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 14,
+      "sentenceText": "Okay, so he's the knight. No, he's a horsey! yeah but he's called the knight no the knight is on the horsey well yeah that's true everyone knows that i thought you said smart people played chess well",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 14,
+          "text": "Okay, so he's the knight. No, he's a horsey! yeah but he's called the knight no the knight is on the horsey well yeah that's true everyone knows that i thought you said smart people played chess well",
+          "originalText": "okay so he's the knight no he's a horsey yeah but he's called the knight no the knight is on the horsey well yeah that's true everyone knows that i thought you said smart people played chess well",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "okay so he's the knight no he's a horsey"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "text": "yeah but he's called the knight no the"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "text": "knight is on the horsey well yeah that's"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "text": "true everyone knows that i thought you"
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 14,
+              "text": "said smart people played chess well"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "Okay, so he's the knight."
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 3,
+              "text": "No, he's a horsey!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "Okay, so he's the knight. No, he's a horsey! yeah but he's called the knight no the knight is on the horsey well yeah that's true everyone knows that i thought you said smart people played chess well",
+          "start": 0,
+          "end": 14,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0001",
+          "quote": "Okay, so he's the knight. No, he's a horsey! yeah but he's called the knight no the knight is on the horsey well yeah that's true everyone knows that i thought you said smart people played chess well",
+          "start": 0,
+          "end": 14,
+          "matchStart": 26,
+          "matchEnd": 28
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 14,
+      "end": 29,
+      "sentenceText": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 14,
+          "end": 29,
+          "text": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+          "originalText": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "text": "whatever you call him mine's called"
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 19,
+              "text": "gallihop mine's called daughter of"
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 23,
+              "text": "gallahol he moves by jumping oh yes"
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 26,
+              "text": "horsies love jumping ooh who is castle"
+            },
+            {
+              "id": "c0010",
+              "start": 26,
+              "end": 29,
+              "text": "head that's the rook i'm gonna call him"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 26,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0002",
+          "quote": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+          "start": 14,
+          "end": 29,
+          "matchStart": 103,
+          "matchEnd": 106
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0002",
+          "quote": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+          "start": 14,
+          "end": 29,
+          "matchStart": 115,
+          "matchEnd": 119
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 29,
+      "end": 38,
+      "sentenceText": "castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 29,
+          "end": 38,
+          "text": "castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
+          "originalText": "castle head fine castle head moves straight like this castles can't move this game's confusing yeah it is bingo",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 29,
+              "end": 32,
+              "text": "castle head fine castle head moves"
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 35,
+              "text": "straight like this castles can't move"
+            },
+            {
+              "id": "c0013",
+              "start": 35,
+              "end": 38,
+              "text": "this game's confusing yeah it is bingo"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0018",
+              "start": 35,
+              "end": 36,
+              "text": "This game's confusing."
+            },
+            {
+              "id": "c0019",
+              "start": 36,
+              "end": 38,
+              "text": "Yeah, it is, Bingo."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 29,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 35,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0003",
+          "quote": "castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
+          "start": 29,
+          "end": 38,
+          "matchStart": 44,
+          "matchEnd": 48
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 38,
+      "end": 51,
+      "sentenceText": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 38,
+          "end": 51,
+          "text": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
+          "originalText": "maybe you just want to do some coloring no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 38,
+              "end": 40,
+              "text": "maybe you just want to do some coloring"
+            },
+            {
+              "id": "c0015",
+              "start": 40,
+              "end": 43,
+              "text": "no she's on my team oh right let's just"
+            },
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "text": "start there your go bluey"
+            },
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 48,
+              "text": "my own chest team well there's only two"
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 51,
+              "text": "teams bingo so maybe you just watch"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 38,
+              "end": 40,
+              "text": "Maybe you just want to do some colouring."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 38,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 40,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0004",
+          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
+          "start": 38,
+          "end": 51,
+          "matchStart": 15,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
+          "start": 38,
+          "end": 51,
+          "matchStart": 42,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0004",
+          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
+          "start": 38,
+          "end": 51,
+          "matchStart": 71,
+          "matchEnd": 76
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 51,
+      "end": 65,
+      "sentenceText": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 51,
+          "end": 65,
+          "text": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
+          "originalText": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 51,
+              "end": 54,
+              "text": "don't worry bingo look there's two"
+            },
+            {
+              "id": "c0020",
+              "start": 54,
+              "end": 58,
+              "text": "horses see and two castle heads and two"
+            },
+            {
+              "id": "c0021",
+              "start": 58,
+              "end": 61,
+              "text": "pom-pom elves bishops and lots of prawns"
+            },
+            {
+              "id": "c0022",
+              "start": 61,
+              "end": 65,
+              "text": "pawns so this can be your team and this"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 51,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 54,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 58,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 61,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0005",
+          "quote": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
+          "start": 51,
+          "end": 65,
+          "matchStart": 18,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0005",
+          "quote": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
+          "start": 51,
+          "end": 65,
+          "matchStart": 42,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
+          "start": 51,
+          "end": 65,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 65,
+      "end": 71,
+      "sentenceText": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 65,
+          "end": 71,
+          "text": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+          "originalText": "one's mine thanks bluey nice one bluey ah look that's not gonna go deep blue",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 65,
+              "end": 68,
+              "text": "one's mine thanks bluey nice one bluey"
+            },
+            {
+              "id": "c0024",
+              "start": 68,
+              "end": 71,
+              "text": "ah look that's not gonna go deep blue"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 68,
+              "end": 71,
+              "text": "Ah, look, that's not gonna go... Deep Blue."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 65,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 68,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "nice",
+          "cueId": "c0006",
+          "quote": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+          "start": 65,
+          "end": 71,
+          "matchStart": 24,
+          "matchEnd": 28
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0006",
+          "quote": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+          "start": 65,
+          "end": 71,
+          "matchStart": 43,
+          "matchEnd": 47
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 71,
+      "end": 82,
+      "sentenceText": "Hang on, there's only one crown lady one wedding cat head ah now that's the king and that's the queen Can I have the queen, Bluey?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 71,
+          "end": 82,
+          "text": "Hang on, there's only one crown lady one wedding cat head ah now that's the king and that's the queen Can I have the queen, Bluey?",
+          "originalText": "hang on there's only one crown lady and one wedding cat head ah now that's the king and that's the queen can i have the queen louie",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 71,
+              "end": 73,
+              "text": "hang on there's only one crown lady and"
+            },
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 76,
+              "text": "one wedding cat head ah now that's the"
+            },
+            {
+              "id": "c0027",
+              "start": 76,
+              "end": 80,
+              "text": "king and that's the queen"
+            },
+            {
+              "id": "c0028",
+              "start": 80,
+              "end": 82,
+              "text": "can i have the queen louie"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 71,
+              "end": 72,
+              "text": "Hang on,"
+            },
+            {
+              "id": "c0037",
+              "start": 72,
+              "end": 73,
+              "text": "there's only one crown lady"
+            },
+            {
+              "id": "c0040",
+              "start": 80,
+              "end": 82,
+              "text": "Can I have the queen, Bluey?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 71,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 80,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0007",
+          "quote": "Hang on, there's only one crown lady one wedding cat head ah now that's the king and that's the queen Can I have the queen, Bluey?",
+          "start": 71,
+          "end": 82,
+          "matchStart": 102,
+          "matchEnd": 107
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 82,
+      "end": 87,
+      "sentenceText": "Um, sure. Thanks! Oh, you can't just... That's fine.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 82,
+          "end": 87,
+          "text": "Um, sure. Thanks! Oh, you can't just... That's fine.",
+          "originalText": "um sure thanks oh you can't just uh that's fine",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 82,
+              "end": 86,
+              "text": "um sure thanks oh you can't just uh"
+            },
+            {
+              "id": "c0030",
+              "start": 86,
+              "end": 87,
+              "text": "that's fine"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 82,
+              "end": 84,
+              "text": "Um, sure. Thanks!"
+            },
+            {
+              "id": "c0042",
+              "start": 84,
+              "end": 86,
+              "text": "Oh, you can't just..."
+            },
+            {
+              "id": "c0043",
+              "start": 86,
+              "end": 87,
+              "text": "That's fine."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 82,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 86,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0008",
+          "quote": "Um, sure. Thanks! Oh, you can't just... That's fine.",
+          "start": 82,
+          "end": 87,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 87,
+      "end": 100,
+      "sentenceText": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 87,
+          "end": 100,
+          "text": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "originalText": "are you sure you're happy with the king yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 87,
+              "end": 89,
+              "text": "are you sure you're happy with the king"
+            },
+            {
+              "id": "c0032",
+              "start": 89,
+              "end": 91,
+              "text": "yeah i'm okay don't worry bluey the"
+            },
+            {
+              "id": "c0033",
+              "start": 91,
+              "end": 93,
+              "text": "king's the most important piece on the"
+            },
+            {
+              "id": "c0034",
+              "start": 93,
+              "end": 97,
+              "text": "board oh is that right yes and how many"
+            },
+            {
+              "id": "c0035",
+              "start": 97,
+              "end": 100,
+              "text": "squares can he move well just one"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0044",
+              "start": 87,
+              "end": 89,
+              "text": "Are you sure you're happy with the king?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 87,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 89,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 91,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 93,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 97,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0009",
+          "quote": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "start": 87,
+          "end": 100,
+          "matchStart": 0,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0009",
+          "quote": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "start": 87,
+          "end": 100,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "happy",
+          "cueId": "c0009",
+          "quote": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "start": 87,
+          "end": 100,
+          "matchStart": 20,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "start": 87,
+          "end": 100,
+          "matchStart": 50,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0009",
+          "quote": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "start": 87,
+          "end": 100,
+          "matchStart": 139,
+          "matchEnd": 142
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0009",
+          "quote": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "start": 87,
+          "end": 100,
+          "matchStart": 147,
+          "matchEnd": 150
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
+          "start": 87,
+          "end": 100,
+          "matchStart": 55,
+          "matchEnd": 60
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 100,
+      "end": 115,
+      "sentenceText": "just one square that was a big square wasn't it oh i better rest my royal feeties they're a little tired meanwhile the queen moves as far as she wants in any direction",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 100,
+          "end": 115,
+          "text": "just one square that was a big square wasn't it oh i better rest my royal feeties they're a little tired meanwhile the queen moves as far as she wants in any direction",
+          "originalText": "just one square that was a big square wasn't it oh i better rest my royal feeties they're a little tired meanwhile the queen moves as far as she wants in any direction",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 100,
+              "end": 103,
+              "text": "just one square that was a big square"
+            },
+            {
+              "id": "c0037",
+              "start": 103,
+              "end": 106,
+              "text": "wasn't it oh i better rest my royal"
+            },
+            {
+              "id": "c0038",
+              "start": 106,
+              "end": 110,
+              "text": "feeties they're a little tired"
+            },
+            {
+              "id": "c0039",
+              "start": 110,
+              "end": 112,
+              "text": "meanwhile the queen moves as far as she"
+            },
+            {
+              "id": "c0040",
+              "start": 112,
+              "end": 115,
+              "text": "wants in any direction"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 100,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 103,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 106,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0010",
+          "quote": "just one square that was a big square wasn't it oh i better rest my royal feeties they're a little tired meanwhile the queen moves as far as she wants in any direction",
+          "start": 100,
+          "end": 115,
+          "matchStart": 27,
+          "matchEnd": 30
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0010",
+          "quote": "just one square that was a big square wasn't it oh i better rest my royal feeties they're a little tired meanwhile the queen moves as far as she wants in any direction",
+          "start": 100,
+          "end": 115,
+          "matchStart": 92,
+          "matchEnd": 98
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 115,
+      "end": 124,
+      "sentenceText": "Which is handy, because she has to do all the work. Pop, are you finished? Yes.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 115,
+          "end": 124,
+          "text": "Which is handy, because she has to do all the work. Pop, are you finished? Yes.",
+          "originalText": "which is handy because she has to do all the work pop are you finished yes",
+          "originalCueRefs": [
+            {
+              "id": "c0041",
+              "start": 115,
+              "end": 117,
+              "text": "which is handy because she has to do all"
+            },
+            {
+              "id": "c0042",
+              "start": 117,
+              "end": 118,
+              "text": "the work"
+            },
+            {
+              "id": "c0043",
+              "start": 118,
+              "end": 121,
+              "text": "pop are you finished"
+            },
+            {
+              "id": "c0044",
+              "start": 121,
+              "end": 124,
+              "text": "yes"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0057",
+              "start": 115,
+              "end": 117,
+              "text": "Which is handy, because she has to"
+            },
+            {
+              "id": "c0058",
+              "start": 117,
+              "end": 118,
+              "text": "do all the work."
+            },
+            {
+              "id": "c0059",
+              "start": 118,
+              "end": 121,
+              "text": "Pop, are you finished?"
+            },
+            {
+              "id": "c0060",
+              "start": 121,
+              "end": 124,
+              "text": "Yes."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0041",
+              "start": 115,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 117,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "finished",
+          "cueId": "c0011",
+          "quote": "Which is handy, because she has to do all the work. Pop, are you finished? Yes.",
+          "start": 115,
+          "end": 124,
+          "matchStart": 65,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0011",
+          "quote": "Which is handy, because she has to do all the work. Pop, are you finished? Yes.",
+          "start": 115,
+          "end": 124,
+          "matchStart": 75,
+          "matchEnd": 78
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

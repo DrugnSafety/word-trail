@@ -1,0 +1,1259 @@
+{
+  "id": "video-55",
+  "number": 55,
+  "title": "You're my Hero, Bingo",
+  "duration": 125,
+  "declaredDuration": 125,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=HFh4kBAcWYs",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/55_You're my Hero, Bingo.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/55_You're my Hero, Bingo.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "You're my Hero, Bingo",
+      "start": 0,
+      "end": 115,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 11,
+      "sentenceText": "dad are you flying away to the airport tomorrow oh yeah i am how long have you gone for Just six weeks. How long is six weeks?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 11,
+          "text": "dad are you flying away to the airport tomorrow oh yeah i am how long have you gone for Just six weeks. How long is six weeks?",
+          "originalText": "dad are you flying away to the airport tomorrow oh yeah i am how long have you gone for just six weeks how long is six weeks",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "dad are you flying away to the airport"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "tomorrow oh"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "yeah i am how long have you gone for"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 11,
+              "text": "just six weeks how long is six weeks"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "Just six weeks."
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 11,
+              "text": "How long is six weeks?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "dad are you flying away to the airport tomorrow oh yeah i am how long have you gone for Just six weeks. How long is six weeks?",
+          "start": 0,
+          "end": 11,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0001",
+          "quote": "dad are you flying away to the airport tomorrow oh yeah i am how long have you gone for Just six weeks. How long is six weeks?",
+          "start": 0,
+          "end": 11,
+          "matchStart": 61,
+          "matchEnd": 64
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 11,
+      "end": 26,
+      "sentenceText": "It's six weekends. Oh, that's forever! it's here that the true challenge of the quest is revealed we have to head back now bingo we can't i don't want to go past the magpie",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 11,
+          "end": 26,
+          "text": "It's six weekends. Oh, that's forever! it's here that the true challenge of the quest is revealed we have to head back now bingo we can't i don't want to go past the magpie",
+          "originalText": "it's six weekends oh that's forever it's here that the true challenge of the quest is revealed we have to head back now bingo we can't i don't want to go past the magpie",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 14,
+              "text": "it's six weekends oh that's forever"
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "text": "it's here that the true challenge of the"
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 20,
+              "text": "quest is revealed"
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "text": "we have to head back now bingo we can't"
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 26,
+              "text": "i don't want to go past the magpie"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 13,
+              "text": "It's six weekends."
+            },
+            {
+              "id": "c0007",
+              "start": 13,
+              "end": 14,
+              "text": "Oh, that's forever!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0002",
+          "quote": "It's six weekends. Oh, that's forever! it's here that the true challenge of the quest is revealed we have to head back now bingo we can't i don't want to go past the magpie",
+          "start": 11,
+          "end": 26,
+          "matchStart": 101,
+          "matchEnd": 108
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0002",
+          "quote": "It's six weekends. Oh, that's forever! it's here that the true challenge of the quest is revealed we have to head back now bingo we can't i don't want to go past the magpie",
+          "start": 11,
+          "end": 26,
+          "matchStart": 146,
+          "matchEnd": 150
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0002",
+          "quote": "It's six weekends. Oh, that's forever! it's here that the true challenge of the quest is revealed we have to head back now bingo we can't i don't want to go past the magpie",
+          "start": 11,
+          "end": 26,
+          "matchStart": 140,
+          "matchEnd": 145
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 26,
+      "end": 41,
+      "sentenceText": "And I don't want you to leave. I don't want to go away, but I have to. But just when things seem the saddest, bingo i've got the perfect face paint for you You want to know a secret, Bingo? Yes.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 26,
+          "end": 41,
+          "text": "And I don't want you to leave. I don't want to go away, but I have to. But just when things seem the saddest, bingo i've got the perfect face paint for you You want to know a secret, Bingo? Yes.",
+          "originalText": "and i don't want you to leave i'm sorry mate i don't want to go away but i have to but just when things seem the saddest bingo i've got the perfect face paint for you you want to know a secret bingo yes i'm",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 26,
+              "end": 28,
+              "text": "and i don't want you to leave i'm sorry"
+            },
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 30,
+              "text": "mate i don't want to go away but i have"
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "text": "to but just when things seem the saddest"
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 36,
+              "text": "bingo i've got the perfect face paint"
+            },
+            {
+              "id": "c0014",
+              "start": 36,
+              "end": 38,
+              "text": "for you"
+            },
+            {
+              "id": "c0015",
+              "start": 38,
+              "end": 41,
+              "text": "you want to know a secret bingo yes i'm"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 26,
+              "end": 28,
+              "text": "And I don't want you to leave."
+            },
+            {
+              "id": "c0013",
+              "start": 28,
+              "end": 30,
+              "text": "I don't want to go away, but I have to."
+            },
+            {
+              "id": "c0014",
+              "start": 30,
+              "end": 33,
+              "text": "But just when things seem the saddest,"
+            },
+            {
+              "id": "c0016",
+              "start": 38,
+              "end": 40,
+              "text": "You want to know a secret, Bingo?"
+            },
+            {
+              "id": "c0017",
+              "start": 40,
+              "end": 41,
+              "text": "Yes."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 26,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 36,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 38,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0003",
+          "quote": "And I don't want you to leave. I don't want to go away, but I have to. But just when things seem the saddest, bingo i've got the perfect face paint for you You want to know a secret, Bingo? Yes.",
+          "start": 26,
+          "end": 41,
+          "matchStart": 62,
+          "matchEnd": 69
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0003",
+          "quote": "And I don't want you to leave. I don't want to go away, but I have to. But just when things seem the saddest, bingo i've got the perfect face paint for you You want to know a secret, Bingo? Yes.",
+          "start": 26,
+          "end": 41,
+          "matchStart": 12,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0003",
+          "quote": "And I don't want you to leave. I don't want to go away, but I have to. But just when things seem the saddest, bingo i've got the perfect face paint for you You want to know a secret, Bingo? Yes.",
+          "start": 26,
+          "end": 41,
+          "matchStart": 168,
+          "matchEnd": 172
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0003",
+          "quote": "And I don't want you to leave. I don't want to go away, but I have to. But just when things seem the saddest, bingo i've got the perfect face paint for you You want to know a secret, Bingo? Yes.",
+          "start": 26,
+          "end": 41,
+          "matchStart": 190,
+          "matchEnd": 193
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0003",
+          "quote": "And I don't want you to leave. I don't want to go away, but I have to. But just when things seem the saddest, bingo i've got the perfect face paint for you You want to know a secret, Bingo? Yes.",
+          "start": 26,
+          "end": 41,
+          "matchStart": 6,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 41,
+      "end": 54,
+      "sentenceText": "thinking of not doing the face painting stall this weekend why because i'm not very good at it am i mckenzie's meant to be a cheater am i but then no one will be able to get their faces painted no i",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 41,
+          "end": 54,
+          "text": "thinking of not doing the face painting stall this weekend why because i'm not very good at it am i mckenzie's meant to be a cheater am i but then no one will be able to get their faces painted no i",
+          "originalText": "thinking of not doing the face painting stall this weekend why because i'm not very good at it am i mckenzie's meant to be a cheater am i but then no one will be able to get their faces painted no i",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 41,
+              "end": 43,
+              "text": "thinking of not doing the face painting"
+            },
+            {
+              "id": "c0017",
+              "start": 43,
+              "end": 46,
+              "text": "stall this weekend why because i'm not"
+            },
+            {
+              "id": "c0018",
+              "start": 46,
+              "end": 48,
+              "text": "very good at it am i mckenzie's meant to"
+            },
+            {
+              "id": "c0019",
+              "start": 48,
+              "end": 51,
+              "text": "be a cheater am i but then no one will"
+            },
+            {
+              "id": "c0020",
+              "start": 51,
+              "end": 54,
+              "text": "be able to get their faces painted no i"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 41,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 46,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 48,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 51,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0004",
+          "quote": "thinking of not doing the face painting stall this weekend why because i'm not very good at it am i mckenzie's meant to be a cheater am i but then no one will be able to get their faces painted no i",
+          "start": 41,
+          "end": 54,
+          "matchStart": 59,
+          "matchEnd": 62
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0004",
+          "quote": "thinking of not doing the face painting stall this weekend why because i'm not very good at it am i mckenzie's meant to be a cheater am i but then no one will be able to get their faces painted no i",
+          "start": 41,
+          "end": 54,
+          "matchStart": 84,
+          "matchEnd": 88
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "thinking of not doing the face painting stall this weekend why because i'm not very good at it am i mckenzie's meant to be a cheater am i but then no one will be able to get their faces painted no i",
+          "start": 41,
+          "end": 54,
+          "matchStart": 147,
+          "matchEnd": 149
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 54,
+      "end": 65,
+      "sentenceText": "guess not Well, I think you have to do it. though i don't want to yes even though that Yeah, you're probably right.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 54,
+          "end": 65,
+          "text": "guess not Well, I think you have to do it. though i don't want to yes even though that Yeah, you're probably right.",
+          "originalText": "guess not well i think you have to do it even though i don't want to yes even though that yeah you're probably right",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 54,
+              "end": 56,
+              "text": "guess not"
+            },
+            {
+              "id": "c0022",
+              "start": 56,
+              "end": 58,
+              "text": "well i think you have to do it even"
+            },
+            {
+              "id": "c0023",
+              "start": 58,
+              "end": 62,
+              "text": "though i don't want to yes even though"
+            },
+            {
+              "id": "c0024",
+              "start": 62,
+              "end": 63,
+              "text": "that"
+            },
+            {
+              "id": "c0025",
+              "start": 63,
+              "end": 65,
+              "text": "yeah you're probably right"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 56,
+              "end": 58,
+              "text": "Well, I think you have to do it."
+            },
+            {
+              "id": "c0027",
+              "start": 63,
+              "end": 65,
+              "text": "Yeah, you're probably right."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 58,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 62,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 63,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0005",
+          "quote": "guess not Well, I think you have to do it. though i don't want to yes even though that Yeah, you're probably right.",
+          "start": 54,
+          "end": 65,
+          "matchStart": 28,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0005",
+          "quote": "guess not Well, I think you have to do it. though i don't want to yes even though that Yeah, you're probably right.",
+          "start": 54,
+          "end": 65,
+          "matchStart": 18,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0005",
+          "quote": "guess not Well, I think you have to do it. though i don't want to yes even though that Yeah, you're probably right.",
+          "start": 54,
+          "end": 65,
+          "matchStart": 58,
+          "matchEnd": 62
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0005",
+          "quote": "guess not Well, I think you have to do it. though i don't want to yes even though that Yeah, you're probably right.",
+          "start": 54,
+          "end": 65,
+          "matchStart": 66,
+          "matchEnd": 69
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "guess not Well, I think you have to do it. though i don't want to yes even though that Yeah, you're probably right.",
+          "start": 54,
+          "end": 65,
+          "matchStart": 52,
+          "matchEnd": 57
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 65,
+      "end": 75,
+      "sentenceText": "What do you think? i think i'm getting better see your border collies enjoy the curry Good luck with the magpie!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 65,
+          "end": 75,
+          "text": "What do you think? i think i'm getting better see your border collies enjoy the curry Good luck with the magpie!",
+          "originalText": "what do you think i think i'm getting better see your border collies enjoy the curry good luck with the magpie",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 65,
+              "end": 68,
+              "text": "what do you think"
+            },
+            {
+              "id": "c0027",
+              "start": 68,
+              "end": 70,
+              "text": "i think i'm getting better see your"
+            },
+            {
+              "id": "c0028",
+              "start": 70,
+              "end": 73,
+              "text": "border collies enjoy the curry"
+            },
+            {
+              "id": "c0029",
+              "start": 73,
+              "end": 75,
+              "text": "good luck with the magpie"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 65,
+              "end": 68,
+              "text": "What do you think?"
+            },
+            {
+              "id": "c0031",
+              "start": 73,
+              "end": 75,
+              "text": "Good luck with the magpie!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 65,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 68,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 73,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "What do you think? i think i'm getting better see your border collies enjoy the curry Good luck with the magpie!",
+          "start": 65,
+          "end": 75,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0006",
+          "quote": "What do you think? i think i'm getting better see your border collies enjoy the curry Good luck with the magpie!",
+          "start": 65,
+          "end": 75,
+          "matchStart": 12,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0006",
+          "quote": "What do you think? i think i'm getting better see your border collies enjoy the curry Good luck with the magpie!",
+          "start": 65,
+          "end": 75,
+          "matchStart": 46,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0006",
+          "quote": "What do you think? i think i'm getting better see your border collies enjoy the curry Good luck with the magpie!",
+          "start": 65,
+          "end": 75,
+          "matchStart": 86,
+          "matchEnd": 90
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 75,
+      "end": 90,
+      "sentenceText": "now every good hero learns a few things on their quest mckenzie's mom can you face paint one more thing ready",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 75,
+          "end": 90,
+          "text": "now every good hero learns a few things on their quest mckenzie's mom can you face paint one more thing ready",
+          "originalText": "now every good hero learns a few things on their quest mckenzie's mom can you face paint one more thing ready",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 75,
+              "end": 78,
+              "text": "now every good hero learns a few things"
+            },
+            {
+              "id": "c0031",
+              "start": 78,
+              "end": 80,
+              "text": "on their quest mckenzie's mom can you"
+            },
+            {
+              "id": "c0032",
+              "start": 80,
+              "end": 85,
+              "text": "face paint one more thing"
+            },
+            {
+              "id": "c0033",
+              "start": 87,
+              "end": 90,
+              "text": "ready"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 75,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 78,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 80,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0007",
+          "quote": "now every good hero learns a few things on their quest mckenzie's mom can you face paint one more thing ready",
+          "start": 75,
+          "end": 90,
+          "matchStart": 10,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0007",
+          "quote": "now every good hero learns a few things on their quest mckenzie's mom can you face paint one more thing ready",
+          "start": 75,
+          "end": 90,
+          "matchStart": 104,
+          "matchEnd": 109
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 98,
+      "end": 106,
+      "sentenceText": "armed with everything they've learned along the way the hero faces their ultimate test",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 98,
+          "end": 106,
+          "text": "armed with everything they've learned along the way the hero faces their ultimate test",
+          "originalText": "armed with everything they've learned along the way the hero faces their ultimate test",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 98,
+              "end": 100,
+              "text": "armed with everything they've learned"
+            },
+            {
+              "id": "c0035",
+              "start": 100,
+              "end": 102,
+              "text": "along the way the hero faces their"
+            },
+            {
+              "id": "c0036",
+              "start": 102,
+              "end": 106,
+              "text": "ultimate test"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 98,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 100,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 102,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 110,
+      "end": 115,
+      "sentenceText": "The end. You're my hero, Bingo.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 110,
+          "end": 115,
+          "text": "The end. You're my hero, Bingo.",
+          "originalText": "the end you're my hero bingo",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 110,
+              "end": 115,
+              "text": "the end you're my hero bingo"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0037",
+              "start": 110,
+              "end": 112,
+              "text": "The end."
+            },
+            {
+              "id": "c0038",
+              "start": 112,
+              "end": 115,
+              "text": "You're my hero, Bingo."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 110,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    }
+  ]
+}

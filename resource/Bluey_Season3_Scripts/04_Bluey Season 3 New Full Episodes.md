@@ -1,0 +1,738 @@
+# 04. Bluey Season 3 New Full Episodes | Featuring Granny Mobile, Faceytalk and more! | Bluey
+
+- Video: https://www.youtube.com/watch?v=T4uKrmq5i1U
+- Length: 39:43
+- Captions: YouTube auto-generated English captions
+- Script: 00:25 ~ 39:30
+
+---
+
+- `[00:25 - 00:29]` What can we play at your house, Bluey?
+- `[00:29 - 00:31]` I'm not sure.
+- `[00:31 - 00:36]` Oh, look, Doreen's having a garage sale.
+
+## Granny Mobile
+
+- `[00:36 - 00:41]` Granny mobile! This episode of Bluey
+- `[00:41 - 00:43]` is called Granny Mobile.
+- `[00:43 - 00:45]` Having a bit of a garage sale, Doreen?
+- `[00:45 - 00:48]` Yes, love, I'm trying to get a bit
+- `[00:48 - 00:50]` of cash together to go on holiday to the
+- `[00:50 - 00:52]` Reef. Well, if someone buys Len's old
+- `[00:52 - 00:56]` scooter, that'll help. Oh, yeah! How much is
+- `[00:56 - 00:59]` this? Oh, whatever you think, love. Okay,
+- `[00:59 - 01:01]` let's decide what sort of grannies we'll
+- `[01:01 - 01:04]` be. I'm going to be a "can't hear anything" granny.
+- `[01:04 - 01:07]` I'm going to be a kind granny.
+- `[01:07 - 01:10]` What sort of granny can I be? Oh, um, I'm
+- `[01:10 - 01:12]` not sure there are any other types of
+- `[01:12 - 01:16]` grannies. That's not fair! I know I
+- `[01:16 - 01:19]` wouldn't get to be a granny! Ah, that's it!
+- `[01:19 - 01:22]` You can be a grouchy granny! Oh,
+- `[01:22 - 01:24]` yeah. And make it that you want to sell
+- `[01:24 - 01:27]` us your granny mobile. Okay, let's go,
+- `[01:27 - 01:31]` Bingo. Pardon? How much do you want for this?
+- `[01:31 - 01:35]` Well, what do you think? Two dollars? Okay, that's
+- `[01:35 - 01:40]` fine. Thanks, Doreen. That vase is worth way
+- `[01:40 - 01:42]` more than that. Oh, I don't want to make a
+- `[01:42 - 01:45]` fuss. Doreen, can we play with your granny
+- `[01:45 - 01:47]` mobile, please? Go for it. I'm taking the
+- `[01:47 - 01:50]` battery out, so it won't move. Oh, yes, it
+- `[01:50 - 01:55]` will! Bugalugs is going to push it, yeah! Am I
+- `[01:55 - 01:57]` Bugalugs?
+- `[01:57 - 02:00]` Yes, nana. And you're going over too
+- `[02:00 - 02:03]` many cracks, it's a footpath! Don't talk
+- `[02:03 - 02:08]` back to me, sonny! Gee, you are one grouchy
+- `[02:08 - 02:14]` granny. Stop! I said stop! Okay, nana. Hello, Gladys.
+- `[02:14 - 02:17]` I'm selling the granny mobile. Are you going
+- `[02:17 - 02:21]` to buy it? Oh, well... Make up your
+- `[02:21 - 02:25]` mind! How much is it? What
+- `[02:25 - 02:28]` number is this? Uh, $300 dollarbucks. Oh, Doreen,
+- `[02:28 - 02:31]` you can get more than that. Let's say 900.
+- `[02:31 - 02:36]` $900 dollarbucks! How much money you got, Rita?
+- `[02:36 - 02:41]` Hurry up! My hips hurt! Let me count the
+- `[02:41 - 02:43]` coins.
+- `[02:43 - 02:44]` One,
+- `[02:44 - 02:48]` two... Oh, that's a nice one. Hurry
+- `[02:48 - 02:53]` up! This is taking too long! Bugalugs, take
+- `[02:53 - 02:57]` me home. Yes, nana. And watch the cracks!
+- `[02:57 - 03:00]` Sorry, nana. Bluey, grouchy granny is a
+- `[03:00 - 03:03]` bit too grouchy. Are you sure there isn't
+- `[03:03 - 03:06]` another type of granny? There might be,
+- `[03:06 - 03:09]` but I just don't know what it is. Do you?
+- `[03:09 - 03:14]` Hmm, no. I'll stay grouchy granny. Oh, great.
+- `[03:14 - 03:17]` You watch yourself, young
+- `[03:17 - 03:24]` man! How about $5? How about $2? Okay,
+- `[03:24 - 03:27]` $2, Doreen. If you want to go on a holiday
+- `[03:27 - 03:30]` to the Reef, you better toughen up. Oh, oh,
+- `[03:30 - 03:31]` I
+- `[03:30 - 03:33]` know. Oh, dear, your table legs blocking
+- `[03:33 - 03:36]` the footpath! I could've broke my leg! Oh,
+- `[03:36 - 03:38]` I'm terribly sorry. I should call the
+- `[03:38 - 03:40]` council! I'll get it, Doreen. Keep the
+- `[03:40 - 03:44]` noise down! I'm sorry? I'm not paying for
+- `[03:44 - 03:48]` any of this! Oh, well, that's fine. Well, I
+- `[03:48 - 03:49]` think you should pay a little. I think
+- `[03:49 - 03:51]` you should mind your own
+- `[03:51 - 03:54]` business! Whoa, that is one grouchy
+- `[03:54 - 03:58]` granny. We're back home, nana. About time! Now,
+- `[03:58 - 04:01]` make me a cup of tea, Bugalugs! Hey,
+- `[04:01 - 04:04]` you, get off that! No, it's mine! I'm buying
+- `[04:04 - 04:07]` it. Fine, give me
+- `[04:07 - 04:12]` $900. What? The sign says $300! Yeah,
+- `[04:12 - 04:16]` $900! I'm not paying $900! Good, then I
+- `[04:16 - 04:19]` keep it! Oh, it's like that, is it? Oh, look,
+- `[04:19 - 04:20]` love, I think you want to talk to that
+- `[04:20 - 04:22]` lady. Get your hands off me! What are you
+- `[04:22 - 04:25]` doing? Where's my cup of tea? Doreen, I think this
+- `[04:25 - 04:27]` delightful lady wants to buy your
+- `[04:27 - 04:28]` scooter.
+- `[04:28 - 04:32]` $100 dollars. Um, I guess that sounds okay, or
+- `[04:32 - 04:34]` Doreen, you need to go higher than that.
+- `[04:34 - 04:36]` You need to lay off the biscuits! What?!
+- `[04:36 - 04:38]` You said I was looking good! You are,
+- `[04:38 - 04:42]` honey. Ignore her. Oh, nosy neighbor's back! Now
+- `[04:42 - 04:45]` you listen! $100 dollars, take it or
+- `[04:45 - 04:51]` leave it. Oh, Doreen, no. Right, you, off. No! What? I
+- `[04:51 - 04:53]` told you, it's
+- `[04:53 - 04:56]` $900! A lot of this is just water weight.
+- `[04:56 - 04:58]` Muffin, honey, why don't we... Hands off! Stay out
+- `[04:58 - 05:00]` of it, Cattle Dog.
+- `[05:00 - 05:03]` $200, final offer. Ten hundred! What? You're
+- `[05:03 - 05:09]` dreaming! 500. Eleven! Outrageous! If you don't
+- `[05:09 - 05:12]` want it, then don't buy it! I'm not paying
+- `[05:12 - 05:16]` $1,100! Why not? 'Cause it's ugly, like her
+- `[05:16 - 05:19]` hat! Hey, hey! Hang on, love, let's see how
+- `[05:19 - 05:22]` this plays out. And another thing, I don't
+- `[05:22 - 05:25]` like the color. Well, paint it! You paint
+- `[05:25 - 05:29]` it! You paint it! No, oh, yeah, it jiggles.
+- `[05:29 - 05:32]` No, you paint it! Fine.
+- `[05:32 - 05:34]` Eleven hundred.
+- `[05:34 - 05:39]` Twelve hundred! What? And 18 lollies! Oh, you cheeky
+- `[05:39 - 05:41]` little... Fine.
+- `[05:41 - 05:44]` $1,200! Oh, my goodness! And how much are
+- `[05:44 - 05:47]` the lollies? Oh,
+- `[05:47 - 05:50]` $2!
+- `[05:51 - 05:54]` Bye! You'll be going on that holiday now,
+- `[05:54 - 05:57]` Doreen! Yeah, I'm going to do some
+- `[05:57 - 06:00]` push-ups. Hmph! These lollies are gross!
+- `[06:00 - 06:03]` Muffin, look around, you can pick anything
+- `[06:03 - 06:09]` you want. Really? Yep. You are one in a
+- `[06:09 - 06:13]` million. Can I have this? You sure? Just a
+- `[06:13 - 06:15]` tea
+- `[06:16 - 06:19]` towel? Aw, my
+- `[06:20 - 06:24]` coins. Oh, look, Rita! It's the Super Granny! May
+- `[06:24 - 06:30]` I help you with those coins? Pardon?
+- `[06:30 - 06:32]` Bandit, I've got one of those exercise
+- `[06:32 - 06:34]` thingies if you want. Oh, yeah, how much
+- `[06:34 - 06:37]` you want for it? Oh, I don't know, what do
+- `[06:37 - 06:42]` you think? 20 bucks? Hmm. 50! Ha!
+- `[06:42 - 06:45]` Doreen! That's my
+- `[06:45 - 06:47]` girl! Mum, can we do Faceytalk with
+- `[06:47 - 06:51]` Muffin and Socks? Uh, please? Yeah, that's
+- `[06:51 - 06:55]` fine, but no hogging the little Facey-
+- `[06:55 - 06:58]` face thing. Okay? Bluey, I'm talking to you.
+- `[06:58 - 07:01]` Yes, Mum. No. Are hogging, cuz you know what
+- `[07:01 - 07:03]` happens when you hog, don't you? Yes, we
+- `[07:03 - 07:07]` know what happens when you hog. Wait, do
+- `[07:07 - 07:12]` we? Hi, hi, Muffin! Hi!
+
+## Faceytalk
+
+- `[07:12 - 07:17]` This episode of Bluey is called Facey-
+- `[07:17 - 07:20]` talk. Can I have a turn doing the drawing
+- `[07:20 - 07:23]` yet, Bluey? Um, yes, but can I just finish
+- `[07:23 - 07:28]` this? Cool. Muffin, is my turn.
+- `[07:28 - 07:32]` Not yet, Muffin. Hi, hi, girls! Hi! Ah, Trixie, Muffin's
+- `[07:32 - 07:33]` make sure you give Socks a go drawing
+- `[07:33 - 07:36]` the silly stuff. Okay. But I'm not
+- `[07:36 - 07:40]` finished! Socks, get off! Girls, I can't do
+- `[07:40 - 07:42]` this right now, I've got somewhere I need
+- `[07:42 - 07:43]` to
+- `[07:43 - 07:48]` be. I can handle it. Uh, are you sure? Yeah,
+- `[07:48 - 07:50]` I got it covered, kids. You better share
+- `[07:50 - 07:52]` that thing, or I'm switching it off! What,
+- `[07:52 - 07:55]` whoa, okay, maybe not off, but look, I'll
+- `[07:55 - 07:57]` handle it. No, I can do it, you go do your
+- `[07:57 - 08:00]` thing. Well, okay, if you're
+- `[08:00 - 08:03]` sure. Right, I'm setting the timer on my
+- `[08:03 - 08:05]` phone. When it goes off, it's Sock's turn.
+- `[08:05 - 08:06]` Okay?
+- `[08:06 - 08:10]` Muffy, I'll take that as a
+- `[08:11 - 08:17]` yes. I'll just draw some clouds. Ooh, nice
+- `[08:17 - 08:19]` clouds! Okay, Muffy, there's the timer.
+- `[08:19 - 08:22]` Sock's turn now! Yay! I have to finish my
+- `[08:22 - 08:26]` cowboy hat. Ah, no, you don't have to finish
+- `[08:26 - 08:28]` a cowboy hat, you have to give Socks a
+- `[08:28 - 08:33]` turn. But I want to finish my cowboy hat,
+- `[08:33 - 08:36]` Muffy. Muffin Heeler, give your sister a
+- `[08:36 - 08:39]` turn now. Then I want to draw a cowboy
+- `[08:39 - 08:42]` hat! Just give her a turn, Muffin! No,
+- `[08:42 - 08:44]` Muffin. Cupcake Heeler, cowboy hat, if you
+- `[08:44 - 08:47]` say "cowboy hat" one more time, you'll be
+- `[08:47 - 08:50]` in time out. Cow-
+- `[08:50 - 08:54]` boy hat. Okay, that's it, you're going to
+- `[08:54 - 08:56]` time
+- `[08:56 - 09:00]` out. Oh boy. Bye. Mmm, stop
+- `[09:00 - 09:03]` wriggling! There, now, you have a good
+- `[09:03 - 09:05]` think about it, young lady. No, I don't
+- `[09:05 - 09:06]` want
+- `[09:06 - 09:09]` to. I'm sorry, girls, but Muffin was
+- `[09:09 - 09:11]` hogging, so she can't do your Faceytalk
+- `[09:11 - 09:15]` thing anymore. She needs to learn that
+- `[09:15 - 09:18]` other people have... What? The Muffin, she's
+- `[09:18 - 09:21]` got my phone! Muffin, you get off my phone
+- `[09:21 - 09:24]` this instant! He's coming,
+- `[09:24 - 09:27]` Muffin! Muffin, running away will only
+- `[09:27 - 09:31]` make it worse.
+- `[09:31 - 09:34]` Muffin! Muffin, you can't steal your dad's
+- `[09:34 - 09:37]` phone! Yes, I can! Now, where do I hide?
+- `[09:37 - 09:40]` Under a bed! Okay, don't help her, big girl!
+- `[09:40 - 09:42]` Why not, cuz she's not meant to be
+- `[09:42 - 09:44]` running away, she's meant to be in
+- `[09:44 - 09:47]` time out for hogging! Hey, that's why you
+- `[09:47 - 09:50]` keep it? You lent it to me! Yeah, but that
+- `[09:50 - 09:53]` was ages ago, I'm still playing with it,
+- `[09:53 - 09:55]` Muffin! You hang that phone up now, young
+- `[09:55 - 09:58]` lady! No, okay, well I'm ending the whole
+- `[09:58 - 10:02]` Faceytalk! No! Okay, okay, Muffin, this is
+- `[10:02 - 10:04]` your last chance, you hang that up and
+- `[10:04 - 10:05]` march down here
+- `[10:05 - 10:10]` now! On me, you little... Get this thing off
+- `[10:10 - 10:13]` me! That's it, where are you? Okay, you're
+- `[10:13 - 10:16]` under a bed, can't see who's... Well, there's
+- `[10:16 - 10:18]` only so many beds in this house, kid, I'm
+- `[10:18 - 10:21]` coming! Oh, no, he's going to find you!
+- `[10:21 - 10:24]` Muffin, just give him back his phone! No,
+- `[10:24 - 10:27]` tell me if he's out there. It's clear. But
+- `[10:27 - 10:30]` Muffin, I don't think I should help you.
+- `[10:30 - 10:36]` What about now? Not clear. Not clear. Got
+- `[10:37 - 10:40]` you! Good gravy, what's going on? Uncle
+- `[10:40 - 10:44]` Stripe is chasing Muffin! Classic Stripe.
+- `[10:44 - 10:48]` Get back here, Muffin! Run,
+- `[10:49 - 10:54]` Muffin! Okay, there we
+- `[10:54 - 10:57]` go. What's going on? I'm handling it.
+- `[10:57 - 11:00]` It doesn't look like you're handling it.
+- `[11:00 - 11:03]` Time out! We don't do time out anymore.
+- `[11:03 - 11:05]` What? Since when? I read a blog. You didn't
+- `[11:05 - 11:08]` tell me, cuz you're never here! Hey, uh,
+- `[11:08 - 11:10]` guys, just let me handle it. Stripe, no
+- `[11:10 - 11:13]` tricks, let me handle it. I get to parent
+- `[11:13 - 11:16]` too! Yeah, but you have to do it right.
+- `[11:16 - 11:19]` This is how I do it. Guys, kids, can you
+- `[11:19 - 11:21]` switch this off? Oh, but we do end drawing
+- `[11:21 - 11:23]` things. All right, well, can you mute it?
+- `[11:23 - 11:26]` Yeah, we can. I feel like you hog all the
+- `[11:26 - 11:29]` parenting. Oh, is it this one? I don't mean
+- `[11:29 - 11:32]` to try this one. If you say one, say
+- `[11:32 - 11:35]` another, the kids get confused. You can
+- `[11:35 - 11:37]` turn the sound back on when Stripe and
+- `[11:37 - 11:47]` Trixie have finished chatting. Okay, yes,
+- `[11:54 - 12:02]` Dad. Uh, Muffin, better look behind you!
+- `[12:02 - 12:06]` Why? Muffin, stop running away! Muffin!
+- `[12:06 - 12:08]` Muffin, I would highly advise you to stop
+- `[12:08 - 12:10]` right now, listen to your father. Let's
+- `[12:10 - 12:13]` split up! Good idea! Oh, they're working
+- `[12:13 - 12:17]` together. Come on, man! Come back here!
+- `[12:17 - 12:20]` No, where are they? Your mom's hiding
+- `[12:20 - 12:23]` behind the couch. What couch? The couch,
+- `[12:23 - 12:26]` we've got lots of couches! It's that
+- `[12:26 - 12:29]` couch right there!
+- `[12:31 - 12:39]` Please, my
+- `[12:39 - 12:45]` phone! Oh boy, sorry, Dad. Muffo, yes, time
+- `[12:45 - 12:48]` out.
+- `[12:50 - 12:54]` Okay. Finished! Oh, wow, that's great, Socks!
+- `[12:54 - 12:57]` Thanks! Can I have a turn now, Bluey? Oh,
+- `[12:57 - 13:01]` yeah, sure! Thanks, no problem, cuz we know
+- `[13:01 - 13:06]` what happens when you
+- `[13:06 - 13:13]` hog. Ready? Okay. Ring, ring, ring, ring. Hello,
+- `[13:13 - 13:15]` Pizza Shop! Would you like to order a
+- `[13:15 - 13:18]` pizza? Yes, please, I want one supreme with
+- `[13:18 - 13:21]` no mushrooms. Do you want garlic bread?
+- `[13:21 - 13:24]` Yeah, I want garlic bread. You got it, it
+- `[13:24 - 13:26]` will be there soon. Do you need my
+- `[13:26 - 13:30]` address? No, I can see you. Bye!
+- `[13:30 - 13:33]` One supreme pizza, please, Pizza Girl. No
+- `[13:33 - 13:36]` mushrooms. Okay, I'll do the garlic bread.
+- `[13:36 - 13:38]` Can we pretend we're sisters and our mom
+- `[13:38 - 13:41]` owns the pizza shop? Oh, yeah, and we're
+- `[13:41 - 13:43]` going to run it for her so she can go on
+- `[13:43 - 13:46]` holiday. Yeah, to
+- `[13:50 - 13:53]` Italy! Garlic bread's finished. Great.
+- `[13:53 - 13:55]` Don't forget the free
+- `[13:55 - 14:01]` drink. Thanks, Pizza Sister, see you soon!
+- `[14:05 - 14:09]` Here you go. Oh, nice one. No mushrooms.
+- `[14:09 - 14:11]` No mushrooms, great. No, no, you can't have the
+- `[14:11 - 14:14]` box, it's our only one. Right, so what do I
+- `[14:14 - 14:18]` do? Just take the pizza. Ha,
+- `[14:18 - 14:22]` okay, thanks, bye. Ah,
+- `[14:22 - 14:27]` man, I'm back, Pizza Sister. Ah, not again! Oh,
+- `[14:27 - 14:31]` I can fix it. Mum, can we get a new car?
+- `[14:31 - 14:34]` But you've had Pedley since you were two.
+- `[14:34 - 14:36]` But the wheel keeps falling off! I know,
+- `[14:36 - 14:38]` but there's just a lot of stories in
+- `[14:38 - 14:42]` that car. How can a car have stories? Well,
+- `[14:42 - 14:47]` fixed! Ah, there you go, see? Good as
+
+## Pizza Girls
+
+- `[14:48 - 14:52]` Oh, no! Is my car scratched? This episode
+- `[14:52 - 14:55]` of Bluey is called Pizza Girls. What is this,
+- `[14:55 - 14:58]` Muffin? It's an electric car! My dad
+- `[14:58 - 15:01]` bought a new car and this came with it.
+- `[15:01 - 15:04]` It drives without petrol! Yes, and it's
+- `[15:04 - 15:06]` very expensive, Muffin, so be careful with
+- `[15:06 - 15:11]` it. Can we play Pizza Girls in it? Okay,
+- `[15:11 - 15:14]` ho! Okay, we're all sisters who run the
+- `[15:14 - 15:17]` pizza shop. Got it! Uh, there's no roof to
+- `[15:17 - 15:20]` stick the pizza sign on, it's a
+- `[15:20 - 15:22]` convertible. Okay, well, I guess we don't
+- `[15:22 - 15:27]` need to use it. Hello, customers! And you
+- `[15:27 - 15:29]` just do this with your foot and that
+- `[15:29 - 15:32]` opens the boot! Oh, cool! Customers, the
+- `[15:32 - 15:36]` phone's not working. I'll just ask them. Wait,
+- `[15:36 - 15:39]` no, we're meant to do it over the
+- `[15:39 - 15:42]` phone. They want a supreme! Okay, one
+- `[15:42 - 15:45]` supreme, thanks, Pizza Sisters! Our mom
+- `[15:45 - 15:47]` started this pizza shop, she worked
+- `[15:47 - 15:49]` really hard, so we're trying to give her
+- `[15:49 - 15:52]` a holiday. Wow, we're going to deliver
+- `[15:52 - 15:55]` pizza fast! No, stop, I'm just putting the
+- `[15:55 - 15:59]` pizza in! You can't bring them in! You see,
+- `[15:59 - 16:03]` what? Why? Cuz it's very expensive. Oh,
+- `[16:03 - 16:07]` okay, well, what do we do? We have to play
+- `[16:07 - 16:10]` something else. Ah, what else do you play
+- `[16:10 - 16:13]` in it? I usually just drive around. Okay,
+- `[16:13 - 16:17]` let's do that. Wash your feet, sorry, no,
+- `[16:17 - 16:20]` mine in the car! We ready, Muffin? But just
+- `[16:20 - 16:25]` don't drive
+- `[16:26 - 16:31]` too fast!
+- `[16:42 - 16:43]` Hey, hey, you're getting fingerprints all
+- `[16:43 - 16:46]` over it! Do you like a trick? Uh, I missed
+- `[16:46 - 16:48]` the old one. We brought the kids home
+- `[16:48 - 16:51]` from hospital in it, you
+- `[16:51 - 16:56]` know, that was fun. Can I have a turn? Okay,
+- `[16:56 - 16:59]` all right, here we go!
+- `[16:59 - 17:02]` What's going on? Oh, it's out of battery! Ah,
+- `[17:02 - 17:06]` we have to charge it,
+- `[17:06 - 17:09]` Dad. Okay, battery's charging. Kids, how
+- `[17:09 - 17:13]` long does it take to charge? This long. Oh,
+- `[17:13 - 17:16]` what should we play while we
+- `[17:16 - 17:20]` wait? I guess we can go back to Pizza Girls.
+- `[17:20 - 17:23]` Yeah, so there's one supreme pizza with
+- `[17:23 - 17:26]` extra pineapple, yep, but no mushrooms, you
+- `[17:26 - 17:30]` hear me? Got it. You put mushrooms on it,
+- `[17:30 - 17:33]` I'm good to go. Okay, bye. Let's put mushrooms
+- `[17:33 - 17:37]` on it. Yeah, Bluey, who can I be? Well, I
+- `[17:37 - 17:39]` need to fix my delivery car, you can be
+- `[17:39 - 17:47]` the mechanic.
+- `[17:47 - 17:49]` Okay,
+- `[17:49 - 17:53]` ready. Here's your pizza. Oh, great, here's
+- `[17:53 - 17:56]` your money. Oh, extra pineapple? Hey, hang
+- `[17:56 - 17:59]` on, what are these? Enjoy the mushroom
+- `[17:59 - 18:02]` pizza! You
+- `[18:06 - 18:10]` little... Okay, thanks, bye. Goodness me, the
+- `[18:10 - 18:13]` customers have ordered 10 pizzas! Ten? They
+- `[18:13 - 18:16]` said they're having a pizza party and we
+- `[18:16 - 18:18]` should take our time. Okay, I'll get
+- `[18:18 - 18:21]` started. How's the car, mechanic? I put
+- `[18:21 - 18:24]` this one on, which makes it go extra fast.
+- `[18:24 - 18:27]` Oh, wow, you're a good mechanic! Thanks. All
+- `[18:27 - 18:30]` right, I'll make the breads. Hey, girls, the
+- `[18:30 - 18:32]` battery's charged, you can ride the car
+- `[18:32 - 18:35]` again! Oh,
+- `[18:35 - 18:37]` thanks, it's your turn to have the drive,
+- `[18:37 - 18:42]` Bluey. Um, yeah, it is. And you just keep
+- `[18:42 - 18:44]` the keys in your pocket, you don't even
+- `[18:44 - 18:47]` need to know more about your car, mate. Your
+- `[18:47 - 18:51]` pizzas are here! Oh, great, well, one of
+- `[18:51 - 18:56]` them is... How's Italy? Uh, good. Here you go,
+- `[18:56 - 19:00]` enjoy! Uh, thanks, I'll be back, back in a
+- `[19:00 - 19:04]` jiffy. Oops! Oh, dear, maybe it is time for
+- `[19:04 - 19:07]` a new car, Bluey. No way, I've had Pedley
+- `[19:07 - 19:09]` since I was
+- `[19:09 - 19:15]` two! Hello, mechanic, I've broken down.
+- `[19:15 - 19:18]` Coming! Hi, I'm here to fix your car. My
+- `[19:18 - 19:22]` goodness, that was quick! Fixed! There you
+- `[19:22 - 19:26]` go, good as new! You ready for pass the
+- `[19:26 - 19:29]` parcel, kids? Yeah, I love pass the parcel!
+- `[19:29 - 19:32]` Me
+- `[19:32 - 19:36]` too! Oh, no. Uh, Pat, would you mind doing
+- `[19:36 - 19:39]` the music? Yeah, too easy, Sheila! Ready,
+- `[19:39 - 19:42]` kids? I'll just close my eyes. Ah, Pat, no,
+- `[19:42 - 19:44]` you have to stop on each kid once. What?
+- `[19:44 - 19:47]` Why? So everyone gets a prize. But how can
+- `[19:47 - 19:48]` everyone get a prize? There's just one in
+- `[19:48 - 19:51]` the middle! No, there's a prize in each
+- `[19:51 - 19:54]` layer. What? So no one misses out? Hey,
+- `[19:54 - 19:56]` Bandit, you hearing this? Yeah, where you
+- `[19:56 - 19:59]` been, mate? Stop the music! D-Dad, look, when I
+- `[19:59 - 20:02]` was a kid, there was only one! Okay, okay,
+- `[20:02 - 20:05]` I'll start, but this is not how you play
+
+## Pass the Parcel
+
+- `[20:05 - 20:07]` Pass the parcel! This episode of Bluey
+- `[20:07 - 20:10]` is called Pass the
+- `[20:10 - 20:14]` Parcel. Okay, and stop! All right, it's me!
+- `[20:14 - 20:21]` Oh, it's a bracelet. Oh, this is just
+- `[20:21 - 20:23]` wrong, it's not from
+- `[20:23 - 20:29]` me. Lollipop! Yeah, okay, Lila, this time, stop!
+- `[20:29 - 20:33]` Ah, good one, Pat, you got a bracelet too.
+- `[20:33 - 20:36]` Hey, Missy, have you had a go yet? No, okay,
+- `[20:36 - 20:40]` and stop! I said stop! Oh, this touchscreen,
+- `[20:40 - 20:43]` stop on me again! Oh, no, that was supposed to
+- `[20:43 - 20:46]` be hers, here, give it here. But it's
+- `[20:46 - 20:49]` stopped on me, Lucky's dad! Oh, man, I'm not cut
+- `[20:49 - 20:51]` out for
+- `[20:51 - 20:54]` this. Balloons are blown up, Janelle.
+- `[20:54 - 20:56]` Thanks, I'm almost there with pass the
+- `[20:56 - 20:58]` parcel. Oh good. Oh, hang on, are you
+- `[20:58 - 21:01]` putting a present in every layer? Yeah, of
+- `[21:01 - 21:03]` course. No way, I want to play it the
+- `[21:03 - 21:05]` proper way, none of this present in every
+- `[21:05 - 21:08]` layer business. Put one big present in
+- `[21:08 - 21:10]` the middle, winner gets that. Well, what
+- `[21:10 - 21:12]` about everyone else? We'll have to suck
+- `[21:12 - 21:14]` it up, that's not how it's done anymore,
+- `[21:14 - 21:16]` Pat, I'm putting my foot down, Janelle,
+- `[21:16 - 21:19]` we're raising a nation of squibs! Fine,
+- `[21:19 - 21:21]` but you're handling it. No worries, you
+- `[21:21 - 21:23]` watch, this will blow their
+- `[21:23 - 21:27]` minds! Ready for pass the parcel? Yeah,
+- `[21:27 - 21:28]` we're going to mix this up a bit, kids,
+- `[21:28 - 21:31]` you're going to love it. Go! See, now I'm
+- `[21:31 - 21:33]` not looking, I'm just going to push this
+- `[21:33 - 21:35]` button at any
+- `[21:35 - 21:38]` time.
+- `[21:39 - 21:42]` Bingo, I can't find the present! Ah, yep,
+- `[21:42 - 21:45]` that's right, check under your legs, Lucky's
+- `[21:45 - 21:48]` dad, where's the present? Ah, now you see,
+- `[21:48 - 21:50]` there isn't one, there's just one big
+- `[21:50 - 21:53]` present in the middle. What? Yeah, what,
+- `[21:53 - 21:55]` we're playing it the proper way. Okay,
+- `[21:55 - 21:59]` let's go, keep passing, so I don't get a...
+- `[21:59 - 22:02]` No, cuz just like in real life,
+- `[22:02 - 22:05]` you... Oh boy, um, she'll be right. Come on,
+- `[22:05 - 22:08]` just keep
+- `[22:08 - 22:11]` passing.
+- `[22:13 - 22:16]` Mommy!
+- `[22:16 - 22:18]` Stop! This is how you're supposed to play
+- `[22:18 - 22:22]` it, this is the 80s, Pat! Uh, Janelle,
+- `[22:22 - 22:24]` don't look at me,
+- `[22:24 - 22:28]` mate. Oh man, Lucky's dad, do I not win
+- `[22:28 - 22:32]` anything? Oh, it's okay, you won five bucks
+- `[22:32 - 22:34]` here, and so did you, everyone wins five
+- `[22:34 - 22:37]` bucks. Wait, who can break a 20? Actually,
+- `[22:37 - 22:41]` look, take one of these, they're my
+- `[22:41 - 22:44]` present. Chucky, you got plenty, you can
+- `[22:44 - 22:46]` give it
+- `[22:46 - 22:49]` away. Well, that was fun, wasn't it? Yes,
+- `[22:49 - 22:52]` except for Pass the Parcel, I don't like Lucky
+- `[22:52 - 22:55]` dad's rules. Yeah, it's hard when you
+- `[22:55 - 22:59]` don't win. Yes, it is. Maybe next time.
+- `[22:59 - 23:02]` Okay, that's kid number five. Mom, where's
+- `[23:02 - 23:05]` hour... Why? I'm wrapping pass the parcel
+- `[23:05 - 23:07]` for your birthday tomorrow. Oh, can you do
+- `[23:07 - 23:10]` it Lucky dad's way, with only one present
+- `[23:10 - 23:12]` in the middle? Yeah, but as good as this
+- `[23:12 - 23:15]` one, honey, that was a bit of a disaster.
+- `[23:15 - 23:19]` No, it was awesome!
+- `[23:19 - 23:23]` Please, time for pass the
+- `[23:23 - 23:27]` parcel. Okay, kids and parents, Jasper has
+- `[23:27 - 23:29]` asked that we play pass the parcel by
+- `[23:29 - 23:31]` Lucky's dad's
+- `[23:31 - 23:35]` rules. They're not my rules. Oh, what? So
+- `[23:35 - 23:41]` let's just do our best. Okay, okay, here we
+- `[23:44 - 23:50]` go. Oh, it's me! Ah, sorry,
+- `[23:50 - 23:53]` Bingo, keep
+- `[23:56 - 24:02]` passing. Ah, me! Ah, sorry,
+- `[24:02 - 24:08]` Lila. Ah, an helicopter! Aw, wow, I was
+- `[24:08 - 24:10]` so
+- `[24:10 - 24:14]` close! Go, maybe next
+- `[24:14 - 24:17]` time. Ready for pass the parcel? Yeah,
+- `[24:17 - 24:23]` we're doing Lucky's dad's rules! Hooray! Did they say
+- `[24:24 - 24:29]` hooray? Please, let me win this time.
+- `[24:43 - 24:44]` It's
+- `[24:44 - 24:50]` me! Ah, Bingo, look, a bubble shooter!
+- `[24:51 - 24:56]` Wow, I love Lucky's dad's rules! Woo! What have
+- `[24:56 - 24:59]` you started? I'm sorry you didn't win
+- `[24:59 - 25:01]` pass the parcel, Bingo. It's okay, I don't
+- `[25:01 - 25:05]` mind, really. Yeah, when Lila is happy, I'm
+- `[25:05 - 25:09]` happy. Oh, Bingo, maybe next time. You know
+- `[25:09 - 25:12]` what, Bingo, I think you're getting quite
+- `[25:12 - 25:15]` good at losing.
+- `[25:34 - 25:35]` Bluey, how do you want to do pass the
+- `[25:35 - 25:38]` parcel tomorrow? Um, I'll let Bingo choose.
+- `[25:38 - 25:41]` Really? Thanks, Bluey. Which way do you want
+- `[25:41 - 25:43]` to play,
+- `[25:43 - 25:46]` Bingo? Okay, ready for pass the
+- `[25:46 - 25:49]` parcel? I think it's only fitting to let
+- `[25:49 - 25:51]` Lucky's dad do the
+- `[25:51 - 25:55]` honors. Oh, right, good on you. Which
+- `[25:55 - 25:57]` rules are we playing, Bluey? I left it up
+- `[25:57 - 25:58]` to Bingo to choose.
+- `[25:58 - 26:02]` Did you choose Lucky dad's? You'll see. Well,
+- `[26:02 - 26:05]` Bingo, whatever way is okay with me. What
+- `[26:05 - 26:07]` happened to raising a nation of squibs?
+- `[26:07 - 26:10]` Oh, look, let them have some fun. Let's get
+- `[26:10 - 26:12]` a bit rocking
+- `[26:12 - 26:16]` here. Oh, yeah, this is a good
+- `[26:16 - 26:20]` song. Lila, oh yeah,
+- `[26:20 - 26:25]` sorry, nothing. Lila,
+- `[26:28 - 26:36]` whoa,
+- `[26:37 - 26:46]` whoa. Oh, Bingo, it's okay, white
+- `[26:46 - 26:49]` foot
+- `[26:49 - 26:52]` Mmm. Okay, she's asleep. What do you want to
+- `[26:52 - 26:55]` watch tonight, babe? Do you watch TV after
+- `[26:55 - 26:59]` we go to sleep? Bluey, not again. Come on, back
+- `[26:59 - 27:02]` to bed. I don't want to go to bed. Too bad,
+- `[27:02 - 27:05]` kid. But why do we have to sleep? Why
+- `[27:05 - 27:07]` can't we just stay awake all night? Cuz
+- `[27:07 - 27:09]` that's the way the world is. Well, I'm
+- `[27:09 - 27:11]` going to make it so that's not how the
+- `[27:11 - 27:13]` world is. That might be tricky, people
+- `[27:13 - 27:16]` like to sleep. Well, I'll take everyone's
+- `[27:16 - 27:18]` bed to the dump. Yeah, they'll probably
+- `[27:18 - 27:20]` just sleep on the couch. Well, I'll take
+- `[27:20 - 27:22]` the couches to the dump too. Well, sounds
+- `[27:22 - 27:24]` like a big job, you'll need a full
+- `[27:24 - 27:27]` night's sleep for that. Yeah, I will. Night,
+- `[27:27 - 27:29]` hey, wait, no.
+- `[27:29 - 27:32]` Come on, I'll read you a story. You know
+- `[27:32 - 27:35]` she can't help it. I know. Can you help me?
+- `[27:35 - 27:37]` Oh yeah, I've got an idea. Wait, is it a
+- `[27:37 - 27:42]` bad idea? Mum, are you grumpy with me? No,
+- `[27:42 - 27:46]` honey, I'm okay. Come on, once upon a time,
+- `[27:46 - 27:48]` there was a village. Are you sure you're
+- `[27:48 - 27:50]` not grumpy? No, I just want you to go to
+- `[27:50 - 27:54]` sleep. And in the village... Hey, hey, Unicorse!
+
+## Unicorse
+
+- `[27:54 - 27:57]` Oh, no, not Unicorse! This episode of Bluey
+- `[27:57 - 28:01]` and Fortunately is called Unicorse. Bad, bad
+- `[28:01 - 28:03]` watch, the horn! What are we reading? Well,
+- `[28:03 - 28:04]` it's a
+- `[28:04 - 28:07]` story, here, read this, it's got a unicorn
+- `[28:07 - 28:10]` in it. I'm not reading that. Fine, I'll
+- `[28:10 - 28:15]` read it. On up on, uh, Tim, wish I could
+- `[28:15 - 28:18]` read. Unicorse, Bluey is finding it a little
+- `[28:18 - 28:20]` hard to get to sleep, so we're actually
+- `[28:20 - 28:22]` trying to calm things down a bit. Well,
+- `[28:22 - 28:26]` it's going to be hard, we've
+- `[28:26 - 28:30]` gotta get Bingo asleep. So I don't care. Well, I do,
+- `[28:30 - 28:33]` so how about you and your little mate
+- `[28:33 - 28:37]` jog on? Ain't going nowhere, toots. My name
+- `[28:37 - 28:41]` is Chilli. Ah, I'm sorry, silly Chilli Billy,
+- `[28:41 - 28:44]` yeah, that's what I said. Oh, Mum, please,
+- `[28:44 - 28:47]` can Unicorse stay? Bluey, he's the most
+- `[28:47 - 28:49]` annoying unicorn in the world. Guilty. But
+- `[28:49 - 28:52]` I can turn him into a nice unicorn, I
+- `[28:52 - 28:55]` promise I can. Right, Unicorse, don't
+- `[28:55 - 28:58]` listen to him. Please, can he stay? Fine,
+- `[28:58 - 29:00]` mine, but we're reading this book, not
+- `[29:00 - 29:04]` yours. You will live to regret
+- `[29:04 - 29:06]` that. Once upon a time, there was a
+- `[29:06 - 29:08]` village, and in the village everyone
+- `[29:08 - 29:11]` walked around barefoot. Yay, you're in a-
+- `[29:11 - 29:14]` I can't see the
+- `[29:14 - 29:17]` page. Why should I? Cat, I forgot about the
+- `[29:17 - 29:19]` catchphrase. If you block the words, Mum
+- `[29:19 - 29:22]` can't read the
+- `[29:22 - 29:25]` story. Why should I? But his stories are
+- `[29:25 - 29:28]` nice, my story was nice, it had a unicorn
+- `[29:28 - 29:31]` in it! This one has zero unicorns and the
+- `[29:31 - 29:34]` ending is boring, she just makes... Don't
+- `[29:34 - 29:37]` spoil the ending! Why not, cuz Bluey hasn't
+- `[29:37 - 29:39]` heard
+- `[29:39 - 29:42]` it. What should... again, Unicorse, I'm trying
+- `[29:42 - 29:45]` to make you a nice unicorn. Okay, okay, okay,
+- `[29:45 - 29:48]` please continue. Bluey, I won't spoil the
+- `[29:48 - 29:52]` ending where she makes
+- `[29:54 - 29:57]` shoes. One day, the queen decided to get
+- `[29:57 - 29:58]` off her litter and have a walk
+- `[29:58 - 30:01]` around. Changed my mind. Oh wait, changed
+- `[30:01 - 30:04]` it again, actually. I will. Nope, not today.
+- `[30:04 - 30:07]` Up, down, up, down, up, down. Unicorse, of course
+- `[30:07 - 30:10]` that is bad
+- `[30:11 - 30:13]` behavior. So is
+- `[30:13 - 30:16]` that. Meep. Shall we
+- `[30:16 - 30:20]` continue? Yes. Meep. So the queen walked a
+- `[30:20 - 30:23]` few steps and stood on a prickle.
+- `[30:23 - 30:27]` Ouch. Unicorse, that's mean, how would
+- `[30:27 - 30:29]` you feel if you stood on a prickle? I'd
+- `[30:29 - 30:32]` feel good. I'd feel so good, I'd
+- `[30:32 - 30:35]` dance. You wouldn't dance, you'd be crying
+- `[30:35 - 30:36]` like the queen. Well, maybe she should
+- `[30:36 - 30:39]` wear some shoes,
+- `[30:39 - 30:42]` Unicorse. Anyway, the queen discovered that
+- `[30:42 - 30:44]` her whole kingdom was covered in
+- `[30:44 - 30:47]` prickles. What was she to do? Make
+- `[30:47 - 30:52]` shoes, Bluey! Oh, I know, Unicorse, what's
+- `[30:52 - 30:53]` your favorite
+- `[30:53 - 30:58]` food, children? Oh, just kidding, I like
+- `[30:58 - 31:01]` chicken bucket. Oh, great, look, here's some
+- `[31:01 - 31:05]` chicken bucket. Ah, thank you, mighty kind.
+- `[31:05 - 31:07]` Okay, we're good to go. So the queen had
+- `[31:07 - 31:10]` an idea, she will cover the whole kingdom
+- `[31:10 - 31:13]` in leather, that way, no one will ever
+- `[31:13 - 31:15]` stand on the
+- `[31:15 - 31:19]` prickles again. So she got to work all
+- `[31:19 - 31:22]` day and night, the queen worked covering
+- `[31:22 - 31:24]` her whole kingdom in leather. Oh, can you
+- `[31:24 - 31:26]` please chew with your mouth shut? I can
+- `[31:26 - 31:28]` chew with my mouth shut, of course I can,
+- `[31:28 - 31:30]` can, thank you. The queen just... But I'm not
+- `[31:30 - 31:33]` going to! That's it, I'm out, catch you on
+- `[31:33 - 31:37]` the flip side. Bluey, wait, no, I'm done. Bluey,
+- `[31:37 - 31:40]` I can handle this, Mum. Unicorse, ow, my back,
+- `[31:40 - 31:43]` my neck, my back and my neck! I just tapped
+- `[31:43 - 31:46]` you on the shoulder. Whiplash, whiplash!
+- `[31:46 - 31:49]` Call my lawyer! Look, Bluey, good on you for
+- `[31:49 - 31:52]` trying, but you can't change
+- `[31:52 - 31:55]` Unicorse. I think you're right, I'm not sure
+- `[31:55 - 31:57]` you can change anyone very much. What can
+- `[31:57 - 32:00]` we change? Well, we can stop letting
+- `[32:00 - 32:03]` Unicorse annoy us. Really? How? Maybe we
+- `[32:03 - 32:06]` ignore him. He's pretty hard to ignore.
+- `[32:06 - 32:09]` Let's give it a go. The queen just
+- `[32:09 - 32:13]` couldn't do any more, she was too tired. Oh,
+- `[32:13 - 32:16]` here he comes, remember, just ignore him.
+- `[32:16 - 32:19]` Are you really Heeler? I'm Chilli Heeler,
+- `[32:19 - 32:21]` Mum. Oh, yes, sorry. But then the jester
+- `[32:21 - 32:24]` said to the queen, your majesty, instead
+- `[32:24 - 32:26]` of covering the whole kingdom in leather,
+- `[32:26 - 32:28]` why not just cover your
+- `[32:28 - 32:30]` stop that reading, this is a very serious
+- `[32:30 - 32:32]` matter, one of you karate-chopped my
+- `[32:32 - 32:36]` client. Karate chop, Bluey? Oh, yeah, sorry. So
+- `[32:36 - 32:39]` the queen cut two little bits of leather
+- `[32:39 - 32:41]` and made them into shoes. Hey, I'm talking
+- `[32:41 - 32:45]` to you. Yeah, listen to him. So the people
+- `[32:45 - 32:47]` could walk anywhere they wanted, and the
+- `[32:47 - 32:49]` prickles couldn't hurt them. Stop reading,
+- `[32:49 - 32:52]` Unicorse, let me handle this. Yeah,
+- `[32:52 - 32:53]` watch it, mate, I'll have to get a little
+- `[32:53 - 32:59]` pokey. Okay, as your lawyer, here I go. Okay,
+- `[32:59 - 33:02]` and they all lived happily ever
+- `[33:02 - 33:06]` after. Shall we leave them to it? Yeah, I'm
+- `[33:06 - 33:09]` tired. Look, get it, get it, now, mate, where
+- `[33:09 - 33:13]` is my toast? Bluey, can you be as quiet as
+- `[33:13 - 33:16]` Bingo for a bit? No, I can't. Bluey, I can't
+- `[33:16 - 33:18]` find your library books, and they're due back.
+- `[33:18 - 33:20]` Have you seen Shirley the Dirty Turtle?
+- `[33:20 - 33:24]` No, I have not... the dirty turtle. You
+- `[33:24 - 33:27]` have to keep better track of your things.
+- `[33:27 - 33:28]` What a
+- `[33:28 - 33:31]` bingo. Bingo puts hers in a neat pile
+- `[33:31 - 33:33]` when she's read them. Finished! Ding,
+- `[33:33 - 33:36]` orders up! Oh, cheese and
+- `[33:36 - 33:39]` jam. Dad, I don't like cheese and jam. What?
+- `[33:39 - 33:42]` I thought you did. No, Bluey does. I like
+- `[33:42 - 33:44]` banana and peanut
+- `[33:44 - 33:46]` butter. How can you two come from the
+- `[33:46 - 33:48]` same parents, be raised in the same house,
+- `[33:48 - 33:51]` but be completely
+- `[33:51 - 33:53]` different? Well, I'll tell you this for
+- `[33:53 - 33:55]` free, my life would be a lot easier if
+- `[33:55 - 33:58]` you were both the same. Tell me about it,
+- `[33:58 - 34:02]` Pat. I've got an idea. Okay, wait,
+- `[34:02 - 34:06]` what? Why do you keep setting them up?
+- `[34:06 - 34:10]` What are you looking for? Hair, talk? Ooh,
+- `[34:10 - 34:13]` give me your
+- `[34:13 - 34:16]` arm, this is going to be
+- `[34:16 - 34:19]` great! All right, done, here you go, Bingo.
+- `[34:19 - 34:23]` Peanut butter and
+
+## Mini Bluey
+
+- `[34:23 - 34:25]` Peanut butter and banana! This episode of Bluey is called
+- `[34:25 - 34:30]` Mini Bluey. Oh, so cute, let me introduce
+- `[34:30 - 34:33]` you to us. I'm Bluey, and this is Mini
+- `[34:33 - 34:37]` Bluey. Hi! She's just like me, watch. Have
+- `[34:37 - 34:40]` some cheese and jam. Ooh, Bluey, we love
+- `[34:40 - 34:46]` cheese and jam. Um, I love it. See, this is
+- `[34:46 - 34:49]` going to be a long day. Okay, Mini Bluey,
+- `[34:49 - 34:53]` let's learn about me. Uh, uh, I like to say
+- `[34:53 - 34:56]` "cereal" instead of "serious." Oh, and I'll
+- `[34:56 - 34:59]` show you how I dance. I like to do this
+- `[34:59 - 35:03]` sort of thing, and sometimes this,
+- `[35:03 - 35:05]` that's it. And I sort of just talk all
+- `[35:05 - 35:07]` the time, it doesn't even need to make
+- `[35:07 - 35:11]` sense, just noises are
+- `[35:15 - 35:17]` fine. And I like to
+- `[35:17 - 35:20]` sing.
+- `[35:21 - 35:26]` Singing things a bit louder, singing
+- `[35:26 - 35:29]` things. Yeah, that's great. I like to just
+- `[35:29 - 35:32]` leave my toys on the ground. Isn't it
+- `[35:32 - 35:35]` better to tidy them away? Yeah, it doesn't
+- `[35:35 - 35:36]` make much
+- `[35:36 - 35:39]` difference. Where is
+- `[35:39 - 35:43]` it? I like to ask a lot of questions. Mum,
+- `[35:43 - 35:45]` what are you doing? You know what I'm
+- `[35:45 - 35:47]` doing, Bluey, but I don't really listen to
+- `[35:47 - 35:50]` the whole answer. Oh, and if I see a bum, I
+- `[35:50 - 35:54]` give it a little... Hey, get out of it!
+- `[35:54 - 35:57]` Hey, Bluey, I need you to pick up these grass
+- `[35:57 - 35:59]` clippings and put them in the wheelbarrow.
+- `[35:59 - 36:02]` Yes, Father. Whoa, whoa, whoa, where do you think
+- `[36:02 - 36:04]` you're going? To help Dad. I like
+- `[36:04 - 36:08]` wheelbarrows. Bingo likes wheelbarrows.
+- `[36:08 - 36:12]` Bingo helps Dad, you're Mini Bluey now. Oh
+- `[36:12 - 36:14]` yeah, and Bluey does not like grass
+- `[36:14 - 36:17]` clippings, I'll tell you that for free.
+- `[36:17 - 36:19]` But Dad said we have to do it, let's find
+- `[36:19 - 36:23]` out if he's serial. Excuse me, big fella,
+- `[36:23 - 36:25]` here we go, these grass clippings you're
+- `[36:25 - 36:28]` talking about, why don't we have to put
+- `[36:28 - 36:29]` them in the wheelbarrow? They don't
+- `[36:29 - 36:32]` belong to us. Well, you know all that food
+- `[36:32 - 36:33]` in the fridge that doesn't belong to you
+- `[36:33 - 36:35]` either, but if you want to keep eating it,
+- `[36:35 - 36:41]` I suggest you get to work. Okay. He's
+- `[36:41 - 36:45]` serious. Mini Bluey, that's quite loud. Yeah, Mini
+- `[36:45 - 36:47]` Bluey, I don't really sing when I'm doing
+- `[36:47 - 36:51]` chores, I usually whinge and do the job a
+- `[36:51 - 36:54]` lot slower than what you're doing,
+- `[36:54 - 36:59]` watch. Why do we have to do this?
+- `[36:59 - 37:02]` It's hot. Okay, you know what, can I order
+- `[37:02 - 37:06]` double Bingos? No, it's double Bluey
+- `[37:06 - 37:08]` forever! My arm
+- `[37:08 - 37:11]` hurts. Double
+- `[37:11 - 37:16]` Bingos. Yeah, here you go, start on my
+- `[37:17 - 37:23]` tail. Ha, whoa, this is big Bingo. Hey, may we
+- `[37:23 - 37:26]` help you tidy these grass clippings away?
+- `[37:26 - 37:29]` Uh, yeah, come on, Mini
+- `[37:29 - 37:32]` Bingo. Result! I like to pretend I'm
+- `[37:32 - 37:37]` hugging a... hug, hug, now put it to bed.
+- `[37:37 - 37:39]` Good night, night
+- `[37:39 - 37:44]` night. Where are you, Shirley? Here he is.
+- `[37:44 - 37:49]` Oh, thanks. Um, big Bingo, big Bingo, double
+- `[37:49 - 37:52]` Bingo, I could definitely get used to
+- `[37:52 - 37:56]` this. What, Bandit? Oh, I didn't mean... Oh,
+- `[37:56 - 37:58]` Bluey, wait, big, big
+- `[37:58 - 38:01]` Bingo. But seriously, how good's double
+- `[38:01 - 38:03]` Bingo? Yeah, I
+- `[38:03 - 38:07]` know. Hi, big Bingo, I wasn't sure which
+- `[38:07 - 38:11]` bed to sit on. Are you okay? Mum and Dad
+- `[38:11 - 38:13]` want two Bingos, they don't want any of
+- `[38:13 - 38:17]` me. It's very rude. It's because I'm
+- `[38:17 - 38:20]` annoying. And you're not annoying at all.
+- `[38:20 - 38:25]` Yes, I am, I'm super annoying. Really? Yeah,
+- `[38:25 - 38:28]` I'm just different annoying. Show you
+- `[38:28 - 38:31]` where's the sticky tape. Here you go. Oh,
+- `[38:31 - 38:33]` thanks, and can you find some fake teeth for
+- `[38:33 - 38:38]` me? Oh, okay, here you
+- `[38:38 - 38:42]` go. You look crazy. Follow
+- `[38:42 - 38:48]` me. Oh, man, chilli, the
+- `[38:48 - 38:52]` beans. God, what, stop it! You're freaking me
+- `[38:52 - 38:55]` out! Get away from me! What's going on in
+- `[38:55 - 38:58]` here?
+- `[39:02 - 39:04]` In
+- `[39:04 - 39:08]` here, that's it, we want one Bluey and one
+- `[39:08 - 39:11]` Bingo from now on, you got
+- `[39:11 - 39:14]` that?
+- `[39:16 - 39:19]` Okay, you think it's safe? I think so, it's
+- `[39:19 - 39:24]` been 20
+- `[39:26 - 39:30]` minutes, close enough.

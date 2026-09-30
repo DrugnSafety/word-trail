@@ -1,0 +1,1365 @@
+{
+  "id": "video-51",
+  "number": 51,
+  "title": "Black Hole | Space - Series 3",
+  "duration": 133,
+  "declaredDuration": 133,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=iYnMdjjtASU",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/51_Black Hole.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/51_Black Hole.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Black Hole | Space - Series 3",
+      "start": 0,
+      "end": 132,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 13,
+      "sentenceText": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 13,
+          "text": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "originalText": "is that true Chief scientist yes I want to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "is that true Chief scientist yes I want"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": "to pretend that you leave me behind and"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 11,
+              "text": "I'm all alone why I don't know well I'm"
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 13,
+              "text": "not sure we can pretend that yeah to get"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "Is that true, Chief Scientist?"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 4,
+              "text": "Yes."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0001",
+          "quote": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "start": 0,
+          "end": 13,
+          "matchStart": 94,
+          "matchEnd": 106
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0001",
+          "quote": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "start": 0,
+          "end": 13,
+          "matchStart": 31,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0001",
+          "quote": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "start": 0,
+          "end": 13,
+          "matchStart": 90,
+          "matchEnd": 93
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0001",
+          "quote": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "start": 0,
+          "end": 13,
+          "matchStart": 102,
+          "matchEnd": 106
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0001",
+          "quote": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "start": 0,
+          "end": 13,
+          "matchStart": 120,
+          "matchEnd": 124
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0001",
+          "quote": "Is that true, Chief Scientist? Yes. to pretend that you leave me behind and I'm all alone why I don't know well I'm not sure we can pretend that yeah to get",
+          "start": 0,
+          "end": 13,
+          "matchStart": 96,
+          "matchEnd": 101
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 13,
+      "end": 27,
+      "sentenceText": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 13,
+          "end": 27,
+          "text": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+          "originalText": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 15,
+              "text": "to Mars we need a chief scientist to put"
+            },
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 18,
+              "text": "us into hyper sleep oh okay"
+            },
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "text": "are you sure we can't go to the black"
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "text": "hole no it doesn't have aliens neither"
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 27,
+              "text": "does Mars do the Tron prepare crew for"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0002",
+          "quote": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+          "start": 13,
+          "end": 27,
+          "matchStart": 69,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0002",
+          "quote": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+          "start": 13,
+          "end": 27,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+          "start": 13,
+          "end": 27,
+          "matchStart": 64,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0002",
+          "quote": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+          "start": 13,
+          "end": 27,
+          "matchStart": 77,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0002",
+          "quote": "to Mars we need a chief scientist to put us into hyper sleep oh okay are you sure we can't go to the black hole no it doesn't have aliens neither does Mars do the Tron prepare crew for",
+          "start": 13,
+          "end": 27,
+          "matchStart": 112,
+          "matchEnd": 114
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 27,
+      "end": 33,
+      "sentenceText": "hyper sleep yes Chief scientist oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 27,
+          "end": 33,
+          "text": "hyper sleep yes Chief scientist oh",
+          "originalText": "hyper sleep yes Chief scientist oh",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 27,
+              "end": 31,
+              "text": "hyper sleep yes Chief scientist"
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 33,
+              "text": "oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 27,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0003",
+          "quote": "hyper sleep yes Chief scientist oh",
+          "start": 27,
+          "end": 33,
+          "matchStart": 12,
+          "matchEnd": 15
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 48,
+      "end": 61,
+      "sentenceText": "do the Tron I want to change course what is the new destination The black hole.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 48,
+          "end": 61,
+          "text": "do the Tron I want to change course what is the new destination The black hole.",
+          "originalText": "do the Tron I want to change course what is the new destination the black hole",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 48,
+              "end": 51,
+              "text": "do the Tron I want to change course what"
+            },
+            {
+              "id": "c0013",
+              "start": 51,
+              "end": 53,
+              "text": "is the new destination"
+            },
+            {
+              "id": "c0014",
+              "start": 53,
+              "end": 61,
+              "text": "the black hole"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0016",
+              "start": 53,
+              "end": 61,
+              "text": "The black hole."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 48,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 51,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 53,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0004",
+          "quote": "do the Tron I want to change course what is the new destination The black hole.",
+          "start": 48,
+          "end": 61,
+          "matchStart": 14,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "do the Tron I want to change course what is the new destination The black hole.",
+          "start": 48,
+          "end": 61,
+          "matchStart": 36,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 61,
+      "end": 73,
+      "sentenceText": "Interrupted. um a weird Mars I don't think so do the Chun what's going on and where's And where's Mackenzie? Oh, not again.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 61,
+          "end": 73,
+          "text": "Interrupted. um a weird Mars I don't think so do the Chun what's going on and where's And where's Mackenzie? Oh, not again.",
+          "originalText": "interrupted um a weird Mars I don't think so do the Chun what's going on and where's Mackenzie oh not again",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 61,
+              "end": 62,
+              "text": "interrupted"
+            },
+            {
+              "id": "c0016",
+              "start": 62,
+              "end": 66,
+              "text": "um a weird Mars I don't think so do the"
+            },
+            {
+              "id": "c0017",
+              "start": 66,
+              "end": 68,
+              "text": "Chun what's going on and where's"
+            },
+            {
+              "id": "c0018",
+              "start": 68,
+              "end": 70,
+              "text": "Mackenzie"
+            },
+            {
+              "id": "c0019",
+              "start": 70,
+              "end": 73,
+              "text": "oh not again"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 61,
+              "end": 62,
+              "text": "Interrupted."
+            },
+            {
+              "id": "c0020",
+              "start": 68,
+              "end": 70,
+              "text": "And where's Mackenzie?"
+            },
+            {
+              "id": "c0021",
+              "start": 70,
+              "end": 73,
+              "text": "Oh, not again."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 61,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 62,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 66,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 68,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0005",
+          "quote": "Interrupted. um a weird Mars I don't think so do the Chun what's going on and where's And where's Mackenzie? Oh, not again.",
+          "start": 61,
+          "end": 73,
+          "matchStart": 37,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "Interrupted. um a weird Mars I don't think so do the Chun what's going on and where's And where's Mackenzie? Oh, not again.",
+          "start": 61,
+          "end": 73,
+          "matchStart": 58,
+          "matchEnd": 62
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0005",
+          "quote": "Interrupted. um a weird Mars I don't think so do the Chun what's going on and where's And where's Mackenzie? Oh, not again.",
+          "start": 61,
+          "end": 73,
+          "matchStart": 78,
+          "matchEnd": 83
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0005",
+          "quote": "Interrupted. um a weird Mars I don't think so do the Chun what's going on and where's And where's Mackenzie? Oh, not again.",
+          "start": 61,
+          "end": 73,
+          "matchStart": 117,
+          "matchEnd": 122
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "Interrupted. um a weird Mars I don't think so do the Chun what's going on and where's And where's Mackenzie? Oh, not again.",
+          "start": 61,
+          "end": 73,
+          "matchStart": 31,
+          "matchEnd": 36
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 78,
+      "end": 85,
+      "sentenceText": "what are you doing here we know you're about to go into the black hole we've We've come to stop you. But I want to go in!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 78,
+          "end": 85,
+          "text": "what are you doing here we know you're about to go into the black hole we've We've come to stop you. But I want to go in!",
+          "originalText": "what are you doing here we know you're about to go into the black hole we've come to stop you but I want to go in I",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 78,
+              "end": 80,
+              "text": "what are you doing here we know you're"
+            },
+            {
+              "id": "c0021",
+              "start": 80,
+              "end": 83,
+              "text": "about to go into the black hole we've"
+            },
+            {
+              "id": "c0022",
+              "start": 83,
+              "end": 85,
+              "text": "come to stop you but I want to go in I"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 83,
+              "end": 84,
+              "text": "We've come to stop you."
+            },
+            {
+              "id": "c0025",
+              "start": 84,
+              "end": 85,
+              "text": "But I want to go in!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 78,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 80,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 83,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "what are you doing here we know you're about to go into the black hole we've We've come to stop you. But I want to go in!",
+          "start": 78,
+          "end": 85,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0006",
+          "quote": "what are you doing here we know you're about to go into the black hole we've We've come to stop you. But I want to go in!",
+          "start": 78,
+          "end": 85,
+          "matchStart": 27,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0006",
+          "quote": "what are you doing here we know you're about to go into the black hole we've We've come to stop you. But I want to go in!",
+          "start": 78,
+          "end": 85,
+          "matchStart": 91,
+          "matchEnd": 95
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0006",
+          "quote": "what are you doing here we know you're about to go into the black hole we've We've come to stop you. But I want to go in!",
+          "start": 78,
+          "end": 85,
+          "matchStart": 107,
+          "matchEnd": 111
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 85,
+      "end": 97,
+      "sentenceText": "have to why because I'm the chief scientist it's my job to figure everything out We're all going along.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 85,
+          "end": 97,
+          "text": "have to why because I'm the chief scientist it's my job to figure everything out We're all going along.",
+          "originalText": "have to why because I'm the chief scientist it's my job to figure everything out all going along",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 85,
+              "end": 88,
+              "text": "have to why because I'm the chief"
+            },
+            {
+              "id": "c0024",
+              "start": 88,
+              "end": 90,
+              "text": "scientist it's my job to figure"
+            },
+            {
+              "id": "c0025",
+              "start": 90,
+              "end": 93,
+              "text": "everything out"
+            },
+            {
+              "id": "c0026",
+              "start": 95,
+              "end": 97,
+              "text": "all going along"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0030",
+              "start": 95,
+              "end": 97,
+              "text": "We're all going along."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 85,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 88,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 90,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 95,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0007",
+          "quote": "have to why because I'm the chief scientist it's my job to figure everything out We're all going along.",
+          "start": 85,
+          "end": 97,
+          "matchStart": 0,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0007",
+          "quote": "have to why because I'm the chief scientist it's my job to figure everything out We're all going along.",
+          "start": 85,
+          "end": 97,
+          "matchStart": 8,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 97,
+      "end": 102,
+      "sentenceText": "well we do you go to Mars without me Are you sure?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 97,
+          "end": 102,
+          "text": "well we do you go to Mars without me Are you sure?",
+          "originalText": "well we do you go to Mars without me are you sure",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 97,
+              "end": 100,
+              "text": "well we do you go to Mars without me"
+            },
+            {
+              "id": "c0028",
+              "start": 100,
+              "end": 102,
+              "text": "are you sure"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0032",
+              "start": 100,
+              "end": 102,
+              "text": "Are you sure?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 97,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 100,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0008",
+          "quote": "well we do you go to Mars without me Are you sure?",
+          "start": 97,
+          "end": 102,
+          "matchStart": 37,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0008",
+          "quote": "well we do you go to Mars without me Are you sure?",
+          "start": 97,
+          "end": 102,
+          "matchStart": 45,
+          "matchEnd": 49
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 102,
+      "end": 108,
+      "sentenceText": "I'm sure. Okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 102,
+          "end": 108,
+          "text": "I'm sure. Okay.",
+          "originalText": "I'm sure okay",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 102,
+              "end": 104,
+              "text": "I'm sure"
+            },
+            {
+              "id": "c0030",
+              "start": 104,
+              "end": 108,
+              "text": "okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 102,
+              "end": 104,
+              "text": "I'm sure."
+            },
+            {
+              "id": "c0034",
+              "start": 104,
+              "end": 108,
+              "text": "Okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 102,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 104,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0009",
+          "quote": "I'm sure. Okay.",
+          "start": 102,
+          "end": 108,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "I'm sure. Okay.",
+          "start": 102,
+          "end": 108,
+          "matchStart": 10,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 108,
+      "end": 113,
+      "sentenceText": "you're just gonna let him guard it's what he wants to play",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 108,
+          "end": 113,
+          "text": "you're just gonna let him guard it's what he wants to play",
+          "originalText": "you're just gonna let him guard it's what he wants to play",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 108,
+              "end": 111,
+              "text": "you're just gonna let him guard it's"
+            },
+            {
+              "id": "c0032",
+              "start": 111,
+              "end": 113,
+              "text": "what he wants to play"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 111,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "you're just gonna let him guard it's what he wants to play",
+          "start": 108,
+          "end": 113,
+          "matchStart": 37,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0010",
+          "quote": "you're just gonna let him guard it's what he wants to play",
+          "start": 108,
+          "end": 113,
+          "matchStart": 54,
+          "matchEnd": 58
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 127,
+      "end": 132,
+      "sentenceText": "Mum! Mum!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 127,
+          "end": 132,
+          "text": "Mum! Mum!",
+          "originalText": "mom mom",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 127,
+              "end": 129,
+              "text": "mom"
+            },
+            {
+              "id": "c0034",
+              "start": 129,
+              "end": 132,
+              "text": "mom"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0037",
+              "start": 127,
+              "end": 129,
+              "text": "Mum!"
+            },
+            {
+              "id": "c0038",
+              "start": 129,
+              "end": 132,
+              "text": "Mum!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 127,
+              "end": 129,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 129,
+              "end": 132,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0011",
+          "quote": "Mum! Mum!",
+          "start": 127,
+          "end": 132,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

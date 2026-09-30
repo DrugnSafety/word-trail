@@ -1,0 +1,1457 @@
+{
+  "id": "video-16",
+  "number": 16,
+  "title": "Chocolate Milk and Big Belt - Series 3 | Tradies | Bluey",
+  "duration": 129,
+  "declaredDuration": 129,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=QzbFUGwfmFE",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/16_Chocolate Milk and Big Belt - Series 3.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/16_Chocolate Milk and Big Belt - Series 3.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Chocolate Milk and Big Belt - Series 3 | Tradies | Bluey",
+      "start": 0,
+      "end": 127,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 15,
+      "sentenceText": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 15,
+          "text": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "originalText": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "look chocolate milk's coming in big"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "text": "belts car this morning but where's"
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 11,
+              "text": "Cherry I don't know"
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 15,
+              "text": "oh oh okay he said he really wants to"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0001",
+          "quote": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "start": 0,
+          "end": 15,
+          "matchStart": 78,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0001",
+          "quote": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "start": 0,
+          "end": 15,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0001",
+          "quote": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "start": 0,
+          "end": 15,
+          "matchStart": 32,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0001",
+          "quote": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "start": 0,
+          "end": 15,
+          "matchStart": 63,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0001",
+          "quote": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "start": 0,
+          "end": 15,
+          "matchStart": 86,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "start": 0,
+          "end": 15,
+          "matchStart": 97,
+          "matchEnd": 101
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0001",
+          "quote": "look chocolate milk's coming in big belts car this morning but where's Cherry I don't know oh oh okay he said he really wants to",
+          "start": 0,
+          "end": 15,
+          "matchStart": 80,
+          "matchEnd": 85
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 15,
+      "end": 28,
+      "sentenceText": "eat a pie but someone called me Mrs won't let him he misses maybe that's big belt's enemy what else did you spy well chocolate milk found a dead Toad and",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 15,
+          "end": 28,
+          "text": "eat a pie but someone called me Mrs won't let him he misses maybe that's big belt's enemy what else did you spy well chocolate milk found a dead Toad and",
+          "originalText": "eat a pie but someone called me Mrs won't let him he misses maybe that's big belt's enemy what else did you spy well chocolate milk found a dead Toad and",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 15,
+              "end": 18,
+              "text": "eat a pie but someone called me Mrs"
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 22,
+              "text": "won't let him he misses maybe that's big"
+            },
+            {
+              "id": "c0007",
+              "start": 22,
+              "end": 25,
+              "text": "belt's enemy what else did you spy well"
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 28,
+              "text": "chocolate milk found a dead Toad and"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 15,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 22,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0002",
+          "quote": "eat a pie but someone called me Mrs won't let him he misses maybe that's big belt's enemy what else did you spy well chocolate milk found a dead Toad and",
+          "start": 15,
+          "end": 28,
+          "matchStart": 73,
+          "matchEnd": 76
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "eat a pie but someone called me Mrs won't let him he misses maybe that's big belt's enemy what else did you spy well chocolate milk found a dead Toad and",
+          "start": 15,
+          "end": 28,
+          "matchStart": 90,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 28,
+      "end": 33,
+      "sentenceText": "threw it a big belt big belt's cousin fell off a fishing boat, but he was okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 28,
+          "end": 33,
+          "text": "threw it a big belt big belt's cousin fell off a fishing boat, but he was okay.",
+          "originalText": "threw it a big belt big belt's cousin fell off a fishing boat but he was okay",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 31,
+              "text": "threw it a big belt big belt's cousin"
+            },
+            {
+              "id": "c0010",
+              "start": 31,
+              "end": 33,
+              "text": "fell off a fishing boat but he was okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 32,
+              "text": "fell off a fishing boat,"
+            },
+            {
+              "id": "c0014",
+              "start": 32,
+              "end": 33,
+              "text": "but he was okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 31,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0003",
+          "quote": "threw it a big belt big belt's cousin fell off a fishing boat, but he was okay.",
+          "start": 28,
+          "end": 33,
+          "matchStart": 11,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "threw it a big belt big belt's cousin fell off a fishing boat, but he was okay.",
+          "start": 28,
+          "end": 33,
+          "matchStart": 74,
+          "matchEnd": 78
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 33,
+      "end": 46,
+      "sentenceText": "and chocolate milk isn't allowed to drive his to Cherry call no big Bell did one phone call where he yelled at someone about bricks oh okay he them the",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 33,
+          "end": 46,
+          "text": "and chocolate milk isn't allowed to drive his to Cherry call no big Bell did one phone call where he yelled at someone about bricks oh okay he them the",
+          "originalText": "and chocolate milk isn't allowed to drive his to Cherry call no big Bell did one phone call where he yelled at someone about bricks oh okay he them the",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 33,
+              "end": 35,
+              "text": "and chocolate milk isn't allowed to"
+            },
+            {
+              "id": "c0012",
+              "start": 35,
+              "end": 39,
+              "text": "drive his to Cherry call no big Bell"
+            },
+            {
+              "id": "c0013",
+              "start": 39,
+              "end": 41,
+              "text": "did one phone call where he yelled at"
+            },
+            {
+              "id": "c0014",
+              "start": 41,
+              "end": 46,
+              "text": "someone about bricks oh okay he them the"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 33,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 35,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 39,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 41,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "and chocolate milk isn't allowed to drive his to Cherry call no big Bell did one phone call where he yelled at someone about bricks oh okay he them the",
+          "start": 33,
+          "end": 46,
+          "matchStart": 61,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0004",
+          "quote": "and chocolate milk isn't allowed to drive his to Cherry call no big Bell did one phone call where he yelled at someone about bricks oh okay he them the",
+          "start": 33,
+          "end": 46,
+          "matchStart": 64,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0004",
+          "quote": "and chocolate milk isn't allowed to drive his to Cherry call no big Bell did one phone call where he yelled at someone about bricks oh okay he them the",
+          "start": 33,
+          "end": 46,
+          "matchStart": 92,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "and chocolate milk isn't allowed to drive his to Cherry call no big Bell did one phone call where he yelled at someone about bricks oh okay he them the",
+          "start": 33,
+          "end": 46,
+          "matchStart": 135,
+          "matchEnd": 139
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 46,
+      "end": 53,
+      "sentenceText": "word you said when the dishwasher broke Oh, dear. These enemies are very confusing.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 46,
+          "end": 53,
+          "text": "word you said when the dishwasher broke Oh, dear. These enemies are very confusing.",
+          "originalText": "word you said when the dishwasher broke oh dear these enemies are very confusing",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 46,
+              "end": 48,
+              "text": "word you said when the dishwasher broke"
+            },
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 53,
+              "text": "oh dear these enemies are very confusing"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 48,
+              "end": 53,
+              "text": "Oh, dear. These enemies are very confusing."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 46,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 53,
+      "end": 58,
+      "sentenceText": "Ice cream! Ice cream?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 53,
+          "end": 58,
+          "text": "Ice cream! Ice cream?",
+          "originalText": "ice cream ice cream",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 53,
+              "end": 55,
+              "text": "ice cream"
+            },
+            {
+              "id": "c0018",
+              "start": 55,
+              "end": 58,
+              "text": "ice cream"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 53,
+              "end": 55,
+              "text": "Ice cream!"
+            },
+            {
+              "id": "c0024",
+              "start": 55,
+              "end": 58,
+              "text": "Ice cream?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 53,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 59,
+      "end": 66,
+      "sentenceText": "no no You got him? Yep. He's getting sprinkles.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 59,
+          "end": 66,
+          "text": "no no You got him? Yep. He's getting sprinkles.",
+          "originalText": "no no you got him yep he's getting sprinkles",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 61,
+              "text": "no"
+            },
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 63,
+              "text": "no"
+            },
+            {
+              "id": "c0021",
+              "start": 63,
+              "end": 66,
+              "text": "you got him yep he's getting sprinkles"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 63,
+              "end": 64,
+              "text": "You got him?"
+            },
+            {
+              "id": "c0027",
+              "start": 64,
+              "end": 65,
+              "text": "Yep."
+            },
+            {
+              "id": "c0028",
+              "start": 65,
+              "end": 66,
+              "text": "He's getting sprinkles."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "no no You got him? Yep. He's getting sprinkles.",
+          "start": 59,
+          "end": 66,
+          "matchStart": 0,
+          "matchEnd": 2
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 66,
+      "end": 72,
+      "sentenceText": "Thanks, fellas. Hey, Cherry. No. No, I can talk.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 66,
+          "end": 72,
+          "text": "Thanks, fellas. Hey, Cherry. No. No, I can talk.",
+          "originalText": "thanks fellas hey Jerry no no I can talk",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 66,
+              "end": 70,
+              "text": "thanks fellas hey Jerry"
+            },
+            {
+              "id": "c0023",
+              "start": 70,
+              "end": 72,
+              "text": "no no I can talk"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 66,
+              "end": 68,
+              "text": "Thanks, fellas."
+            },
+            {
+              "id": "c0030",
+              "start": 68,
+              "end": 70,
+              "text": "Hey, Cherry."
+            },
+            {
+              "id": "c0031",
+              "start": 70,
+              "end": 72,
+              "text": "No. No, I can talk."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 66,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 70,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "Thanks, fellas. Hey, Cherry. No. No, I can talk.",
+          "start": 66,
+          "end": 72,
+          "matchStart": 29,
+          "matchEnd": 31
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 72,
+      "end": 86,
+      "sentenceText": "I wonder if anyone wants this spare ice cream Does Me Missus know you're eating ice cream? Who?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 72,
+          "end": 86,
+          "text": "I wonder if anyone wants this spare ice cream Does Me Missus know you're eating ice cream? Who?",
+          "originalText": "I wonder if anyone wants this spare ice cream Mrs no you're eating ice cream who me",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 72,
+              "end": 75,
+              "text": "I wonder if anyone wants this spare ice"
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 82,
+              "text": "cream"
+            },
+            {
+              "id": "c0026",
+              "start": 82,
+              "end": 86,
+              "text": "Mrs no you're eating ice cream who me"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 82,
+              "end": 85,
+              "text": "Does Me Missus know you're eating ice cream?"
+            },
+            {
+              "id": "c0034",
+              "start": 85,
+              "end": 86,
+              "text": "Who?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 72,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 82,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0009",
+          "quote": "I wonder if anyone wants this spare ice cream Does Me Missus know you're eating ice cream? Who?",
+          "start": 72,
+          "end": 86,
+          "matchStart": 61,
+          "matchEnd": 65
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 86,
+      "end": 101,
+      "sentenceText": "misses we know he doesn't let you eat pies oh he misses Humane Jewels she's my wife oh so she's not your enemy well not usually Hey, hang on, have you been spying on us?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 86,
+          "end": 101,
+          "text": "misses we know he doesn't let you eat pies oh he misses Humane Jewels she's my wife oh so she's not your enemy well not usually Hey, hang on, have you been spying on us?",
+          "originalText": "misses we know he doesn't let you eat pies oh he misses Humane Jewels she's my wife oh so she's not your enemy well not usually hey hang on have you been spying on us",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 86,
+              "end": 88,
+              "text": "misses we know he doesn't let you eat"
+            },
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 93,
+              "text": "pies oh he misses Humane Jewels she's my"
+            },
+            {
+              "id": "c0029",
+              "start": 93,
+              "end": 96,
+              "text": "wife oh so she's not your enemy well not"
+            },
+            {
+              "id": "c0030",
+              "start": 96,
+              "end": 97,
+              "text": "usually"
+            },
+            {
+              "id": "c0031",
+              "start": 97,
+              "end": 101,
+              "text": "hey hang on have you been spying on us"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0042",
+              "start": 97,
+              "end": 101,
+              "text": "Hey, hang on, have you been spying on us?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 86,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 93,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 96,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 97,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0010",
+          "quote": "misses we know he doesn't let you eat pies oh he misses Humane Jewels she's my wife oh so she's not your enemy well not usually Hey, hang on, have you been spying on us?",
+          "start": 86,
+          "end": 101,
+          "matchStart": 10,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 101,
+      "end": 115,
+      "sentenceText": "Yes, because you're our enemy. Really? How come? come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 101,
+          "end": 115,
+          "text": "Yes, because you're our enemy. Really? How come? come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+          "originalText": "yes because you're our enemy really how come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 101,
+              "end": 104,
+              "text": "yes because you're our enemy really how"
+            },
+            {
+              "id": "c0033",
+              "start": 104,
+              "end": 107,
+              "text": "come you're digging up our grass oh yeah"
+            },
+            {
+              "id": "c0034",
+              "start": 107,
+              "end": 110,
+              "text": "I guess we are my kids like to spy too"
+            },
+            {
+              "id": "c0035",
+              "start": 110,
+              "end": 112,
+              "text": "what else did you find out we know all"
+            },
+            {
+              "id": "c0036",
+              "start": 112,
+              "end": 115,
+              "text": "about your boats ah that cherry is"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0043",
+              "start": 101,
+              "end": 103,
+              "text": "Yes, because you're our enemy."
+            },
+            {
+              "id": "c0044",
+              "start": 103,
+              "end": 104,
+              "text": "Really? How come?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 101,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 104,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 107,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0011",
+          "quote": "Yes, because you're our enemy. Really? How come? come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+          "start": 101,
+          "end": 115,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0011",
+          "quote": "Yes, because you're our enemy. Really? How come? come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+          "start": 101,
+          "end": 115,
+          "matchStart": 39,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0011",
+          "quote": "Yes, because you're our enemy. Really? How come? come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+          "start": 101,
+          "end": 115,
+          "matchStart": 113,
+          "matchEnd": 117
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "Yes, because you're our enemy. Really? How come? come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+          "start": 101,
+          "end": 115,
+          "matchStart": 129,
+          "matchEnd": 133
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0011",
+          "quote": "Yes, because you're our enemy. Really? How come? come you're digging up our grass oh yeah I guess we are my kids like to spy too what else did you find out we know all about your boats ah that cherry is",
+          "start": 101,
+          "end": 115,
+          "matchStart": 159,
+          "matchEnd": 163
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 115,
+      "end": 127,
+      "sentenceText": "chocolate milk's enemy chocolate milk ah Ah, you mean Chippy? Yeah, well, I guess he and and Cherry are enemies at the moment but they're trying to be friends again",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 115,
+          "end": 127,
+          "text": "chocolate milk's enemy chocolate milk ah Ah, you mean Chippy? Yeah, well, I guess he and and Cherry are enemies at the moment but they're trying to be friends again",
+          "originalText": "chocolate milk's enemy chocolate milk ah you mean chippy uh yeah well I guess he and Cherry are enemies at the moment but they're trying to be friends again",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 115,
+              "end": 118,
+              "text": "chocolate milk's enemy chocolate milk ah"
+            },
+            {
+              "id": "c0038",
+              "start": 118,
+              "end": 121,
+              "text": "you mean chippy uh yeah well I guess he"
+            },
+            {
+              "id": "c0039",
+              "start": 121,
+              "end": 123,
+              "text": "and Cherry are enemies at the moment"
+            },
+            {
+              "id": "c0040",
+              "start": 123,
+              "end": 127,
+              "text": "but they're trying to be friends again"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0052",
+              "start": 118,
+              "end": 119,
+              "text": "Ah, you mean Chippy?"
+            },
+            {
+              "id": "c0053",
+              "start": 119,
+              "end": 121,
+              "text": "Yeah, well, I guess he and"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 121,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 123,
+              "end": 127,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0012",
+          "quote": "chocolate milk's enemy chocolate milk ah Ah, you mean Chippy? Yeah, well, I guess he and and Cherry are enemies at the moment but they're trying to be friends again",
+          "start": 115,
+          "end": 127,
+          "matchStart": 159,
+          "matchEnd": 164
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

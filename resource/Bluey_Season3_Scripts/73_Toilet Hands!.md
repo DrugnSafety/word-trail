@@ -1,0 +1,60 @@
+# 73. Toilet Hands! | Tina - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=ShNAwohbi4g
+- Length: 02:02
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:00
+
+---
+
+- `[00:00 - 00:01]` Get off! Hey, Tina!
+- `[00:01 - 00:03]` I've got her! I've got her!
+- `[00:03 - 00:04]` Hold her down!
+- `[00:04 - 00:05]` Hey! Let go of Tina!
+- `[00:05 - 00:07]` Get her legs!
+- `[00:07 - 00:08]` I'm trying!
+- `[00:08 - 00:11]` She kicks like a mule!
+- `[00:11 - 00:13]` Use your toilet hands!
+- `[00:13 - 00:15]` Toilet hands!
+- `[00:15 - 00:17]` Get out of here, you little grub!
+- `[00:17 - 00:19]` Why does Tina stink so bad?
+- `[00:19 - 00:22]` Quick, let's get her outside!
+- `[00:22 - 00:24]` She weighs a tonne!
+- `[00:24 - 00:26]` She's a lot of woman!
+- `[00:26 - 00:33]` Get her in the car!
+- `[00:33 - 00:36]` You didn't see anything.
+- `[00:36 - 00:38]` Tina! Use your karate!
+- `[00:38 - 00:40]` Argh! You're on your own!
+- `[00:40 - 00:42]` No! Uh... Tina, come on,
+- `[00:42 - 00:44]` let's just talk about this.
+- `[00:44 - 00:46]` Get him, Tina!
+- `[00:46 - 00:49]` Hey! Easy, easy.
+- `[00:49 - 00:51]` Tapping out! Tapping out!
+- `[00:51 - 00:54]` Okay, okay, we give up. You win!
+- `[00:54 - 00:56]` Hooray! High five!
+- `[00:56 - 00:58]` Eugh, Bingo!
+- `[00:58 - 01:01]` Oh, Tina, I'm sorry, but you stink!
+- `[01:01 - 01:04]` Yeah, when was the last time she had a bath?
+- `[01:04 - 01:06]` Tina's never had a bath,
+- `[01:06 - 01:10]` and we're not having a bath either!
+- `[01:10 - 01:12]` Hey, whoa, wait, whose tooth is this?
+- `[01:12 - 01:14]` It's huge! Is this Tina's?
+- `[01:14 - 01:17]` Yeah, it is. And look, here's another one.
+- `[01:17 - 01:19]` Why did her teeth fall out?
+- `[01:19 - 01:22]` Well, when was the last time she brushed them?
+- `[01:22 - 01:24]` Tina doesn't brush her teeth.
+- `[01:24 - 01:26]` Well, that's why her teeth are falling out.
+- `[01:26 - 01:27]` Oh.
+- `[01:27 - 01:28]` Kids, when we tell you, you
+- `[01:28 - 01:30]` have to have a bath or brush your
+- `[01:30 - 01:32]` teeth or wash your hands,
+- `[01:32 - 01:34]` there's a good reason to do all those
+- `[01:34 - 01:37]` things. But when we ask Dad why, he just
+- `[01:37 - 01:40]` says, "Because I said so."
+- `[01:40 - 01:42]` Yeah, he says we have to because he's bigger than us.
+- `[01:42 - 01:45]` Oh, really? Maybe I should just give them 3
+- `[01:45 - 01:48]` seconds? Oh, yeah.
+- `[01:48 - 01:51]` Look, we'll probably still say those things 'cause we're busy,
+- `[01:51 - 01:53]` but now you know what we really mean.
+- `[01:53 - 01:56]` Okay, Mum. Bring it
+- `[01:56 - 02:00]` in! Toilet hands!

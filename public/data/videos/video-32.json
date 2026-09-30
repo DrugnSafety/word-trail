@@ -1,0 +1,1690 @@
+{
+  "id": "video-32",
+  "number": 32,
+  "title": "Story Time with Unicorse",
+  "duration": 124,
+  "declaredDuration": 124,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=Czf4UFt57Fk",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/32_Story Time with Unicorse.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/32_Story Time with Unicorse.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Story Time with Unicorse",
+      "start": 1,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 1,
+      "end": 12,
+      "sentenceText": "Once upon a time, there was a village, in the village everyone walked around barefoot oh yay you're at all i can't see the page Aaaand, why should I care?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 1,
+          "end": 12,
+          "text": "Once upon a time, there was a village, in the village everyone walked around barefoot oh yay you're at all i can't see the page Aaaand, why should I care?",
+          "originalText": "once upon a time there was a village and in the village everyone walked around barefoot oh yay you're at all i can't see the page and why should i care",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 2,
+              "text": "once upon a time there was a village and"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "in the village everyone walked around"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 8,
+              "text": "barefoot oh yay you're at all i can't"
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 9,
+              "text": "see the page"
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 12,
+              "text": "and why should i care"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 2,
+              "text": "Once upon a time, there was a village,"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "text": "Aaaand, why should I care?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0001",
+          "quote": "Once upon a time, there was a village, in the village everyone walked around barefoot oh yay you're at all i can't see the page Aaaand, why should I care?",
+          "start": 1,
+          "end": 12,
+          "matchStart": 115,
+          "matchEnd": 118
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0001",
+          "quote": "Once upon a time, there was a village, in the village everyone walked around barefoot oh yay you're at all i can't see the page Aaaand, why should I care?",
+          "start": 1,
+          "end": 12,
+          "matchStart": 136,
+          "matchEnd": 139
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 12,
+      "end": 24,
+      "sentenceText": "i forgot about the catchphrase if you block the words mom can't read the story and watch it again because stories are nice My story was nice, it had a unicorn in it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 12,
+          "end": 24,
+          "text": "i forgot about the catchphrase if you block the words mom can't read the story and watch it again because stories are nice My story was nice, it had a unicorn in it.",
+          "originalText": "i forgot about the catchphrase if you block the words mom can't read the story and watch it again because stories are nice my story was nice it had a unicorn in it",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 14,
+              "text": "i forgot about the catchphrase if you"
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 17,
+              "text": "block the words mom can't read the story"
+            },
+            {
+              "id": "c0008",
+              "start": 17,
+              "end": 18,
+              "text": "and"
+            },
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 21,
+              "text": "watch it again because stories are nice"
+            },
+            {
+              "id": "c0010",
+              "start": 21,
+              "end": 24,
+              "text": "my story was nice it had a unicorn in it"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "text": "My story was nice, it had a unicorn in it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 17,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 21,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0002",
+          "quote": "i forgot about the catchphrase if you block the words mom can't read the story and watch it again because stories are nice My story was nice, it had a unicorn in it.",
+          "start": 12,
+          "end": 24,
+          "matchStart": 92,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0002",
+          "quote": "i forgot about the catchphrase if you block the words mom can't read the story and watch it again because stories are nice My story was nice, it had a unicorn in it.",
+          "start": 12,
+          "end": 24,
+          "matchStart": 118,
+          "matchEnd": 122
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 24,
+      "end": 32,
+      "sentenceText": "this one has zero unicorns and the ending's boring she just makes sure Don't spoil the ending! Why not?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 24,
+          "end": 32,
+          "text": "this one has zero unicorns and the ending's boring she just makes sure Don't spoil the ending! Why not?",
+          "originalText": "this one has zero unicorns and the ending's boring she just makes sure don't spoil the ending why not cause",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 27,
+              "text": "this one has zero unicorns and the"
+            },
+            {
+              "id": "c0012",
+              "start": 27,
+              "end": 29,
+              "text": "ending's boring she just makes sure"
+            },
+            {
+              "id": "c0013",
+              "start": 29,
+              "end": 32,
+              "text": "don't spoil the ending why not cause"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 29,
+              "end": 31,
+              "text": "Don't spoil the ending!"
+            },
+            {
+              "id": "c0014",
+              "start": 31,
+              "end": 32,
+              "text": "Why not?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 27,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 29,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0003",
+          "quote": "this one has zero unicorns and the ending's boring she just makes sure Don't spoil the ending! Why not?",
+          "start": 24,
+          "end": 32,
+          "matchStart": 66,
+          "matchEnd": 70
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0003",
+          "quote": "this one has zero unicorns and the ending's boring she just makes sure Don't spoil the ending! Why not?",
+          "start": 24,
+          "end": 32,
+          "matchStart": 95,
+          "matchEnd": 98
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0003",
+          "quote": "this one has zero unicorns and the ending's boring she just makes sure Don't spoil the ending! Why not?",
+          "start": 24,
+          "end": 32,
+          "matchStart": 71,
+          "matchEnd": 76
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 32,
+      "end": 45,
+      "sentenceText": "'Cause Bluey hasn't heard it. was it again unicorns i'm trying to make you a nice unicorn okay okay okay please Please continue, Milly. I won't spoil the ending...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 32,
+          "end": 45,
+          "text": "'Cause Bluey hasn't heard it. was it again unicorns i'm trying to make you a nice unicorn okay okay okay please Please continue, Milly. I won't spoil the ending...",
+          "originalText": "chloe hasn't heard it was it again unicorns i'm trying to make you a nice unicorn okay okay okay please continue millie i won't spoil the ending",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 32,
+              "end": 35,
+              "text": "chloe hasn't heard it"
+            },
+            {
+              "id": "c0015",
+              "start": 35,
+              "end": 38,
+              "text": "was it again unicorns i'm trying to make"
+            },
+            {
+              "id": "c0016",
+              "start": 38,
+              "end": 41,
+              "text": "you a nice unicorn okay okay okay please"
+            },
+            {
+              "id": "c0017",
+              "start": 41,
+              "end": 45,
+              "text": "continue millie i won't spoil the ending"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 32,
+              "end": 35,
+              "text": "'Cause Bluey hasn't heard it."
+            },
+            {
+              "id": "c0019",
+              "start": 41,
+              "end": 45,
+              "text": "Please continue, Milly. I won't spoil the ending..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 32,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 35,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 38,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 41,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0004",
+          "quote": "'Cause Bluey hasn't heard it. was it again unicorns i'm trying to make you a nice unicorn okay okay okay please Please continue, Milly. I won't spoil the ending...",
+          "start": 32,
+          "end": 45,
+          "matchStart": 37,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0004",
+          "quote": "'Cause Bluey hasn't heard it. was it again unicorns i'm trying to make you a nice unicorn okay okay okay please Please continue, Milly. I won't spoil the ending...",
+          "start": 32,
+          "end": 45,
+          "matchStart": 77,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "'Cause Bluey hasn't heard it. was it again unicorns i'm trying to make you a nice unicorn okay okay okay please Please continue, Milly. I won't spoil the ending...",
+          "start": 32,
+          "end": 45,
+          "matchStart": 90,
+          "matchEnd": 94
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0004",
+          "quote": "'Cause Bluey hasn't heard it. was it again unicorns i'm trying to make you a nice unicorn okay okay okay please Please continue, Milly. I won't spoil the ending...",
+          "start": 32,
+          "end": 45,
+          "matchStart": 105,
+          "matchEnd": 111
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 45,
+      "end": 55,
+      "sentenceText": "Where she makes shoes! of course One day, the Queen decided to get off her litter and have a walk around.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 45,
+          "end": 55,
+          "text": "Where she makes shoes! of course One day, the Queen decided to get off her litter and have a walk around.",
+          "originalText": "where she makes shoes of course one day the queen decided to get off her litter and have a walk around changed my",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 45,
+              "end": 47,
+              "text": "where she makes shoes"
+            },
+            {
+              "id": "c0019",
+              "start": 47,
+              "end": 49,
+              "text": "of course"
+            },
+            {
+              "id": "c0020",
+              "start": 51,
+              "end": 53,
+              "text": "one day the queen decided to get off her"
+            },
+            {
+              "id": "c0021",
+              "start": 53,
+              "end": 55,
+              "text": "litter and have a walk around changed my"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 45,
+              "end": 47,
+              "text": "Where she makes shoes!"
+            },
+            {
+              "id": "c0022",
+              "start": 51,
+              "end": 53,
+              "text": "One day, the Queen decided to get off her litter"
+            },
+            {
+              "id": "c0023",
+              "start": 53,
+              "end": 55,
+              "text": "and have a walk around."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 45,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 47,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 51,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 53,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0005",
+          "quote": "Where she makes shoes! of course One day, the Queen decided to get off her litter and have a walk around.",
+          "start": 45,
+          "end": 55,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 55,
+      "end": 65,
+      "sentenceText": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 55,
+          "end": 65,
+          "text": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+          "originalText": "mind oh wait changed it again actually i will nope not today of course that is bad behavior maybe",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 55,
+              "end": 58,
+              "text": "mind oh wait changed it again actually i"
+            },
+            {
+              "id": "c0023",
+              "start": 58,
+              "end": 62,
+              "text": "will nope not today"
+            },
+            {
+              "id": "c0024",
+              "start": 62,
+              "end": 65,
+              "text": "of course that is bad behavior maybe"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 62,
+              "end": 65,
+              "text": "Unicorse! That is bad behaviour!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 58,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 62,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "wait",
+          "cueId": "c0006",
+          "quote": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+          "start": 55,
+          "end": 65,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0006",
+          "quote": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+          "start": 55,
+          "end": 65,
+          "matchStart": 24,
+          "matchEnd": 29
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 65,
+      "end": 74,
+      "sentenceText": "Meh-meh-meh. Oh! So is that! Meep-meep-meep. Shall we continue? Ugh, yes.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 65,
+          "end": 74,
+          "text": "Meh-meh-meh. Oh! So is that! Meep-meep-meep. Shall we continue? Ugh, yes.",
+          "originalText": "maybe what so is that meet me meep shall we continue oh yes",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 65,
+              "end": 67,
+              "text": "maybe"
+            },
+            {
+              "id": "c0026",
+              "start": 67,
+              "end": 69,
+              "text": "what so is that"
+            },
+            {
+              "id": "c0027",
+              "start": 69,
+              "end": 74,
+              "text": "meet me meep shall we continue oh yes"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 65,
+              "end": 67,
+              "text": "Meh-meh-meh."
+            },
+            {
+              "id": "c0030",
+              "start": 67,
+              "end": 69,
+              "text": "Oh! So is that!"
+            },
+            {
+              "id": "c0031",
+              "start": 69,
+              "end": 71,
+              "text": "Meep-meep-meep."
+            },
+            {
+              "id": "c0032",
+              "start": 71,
+              "end": 73,
+              "text": "Shall we continue?"
+            },
+            {
+              "id": "c0033",
+              "start": 73,
+              "end": 74,
+              "text": "Ugh, yes."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 65,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 67,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 69,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0007",
+          "quote": "Meh-meh-meh. Oh! So is that! Meep-meep-meep. Shall we continue? Ugh, yes.",
+          "start": 65,
+          "end": 74,
+          "matchStart": 69,
+          "matchEnd": 72
+        },
+        {
+          "expressionId": "ugh",
+          "cueId": "c0007",
+          "quote": "Meh-meh-meh. Oh! So is that! Meep-meep-meep. Shall we continue? Ugh, yes.",
+          "start": 65,
+          "end": 74,
+          "matchStart": 64,
+          "matchEnd": 67
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 74,
+      "end": 88,
+      "sentenceText": "so the queen walked a few steps and stood on a prickle ouch and of course that's mean how would you feel if you stood on a prickle i feel I'd feel good, I'd feel so good, I'd dance!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 74,
+          "end": 88,
+          "text": "so the queen walked a few steps and stood on a prickle ouch and of course that's mean how would you feel if you stood on a prickle i feel I'd feel good, I'd feel so good, I'd dance!",
+          "originalText": "so the queen walked a few steps and stood on a prickle ouch and of course that's mean how would you feel if you stood on a prickle i feel good i feel so good at dance",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 74,
+              "end": 76,
+              "text": "so the queen walked a few steps and"
+            },
+            {
+              "id": "c0029",
+              "start": 76,
+              "end": 80,
+              "text": "stood on a prickle ouch"
+            },
+            {
+              "id": "c0030",
+              "start": 80,
+              "end": 83,
+              "text": "and of course that's mean how would you"
+            },
+            {
+              "id": "c0031",
+              "start": 83,
+              "end": 85,
+              "text": "feel if you stood on a prickle i feel"
+            },
+            {
+              "id": "c0032",
+              "start": 85,
+              "end": 88,
+              "text": "good i feel so good at dance"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 85,
+              "end": 88,
+              "text": "I'd feel good, I'd feel so good, I'd dance!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 74,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 80,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 83,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 85,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0008",
+          "quote": "so the queen walked a few steps and stood on a prickle ouch and of course that's mean how would you feel if you stood on a prickle i feel I'd feel good, I'd feel so good, I'd dance!",
+          "start": 74,
+          "end": 88,
+          "matchStart": 86,
+          "matchEnd": 89
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0008",
+          "quote": "so the queen walked a few steps and stood on a prickle ouch and of course that's mean how would you feel if you stood on a prickle i feel I'd feel good, I'd feel so good, I'd dance!",
+          "start": 74,
+          "end": 88,
+          "matchStart": 147,
+          "matchEnd": 151
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 88,
+      "end": 95,
+      "sentenceText": "you wouldn't dance you'd be crying like the queen well maybe she should wear some shoes Unicorse!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 88,
+          "end": 95,
+          "text": "you wouldn't dance you'd be crying like the queen well maybe she should wear some shoes Unicorse!",
+          "originalText": "you wouldn't dance you'd be crying like the queen well maybe she should wear some shoes unicorns",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 88,
+              "end": 90,
+              "text": "you wouldn't dance you'd be crying like"
+            },
+            {
+              "id": "c0034",
+              "start": 90,
+              "end": 92,
+              "text": "the queen well maybe she should wear"
+            },
+            {
+              "id": "c0035",
+              "start": 92,
+              "end": 94,
+              "text": "some shoes"
+            },
+            {
+              "id": "c0036",
+              "start": 94,
+              "end": 95,
+              "text": "unicorns"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 94,
+              "end": 95,
+              "text": "Unicorse!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 88,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 94,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0009",
+          "quote": "you wouldn't dance you'd be crying like the queen well maybe she should wear some shoes Unicorse!",
+          "start": 88,
+          "end": 95,
+          "matchStart": 35,
+          "matchEnd": 39
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 95,
+      "end": 105,
+      "sentenceText": "anyway the queen discovered that her whole kingdom was covered in prickles What was she to do? Make shoes! Ugh, Bluey!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 95,
+          "end": 105,
+          "text": "anyway the queen discovered that her whole kingdom was covered in prickles What was she to do? Make shoes! Ugh, Bluey!",
+          "originalText": "anyway the queen discovered that her whole kingdom was covered in prickles what was she to do make shoes ugh bluey",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 95,
+              "end": 98,
+              "text": "anyway the queen discovered that her"
+            },
+            {
+              "id": "c0038",
+              "start": 98,
+              "end": 100,
+              "text": "whole kingdom was covered in prickles"
+            },
+            {
+              "id": "c0039",
+              "start": 100,
+              "end": 105,
+              "text": "what was she to do make shoes ugh bluey"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0043",
+              "start": 100,
+              "end": 103,
+              "text": "What was she to do?"
+            },
+            {
+              "id": "c0044",
+              "start": 103,
+              "end": 104,
+              "text": "Make shoes!"
+            },
+            {
+              "id": "c0045",
+              "start": 104,
+              "end": 105,
+              "text": "Ugh, Bluey!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 98,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 100,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "anyway the queen discovered that her whole kingdom was covered in prickles What was she to do? Make shoes! Ugh, Bluey!",
+          "start": 95,
+          "end": 105,
+          "matchStart": 75,
+          "matchEnd": 79
+        },
+        {
+          "expressionId": "ugh",
+          "cueId": "c0010",
+          "quote": "anyway the queen discovered that her whole kingdom was covered in prickles What was she to do? Make shoes! Ugh, Bluey!",
+          "start": 95,
+          "end": 105,
+          "matchStart": 107,
+          "matchEnd": 110
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 105,
+      "end": 111,
+      "sentenceText": "oh i know unicorns what's your favorite food Children.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 105,
+          "end": 111,
+          "text": "oh i know unicorns what's your favorite food Children.",
+          "originalText": "oh i know unicorns what's your favorite food children",
+          "originalCueRefs": [
+            {
+              "id": "c0040",
+              "start": 105,
+              "end": 108,
+              "text": "oh i know unicorns what's your favorite"
+            },
+            {
+              "id": "c0041",
+              "start": 108,
+              "end": 110,
+              "text": "food"
+            },
+            {
+              "id": "c0042",
+              "start": 110,
+              "end": 111,
+              "text": "children"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0048",
+              "start": 110,
+              "end": 111,
+              "text": "Children."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0040",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 108,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 110,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0011",
+          "quote": "oh i know unicorns what's your favorite food Children.",
+          "start": 105,
+          "end": 111,
+          "matchStart": 5,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "oh i know unicorns what's your favorite food Children.",
+          "start": 105,
+          "end": 111,
+          "matchStart": 19,
+          "matchEnd": 23
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 111,
+      "end": 118,
+      "sentenceText": "Oh. Just kidding, I like chicken bucket. Oh, great, look, here's some chicken bucket.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 111,
+          "end": 118,
+          "text": "Oh. Just kidding, I like chicken bucket. Oh, great, look, here's some chicken bucket.",
+          "originalText": "oh just kidding i like chicken bucket oh great look here's some chicken bucket ah",
+          "originalCueRefs": [
+            {
+              "id": "c0043",
+              "start": 111,
+              "end": 112,
+              "text": "oh"
+            },
+            {
+              "id": "c0044",
+              "start": 112,
+              "end": 115,
+              "text": "just kidding i like chicken bucket oh"
+            },
+            {
+              "id": "c0045",
+              "start": 115,
+              "end": 118,
+              "text": "great look here's some chicken bucket ah"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0049",
+              "start": 111,
+              "end": 112,
+              "text": "Oh."
+            },
+            {
+              "id": "c0050",
+              "start": 112,
+              "end": 115,
+              "text": "Just kidding, I like chicken bucket."
+            },
+            {
+              "id": "c0051",
+              "start": 115,
+              "end": 118,
+              "text": "Oh, great, look, here's some chicken bucket."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0043",
+              "start": 111,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            },
+            {
+              "id": "c0045",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0012",
+          "quote": "Oh. Just kidding, I like chicken bucket. Oh, great, look, here's some chicken bucket.",
+          "start": 111,
+          "end": 118,
+          "matchStart": 20,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "great",
+          "cueId": "c0012",
+          "quote": "Oh. Just kidding, I like chicken bucket. Oh, great, look, here's some chicken bucket.",
+          "start": 111,
+          "end": 118,
+          "matchStart": 45,
+          "matchEnd": 50
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0012",
+          "quote": "Oh. Just kidding, I like chicken bucket. Oh, great, look, here's some chicken bucket.",
+          "start": 111,
+          "end": 118,
+          "matchStart": 52,
+          "matchEnd": 56
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 118,
+      "end": 124,
+      "sentenceText": "thank you mighty kind okay we're good to go",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 118,
+          "end": 124,
+          "text": "thank you mighty kind okay we're good to go",
+          "originalText": "thank you mighty kind okay we're good to go",
+          "originalCueRefs": [
+            {
+              "id": "c0046",
+              "start": 118,
+              "end": 121,
+              "text": "thank you mighty kind okay we're good to"
+            },
+            {
+              "id": "c0047",
+              "start": 121,
+              "end": 124,
+              "text": "go"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0046",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            },
+            {
+              "id": "c0047",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0013",
+          "quote": "thank you mighty kind okay we're good to go",
+          "start": 118,
+          "end": 124,
+          "matchStart": 0,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0013",
+          "quote": "thank you mighty kind okay we're good to go",
+          "start": 118,
+          "end": 124,
+          "matchStart": 22,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0013",
+          "quote": "thank you mighty kind okay we're good to go",
+          "start": 118,
+          "end": 124,
+          "matchStart": 33,
+          "matchEnd": 37
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

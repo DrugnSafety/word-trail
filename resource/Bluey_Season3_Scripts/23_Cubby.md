@@ -1,0 +1,58 @@
+# 23. Cubby
+
+- Video: https://www.youtube.com/watch?v=enXGh23RQtE
+- Length: 02:03
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:04
+
+---
+
+- `[00:00 - 00:03]` Ah, there's no room for Kimjim to sleep.
+- `[00:03 - 00:04]` Oh, I know.
+- `[00:04 - 00:07]` I think if we knock this wall out,
+- `[00:07 - 00:09]` this room will feel so much bigger,
+- `[00:09 - 00:11]` it's already big enough, babe.
+- `[00:11 - 00:13]` It's not, it's too cramped.
+- `[00:13 - 00:14]` The only thing in this room
+- `[00:14 - 00:16]` that needs to be bigger is the TV.
+- `[00:16 - 00:18]` What are you talking about? It's huge!
+- `[00:18 - 00:21]` It's not. 50 inches is no longer an acceptable size
+- `[00:21 - 00:22]` in this day and age.
+- `[00:22 - 00:24]` I can hardly see what's going on.
+- `[00:24 - 00:26]` I'm getting the tape measure.
+- `[00:26 - 00:29]` Dad, we need this cushion.
+- `[00:29 - 00:30]` Huh? What? Why?
+- `[00:30 - 00:32]` We're building a bedroom for Kimjim.
+- `[00:32 - 00:34]` Oh, uh... yeah.
+- `[00:34 - 00:37]` Right, we need that one too.
+- `[00:37 - 00:38]` Uh, okay.
+- `[00:38 - 00:41]` And that one.
+- `[00:41 - 00:43]` Thank you.
+
+## Puppy
+
+- `[00:43 - 00:46]` This episode of Bluey is called Puppy.
+- `[00:46 - 00:50]` Here you are, Kimjim, your new bedroom.
+- `[00:50 - 00:52]` Do you like it?
+- `[00:52 - 00:53]` Yes, I love it!
+- `[00:53 - 00:55]` Do you think we should build a
+- `[00:55 - 00:57]` playroom here for Kimjim?
+- `[00:57 - 01:10]` Yeah, I think we should.
+- `[01:10 - 01:11]` Dad, you're in the way.
+- `[01:11 - 01:15]` Ah, can't you build around me, trying to watch the cricket.
+- `[01:15 - 01:16]` No, well, that settles that then.
+- `[01:16 - 01:18]` Oh, can we have that cushion?
+- `[01:18 - 01:21]` It can be a bath for Kimjim.
+- `[01:21 - 01:28]` Oh yeah, let's build a bathroom.
+- `[01:28 - 01:34]` Okay, five and a half metres, that's just too small.
+- `[01:34 - 01:36]` Hey, mind the towel cupboard!
+- `[01:36 - 01:37]` Sorry, look, Kimjim,
+- `[01:37 - 01:39]` this is your new bathroom.
+- `[01:39 - 01:39]` Yay, thank you!
+- `[01:39 - 01:41]` But we hungry now.
+- `[01:41 - 01:44]` Oh yeah, it's your dinner time.
+- `[01:44 - 01:45]` Where should we eat?
+- `[01:45 - 01:55]` Let's build a dining room.
+- `[01:55 - 01:56]` Finished eating, Mummy?
+- `[01:56 - 02:01]` Kimjim, you ate all your dinner, well done!
+- `[02:01 - 02:04]` Done!

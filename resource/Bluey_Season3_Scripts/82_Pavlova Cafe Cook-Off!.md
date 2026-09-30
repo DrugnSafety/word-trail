@@ -1,0 +1,43 @@
+# 82. Pavlova Cafe Cook-Off!
+
+- Video: https://www.youtube.com/watch?v=O60VVZQkRs4
+- Length: 02:06
+- Captions: YouTube auto-generated English captions
+- Script: 00:04 ~ 02:03
+
+---
+
+- `[00:04 - 00:08]` Yeah.
+- `[00:08 - 00:14]` Hey, you can't open a cafe right next to mine!
+- `[00:14 - 00:17]` Where are you going? I just want to see the menu.
+- `[00:17 - 00:21]` Well, don't be long. Your pavlova's coming.
+- `[00:21 - 00:23]` Can I see a menu, please?
+- `[00:23 - 00:26]` Mercredi!
+- `[00:26 - 00:27]` What's it got on it?
+- `[00:27 - 00:30]` It's only got endamame beans.
+- `[00:30 - 00:38]` Well, she doesn't want them. She wants pavlova.
+- `[00:38 - 00:39]` I think he's saying
+- `[00:39 - 00:41]` he put some lovely things on them
+- `[00:41 - 00:43]` to make them taste nice.
+- `[00:43 - 00:48]` Um, it's just that I really think I want pavlova.
+- `[00:48 - 00:51]` Tres bon!
+- `[00:51 - 00:53]` Well, you can make me some
+- `[00:53 - 00:56]` edamame beans if you want.
+- `[00:56 - 00:57]` Tres malade!
+- `[00:57 - 00:58]` but I get to choose
+- `[00:58 - 01:00]` if I want to eat them
+- `[01:00 - 01:02]` or the pavlova.
+- `[01:02 - 01:04]` It's just I don't like it
+- `[01:04 - 01:07]` when you make me eat something.
+- `[01:07 - 01:09]` Mon petit chou...
+- `[01:09 - 01:16]` it's a cafe competition. I'm going to get the sprinkles.
+- `[01:16 - 01:18]` Hey!
+- `[01:18 - 01:23]` Can I help?
+- `[01:23 - 01:29]` Saint-Tropez!
+- `[01:29 - 01:43]` Ready!
+- `[01:43 - 01:46]` Okay, I've decided...
+- `[01:46 - 01:50]` Pavlova!
+- `[01:50 - 01:57]` So, I can eat this?
+- `[01:57 - 01:58]` Thank you.
+- `[01:58 - 02:00]` You know he just called you a booger?
+- `[02:00 - 02:03]` What?!

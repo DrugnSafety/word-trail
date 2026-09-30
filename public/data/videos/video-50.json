@@ -1,0 +1,1917 @@
+{
+  "id": "video-50",
+  "number": 50,
+  "title": "Big Toddlers | Promises - Series 3 | Bluey",
+  "duration": 121,
+  "declaredDuration": 121,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=zlEF86WNgXY",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/50_Big Toddlers.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/50_Big Toddlers.txt"
+  },
+  "qualityFlags": [],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Big Toddlers | Promises - Series 3 | Bluey",
+      "start": 0,
+      "end": 119,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 11,
+      "sentenceText": "Are you still cranky with me? You said we could go to the library. It was shut! You promised. And you shouldn't break your promise. Yeah, I know, mate, but... Why is this",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 11,
+          "text": "Are you still cranky with me? You said we could go to the library. It was shut! You promised. And you shouldn't break your promise. Yeah, I know, mate, but... Why is this",
+          "originalText": "are you still cranky with me you said we could go to the library it was shut you promised and you shouldn't break a promise yeah i know mate but why is this",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "are you still cranky with me you said we"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "text": "could go to the library it was shut you"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 8,
+              "text": "promised and you shouldn't break a"
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 11,
+              "text": "promise yeah i know mate but why is this"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "text": "Are you still cranky with me?"
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 3,
+              "text": "You said we"
+            },
+            {
+              "id": "c0003",
+              "start": 3,
+              "end": 4,
+              "text": "could go to the library."
+            },
+            {
+              "id": "c0004",
+              "start": 4,
+              "end": 5,
+              "text": "It was shut!"
+            },
+            {
+              "id": "c0005",
+              "start": 5,
+              "end": 6,
+              "text": "You"
+            },
+            {
+              "id": "c0006",
+              "start": 6,
+              "end": 8,
+              "text": "promised. And you shouldn't break your"
+            },
+            {
+              "id": "c0007",
+              "start": 8,
+              "end": 9,
+              "text": "promise."
+            },
+            {
+              "id": "c0008",
+              "start": 9,
+              "end": 10,
+              "text": "Yeah, I know, mate, but..."
+            },
+            {
+              "id": "c0009",
+              "start": 10,
+              "end": 11,
+              "text": "Why is this"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0001",
+          "quote": "Are you still cranky with me? You said we could go to the library. It was shut! You promised. And you shouldn't break your promise. Yeah, I know, mate, but... Why is this",
+          "start": 0,
+          "end": 11,
+          "matchStart": 140,
+          "matchEnd": 144
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0001",
+          "quote": "Are you still cranky with me? You said we could go to the library. It was shut! You promised. And you shouldn't break your promise. Yeah, I know, mate, but... Why is this",
+          "start": 0,
+          "end": 11,
+          "matchStart": 159,
+          "matchEnd": 162
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 11,
+      "end": 16,
+      "sentenceText": "panda puzzle not tidied up?! Uh-oh! Quick! Hide!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 11,
+          "end": 16,
+          "text": "panda puzzle not tidied up?! Uh-oh! Quick! Hide!",
+          "originalText": "panda puzzle not tidied up oh quick hi",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 16,
+              "text": "panda puzzle not tidied up oh quick hi"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 11,
+              "end": 13,
+              "text": "panda puzzle not tidied up?!"
+            },
+            {
+              "id": "c0011",
+              "start": 13,
+              "end": 14,
+              "text": "Uh-oh!"
+            },
+            {
+              "id": "c0012",
+              "start": 14,
+              "end": 16,
+              "text": "Quick! Hide!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 16,
+      "end": 26,
+      "sentenceText": "Where is she? Uh... Where's who? The kid who broke her promise to clean up the panda puzzle. Ohh! How interesting!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 16,
+          "end": 26,
+          "text": "Where is she? Uh... Where's who? The kid who broke her promise to clean up the panda puzzle. Ohh! How interesting!",
+          "originalText": "where is she um where's who the kid who broke her promise to clean up the panda puzzle oh how interesting",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 20,
+              "text": "where is she um where's who the kid who"
+            },
+            {
+              "id": "c0007",
+              "start": 20,
+              "end": 22,
+              "text": "broke her promise to clean up the panda"
+            },
+            {
+              "id": "c0008",
+              "start": 22,
+              "end": 26,
+              "text": "puzzle oh how interesting"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 16,
+              "end": 18,
+              "text": "Where is she?"
+            },
+            {
+              "id": "c0014",
+              "start": 18,
+              "end": 19,
+              "text": "Uh... Where's who?"
+            },
+            {
+              "id": "c0015",
+              "start": 19,
+              "end": 20,
+              "text": "The kid who"
+            },
+            {
+              "id": "c0016",
+              "start": 20,
+              "end": 22,
+              "text": "broke her promise to clean up the panda"
+            },
+            {
+              "id": "c0017",
+              "start": 22,
+              "end": 24,
+              "text": "puzzle."
+            },
+            {
+              "id": "c0018",
+              "start": 24,
+              "end": 26,
+              "text": "Ohh! How interesting!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 20,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 22,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0003",
+          "quote": "Where is she? Uh... Where's who? The kid who broke her promise to clean up the panda puzzle. Ohh! How interesting!",
+          "start": 16,
+          "end": 26,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0003",
+          "quote": "Where is she? Uh... Where's who? The kid who broke her promise to clean up the panda puzzle. Ohh! How interesting!",
+          "start": 16,
+          "end": 26,
+          "matchStart": 98,
+          "matchEnd": 101
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 26,
+      "end": 31,
+      "sentenceText": "Did Bluey break her promise? Well, you broke your promise, so I can break mine.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 26,
+          "end": 31,
+          "text": "Did Bluey break her promise? Well, you broke your promise, so I can break mine.",
+          "originalText": "did bluey break her promise well you write your promise so i can break mine",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 26,
+              "end": 29,
+              "text": "did bluey break her promise well you"
+            },
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 31,
+              "text": "write your promise so i can break mine"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 26,
+              "end": 28,
+              "text": "Did Bluey break her promise?"
+            },
+            {
+              "id": "c0020",
+              "start": 28,
+              "end": 29,
+              "text": "Well, you"
+            },
+            {
+              "id": "c0021",
+              "start": 29,
+              "end": 31,
+              "text": "broke your promise, so I can break mine."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 26,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 31,
+      "end": 37,
+      "sentenceText": "What? It's true. Dad broke his promise. The library was shut!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 31,
+          "end": 37,
+          "text": "What? It's true. Dad broke his promise. The library was shut!",
+          "originalText": "what it's true dad broke his promise the library was shut",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 35,
+              "text": "what it's true dad broke his promise the"
+            },
+            {
+              "id": "c0012",
+              "start": 35,
+              "end": 37,
+              "text": "library was shut"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 31,
+              "end": 32,
+              "text": "What?"
+            },
+            {
+              "id": "c0023",
+              "start": 32,
+              "end": 34,
+              "text": "It's true. Dad broke his promise."
+            },
+            {
+              "id": "c0024",
+              "start": 34,
+              "end": 35,
+              "text": "The"
+            },
+            {
+              "id": "c0025",
+              "start": 35,
+              "end": 37,
+              "text": "library was shut!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 35,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "What? It's true. Dad broke his promise. The library was shut!",
+          "start": 31,
+          "end": 37,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0005",
+          "quote": "What? It's true. Dad broke his promise. The library was shut!",
+          "start": 31,
+          "end": 37,
+          "matchStart": 17,
+          "matchEnd": 20
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 37,
+      "end": 43,
+      "sentenceText": "Seems like we've got a promising problem. Yeah! Okay, from now on, no one makes any more promises.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 37,
+          "end": 43,
+          "text": "Seems like we've got a promising problem. Yeah! Okay, from now on, no one makes any more promises.",
+          "originalText": "seems like we've got a promising problem yeah okay from now on no one makes any",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 37,
+              "end": 40,
+              "text": "seems like we've got a promising problem"
+            },
+            {
+              "id": "c0014",
+              "start": 40,
+              "end": 43,
+              "text": "yeah okay from now on no one makes any"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 37,
+              "end": 40,
+              "text": "Seems like we've got a promising problem."
+            },
+            {
+              "id": "c0027",
+              "start": 40,
+              "end": 42,
+              "text": "Yeah! Okay, from now on, no one makes any"
+            },
+            {
+              "id": "c0028",
+              "start": 42,
+              "end": 43,
+              "text": "more promises."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 37,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 40,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0006",
+          "quote": "Seems like we've got a promising problem. Yeah! Okay, from now on, no one makes any more promises.",
+          "start": 37,
+          "end": 43,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0006",
+          "quote": "Seems like we've got a promising problem. Yeah! Okay, from now on, no one makes any more promises.",
+          "start": 37,
+          "end": 43,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "Seems like we've got a promising problem. Yeah! Okay, from now on, no one makes any more promises.",
+          "start": 37,
+          "end": 43,
+          "matchStart": 67,
+          "matchEnd": 69
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 43,
+      "end": 53,
+      "sentenceText": "But you promised you'd always love us! Whoa. I didn't think this through. Listen, you can still make promises. You just have to keep them. Ah, okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 43,
+          "end": 53,
+          "text": "But you promised you'd always love us! Whoa. I didn't think this through. Listen, you can still make promises. You just have to keep them. Ah, okay.",
+          "originalText": "more promises but you promised you'd always love us well i didn't think this through listen you can still make promises you just have to keep them ah",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 43,
+              "end": 45,
+              "text": "more promises but you promised you'd"
+            },
+            {
+              "id": "c0016",
+              "start": 45,
+              "end": 48,
+              "text": "always love us well i didn't think this"
+            },
+            {
+              "id": "c0017",
+              "start": 48,
+              "end": 50,
+              "text": "through listen you can still make"
+            },
+            {
+              "id": "c0018",
+              "start": 50,
+              "end": 53,
+              "text": "promises you just have to keep them ah"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 43,
+              "end": 45,
+              "text": "But you promised you'd"
+            },
+            {
+              "id": "c0030",
+              "start": 45,
+              "end": 46,
+              "text": "always love us!"
+            },
+            {
+              "id": "c0031",
+              "start": 46,
+              "end": 48,
+              "text": "Whoa. I didn't think this"
+            },
+            {
+              "id": "c0032",
+              "start": 48,
+              "end": 49,
+              "text": "through."
+            },
+            {
+              "id": "c0033",
+              "start": 49,
+              "end": 50,
+              "text": "Listen, you can still make"
+            },
+            {
+              "id": "c0034",
+              "start": 50,
+              "end": 52,
+              "text": "promises. You just have to keep them."
+            },
+            {
+              "id": "c0035",
+              "start": 52,
+              "end": 53,
+              "text": "Ah, okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 43,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0007",
+          "quote": "But you promised you'd always love us! Whoa. I didn't think this through. Listen, you can still make promises. You just have to keep them. Ah, okay.",
+          "start": 43,
+          "end": 53,
+          "matchStart": 120,
+          "matchEnd": 127
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0007",
+          "quote": "But you promised you'd always love us! Whoa. I didn't think this through. Listen, you can still make promises. You just have to keep them. Ah, okay.",
+          "start": 43,
+          "end": 53,
+          "matchStart": 30,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0007",
+          "quote": "But you promised you'd always love us! Whoa. I didn't think this through. Listen, you can still make promises. You just have to keep them. Ah, okay.",
+          "start": 43,
+          "end": 53,
+          "matchStart": 54,
+          "matchEnd": 59
+        },
+        {
+          "expressionId": "listen",
+          "cueId": "c0007",
+          "quote": "But you promised you'd always love us! Whoa. I didn't think this through. Listen, you can still make promises. You just have to keep them. Ah, okay.",
+          "start": 43,
+          "end": 53,
+          "matchStart": 74,
+          "matchEnd": 80
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "But you promised you'd always love us! Whoa. I didn't think this through. Listen, you can still make promises. You just have to keep them. Ah, okay.",
+          "start": 43,
+          "end": 53,
+          "matchStart": 143,
+          "matchEnd": 147
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 53,
+      "end": 59,
+      "sentenceText": "Yeah, that makes more sense. Bluey, from now on, we keep our promises.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 53,
+          "end": 59,
+          "text": "Yeah, that makes more sense. Bluey, from now on, we keep our promises.",
+          "originalText": "okay yeah that makes more sense louie from now on we keep our promises",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 53,
+              "end": 56,
+              "text": "okay yeah that makes more sense"
+            },
+            {
+              "id": "c0020",
+              "start": 56,
+              "end": 59,
+              "text": "louie from now on we keep our promises"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 53,
+              "end": 56,
+              "text": "Yeah, that makes more sense."
+            },
+            {
+              "id": "c0037",
+              "start": 56,
+              "end": 59,
+              "text": "Bluey, from now on, we keep our promises."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 56,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 59,
+      "end": 65,
+      "sentenceText": "No matter what! No matter what. Well, goodnight, everyone!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 59,
+          "end": 65,
+          "text": "No matter what! No matter what. Well, goodnight, everyone!",
+          "originalText": "no matter what no matter what oh well good night everyone",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 59,
+              "end": 62,
+              "text": "no matter what no matter what"
+            },
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 65,
+              "text": "oh well good night everyone"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 59,
+              "end": 60,
+              "text": "No matter what!"
+            },
+            {
+              "id": "c0039",
+              "start": 60,
+              "end": 62,
+              "text": "No matter what."
+            },
+            {
+              "id": "c0040",
+              "start": 62,
+              "end": 65,
+              "text": "Well, goodnight, everyone!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 59,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "No matter what! No matter what. Well, goodnight, everyone!",
+          "start": 59,
+          "end": 65,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "No matter what! No matter what. Well, goodnight, everyone!",
+          "start": 59,
+          "end": 65,
+          "matchStart": 10,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 65,
+      "end": 77,
+      "sentenceText": "Panda puzzle! Argh! Come on, kids! Hurry up! Hey, this morning I said to Bingo to hurry up, and she said, \"I am hurry upping!\"",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 65,
+          "end": 77,
+          "text": "Panda puzzle! Argh! Come on, kids! Hurry up! Hey, this morning I said to Bingo to hurry up, and she said, \"I am hurry upping!\"",
+          "originalText": "panda puzzles come on kids hurry up hey this morning i said to bingo to hurry up and she said i am hurry up",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 65,
+              "end": 67,
+              "text": "panda puzzles"
+            },
+            {
+              "id": "c0024",
+              "start": 67,
+              "end": 69,
+              "text": "come on"
+            },
+            {
+              "id": "c0025",
+              "start": 69,
+              "end": 72,
+              "text": "kids hurry up hey this morning i said to"
+            },
+            {
+              "id": "c0026",
+              "start": 72,
+              "end": 75,
+              "text": "bingo to hurry up and she said i am"
+            },
+            {
+              "id": "c0027",
+              "start": 75,
+              "end": 77,
+              "text": "hurry up"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 65,
+              "end": 66,
+              "text": "Panda puzzle!"
+            },
+            {
+              "id": "c0042",
+              "start": 66,
+              "end": 67,
+              "text": "Argh!"
+            },
+            {
+              "id": "c0043",
+              "start": 67,
+              "end": 69,
+              "text": "Come on,"
+            },
+            {
+              "id": "c0044",
+              "start": 69,
+              "end": 71,
+              "text": "kids! Hurry up!"
+            },
+            {
+              "id": "c0045",
+              "start": 71,
+              "end": 72,
+              "text": "Hey, this morning I said to"
+            },
+            {
+              "id": "c0046",
+              "start": 72,
+              "end": 75,
+              "text": "Bingo to hurry up, and she said,"
+            },
+            {
+              "id": "c0047",
+              "start": 75,
+              "end": 77,
+              "text": "\"I am hurry upping!\""
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 65,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 67,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 69,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 72,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 75,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0010",
+          "quote": "Panda puzzle! Argh! Come on, kids! Hurry up! Hey, this morning I said to Bingo to hurry up, and she said, \"I am hurry upping!\"",
+          "start": 65,
+          "end": 77,
+          "matchStart": 20,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "hurry-up",
+          "cueId": "c0010",
+          "quote": "Panda puzzle! Argh! Come on, kids! Hurry up! Hey, this morning I said to Bingo to hurry up, and she said, \"I am hurry upping!\"",
+          "start": 65,
+          "end": 77,
+          "matchStart": 35,
+          "matchEnd": 43
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 77,
+      "end": 83,
+      "sentenceText": "Dad, will you play Toddlers with us at the library? I'll play anything with you at the library if you hurry up.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 77,
+          "end": 83,
+          "text": "Dad, will you play Toddlers with us at the library? I'll play anything with you at the library if you hurry up.",
+          "originalText": "dad will you play toddlers with us at the library i'll play anything with you at the library if you hurry up do you",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 77,
+              "end": 79,
+              "text": "dad will you play toddlers with us at"
+            },
+            {
+              "id": "c0029",
+              "start": 79,
+              "end": 81,
+              "text": "the library i'll play anything with you"
+            },
+            {
+              "id": "c0030",
+              "start": 81,
+              "end": 83,
+              "text": "at the library if you hurry up do you"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0048",
+              "start": 77,
+              "end": 79,
+              "text": "Dad, will you play Toddlers with us at"
+            },
+            {
+              "id": "c0049",
+              "start": 79,
+              "end": 80,
+              "text": "the library?"
+            },
+            {
+              "id": "c0050",
+              "start": 80,
+              "end": 81,
+              "text": "I'll play anything with you"
+            },
+            {
+              "id": "c0051",
+              "start": 81,
+              "end": 83,
+              "text": "at the library if you hurry up."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 77,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 79,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 81,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "hurry-up",
+          "cueId": "c0011",
+          "quote": "Dad, will you play Toddlers with us at the library? I'll play anything with you at the library if you hurry up.",
+          "start": 77,
+          "end": 83,
+          "matchStart": 102,
+          "matchEnd": 110
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0011",
+          "quote": "Dad, will you play Toddlers with us at the library? I'll play anything with you at the library if you hurry up.",
+          "start": 77,
+          "end": 83,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0011",
+          "quote": "Dad, will you play Toddlers with us at the library? I'll play anything with you at the library if you hurry up.",
+          "start": 77,
+          "end": 83,
+          "matchStart": 14,
+          "matchEnd": 18
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 83,
+      "end": 91,
+      "sentenceText": "Do you promise? I promise. Now come on! Bingo, Dad promised to play Toddlers at the library! Yes!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 83,
+          "end": 91,
+          "text": "Do you promise? I promise. Now come on! Bingo, Dad promised to play Toddlers at the library! Yes!",
+          "originalText": "promise i promise now come on dad promise to play toddlers at the library yes",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 83,
+              "end": 86,
+              "text": "promise i promise now come on"
+            },
+            {
+              "id": "c0032",
+              "start": 86,
+              "end": 88,
+              "text": "dad promise to play toddlers at the"
+            },
+            {
+              "id": "c0033",
+              "start": 88,
+              "end": 91,
+              "text": "library yes"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0052",
+              "start": 83,
+              "end": 84,
+              "text": "Do you promise?"
+            },
+            {
+              "id": "c0053",
+              "start": 84,
+              "end": 86,
+              "text": "I promise. Now come on!"
+            },
+            {
+              "id": "c0054",
+              "start": 86,
+              "end": 88,
+              "text": "Bingo, Dad promised to play Toddlers at the"
+            },
+            {
+              "id": "c0055",
+              "start": 88,
+              "end": 90,
+              "text": "library!"
+            },
+            {
+              "id": "c0056",
+              "start": 90,
+              "end": 91,
+              "text": "Yes!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 83,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 86,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 88,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0012",
+          "quote": "Do you promise? I promise. Now come on! Bingo, Dad promised to play Toddlers at the library! Yes!",
+          "start": 83,
+          "end": 91,
+          "matchStart": 31,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0012",
+          "quote": "Do you promise? I promise. Now come on! Bingo, Dad promised to play Toddlers at the library! Yes!",
+          "start": 83,
+          "end": 91,
+          "matchStart": 47,
+          "matchEnd": 50
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0012",
+          "quote": "Do you promise? I promise. Now come on! Bingo, Dad promised to play Toddlers at the library! Yes!",
+          "start": 83,
+          "end": 91,
+          "matchStart": 63,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0012",
+          "quote": "Do you promise? I promise. Now come on! Bingo, Dad promised to play Toddlers at the library! Yes!",
+          "start": 83,
+          "end": 91,
+          "matchStart": 93,
+          "matchEnd": 96
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 91,
+      "end": 101,
+      "sentenceText": "Hey, hang on, what's Toddlers? THIS is Toddlers?! Yeah, you have to walk everywhere on your knees. No way!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 91,
+          "end": 101,
+          "text": "Hey, hang on, what's Toddlers? THIS is Toddlers?! Yeah, you have to walk everywhere on your knees. No way!",
+          "originalText": "what's toddler yes it's toddlers yeah you have to look pepper on your knees no way",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 91,
+              "end": 94,
+              "text": "what's toddler"
+            },
+            {
+              "id": "c0035",
+              "start": 94,
+              "end": 97,
+              "text": "yes it's toddlers yeah you have to look"
+            },
+            {
+              "id": "c0036",
+              "start": 97,
+              "end": 101,
+              "text": "pepper on your knees no way"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0057",
+              "start": 91,
+              "end": 94,
+              "text": "Hey, hang on, what's Toddlers?"
+            },
+            {
+              "id": "c0058",
+              "start": 94,
+              "end": 95,
+              "text": "THIS is Toddlers?!"
+            },
+            {
+              "id": "c0059",
+              "start": 95,
+              "end": 97,
+              "text": "Yeah, you have to walk"
+            },
+            {
+              "id": "c0060",
+              "start": 97,
+              "end": 98,
+              "text": "everywhere on your knees."
+            },
+            {
+              "id": "c0061",
+              "start": 98,
+              "end": 101,
+              "text": "No way!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 91,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 97,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0013",
+          "quote": "Hey, hang on, what's Toddlers? THIS is Toddlers?! Yeah, you have to walk everywhere on your knees. No way!",
+          "start": 91,
+          "end": 101,
+          "matchStart": 60,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0013",
+          "quote": "Hey, hang on, what's Toddlers? THIS is Toddlers?! Yeah, you have to walk everywhere on your knees. No way!",
+          "start": 91,
+          "end": 101,
+          "matchStart": 14,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0013",
+          "quote": "Hey, hang on, what's Toddlers? THIS is Toddlers?! Yeah, you have to walk everywhere on your knees. No way!",
+          "start": 91,
+          "end": 101,
+          "matchStart": 99,
+          "matchEnd": 101
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 105,
+      "end": 110,
+      "sentenceText": "Excuse me. Down here.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 105,
+          "end": 110,
+          "text": "Excuse me. Down here.",
+          "originalText": "excuse me down here",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 105,
+              "end": 108,
+              "text": "excuse me"
+            },
+            {
+              "id": "c0038",
+              "start": 108,
+              "end": 110,
+              "text": "down here"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0062",
+              "start": 105,
+              "end": 108,
+              "text": "Excuse me."
+            },
+            {
+              "id": "c0063",
+              "start": 108,
+              "end": 110,
+              "text": "Down here."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 108,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "excuse-me",
+          "cueId": "c0014",
+          "quote": "Excuse me. Down here.",
+          "start": 105,
+          "end": 110,
+          "matchStart": 0,
+          "matchEnd": 9
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 110,
+      "end": 119,
+      "sentenceText": "Hello. Me want books for big boys. Next to the magazines. Thanks!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 110,
+          "end": 119,
+          "text": "Hello. Me want books for big boys. Next to the magazines. Thanks!",
+          "originalText": "hello me want books for big boys next to the magazine thanks",
+          "originalCueRefs": [
+            {
+              "id": "c0039",
+              "start": 110,
+              "end": 114,
+              "text": "hello me want books for big boys"
+            },
+            {
+              "id": "c0040",
+              "start": 114,
+              "end": 119,
+              "text": "next to the magazine thanks"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0064",
+              "start": 110,
+              "end": 112,
+              "text": "Hello."
+            },
+            {
+              "id": "c0065",
+              "start": 112,
+              "end": 114,
+              "text": "Me want books for big boys."
+            },
+            {
+              "id": "c0066",
+              "start": 114,
+              "end": 117,
+              "text": "Next to the magazines."
+            },
+            {
+              "id": "c0067",
+              "start": 117,
+              "end": 119,
+              "text": "Thanks!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0039",
+              "start": 110,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 114,
+              "end": 119,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "hello",
+          "cueId": "c0015",
+          "quote": "Hello. Me want books for big boys. Next to the magazines. Thanks!",
+          "start": 110,
+          "end": 119,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0015",
+          "quote": "Hello. Me want books for big boys. Next to the magazines. Thanks!",
+          "start": 110,
+          "end": 119,
+          "matchStart": 10,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0015",
+          "quote": "Hello. Me want books for big boys. Next to the magazines. Thanks!",
+          "start": 110,
+          "end": 119,
+          "matchStart": 25,
+          "matchEnd": 28
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

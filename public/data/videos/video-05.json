@@ -1,0 +1,2051 @@
+{
+  "id": "video-05",
+  "number": 5,
+  "title": "Relax 🛁 | Brand New - Series 3 | Bluey",
+  "duration": 124,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=VX-lYkW4WuQ",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/05_Relax.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/05_Relax.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Relax 🛁 | Brand New - Series 3 | Bluey",
+      "start": 0,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016",
+        "c0017",
+        "c0018",
+        "c0019"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 9,
+      "sentenceText": "Which one's our room? Ooh, tiles! your stuff sunscreen up and let's hit the and let's hit the beach.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 9,
+          "text": "Which one's our room? Ooh, tiles! your stuff sunscreen up and let's hit the and let's hit the beach.",
+          "originalText": "door which one's our room oh tiles dump your stuff sunscreen up and let's hit the beach Binger what is",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "door which one's our room oh tiles dump"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 5,
+              "text": "your stuff sunscreen up and let's hit"
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "text": "the"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "beach Binger what is"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "text": "Which one's our room?"
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 4,
+              "text": "Ooh, tiles!"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "and let's hit the beach."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets",
+          "cueId": "c0001",
+          "quote": "Which one's our room? Ooh, tiles! your stuff sunscreen up and let's hit the and let's hit the beach.",
+          "start": 0,
+          "end": 9,
+          "matchStart": 62,
+          "matchEnd": 67
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 9,
+      "end": 15,
+      "sentenceText": "Bingo! What is it? Bunk beds! Bunk beds! Can I have the top?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 9,
+          "end": 15,
+          "text": "Bingo! What is it? Bunk beds! Bunk beds! Can I have the top?",
+          "originalText": "it bunk beds bunk beds can I have the to",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 15,
+              "text": "it bunk beds bunk beds can I have the to"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 10,
+              "text": "Bingo!"
+            },
+            {
+              "id": "c0006",
+              "start": 10,
+              "end": 11,
+              "text": "What is it?"
+            },
+            {
+              "id": "c0007",
+              "start": 11,
+              "end": 13,
+              "text": "Bunk beds!"
+            },
+            {
+              "id": "c0008",
+              "start": 13,
+              "end": 14,
+              "text": "Bunk beds!"
+            },
+            {
+              "id": "c0009",
+              "start": 14,
+              "end": 15,
+              "text": "Can I have the top?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0002",
+          "quote": "Bingo! What is it? Bunk beds! Bunk beds! Can I have the top?",
+          "start": 9,
+          "end": 15,
+          "matchStart": 41,
+          "matchEnd": 46
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Bingo! What is it? Bunk beds! Bunk beds! Can I have the top?",
+          "start": 9,
+          "end": 15,
+          "matchStart": 7,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 15,
+      "end": 20,
+      "sentenceText": "You can have the top, if you like. Thanks! Ooh, look, a present. What?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 15,
+          "end": 20,
+          "text": "You can have the top, if you like. Thanks! Ooh, look, a present. What?",
+          "originalText": "if you like thanks oh look a present what I think",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 16,
+              "text": "if you like"
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 20,
+              "text": "thanks oh look a present what I think"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 15,
+              "end": 16,
+              "text": "You can have the top, if you like."
+            },
+            {
+              "id": "c0011",
+              "start": 16,
+              "end": 17,
+              "text": "Thanks!"
+            },
+            {
+              "id": "c0012",
+              "start": 17,
+              "end": 19,
+              "text": "Ooh, look, a present."
+            },
+            {
+              "id": "c0013",
+              "start": 19,
+              "end": 20,
+              "text": "What?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0003",
+          "quote": "You can have the top, if you like. Thanks! Ooh, look, a present. What?",
+          "start": 15,
+          "end": 20,
+          "matchStart": 29,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0003",
+          "quote": "You can have the top, if you like. Thanks! Ooh, look, a present. What?",
+          "start": 15,
+          "end": 20,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "You can have the top, if you like. Thanks! Ooh, look, a present. What?",
+          "start": 15,
+          "end": 20,
+          "matchStart": 65,
+          "matchEnd": 69
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 20,
+      "end": 28,
+      "sentenceText": "I think it's soap. Have you got one? I'll see. Yes! Bluey, we've got cupboards!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 20,
+          "end": 28,
+          "text": "I think it's soap. Have you got one? I'll see. Yes! Bluey, we've got cupboards!",
+          "originalText": "it's soap have you got one I'll see yes BL we've got",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 24,
+              "text": "it's soap have you got one I'll see"
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 28,
+              "text": "yes BL we've got"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 20,
+              "end": 21,
+              "text": "I think it's soap."
+            },
+            {
+              "id": "c0015",
+              "start": 21,
+              "end": 22,
+              "text": "Have you got one?"
+            },
+            {
+              "id": "c0016",
+              "start": 22,
+              "end": 24,
+              "text": "I'll see."
+            },
+            {
+              "id": "c0017",
+              "start": 24,
+              "end": 26,
+              "text": "Yes!"
+            },
+            {
+              "id": "c0018",
+              "start": 26,
+              "end": 28,
+              "text": "Bluey, we've got cupboards!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0004",
+          "quote": "I think it's soap. Have you got one? I'll see. Yes! Bluey, we've got cupboards!",
+          "start": 20,
+          "end": 28,
+          "matchStart": 2,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0004",
+          "quote": "I think it's soap. Have you got one? I'll see. Yes! Bluey, we've got cupboards!",
+          "start": 20,
+          "end": 28,
+          "matchStart": 42,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0004",
+          "quote": "I think it's soap. Have you got one? I'll see. Yes! Bluey, we've got cupboards!",
+          "start": 20,
+          "end": 28,
+          "matchStart": 47,
+          "matchEnd": 50
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 28,
+      "end": 35,
+      "sentenceText": "Coat hangers! Are they all ours? Yeah! Wow!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 28,
+          "end": 35,
+          "text": "Coat hangers! Are they all ours? Yeah! Wow!",
+          "originalText": "CS card hangers are they all ours yeah",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 35,
+              "text": "CS card hangers are they all ours yeah"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 28,
+              "end": 31,
+              "text": "Coat hangers!"
+            },
+            {
+              "id": "c0020",
+              "start": 31,
+              "end": 33,
+              "text": "Are they all ours?"
+            },
+            {
+              "id": "c0021",
+              "start": 33,
+              "end": 35,
+              "text": "Yeah! Wow!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 35,
+      "end": 41,
+      "sentenceText": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 35,
+          "end": 41,
+          "text": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+          "originalText": "wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 35,
+              "end": 39,
+              "text": "wow here wait I'll stand on this what is"
+            },
+            {
+              "id": "c0012",
+              "start": 39,
+              "end": 41,
+              "text": "that I don't know let's pretend it's an"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 35,
+              "end": 37,
+              "text": "Here, wait, I'll stand on this."
+            },
+            {
+              "id": "c0023",
+              "start": 37,
+              "end": 39,
+              "text": "What is that?"
+            },
+            {
+              "id": "c0024",
+              "start": 39,
+              "end": 40,
+              "text": "I don't know."
+            },
+            {
+              "id": "c0025",
+              "start": 40,
+              "end": 41,
+              "text": "Let's pretend it's an oven."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 35,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 39,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0006",
+          "quote": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+          "start": 35,
+          "end": 41,
+          "matchStart": 46,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0006",
+          "quote": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+          "start": 35,
+          "end": 41,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+          "start": 35,
+          "end": 41,
+          "matchStart": 32,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0006",
+          "quote": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+          "start": 35,
+          "end": 41,
+          "matchStart": 54,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0006",
+          "quote": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+          "start": 35,
+          "end": 41,
+          "matchStart": 60,
+          "matchEnd": 65
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0006",
+          "quote": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
+          "start": 35,
+          "end": 41,
+          "matchStart": 48,
+          "matchEnd": 53
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 41,
+      "end": 50,
+      "sentenceText": "Okay, and we can be mermaids. Mermaid waiter, may I have a pie, please? Oh, yes. I'll just cook it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 41,
+          "end": 50,
+          "text": "Okay, and we can be mermaids. Mermaid waiter, may I have a pie, please? Oh, yes. I'll just cook it.",
+          "originalText": "oven okay and we can be mermaids mermaid waiter may I have a pie",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 41,
+              "end": 45,
+              "text": "oven okay and we can be"
+            },
+            {
+              "id": "c0014",
+              "start": 46,
+              "end": 50,
+              "text": "mermaids mermaid waiter may I have a pie"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 41,
+              "end": 45,
+              "text": "Okay, and we can be mermaids."
+            },
+            {
+              "id": "c0027",
+              "start": 46,
+              "end": 48,
+              "text": "Mermaid waiter, may I have a pie, please?"
+            },
+            {
+              "id": "c0028",
+              "start": 48,
+              "end": 50,
+              "text": "Oh, yes. I'll just cook it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 41,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 46,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "Okay, and we can be mermaids. Mermaid waiter, may I have a pie, please? Oh, yes. I'll just cook it.",
+          "start": 41,
+          "end": 50,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0007",
+          "quote": "Okay, and we can be mermaids. Mermaid waiter, may I have a pie, please? Oh, yes. I'll just cook it.",
+          "start": 41,
+          "end": 50,
+          "matchStart": 64,
+          "matchEnd": 70
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0007",
+          "quote": "Okay, and we can be mermaids. Mermaid waiter, may I have a pie, please? Oh, yes. I'll just cook it.",
+          "start": 41,
+          "end": 50,
+          "matchStart": 76,
+          "matchEnd": 79
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 50,
+      "end": 55,
+      "sentenceText": "It will be ready soon, Mermaid.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 50,
+          "end": 55,
+          "text": "It will be ready soon, Mermaid.",
+          "originalText": "please oh yes I'll just cook",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 55,
+              "text": "please oh yes I'll just cook"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 50,
+              "end": 55,
+              "text": "It will be ready soon, Mermaid."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0008",
+          "quote": "It will be ready soon, Mermaid.",
+          "start": 50,
+          "end": 55,
+          "matchStart": 11,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 55,
+      "end": 61,
+      "sentenceText": "Thank you! Ready, girls? Bing! Ready!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 55,
+          "end": 61,
+          "text": "Thank you! Ready, girls? Bing! Ready!",
+          "originalText": "it it will be ready soon mermaid thank you ready girls",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 55,
+              "end": 58,
+              "text": "it it will be ready soon mermaid thank"
+            },
+            {
+              "id": "c0017",
+              "start": 58,
+              "end": 61,
+              "text": "you ready girls"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0030",
+              "start": 55,
+              "end": 58,
+              "text": "Thank you!"
+            },
+            {
+              "id": "c0031",
+              "start": 58,
+              "end": 59,
+              "text": "Ready, girls?"
+            },
+            {
+              "id": "c0032",
+              "start": 59,
+              "end": 61,
+              "text": "Bing! Ready!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 58,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0009",
+          "quote": "Thank you! Ready, girls? Bing! Ready!",
+          "start": 55,
+          "end": 61,
+          "matchStart": 0,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0009",
+          "quote": "Thank you! Ready, girls? Bing! Ready!",
+          "start": 55,
+          "end": 61,
+          "matchStart": 11,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 61,
+      "end": 71,
+      "sentenceText": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 61,
+          "end": 71,
+          "text": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "originalText": "ready no I mean are you ready to go down to the beach have you sunscreened oh no oh come on the sunscreen's in the bathroom let's go okay Mom I want to",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 61,
+              "end": 63,
+              "text": "ready no I mean are you ready to go down"
+            },
+            {
+              "id": "c0019",
+              "start": 63,
+              "end": 67,
+              "text": "to the beach have you sunscreened oh no"
+            },
+            {
+              "id": "c0020",
+              "start": 67,
+              "end": 68,
+              "text": "oh come on the sunscreen's in the"
+            },
+            {
+              "id": "c0021",
+              "start": 68,
+              "end": 71,
+              "text": "bathroom let's go okay Mom I want to"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 61,
+              "end": 63,
+              "text": "No, I mean, are you ready to go down to the beach?"
+            },
+            {
+              "id": "c0037",
+              "start": 68,
+              "end": 69,
+              "text": "Let's go."
+            },
+            {
+              "id": "c0038",
+              "start": 69,
+              "end": 71,
+              "text": "Okay, Mum."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 61,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 63,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 67,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 68,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets-go",
+          "cueId": "c0010",
+          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "start": 61,
+          "end": 71,
+          "matchStart": 125,
+          "matchEnd": 133
+        },
+        {
+          "expressionId": "come-on",
+          "cueId": "c0010",
+          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "start": 61,
+          "end": 71,
+          "matchStart": 94,
+          "matchEnd": 101
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0010",
+          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "start": 61,
+          "end": 71,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0010",
+          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "start": 61,
+          "end": 71,
+          "matchStart": 20,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0010",
+          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "start": 61,
+          "end": 71,
+          "matchStart": 125,
+          "matchEnd": 130
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0010",
+          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "start": 61,
+          "end": 71,
+          "matchStart": 135,
+          "matchEnd": 139
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0010",
+          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
+          "start": 61,
+          "end": 71,
+          "matchStart": 141,
+          "matchEnd": 144
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 71,
+      "end": 77,
+      "sentenceText": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 71,
+          "end": 77,
+          "text": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
+          "originalText": "start relaxing oh wow btub wo Bingo what's",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 72,
+              "text": "start"
+            },
+            {
+              "id": "c0023",
+              "start": 72,
+              "end": 77,
+              "text": "relaxing oh wow btub wo Bingo what's"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0039",
+              "start": 71,
+              "end": 72,
+              "text": "I want to start relaxing."
+            },
+            {
+              "id": "c0040",
+              "start": 72,
+              "end": 74,
+              "text": "Oh, wow. Bathtub!"
+            },
+            {
+              "id": "c0041",
+              "start": 74,
+              "end": 77,
+              "text": "Whoa, Bingo, what's this?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 72,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0011",
+          "quote": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
+          "start": 71,
+          "end": 77,
+          "matchStart": 2,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
+          "start": 71,
+          "end": 77,
+          "matchStart": 57,
+          "matchEnd": 61
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 77,
+      "end": 82,
+      "sentenceText": "I don't know. The toilet's got a ribbon? Maybe it won a prize.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 77,
+          "end": 82,
+          "text": "I don't know. The toilet's got a ribbon? Maybe it won a prize.",
+          "originalText": "this I don't know the toilet's got a ribbon maybe it won a prize yeah the",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 79,
+              "text": "this I don't know the toilet's got a"
+            },
+            {
+              "id": "c0025",
+              "start": 79,
+              "end": 82,
+              "text": "ribbon maybe it won a prize yeah the"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0042",
+              "start": 77,
+              "end": 79,
+              "text": "I don't know."
+            },
+            {
+              "id": "c0043",
+              "start": 79,
+              "end": 80,
+              "text": "The toilet's got a ribbon?"
+            },
+            {
+              "id": "c0044",
+              "start": 80,
+              "end": 82,
+              "text": "Maybe it won a prize."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 79,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0012",
+          "quote": "I don't know. The toilet's got a ribbon? Maybe it won a prize.",
+          "start": 77,
+          "end": 82,
+          "matchStart": 0,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0012",
+          "quote": "I don't know. The toilet's got a ribbon? Maybe it won a prize.",
+          "start": 77,
+          "end": 82,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0012",
+          "quote": "I don't know. The toilet's got a ribbon? Maybe it won a prize.",
+          "start": 77,
+          "end": 82,
+          "matchStart": 2,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 82,
+      "end": 88,
+      "sentenceText": "Yeah, the best toilet in the world! I congratulations your ribbon!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 82,
+          "end": 88,
+          "text": "Yeah, the best toilet in the world! I congratulations your ribbon!",
+          "originalText": "best toilet in the world I congratulations you're",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 82,
+              "end": 84,
+              "text": "best toilet in the world I"
+            },
+            {
+              "id": "c0027",
+              "start": 84,
+              "end": 88,
+              "text": "congratulations you're"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0045",
+              "start": 82,
+              "end": 84,
+              "text": "Yeah, the best toilet in the world!"
+            },
+            {
+              "id": "c0046",
+              "start": 84,
+              "end": 88,
+              "text": "I congratulations your ribbon!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 82,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 84,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 88,
+      "end": 95,
+      "sentenceText": "Oh! I want to rip one. Hmm, can't see another one. Let's see if there's another toilet.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 88,
+          "end": 95,
+          "text": "Oh! I want to rip one. Hmm, can't see another one. Let's see if there's another toilet.",
+          "originalText": "ribon oh I want to r one H can't see another one let's see if there's another",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 92,
+              "text": "ribon oh I want to r one H can't see"
+            },
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 95,
+              "text": "another one let's see if there's another"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0047",
+              "start": 88,
+              "end": 89,
+              "text": "Oh! I want to rip one."
+            },
+            {
+              "id": "c0048",
+              "start": 89,
+              "end": 92,
+              "text": "Hmm, can't see another one."
+            },
+            {
+              "id": "c0049",
+              "start": 92,
+              "end": 95,
+              "text": "Let's see if there's another toilet."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 88,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0014",
+          "quote": "Oh! I want to rip one. Hmm, can't see another one. Let's see if there's another toilet.",
+          "start": 88,
+          "end": 95,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0014",
+          "quote": "Oh! I want to rip one. Hmm, can't see another one. Let's see if there's another toilet.",
+          "start": 88,
+          "end": 95,
+          "matchStart": 34,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0014",
+          "quote": "Oh! I want to rip one. Hmm, can't see another one. Let's see if there's another toilet.",
+          "start": 88,
+          "end": 95,
+          "matchStart": 51,
+          "matchEnd": 56
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 95,
+      "end": 101,
+      "sentenceText": "Alright, how are we... Whoop! Hey!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 95,
+          "end": 101,
+          "text": "Alright, how are we... Whoop! Hey!",
+          "originalText": "toilet all right how we hey oh hang",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 95,
+              "end": 98,
+              "text": "toilet all right how we"
+            },
+            {
+              "id": "c0031",
+              "start": 98,
+              "end": 101,
+              "text": "hey oh hang"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0050",
+              "start": 95,
+              "end": 98,
+              "text": "Alright, how are we..."
+            },
+            {
+              "id": "c0051",
+              "start": 98,
+              "end": 101,
+              "text": "Whoop! Hey!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 98,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0015",
+          "quote": "Alright, how are we... Whoop! Hey!",
+          "start": 95,
+          "end": 101,
+          "matchStart": 9,
+          "matchEnd": 12
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 101,
+      "end": 106,
+      "sentenceText": "Ooh, hang on! In here. Let's go.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 101,
+          "end": 106,
+          "text": "Ooh, hang on! In here. Let's go.",
+          "originalText": "on in here let's go",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 101,
+              "end": 103,
+              "text": "on in"
+            },
+            {
+              "id": "c0033",
+              "start": 103,
+              "end": 106,
+              "text": "here let's go"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0052",
+              "start": 101,
+              "end": 103,
+              "text": "Ooh, hang on!"
+            },
+            {
+              "id": "c0053",
+              "start": 103,
+              "end": 106,
+              "text": "In here. Let's go."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 101,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 103,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets-go",
+          "cueId": "c0016",
+          "quote": "Ooh, hang on! In here. Let's go.",
+          "start": 101,
+          "end": 106,
+          "matchStart": 23,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0016",
+          "quote": "Ooh, hang on! In here. Let's go.",
+          "start": 101,
+          "end": 106,
+          "matchStart": 23,
+          "matchEnd": 28
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0017",
+      "title": "문단 17",
+      "start": 106,
+      "end": 112,
+      "sentenceText": "It's got one. Congratulations, toilet! Bingo, look!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 17,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0017",
+          "start": 106,
+          "end": 112,
+          "text": "It's got one. Congratulations, toilet! Bingo, look!",
+          "originalText": "one congratulations toilet ping",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 106,
+              "end": 110,
+              "text": "one congratulations toilet"
+            },
+            {
+              "id": "c0035",
+              "start": 110,
+              "end": 112,
+              "text": "ping"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0054",
+              "start": 106,
+              "end": 110,
+              "text": "It's got one. Congratulations, toilet!"
+            },
+            {
+              "id": "c0055",
+              "start": 110,
+              "end": 112,
+              "text": "Bingo, look!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 106,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 17,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0017",
+          "quote": "It's got one. Congratulations, toilet! Bingo, look!",
+          "start": 106,
+          "end": 112,
+          "matchStart": 46,
+          "matchEnd": 50
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0018",
+      "title": "문단 18",
+      "start": 112,
+      "end": 118,
+      "sentenceText": "Whoa! Bathtub! It's a triangle!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 18,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0018",
+          "start": 112,
+          "end": 118,
+          "text": "Whoa! Bathtub! It's a triangle!",
+          "originalText": "wo bath it's a triangle and it's got a",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 112,
+              "end": 116,
+              "text": "wo bath it's a"
+            },
+            {
+              "id": "c0037",
+              "start": 116,
+              "end": 118,
+              "text": "triangle and it's got a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0056",
+              "start": 112,
+              "end": 116,
+              "text": "Whoa! Bathtub!"
+            },
+            {
+              "id": "c0057",
+              "start": 116,
+              "end": 118,
+              "text": "It's a triangle!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 112,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 116,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 18,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0019",
+      "title": "문단 19",
+      "start": 118,
+      "end": 124,
+      "sentenceText": "microphone oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 19,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0019",
+          "start": 118,
+          "end": 124,
+          "text": "microphone oh",
+          "originalText": "microphone oh",
+          "originalCueRefs": [
+            {
+              "id": "c0038",
+              "start": 118,
+              "end": 121,
+              "text": "microphone"
+            },
+            {
+              "id": "c0039",
+              "start": 121,
+              "end": 124,
+              "text": "oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0038",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 19,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

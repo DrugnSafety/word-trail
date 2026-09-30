@@ -1,0 +1,1584 @@
+{
+  "id": "video-78",
+  "number": 78,
+  "title": "Dad Tries to Teach a Life Lesson | Ragdoll - Series 3 | Bluey",
+  "duration": 124,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=zwPfZcCjS5w",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/78_Dad Tries to Teach a Life Lesson.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/78_Dad Tries to Teach a Life Lesson.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Dad Tries to Teach a Life Lesson | Ragdoll - Series 3 | Bluey",
+      "start": 0,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 6,
+      "sentenceText": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 6,
+          "text": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "originalText": "dad come on we don't want to play rag doll we just want ice cream sounds good",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "dad come on we don't want to play rag"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "text": "doll we just want ice cream sounds good"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "Dad, come on, we don't want to play Ragdoll!"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "We just want ice cream."
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 6,
+              "text": "Sounds good."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0001",
+          "quote": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 5,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "sounds-good",
+          "cueId": "c0001",
+          "quote": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 69,
+          "matchEnd": 80
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0001",
+          "quote": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 23,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0001",
+          "quote": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 31,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0001",
+          "quote": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 76,
+          "matchEnd": 80
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0001",
+          "quote": "Dad, come on, we don't want to play Ragdoll! We just want ice cream. Sounds good.",
+          "start": 0,
+          "end": 6,
+          "matchStart": 17,
+          "matchEnd": 22
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 6,
+      "end": 12,
+      "sentenceText": "I just need some help get into the car. Mum! Your mum's at work, earning monies.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 6,
+          "end": 12,
+          "text": "I just need some help get into the car. Mum! Your mum's at work, earning monies.",
+          "originalText": "I just need some help get into the car mom your mom's at work earning monies",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 8,
+              "text": "I just need some help get into the car"
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 12,
+              "text": "mom your mom's at work earning monies"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 8,
+              "text": "I just need some help get into the car."
+            },
+            {
+              "id": "c0005",
+              "start": 8,
+              "end": 9,
+              "text": "Mum!"
+            },
+            {
+              "id": "c0006",
+              "start": 9,
+              "end": 12,
+              "text": "Your mum's at work, earning monies."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "need",
+          "cueId": "c0002",
+          "quote": "I just need some help get into the car. Mum! Your mum's at work, earning monies.",
+          "start": 6,
+          "end": 12,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0002",
+          "quote": "I just need some help get into the car. Mum! Your mum's at work, earning monies.",
+          "start": 6,
+          "end": 12,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0002",
+          "quote": "I just need some help get into the car. Mum! Your mum's at work, earning monies.",
+          "start": 6,
+          "end": 12,
+          "matchStart": 40,
+          "matchEnd": 43
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 12,
+      "end": 25,
+      "sentenceText": "It's not that far to the car. need to pull him okay I'll push from this side ready go he moved now pull on that leg I'll push his bum I wonder what",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 12,
+          "end": 25,
+          "text": "It's not that far to the car. need to pull him okay I'll push from this side ready go he moved now pull on that leg I'll push his bum I wonder what",
+          "originalText": "it's not that far to the car we just need to pull him okay I'll push from this side ready go he moved now pull on that leg I'll push his bum I wonder what",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 14,
+              "text": "it's not that far to the car we just"
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 17,
+              "text": "need to pull him okay I'll push from"
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 22,
+              "text": "this side ready go he moved now pull on"
+            },
+            {
+              "id": "c0008",
+              "start": 22,
+              "end": 25,
+              "text": "that leg I'll push his bum I wonder what"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0007",
+              "start": 12,
+              "end": 14,
+              "text": "It's not that far to the car."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 22,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "need",
+          "cueId": "c0003",
+          "quote": "It's not that far to the car. need to pull him okay I'll push from this side ready go he moved now pull on that leg I'll push his bum I wonder what",
+          "start": 12,
+          "end": 25,
+          "matchStart": 30,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "It's not that far to the car. need to pull him okay I'll push from this side ready go he moved now pull on that leg I'll push his bum I wonder what",
+          "start": 12,
+          "end": 25,
+          "matchStart": 47,
+          "matchEnd": 51
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0003",
+          "quote": "It's not that far to the car. need to pull him okay I'll push from this side ready go he moved now pull on that leg I'll push his bum I wonder what",
+          "start": 12,
+          "end": 25,
+          "matchStart": 77,
+          "matchEnd": 82
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "It's not that far to the car. need to pull him okay I'll push from this side ready go he moved now pull on that leg I'll push his bum I wonder what",
+          "start": 12,
+          "end": 25,
+          "matchStart": 143,
+          "matchEnd": 147
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 25,
+      "end": 31,
+      "sentenceText": "favor ice cream I'll get it's working It's very slow, though. Try rolling him. Okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 25,
+          "end": 31,
+          "text": "favor ice cream I'll get it's working It's very slow, though. Try rolling him. Okay.",
+          "originalText": "favor ice cream I'll get it's working it's very slow though try rolling in",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 25,
+              "end": 28,
+              "text": "favor ice cream I'll get it's working"
+            },
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 31,
+              "text": "it's very slow though try rolling in"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 28,
+              "end": 30,
+              "text": "It's very slow, though."
+            },
+            {
+              "id": "c0018",
+              "start": 30,
+              "end": 31,
+              "text": "Try rolling him. Okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "favor ice cream I'll get it's working It's very slow, though. Try rolling him. Okay.",
+          "start": 25,
+          "end": 31,
+          "matchStart": 79,
+          "matchEnd": 83
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 31,
+      "end": 39,
+      "sentenceText": "Maybe choc chip. Choc mint? Ready, set, go! Bubblegum. Salted caramel. No, wait! Pistachio!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 31,
+          "end": 39,
+          "text": "Maybe choc chip. Choc mint? Ready, set, go! Bubblegum. Salted caramel. No, wait! Pistachio!",
+          "originalText": "okay maybe chalk chip chalk mint Ready set go buum salt and carel no wait",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 34,
+              "text": "okay maybe chalk chip chalk mint Ready"
+            },
+            {
+              "id": "c0012",
+              "start": 34,
+              "end": 39,
+              "text": "set go buum salt and carel no wait"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 31,
+              "end": 34,
+              "text": "Maybe choc chip. Choc mint?"
+            },
+            {
+              "id": "c0020",
+              "start": 34,
+              "end": 35,
+              "text": "Ready, set, go!"
+            },
+            {
+              "id": "c0021",
+              "start": 35,
+              "end": 38,
+              "text": "Bubblegum. Salted caramel."
+            },
+            {
+              "id": "c0022",
+              "start": 38,
+              "end": 39,
+              "text": "No, wait! Pistachio!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 34,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0005",
+          "quote": "Maybe choc chip. Choc mint? Ready, set, go! Bubblegum. Salted caramel. No, wait! Pistachio!",
+          "start": 31,
+          "end": 39,
+          "matchStart": 28,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "Maybe choc chip. Choc mint? Ready, set, go! Bubblegum. Salted caramel. No, wait! Pistachio!",
+          "start": 31,
+          "end": 39,
+          "matchStart": 71,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0005",
+          "quote": "Maybe choc chip. Choc mint? Ready, set, go! Bubblegum. Salted caramel. No, wait! Pistachio!",
+          "start": 31,
+          "end": 39,
+          "matchStart": 75,
+          "matchEnd": 79
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 39,
+      "end": 52,
+      "sentenceText": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 39,
+          "end": 52,
+          "text": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+          "originalText": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we can square pig in a round Hall I know",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 39,
+              "end": 42,
+              "text": "pistachio definitely pistachio hurry up"
+            },
+            {
+              "id": "c0014",
+              "start": 42,
+              "end": 45,
+              "text": "kids I want an ice cream we're going as"
+            },
+            {
+              "id": "c0015",
+              "start": 45,
+              "end": 48,
+              "text": "fast as we"
+            },
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 52,
+              "text": "can square pig in a round Hall I know"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 48,
+              "end": 51,
+              "text": "Square peg in a round hole."
+            },
+            {
+              "id": "c0027",
+              "start": 51,
+              "end": 52,
+              "text": "I know, Dad."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 39,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "hurry-up",
+          "cueId": "c0006",
+          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+          "start": 39,
+          "end": 52,
+          "matchStart": 31,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0006",
+          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+          "start": 39,
+          "end": 52,
+          "matchStart": 47,
+          "matchEnd": 51
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0006",
+          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+          "start": 39,
+          "end": 52,
+          "matchStart": 121,
+          "matchEnd": 125
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0006",
+          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+          "start": 39,
+          "end": 52,
+          "matchStart": 127,
+          "matchEnd": 130
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 52,
+      "end": 65,
+      "sentenceText": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 52,
+          "end": 65,
+          "text": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
+          "originalText": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 52,
+              "end": 55,
+              "text": "Dad this is too hard obstacles do not"
+            },
+            {
+              "id": "c0018",
+              "start": 55,
+              "end": 59,
+              "text": "block the path they are the path I don't"
+            },
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 61,
+              "text": "understand what you're saying Lou you"
+            },
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 65,
+              "text": "lift him up that way"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 52,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 55,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0007",
+          "quote": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
+          "start": 52,
+          "end": 65,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
+          "start": 52,
+          "end": 65,
+          "matchStart": 90,
+          "matchEnd": 94
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0007",
+          "quote": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
+          "start": 52,
+          "end": 65,
+          "matchStart": 73,
+          "matchEnd": 78
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 66,
+      "end": 74,
+      "sentenceText": "okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 66,
+          "end": 74,
+          "text": "okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
+          "originalText": "okay this is hard work a bit of hard work never hurt anyone okay that actually did hurt Come",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 66,
+              "end": 69,
+              "text": "okay this is hard work a bit of hard"
+            },
+            {
+              "id": "c0022",
+              "start": 69,
+              "end": 71,
+              "text": "work never hurt"
+            },
+            {
+              "id": "c0023",
+              "start": 71,
+              "end": 74,
+              "text": "anyone okay that actually did hurt Come"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0034",
+              "start": 71,
+              "end": 74,
+              "text": "Okay, that actually did hurt."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 66,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 69,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 71,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
+          "start": 66,
+          "end": 74,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 74,
+      "end": 85,
+      "sentenceText": "on B go that's it kids if you get knocked down seven times you get a eight There's no 'I' in 'team'! Stop talking! Bluey, look!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 74,
+          "end": 85,
+          "text": "on B go that's it kids if you get knocked down seven times you get a eight There's no 'I' in 'team'! Stop talking! Bluey, look!",
+          "originalText": "on B go that's it kids if you get knocked down seven times you get a eight there's no IM te D stop talking Lou look",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 74,
+              "end": 76,
+              "text": "on B go that's it kids if you get"
+            },
+            {
+              "id": "c0025",
+              "start": 76,
+              "end": 79,
+              "text": "knocked down seven times you get a eight"
+            },
+            {
+              "id": "c0026",
+              "start": 79,
+              "end": 85,
+              "text": "there's no IM te D stop talking Lou look"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 79,
+              "end": 82,
+              "text": "There's no 'I' in 'team'!"
+            },
+            {
+              "id": "c0039",
+              "start": 82,
+              "end": 84,
+              "text": "Stop talking!"
+            },
+            {
+              "id": "c0040",
+              "start": 84,
+              "end": 85,
+              "text": "Bluey, look!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 74,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 76,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 79,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0009",
+          "quote": "on B go that's it kids if you get knocked down seven times you get a eight There's no 'I' in 'team'! Stop talking! Bluey, look!",
+          "start": 74,
+          "end": 85,
+          "matchStart": 8,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "on B go that's it kids if you get knocked down seven times you get a eight There's no 'I' in 'team'! Stop talking! Bluey, look!",
+          "start": 74,
+          "end": 85,
+          "matchStart": 83,
+          "matchEnd": 85
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0009",
+          "quote": "on B go that's it kids if you get knocked down seven times you get a eight There's no 'I' in 'team'! Stop talking! Bluey, look!",
+          "start": 74,
+          "end": 85,
+          "matchStart": 101,
+          "matchEnd": 105
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0009",
+          "quote": "on B go that's it kids if you get knocked down seven times you get a eight There's no 'I' in 'team'! Stop talking! Bluey, look!",
+          "start": 74,
+          "end": 85,
+          "matchStart": 122,
+          "matchEnd": 126
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 85,
+      "end": 100,
+      "sentenceText": "Oh, yeah! This will be easy. What will be easy? easy o I'm to go a place in our way to see if what we want is really worth fighting for go",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 85,
+          "end": 100,
+          "text": "Oh, yeah! This will be easy. What will be easy? easy o I'm to go a place in our way to see if what we want is really worth fighting for go",
+          "originalText": "oh yeah this will be easy what will be easy o I'm to go a place in our way to see if what we want is really worth fighting for go",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 85,
+              "end": 87,
+              "text": "oh yeah this will be easy what will be"
+            },
+            {
+              "id": "c0028",
+              "start": 87,
+              "end": 93,
+              "text": "easy o I'm to go a place in our way to"
+            },
+            {
+              "id": "c0029",
+              "start": 93,
+              "end": 96,
+              "text": "see if what we want is really worth"
+            },
+            {
+              "id": "c0030",
+              "start": 96,
+              "end": 100,
+              "text": "fighting for go"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 85,
+              "end": 86,
+              "text": "Oh, yeah! This will be easy."
+            },
+            {
+              "id": "c0042",
+              "start": 86,
+              "end": 87,
+              "text": "What will be easy?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 85,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 87,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 93,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 96,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "Oh, yeah! This will be easy. What will be easy? easy o I'm to go a place in our way to see if what we want is really worth fighting for go",
+          "start": 85,
+          "end": 100,
+          "matchStart": 29,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0010",
+          "quote": "Oh, yeah! This will be easy. What will be easy? easy o I'm to go a place in our way to see if what we want is really worth fighting for go",
+          "start": 85,
+          "end": 100,
+          "matchStart": 87,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0010",
+          "quote": "Oh, yeah! This will be easy. What will be easy? easy o I'm to go a place in our way to see if what we want is really worth fighting for go",
+          "start": 85,
+          "end": 100,
+          "matchStart": 102,
+          "matchEnd": 106
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 100,
+      "end": 111,
+      "sentenceText": "Help me get him around the corner. corner he's stop even if we get him out of the house we still have to get him across the yard to the car.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 100,
+          "end": 111,
+          "text": "Help me get him around the corner. corner he's stop even if we get him out of the house we still have to get him across the yard to the car.",
+          "originalText": "down help me get him around the corner he's stop even if we get him out of the house we still have to get him all the way across the yard to the car",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 100,
+              "end": 103,
+              "text": "down help me get him around the"
+            },
+            {
+              "id": "c0032",
+              "start": 103,
+              "end": 107,
+              "text": "corner he's stop even if we get him out"
+            },
+            {
+              "id": "c0033",
+              "start": 107,
+              "end": 109,
+              "text": "of the house we still have to get him"
+            },
+            {
+              "id": "c0034",
+              "start": 109,
+              "end": 111,
+              "text": "all the way across the yard to the car"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0045",
+              "start": 100,
+              "end": 103,
+              "text": "Help me get him around the corner."
+            },
+            {
+              "id": "c0049",
+              "start": 109,
+              "end": 111,
+              "text": "across the yard to the car."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 100,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 103,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 107,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 109,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0011",
+          "quote": "Help me get him around the corner. corner he's stop even if we get him out of the house we still have to get him across the yard to the car.",
+          "start": 100,
+          "end": 111,
+          "matchStart": 97,
+          "matchEnd": 104
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0011",
+          "quote": "Help me get him around the corner. corner he's stop even if we get him out of the house we still have to get him across the yard to the car.",
+          "start": 100,
+          "end": 111,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0011",
+          "quote": "Help me get him around the corner. corner he's stop even if we get him out of the house we still have to get him across the yard to the car.",
+          "start": 100,
+          "end": 111,
+          "matchStart": 47,
+          "matchEnd": 51
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 111,
+      "end": 124,
+      "sentenceText": "it's impossible great works are performed not by great strength but by perseverance hang on are you trying to teach us something",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 111,
+          "end": 124,
+          "text": "it's impossible great works are performed not by great strength but by perseverance hang on are you trying to teach us something",
+          "originalText": "it's impossible great works are performed not by great strength but by perseverance hang on are you trying to teach us something",
+          "originalCueRefs": [
+            {
+              "id": "c0035",
+              "start": 111,
+              "end": 113,
+              "text": "it's impossible great works are"
+            },
+            {
+              "id": "c0036",
+              "start": 113,
+              "end": 116,
+              "text": "performed not by great strength but by"
+            },
+            {
+              "id": "c0037",
+              "start": 116,
+              "end": 119,
+              "text": "perseverance hang on are you trying to"
+            },
+            {
+              "id": "c0038",
+              "start": 119,
+              "end": 121,
+              "text": "teach us"
+            },
+            {
+              "id": "c0039",
+              "start": 121,
+              "end": 124,
+              "text": "something"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0035",
+              "start": 111,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 113,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 116,
+              "end": 119,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 119,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "great",
+          "cueId": "c0012",
+          "quote": "it's impossible great works are performed not by great strength but by perseverance hang on are you trying to teach us something",
+          "start": 111,
+          "end": 124,
+          "matchStart": 16,
+          "matchEnd": 21
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

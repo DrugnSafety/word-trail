@@ -1,0 +1,48 @@
+# 47. Ragdoll Mode | Ragdoll - Series 3
+
+- Video: https://www.youtube.com/watch?v=ps2MOFurJC0
+- Length: 02:01
+- Captions: YouTube auto-generated English captions
+- Script: 00:08 ~ 01:59
+
+---
+
+- `[00:08 - 00:13]` This is easy!
+- `[00:13 - 00:16]` Let's skateboard him down the stairs!
+- `[00:16 - 00:18]` What?! No, do not skateboard me down those stairs.
+- `[00:18 - 00:19]` Okay, fine.
+- `[00:19 - 00:23]` Where the bullfrog jumps...
+- `[00:23 - 00:24]` Oh, my goodness!
+- `[00:24 - 00:25]` Morning, Wendy!
+- `[00:25 - 00:28]` What's going on? Are you okay?
+- `[00:28 - 00:29]` He stole our monies!
+- `[00:29 - 00:30]` What?!
+- `[00:30 - 00:32]` Ah, that's putting a bit of a slant on it.
+- `[00:32 - 00:36]` He said he'll only give it back if we go.
+- `[00:36 - 00:37]` Is that right?
+- `[00:37 - 00:39]` Just keep walking, Wendy.
+- `[00:39 - 00:41]` This doesn't concern you.
+- `[00:41 - 00:42]` It does now.
+- `[00:42 - 00:43]` Come on, girls.
+- `[00:43 - 00:46]` Hey, Wendy, watch the hands.
+- `[00:46 - 00:49]` Bossing around young children!
+- `[00:53 - 00:55]` We'll never lift him into the car seat! He's too heavy!
+- `[00:55 - 00:56]` Ah, well, what are you gonna do?
+- `[00:56 - 00:58]` Get the door, girls.
+- `[00:58 - 01:01]` I'll show you what 10 years of Pilates can do.
+- `[01:01 - 01:03]` Hey, Wendy, what are you doing?!
+- `[01:03 - 01:06]` Pay attention, girls. Ready? Engage the core.
+- `[01:06 - 01:10]` Straight back. Ready, Wendy? And...
+- `[01:10 - 01:13]` Look at those quads!
+- `[01:13 - 01:17]` Promise me you'll work hard to maintain a strong core, girls.
+- `[01:17 - 01:19]` Don't get lazy!
+- `[01:19 - 01:22]` Yes, Wendy! We won't!
+- `[01:22 - 01:29]` Now we can have ice cream!
+- `[01:30 - 01:34]` I'm not sure I should be driving in this condition.
+- `[01:34 - 01:36]` What?! So we don't get ice cream?
+- `[01:36 - 01:38]` Not unless you can drive...
+- `[01:38 - 01:48]` Strap yourselves in, kids. I'll drive you to the shops.
+- `[01:50 - 01:52]` Here you go, my darlings.
+- `[01:52 - 01:54]` Thanks, Wendy!
+- `[01:54 - 01:55]` I paid for them!
+- `[01:55 - 01:59]` Oh, yes. Here's your change.

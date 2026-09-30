@@ -1,0 +1,1982 @@
+{
+  "id": "video-84",
+  "number": 84,
+  "title": "Bluey and Chilli's Magic Battle! 🪄 😯 | Bluey Season 3 Highlight ⭐️ | Bluey",
+  "duration": 127,
+  "declaredDuration": 127,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=kVR69XcuaHs",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/84_Bluey and Chilli's Magic Battle!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/84_Bluey and Chilli's Magic Battle!.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text",
+    "contains-non-spoken-annotation-removal"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Bluey and Chilli's Magic Battle! 🪄 😯 | Bluey Season 3 Highlight ⭐️ | Bluey",
+      "start": 1,
+      "end": 126,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016",
+        "c0017",
+        "c0018",
+        "c0019"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 1,
+      "end": 6,
+      "sentenceText": "Grown-ups should play with kids whenever the kids want.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 1,
+          "end": 6,
+          "text": "Grown-ups should play with kids whenever the kids want.",
+          "originalText": "Grown-ups should play with kids whenever the kids want.",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 3,
+              "text": "Grown-ups should play with kids whenever"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "text": "the kids want."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "play",
+          "cueId": "c0001",
+          "quote": "Grown-ups should play with kids whenever the kids want.",
+          "start": 1,
+          "end": 6,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0001",
+          "quote": "Grown-ups should play with kids whenever the kids want.",
+          "start": 1,
+          "end": 6,
+          "matchStart": 50,
+          "matchEnd": 54
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 8,
+      "end": 14,
+      "sentenceText": "Grown-ups can't just drop everything and play when kids ask them to.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 8,
+          "end": 14,
+          "text": "Grown-ups can't just drop everything and play when kids ask them to.",
+          "originalText": ">> Grown-ups can't just drop everything and play when kids ask them to.",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 10,
+              "text": ">> Grown-ups can't just drop everything and"
+            },
+            {
+              "id": "c0004",
+              "start": 10,
+              "end": 14,
+              "text": "play when kids ask them to."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0002",
+              "start": 8,
+              "end": 10,
+              "text": "Grown-ups can't just drop everything and"
+            },
+            {
+              "id": "c0003",
+              "start": 10,
+              "end": 14,
+              "text": "play when kids ask them to."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 10,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "play",
+          "cueId": "c0002",
+          "quote": "Grown-ups can't just drop everything and play when kids ask them to.",
+          "start": 8,
+          "end": 14,
+          "matchStart": 41,
+          "matchEnd": 45
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 17,
+      "end": 23,
+      "sentenceText": "Why not? 'Cause then who will do all the chores cleaning the house and making the dinners?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 17,
+          "end": 23,
+          "text": "Why not? 'Cause then who will do all the chores cleaning the house and making the dinners?",
+          "originalText": ">> Why not? >> Cuz then who will do all the chores like cleaning the house and making the dinners?",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 17,
+              "end": 18,
+              "text": ">> Why not?"
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 20,
+              "text": ">> Cuz then who will do all the chores like"
+            },
+            {
+              "id": "c0007",
+              "start": 20,
+              "end": 22,
+              "text": "cleaning the house and making the"
+            },
+            {
+              "id": "c0008",
+              "start": 22,
+              "end": 23,
+              "text": "dinners?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 17,
+              "end": 18,
+              "text": "Why not?"
+            },
+            {
+              "id": "c0005",
+              "start": 18,
+              "end": 20,
+              "text": "'Cause then who will do all the chores"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 17,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 20,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 22,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0003",
+          "quote": "Why not? 'Cause then who will do all the chores cleaning the house and making the dinners?",
+          "start": 17,
+          "end": 23,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 23,
+      "end": 28,
+      "sentenceText": "We'll ring the pizza boy. You can't just ring the pizza boy.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 23,
+          "end": 28,
+          "text": "We'll ring the pizza boy. You can't just ring the pizza boy.",
+          "originalText": ">> We'll ring the pizza boy. >> You can't just ring the pizza boy. We",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 25,
+              "text": ">> We'll ring the pizza boy."
+            },
+            {
+              "id": "c0010",
+              "start": 25,
+              "end": 28,
+              "text": ">> You can't just ring the pizza boy. We"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0007",
+              "start": 23,
+              "end": 25,
+              "text": "We'll ring the pizza boy."
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 28,
+              "text": "You can't just ring the pizza boy."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 28,
+      "end": 34,
+      "sentenceText": "can do whatever we want, aren't we, Bingo? Um, I guess.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 28,
+          "end": 34,
+          "text": "can do whatever we want, aren't we, Bingo? Um, I guess.",
+          "originalText": "can do whatever we want, aren't we, Bingo? >> Um, I guess.",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 30,
+              "text": "can do whatever we want, aren't we,"
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 31,
+              "text": "Bingo?"
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "text": ">> Um, I guess."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 31,
+              "end": 34,
+              "text": "Um, I guess."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0005",
+          "quote": "can do whatever we want, aren't we, Bingo? Um, I guess.",
+          "start": 28,
+          "end": 34,
+          "matchStart": 19,
+          "matchEnd": 23
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 34,
+      "end": 41,
+      "sentenceText": "No, Bingo, don't listen to her. The pizza boy is not the solution.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 34,
+          "end": 41,
+          "text": "No, Bingo, don't listen to her. The pizza boy is not the solution.",
+          "originalText": ">> No, Bingo. Don't listen to her. >> The pizza boy is not the solution.",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 37,
+              "text": ">> No, Bingo. Don't listen to her."
+            },
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 41,
+              "text": ">> The pizza boy is not the solution."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 34,
+              "end": 37,
+              "text": "No, Bingo, don't listen to her."
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 41,
+              "text": "The pizza boy is not the solution."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "No, Bingo, don't listen to her. The pizza boy is not the solution.",
+          "start": 34,
+          "end": 41,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "listen",
+          "cueId": "c0006",
+          "quote": "No, Bingo, don't listen to her. The pizza boy is not the solution.",
+          "start": 34,
+          "end": 41,
+          "matchStart": 17,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0006",
+          "quote": "No, Bingo, don't listen to her. The pizza boy is not the solution.",
+          "start": 34,
+          "end": 41,
+          "matchStart": 11,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 41,
+      "end": 49,
+      "sentenceText": "Bingo, I need your help. Join your magic to mine. People should play with you because they want to, not because you make them.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 41,
+          "end": 49,
+          "text": "Bingo, I need your help. Join your magic to mine. People should play with you because they want to, not because you make them.",
+          "originalText": ">> Bingo, I need your help. Join your magic to mine. >> People should play with you because they want to, not because you make them.",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 41,
+              "end": 43,
+              "text": ">> Bingo, I need your help. Join your magic"
+            },
+            {
+              "id": "c0017",
+              "start": 43,
+              "end": 44,
+              "text": "to mine."
+            },
+            {
+              "id": "c0018",
+              "start": 44,
+              "end": 46,
+              "text": ">> People should play with you because they"
+            },
+            {
+              "id": "c0019",
+              "start": 46,
+              "end": 49,
+              "text": "want to, not because you make them."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 41,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 43,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 44,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 46,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "need",
+          "cueId": "c0007",
+          "quote": "Bingo, I need your help. Join your magic to mine. People should play with you because they want to, not because you make them.",
+          "start": 41,
+          "end": 49,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0007",
+          "quote": "Bingo, I need your help. Join your magic to mine. People should play with you because they want to, not because you make them.",
+          "start": 41,
+          "end": 49,
+          "matchStart": 19,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0007",
+          "quote": "Bingo, I need your help. Join your magic to mine. People should play with you because they want to, not because you make them.",
+          "start": 41,
+          "end": 49,
+          "matchStart": 64,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0007",
+          "quote": "Bingo, I need your help. Join your magic to mine. People should play with you because they want to, not because you make them.",
+          "start": 41,
+          "end": 49,
+          "matchStart": 91,
+          "matchEnd": 95
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 49,
+      "end": 55,
+      "sentenceText": "Otherwise, it's not playing. Hey, uh, is all that crazy stuff still happening?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 49,
+          "end": 55,
+          "text": "Otherwise, it's not playing. Hey, uh, is all that crazy stuff still happening?",
+          "originalText": "Otherwise, it's not playing. >> Hey, uh, is all that crazy stuff still happening?",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 49,
+              "end": 51,
+              "text": "Otherwise, it's not playing."
+            },
+            {
+              "id": "c0021",
+              "start": 51,
+              "end": 53,
+              "text": ">> Hey, uh, is all that crazy stuff still"
+            },
+            {
+              "id": "c0022",
+              "start": 53,
+              "end": 55,
+              "text": "happening?"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 49,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 51,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 53,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 55,
+      "end": 65,
+      "sentenceText": "Oh, get off, it's not up to me. You see, Bingo, cheeky magic always wins cuz we've got Tim.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 55,
+          "end": 65,
+          "text": "Oh, get off, it's not up to me. You see, Bingo, cheeky magic always wins cuz we've got Tim.",
+          "originalText": ">> Oh, get off. It's not up to me. >> You see, Bingo, cheeky magic always wins cuz we've got Tim.",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 55,
+              "end": 57,
+              "text": ">> Oh, get off. It's not up to me."
+            },
+            {
+              "id": "c0024",
+              "start": 57,
+              "end": 61,
+              "text": ">> You see, Bingo, cheeky magic always wins"
+            },
+            {
+              "id": "c0025",
+              "start": 61,
+              "end": 65,
+              "text": "cuz we've got Tim."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 55,
+              "end": 57,
+              "text": "Oh, get off, it's not up to me."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 55,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 57,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 61,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0009",
+          "quote": "Oh, get off, it's not up to me. You see, Bingo, cheeky magic always wins cuz we've got Tim.",
+          "start": 55,
+          "end": 65,
+          "matchStart": 36,
+          "matchEnd": 39
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 66,
+      "end": 73,
+      "sentenceText": "Now, Bingo, bring all the pizza boys. Me? Yes, you. Why do I have to do it?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 66,
+          "end": 73,
+          "text": "Now, Bingo, bring all the pizza boys. Me? Yes, you. Why do I have to do it?",
+          "originalText": ">> Now, Bingo, bring all the pizza boys. >> Me? Yes, you. Why do I have to do it?",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 66,
+              "end": 70,
+              "text": ">> Now, Bingo, bring all the pizza boys."
+            },
+            {
+              "id": "c0027",
+              "start": 70,
+              "end": 73,
+              "text": ">> Me? Yes, you. Why do I have to do it?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 70,
+              "text": "Now, Bingo, bring all the pizza boys."
+            },
+            {
+              "id": "c0020",
+              "start": 70,
+              "end": 73,
+              "text": "Me? Yes, you. Why do I have to do it?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 66,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0010",
+          "quote": "Now, Bingo, bring all the pizza boys. Me? Yes, you. Why do I have to do it?",
+          "start": 66,
+          "end": 73,
+          "matchStart": 61,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0010",
+          "quote": "Now, Bingo, bring all the pizza boys. Me? Yes, you. Why do I have to do it?",
+          "start": 66,
+          "end": 73,
+          "matchStart": 42,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0010",
+          "quote": "Now, Bingo, bring all the pizza boys. Me? Yes, you. Why do I have to do it?",
+          "start": 66,
+          "end": 73,
+          "matchStart": 52,
+          "matchEnd": 55
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 73,
+      "end": 79,
+      "sentenceText": "Cuz I said so. You can't just tell me what to do. Yes, I can.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 73,
+          "end": 79,
+          "text": "Cuz I said so. You can't just tell me what to do. Yes, I can.",
+          "originalText": "Cuz I said so. You can't just tell me what to do. >> Yes, I can.",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 73,
+              "end": 75,
+              "text": "Cuz I said so. You can't just tell me"
+            },
+            {
+              "id": "c0029",
+              "start": 75,
+              "end": 76,
+              "text": "what to do."
+            },
+            {
+              "id": "c0030",
+              "start": 76,
+              "end": 79,
+              "text": ">> Yes, I can."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 76,
+              "end": 79,
+              "text": "Yes, I can."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 73,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 75,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 76,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "Cuz I said so. You can't just tell me what to do. Yes, I can.",
+          "start": 73,
+          "end": 79,
+          "matchStart": 38,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0011",
+          "quote": "Cuz I said so. You can't just tell me what to do. Yes, I can.",
+          "start": 73,
+          "end": 79,
+          "matchStart": 50,
+          "matchEnd": 53
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 79,
+      "end": 84,
+      "sentenceText": "Stop it! Hurry, babe, it's the magic.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 79,
+          "end": 84,
+          "text": "Stop it! Hurry, babe, it's the magic.",
+          "originalText": ">> Stop it. >> Hurry, babe. It's the magic.",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 79,
+              "end": 80,
+              "text": ">> Stop it."
+            },
+            {
+              "id": "c0032",
+              "start": 80,
+              "end": 84,
+              "text": ">> Hurry, babe. It's the magic."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 79,
+              "end": 80,
+              "text": "Stop it!"
+            },
+            {
+              "id": "c0024",
+              "start": 80,
+              "end": 84,
+              "text": "Hurry, babe, it's the magic."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 79,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 80,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "stop",
+          "cueId": "c0012",
+          "quote": "Stop it! Hurry, babe, it's the magic.",
+          "start": 79,
+          "end": 84,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 84,
+      "end": 90,
+      "sentenceText": "Huh? Who's doing that? Bingo, no!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 84,
+          "end": 90,
+          "text": "Huh? Who's doing that? Bingo, no!",
+          "originalText": ">> Huh? Who's doing that? >> Bingo. No.",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 84,
+              "end": 85,
+              "text": ">> Huh?"
+            },
+            {
+              "id": "c0034",
+              "start": 85,
+              "end": 87,
+              "text": "Who's doing that?"
+            },
+            {
+              "id": "c0035",
+              "start": 87,
+              "end": 90,
+              "text": ">> Bingo. No."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 87,
+              "end": 90,
+              "text": "Bingo, no!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 84,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 85,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0013",
+          "quote": "Huh? Who's doing that? Bingo, no!",
+          "start": 84,
+          "end": 90,
+          "matchStart": 30,
+          "matchEnd": 32
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 90,
+      "end": 95,
+      "sentenceText": "Hooray! Bingo, join the good side.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 90,
+          "end": 95,
+          "text": "Hooray! Bingo, join the good side.",
+          "originalText": ">> Hooray. Bingo. Join the good side.",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 90,
+              "end": 95,
+              "text": ">> Hooray. Bingo. Join the good side."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0027",
+              "start": 90,
+              "end": 95,
+              "text": "Hooray! Bingo, join the good side."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 90,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0014",
+          "quote": "Hooray! Bingo, join the good side.",
+          "start": 90,
+          "end": 95,
+          "matchStart": 24,
+          "matchEnd": 28
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 95,
+      "end": 101,
+      "sentenceText": "I am not an object! Well, that was a big day.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 95,
+          "end": 101,
+          "text": "I am not an object! Well, that was a big day.",
+          "originalText": ">> I am not an object. >> Well, that was a big day.",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 95,
+              "end": 99,
+              "text": ">> I am not an object."
+            },
+            {
+              "id": "c0038",
+              "start": 99,
+              "end": 101,
+              "text": ">> Well, that was a big day."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 95,
+              "end": 99,
+              "text": "I am not an object!"
+            },
+            {
+              "id": "c0029",
+              "start": 99,
+              "end": 101,
+              "text": "Well, that was a big day."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 95,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 99,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "big",
+          "cueId": "c0015",
+          "quote": "I am not an object! Well, that was a big day.",
+          "start": 95,
+          "end": 101,
+          "matchStart": 37,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 101,
+      "end": 109,
+      "sentenceText": "Nice grass, Dad. Thanks, kid. That'll be the pizza boy. Hooray. Come on. Who's coming? We need a grownup.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 101,
+          "end": 109,
+          "text": "Nice grass, Dad. Thanks, kid. That'll be the pizza boy. Hooray. Come on. Who's coming? We need a grownup.",
+          "originalText": ">> Nice grass, Dad. >> Thanks, kid. >> That'll be the pizza boy. >> Hooray. Come on. Who's coming? We need a grownup.",
+          "originalCueRefs": [
+            {
+              "id": "c0039",
+              "start": 101,
+              "end": 102,
+              "text": ">> Nice grass, Dad."
+            },
+            {
+              "id": "c0040",
+              "start": 102,
+              "end": 104,
+              "text": ">> Thanks, kid."
+            },
+            {
+              "id": "c0041",
+              "start": 104,
+              "end": 105,
+              "text": ">> That'll be the pizza boy."
+            },
+            {
+              "id": "c0042",
+              "start": 105,
+              "end": 108,
+              "text": ">> Hooray. Come on. Who's coming? We need a"
+            },
+            {
+              "id": "c0043",
+              "start": 108,
+              "end": 109,
+              "text": "grownup."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0030",
+              "start": 101,
+              "end": 102,
+              "text": "Nice grass, Dad."
+            },
+            {
+              "id": "c0031",
+              "start": 102,
+              "end": 104,
+              "text": "Thanks, kid."
+            },
+            {
+              "id": "c0032",
+              "start": 104,
+              "end": 105,
+              "text": "That'll be the pizza boy."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0039",
+              "start": 101,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 102,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 104,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 108,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0016",
+          "quote": "Nice grass, Dad. Thanks, kid. That'll be the pizza boy. Hooray. Come on. Who's coming? We need a grownup.",
+          "start": 101,
+          "end": 109,
+          "matchStart": 64,
+          "matchEnd": 71
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0016",
+          "quote": "Nice grass, Dad. Thanks, kid. That'll be the pizza boy. Hooray. Come on. Who's coming? We need a grownup.",
+          "start": 101,
+          "end": 109,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0016",
+          "quote": "Nice grass, Dad. Thanks, kid. That'll be the pizza boy. Hooray. Come on. Who's coming? We need a grownup.",
+          "start": 101,
+          "end": 109,
+          "matchStart": 12,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0016",
+          "quote": "Nice grass, Dad. Thanks, kid. That'll be the pizza boy. Hooray. Come on. Who's coming? We need a grownup.",
+          "start": 101,
+          "end": 109,
+          "matchStart": 90,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0017",
+      "title": "문단 17",
+      "start": 109,
+      "end": 116,
+      "sentenceText": "Off you, pup. Actually, I'm pretty comfortable right here. Yeah, but you're still going. You going to make me if I have to.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 17,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0017",
+          "start": 109,
+          "end": 116,
+          "text": "Off you, pup. Actually, I'm pretty comfortable right here. Yeah, but you're still going. You going to make me if I have to.",
+          "originalText": ">> Off you, pup. >> Actually, I'm pretty comfortable right here. >> Yeah, but you're still going. You going to make me >> if I have to.",
+          "originalCueRefs": [
+            {
+              "id": "c0044",
+              "start": 109,
+              "end": 110,
+              "text": ">> Off you, pup."
+            },
+            {
+              "id": "c0045",
+              "start": 110,
+              "end": 112,
+              "text": ">> Actually, I'm pretty comfortable right"
+            },
+            {
+              "id": "c0046",
+              "start": 112,
+              "end": 113,
+              "text": "here."
+            },
+            {
+              "id": "c0047",
+              "start": 112,
+              "end": 114,
+              "text": ">> Yeah, but you're still going. You going"
+            },
+            {
+              "id": "c0048",
+              "start": 114,
+              "end": 115,
+              "text": "to make me"
+            },
+            {
+              "id": "c0049",
+              "start": 115,
+              "end": 116,
+              "text": ">> if I have to."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0034",
+              "start": 109,
+              "end": 110,
+              "text": "Off you, pup."
+            },
+            {
+              "id": "c0037",
+              "start": 115,
+              "end": 116,
+              "text": "if I have to."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0044",
+              "start": 109,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            },
+            {
+              "id": "c0045",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            },
+            {
+              "id": "c0046",
+              "start": 112,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            },
+            {
+              "id": "c0047",
+              "start": 112,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            },
+            {
+              "id": "c0048",
+              "start": 114,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0048"
+              ]
+            },
+            {
+              "id": "c0049",
+              "start": 115,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0049"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 17,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0017",
+          "quote": "Off you, pup. Actually, I'm pretty comfortable right here. Yeah, but you're still going. You going to make me if I have to.",
+          "start": 109,
+          "end": 116,
+          "matchStart": 115,
+          "matchEnd": 122
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0018",
+      "title": "문단 18",
+      "start": 116,
+      "end": 121,
+      "sentenceText": "Oh man, okay, wish I knew magic.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 18,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0018",
+          "start": 116,
+          "end": 121,
+          "text": "Oh man, okay, wish I knew magic.",
+          "originalText": ">> Oh man. Okay. Wish I knew magic.",
+          "originalCueRefs": [
+            {
+              "id": "c0050",
+              "start": 116,
+              "end": 121,
+              "text": ">> Oh man. Okay. Wish I knew magic."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 116,
+              "end": 121,
+              "text": "Oh man, okay, wish I knew magic."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0050",
+              "start": 116,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0050"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 18,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0018",
+          "quote": "Oh man, okay, wish I knew magic.",
+          "start": 116,
+          "end": 121,
+          "matchStart": 8,
+          "matchEnd": 12
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0019",
+      "title": "문단 19",
+      "start": 121,
+      "end": 126,
+      "sentenceText": "That was cheating.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 19,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0019",
+          "start": 121,
+          "end": 126,
+          "text": "That was cheating.",
+          "originalText": ">> That was cheating.",
+          "originalCueRefs": [
+            {
+              "id": "c0051",
+              "start": 121,
+              "end": 126,
+              "text": ">> That was cheating."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0039",
+              "start": 121,
+              "end": 126,
+              "text": "That was cheating."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0051",
+              "start": 121,
+              "end": 126,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0051"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 19,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    }
+  ]
+}

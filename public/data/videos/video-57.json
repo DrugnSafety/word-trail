@@ -1,0 +1,749 @@
+{
+  "id": "video-57",
+  "number": 57,
+  "title": "The Flower Girls Save the Wedding!",
+  "duration": 127,
+  "declaredDuration": 127,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=R3toB8gv2Kw",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/57_The Flower Girls Save the Wedding!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/57_The Flower Girls Save the Wedding!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "The Flower Girls Save the Wedding!",
+      "start": 0,
+      "end": 110,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 12,
+      "sentenceText": "a yeah who has coins anymore I You got a great kid there. She must",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 12,
+          "text": "a yeah who has coins anymore I You got a great kid there. She must",
+          "originalText": "a yeah who has coins anymore I do you got a great kid there she must",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "a yeah who has coins"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 7,
+              "text": "anymore I"
+            },
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 12,
+              "text": "do you got a great kid there she must"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 12,
+              "text": "You got a great kid there. She must"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "great",
+          "cueId": "c0001",
+          "quote": "a yeah who has coins anymore I You got a great kid there. She must",
+          "start": 0,
+          "end": 12,
+          "matchStart": 41,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 12,
+      "end": 26,
+      "sentenceText": "take after her uncle. Rad?! Did you...? Nope. How did you find me I know you like it here I do I'll just check on the",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 12,
+          "end": 26,
+          "text": "take after her uncle. Rad?! Did you...? Nope. How did you find me I know you like it here I do I'll just check on the",
+          "originalText": "take after her uncle rad did you nope how did you find me I know you like it here I do I'll just check on the",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 16,
+              "text": "take after her uncle rad did you nope"
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 18,
+              "text": "how did you find"
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 23,
+              "text": "me I know you like it here I"
+            },
+            {
+              "id": "c0007",
+              "start": 23,
+              "end": 26,
+              "text": "do I'll just check on the"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 14,
+              "text": "take after her uncle."
+            },
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 15,
+              "text": "Rad?!"
+            },
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 16,
+              "text": "Did you...? Nope."
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 18,
+              "text": "How did you find"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0002",
+          "quote": "take after her uncle. Rad?! Did you...? Nope. How did you find me I know you like it here I do I'll just check on the",
+          "start": 12,
+          "end": 26,
+          "matchStart": 46,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0002",
+          "quote": "take after her uncle. Rad?! Did you...? Nope. How did you find me I know you like it here I do I'll just check on the",
+          "start": 12,
+          "end": 26,
+          "matchStart": 68,
+          "matchEnd": 72
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0002",
+          "quote": "take after her uncle. Rad?! Did you...? Nope. How did you find me I know you like it here I do I'll just check on the",
+          "start": 12,
+          "end": 26,
+          "matchStart": 77,
+          "matchEnd": 81
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 26,
+      "end": 39,
+      "sentenceText": "kids I can't see anything put your D no you're putting the coin in the right bit yes but it stuck Mama Lucky coin is stuck you put",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 26,
+          "end": 39,
+          "text": "kids I can't see anything put your D no you're putting the coin in the right bit yes but it stuck Mama Lucky coin is stuck you put",
+          "originalText": "kids I can't see anything put your D no you're putting the coin in the right bit yes but it stuck Mama Lucky coin is stuck you put",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 26,
+              "end": 30,
+              "text": "kids I can't see anything put your"
+            },
+            {
+              "id": "c0009",
+              "start": 30,
+              "end": 33,
+              "text": "D no you're putting the coin in the"
+            },
+            {
+              "id": "c0010",
+              "start": 33,
+              "end": 36,
+              "text": "right bit yes but it"
+            },
+            {
+              "id": "c0011",
+              "start": 36,
+              "end": 39,
+              "text": "stuck Mama Lucky coin is stuck you put"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 26,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 33,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 36,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0003",
+          "quote": "kids I can't see anything put your D no you're putting the coin in the right bit yes but it stuck Mama Lucky coin is stuck you put",
+          "start": 26,
+          "end": 39,
+          "matchStart": 13,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "kids I can't see anything put your D no you're putting the coin in the right bit yes but it stuck Mama Lucky coin is stuck you put",
+          "start": 26,
+          "end": 39,
+          "matchStart": 37,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0003",
+          "quote": "kids I can't see anything put your D no you're putting the coin in the right bit yes but it stuck Mama Lucky coin is stuck you put",
+          "start": 26,
+          "end": 39,
+          "matchStart": 81,
+          "matchEnd": 84
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 39,
+      "end": 54,
+      "sentenceText": "it in the wrong slot what wow it's really wedged sorry girls it's not coming out a that wasn't a very lucky coin we'll see",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 39,
+          "end": 54,
+          "text": "it in the wrong slot what wow it's really wedged sorry girls it's not coming out a that wasn't a very lucky coin we'll see",
+          "originalText": "it in the wrong slot what wow it's really wedged sorry girls it's not coming out a that wasn't a very lucky coin we'll see",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 39,
+              "end": 41,
+              "text": "it in the wrong"
+            },
+            {
+              "id": "c0013",
+              "start": 41,
+              "end": 45,
+              "text": "slot what wow it's really"
+            },
+            {
+              "id": "c0014",
+              "start": 45,
+              "end": 50,
+              "text": "wedged sorry girls it's not coming out a"
+            },
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 54,
+              "text": "that wasn't a very lucky coin we'll see"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 39,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 41,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 45,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "it in the wrong slot what wow it's really wedged sorry girls it's not coming out a that wasn't a very lucky coin we'll see",
+          "start": 39,
+          "end": 54,
+          "matchStart": 21,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0004",
+          "quote": "it in the wrong slot what wow it's really wedged sorry girls it's not coming out a that wasn't a very lucky coin we'll see",
+          "start": 39,
+          "end": 54,
+          "matchStart": 49,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0004",
+          "quote": "it in the wrong slot what wow it's really wedged sorry girls it's not coming out a that wasn't a very lucky coin we'll see",
+          "start": 39,
+          "end": 54,
+          "matchStart": 119,
+          "matchEnd": 122
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 54,
+      "end": 60,
+      "sentenceText": "now we won see we'll get this coin out",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 54,
+          "end": 60,
+          "text": "now we won see we'll get this coin out",
+          "originalText": "now we won see we'll get this coin out",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 54,
+              "end": 60,
+              "text": "now we won see we'll get this coin out"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 54,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0005",
+          "quote": "now we won see we'll get this coin out",
+          "start": 54,
+          "end": 60,
+          "matchStart": 11,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 63,
+      "end": 68,
+      "sentenceText": "we start the wedding come on go",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 63,
+          "end": 68,
+          "text": "we start the wedding come on go",
+          "originalText": "we start the wedding come on go",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 63,
+              "end": 64,
+              "text": "we start the"
+            },
+            {
+              "id": "c0018",
+              "start": 64,
+              "end": 66,
+              "text": "wedding come"
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 68,
+              "text": "on go"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 63,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 64,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0006",
+          "quote": "we start the wedding come on go",
+          "start": 63,
+          "end": 68,
+          "matchStart": 21,
+          "matchEnd": 28
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 107,
+      "end": 110,
+      "sentenceText": "w",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 107,
+          "end": 110,
+          "text": "w",
+          "originalText": "w",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 107,
+              "end": 110,
+              "text": "w"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 107,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

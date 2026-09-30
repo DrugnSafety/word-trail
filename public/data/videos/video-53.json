@@ -1,0 +1,943 @@
+{
+  "id": "video-53",
+  "number": 53,
+  "title": "No Smoochy Kisses for Mum!",
+  "duration": 91,
+  "declaredDuration": 90,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=K-0rTYi8BZU",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/53_No Smoochy Kisses for Mum!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/53_No Smoochy Kisses for Mum!.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "No Smoochy Kisses for Mum!",
+      "start": 1,
+      "end": 91,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 1,
+      "end": 16,
+      "sentenceText": "Woo, yeah! Shake it! Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 1,
+          "end": 16,
+          "text": "Woo, yeah! Shake it! Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+          "originalText": "woo yeah shake it Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 4,
+              "text": "woo yeah shake it"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 7,
+              "text": "Lou oh why did you stop I don't like"
+            },
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 9,
+              "text": "this part of the song you got to take"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "text": "the good with the bad kid why are there"
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 16,
+              "text": "Forks in the spoon bit the same reason"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 4,
+              "text": "Woo, yeah! Shake it!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0001",
+          "quote": "Woo, yeah! Shake it! Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+          "start": 1,
+          "end": 16,
+          "matchStart": 28,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0001",
+          "quote": "Woo, yeah! Shake it! Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+          "start": 1,
+          "end": 16,
+          "matchStart": 40,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0001",
+          "quote": "Woo, yeah! Shake it! Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+          "start": 1,
+          "end": 16,
+          "matchStart": 53,
+          "matchEnd": 57
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0001",
+          "quote": "Woo, yeah! Shake it! Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+          "start": 1,
+          "end": 16,
+          "matchStart": 100,
+          "matchEnd": 104
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0001",
+          "quote": "Woo, yeah! Shake it! Lou oh why did you stop I don't like this part of the song you got to take the good with the bad kid why are there Forks in the spoon bit the same reason",
+          "start": 1,
+          "end": 16,
+          "matchStart": 47,
+          "matchEnd": 52
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 16,
+      "end": 28,
+      "sentenceText": "all the cupboards are left open there's an apron in the sink and the fridge doors never shut you're dad does that mean you don't like Dad what well you're saying that because the cupbo door has a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 16,
+          "end": 28,
+          "text": "all the cupboards are left open there's an apron in the sink and the fridge doors never shut you're dad does that mean you don't like Dad what well you're saying that because the cupbo door has a",
+          "originalText": "all the cupboards are left open there's an apron in the sink and the fridge doors never shut you're dad does that mean you don't like Dad what well you're saying that because the cupbo door has a",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 17,
+              "text": "all the cupboards are left open there's"
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 19,
+              "text": "an apron in the sink and the fridge"
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 22,
+              "text": "doors never shut you're dad does that"
+            },
+            {
+              "id": "c0009",
+              "start": 22,
+              "end": 26,
+              "text": "mean you don't like Dad what well you're"
+            },
+            {
+              "id": "c0010",
+              "start": 26,
+              "end": 28,
+              "text": "saying that because the cupbo door has a"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 22,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 26,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0002",
+          "quote": "all the cupboards are left open there's an apron in the sink and the fridge doors never shut you're dad does that mean you don't like Dad what well you're saying that because the cupbo door has a",
+          "start": 16,
+          "end": 28,
+          "matchStart": 100,
+          "matchEnd": 103
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0002",
+          "quote": "all the cupboards are left open there's an apron in the sink and the fridge doors never shut you're dad does that mean you don't like Dad what well you're saying that because the cupbo door has a",
+          "start": 16,
+          "end": 28,
+          "matchStart": 129,
+          "matchEnd": 133
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "all the cupboards are left open there's an apron in the sink and the fridge doors never shut you're dad does that mean you don't like Dad what well you're saying that because the cupbo door has a",
+          "start": 16,
+          "end": 28,
+          "matchStart": 138,
+          "matchEnd": 142
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0002",
+          "quote": "all the cupboards are left open there's an apron in the sink and the fridge doors never shut you're dad does that mean you don't like Dad what well you're saying that because the cupbo door has a",
+          "start": 16,
+          "end": 28,
+          "matchStart": 123,
+          "matchEnd": 128
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 28,
+      "end": 43,
+      "sentenceText": "g Single Ladies hey oh hey morning kids how is your run sweetheart what he's not yours anymore he's our yeah he belongs to us but I want a smoochi kiss no you can't have",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 28,
+          "end": 43,
+          "text": "g Single Ladies hey oh hey morning kids how is your run sweetheart what he's not yours anymore he's our yeah he belongs to us but I want a smoochi kiss no you can't have",
+          "originalText": "g Single Ladies hey oh hey morning kids how is your run sweetheart what he's not yours anymore he's our yeah he belongs to us but I want a smoochi kiss no you can't have",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 32,
+              "text": "g Single Ladies hey oh hey morning kids"
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 34,
+              "text": "how is your run"
+            },
+            {
+              "id": "c0013",
+              "start": 34,
+              "end": 37,
+              "text": "sweetheart what he's not yours anymore"
+            },
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 40,
+              "text": "he's our yeah he belongs to us but I"
+            },
+            {
+              "id": "c0015",
+              "start": 40,
+              "end": 43,
+              "text": "want a smoochi kiss no you can't have"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 28,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 34,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 40,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0003",
+          "quote": "g Single Ladies hey oh hey morning kids how is your run sweetheart what he's not yours anymore he's our yeah he belongs to us but I want a smoochi kiss no you can't have",
+          "start": 28,
+          "end": 43,
+          "matchStart": 40,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "g Single Ladies hey oh hey morning kids how is your run sweetheart what he's not yours anymore he's our yeah he belongs to us but I want a smoochi kiss no you can't have",
+          "start": 28,
+          "end": 43,
+          "matchStart": 67,
+          "matchEnd": 71
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0003",
+          "quote": "g Single Ladies hey oh hey morning kids how is your run sweetheart what he's not yours anymore he's our yeah he belongs to us but I want a smoochi kiss no you can't have",
+          "start": 28,
+          "end": 43,
+          "matchStart": 132,
+          "matchEnd": 136
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "g Single Ladies hey oh hey morning kids how is your run sweetheart what he's not yours anymore he's our yeah he belongs to us but I want a smoochi kiss no you can't have",
+          "start": 28,
+          "end": 43,
+          "matchStart": 152,
+          "matchEnd": 154
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 43,
+      "end": 58,
+      "sentenceText": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 43,
+          "end": 58,
+          "text": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "originalText": "him what why not you said you don't like him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "text": "him what why not you said you don't like"
+            },
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 48,
+              "text": "him cuz he leaves the coverboard doors"
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 54,
+              "text": "open what I never come here give me a"
+            },
+            {
+              "id": "c0019",
+              "start": 54,
+              "end": 58,
+              "text": "smoochie he's get away ladies ladies"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 43,
+              "end": 44,
+              "text": "What? Why not?"
+            },
+            {
+              "id": "c0023",
+              "start": 44,
+              "end": 46,
+              "text": "You said you don't like him"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 54,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-here",
+          "cueId": "c0004",
+          "quote": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "start": 43,
+          "end": 58,
+          "matchStart": 100,
+          "matchEnd": 109
+        },
+        {
+          "expressionId": "give-me",
+          "cueId": "c0004",
+          "quote": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "start": 43,
+          "end": 58,
+          "matchStart": 110,
+          "matchEnd": 117
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "start": 43,
+          "end": 58,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0004",
+          "quote": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "start": 43,
+          "end": 58,
+          "matchStart": 6,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0004",
+          "quote": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "start": 43,
+          "end": 58,
+          "matchStart": 34,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0004",
+          "quote": "What? Why not? You said you don't like him him cuz he leaves the coverboard doors open what I never come here give me a smoochie he's get away ladies ladies",
+          "start": 43,
+          "end": 58,
+          "matchStart": 28,
+          "matchEnd": 33
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 58,
+      "end": 72,
+      "sentenceText": "there's plenty to go around finger egg beater oh yeah egg beater Finger... whisky, whisky, whisky, whisky!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 58,
+          "end": 72,
+          "text": "there's plenty to go around finger egg beater oh yeah egg beater Finger... whisky, whisky, whisky, whisky!",
+          "originalText": "there's plenty to go around finger egg beater oh yeah egg beater finger whiskey whiskey whiskey whiskey",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 61,
+              "text": "there's plenty to go around finger egg"
+            },
+            {
+              "id": "c0021",
+              "start": 61,
+              "end": 67,
+              "text": "beater oh yeah egg beater"
+            },
+            {
+              "id": "c0022",
+              "start": 68,
+              "end": 72,
+              "text": "finger whiskey whiskey whiskey whiskey"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 68,
+              "end": 72,
+              "text": "Finger... whisky, whisky, whisky, whisky!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 61,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 68,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 72,
+      "end": 87,
+      "sentenceText": "so Shield get that out of here okay come here oh okay very good that is all forever now well good luck with",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 72,
+          "end": 87,
+          "text": "so Shield get that out of here okay come here oh okay very good that is all forever now well good luck with",
+          "originalText": "so Shield get that out of here okay come here oh okay very good that is all forever now well good luck with",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 72,
+              "end": 76,
+              "text": "so Shield get that out of here okay come"
+            },
+            {
+              "id": "c0024",
+              "start": 76,
+              "end": 80,
+              "text": "here oh okay very good that is all"
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 83,
+              "text": "forever"
+            },
+            {
+              "id": "c0026",
+              "start": 83,
+              "end": 87,
+              "text": "now well good luck with"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 72,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 80,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 83,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-here",
+          "cueId": "c0006",
+          "quote": "so Shield get that out of here okay come here oh okay very good that is all forever now well good luck with",
+          "start": 72,
+          "end": 87,
+          "matchStart": 36,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0006",
+          "quote": "so Shield get that out of here okay come here oh okay very good that is all forever now well good luck with",
+          "start": 72,
+          "end": 87,
+          "matchStart": 31,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0006",
+          "quote": "so Shield get that out of here okay come here oh okay very good that is all forever now well good luck with",
+          "start": 72,
+          "end": 87,
+          "matchStart": 59,
+          "matchEnd": 63
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 88,
+      "end": 91,
+      "sentenceText": "that",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 88,
+          "end": 91,
+          "text": "that",
+          "originalText": "that",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 88,
+              "end": 91,
+              "text": "that"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 88,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

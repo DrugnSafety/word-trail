@@ -1,0 +1,1492 @@
+{
+  "id": "video-79",
+  "number": 79,
+  "title": "Two Grouchy Grannies! 👵 🤣 | New Season 3 Clip - Granny Mobile 💙 | Bluey",
+  "duration": 120,
+  "declaredDuration": 120,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=5XekmnSHoHs",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/79_Two Grouchy Grannies!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/79_Two Grouchy Grannies!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Two Grouchy Grannies! 👵 🤣 | New Season 3 Clip - Granny Mobile 💙 | Bluey",
+      "start": 0,
+      "end": 120,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 15,
+      "sentenceText": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you Are you sure there isn't another type of granny?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 15,
+          "text": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you Are you sure there isn't another type of granny?",
+          "originalText": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you sure there isn't another type of granny?",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "This has taken too long. Bugal logs,"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "text": "take me home. Yes, Nana. And watch the"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 10,
+              "text": "cracks. Sorry, Nana. Louie, grouchy"
+            },
+            {
+              "id": "c0004",
+              "start": 10,
+              "end": 12,
+              "text": "granny is a bit too grouchy. Are you"
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 15,
+              "text": "sure there isn't another type of granny?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 15,
+              "text": "Are you sure there isn't another type of granny?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 10,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0001",
+          "quote": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you Are you sure there isn't another type of granny?",
+          "start": 0,
+          "end": 15,
+          "matchStart": 149,
+          "matchEnd": 161
+        },
+        {
+          "expressionId": "home",
+          "cueId": "c0001",
+          "quote": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you Are you sure there isn't another type of granny?",
+          "start": 0,
+          "end": 15,
+          "matchStart": 45,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0001",
+          "quote": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you Are you sure there isn't another type of granny?",
+          "start": 0,
+          "end": 15,
+          "matchStart": 51,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0001",
+          "quote": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you Are you sure there isn't another type of granny?",
+          "start": 0,
+          "end": 15,
+          "matchStart": 84,
+          "matchEnd": 89
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0001",
+          "quote": "This has taken too long. Bugal logs, take me home. Yes, Nana. And watch the cracks. Sorry, Nana. Louie, grouchy granny is a bit too grouchy. Are you Are you sure there isn't another type of granny?",
+          "start": 0,
+          "end": 15,
+          "matchStart": 157,
+          "matchEnd": 161
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 15,
+      "end": 20,
+      "sentenceText": "There might be, but I just don't know what it is. Do you?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 15,
+          "end": 20,
+          "text": "There might be, but I just don't know what it is. Do you?",
+          "originalText": "There might be, but I just don't know what it is. Do you?",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 17,
+              "text": "There might be, but I just don't know"
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 20,
+              "text": "what it is. Do you?"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0002",
+          "quote": "There might be, but I just don't know what it is. Do you?",
+          "start": 15,
+          "end": 20,
+          "matchStart": 33,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "There might be, but I just don't know what it is. Do you?",
+          "start": 15,
+          "end": 20,
+          "matchStart": 38,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0002",
+          "quote": "There might be, but I just don't know what it is. Do you?",
+          "start": 15,
+          "end": 20,
+          "matchStart": 27,
+          "matchEnd": 32
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 20,
+      "end": 35,
+      "sentenceText": "No, I'll stay Grouchy Granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 20,
+          "end": 35,
+          "text": "No, I'll stay Grouchy Granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
+          "originalText": "No, I'll stay grouchy granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 24,
+              "text": "No, I'll stay grouchy granny. Oh, great."
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 28,
+              "text": "You watch yourself, young man. H. How"
+            },
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 35,
+              "text": "about $5? How about $2? Okay, $2."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "text": "No, I'll stay Grouchy Granny."
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 24,
+              "text": "Oh, great."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "No, I'll stay Grouchy Granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
+          "start": 20,
+          "end": 35,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "great",
+          "cueId": "c0003",
+          "quote": "No, I'll stay Grouchy Granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
+          "start": 20,
+          "end": 35,
+          "matchStart": 34,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0003",
+          "quote": "No, I'll stay Grouchy Granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
+          "start": 20,
+          "end": 35,
+          "matchStart": 75,
+          "matchEnd": 78
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "No, I'll stay Grouchy Granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
+          "start": 20,
+          "end": 35,
+          "matchStart": 103,
+          "matchEnd": 107
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 35,
+      "end": 40,
+      "sentenceText": "Doreen, if you want to go on a holiday to the reef, you'd better toughen up.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 35,
+          "end": 40,
+          "text": "Doreen, if you want to go on a holiday to the reef, you'd better toughen up.",
+          "originalText": "Torine, if you want to go on a holiday to the reef, you better toughen up. Oh,",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 35,
+              "end": 37,
+              "text": "Torine, if you want to go on a holiday"
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 40,
+              "text": "to the reef, you better toughen up. Oh,"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 35,
+              "end": 37,
+              "text": "Doreen, if you want to go on a holiday"
+            },
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 40,
+              "text": "to the reef, you'd better toughen up."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 35,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 37,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0004",
+          "quote": "Doreen, if you want to go on a holiday to the reef, you'd better toughen up.",
+          "start": 35,
+          "end": 40,
+          "matchStart": 15,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 40,
+      "end": 53,
+      "sentenceText": "I know. Oh dear. Your table leg's blocking the footpath. I could have broke my leg. Oh, I'm terribly sorry. I should call the council. I'll get it, Dorine. Keep that noise down. I'm sorry.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 40,
+          "end": 53,
+          "text": "I know. Oh dear. Your table leg's blocking the footpath. I could have broke my leg. Oh, I'm terribly sorry. I should call the council. I'll get it, Dorine. Keep that noise down. I'm sorry.",
+          "originalText": "I know. Oh dear. Your table leg's blocking the footpath. I could have broke my leg. Oh, I'm terribly sorry. I should call the council. I'll get it, Dorine. Keep that noise down. I'm sorry.",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 40,
+              "end": 43,
+              "text": "I know. Oh dear. Your table leg's"
+            },
+            {
+              "id": "c0014",
+              "start": 43,
+              "end": 45,
+              "text": "blocking the footpath. I could have"
+            },
+            {
+              "id": "c0015",
+              "start": 45,
+              "end": 47,
+              "text": "broke my leg. Oh, I'm terribly sorry. I"
+            },
+            {
+              "id": "c0016",
+              "start": 47,
+              "end": 49,
+              "text": "should call the council. I'll get it,"
+            },
+            {
+              "id": "c0017",
+              "start": 49,
+              "end": 53,
+              "text": "Dorine. Keep that noise down. I'm sorry."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 40,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 43,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 45,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 47,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 49,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0005",
+          "quote": "I know. Oh dear. Your table leg's blocking the footpath. I could have broke my leg. Oh, I'm terribly sorry. I should call the council. I'll get it, Dorine. Keep that noise down. I'm sorry.",
+          "start": 40,
+          "end": 53,
+          "matchStart": 2,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0005",
+          "quote": "I know. Oh dear. Your table leg's blocking the footpath. I could have broke my leg. Oh, I'm terribly sorry. I should call the council. I'll get it, Dorine. Keep that noise down. I'm sorry.",
+          "start": 40,
+          "end": 53,
+          "matchStart": 101,
+          "matchEnd": 106
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 53,
+      "end": 62,
+      "sentenceText": "I'm not paying for any of this. Oh, well that's fine. Well, I think you should pay a little. I think you should mind your own business.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 53,
+          "end": 62,
+          "text": "I'm not paying for any of this. Oh, well that's fine. Well, I think you should pay a little. I think you should mind your own business.",
+          "originalText": "I'm not paying for any of this. Oh, well that's fine. Well, I think you should pay a little. I think you should mind your own business.",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 53,
+              "end": 56,
+              "text": "I'm not paying for any of this. Oh, well"
+            },
+            {
+              "id": "c0019",
+              "start": 56,
+              "end": 58,
+              "text": "that's fine. Well, I think you should"
+            },
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 60,
+              "text": "pay a little. I think you should mind"
+            },
+            {
+              "id": "c0021",
+              "start": 60,
+              "end": 62,
+              "text": "your own business."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 60,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0006",
+          "quote": "I'm not paying for any of this. Oh, well that's fine. Well, I think you should pay a little. I think you should mind your own business.",
+          "start": 53,
+          "end": 62,
+          "matchStart": 62,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0006",
+          "quote": "I'm not paying for any of this. Oh, well that's fine. Well, I think you should pay a little. I think you should mind your own business.",
+          "start": 53,
+          "end": 62,
+          "matchStart": 85,
+          "matchEnd": 91
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 62,
+      "end": 75,
+      "sentenceText": "Whoa, that is one grouchy granny. We're back home, Nana. About time. Now make me a cup of tea, bugalogs. Hey, you get off No, it's mine! I'm buying it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 62,
+          "end": 75,
+          "text": "Whoa, that is one grouchy granny. We're back home, Nana. About time. Now make me a cup of tea, bugalogs. Hey, you get off No, it's mine! I'm buying it.",
+          "originalText": "Whoa, that is one grouchy granny. We're back home, Nana. About time. Now make me a cup of tea, bugalogs. Hey, you get off that. No, it's mine. I'm buying it.",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 66,
+              "text": "Whoa, that is one grouchy granny. We're"
+            },
+            {
+              "id": "c0023",
+              "start": 66,
+              "end": 69,
+              "text": "back home, Nana. About time. Now make me"
+            },
+            {
+              "id": "c0024",
+              "start": 69,
+              "end": 72,
+              "text": "a cup of tea, bugalogs. Hey, you get off"
+            },
+            {
+              "id": "c0025",
+              "start": 72,
+              "end": 75,
+              "text": "that. No, it's mine. I'm buying it."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0034",
+              "start": 72,
+              "end": 74,
+              "text": "No, it's mine!"
+            },
+            {
+              "id": "c0035",
+              "start": 74,
+              "end": 75,
+              "text": "I'm buying it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 66,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 69,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 72,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "home",
+          "cueId": "c0007",
+          "quote": "Whoa, that is one grouchy granny. We're back home, Nana. About time. Now make me a cup of tea, bugalogs. Hey, you get off No, it's mine! I'm buying it.",
+          "start": 62,
+          "end": 75,
+          "matchStart": 45,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "Whoa, that is one grouchy granny. We're back home, Nana. About time. Now make me a cup of tea, bugalogs. Hey, you get off No, it's mine! I'm buying it.",
+          "start": 62,
+          "end": 75,
+          "matchStart": 122,
+          "matchEnd": 124
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 75,
+      "end": 82,
+      "sentenceText": "Fine! Give me $900. What?! The sign says $30.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 75,
+          "end": 82,
+          "text": "Fine! Give me $900. What?! The sign says $30.",
+          "originalText": "Fine. Give me $900. What? The sign says $30.",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 75,
+              "end": 78,
+              "text": "Fine. Give me $900."
+            },
+            {
+              "id": "c0027",
+              "start": 78,
+              "end": 82,
+              "text": "What? The sign says $30."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 75,
+              "end": 78,
+              "text": "Fine! Give me $900."
+            },
+            {
+              "id": "c0037",
+              "start": 78,
+              "end": 82,
+              "text": "What?! The sign says $30."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 75,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 78,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "give-me",
+          "cueId": "c0008",
+          "quote": "Fine! Give me $900. What?! The sign says $30.",
+          "start": 75,
+          "end": 82,
+          "matchStart": 6,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "Fine! Give me $900. What?! The sign says $30.",
+          "start": 75,
+          "end": 82,
+          "matchStart": 20,
+          "matchEnd": 24
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 82,
+      "end": 94,
+      "sentenceText": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 82,
+          "end": 94,
+          "text": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "originalText": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What are you doing? Where's my cup of tea?",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 82,
+              "end": 86,
+              "text": "$900. I'm not paying $900. Good. But I"
+            },
+            {
+              "id": "c0029",
+              "start": 86,
+              "end": 89,
+              "text": "keep it. Oh, it's like that, is it? Oh,"
+            },
+            {
+              "id": "c0030",
+              "start": 89,
+              "end": 90,
+              "text": "look, love. I think you want to talk to"
+            },
+            {
+              "id": "c0031",
+              "start": 90,
+              "end": 92,
+              "text": "that lady. Get your hands off me. What"
+            },
+            {
+              "id": "c0032",
+              "start": 92,
+              "end": 94,
+              "text": "are you doing? Where's my cup of tea?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0045",
+              "start": 92,
+              "end": 93,
+              "text": "What are you doing?"
+            },
+            {
+              "id": "c0046",
+              "start": 93,
+              "end": 94,
+              "text": "Where's my cup of tea?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 82,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 86,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 89,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 27,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 57,
+          "matchEnd": 61
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 79,
+          "matchEnd": 83
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 85,
+          "matchEnd": 89
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 93,
+          "matchEnd": 98
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 103,
+          "matchEnd": 107
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 153,
+          "matchEnd": 157
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0009",
+          "quote": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
+          "start": 82,
+          "end": 94,
+          "matchStart": 178,
+          "matchEnd": 183
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 94,
+      "end": 107,
+      "sentenceText": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 94,
+          "end": 107,
+          "text": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
+          "originalText": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 94,
+              "end": 96,
+              "text": "Dorene, I think this delightful lady"
+            },
+            {
+              "id": "c0034",
+              "start": 96,
+              "end": 100,
+              "text": "wants to buy your scooter. $100. Um, I"
+            },
+            {
+              "id": "c0035",
+              "start": 100,
+              "end": 102,
+              "text": "guess that sounds okay. Oh, Dorene, you"
+            },
+            {
+              "id": "c0036",
+              "start": 102,
+              "end": 105,
+              "text": "need to go higher than that. You need to"
+            },
+            {
+              "id": "c0037",
+              "start": 105,
+              "end": 107,
+              "text": "lay off the biscuits. What? You said I"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 94,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 96,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 100,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 102,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 105,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0010",
+          "quote": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
+          "start": 94,
+          "end": 107,
+          "matchStart": 10,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0010",
+          "quote": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
+          "start": 94,
+          "end": 107,
+          "matchStart": 94,
+          "matchEnd": 98
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0010",
+          "quote": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
+          "start": 94,
+          "end": 107,
+          "matchStart": 116,
+          "matchEnd": 120
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
+          "start": 94,
+          "end": 107,
+          "matchStart": 179,
+          "matchEnd": 183
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 107,
+      "end": 120,
+      "sentenceText": "was looking good. You are, honey. Ignore her. Oh, nasty neighbors back. Now you listen. $100. Poke it or aim it. Oh, Doreen. No.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 107,
+          "end": 120,
+          "text": "was looking good. You are, honey. Ignore her. Oh, nasty neighbors back. Now you listen. $100. Poke it or aim it. Oh, Doreen. No.",
+          "originalText": "was looking good. You are, honey. Ignore her. Oh, nasty neighbors back. Now you listen. $100. Poke it or aim it. Oh, Dory. No.",
+          "originalCueRefs": [
+            {
+              "id": "c0038",
+              "start": 107,
+              "end": 109,
+              "text": "was looking good. You are, honey. Ignore"
+            },
+            {
+              "id": "c0039",
+              "start": 109,
+              "end": 112,
+              "text": "her. Oh, nasty neighbors back. Now you"
+            },
+            {
+              "id": "c0040",
+              "start": 112,
+              "end": 116,
+              "text": "listen. $100. Poke it or aim it."
+            },
+            {
+              "id": "c0041",
+              "start": 116,
+              "end": 120,
+              "text": "Oh, Dory. No."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0060",
+              "start": 116,
+              "end": 120,
+              "text": "Oh, Doreen. No."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0038",
+              "start": 107,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 109,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 112,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 116,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0011",
+          "quote": "was looking good. You are, honey. Ignore her. Oh, nasty neighbors back. Now you listen. $100. Poke it or aim it. Oh, Doreen. No.",
+          "start": 107,
+          "end": 120,
+          "matchStart": 12,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "listen",
+          "cueId": "c0011",
+          "quote": "was looking good. You are, honey. Ignore her. Oh, nasty neighbors back. Now you listen. $100. Poke it or aim it. Oh, Doreen. No.",
+          "start": 107,
+          "end": 120,
+          "matchStart": 80,
+          "matchEnd": 86
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0011",
+          "quote": "was looking good. You are, honey. Ignore her. Oh, nasty neighbors back. Now you listen. $100. Poke it or aim it. Oh, Doreen. No.",
+          "start": 107,
+          "end": 120,
+          "matchStart": 125,
+          "matchEnd": 127
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

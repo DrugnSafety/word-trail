@@ -1,0 +1,1826 @@
+{
+  "id": "video-30",
+  "number": 30,
+  "title": "Show and Tell 🦀 | Brand New - Series 3 | Bluey",
+  "duration": 127,
+  "declaredDuration": 125,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=GuwMGhFw99M",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/30_Show and Tell.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/30_Show and Tell.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Show and Tell 🦀 | Brand New - Series 3 | Bluey",
+      "start": 0,
+      "end": 127,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 11,
+      "sentenceText": "Bingo you ready to practice your Show and Tell for tomorrow um Um... okay. Hello, everybody.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 11,
+          "text": "Bingo you ready to practice your Show and Tell for tomorrow um Um... okay. Hello, everybody.",
+          "originalText": "Bingo you ready to practice your Show and Tell for tomorrow um okay hello everybody hello Bingo um I",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "Bingo you ready to practice your Show"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 6,
+              "text": "and Tell for tomorrow um"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 11,
+              "text": "okay hello everybody hello Bingo um I"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0002",
+              "start": 6,
+              "end": 8,
+              "text": "Um... okay."
+            },
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 11,
+              "text": "Hello, everybody."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0001",
+          "quote": "Bingo you ready to practice your Show and Tell for tomorrow um Um... okay. Hello, everybody.",
+          "start": 0,
+          "end": 11,
+          "matchStart": 10,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "Bingo you ready to practice your Show and Tell for tomorrow um Um... okay. Hello, everybody.",
+          "start": 0,
+          "end": 11,
+          "matchStart": 69,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "hello",
+          "cueId": "c0001",
+          "quote": "Bingo you ready to practice your Show and Tell for tomorrow um Um... okay. Hello, everybody.",
+          "start": 0,
+          "end": 11,
+          "matchStart": 75,
+          "matchEnd": 80
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 11,
+      "end": 20,
+      "sentenceText": "Hello, Bingo! Um, I have a crab claw. It's called Show and Tell, Bingo.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 11,
+          "end": 20,
+          "text": "Hello, Bingo! Um, I have a crab claw. It's called Show and Tell, Bingo.",
+          "originalText": "have a crab claw it's called Show and Tell Bingo I'm",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 14,
+              "text": "have a crab"
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 20,
+              "text": "claw it's called Show and Tell Bingo I'm"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 14,
+              "text": "Hello, Bingo! Um, I have a crab"
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 20,
+              "text": "claw. It's called Show and Tell, Bingo."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "hello",
+          "cueId": "c0002",
+          "quote": "Hello, Bingo! Um, I have a crab claw. It's called Show and Tell, Bingo.",
+          "start": 11,
+          "end": 20,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 20,
+      "end": 27,
+      "sentenceText": "I'm good at the showing bit, but not good at the telling bit. Pro tip, keep it simple, kids switch off if you talk too long.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 20,
+          "end": 27,
+          "text": "I'm good at the showing bit, but not good at the telling bit. Pro tip, keep it simple, kids switch off if you talk too long.",
+          "originalText": "good at the showing bit but not good at the telling bit Pro tip keep it simple kids switch off if you talk too long",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 20,
+              "end": 22,
+              "text": "good at the showing bit but not good at"
+            },
+            {
+              "id": "c0007",
+              "start": 22,
+              "end": 25,
+              "text": "the telling bit Pro tip keep it simple"
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 27,
+              "text": "kids switch off if you talk too long"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 20,
+              "end": 22,
+              "text": "I'm good at the showing bit, but not good at"
+            },
+            {
+              "id": "c0007",
+              "start": 22,
+              "end": 25,
+              "text": "the telling bit. Pro tip, keep it simple,"
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 27,
+              "text": "kids switch off if you talk too long."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 20,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 22,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0003",
+          "quote": "I'm good at the showing bit, but not good at the telling bit. Pro tip, keep it simple, kids switch off if you talk too long.",
+          "start": 20,
+          "end": 27,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 27,
+      "end": 40,
+      "sentenceText": "Maybe you could talk about how crabs have an exoskeleton, as opposed to an endoskeleton. You see... blah blah blah blah skeleton, blah blah, blah blah, blah blah mitochondria. Make sense? No.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 27,
+          "end": 40,
+          "text": "Maybe you could talk about how crabs have an exoskeleton, as opposed to an endoskeleton. You see... blah blah blah blah skeleton, blah blah, blah blah, blah blah mitochondria. Make sense? No.",
+          "originalText": "maybe you could talk about how crabs have an exoskeleton as opposed to an endoskeleton you see blah blah blah blah skeleton blah blah blah blah blah blah my to Conta make sense no",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 27,
+              "end": 29,
+              "text": "maybe you could talk about how crabs"
+            },
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 31,
+              "text": "have an exoskeleton as opposed to an"
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 34,
+              "text": "endoskeleton you see blah blah blah blah"
+            },
+            {
+              "id": "c0012",
+              "start": 34,
+              "end": 36,
+              "text": "skeleton blah blah blah blah blah blah"
+            },
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 40,
+              "text": "my to Conta make sense no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 27,
+              "end": 29,
+              "text": "Maybe you could talk about how crabs"
+            },
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 31,
+              "text": "have an exoskeleton, as opposed to an"
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 34,
+              "text": "endoskeleton. You see... blah blah blah blah"
+            },
+            {
+              "id": "c0012",
+              "start": 34,
+              "end": 36,
+              "text": "skeleton, blah blah, blah blah, blah blah"
+            },
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 38,
+              "text": "mitochondria."
+            },
+            {
+              "id": "c0014",
+              "start": 38,
+              "end": 40,
+              "text": "Make sense? No."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 27,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 29,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 34,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0004",
+          "quote": "Maybe you could talk about how crabs have an exoskeleton, as opposed to an endoskeleton. You see... blah blah blah blah skeleton, blah blah, blah blah, blah blah mitochondria. Make sense? No.",
+          "start": 27,
+          "end": 40,
+          "matchStart": 27,
+          "matchEnd": 30
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0004",
+          "quote": "Maybe you could talk about how crabs have an exoskeleton, as opposed to an endoskeleton. You see... blah blah blah blah skeleton, blah blah, blah blah, blah blah mitochondria. Make sense? No.",
+          "start": 27,
+          "end": 40,
+          "matchStart": 93,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "Maybe you could talk about how crabs have an exoskeleton, as opposed to an endoskeleton. You see... blah blah blah blah skeleton, blah blah, blah blah, blah blah mitochondria. Make sense? No.",
+          "start": 27,
+          "end": 40,
+          "matchStart": 188,
+          "matchEnd": 190
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 40,
+      "end": 46,
+      "sentenceText": "See? Can I have some tomato sauce, please? Yep. Thanks!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 40,
+          "end": 46,
+          "text": "See? Can I have some tomato sauce, please? Yep. Thanks!",
+          "originalText": "see can I have some tomato sauce please yep",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 40,
+              "end": 44,
+              "text": "see can I have some tomato sauce please"
+            },
+            {
+              "id": "c0015",
+              "start": 44,
+              "end": 46,
+              "text": "yep"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 40,
+              "end": 42,
+              "text": "See?"
+            },
+            {
+              "id": "c0016",
+              "start": 42,
+              "end": 44,
+              "text": "Can I have some tomato sauce, please?"
+            },
+            {
+              "id": "c0017",
+              "start": 44,
+              "end": 46,
+              "text": "Yep. Thanks!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 40,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 44,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0005",
+          "quote": "See? Can I have some tomato sauce, please? Yep. Thanks!",
+          "start": 40,
+          "end": 46,
+          "matchStart": 5,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0005",
+          "quote": "See? Can I have some tomato sauce, please? Yep. Thanks!",
+          "start": 40,
+          "end": 46,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0005",
+          "quote": "See? Can I have some tomato sauce, please? Yep. Thanks!",
+          "start": 40,
+          "end": 46,
+          "matchStart": 35,
+          "matchEnd": 41
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 46,
+      "end": 53,
+      "sentenceText": "Hey, what's that tomato sauce? Oh, uh, this is my tomato sauce. Well, whose is this tomato sauce?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 46,
+          "end": 53,
+          "text": "Hey, what's that tomato sauce? Oh, uh, this is my tomato sauce. Well, whose is this tomato sauce?",
+          "originalText": "thanks hey what's that tomato sauce oh uh this is my tomato sauce well who is",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 46,
+              "end": 50,
+              "text": "thanks hey what's that tomato sauce oh"
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 53,
+              "text": "uh this is my tomato sauce well who is"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0018",
+              "start": 46,
+              "end": 48,
+              "text": "Hey, what's that tomato sauce?"
+            },
+            {
+              "id": "c0019",
+              "start": 48,
+              "end": 50,
+              "text": "Oh, uh, this is my tomato sauce."
+            },
+            {
+              "id": "c0020",
+              "start": 50,
+              "end": 53,
+              "text": "Well, whose is this tomato sauce?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 46,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "Hey, what's that tomato sauce? Oh, uh, this is my tomato sauce. Well, whose is this tomato sauce?",
+          "start": 46,
+          "end": 53,
+          "matchStart": 5,
+          "matchEnd": 9
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 53,
+      "end": 60,
+      "sentenceText": "That's your tomato sauce. What's the difference between my tomato sauce and your tomato sauce?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 53,
+          "end": 60,
+          "text": "That's your tomato sauce. What's the difference between my tomato sauce and your tomato sauce?",
+          "originalText": "this tomato sauce that's your tomato sauce what's the difference between my tomato sauce and your tomato sauce yours",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 53,
+              "end": 55,
+              "text": "this tomato sauce that's your tomato"
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 57,
+              "text": "sauce what's the difference between my"
+            },
+            {
+              "id": "c0020",
+              "start": 57,
+              "end": 60,
+              "text": "tomato sauce and your tomato sauce yours"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 53,
+              "end": 55,
+              "text": "That's your tomato sauce."
+            },
+            {
+              "id": "c0022",
+              "start": 55,
+              "end": 57,
+              "text": "What's the difference between my"
+            },
+            {
+              "id": "c0023",
+              "start": 57,
+              "end": 60,
+              "text": "tomato sauce and your tomato sauce?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 53,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 57,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "That's your tomato sauce. What's the difference between my tomato sauce and your tomato sauce?",
+          "start": 53,
+          "end": 60,
+          "matchStart": 26,
+          "matchEnd": 30
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 60,
+      "end": 72,
+      "sentenceText": "Yours is a healthy one. It's got less sugar in it. oh Can I taste your tomato sauce uh well okay just a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 60,
+          "end": 72,
+          "text": "Yours is a healthy one. It's got less sugar in it. oh Can I taste your tomato sauce uh well okay just a",
+          "originalText": "is a healthy one it's got less sugar in it oh Can I taste your tomato sauce uh well okay just a",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 60,
+              "end": 62,
+              "text": "is a healthy one it's got less sugar in"
+            },
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 64,
+              "text": "it"
+            },
+            {
+              "id": "c0023",
+              "start": 64,
+              "end": 69,
+              "text": "oh Can I taste your tomato sauce uh well"
+            },
+            {
+              "id": "c0024",
+              "start": 69,
+              "end": 72,
+              "text": "okay just a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 60,
+              "end": 62,
+              "text": "Yours is a healthy one."
+            },
+            {
+              "id": "c0025",
+              "start": 62,
+              "end": 64,
+              "text": "It's got less sugar in it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 60,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 64,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 69,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0008",
+          "quote": "Yours is a healthy one. It's got less sugar in it. oh Can I taste your tomato sauce uh well okay just a",
+          "start": 60,
+          "end": 72,
+          "matchStart": 54,
+          "matchEnd": 59
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "Yours is a healthy one. It's got less sugar in it. oh Can I taste your tomato sauce uh well okay just a",
+          "start": 60,
+          "end": 72,
+          "matchStart": 92,
+          "matchEnd": 96
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 72,
+      "end": 78,
+      "sentenceText": "Ahh! I want this tomato sauce! No, mate, that one's yours. But yours tastes beautiful!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 72,
+          "end": 78,
+          "text": "Ahh! I want this tomato sauce! No, mate, that one's yours. But yours tastes beautiful!",
+          "originalText": "taste I want this tomato sauce no mate that one's yours but yours tastes",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 72,
+              "end": 76,
+              "text": "taste I want this tomato sauce no mate"
+            },
+            {
+              "id": "c0026",
+              "start": 76,
+              "end": 78,
+              "text": "that one's yours but yours tastes"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 72,
+              "end": 74,
+              "text": "Ahh! I want this tomato sauce!"
+            },
+            {
+              "id": "c0029",
+              "start": 74,
+              "end": 76,
+              "text": "No, mate, that one's yours."
+            },
+            {
+              "id": "c0030",
+              "start": 76,
+              "end": 78,
+              "text": "But yours tastes beautiful!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 72,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 76,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0009",
+          "quote": "Ahh! I want this tomato sauce! No, mate, that one's yours. But yours tastes beautiful!",
+          "start": 72,
+          "end": 78,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "Ahh! I want this tomato sauce! No, mate, that one's yours. But yours tastes beautiful!",
+          "start": 72,
+          "end": 78,
+          "matchStart": 31,
+          "matchEnd": 33
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 78,
+      "end": 85,
+      "sentenceText": "I want to try! Kids eat the healthy one. This is beautiful!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 78,
+          "end": 85,
+          "text": "I want to try! Kids eat the healthy one. This is beautiful!",
+          "originalText": "beautiful I want to try kids eat the healthy one and of this is beautiful why",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 78,
+              "end": 81,
+              "text": "beautiful I want to try kids eat the"
+            },
+            {
+              "id": "c0028",
+              "start": 81,
+              "end": 85,
+              "text": "healthy one and of this is beautiful why"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 78,
+              "end": 81,
+              "text": "I want to try! Kids eat the"
+            },
+            {
+              "id": "c0032",
+              "start": 81,
+              "end": 83,
+              "text": "healthy one."
+            },
+            {
+              "id": "c0033",
+              "start": 83,
+              "end": 85,
+              "text": "This is beautiful!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 78,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 81,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0010",
+          "quote": "I want to try! Kids eat the healthy one. This is beautiful!",
+          "start": 78,
+          "end": 85,
+          "matchStart": 2,
+          "matchEnd": 6
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 85,
+      "end": 95,
+      "sentenceText": "did you get the good one and we get the disgusting one uh looks like dad's good Uh... looks like Dad's good at telling but not good at showing.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 85,
+          "end": 95,
+          "text": "did you get the good one and we get the disgusting one uh looks like dad's good Uh... looks like Dad's good at telling but not good at showing.",
+          "originalText": "did you get the good one and we get the disgusting one uh looks like dad's good at telling but not good at showing",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 85,
+              "end": 87,
+              "text": "did you get the good one and we get the"
+            },
+            {
+              "id": "c0030",
+              "start": 87,
+              "end": 90,
+              "text": "disgusting one uh looks like dad's good"
+            },
+            {
+              "id": "c0031",
+              "start": 90,
+              "end": 93,
+              "text": "at telling but not good at"
+            },
+            {
+              "id": "c0032",
+              "start": 93,
+              "end": 95,
+              "text": "showing"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 90,
+              "end": 93,
+              "text": "Uh... looks like Dad's good at telling"
+            },
+            {
+              "id": "c0036",
+              "start": 93,
+              "end": 95,
+              "text": "but not good at showing."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 85,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 90,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 93,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0011",
+          "quote": "did you get the good one and we get the disgusting one uh looks like dad's good Uh... looks like Dad's good at telling but not good at showing.",
+          "start": 85,
+          "end": 95,
+          "matchStart": 16,
+          "matchEnd": 20
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0011",
+          "quote": "did you get the good one and we get the disgusting one uh looks like dad's good Uh... looks like Dad's good at telling but not good at showing.",
+          "start": 85,
+          "end": 95,
+          "matchStart": 64,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0011",
+          "quote": "did you get the good one and we get the disgusting one uh looks like dad's good Uh... looks like Dad's good at telling but not good at showing.",
+          "start": 85,
+          "end": 95,
+          "matchStart": 69,
+          "matchEnd": 72
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 95,
+      "end": 103,
+      "sentenceText": "Please! Nope. Ah, that's it! I'm going to count all the times you boss us around.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 95,
+          "end": 103,
+          "text": "Please! Nope. Ah, that's it! I'm going to count all the times you boss us around.",
+          "originalText": "please nope a that's it I'm going to count all the time you boss us around great do it while you eat your sausage",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 95,
+              "end": 99,
+              "text": "please nope a that's it I'm going to"
+            },
+            {
+              "id": "c0034",
+              "start": 99,
+              "end": 101,
+              "text": "count all the time you boss us around"
+            },
+            {
+              "id": "c0035",
+              "start": 101,
+              "end": 103,
+              "text": "great do it while you eat your sausage"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0037",
+              "start": 95,
+              "end": 97,
+              "text": "Please!"
+            },
+            {
+              "id": "c0038",
+              "start": 97,
+              "end": 99,
+              "text": "Nope."
+            },
+            {
+              "id": "c0039",
+              "start": 99,
+              "end": 101,
+              "text": "Ah, that's it! I'm going to"
+            },
+            {
+              "id": "c0040",
+              "start": 101,
+              "end": 103,
+              "text": "count all the times you boss us around."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 95,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 99,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 101,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0012",
+          "quote": "Please! Nope. Ah, that's it! I'm going to count all the times you boss us around.",
+          "start": 95,
+          "end": 103,
+          "matchStart": 18,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0012",
+          "quote": "Please! Nope. Ah, that's it! I'm going to count all the times you boss us around.",
+          "start": 95,
+          "end": 103,
+          "matchStart": 0,
+          "matchEnd": 6
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 103,
+      "end": 109,
+      "sentenceText": "Great. Do it while you eat your sausage. Ah, \"Eat your sausage\", bossing around number one.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 103,
+          "end": 109,
+          "text": "Great. Do it while you eat your sausage. Ah, \"Eat your sausage\", bossing around number one.",
+          "originalText": "ah eat your sausage bossing around number one number one don't talk with",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 103,
+              "end": 105,
+              "text": "ah eat your sausage bossing around"
+            },
+            {
+              "id": "c0037",
+              "start": 105,
+              "end": 109,
+              "text": "number one number one don't talk with"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 103,
+              "end": 105,
+              "text": "Great. Do it while you eat your sausage."
+            },
+            {
+              "id": "c0042",
+              "start": 105,
+              "end": 107,
+              "text": "Ah, \"Eat your sausage\","
+            },
+            {
+              "id": "c0043",
+              "start": 107,
+              "end": 109,
+              "text": "bossing around number one."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 103,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 105,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "great",
+          "cueId": "c0013",
+          "quote": "Great. Do it while you eat your sausage. Ah, \"Eat your sausage\", bossing around number one.",
+          "start": 103,
+          "end": 109,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 109,
+      "end": 116,
+      "sentenceText": "Number one. Don't talk with your mouth full. That's two. Oh, man. Oh, this is the good stuff.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 109,
+          "end": 116,
+          "text": "Number one. Don't talk with your mouth full. That's two. Oh, man. Oh, this is the good stuff.",
+          "originalText": "your mouthful that's two oh man a this is the good stuff hey all right squirt",
+          "originalCueRefs": [
+            {
+              "id": "c0038",
+              "start": 109,
+              "end": 113,
+              "text": "your mouthful that's two oh man a this"
+            },
+            {
+              "id": "c0039",
+              "start": 113,
+              "end": 116,
+              "text": "is the good stuff hey all right squirt"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0044",
+              "start": 109,
+              "end": 111,
+              "text": "Number one."
+            },
+            {
+              "id": "c0045",
+              "start": 111,
+              "end": 113,
+              "text": "Don't talk with your mouth full."
+            },
+            {
+              "id": "c0046",
+              "start": 113,
+              "end": 115,
+              "text": "That's two. Oh, man."
+            },
+            {
+              "id": "c0047",
+              "start": 115,
+              "end": 116,
+              "text": "Oh, this is the good stuff."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0038",
+              "start": 109,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 113,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0014",
+          "quote": "Number one. Don't talk with your mouth full. That's two. Oh, man. Oh, this is the good stuff.",
+          "start": 109,
+          "end": 116,
+          "matchStart": 82,
+          "matchEnd": 86
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0014",
+          "quote": "Number one. Don't talk with your mouth full. That's two. Oh, man. Oh, this is the good stuff.",
+          "start": 109,
+          "end": 116,
+          "matchStart": 12,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 116,
+      "end": 127,
+      "sentenceText": "Hey! Alright, squirts, let's get going. \"Let's get going,\" that's three. \"Let's get going\"? That's not bossing you around. Yes, it is.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 116,
+          "end": 127,
+          "text": "Hey! Alright, squirts, let's get going. \"Let's get going,\" that's three. \"Let's get going\"? That's not bossing you around. Yes, it is.",
+          "originalText": "let's get going let's get going that's three let's get going that's not bossing you around yes it is",
+          "originalCueRefs": [
+            {
+              "id": "c0040",
+              "start": 116,
+              "end": 118,
+              "text": "let's get going let's get going that's"
+            },
+            {
+              "id": "c0041",
+              "start": 118,
+              "end": 120,
+              "text": "three let's get going that's not bossing"
+            },
+            {
+              "id": "c0042",
+              "start": 120,
+              "end": 124,
+              "text": "you around yes it"
+            },
+            {
+              "id": "c0043",
+              "start": 124,
+              "end": 127,
+              "text": "is"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0048",
+              "start": 116,
+              "end": 118,
+              "text": "Hey! Alright, squirts,"
+            },
+            {
+              "id": "c0049",
+              "start": 118,
+              "end": 119,
+              "text": "let's get going."
+            },
+            {
+              "id": "c0050",
+              "start": 119,
+              "end": 120,
+              "text": "\"Let's get going,\" that's three."
+            },
+            {
+              "id": "c0051",
+              "start": 120,
+              "end": 124,
+              "text": "\"Let's get going\"? That's not bossing you around."
+            },
+            {
+              "id": "c0052",
+              "start": 124,
+              "end": 127,
+              "text": "Yes, it is."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0040",
+              "start": 116,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 118,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 120,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 124,
+              "end": 127,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets",
+          "cueId": "c0015",
+          "quote": "Hey! Alright, squirts, let's get going. \"Let's get going,\" that's three. \"Let's get going\"? That's not bossing you around. Yes, it is.",
+          "start": 116,
+          "end": 127,
+          "matchStart": 23,
+          "matchEnd": 28
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0015",
+          "quote": "Hey! Alright, squirts, let's get going. \"Let's get going,\" that's three. \"Let's get going\"? That's not bossing you around. Yes, it is.",
+          "start": 116,
+          "end": 127,
+          "matchStart": 123,
+          "matchEnd": 126
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1446 @@
+{
+  "id": "video-41",
+  "number": 41,
+  "title": "Bluey's New Room | Bedroom - Series 3 | Bluey",
+  "duration": 123,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=bv4Z_R7cOPk",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/41_Bluey's New Room.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/41_Bluey's New Room.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Bluey's New Room | Bedroom - Series 3 | Bluey",
+      "start": 0,
+      "end": 123,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 13,
+      "sentenceText": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 13,
+          "text": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+          "originalText": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one what's he doing",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "whew done thanks dad hey bingo you moved"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": "your bed to where mine was yeah is that"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "text": "okay sure that's fine i did it so we can"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "text": "still watch malcolm oh yeah good one"
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 13,
+              "text": "what's he doing"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 12,
+              "end": 13,
+              "text": "What's he doing?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+          "start": 0,
+          "end": 13,
+          "matchStart": 17,
+          "matchEnd": 20
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0001",
+          "quote": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+          "start": 0,
+          "end": 13,
+          "matchStart": 53,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+          "start": 0,
+          "end": 13,
+          "matchStart": 81,
+          "matchEnd": 85
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0001",
+          "quote": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+          "start": 0,
+          "end": 13,
+          "matchStart": 86,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0001",
+          "quote": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+          "start": 0,
+          "end": 13,
+          "matchStart": 150,
+          "matchEnd": 154
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "whew done thanks dad hey bingo you moved your bed to where mine was yeah is that okay sure that's fine i did it so we can still watch malcolm oh yeah good one What's he doing?",
+          "start": 0,
+          "end": 13,
+          "matchStart": 159,
+          "matchEnd": 163
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 13,
+      "end": 18,
+      "sentenceText": "Not much. Come on, Malcolm, do something.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 13,
+          "end": 18,
+          "text": "Not much. Come on, Malcolm, do something.",
+          "originalText": "not much come on malcolm do something",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 18,
+              "text": "not much come on malcolm do something"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 13,
+              "end": 14,
+              "text": "Not much."
+            },
+            {
+              "id": "c0010",
+              "start": 14,
+              "end": 18,
+              "text": "Come on, Malcolm, do something."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0002",
+          "quote": "Not much. Come on, Malcolm, do something.",
+          "start": 13,
+          "end": 18,
+          "matchStart": 10,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 18,
+      "end": 29,
+      "sentenceText": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 29,
+          "text": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "originalText": "oh he heard us okay these teddies are mine and these are all mine yes now what about gloria yes what about",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "text": "oh he heard us"
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "text": "okay these teddies are mine and these"
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 24,
+              "text": "are all mine"
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 29,
+              "text": "yes now what about gloria yes what about"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 18,
+              "end": 20,
+              "text": "Ooh, he heard us!"
+            },
+            {
+              "id": "c0014",
+              "start": 24,
+              "end": 25,
+              "text": "Yes, now."
+            },
+            {
+              "id": "c0015",
+              "start": 25,
+              "end": 27,
+              "text": "What about Gloria?"
+            },
+            {
+              "id": "c0016",
+              "start": 27,
+              "end": 29,
+              "text": "Yes, what about Gloria?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "start": 18,
+          "end": 29,
+          "matchStart": 18,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0003",
+          "quote": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "start": 18,
+          "end": 29,
+          "matchStart": 69,
+          "matchEnd": 72
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "start": 18,
+          "end": 29,
+          "matchStart": 79,
+          "matchEnd": 83
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 29,
+      "end": 44,
+      "sentenceText": "gloria she was a christmas present to me from granddad but you didn't get a christmas present from grandad because he forgot i was born yes he forgot you were born so you said it's okay bingo",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 29,
+          "end": 44,
+          "text": "gloria she was a christmas present to me from granddad but you didn't get a christmas present from grandad because he forgot i was born yes he forgot you were born so you said it's okay bingo",
+          "originalText": "gloria she was a christmas present to me from granddad but you didn't get a christmas present from grandad because he forgot i was born yes he forgot you were born so you said it's okay bingo",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 29,
+              "end": 32,
+              "text": "gloria she was a christmas present to me"
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 35,
+              "text": "from granddad but you didn't get a"
+            },
+            {
+              "id": "c0013",
+              "start": 35,
+              "end": 37,
+              "text": "christmas present from grandad because"
+            },
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 40,
+              "text": "he forgot i was born yes he forgot you"
+            },
+            {
+              "id": "c0015",
+              "start": 40,
+              "end": 44,
+              "text": "were born so you said it's okay bingo"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 29,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 35,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 40,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0004",
+          "quote": "gloria she was a christmas present to me from granddad but you didn't get a christmas present from grandad because he forgot i was born yes he forgot you were born so you said it's okay bingo",
+          "start": 29,
+          "end": 44,
+          "matchStart": 136,
+          "matchEnd": 139
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "gloria she was a christmas present to me from granddad but you didn't get a christmas present from grandad because he forgot i was born yes he forgot you were born so you said it's okay bingo",
+          "start": 29,
+          "end": 44,
+          "matchStart": 181,
+          "matchEnd": 185
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 44,
+      "end": 56,
+      "sentenceText": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 44,
+          "end": 56,
+          "text": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
+          "originalText": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 44,
+              "end": 47,
+              "text": "she can be both of us yes that's right"
+            },
+            {
+              "id": "c0017",
+              "start": 47,
+              "end": 48,
+              "text": "so"
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 50,
+              "text": "whose room should she go in hmm"
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 53,
+              "text": "she can go to yours thanks bluey but how"
+            },
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 56,
+              "text": "about she sleeps over at yours tonight"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 44,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 47,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0005",
+          "quote": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
+          "start": 44,
+          "end": 56,
+          "matchStart": 22,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0005",
+          "quote": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
+          "start": 44,
+          "end": 56,
+          "matchStart": 111,
+          "matchEnd": 114
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 56,
+      "end": 62,
+      "sentenceText": "Oh, okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 56,
+          "end": 62,
+          "text": "Oh, okay.",
+          "originalText": "oh okay",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 56,
+              "end": 62,
+              "text": "oh okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 56,
+              "end": 62,
+              "text": "Oh, okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 56,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0006",
+          "quote": "Oh, okay.",
+          "start": 56,
+          "end": 62,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 62,
+      "end": 75,
+      "sentenceText": "Who keeps Lampy? oh um you can keep her no it's okay you take lumpy thanks but can we play a sleep awake oh okay Asleep...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 62,
+          "end": 75,
+          "text": "Who keeps Lampy? oh um you can keep her no it's okay you take lumpy thanks but can we play a sleep awake oh okay Asleep...",
+          "originalText": "who keeps lampy oh um you can keep her no it's okay you take lumpy thanks but can we play a sleep awake oh okay sleep",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 63,
+              "text": "who keeps lampy"
+            },
+            {
+              "id": "c0023",
+              "start": 63,
+              "end": 67,
+              "text": "oh um you can keep her no it's okay you"
+            },
+            {
+              "id": "c0024",
+              "start": 67,
+              "end": 70,
+              "text": "take lumpy thanks but can we play a"
+            },
+            {
+              "id": "c0025",
+              "start": 70,
+              "end": 73,
+              "text": "sleep awake oh okay"
+            },
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 75,
+              "text": "sleep"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 62,
+              "end": 63,
+              "text": "Who keeps Lampy?"
+            },
+            {
+              "id": "c0035",
+              "start": 73,
+              "end": 75,
+              "text": "Asleep..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 62,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 63,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 67,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "Who keeps Lampy? oh um you can keep her no it's okay you take lumpy thanks but can we play a sleep awake oh okay Asleep...",
+          "start": 62,
+          "end": 75,
+          "matchStart": 40,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "Who keeps Lampy? oh um you can keep her no it's okay you take lumpy thanks but can we play a sleep awake oh okay Asleep...",
+          "start": 62,
+          "end": 75,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0007",
+          "quote": "Who keeps Lampy? oh um you can keep her no it's okay you take lumpy thanks but can we play a sleep awake oh okay Asleep...",
+          "start": 62,
+          "end": 75,
+          "matchStart": 86,
+          "matchEnd": 90
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 75,
+      "end": 79,
+      "sentenceText": "Awake! Let's see...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 75,
+          "end": 79,
+          "text": "Awake! Let's see...",
+          "originalText": "all right let's see",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 75,
+              "end": 76,
+              "text": "all right"
+            },
+            {
+              "id": "c0028",
+              "start": 76,
+              "end": 79,
+              "text": "let's see"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 75,
+              "end": 76,
+              "text": "Awake!"
+            },
+            {
+              "id": "c0037",
+              "start": 76,
+              "end": 79,
+              "text": "Let's see..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 75,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 76,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets",
+          "cueId": "c0008",
+          "quote": "Awake! Let's see...",
+          "start": 75,
+          "end": 79,
+          "matchStart": 7,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0008",
+          "quote": "Awake! Let's see...",
+          "start": 75,
+          "end": 79,
+          "matchStart": 13,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 90,
+      "end": 101,
+      "sentenceText": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 90,
+          "end": 101,
+          "text": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
+          "originalText": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot no louie night bingo sleep die you too",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 90,
+              "end": 92,
+              "text": "okay kids into bed come on big d is"
+            },
+            {
+              "id": "c0030",
+              "start": 92,
+              "end": 94,
+              "text": "ready for knock-off yeah yeah yeah where"
+            },
+            {
+              "id": "c0031",
+              "start": 94,
+              "end": 97,
+              "text": "are you going oh yeah i forgot"
+            },
+            {
+              "id": "c0032",
+              "start": 97,
+              "end": 101,
+              "text": "no louie night bingo sleep die you too"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0042",
+              "start": 97,
+              "end": 98,
+              "text": "'Night, Bluey."
+            },
+            {
+              "id": "c0043",
+              "start": 98,
+              "end": 99,
+              "text": "'Night, Bingo."
+            },
+            {
+              "id": "c0044",
+              "start": 99,
+              "end": 100,
+              "text": "Sleep tight."
+            },
+            {
+              "id": "c0045",
+              "start": 100,
+              "end": 101,
+              "text": "You too."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 97,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0009",
+          "quote": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
+          "start": 90,
+          "end": 101,
+          "matchStart": 19,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
+          "start": 90,
+          "end": 101,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0009",
+          "quote": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
+          "start": 90,
+          "end": 101,
+          "matchStart": 27,
+          "matchEnd": 30
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0009",
+          "quote": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
+          "start": 90,
+          "end": 101,
+          "matchStart": 36,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0009",
+          "quote": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
+          "start": 90,
+          "end": 101,
+          "matchStart": 71,
+          "matchEnd": 76
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 101,
+      "end": 113,
+      "sentenceText": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on You all set, Bluey?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 101,
+          "end": 113,
+          "text": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on You all set, Bluey?",
+          "originalText": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on you all set bluey yep",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 101,
+              "end": 104,
+              "text": "don't let the bed bugs bite take care of"
+            },
+            {
+              "id": "c0034",
+              "start": 104,
+              "end": 108,
+              "text": "gloria and lampy yes i will all right"
+            },
+            {
+              "id": "c0035",
+              "start": 108,
+              "end": 111,
+              "text": "come on come on"
+            },
+            {
+              "id": "c0036",
+              "start": 111,
+              "end": 113,
+              "text": "you all set bluey yep"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0050",
+              "start": 111,
+              "end": 113,
+              "text": "You all set, Bluey?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 101,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 104,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 111,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0010",
+          "quote": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on You all set, Bluey?",
+          "start": 101,
+          "end": 113,
+          "matchStart": 69,
+          "matchEnd": 78
+        },
+        {
+          "expressionId": "come-on",
+          "cueId": "c0010",
+          "quote": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on You all set, Bluey?",
+          "start": 101,
+          "end": 113,
+          "matchStart": 79,
+          "matchEnd": 86
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0010",
+          "quote": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on You all set, Bluey?",
+          "start": 101,
+          "end": 113,
+          "matchStart": 58,
+          "matchEnd": 61
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0010",
+          "quote": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on You all set, Bluey?",
+          "start": 101,
+          "end": 113,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 113,
+      "end": 123,
+      "sentenceText": "Exciting! night night oh tell bingo to say goodnight to malcolm for me okay",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 113,
+          "end": 123,
+          "text": "Exciting! night night oh tell bingo to say goodnight to malcolm for me okay",
+          "originalText": "exciting night night oh tell bingo to say goodnight to malcolm for me okay",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 113,
+              "end": 115,
+              "text": "exciting"
+            },
+            {
+              "id": "c0038",
+              "start": 115,
+              "end": 118,
+              "text": "night night oh tell bingo to say"
+            },
+            {
+              "id": "c0039",
+              "start": 118,
+              "end": 123,
+              "text": "goodnight to malcolm for me okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0052",
+              "start": 113,
+              "end": 115,
+              "text": "Exciting!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 113,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 118,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0011",
+          "quote": "Exciting! night night oh tell bingo to say goodnight to malcolm for me okay",
+          "start": 113,
+          "end": 123,
+          "matchStart": 71,
+          "matchEnd": 75
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

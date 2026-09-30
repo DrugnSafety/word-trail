@@ -1,0 +1,1924 @@
+{
+  "id": "video-74",
+  "number": 74,
+  "title": "Rusty Hits His Little Sister a Catch",
+  "duration": 127,
+  "declaredDuration": 127,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=3beXien8Oqw",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/74_Rusty Hits His Little Sister a Catch.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/74_Rusty Hits His Little Sister a Catch.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text",
+    "contains-non-spoken-annotation-removal"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Rusty Hits His Little Sister a Catch",
+      "start": 0,
+      "end": 117,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016",
+        "c0017",
+        "c0018"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 7,
+      "sentenceText": "And Digger, you thought Christmas up north was hot. You should try over here. It is boiling. I'll see you all soon.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 7,
+          "text": "And Digger, you thought Christmas up north was hot. You should try over here. It is boiling. I'll see you all soon.",
+          "originalText": "And Digger, you thought Christmas up north was hot. You should try over here. It is boiling. I'll see you all soon.",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "And Digger, you thought Christmas up"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "north was hot. You should try over here."
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "It is boiling. I'll see you all soon."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 5,
+              "text": "It is boiling."
+            },
+            {
+              "id": "c0004",
+              "start": 5,
+              "end": 7,
+              "text": "I'll see you all soon."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0001",
+          "quote": "And Digger, you thought Christmas up north was hot. You should try over here. It is boiling. I'll see you all soon.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 98,
+          "matchEnd": 101
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 7,
+      "end": 12,
+      "sentenceText": "Miss you heaps, Dad.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 7,
+          "end": 12,
+          "text": "Miss you heaps, Dad.",
+          "originalText": "Miss your heaps, Dad.",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 12,
+              "text": "Miss your heaps, Dad."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 7,
+              "end": 12,
+              "text": "Miss you heaps, Dad."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0002",
+          "quote": "Miss you heaps, Dad.",
+          "start": 7,
+          "end": 12,
+          "matchStart": 16,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 12,
+      "end": 17,
+      "sentenceText": "Rusty, Dad's letter has a P.S. for you. Can you read it?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 12,
+          "end": 17,
+          "text": "Rusty, Dad's letter has a P.S. for you. Can you read it?",
+          "originalText": ">> Rusty, Dad's letter has a PS for you. >> Can you read it?",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 15,
+              "text": ">> Rusty, Dad's letter has a PS for you."
+            },
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 17,
+              "text": ">> Can you read it?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 15,
+              "text": "Rusty, Dad's letter has a P.S. for you."
+            },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 17,
+              "text": "Can you read it?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 15,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0003",
+          "quote": "Rusty, Dad's letter has a P.S. for you. Can you read it?",
+          "start": 12,
+          "end": 17,
+          "matchStart": 7,
+          "matchEnd": 10
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 17,
+      "end": 24,
+      "sentenceText": "This tiny sounds like he's got some pace on him. He does. I wish I could be there to bowl a few at you, but I can't right now, mate.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 17,
+          "end": 24,
+          "text": "This tiny sounds like he's got some pace on him. He does. I wish I could be there to bowl a few at you, but I can't right now, mate.",
+          "originalText": ">> This tiny sounds like he's got some pace on him. >> He does. >> I wish I could be there to bowl a few at you, but I can't right now, mate. But",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 18,
+              "text": ">> This tiny sounds like he's got some pace"
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 19,
+              "text": "on him."
+            },
+            {
+              "id": "c0009",
+              "start": 19,
+              "end": 20,
+              "text": ">> He does."
+            },
+            {
+              "id": "c0010",
+              "start": 20,
+              "end": 22,
+              "text": ">> I wish I could be there to bowl a few at"
+            },
+            {
+              "id": "c0011",
+              "start": 22,
+              "end": 24,
+              "text": "you, but I can't right now, mate. But"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 19,
+              "end": 20,
+              "text": "He does."
+            },
+            {
+              "id": "c0010",
+              "start": 20,
+              "end": 21,
+              "text": "I wish I could be there"
+            },
+            {
+              "id": "c0011",
+              "start": 21,
+              "end": 22,
+              "text": "to bowl a few at you,"
+            },
+            {
+              "id": "c0012",
+              "start": 22,
+              "end": 24,
+              "text": "but I can't right now, mate."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 17,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 19,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 20,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 22,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "right-now",
+          "cueId": "c0004",
+          "quote": "This tiny sounds like he's got some pace on him. He does. I wish I could be there to bowl a few at you, but I can't right now, mate.",
+          "start": 17,
+          "end": 24,
+          "matchStart": 116,
+          "matchEnd": 125
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0004",
+          "quote": "This tiny sounds like he's got some pace on him. He does. I wish I could be there to bowl a few at you, but I can't right now, mate.",
+          "start": 17,
+          "end": 24,
+          "matchStart": 17,
+          "matchEnd": 21
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 24,
+      "end": 31,
+      "sentenceText": "But look, as you grow up, you'll face harder things things than a cricket ball. And you'll have two choices.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 24,
+          "end": 31,
+          "text": "But look, as you grow up, you'll face harder things things than a cricket ball. And you'll have two choices.",
+          "originalText": "look, as you grow up, you'll face harder things than a cricket ball. And you'll have two choices.",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 24,
+              "end": 27,
+              "text": "look, as you grow up, you'll face harder"
+            },
+            {
+              "id": "c0013",
+              "start": 27,
+              "end": 29,
+              "text": "things than a cricket ball. And you'll"
+            },
+            {
+              "id": "c0014",
+              "start": 29,
+              "end": 31,
+              "text": "have two choices."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 24,
+              "end": 26,
+              "text": "But look, as you grow up,"
+            },
+            {
+              "id": "c0014",
+              "start": 26,
+              "end": 27,
+              "text": "you'll face harder things"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 24,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 27,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 29,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0005",
+          "quote": "But look, as you grow up, you'll face harder things things than a cricket ball. And you'll have two choices.",
+          "start": 24,
+          "end": 31,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 31,
+      "end": 37,
+      "sentenceText": "Back away and get out. Whose bat is it?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 31,
+          "end": 37,
+          "text": "Back away and get out. Whose bat is it?",
+          "originalText": "Back away and get out. >> Whose bat is it?",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 31,
+              "end": 34,
+              "text": "Back away and get out."
+            },
+            {
+              "id": "c0016",
+              "start": 34,
+              "end": 37,
+              "text": ">> Whose bat is it?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 31,
+              "end": 34,
+              "text": "Back away and get out."
+            },
+            {
+              "id": "c0018",
+              "start": 34,
+              "end": 37,
+              "text": "Whose bat is it?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 34,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 37,
+      "end": 44,
+      "sentenceText": "Or step in front and play a pull.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 37,
+          "end": 44,
+          "text": "Or step in front and play a pull.",
+          "originalText": ">> Or step in front >> and play a pool.",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 37,
+              "end": 39,
+              "text": ">> Or"
+            },
+            {
+              "id": "c0018",
+              "start": 39,
+              "end": 41,
+              "text": "step in front"
+            },
+            {
+              "id": "c0019",
+              "start": 41,
+              "end": 44,
+              "text": ">> and play a pool."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 41,
+              "end": 44,
+              "text": "and play a pull."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 37,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 39,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 41,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "play",
+          "cueId": "c0007",
+          "quote": "Or step in front and play a pull.",
+          "start": 37,
+          "end": 44,
+          "matchStart": 21,
+          "matchEnd": 25
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 44,
+      "end": 51,
+      "sentenceText": "Just keep your eye on the ball care of your little sister for me. Love, dad.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 44,
+          "end": 51,
+          "text": "Just keep your eye on the ball care of your little sister for me. Love, dad.",
+          "originalText": "Just keep your eye on the ball and take care of your little sister for me. Love, dad.",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 44,
+              "end": 46,
+              "text": "Just keep your eye on the ball and take"
+            },
+            {
+              "id": "c0021",
+              "start": 46,
+              "end": 48,
+              "text": "care of your little sister for me. Love,"
+            },
+            {
+              "id": "c0022",
+              "start": 48,
+              "end": 51,
+              "text": "dad."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 44,
+              "end": 46,
+              "text": "Just keep your eye on the ball"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 44,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 46,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 48,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "little",
+          "cueId": "c0008",
+          "quote": "Just keep your eye on the ball care of your little sister for me. Love, dad.",
+          "start": 44,
+          "end": 51,
+          "matchStart": 44,
+          "matchEnd": 50
+        },
+        {
+          "expressionId": "sister",
+          "cueId": "c0008",
+          "quote": "Just keep your eye on the ball care of your little sister for me. Love, dad.",
+          "start": 44,
+          "end": 51,
+          "matchStart": 51,
+          "matchEnd": 57
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0008",
+          "quote": "Just keep your eye on the ball care of your little sister for me. Love, dad.",
+          "start": 44,
+          "end": 51,
+          "matchStart": 66,
+          "matchEnd": 70
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0008",
+          "quote": "Just keep your eye on the ball care of your little sister for me. Love, dad.",
+          "start": 44,
+          "end": 51,
+          "matchStart": 72,
+          "matchEnd": 75
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 51,
+      "end": 56,
+      "sentenceText": "Ly's dad had no chance. Wow.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 51,
+          "end": 56,
+          "text": "Ly's dad had no chance. Wow.",
+          "originalText": ">> Ly's dad had no chance. Wow.",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 51,
+              "end": 54,
+              "text": ">> Ly's dad had no chance."
+            },
+            {
+              "id": "c0024",
+              "start": 54,
+              "end": 56,
+              "text": "Wow."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 51,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0009",
+          "quote": "Ly's dad had no chance. Wow.",
+          "start": 51,
+          "end": 56,
+          "matchStart": 5,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "Ly's dad had no chance. Wow.",
+          "start": 51,
+          "end": 56,
+          "matchStart": 13,
+          "matchEnd": 15
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 56,
+      "end": 62,
+      "sentenceText": "Dad or dog? Lunch time! Hang on, Rusty. One more.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 56,
+          "end": 62,
+          "text": "Dad or dog? Lunch time! Hang on, Rusty. One more.",
+          "originalText": ">> Dad or dog. >> Lunch time. >> N Hang on, Rusty. One more.",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 56,
+              "end": 57,
+              "text": ">> Dad or dog."
+            },
+            {
+              "id": "c0026",
+              "start": 57,
+              "end": 60,
+              "text": ">> Lunch time."
+            },
+            {
+              "id": "c0027",
+              "start": 60,
+              "end": 62,
+              "text": ">> N Hang on, Rusty. One more."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 56,
+              "end": 57,
+              "text": "Dad or dog?"
+            },
+            {
+              "id": "c0026",
+              "start": 57,
+              "end": 60,
+              "text": "Lunch time!"
+            },
+            {
+              "id": "c0027",
+              "start": 60,
+              "end": 62,
+              "text": "Hang on, Rusty. One more."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 56,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 57,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 60,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0010",
+          "quote": "Dad or dog? Lunch time! Hang on, Rusty. One more.",
+          "start": 56,
+          "end": 62,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 62,
+      "end": 67,
+      "sentenceText": "Okay. Rusty would have played 50 more.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 62,
+          "end": 67,
+          "text": "Okay. Rusty would have played 50 more.",
+          "originalText": ">> Okay. >> Rusty would have played 50 more.",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 62,
+              "end": 64,
+              "text": ">> Okay."
+            },
+            {
+              "id": "c0029",
+              "start": 64,
+              "end": 67,
+              "text": ">> Rusty would have played 50 more."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 62,
+              "end": 64,
+              "text": "Okay."
+            },
+            {
+              "id": "c0029",
+              "start": 64,
+              "end": 67,
+              "text": "Rusty would have played 50 more."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 62,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 64,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0011",
+          "quote": "Okay. Rusty would have played 50 more.",
+          "start": 62,
+          "end": 67,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 67,
+      "end": 72,
+      "sentenceText": "What a shot! He just loved cricket.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 67,
+          "end": 72,
+          "text": "What a shot! He just loved cricket.",
+          "originalText": ">> What a shot. >> He just loved cricket.",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 67,
+              "end": 69,
+              "text": ">> What a shot."
+            },
+            {
+              "id": "c0031",
+              "start": 69,
+              "end": 72,
+              "text": ">> He just loved cricket."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0030",
+              "start": 67,
+              "end": 69,
+              "text": "What a shot!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 67,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 69,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0012",
+          "quote": "What a shot! He just loved cricket.",
+          "start": 67,
+          "end": 72,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 74,
+      "end": 80,
+      "sentenceText": "I told you, you wouldn't get Rusty out. Come on, Pat. This one's for dignity.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 74,
+          "end": 80,
+          "text": "I told you, you wouldn't get Rusty out. Come on, Pat. This one's for dignity.",
+          "originalText": ">> I told you you wouldn't get Rusty out. >> Come on, Pat. This one's for dignity.",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 74,
+              "end": 76,
+              "text": ">> I told you you wouldn't get Rusty out."
+            },
+            {
+              "id": "c0033",
+              "start": 76,
+              "end": 80,
+              "text": ">> Come on, Pat. This one's for dignity."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0032",
+              "start": 74,
+              "end": 76,
+              "text": "I told you, you wouldn't get Rusty out."
+            },
+            {
+              "id": "c0033",
+              "start": 76,
+              "end": 80,
+              "text": "Come on, Pat. This one's for dignity."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 74,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0013",
+          "quote": "I told you, you wouldn't get Rusty out. Come on, Pat. This one's for dignity.",
+          "start": 74,
+          "end": 80,
+          "matchStart": 40,
+          "matchEnd": 47
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 80,
+      "end": 92,
+      "sentenceText": "Ly's dad put everything he had into that ball. And Rusty could have smashed it into next week if he wanted to, but instead...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 80,
+          "end": 92,
+          "text": "Ly's dad put everything he had into that ball. And Rusty could have smashed it into next week if he wanted to, but instead...",
+          "originalText": "Ly's dad put everything he had into that ball. And Rusty could have smashed it into next week if he wanted to, but instead",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 80,
+              "end": 82,
+              "text": "Ly's dad put everything he had into that"
+            },
+            {
+              "id": "c0035",
+              "start": 82,
+              "end": 84,
+              "text": "ball."
+            },
+            {
+              "id": "c0036",
+              "start": 84,
+              "end": 86,
+              "text": "And Rusty could have smashed it into"
+            },
+            {
+              "id": "c0037",
+              "start": 86,
+              "end": 89,
+              "text": "next week if he wanted to,"
+            },
+            {
+              "id": "c0038",
+              "start": 89,
+              "end": 92,
+              "text": "but instead"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 84,
+              "end": 86,
+              "text": "And Rusty could have smashed it"
+            },
+            {
+              "id": "c0036",
+              "start": 86,
+              "end": 89,
+              "text": "into next week if he wanted to,"
+            },
+            {
+              "id": "c0037",
+              "start": 89,
+              "end": 92,
+              "text": "but instead..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 80,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 82,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 84,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 86,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 89,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0014",
+          "quote": "Ly's dad put everything he had into that ball. And Rusty could have smashed it into next week if he wanted to, but instead...",
+          "start": 80,
+          "end": 92,
+          "matchStart": 5,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 92,
+      "end": 98,
+      "sentenceText": "I got it! He hit his little sister a catch. Oh, you got me!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 92,
+          "end": 98,
+          "text": "I got it! He hit his little sister a catch. Oh, you got me!",
+          "originalText": ">> I got it. >> He hit his little sister a catch. >> Oh, you got me.",
+          "originalCueRefs": [
+            {
+              "id": "c0039",
+              "start": 92,
+              "end": 93,
+              "text": ">> I got it."
+            },
+            {
+              "id": "c0040",
+              "start": 93,
+              "end": 95,
+              "text": ">> He hit his little sister a catch."
+            },
+            {
+              "id": "c0041",
+              "start": 95,
+              "end": 98,
+              "text": ">> Oh, you got me."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 92,
+              "end": 93,
+              "text": "I got it!"
+            },
+            {
+              "id": "c0039",
+              "start": 93,
+              "end": 95,
+              "text": "He hit his little sister a catch."
+            },
+            {
+              "id": "c0040",
+              "start": 95,
+              "end": 98,
+              "text": "Oh, you got me!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0039",
+              "start": 92,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 93,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "little",
+          "cueId": "c0015",
+          "quote": "I got it! He hit his little sister a catch. Oh, you got me!",
+          "start": 92,
+          "end": 98,
+          "matchStart": 21,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "sister",
+          "cueId": "c0015",
+          "quote": "I got it! He hit his little sister a catch. Oh, you got me!",
+          "start": 92,
+          "end": 98,
+          "matchStart": 28,
+          "matchEnd": 34
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 98,
+      "end": 103,
+      "sentenceText": "And that's lunch! Thanks, Mr. Heeler. Thanks, Lucky's dad.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 98,
+          "end": 103,
+          "text": "And that's lunch! Thanks, Mr. Heeler. Thanks, Lucky's dad.",
+          "originalText": ">> And that's lunch. >> Thanks, Mr. Healer. Thanks, Ly's dad.",
+          "originalCueRefs": [
+            {
+              "id": "c0042",
+              "start": 98,
+              "end": 100,
+              "text": ">> And that's lunch."
+            },
+            {
+              "id": "c0043",
+              "start": 100,
+              "end": 103,
+              "text": ">> Thanks, Mr. Healer. Thanks, Ly's dad."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 98,
+              "end": 100,
+              "text": "And that's lunch!"
+            },
+            {
+              "id": "c0042",
+              "start": 100,
+              "end": 103,
+              "text": "Thanks, Mr. Heeler. Thanks, Lucky's dad."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0042",
+              "start": 98,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 100,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0016",
+          "quote": "And that's lunch! Thanks, Mr. Heeler. Thanks, Lucky's dad.",
+          "start": 98,
+          "end": 103,
+          "matchStart": 54,
+          "matchEnd": 57
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0017",
+      "title": "문단 17",
+      "start": 103,
+      "end": 112,
+      "sentenceText": "No worries, Rusty. I got you out! I know. I can't believe it. What a catch.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 17,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0017",
+          "start": 103,
+          "end": 112,
+          "text": "No worries, Rusty. I got you out! I know. I can't believe it. What a catch.",
+          "originalText": ">> No worries, Rusty. >> I got you out. >> I know. I can't believe it. What a catch.",
+          "originalCueRefs": [
+            {
+              "id": "c0044",
+              "start": 103,
+              "end": 105,
+              "text": ">> No worries, Rusty."
+            },
+            {
+              "id": "c0045",
+              "start": 105,
+              "end": 107,
+              "text": ">> I got you out."
+            },
+            {
+              "id": "c0046",
+              "start": 107,
+              "end": 109,
+              "text": ">> I know. I can't believe it. What a"
+            },
+            {
+              "id": "c0047",
+              "start": 109,
+              "end": 112,
+              "text": "catch."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0043",
+              "start": 103,
+              "end": 105,
+              "text": "No worries, Rusty."
+            },
+            {
+              "id": "c0044",
+              "start": 105,
+              "end": 107,
+              "text": "I got you out!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0044",
+              "start": 103,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            },
+            {
+              "id": "c0045",
+              "start": 105,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            },
+            {
+              "id": "c0046",
+              "start": 107,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            },
+            {
+              "id": "c0047",
+              "start": 109,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 17,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0017",
+          "quote": "No worries, Rusty. I got you out! I know. I can't believe it. What a catch.",
+          "start": 103,
+          "end": 112,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0017",
+          "quote": "No worries, Rusty. I got you out! I know. I can't believe it. What a catch.",
+          "start": 103,
+          "end": 112,
+          "matchStart": 36,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0017",
+          "quote": "No worries, Rusty. I got you out! I know. I can't believe it. What a catch.",
+          "start": 103,
+          "end": 112,
+          "matchStart": 62,
+          "matchEnd": 66
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0018",
+      "title": "문단 18",
+      "start": 112,
+      "end": 117,
+      "sentenceText": "That's what cricket's about, kid.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 18,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0018",
+          "start": 112,
+          "end": 117,
+          "text": "That's what cricket's about, kid.",
+          "originalText": "That's what cricket's about, kid.",
+          "originalCueRefs": [
+            {
+              "id": "c0048",
+              "start": 112,
+              "end": 117,
+              "text": "That's what cricket's about, kid."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0046",
+              "start": 112,
+              "end": 117,
+              "text": "That's what cricket's about, kid."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0048",
+              "start": 112,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0048"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 18,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0018",
+          "quote": "That's what cricket's about, kid.",
+          "start": 112,
+          "end": 117,
+          "matchStart": 7,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    }
+  ]
+}

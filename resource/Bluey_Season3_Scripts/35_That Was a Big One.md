@@ -1,0 +1,70 @@
+# 35. That Was a Big One
+
+- Video: https://www.youtube.com/watch?v=mJi6mR_yo-I
+- Length: 02:03
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:03
+
+---
+
+- `[00:00 - 00:02]` Come here, eggies!
+- `[00:02 - 00:05]` Not you, celery! I'll get that.
+- `[00:05 - 00:06]` Oh.
+- `[00:06 - 00:09]` Do you want me to carry those for you?
+- `[00:09 - 00:09]` No!
+- `[00:09 - 00:13]` It's okay, I'm almost there!
+- `[00:13 - 00:13]` Oops!
+- `[00:13 - 00:15]` It's okay, I'll clean it up.
+- `[00:15 - 00:17]` No, I can do it!
+- `[00:17 - 00:20]` Okay, here's the paper towels.
+- `[00:20 - 00:21]` And... ah!
+- `[00:21 - 00:23]` I'll make a start on the omelette, honey.
+- `[00:23 - 00:24]` I'll just crack the eggs.
+- `[00:24 - 00:26]` Can I help crack the eggies?
+- `[00:26 - 00:28]` Um... sure, honey. How about I
+- `[00:28 - 00:30]` sort this out and you get started on the eggs?
+- `[00:30 - 00:34]` Grab a silver bowl from the cupboard.
+- `[00:34 - 00:37]` Okay.
+- `[00:37 - 00:41]` Is this one okay?
+- `[00:41 - 00:42]` Oh, man.
+- `[00:42 - 00:48]` I'm getting hungry.
+- `[00:48 - 00:50]` How many eggs are in an omelette?
+- `[00:50 - 00:52]` Um... three or four.
+- `[00:52 - 00:53]` I'm hungry!
+- `[00:53 - 00:54]` Better make it four.
+- `[00:54 - 00:56]` One!
+- `[00:56 - 00:58]` Two!
+- `[00:58 - 00:59]` Three!
+- `[00:59 - 01:06]` Come on, Bingo, a bit quicker.
+- `[01:06 - 01:07]` Hey, where's four?
+- `[01:07 - 01:08]` Done.
+- `[01:08 - 01:11]` How are the eggs doing, Bingo?
+- `[01:11 - 01:11]` Ooh!
+- `[01:11 - 01:13]` There's four!
+- `[01:13 - 01:14]` Hello?!
+- `[01:14 - 01:16]` Is brekkie almost ready?!
+- `[01:16 - 01:17]` It's coming!
+- `[01:17 - 01:19]` Okay, birthday boy's getting cranky.
+- `[01:19 - 01:21]` Let's get cracking, Bingo.
+- `[01:21 - 01:24]` Ha! Get it? 'Cracking'!
+- `[01:24 - 01:25]` Oh, my goodness!
+- `[01:25 - 01:26]` Sorry, Bluey!
+- `[01:26 - 01:27]` It's okay,
+- `[01:27 - 01:29]` I'll clean it up.
+- `[01:29 - 01:29]` Thanks, Bluey.
+- `[01:29 - 01:31]` Okay, try again, honey.
+- `[01:31 - 01:33]` I'll just hold it for you.
+- `[01:33 - 01:35]` A bit harder, honey.
+- `[01:35 - 01:38]` Give it a good whack.
+- `[01:38 - 01:39]` That's too hard.
+- `[01:39 - 01:42]` Oh, uh... no, honey, the shells don't go in.
+- `[01:42 - 01:45]` Let's try again.
+- `[01:45 - 01:47]` Okay.
+- `[01:47 - 01:48]` Hello?
+- `[01:48 - 01:51]` Hi, uh... will breakfast be in my mouth soon?
+- `[01:51 - 01:53]` It's on its way!
+- `[01:53 - 01:55]` I'm just letting Bingo help me.
+- `[01:55 - 01:56]` I don't want to complain, but...
+- `[01:56 - 01:59]` Sorry! Was that my breakfast?!
+- `[01:59 - 02:02]` That was a big one.
+- `[02:02 - 02:03]` I gotta go!

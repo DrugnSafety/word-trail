@@ -1,0 +1,55 @@
+# 37. Shake It Out | Musical Statues - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=hP2Cuir0_FQ
+- Length: 02:01
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:00
+
+---
+
+- `[00:00 - 00:02]` I don't want to play Musical Statues.
+- `[00:02 - 00:04]` Neither do I.
+- `[00:04 - 00:08]` Too bad, I need someone to do the music stopping.
+- `[00:08 - 00:10]` Oh, I can see where Bluey gets it.
+- `[00:10 - 00:12]` Okay, ready? Go.
+- `[00:12 - 00:13]` And stop.
+- `[00:13 - 00:14]` You blinked. You blinked.
+- `[00:14 - 00:15]` You blinked. You're all out.
+- `[00:15 - 00:16]` See you.
+- `[00:16 - 00:18]` Come on, do it properly.
+- `[00:18 - 00:20]` Or don't do it at all.
+- `[00:20 - 00:21]` Okay, okay.
+- `[00:21 - 00:23]` No, give me that.
+- `[00:23 - 00:26]` Let's put some real music on.
+- `[00:26 - 00:27]` Alright!
+- `[00:27 - 00:28]` That's what I'm talking about.
+- `[00:28 - 00:30]` Get that body moving.
+- `[00:30 - 00:33]` Come on, Bluey, shake it out.
+- `[00:33 - 00:35]` Stop!
+- `[00:35 - 00:37]` No-one.
+- `[00:37 - 00:39]` Okay, here we go again.
+- `[00:39 - 00:41]` Oh, yeah, shake it, Chilli.
+- `[00:41 - 00:43]` Come on, Bluey, copy my moves.
+- `[00:43 - 00:45]` Yeah, that's it.
+- `[00:45 - 00:46]` Raise the roof!
+- `[00:46 - 00:50]` Bingo, you kept raising the roof!
+- `[00:50 - 00:53]` Come on, kid, help me with the music.
+- `[00:53 - 00:58]` Okay, go.
+- `[00:58 - 01:00]` Bingo, if this was a dance-off,
+- `[01:00 - 01:03]` who would you say is winning?
+- `[01:03 - 01:06]` Mum, definitely.
+- `[01:06 - 01:09]` I agree. Come on, Bluey.
+- `[01:09 - 01:11]` Oh, Dad, I know, play "I Love Cereal."
+- `[01:11 - 01:15]` Hold it right there, music fans,
+- `[01:15 - 01:17]` we just had a song request
+- `[01:17 - 01:19]` come in from Ringo Heeler.
+- `[01:19 - 01:23]` Bingo Heeler. Who do you dedicate
+- `[01:23 - 01:25]` this song to, Ringo?
+- `[01:25 - 01:27]` It's for my sister, Bluey.
+- `[01:27 - 01:30]` It's her favourite. Well, alright,
+- `[01:30 - 01:33]` this one's going out to Ringo's sister,
+- `[01:33 - 01:38]` Louey! Ooh, look out! Yeah, that did
+- `[01:38 - 01:43]` it! Ah, yeah, go, Bluey!
+- `[01:50 - 01:53]` Yeah! Ooh, this is tough.
+- `[01:53 - 01:55]` Sorry for the hold-up, folks,
+- `[01:55 - 02:00]` we just have to check on some Musical Statues. Sit tight.

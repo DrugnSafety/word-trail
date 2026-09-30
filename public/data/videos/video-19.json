@@ -1,0 +1,1240 @@
+{
+  "id": "video-19",
+  "number": 19,
+  "title": "Stuck In The Mud | Dirt - Series 3 | Bluey",
+  "duration": 119,
+  "declaredDuration": 119,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=r1v5jNsyQKc",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/19_Stuck In The Mud.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/19_Stuck In The Mud.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Stuck In The Mud | Dirt - Series 3 | Bluey",
+      "start": 1,
+      "end": 119,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 1,
+      "end": 6,
+      "sentenceText": "Jud we found a way you can play to the dirt",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 1,
+          "end": 6,
+          "text": "Jud we found a way you can play to the dirt",
+          "originalText": "Jud we found a way you can play to the dirt",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 3,
+              "text": "Jud we found a way you can play to the"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "text": "dirt"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "play",
+          "cueId": "c0001",
+          "quote": "Jud we found a way you can play to the dirt",
+          "start": 1,
+          "end": 6,
+          "matchStart": 27,
+          "matchEnd": 31
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 14,
+      "end": 19,
+      "sentenceText": "Really? You're meant to go a little faster. It's a bit hard to run in all this stuff.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 14,
+          "end": 19,
+          "text": "Really? You're meant to go a little faster. It's a bit hard to run in all this stuff.",
+          "originalText": "really you meant to go a little faster it's a bit hard to run and all this",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 14,
+              "end": 18,
+              "text": "really you meant to go a little faster"
+            },
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 19,
+              "text": "it's a bit hard to run and all this"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0002",
+              "start": 14,
+              "end": 16,
+              "text": "Really?"
+            },
+            {
+              "id": "c0003",
+              "start": 16,
+              "end": 18,
+              "text": "You're meant to go a little faster."
+            },
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 19,
+              "text": "It's a bit hard to run in all this stuff."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "little",
+          "cueId": "c0002",
+          "quote": "Really? You're meant to go a little faster. It's a bit hard to run in all this stuff.",
+          "start": 14,
+          "end": 19,
+          "matchStart": 29,
+          "matchEnd": 35
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 19,
+      "end": 26,
+      "sentenceText": "Well, at least you didn't get dirty. Yeah, the suit really works! Who wants mud?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 19,
+          "end": 26,
+          "text": "Well, at least you didn't get dirty. Yeah, the suit really works! Who wants mud?",
+          "originalText": "stuff well at least you didn't get dirty yeah the suit really works who wants mud",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 19,
+              "end": 23,
+              "text": "stuff well at least you didn't get dirty"
+            },
+            {
+              "id": "c0006",
+              "start": 23,
+              "end": 26,
+              "text": "yeah the suit really works who wants mud"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 19,
+              "end": 23,
+              "text": "Well, at least you didn't get dirty."
+            },
+            {
+              "id": "c0006",
+              "start": 23,
+              "end": 24,
+              "text": "Yeah, the suit really works!"
+            },
+            {
+              "id": "c0007",
+              "start": 24,
+              "end": 26,
+              "text": "Who wants mud?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 19,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 26,
+      "end": 38,
+      "sentenceText": "Yeah, mud! come in the mud Judo uh I'm not sure this will keep mud out oh yeah probably I might just go home.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 26,
+          "end": 38,
+          "text": "Yeah, mud! come in the mud Judo uh I'm not sure this will keep mud out oh yeah probably I might just go home.",
+          "originalText": "yeah mud come in the mud Judo uh I'm not sure this will keep mud out oh yeah probably not I might just go",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 26,
+              "end": 30,
+              "text": "yeah mud"
+            },
+            {
+              "id": "c0008",
+              "start": 30,
+              "end": 33,
+              "text": "come in the mud Judo uh I'm not sure"
+            },
+            {
+              "id": "c0009",
+              "start": 33,
+              "end": 35,
+              "text": "this will keep mud out oh yeah probably"
+            },
+            {
+              "id": "c0010",
+              "start": 35,
+              "end": 38,
+              "text": "not I might just go"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 26,
+              "end": 30,
+              "text": "Yeah, mud!"
+            },
+            {
+              "id": "c0012",
+              "start": 35,
+              "end": 38,
+              "text": "I might just go home."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 26,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 33,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 35,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0004",
+          "quote": "Yeah, mud! come in the mud Judo uh I'm not sure this will keep mud out oh yeah probably I might just go home.",
+          "start": 26,
+          "end": 38,
+          "matchStart": 43,
+          "matchEnd": 47
+        },
+        {
+          "expressionId": "home",
+          "cueId": "c0004",
+          "quote": "Yeah, mud! come in the mud Judo uh I'm not sure this will keep mud out oh yeah probably I might just go home.",
+          "start": 26,
+          "end": 38,
+          "matchStart": 104,
+          "matchEnd": 108
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 38,
+      "end": 53,
+      "sentenceText": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 38,
+          "end": 53,
+          "text": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "originalText": "home oh my goodness morning Wendy got some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 42,
+              "text": "home oh my goodness morning Wendy got"
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 45,
+              "text": "some dirt yes I can see Wendy can you"
+            },
+            {
+              "id": "c0013",
+              "start": 45,
+              "end": 49,
+              "text": "play in the dirt with us oh well I'm not"
+            },
+            {
+              "id": "c0014",
+              "start": 49,
+              "end": 53,
+              "text": "sure please kids don't pester no it's"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 38,
+              "end": 39,
+              "text": "Oh, my goodness!"
+            },
+            {
+              "id": "c0014",
+              "start": 39,
+              "end": 42,
+              "text": "Morning, Wendy. Got some dirt."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 45,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 49,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0005",
+          "quote": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "start": 38,
+          "end": 53,
+          "matchStart": 58,
+          "matchEnd": 61
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0005",
+          "quote": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "start": 38,
+          "end": 53,
+          "matchStart": 68,
+          "matchEnd": 71
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0005",
+          "quote": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "start": 38,
+          "end": 53,
+          "matchStart": 86,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0005",
+          "quote": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "start": 38,
+          "end": 53,
+          "matchStart": 127,
+          "matchEnd": 131
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0005",
+          "quote": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "start": 38,
+          "end": 53,
+          "matchStart": 132,
+          "matchEnd": 138
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "start": 38,
+          "end": 53,
+          "matchStart": 157,
+          "matchEnd": 159
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "Oh, my goodness! Morning, Wendy. Got some dirt. some dirt yes I can see Wendy can you play in the dirt with us oh well I'm not sure please kids don't pester no it's",
+          "start": 38,
+          "end": 53,
+          "matchStart": 144,
+          "matchEnd": 149
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 53,
+      "end": 60,
+      "sentenceText": "it's fine yes Judo can play what really But you said I can't get dirty. Yes, I did.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 53,
+          "end": 60,
+          "text": "it's fine yes Judo can play what really But you said I can't get dirty. Yes, I did.",
+          "originalText": "it's fine yes Judo can play what really but you said I can't get dirty yes I did",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 53,
+              "end": 57,
+              "text": "it's fine yes Judo can play what really"
+            },
+            {
+              "id": "c0016",
+              "start": 57,
+              "end": 60,
+              "text": "but you said I can't get dirty yes I did"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 57,
+              "end": 58,
+              "text": "But you said I can't get dirty."
+            },
+            {
+              "id": "c0024",
+              "start": 58,
+              "end": 60,
+              "text": "Yes, I did."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 53,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 57,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0006",
+          "quote": "it's fine yes Judo can play what really But you said I can't get dirty. Yes, I did.",
+          "start": 53,
+          "end": 60,
+          "matchStart": 10,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0006",
+          "quote": "it's fine yes Judo can play what really But you said I can't get dirty. Yes, I did.",
+          "start": 53,
+          "end": 60,
+          "matchStart": 23,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "it's fine yes Judo can play what really But you said I can't get dirty. Yes, I did.",
+          "start": 53,
+          "end": 60,
+          "matchStart": 28,
+          "matchEnd": 32
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 60,
+      "end": 69,
+      "sentenceText": "but I want you to have fun sweetie so Judo can play in the mud well it's up to Judo",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 60,
+          "end": 69,
+          "text": "but I want you to have fun sweetie so Judo can play in the mud well it's up to Judo",
+          "originalText": "but I want you to have fun sweetie so Judo can play in the mud well it's up to Judo",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 60,
+              "end": 63,
+              "text": "but I want you to have fun sweetie so"
+            },
+            {
+              "id": "c0018",
+              "start": 63,
+              "end": 66,
+              "text": "Judo can play in the mud well it's up to"
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 69,
+              "text": "Judo"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 60,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0007",
+          "quote": "but I want you to have fun sweetie so Judo can play in the mud well it's up to Judo",
+          "start": 60,
+          "end": 69,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0007",
+          "quote": "but I want you to have fun sweetie so Judo can play in the mud well it's up to Judo",
+          "start": 60,
+          "end": 69,
+          "matchStart": 47,
+          "matchEnd": 51
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 73,
+      "end": 77,
+      "sentenceText": "Judo I'll be right",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 73,
+          "end": 77,
+          "text": "Judo I'll be right",
+          "originalText": "Judo I'll be right",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 73,
+              "end": 77,
+              "text": "Judo I'll be right"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 73,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 81,
+      "end": 88,
+      "sentenceText": "back why don't you want to play in the dirt with the girls I just don't want to Oh, go on! It's important to play and have fun.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 81,
+          "end": 88,
+          "text": "back why don't you want to play in the dirt with the girls I just don't want to Oh, go on! It's important to play and have fun.",
+          "originalText": "back why don't you want to play in the dirt with the girls I just don't want to oh go on it's important to play and have",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 81,
+              "end": 83,
+              "text": "back why don't you want to play in the"
+            },
+            {
+              "id": "c0022",
+              "start": 83,
+              "end": 86,
+              "text": "dirt with the girls I just don't want to"
+            },
+            {
+              "id": "c0023",
+              "start": 86,
+              "end": 88,
+              "text": "oh go on it's important to play and have"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 86,
+              "end": 88,
+              "text": "Oh, go on! It's important to play and have fun."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 81,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 83,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 86,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0009",
+          "quote": "back why don't you want to play in the dirt with the girls I just don't want to Oh, go on! It's important to play and have fun.",
+          "start": 81,
+          "end": 88,
+          "matchStart": 5,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0009",
+          "quote": "back why don't you want to play in the dirt with the girls I just don't want to Oh, go on! It's important to play and have fun.",
+          "start": 81,
+          "end": 88,
+          "matchStart": 19,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0009",
+          "quote": "back why don't you want to play in the dirt with the girls I just don't want to Oh, go on! It's important to play and have fun.",
+          "start": 81,
+          "end": 88,
+          "matchStart": 27,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "back why don't you want to play in the dirt with the girls I just don't want to Oh, go on! It's important to play and have fun.",
+          "start": 81,
+          "end": 88,
+          "matchStart": 9,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 88,
+      "end": 96,
+      "sentenceText": "But what about my long, lovely coat? coat it takes so long to clean oh yes I said that didn't",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 88,
+          "end": 96,
+          "text": "But what about my long, lovely coat? coat it takes so long to clean oh yes I said that didn't",
+          "originalText": "fun but what what about my long lovely coat it takes so long to clean oh yes I said that didn't",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 88,
+              "end": 90,
+              "text": "fun but what what about my long lovely"
+            },
+            {
+              "id": "c0025",
+              "start": 90,
+              "end": 94,
+              "text": "coat it takes so long to clean oh yes I"
+            },
+            {
+              "id": "c0026",
+              "start": 94,
+              "end": 96,
+              "text": "said that didn't"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0032",
+              "start": 88,
+              "end": 90,
+              "text": "But what about my long, lovely coat?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 88,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 90,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 94,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "But what about my long, lovely coat? coat it takes so long to clean oh yes I said that didn't",
+          "start": 88,
+          "end": 96,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0010",
+          "quote": "But what about my long, lovely coat? coat it takes so long to clean oh yes I said that didn't",
+          "start": 88,
+          "end": 96,
+          "matchStart": 71,
+          "matchEnd": 74
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 99,
+      "end": 105,
+      "sentenceText": "I oh fiddle sticks I'll be right back",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 99,
+          "end": 105,
+          "text": "I oh fiddle sticks I'll be right back",
+          "originalText": "I oh fiddle sticks I'll be right back",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 99,
+              "end": 105,
+              "text": "I oh fiddle sticks I'll be right back"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 99,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 112,
+      "end": 119,
+      "sentenceText": "sweetheart mom what are you doing I'm going short",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 112,
+          "end": 119,
+          "text": "sweetheart mom what are you doing I'm going short",
+          "originalText": "sweetheart mom what are you doing I'm going short",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 112,
+              "end": 115,
+              "text": "sweetheart mom what are you doing I'm"
+            },
+            {
+              "id": "c0029",
+              "start": 115,
+              "end": 119,
+              "text": "going short"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 115,
+              "end": 119,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0012",
+          "quote": "sweetheart mom what are you doing I'm going short",
+          "start": 112,
+          "end": 119,
+          "matchStart": 15,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

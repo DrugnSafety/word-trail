@@ -1,0 +1,47 @@
+# 70. Food! | Born Yesterday - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=XI7gHhuFYYQ
+- Length: 02:04
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:04
+
+---
+
+- `[00:00 - 00:01]` I like food.
+- `[00:01 - 00:03]` Thanks for the update,
+- `[00:03 - 00:05]` and stools can't talk.
+- `[00:05 - 00:08]` Kids, what have you done to your dad?
+- `[00:08 - 00:09]` He was born yesterday.
+- `[00:09 - 00:11]` He doesn't know anything.
+- `[00:11 - 00:12]` Are you alive?
+- `[00:12 - 00:13]` Yoo-hoo! Hi!
+- `[00:13 - 00:15]` I'm your wife.
+- `[00:15 - 00:16]` My wife?
+- `[00:16 - 00:19]` Yes, and if you want me to stay your wife,
+- `[00:19 - 00:21]` you'll learn about dishwashers.
+- `[00:21 - 00:24]` Dishwasher. Wife.
+- `[00:24 - 00:30]` Wow, there's just so much to learn.
+- `[00:30 - 00:32]` This is outside.
+- `[00:32 - 00:36]` You've got some grass and some wood,
+- `[00:37 - 00:38]` Look out!
+- `[00:38 - 00:39]` What is it?
+- `[00:39 - 00:42]` There's a giant fireball in the big blue thing.
+- `[00:42 - 00:45]` That's the sun. It's meant to be there.
+- `[00:45 - 00:48]` And the big blue thing is the sky.
+- `[00:48 - 00:51]` Oh, phew.
+- `[00:51 - 00:53]` This is a swing.
+- `[00:53 - 00:54]` Push me!
+- `[00:54 - 00:55]` Swing!
+- `[00:55 - 00:58]` The other way.
+- `[01:13 - 01:17]` Don't worry about the sun, it's meant to be there.
+- `[01:17 - 01:18]` Uh, okay.
+- `[01:18 - 01:20]` Oh, come on, Bandit, keep walking.
+- `[01:20 - 01:22]` I have a wife.
+- `[01:22 - 01:26]` Okay, Bandit, probably don't say things about the sun
+- `[01:26 - 01:28]` to people at bus stops.
+- `[01:28 - 01:29]` Yeah, why?
+- `[01:29 - 01:31]` Uh, it's hard to explain.
+- `[01:31 - 01:33]` Okay, I want food!
+- `[01:33 - 01:36]` Yeah, I got my steak and bacon.
+- `[01:36 - 01:40]` Oh, hey Bandit!
+- `[02:00 - 02:04]` Argh! My food!

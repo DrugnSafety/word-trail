@@ -1,0 +1,1907 @@
+{
+  "id": "video-15",
+  "number": 15,
+  "title": "Bandishwasher! | Fairytale - Series 3 | Bluey",
+  "duration": 126,
+  "declaredDuration": 126,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=Ka3vyVEaoTg",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/15_Bandishwasher!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/15_Bandishwasher!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Bandishwasher! | Fairytale - Series 3 | Bluey",
+      "start": 0,
+      "end": 125,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 7,
+      "sentenceText": "The only thing that could break the curse was if someone said your name. Do you want me to say your name?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 7,
+          "text": "The only thing that could break the curse was if someone said your name. Do you want me to say your name?",
+          "originalText": "the only thing that could break the curse was if someone said your name do you want me to say your name",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "text": "the only thing that could break the"
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 4,
+              "text": "curse was if someone said your name"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "do you want me to say your name"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "text": "The only thing that could break the curse"
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 4,
+              "text": "was if someone said your name."
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "Do you want me to say your name?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0001",
+          "quote": "The only thing that could break the curse was if someone said your name. Do you want me to say your name?",
+          "start": 0,
+          "end": 7,
+          "matchStart": 80,
+          "matchEnd": 84
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 7,
+      "end": 13,
+      "sentenceText": "Okay. Can't you just say your own name?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 7,
+          "end": 13,
+          "text": "Okay. Can't you just say your own name?",
+          "originalText": "okay can't you just say your own name no",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 10,
+              "text": "okay"
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "text": "can't you just say your own name no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 10,
+              "text": "Okay."
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "text": "Can't you just say your own name?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "Okay. Can't you just say your own name?",
+          "start": 7,
+          "end": 13,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 13,
+      "end": 27,
+      "sentenceText": "you're not allowed to speak what happens if you do speak oh well look i shouldn't tell you but what that's terrible i told you the 80s was a wild place anyway being cursed was",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 13,
+          "end": 27,
+          "text": "you're not allowed to speak what happens if you do speak oh well look i shouldn't tell you but what that's terrible i told you the 80s was a wild place anyway being cursed was",
+          "originalText": "you're not allowed to speak what happens if you do speak oh well look i shouldn't tell you but what that's terrible i told you the 80s was a wild place anyway being cursed was",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 15,
+              "text": "you're not allowed to speak what happens"
+            },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 19,
+              "text": "if you do speak oh well look i shouldn't"
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 21,
+              "text": "tell you but"
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "text": "what that's terrible i told you the 80s"
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 27,
+              "text": "was a wild place anyway being cursed was"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "you're not allowed to speak what happens if you do speak oh well look i shouldn't tell you but what that's terrible i told you the 80s was a wild place anyway being cursed was",
+          "start": 13,
+          "end": 27,
+          "matchStart": 28,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0003",
+          "quote": "you're not allowed to speak what happens if you do speak oh well look i shouldn't tell you but what that's terrible i told you the 80s was a wild place anyway being cursed was",
+          "start": 13,
+          "end": 27,
+          "matchStart": 65,
+          "matchEnd": 69
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 27,
+      "end": 37,
+      "sentenceText": "not a lot of fun when you're on holiday kids do you want your fish batted or crumb battered battered what about you Come on, speak up. He wants crumbed.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 27,
+          "end": 37,
+          "text": "not a lot of fun when you're on holiday kids do you want your fish batted or crumb battered battered what about you Come on, speak up. He wants crumbed.",
+          "originalText": "not a lot of fun when you're on holiday kids do you want your fish batted or crumb battered battered what about you come on speak up he wants crumbs okay",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 29,
+              "text": "not a lot of fun when you're on holiday"
+            },
+            {
+              "id": "c0012",
+              "start": 29,
+              "end": 31,
+              "text": "kids do you want your fish batted or"
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "text": "crumb battered battered what about you"
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 37,
+              "text": "come on speak up he wants crumbs okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0018",
+              "start": 34,
+              "end": 36,
+              "text": "Come on, speak up."
+            },
+            {
+              "id": "c0019",
+              "start": 36,
+              "end": 37,
+              "text": "He wants crumbed."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 29,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0004",
+          "quote": "not a lot of fun when you're on holiday kids do you want your fish batted or crumb battered battered what about you Come on, speak up. He wants crumbed.",
+          "start": 27,
+          "end": 37,
+          "matchStart": 116,
+          "matchEnd": 123
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0004",
+          "quote": "not a lot of fun when you're on holiday kids do you want your fish batted or crumb battered battered what about you Come on, speak up. He wants crumbed.",
+          "start": 27,
+          "end": 37,
+          "matchStart": 52,
+          "matchEnd": 56
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "not a lot of fun when you're on holiday kids do you want your fish batted or crumb battered battered what about you Come on, speak up. He wants crumbed.",
+          "start": 27,
+          "end": 37,
+          "matchStart": 101,
+          "matchEnd": 105
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 37,
+      "end": 43,
+      "sentenceText": "He loves crumbed. Don't you, Bandishwasher?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 37,
+          "end": 43,
+          "text": "He loves crumbed. Don't you, Bandishwasher?",
+          "originalText": "he loves crumbs don't you ban dishwasher",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 43,
+              "text": "he loves crumbs don't you ban dishwasher"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 37,
+              "end": 40,
+              "text": "He loves crumbed."
+            },
+            {
+              "id": "c0022",
+              "start": 40,
+              "end": 43,
+              "text": "Don't you, Bandishwasher?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "He loves crumbed. Don't you, Bandishwasher?",
+          "start": 37,
+          "end": 43,
+          "matchStart": 18,
+          "matchEnd": 23
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 43,
+      "end": 48,
+      "sentenceText": "Ugh! I hated crumbed. Who ate all the mini cereals?!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 43,
+          "end": 48,
+          "text": "Ugh! I hated crumbed. Who ate all the mini cereals?!",
+          "originalText": "i hate it crammed who ate all the mini cereals easy",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 45,
+              "text": "i hate it crammed"
+            },
+            {
+              "id": "c0017",
+              "start": 45,
+              "end": 48,
+              "text": "who ate all the mini cereals easy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 43,
+              "end": 45,
+              "text": "Ugh! I hated crumbed."
+            },
+            {
+              "id": "c0024",
+              "start": 45,
+              "end": 48,
+              "text": "Who ate all the mini cereals?!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ugh",
+          "cueId": "c0006",
+          "quote": "Ugh! I hated crumbed. Who ate all the mini cereals?!",
+          "start": 43,
+          "end": 48,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 48,
+      "end": 54,
+      "sentenceText": "Right, you! Get over here! Gee, Nana was a bit mean. Yeah, it was the '80s.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 48,
+          "end": 54,
+          "text": "Right, you! Get over here! Gee, Nana was a bit mean. Yeah, it was the '80s.",
+          "originalText": "right gil get over here gee nana was a bit mean yeah it was the",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 51,
+              "text": "right gil get over here"
+            },
+            {
+              "id": "c0019",
+              "start": 51,
+              "end": 54,
+              "text": "gee nana was a bit mean yeah it was the"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 48,
+              "end": 51,
+              "text": "Right, you! Get over here!"
+            },
+            {
+              "id": "c0027",
+              "start": 51,
+              "end": 53,
+              "text": "Gee, Nana was a bit mean."
+            },
+            {
+              "id": "c0028",
+              "start": 53,
+              "end": 54,
+              "text": "Yeah, it was the '80s."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 51,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 54,
+      "end": 64,
+      "sentenceText": "Mums were allowed to be mean, weren't much help either let's see who can shout the loudest okay Kids, keep it down!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 54,
+          "end": 64,
+          "text": "Mums were allowed to be mean, weren't much help either let's see who can shout the loudest okay Kids, keep it down!",
+          "originalText": "80s mums were allowed to be me and dads weren't much help either let's see who can shout the loudest okay kids keep it down",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 54,
+              "end": 56,
+              "text": "80s mums were allowed to be me and dads"
+            },
+            {
+              "id": "c0021",
+              "start": 56,
+              "end": 58,
+              "text": "weren't much help either let's see who"
+            },
+            {
+              "id": "c0022",
+              "start": 58,
+              "end": 61,
+              "text": "can shout the loudest okay"
+            },
+            {
+              "id": "c0023",
+              "start": 61,
+              "end": 64,
+              "text": "kids keep it down"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 54,
+              "end": 56,
+              "text": "Mums were allowed to be mean,"
+            },
+            {
+              "id": "c0033",
+              "start": 61,
+              "end": 64,
+              "text": "Kids, keep it down!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 58,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 61,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "help",
+          "cueId": "c0008",
+          "quote": "Mums were allowed to be mean, weren't much help either let's see who can shout the loudest okay Kids, keep it down!",
+          "start": 54,
+          "end": 64,
+          "matchStart": 43,
+          "matchEnd": 47
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0008",
+          "quote": "Mums were allowed to be mean, weren't much help either let's see who can shout the loudest okay Kids, keep it down!",
+          "start": 54,
+          "end": 64,
+          "matchStart": 55,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0008",
+          "quote": "Mums were allowed to be mean, weren't much help either let's see who can shout the loudest okay Kids, keep it down!",
+          "start": 54,
+          "end": 64,
+          "matchStart": 61,
+          "matchEnd": 64
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "Mums were allowed to be mean, weren't much help either let's see who can shout the loudest okay Kids, keep it down!",
+          "start": 54,
+          "end": 64,
+          "matchStart": 91,
+          "matchEnd": 95
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 64,
+      "end": 70,
+      "sentenceText": "What do you want, Stripe? Uh... Rad, uh... Gerald... Agh! Whatever your name is!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 64,
+          "end": 70,
+          "text": "What do you want, Stripe? Uh... Rad, uh... Gerald... Agh! Whatever your name is!",
+          "originalText": "what do you want stripe uh brad da gerald ah whatever your name is",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 64,
+              "end": 67,
+              "text": "what do you want stripe uh brad da"
+            },
+            {
+              "id": "c0025",
+              "start": 67,
+              "end": 70,
+              "text": "gerald ah whatever your name is"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0034",
+              "start": 64,
+              "end": 66,
+              "text": "What do you want, Stripe?"
+            },
+            {
+              "id": "c0035",
+              "start": 66,
+              "end": 67,
+              "text": "Uh... Rad, uh..."
+            },
+            {
+              "id": "c0036",
+              "start": 67,
+              "end": 68,
+              "text": "Gerald... Agh!"
+            },
+            {
+              "id": "c0037",
+              "start": 68,
+              "end": 70,
+              "text": "Whatever your name is!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 64,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 67,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "What do you want, Stripe? Uh... Rad, uh... Gerald... Agh! Whatever your name is!",
+          "start": 64,
+          "end": 70,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0009",
+          "quote": "What do you want, Stripe? Uh... Rad, uh... Gerald... Agh! Whatever your name is!",
+          "start": 64,
+          "end": 70,
+          "matchStart": 12,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 70,
+      "end": 79,
+      "sentenceText": "What are you on about? about rad jinxed him he can't talk until someone says his name all right so you to say your name so you can talk again.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 70,
+          "end": 79,
+          "text": "What are you on about? about rad jinxed him he can't talk until someone says his name all right so you to say your name so you can talk again.",
+          "originalText": "what are you all about what's he all about rad jinxed him he can't talk until someone says his name all right so you want me to say your name so you can talk",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 70,
+              "end": 71,
+              "text": "what are you all about what's he all"
+            },
+            {
+              "id": "c0027",
+              "start": 71,
+              "end": 74,
+              "text": "about rad jinxed him he can't talk until"
+            },
+            {
+              "id": "c0028",
+              "start": 74,
+              "end": 77,
+              "text": "someone says his name all right so you"
+            },
+            {
+              "id": "c0029",
+              "start": 77,
+              "end": 79,
+              "text": "want me to say your name so you can talk"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 70,
+              "end": 71,
+              "text": "What are you on about?"
+            },
+            {
+              "id": "c0043",
+              "start": 77,
+              "end": 79,
+              "text": "to say your name so you can talk again."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 70,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 71,
+              "end": 74,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 74,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 77,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0010",
+          "quote": "What are you on about? about rad jinxed him he can't talk until someone says his name all right so you to say your name so you can talk again.",
+          "start": 70,
+          "end": 79,
+          "matchStart": 86,
+          "matchEnd": 95
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "What are you on about? about rad jinxed him he can't talk until someone says his name all right so you to say your name so you can talk again.",
+          "start": 70,
+          "end": 79,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0010",
+          "quote": "What are you on about? about rad jinxed him he can't talk until someone says his name all right so you to say your name so you can talk again.",
+          "start": 70,
+          "end": 79,
+          "matchStart": 136,
+          "matchEnd": 141
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 79,
+      "end": 86,
+      "sentenceText": "again well you're dreaming mate you know what i call this i call it a good start How do I jinx it so none of you can talk?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 79,
+          "end": 86,
+          "text": "again well you're dreaming mate you know what i call this i call it a good start How do I jinx it so none of you can talk?",
+          "originalText": "again well you're dreaming mate you know what i call this i call it a good start how do i jinx it so none of you can talk",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 79,
+              "end": 81,
+              "text": "again well you're dreaming mate you know"
+            },
+            {
+              "id": "c0031",
+              "start": 81,
+              "end": 84,
+              "text": "what i call this i call it a good start"
+            },
+            {
+              "id": "c0032",
+              "start": 84,
+              "end": 86,
+              "text": "how do i jinx it so none of you can talk"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0047",
+              "start": 84,
+              "end": 85,
+              "text": "How do I jinx it"
+            },
+            {
+              "id": "c0048",
+              "start": 85,
+              "end": 86,
+              "text": "so none of you can talk?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 79,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 81,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 84,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0011",
+          "quote": "again well you're dreaming mate you know what i call this i call it a good start How do I jinx it so none of you can talk?",
+          "start": 79,
+          "end": 86,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0011",
+          "quote": "again well you're dreaming mate you know what i call this i call it a good start How do I jinx it so none of you can talk?",
+          "start": 79,
+          "end": 86,
+          "matchStart": 36,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "again well you're dreaming mate you know what i call this i call it a good start How do I jinx it so none of you can talk?",
+          "start": 79,
+          "end": 86,
+          "matchStart": 41,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0011",
+          "quote": "again well you're dreaming mate you know what i call this i call it a good start How do I jinx it so none of you can talk?",
+          "start": 79,
+          "end": 86,
+          "matchStart": 70,
+          "matchEnd": 74
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0011",
+          "quote": "again well you're dreaming mate you know what i call this i call it a good start How do I jinx it so none of you can talk?",
+          "start": 79,
+          "end": 86,
+          "matchStart": 81,
+          "matchEnd": 84
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 86,
+      "end": 92,
+      "sentenceText": "Dad! Is it like this? I was never going to talk again.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 86,
+          "end": 92,
+          "text": "Dad! Is it like this? I was never going to talk again.",
+          "originalText": "dad is it like this i was never going to talk again no one",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 86,
+              "end": 90,
+              "text": "dad is it like this"
+            },
+            {
+              "id": "c0034",
+              "start": 90,
+              "end": 92,
+              "text": "i was never going to talk again no one"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0049",
+              "start": 86,
+              "end": 87,
+              "text": "Dad!"
+            },
+            {
+              "id": "c0050",
+              "start": 87,
+              "end": 90,
+              "text": "Is it like this?"
+            },
+            {
+              "id": "c0051",
+              "start": 90,
+              "end": 92,
+              "text": "I was never going to talk again."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 86,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0012",
+          "quote": "Dad! Is it like this? I was never going to talk again.",
+          "start": 86,
+          "end": 92,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0012",
+          "quote": "Dad! Is it like this? I was never going to talk again.",
+          "start": 86,
+          "end": 92,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0012",
+          "quote": "Dad! Is it like this? I was never going to talk again.",
+          "start": 86,
+          "end": 92,
+          "matchStart": 48,
+          "matchEnd": 53
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 92,
+      "end": 100,
+      "sentenceText": "was going to say my name i'm not going to say your name I think this will do you some good.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 92,
+          "end": 100,
+          "text": "was going to say my name i'm not going to say your name I think this will do you some good.",
+          "originalText": "was going to say my name i'm not going to say your name i think this will do you some good all",
+          "originalCueRefs": [
+            {
+              "id": "c0035",
+              "start": 92,
+              "end": 95,
+              "text": "was going to say my name i'm not going"
+            },
+            {
+              "id": "c0036",
+              "start": 95,
+              "end": 97,
+              "text": "to say your name"
+            },
+            {
+              "id": "c0037",
+              "start": 97,
+              "end": 100,
+              "text": "i think this will do you some good all"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0054",
+              "start": 97,
+              "end": 100,
+              "text": "I think this will do you some good."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0035",
+              "start": 92,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 95,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 97,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0013",
+          "quote": "was going to say my name i'm not going to say your name I think this will do you some good.",
+          "start": 92,
+          "end": 100,
+          "matchStart": 58,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0013",
+          "quote": "was going to say my name i'm not going to say your name I think this will do you some good.",
+          "start": 92,
+          "end": 100,
+          "matchStart": 86,
+          "matchEnd": 90
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 100,
+      "end": 105,
+      "sentenceText": "holiday you've been mean to your little brother You can't tick-tack, Stripe!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 100,
+          "end": 105,
+          "text": "holiday you've been mean to your little brother You can't tick-tack, Stripe!",
+          "originalText": "holiday you've been mean to your little brother you can't tic tacs right",
+          "originalCueRefs": [
+            {
+              "id": "c0038",
+              "start": 100,
+              "end": 102,
+              "text": "holiday you've been mean to your little"
+            },
+            {
+              "id": "c0039",
+              "start": 102,
+              "end": 103,
+              "text": "brother"
+            },
+            {
+              "id": "c0040",
+              "start": 103,
+              "end": 105,
+              "text": "you can't tic tacs right"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0056",
+              "start": 103,
+              "end": 105,
+              "text": "You can't tick-tack, Stripe!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0038",
+              "start": 100,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 102,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 103,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "little",
+          "cueId": "c0014",
+          "quote": "holiday you've been mean to your little brother You can't tick-tack, Stripe!",
+          "start": 100,
+          "end": 105,
+          "matchStart": 33,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "brother",
+          "cueId": "c0014",
+          "quote": "holiday you've been mean to your little brother You can't tick-tack, Stripe!",
+          "start": 100,
+          "end": 105,
+          "matchStart": 40,
+          "matchEnd": 47
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 105,
+      "end": 118,
+      "sentenceText": "it's my turn now now it isn't a nice stack This is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 105,
+          "end": 118,
+          "text": "it's my turn now now it isn't a nice stack This is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+          "originalText": "it's my turn now now it isn't a nice stack this is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+          "originalCueRefs": [
+            {
+              "id": "c0041",
+              "start": 105,
+              "end": 109,
+              "text": "it's my turn now now it isn't"
+            },
+            {
+              "id": "c0042",
+              "start": 109,
+              "end": 110,
+              "text": "a nice stack"
+            },
+            {
+              "id": "c0043",
+              "start": 110,
+              "end": 112,
+              "text": "this is a chance for you to have a good"
+            },
+            {
+              "id": "c0044",
+              "start": 112,
+              "end": 115,
+              "text": "think about it nana was right not about"
+            },
+            {
+              "id": "c0045",
+              "start": 115,
+              "end": 117,
+              "text": "a perm but about me"
+            },
+            {
+              "id": "c0046",
+              "start": 117,
+              "end": 118,
+              "text": "i hadn't been a very good brother to"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0060",
+              "start": 110,
+              "end": 112,
+              "text": "This is a chance for you to have a good"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0041",
+              "start": 105,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 109,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            },
+            {
+              "id": "c0045",
+              "start": 115,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            },
+            {
+              "id": "c0046",
+              "start": 117,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "turn",
+          "cueId": "c0015",
+          "quote": "it's my turn now now it isn't a nice stack This is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+          "start": 105,
+          "end": 118,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0015",
+          "quote": "it's my turn now now it isn't a nice stack This is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+          "start": 105,
+          "end": 118,
+          "matchStart": 32,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0015",
+          "quote": "it's my turn now now it isn't a nice stack This is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+          "start": 105,
+          "end": 118,
+          "matchStart": 78,
+          "matchEnd": 82
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0015",
+          "quote": "it's my turn now now it isn't a nice stack This is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+          "start": 105,
+          "end": 118,
+          "matchStart": 83,
+          "matchEnd": 88
+        },
+        {
+          "expressionId": "brother",
+          "cueId": "c0015",
+          "quote": "it's my turn now now it isn't a nice stack This is a chance for you to have a good think about it nana was right not about a perm but about me i hadn't been a very good brother to",
+          "start": 105,
+          "end": 118,
+          "matchStart": 169,
+          "matchEnd": 176
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 118,
+      "end": 125,
+      "sentenceText": "stripe I deserved to be cursed.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 118,
+          "end": 125,
+          "text": "stripe I deserved to be cursed.",
+          "originalText": "stripe i deserve to be cursed",
+          "originalCueRefs": [
+            {
+              "id": "c0047",
+              "start": 118,
+              "end": 121,
+              "text": "stripe"
+            },
+            {
+              "id": "c0048",
+              "start": 121,
+              "end": 125,
+              "text": "i deserve to be cursed"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0065",
+              "start": 121,
+              "end": 125,
+              "text": "I deserved to be cursed."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0047",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            },
+            {
+              "id": "c0048",
+              "start": 121,
+              "end": 125,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0048"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

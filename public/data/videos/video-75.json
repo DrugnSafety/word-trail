@@ -1,0 +1,1499 @@
+{
+  "id": "video-75",
+  "number": 75,
+  "title": "Bluey Doesn't Know What to Eat! 😆 🍽️ 💙 | Season 3 Highlight ⭐️ | Bluey",
+  "duration": 73,
+  "declaredDuration": 73,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=rrfagQ33mdw",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/75_Bluey Doesn't Know What to Eat!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/75_Bluey Doesn't Know What to Eat!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text",
+    "contains-non-spoken-annotation-removal"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Bluey Doesn't Know What to Eat! 😆 🍽️ 💙 | Season 3 Highlight ⭐️ | Bluey",
+      "start": 0,
+      "end": 72,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 9,
+      "sentenceText": "Dad, we're back. Come on, Blowy. I have to get dinner started.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 9,
+          "text": "Dad, we're back. Come on, Blowy. I have to get dinner started.",
+          "originalText": "Dad, we're back. >> Come on, Blowy. I have to get dinner started.",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "Dad, we're back."
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": ">> Come on, Blowy. I have to get dinner"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "text": "started."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "Dad, we're back."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0001",
+          "quote": "Dad, we're back. Come on, Blowy. I have to get dinner started.",
+          "start": 0,
+          "end": 9,
+          "matchStart": 17,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "have-to",
+          "cueId": "c0001",
+          "quote": "Dad, we're back. Come on, Blowy. I have to get dinner started.",
+          "start": 0,
+          "end": 9,
+          "matchStart": 35,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "Dad, we're back. Come on, Blowy. I have to get dinner started.",
+          "start": 0,
+          "end": 9,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 12,
+      "end": 20,
+      "sentenceText": "Dad? Hey, Bingo. Can you play Crazy Pillow with me? I'd love to, kid, but I've been sitting down all day. I just need to go for a run.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 12,
+          "end": 20,
+          "text": "Dad? Hey, Bingo. Can you play Crazy Pillow with me? I'd love to, kid, but I've been sitting down all day. I just need to go for a run.",
+          "originalText": ">> Dad. >> Hey, Bingo. >> Can you play Crazy Pillow with me? >> I'd love to, kid, but I've been sitting down all day. I just need to go for a run.",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 13,
+              "text": ">> Dad."
+            },
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 14,
+              "text": ">> Hey, Bingo."
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "text": ">> Can you play Crazy Pillow with me?"
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 17,
+              "text": ">> I'd love to, kid, but I've been sitting"
+            },
+            {
+              "id": "c0008",
+              "start": 17,
+              "end": 19,
+              "text": "down all day. I just need to go for a"
+            },
+            {
+              "id": "c0009",
+              "start": 19,
+              "end": 20,
+              "text": "run."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 12,
+              "end": 13,
+              "text": "Dad?"
+            },
+            {
+              "id": "c0004",
+              "start": 13,
+              "end": 14,
+              "text": "Hey, Bingo."
+            },
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 16,
+              "text": "Can you play Crazy Pillow with me?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 16,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 17,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 19,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0002",
+          "quote": "Dad? Hey, Bingo. Can you play Crazy Pillow with me? I'd love to, kid, but I've been sitting down all day. I just need to go for a run.",
+          "start": 12,
+          "end": 20,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0002",
+          "quote": "Dad? Hey, Bingo. Can you play Crazy Pillow with me? I'd love to, kid, but I've been sitting down all day. I just need to go for a run.",
+          "start": 12,
+          "end": 20,
+          "matchStart": 25,
+          "matchEnd": 29
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0002",
+          "quote": "Dad? Hey, Bingo. Can you play Crazy Pillow with me? I'd love to, kid, but I've been sitting down all day. I just need to go for a run.",
+          "start": 12,
+          "end": 20,
+          "matchStart": 56,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0002",
+          "quote": "Dad? Hey, Bingo. Can you play Crazy Pillow with me? I'd love to, kid, but I've been sitting down all day. I just need to go for a run.",
+          "start": 12,
+          "end": 20,
+          "matchStart": 113,
+          "matchEnd": 117
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 20,
+      "end": 25,
+      "sentenceText": "Oh... Oh... I'll play with you after dinner. Okay? Yay! Yay! No, we're having a bath after dinner. Wow.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 20,
+          "end": 25,
+          "text": "Oh... Oh... I'll play with you after dinner. Okay? Yay! Yay! No, we're having a bath after dinner. Wow.",
+          "originalText": ">> Oh, >> I'll play with you after dinner. Okay. >> Yay. >> No, we're having a bath after dinner. >> Wow.",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 20,
+              "end": 21,
+              "text": ">> Oh,"
+            },
+            {
+              "id": "c0011",
+              "start": 20,
+              "end": 22,
+              "text": ">> I'll play with you after dinner. Okay."
+            },
+            {
+              "id": "c0012",
+              "start": 22,
+              "end": 23,
+              "text": ">> Yay."
+            },
+            {
+              "id": "c0013",
+              "start": 22,
+              "end": 24,
+              "text": ">> No, we're having a bath after dinner."
+            },
+            {
+              "id": "c0014",
+              "start": 24,
+              "end": 25,
+              "text": ">> Wow."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 20,
+              "end": 21,
+              "text": "Oh..."
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 22,
+              "text": "I'll play with you after dinner. Okay?"
+            },
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 23,
+              "text": "Yay!"
+            },
+            {
+              "id": "c0011",
+              "start": 23,
+              "end": 24,
+              "text": "No, we're having a bath after dinner."
+            },
+            {
+              "id": "c0012",
+              "start": 24,
+              "end": 25,
+              "text": "Wow."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 20,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 20,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 22,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 22,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 24,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "play",
+          "cueId": "c0003",
+          "quote": "Oh... Oh... I'll play with you after dinner. Okay? Yay! Yay! No, we're having a bath after dinner. Wow.",
+          "start": 20,
+          "end": 25,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "Oh... Oh... I'll play with you after dinner. Okay? Yay! Yay! No, we're having a bath after dinner. Wow.",
+          "start": 20,
+          "end": 25,
+          "matchStart": 45,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "Oh... Oh... I'll play with you after dinner. Okay? Yay! Yay! No, we're having a bath after dinner. Wow.",
+          "start": 20,
+          "end": 25,
+          "matchStart": 61,
+          "matchEnd": 63
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 25,
+      "end": 31,
+      "sentenceText": "Well, Crazy Pillow will have to wait for the weekend. Will there ever be a time when the weekend is forever?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 25,
+          "end": 31,
+          "text": "Well, Crazy Pillow will have to wait for the weekend. Will there ever be a time when the weekend is forever?",
+          "originalText": ">> Well, Crazy Pillow will have to wait for the weekend. Will there ever be a time when the weekend is forever?",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 25,
+              "end": 27,
+              "text": ">> Well, Crazy Pillow will have to wait for"
+            },
+            {
+              "id": "c0016",
+              "start": 27,
+              "end": 29,
+              "text": "the weekend. Will there ever be a time"
+            },
+            {
+              "id": "c0017",
+              "start": 29,
+              "end": 31,
+              "text": "when the weekend is forever?"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 25,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 27,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 29,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0004",
+          "quote": "Well, Crazy Pillow will have to wait for the weekend. Will there ever be a time when the weekend is forever?",
+          "start": 25,
+          "end": 31,
+          "matchStart": 24,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0004",
+          "quote": "Well, Crazy Pillow will have to wait for the weekend. Will there ever be a time when the weekend is forever?",
+          "start": 25,
+          "end": 31,
+          "matchStart": 32,
+          "matchEnd": 36
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 31,
+      "end": 36,
+      "sentenceText": "Um... Dinner. Dinner. What's for dinner? Cereal.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 31,
+          "end": 36,
+          "text": "Um... Dinner. Dinner. What's for dinner? Cereal.",
+          "originalText": ">> Um, >> dinner. Dinner. What's for dinner? >> Cereal.",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 31,
+              "end": 32,
+              "text": ">> Um,"
+            },
+            {
+              "id": "c0019",
+              "start": 32,
+              "end": 35,
+              "text": ">> dinner. Dinner. What's for dinner?"
+            },
+            {
+              "id": "c0020",
+              "start": 35,
+              "end": 36,
+              "text": ">> Cereal."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 31,
+              "end": 32,
+              "text": "Um..."
+            },
+            {
+              "id": "c0016",
+              "start": 32,
+              "end": 35,
+              "text": "Dinner. Dinner. What's for dinner?"
+            },
+            {
+              "id": "c0017",
+              "start": 35,
+              "end": 36,
+              "text": "Cereal."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 31,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 32,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 35,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "Um... Dinner. Dinner. What's for dinner? Cereal.",
+          "start": 31,
+          "end": 36,
+          "matchStart": 22,
+          "matchEnd": 26
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 36,
+      "end": 41,
+      "sentenceText": "You can't have cereal for dinner. Oh... I know. Meatballs, right? Meatballs.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 36,
+          "end": 41,
+          "text": "You can't have cereal for dinner. Oh... I know. Meatballs, right? Meatballs.",
+          "originalText": ">> You can't have cereal for dinner. >> Oh, >> I know. Meatballs, >> right? Meatballs.",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 36,
+              "end": 38,
+              "text": ">> You can't have cereal for dinner."
+            },
+            {
+              "id": "c0022",
+              "start": 38,
+              "end": 39,
+              "text": ">> Oh,"
+            },
+            {
+              "id": "c0023",
+              "start": 39,
+              "end": 40,
+              "text": ">> I know. Meatballs,"
+            },
+            {
+              "id": "c0024",
+              "start": 40,
+              "end": 41,
+              "text": ">> right? Meatballs."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0018",
+              "start": 36,
+              "end": 38,
+              "text": "You can't have cereal for dinner."
+            },
+            {
+              "id": "c0019",
+              "start": 38,
+              "end": 39,
+              "text": "Oh..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 36,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 38,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 39,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 40,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0006",
+          "quote": "You can't have cereal for dinner. Oh... I know. Meatballs, right? Meatballs.",
+          "start": 36,
+          "end": 41,
+          "matchStart": 42,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 41,
+      "end": 47,
+      "sentenceText": "I don't want meatballs. Bluey, you love meatballs.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 41,
+          "end": 47,
+          "text": "I don't want meatballs. Bluey, you love meatballs.",
+          "originalText": ">> I don't want meatballs. >> Bluey, you love meatballs.",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 41,
+              "end": 43,
+              "text": ">> I don't want meatballs."
+            },
+            {
+              "id": "c0026",
+              "start": 43,
+              "end": 47,
+              "text": ">> Bluey, you love meatballs."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 41,
+              "end": 43,
+              "text": "I don't want meatballs."
+            },
+            {
+              "id": "c0023",
+              "start": 43,
+              "end": 47,
+              "text": "Bluey, you love meatballs."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 41,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 43,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0007",
+          "quote": "I don't want meatballs. Bluey, you love meatballs.",
+          "start": 41,
+          "end": 47,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0007",
+          "quote": "I don't want meatballs. Bluey, you love meatballs.",
+          "start": 41,
+          "end": 47,
+          "matchStart": 35,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0007",
+          "quote": "I don't want meatballs. Bluey, you love meatballs.",
+          "start": 41,
+          "end": 47,
+          "matchStart": 2,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 47,
+      "end": 52,
+      "sentenceText": "Well, then what do you want? I don't know what I want, but I know I want something.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 47,
+          "end": 52,
+          "text": "Well, then what do you want? I don't know what I want, but I know I want something.",
+          "originalText": ">> Well, then what do you want? >> I don't know what I want, but I know I want something.",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 47,
+              "end": 48,
+              "text": ">> Well, then what do you want?"
+            },
+            {
+              "id": "c0028",
+              "start": 48,
+              "end": 50,
+              "text": ">> I don't know what I want, but I know I"
+            },
+            {
+              "id": "c0029",
+              "start": 50,
+              "end": 52,
+              "text": "want something."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 47,
+              "end": 48,
+              "text": "Well, then what do you want?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 47,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 50,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0008",
+          "quote": "Well, then what do you want? I don't know what I want, but I know I want something.",
+          "start": 47,
+          "end": 52,
+          "matchStart": 29,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "Well, then what do you want? I don't know what I want, but I know I want something.",
+          "start": 47,
+          "end": 52,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0008",
+          "quote": "Well, then what do you want? I don't know what I want, but I know I want something.",
+          "start": 47,
+          "end": 52,
+          "matchStart": 23,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0008",
+          "quote": "Well, then what do you want? I don't know what I want, but I know I want something.",
+          "start": 47,
+          "end": 52,
+          "matchStart": 37,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0008",
+          "quote": "Well, then what do you want? I don't know what I want, but I know I want something.",
+          "start": 47,
+          "end": 52,
+          "matchStart": 31,
+          "matchEnd": 36
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 52,
+      "end": 58,
+      "sentenceText": "I could use some help here. Babe, I have to move my body. Like you could call it a forever weekend.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 52,
+          "end": 58,
+          "text": "I could use some help here. Babe, I have to move my body. Like you could call it a forever weekend.",
+          "originalText": ">> I could use some help here. >> Babe, I have to move my body. Like you could call it a forever weekend.",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 52,
+              "end": 53,
+              "text": ">> I could use some help here."
+            },
+            {
+              "id": "c0031",
+              "start": 53,
+              "end": 56,
+              "text": ">> Babe, I have to move my body. Like you"
+            },
+            {
+              "id": "c0032",
+              "start": 56,
+              "end": 58,
+              "text": "could call it a forever weekend."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 52,
+              "end": 53,
+              "text": "I could use some help here."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 52,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0009",
+          "quote": "I could use some help here. Babe, I have to move my body. Like you could call it a forever weekend.",
+          "start": 52,
+          "end": 58,
+          "matchStart": 36,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0009",
+          "quote": "I could use some help here. Babe, I have to move my body. Like you could call it a forever weekend.",
+          "start": 52,
+          "end": 58,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0009",
+          "quote": "I could use some help here. Babe, I have to move my body. Like you could call it a forever weekend.",
+          "start": 52,
+          "end": 58,
+          "matchStart": 58,
+          "matchEnd": 62
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 58,
+      "end": 63,
+      "sentenceText": "Spaghetti. Ew! That's it, everyone stop!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 58,
+          "end": 63,
+          "text": "Spaghetti. Ew! That's it, everyone stop!",
+          "originalText": ">> Spaghetti. >> See you. >> That's it. Everyone stop.",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 58,
+              "end": 60,
+              "text": ">> Spaghetti."
+            },
+            {
+              "id": "c0034",
+              "start": 60,
+              "end": 61,
+              "text": ">> See you."
+            },
+            {
+              "id": "c0035",
+              "start": 61,
+              "end": 63,
+              "text": ">> That's it. Everyone stop."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 58,
+              "end": 60,
+              "text": "Spaghetti."
+            },
+            {
+              "id": "c0030",
+              "start": 60,
+              "end": 61,
+              "text": "Ew!"
+            },
+            {
+              "id": "c0031",
+              "start": 61,
+              "end": 63,
+              "text": "That's it, everyone stop!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 60,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 61,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0010",
+          "quote": "Spaghetti. Ew! That's it, everyone stop!",
+          "start": 58,
+          "end": 63,
+          "matchStart": 15,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0010",
+          "quote": "Spaghetti. Ew! That's it, everyone stop!",
+          "start": 58,
+          "end": 63,
+          "matchStart": 35,
+          "matchEnd": 39
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 63,
+      "end": 72,
+      "sentenceText": "Huh? Huh? What? We're playing musical statues. Hooray! Musical statues!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 63,
+          "end": 72,
+          "text": "Huh? Huh? What? We're playing musical statues. Hooray! Musical statues!",
+          "originalText": ">> Huh? >> Including you. >> What? >> We're playing musical statues. >> Hooray. Musical statues.",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 63,
+              "end": 64,
+              "text": ">> Huh?"
+            },
+            {
+              "id": "c0037",
+              "start": 63,
+              "end": 64,
+              "text": ">> Including you."
+            },
+            {
+              "id": "c0038",
+              "start": 64,
+              "end": 65,
+              "text": ">> What?"
+            },
+            {
+              "id": "c0039",
+              "start": 65,
+              "end": 68,
+              "text": ">> We're playing musical statues."
+            },
+            {
+              "id": "c0040",
+              "start": 68,
+              "end": 72,
+              "text": ">> Hooray. Musical statues."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0032",
+              "start": 63,
+              "end": 64,
+              "text": "Huh?"
+            },
+            {
+              "id": "c0034",
+              "start": 64,
+              "end": 65,
+              "text": "What?"
+            },
+            {
+              "id": "c0035",
+              "start": 65,
+              "end": 68,
+              "text": "We're playing musical statues."
+            },
+            {
+              "id": "c0036",
+              "start": 68,
+              "end": 72,
+              "text": "Hooray! Musical statues!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 63,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 63,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 64,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 65,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 68,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "Huh? Huh? What? We're playing musical statues. Hooray! Musical statues!",
+          "start": 63,
+          "end": 72,
+          "matchStart": 10,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

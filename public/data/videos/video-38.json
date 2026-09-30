@@ -1,0 +1,1100 @@
+{
+  "id": "video-38",
+  "number": 38,
+  "title": "No More Cheekiness! | Magic - Series 3",
+  "duration": 127,
+  "declaredDuration": 127,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=DTUCwkNYb-E",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/38_No More Cheekiness!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/38_No More Cheekiness!.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "No More Cheekiness! | Magic - Series 3",
+      "start": 0,
+      "end": 126,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 6,
+      "sentenceText": "What's going on here?! I'll tell you. Who taught you how to use magic?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 6,
+          "text": "What's going on here?! I'll tell you. Who taught you how to use magic?",
+          "originalText": "what's going on here i'll tell you who taught you how to use magic louie",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "what's going on here"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "i'll tell you"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 6,
+              "text": "who taught you how to use magic louie"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "What's going on here?!"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "I'll tell you."
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 6,
+              "text": "Who taught you how to use magic?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "What's going on here?! I'll tell you. Who taught you how to use magic?",
+          "start": 0,
+          "end": 6,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0001",
+          "quote": "What's going on here?! I'll tell you. Who taught you how to use magic?",
+          "start": 0,
+          "end": 6,
+          "matchStart": 53,
+          "matchEnd": 56
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 6,
+      "end": 18,
+      "sentenceText": "Bluey did. I should have known. and did you teach her the most important rule about magic i couldn't remember The rule is never use magic for cheekiness.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 6,
+          "end": 18,
+          "text": "Bluey did. I should have known. and did you teach her the most important rule about magic i couldn't remember The rule is never use magic for cheekiness.",
+          "originalText": "did i should have known and did you teach her the most important rule about magic i couldn't remember it the rule is never use magic for",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 9,
+              "text": "did i should have known"
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 11,
+              "text": "and did you teach her the most important"
+            },
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 14,
+              "text": "rule about magic i couldn't remember"
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 18,
+              "text": "it the rule is never use magic for"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 7,
+              "text": "Bluey did."
+            },
+            {
+              "id": "c0005",
+              "start": 7,
+              "end": 9,
+              "text": "I should have known."
+            },
+            {
+              "id": "c0008",
+              "start": 14,
+              "end": 18,
+              "text": "The rule is never use magic for cheekiness."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 18,
+      "end": 25,
+      "sentenceText": "cheekiness oh yeah that's right oh bandit get your armpit out of my face You two, get out of here!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 25,
+          "text": "cheekiness oh yeah that's right oh bandit get your armpit out of my face You two, get out of here!",
+          "originalText": "cheekiness oh yeah that's right oh bandit get your armpit out of my face you too get out of here this doesn't",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 21,
+              "text": "cheekiness oh yeah that's right oh"
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "text": "bandit get your armpit out of my face"
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 25,
+              "text": "you too get out of here this doesn't"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 25,
+              "text": "You two, get out of here!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 25,
+      "end": 37,
+      "sentenceText": "This doesn't concern you. bingo magic should only be used to help people we were helping we were helping We were helping them learn to dance!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 25,
+          "end": 37,
+          "text": "This doesn't concern you. bingo magic should only be used to help people we were helping we were helping We were helping them learn to dance!",
+          "originalText": "concern you bingo magic should only be used to help people we were helping we were helping them learn to dance",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "text": "concern you"
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "text": "bingo magic should only be used to help"
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "text": "people we were helping we were helping"
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 37,
+              "text": "them learn to dance"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0012",
+              "start": 25,
+              "end": 28,
+              "text": "This doesn't concern you."
+            },
+            {
+              "id": "c0015",
+              "start": 34,
+              "end": 37,
+              "text": "We were helping them learn to dance!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "help",
+          "cueId": "c0004",
+          "quote": "This doesn't concern you. bingo magic should only be used to help people we were helping we were helping We were helping them learn to dance!",
+          "start": 25,
+          "end": 37,
+          "matchStart": 61,
+          "matchEnd": 65
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 37,
+      "end": 45,
+      "sentenceText": "Okay, okay. No more cheekiness. Thank you. Starting tomorrow!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 37,
+          "end": 45,
+          "text": "Okay, okay. No more cheekiness. Thank you. Starting tomorrow!",
+          "originalText": "okay okay no more cheekiness thank you starting tomorrow",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 42,
+              "text": "okay okay no more cheekiness thank you"
+            },
+            {
+              "id": "c0016",
+              "start": 42,
+              "end": 45,
+              "text": "starting tomorrow"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0016",
+              "start": 37,
+              "end": 40,
+              "text": "Okay, okay. No more cheekiness."
+            },
+            {
+              "id": "c0017",
+              "start": 40,
+              "end": 42,
+              "text": "Thank you."
+            },
+            {
+              "id": "c0018",
+              "start": 42,
+              "end": 45,
+              "text": "Starting tomorrow!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0005",
+          "quote": "Okay, okay. No more cheekiness. Thank you. Starting tomorrow!",
+          "start": 37,
+          "end": 45,
+          "matchStart": 32,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "Okay, okay. No more cheekiness. Thank you. Starting tomorrow!",
+          "start": 37,
+          "end": 45,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "Okay, okay. No more cheekiness. Thank you. Starting tomorrow!",
+          "start": 37,
+          "end": 45,
+          "matchStart": 12,
+          "matchEnd": 14
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 63,
+      "end": 72,
+      "sentenceText": "Magic should be used for goodliness! was using it for goodlyness bingo was sad because you didn't play",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 63,
+          "end": 72,
+          "text": "Magic should be used for goodliness! was using it for goodlyness bingo was sad because you didn't play",
+          "originalText": "magic should be used for goodliness i was using it for goodlyness bingo was sad because you didn't play",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 63,
+              "end": 66,
+              "text": "magic should be used for goodliness i"
+            },
+            {
+              "id": "c0018",
+              "start": 66,
+              "end": 69,
+              "text": "was using it for goodlyness bingo was"
+            },
+            {
+              "id": "c0019",
+              "start": 69,
+              "end": 72,
+              "text": "sad because you didn't play"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 63,
+              "end": 66,
+              "text": "Magic should be used for goodliness!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 66,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 69,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sad",
+          "cueId": "c0006",
+          "quote": "Magic should be used for goodliness! was using it for goodlyness bingo was sad because you didn't play",
+          "start": 63,
+          "end": 72,
+          "matchStart": 75,
+          "matchEnd": 78
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0006",
+          "quote": "Magic should be used for goodliness! was using it for goodlyness bingo was sad because you didn't play",
+          "start": 63,
+          "end": 72,
+          "matchStart": 98,
+          "matchEnd": 102
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 82,
+      "end": 95,
+      "sentenceText": "can't just drop everything and play when kids ask them too why not cause then who will do all the chores like cleaning the house and",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 82,
+          "end": 95,
+          "text": "can't just drop everything and play when kids ask them too why not cause then who will do all the chores like cleaning the house and",
+          "originalText": "can't just drop everything and play when kids ask them too why not cause then who will do all the chores like cleaning the house and",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 82,
+              "end": 84,
+              "text": "can't just drop everything and play when"
+            },
+            {
+              "id": "c0021",
+              "start": 84,
+              "end": 90,
+              "text": "kids ask them too"
+            },
+            {
+              "id": "c0022",
+              "start": 90,
+              "end": 93,
+              "text": "why not cause then who will do all the"
+            },
+            {
+              "id": "c0023",
+              "start": 93,
+              "end": 95,
+              "text": "chores like cleaning the house and"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 82,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 84,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 90,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 93,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "play",
+          "cueId": "c0007",
+          "quote": "can't just drop everything and play when kids ask them too why not cause then who will do all the chores like cleaning the house and",
+          "start": 82,
+          "end": 95,
+          "matchStart": 31,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0007",
+          "quote": "can't just drop everything and play when kids ask them too why not cause then who will do all the chores like cleaning the house and",
+          "start": 82,
+          "end": 95,
+          "matchStart": 59,
+          "matchEnd": 62
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0007",
+          "quote": "can't just drop everything and play when kids ask them too why not cause then who will do all the chores like cleaning the house and",
+          "start": 82,
+          "end": 95,
+          "matchStart": 105,
+          "matchEnd": 109
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 95,
+      "end": 101,
+      "sentenceText": "like cleaning the house and making the dinners? We'll ring the pizza boy!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 95,
+          "end": 101,
+          "text": "like cleaning the house and making the dinners? We'll ring the pizza boy!",
+          "originalText": "making the dinners we'll bring the pizza boy",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 95,
+              "end": 97,
+              "text": "making the dinners we'll bring the pizza"
+            },
+            {
+              "id": "c0025",
+              "start": 97,
+              "end": 101,
+              "text": "boy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 95,
+              "end": 97,
+              "text": "like cleaning the house and making the dinners?"
+            },
+            {
+              "id": "c0026",
+              "start": 97,
+              "end": 101,
+              "text": "We'll ring the pizza boy!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 95,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 97,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0008",
+          "quote": "like cleaning the house and making the dinners? We'll ring the pizza boy!",
+          "start": 95,
+          "end": 101,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 108,
+      "end": 120,
+      "sentenceText": "Don't listen to her! The pizza boy is not the solution!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 108,
+          "end": 120,
+          "text": "Don't listen to her! The pizza boy is not the solution!",
+          "originalText": "don't listen to her the pizza boy is not the solution",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 108,
+              "end": 110,
+              "text": "don't listen to her"
+            },
+            {
+              "id": "c0027",
+              "start": 110,
+              "end": 120,
+              "text": "the pizza boy is not the solution"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0027",
+              "start": 108,
+              "end": 110,
+              "text": "Don't listen to her!"
+            },
+            {
+              "id": "c0028",
+              "start": 110,
+              "end": 120,
+              "text": "The pizza boy is not the solution!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 108,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 110,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "listen",
+          "cueId": "c0009",
+          "quote": "Don't listen to her! The pizza boy is not the solution!",
+          "start": 108,
+          "end": 120,
+          "matchStart": 6,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "Don't listen to her! The pizza boy is not the solution!",
+          "start": 108,
+          "end": 120,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 120,
+      "end": 126,
+      "sentenceText": "not because you make them otherwise it's not clear",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 120,
+          "end": 126,
+          "text": "not because you make them otherwise it's not clear",
+          "originalText": "not because you make them otherwise it's not clear",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 120,
+              "end": 123,
+              "text": "not because you make them otherwise it's"
+            },
+            {
+              "id": "c0029",
+              "start": 123,
+              "end": 126,
+              "text": "not clear"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 120,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 123,
+              "end": 126,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

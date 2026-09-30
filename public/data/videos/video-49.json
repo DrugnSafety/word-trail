@@ -1,0 +1,1364 @@
+{
+  "id": "video-49",
+  "number": 49,
+  "title": "It's on the App! | Phones - Series 3 | Bluey",
+  "duration": 123,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=39qhYmxqh_c",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/49_It's on the App!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/49_It's on the App!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "It's on the App! | Phones - Series 3 | Bluey",
+      "start": 1,
+      "end": 122,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 1,
+      "end": 8,
+      "sentenceText": "Ring, ring, ring, ring, ring, ring, ring, ring. Hello? Oh, hello, I'd like to order some food.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 1,
+          "end": 8,
+          "text": "Ring, ring, ring, ring, ring, ring, ring, ring. Hello? Oh, hello, I'd like to order some food.",
+          "originalText": "ring ring ring ring ring ring ring ring hello oh hello I'd like to order some",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 4,
+              "text": "ring ring ring ring ring ring ring ring"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 8,
+              "text": "hello oh hello I'd like to order some"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 4,
+              "text": "Ring, ring, ring, ring, ring, ring, ring, ring."
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 5,
+              "text": "Hello?"
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 8,
+              "text": "Oh, hello, I'd like to order some food."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 1,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "hello",
+          "cueId": "c0001",
+          "quote": "Ring, ring, ring, ring, ring, ring, ring, ring. Hello? Oh, hello, I'd like to order some food.",
+          "start": 1,
+          "end": 8,
+          "matchStart": 48,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0001",
+          "quote": "Ring, ring, ring, ring, ring, ring, ring, ring. Hello? Oh, hello, I'd like to order some food.",
+          "start": 1,
+          "end": 8,
+          "matchStart": 70,
+          "matchEnd": 74
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 8,
+      "end": 13,
+      "sentenceText": "Grandad, you don't phone call the restaurant! What? You just order on the app.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 8,
+          "end": 13,
+          "text": "Grandad, you don't phone call the restaurant! What? You just order on the app.",
+          "originalText": "food andad you don't phone call the restaurant what you just order on the",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 11,
+              "text": "food andad you don't phone call the"
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 13,
+              "text": "restaurant what you just order on the"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 11,
+              "text": "Grandad, you don't phone call the restaurant!"
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 12,
+              "text": "What?"
+            },
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 13,
+              "text": "You just order on the app."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Grandad, you don't phone call the restaurant! What? You just order on the app.",
+          "start": 8,
+          "end": 13,
+          "matchStart": 46,
+          "matchEnd": 50
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0002",
+          "quote": "Grandad, you don't phone call the restaurant! What? You just order on the app.",
+          "start": 8,
+          "end": 13,
+          "matchStart": 13,
+          "matchEnd": 18
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 13,
+      "end": 28,
+      "sentenceText": "app but I haven't got a menu it's on the app all right oh yeah here we go hang on what type of restaurant are you what do you Are you Chinese or Italian?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 13,
+          "end": 28,
+          "text": "app but I haven't got a menu it's on the app all right oh yeah here we go hang on what type of restaurant are you what do you Are you Chinese or Italian?",
+          "originalText": "app but I haven't got a menu it's on the app all right oh yeah here we go hang on what type of restaurant are you what do you mean are you Chinese or Italian we're",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 16,
+              "text": "app but I haven't got a menu it's on the"
+            },
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 18,
+              "text": "app all"
+            },
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 23,
+              "text": "right oh yeah here we go hang on what"
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 25,
+              "text": "type of restaurant are you what do you"
+            },
+            {
+              "id": "c0009",
+              "start": 25,
+              "end": 28,
+              "text": "mean are you Chinese or Italian we're"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 25,
+              "end": 28,
+              "text": "Are you Chinese or Italian?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 16,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0003",
+          "quote": "app but I haven't got a menu it's on the app all right oh yeah here we go hang on what type of restaurant are you what do you Are you Chinese or Italian?",
+          "start": 13,
+          "end": 28,
+          "matchStart": 45,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "app but I haven't got a menu it's on the app all right oh yeah here we go hang on what type of restaurant are you what do you Are you Chinese or Italian?",
+          "start": 13,
+          "end": 28,
+          "matchStart": 82,
+          "matchEnd": 86
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 28,
+      "end": 41,
+      "sentenceText": "everything yeah you can order a pizza or a burrito a burino burrito you can have anything you want oh okay anything I want",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 28,
+          "end": 41,
+          "text": "everything yeah you can order a pizza or a burrito a burino burrito you can have anything you want oh okay anything I want",
+          "originalText": "everything yeah you can order a pizza or a burrito a burino burrito you can have anything you want oh okay anything I want",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 31,
+              "text": "everything yeah you can order a pizza or"
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 33,
+              "text": "a burrito a"
+            },
+            {
+              "id": "c0012",
+              "start": 33,
+              "end": 36,
+              "text": "burino burrito you can have anything you"
+            },
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 41,
+              "text": "want oh okay anything I want"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 33,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0004",
+          "quote": "everything yeah you can order a pizza or a burrito a burino burrito you can have anything you want oh okay anything I want",
+          "start": 28,
+          "end": 41,
+          "matchStart": 94,
+          "matchEnd": 98
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "everything yeah you can order a pizza or a burrito a burino burrito you can have anything you want oh okay anything I want",
+          "start": 28,
+          "end": 41,
+          "matchStart": 102,
+          "matchEnd": 106
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 41,
+      "end": 47,
+      "sentenceText": "That makes it harder for some reason. Oh, oh, sorry, guys. Better pay for that.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 41,
+          "end": 47,
+          "text": "That makes it harder for some reason. Oh, oh, sorry, guys. Better pay for that.",
+          "originalText": "eh that makes it harder for some reason oh oh sorry guys better pay for that do",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 41,
+              "end": 44,
+              "text": "eh that makes it harder for some reason"
+            },
+            {
+              "id": "c0015",
+              "start": 44,
+              "end": 47,
+              "text": "oh oh sorry guys better pay for that do"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 41,
+              "end": 44,
+              "text": "That makes it harder for some reason."
+            },
+            {
+              "id": "c0023",
+              "start": 44,
+              "end": 45,
+              "text": "Oh, oh, sorry, guys."
+            },
+            {
+              "id": "c0024",
+              "start": 45,
+              "end": 47,
+              "text": "Better pay for that."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 41,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 44,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0005",
+          "quote": "That makes it harder for some reason. Oh, oh, sorry, guys. Better pay for that.",
+          "start": 41,
+          "end": 47,
+          "matchStart": 46,
+          "matchEnd": 51
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 47,
+      "end": 61,
+      "sentenceText": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 47,
+          "end": 61,
+          "text": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "originalText": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 47,
+              "end": 50,
+              "text": "you need help choosing Grandad no no I'm"
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 54,
+              "text": "all right ah I know carried sausages"
+            },
+            {
+              "id": "c0018",
+              "start": 54,
+              "end": 55,
+              "text": "carried"
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 58,
+              "text": "sausages why do you want carried"
+            },
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 61,
+              "text": "sausages I love carried sausages what"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 47,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 54,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 58,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 41,
+          "matchEnd": 50
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 31,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 56,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 95,
+          "matchEnd": 98
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 106,
+          "matchEnd": 110
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 130,
+          "matchEnd": 134
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "you need help choosing Grandad no no I'm all right ah I know carried sausages carried sausages why do you want carried sausages I love carried sausages what",
+          "start": 47,
+          "end": 61,
+          "matchStart": 152,
+          "matchEnd": 156
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 61,
+      "end": 68,
+      "sentenceText": "You said I could have anything! Curried sausages.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 61,
+          "end": 68,
+          "text": "You said I could have anything! Curried sausages.",
+          "originalText": "you said I could have anything okay Curry",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 61,
+              "end": 64,
+              "text": "you said I could have anything okay"
+            },
+            {
+              "id": "c0022",
+              "start": 64,
+              "end": 68,
+              "text": "Curry"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 61,
+              "end": 64,
+              "text": "You said I could have anything!"
+            },
+            {
+              "id": "c0035",
+              "start": 64,
+              "end": 68,
+              "text": "Curried sausages."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 61,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 64,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 68,
+      "end": 81,
+      "sentenceText": "sausages evening ladies I'm here to pick up me sausages Grandad you don't pick them up Bingo delivers them to you all All right.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 68,
+          "end": 81,
+          "text": "sausages evening ladies I'm here to pick up me sausages Grandad you don't pick them up Bingo delivers them to you all All right.",
+          "originalText": "sausages evening ladies I'm here to pick up me sausages Grandad you don't pick them up Bingo delivers them to you all right",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 68,
+              "end": 71,
+              "text": "sausages evening ladies I'm here to pick"
+            },
+            {
+              "id": "c0024",
+              "start": 71,
+              "end": 75,
+              "text": "up me sausages Grandad you don't pick"
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 78,
+              "text": "them up Bingo delivers them to you all"
+            },
+            {
+              "id": "c0026",
+              "start": 78,
+              "end": 81,
+              "text": "right"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0039",
+              "start": 78,
+              "end": 81,
+              "text": "All right."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 68,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 71,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 78,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0008",
+          "quote": "sausages evening ladies I'm here to pick up me sausages Grandad you don't pick them up Bingo delivers them to you all All right.",
+          "start": 68,
+          "end": 81,
+          "matchStart": 118,
+          "matchEnd": 127
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0008",
+          "quote": "sausages evening ladies I'm here to pick up me sausages Grandad you don't pick them up Bingo delivers them to you all All right.",
+          "start": 68,
+          "end": 81,
+          "matchStart": 68,
+          "matchEnd": 73
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 87,
+      "end": 96,
+      "sentenceText": "Hey, how you going? Nice night, eh? uh you don't really chat to the scooter person oh okay",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 87,
+          "end": 96,
+          "text": "Hey, how you going? Nice night, eh? uh you don't really chat to the scooter person oh okay",
+          "originalText": "okay hey how you going nice night that uh you don't really chat to the scooter person oh okay",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 87,
+              "end": 90,
+              "text": "okay hey how you going nice night that"
+            },
+            {
+              "id": "c0028",
+              "start": 90,
+              "end": 92,
+              "text": "uh you don't really chat to the scooter"
+            },
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 96,
+              "text": "person oh okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 87,
+              "end": 90,
+              "text": "Hey, how you going? Nice night, eh?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 92,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0009",
+          "quote": "Hey, how you going? Nice night, eh? uh you don't really chat to the scooter person oh okay",
+          "start": 87,
+          "end": 96,
+          "matchStart": 5,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0009",
+          "quote": "Hey, how you going? Nice night, eh? uh you don't really chat to the scooter person oh okay",
+          "start": 87,
+          "end": 96,
+          "matchStart": 20,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "Hey, how you going? Nice night, eh? uh you don't really chat to the scooter person oh okay",
+          "start": 87,
+          "end": 96,
+          "matchStart": 86,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "Hey, how you going? Nice night, eh? uh you don't really chat to the scooter person oh okay",
+          "start": 87,
+          "end": 96,
+          "matchStart": 43,
+          "matchEnd": 48
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 99,
+      "end": 112,
+      "sentenceText": "sorry did I do it right yeah good one Grandad no worries let's have some food oh that's good so do I just eat here alello you can watch TV on your",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 99,
+          "end": 112,
+          "text": "sorry did I do it right yeah good one Grandad no worries let's have some food oh that's good so do I just eat here alello you can watch TV on your",
+          "originalText": "sorry did I do it right yeah good one Grandad no worries let's have some food oh that's good so do I just eat here alello you can watch TV on your",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 99,
+              "end": 102,
+              "text": "sorry did I do it right yeah good one"
+            },
+            {
+              "id": "c0031",
+              "start": 102,
+              "end": 106,
+              "text": "Grandad no worries let's have some"
+            },
+            {
+              "id": "c0032",
+              "start": 106,
+              "end": 109,
+              "text": "food oh that's good so do I just eat"
+            },
+            {
+              "id": "c0033",
+              "start": 109,
+              "end": 112,
+              "text": "here alello you can watch TV on your"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 99,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 102,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 106,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 109,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0010",
+          "quote": "sorry did I do it right yeah good one Grandad no worries let's have some food oh that's good so do I just eat here alello you can watch TV on your",
+          "start": 99,
+          "end": 112,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0010",
+          "quote": "sorry did I do it right yeah good one Grandad no worries let's have some food oh that's good so do I just eat here alello you can watch TV on your",
+          "start": 99,
+          "end": 112,
+          "matchStart": 29,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0010",
+          "quote": "sorry did I do it right yeah good one Grandad no worries let's have some food oh that's good so do I just eat here alello you can watch TV on your",
+          "start": 99,
+          "end": 112,
+          "matchStart": 46,
+          "matchEnd": 48
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0010",
+          "quote": "sorry did I do it right yeah good one Grandad no worries let's have some food oh that's good so do I just eat here alello you can watch TV on your",
+          "start": 99,
+          "end": 112,
+          "matchStart": 57,
+          "matchEnd": 62
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 112,
+      "end": 122,
+      "sentenceText": "phone if you like yeah there's a TV app Okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 112,
+          "end": 122,
+          "text": "phone if you like yeah there's a TV app Okay.",
+          "originalText": "phone if you like yeah there's a TV app okay",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 112,
+              "end": 115,
+              "text": "phone if you like yeah there's a TV app"
+            },
+            {
+              "id": "c0035",
+              "start": 115,
+              "end": 122,
+              "text": "okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0052",
+              "start": 115,
+              "end": 122,
+              "text": "Okay."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 115,
+              "end": 122,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0011",
+          "quote": "phone if you like yeah there's a TV app Okay.",
+          "start": 112,
+          "end": 122,
+          "matchStart": 13,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0011",
+          "quote": "phone if you like yeah there's a TV app Okay.",
+          "start": 112,
+          "end": 122,
+          "matchStart": 40,
+          "matchEnd": 44
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

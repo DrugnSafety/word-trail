@@ -1,0 +1,210 @@
+# 01. Faceytalk | Full Episode - SERIES 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=kx8_wF9HOX8
+- Length: 07:00
+- Captions: YouTube English captions (human-made)
+- Script: 00:26 ~ 06:44
+
+---
+
+- `[00:26 - 00:29]` Mum, can we do Faceytalk with Muffin and Socks?
+- `[00:29 - 00:30]` Er…
+- `[00:30 - 00:31]` Please!
+- `[00:31 - 00:32]` Yeah, that's fine.
+- `[00:33 - 00:34]` Uss!
+- `[00:33 - 00:37]` But no hogging the little facey face thing, OK?
+- `[00:37 - 00:39]` Bluey, I'm talking to you.
+- `[00:39 - 00:41]` Yes, Mum. No hogging.
+- `[00:41 - 00:43]` Because you know what happens when you hog, don't you?
+- `[00:43 - 00:46]` Yes, we know what happens when you hog.
+- `[00:46 - 00:48]` Wait. Do we?!
+- `[00:48 - 00:49]` Hi!
+- `[00:49 - 00:50]` Hi, Muffin!
+- `[00:50 - 00:50]` Hi!
+- `[00:50 - 00:53]` Ah! Socks, stop hogging!
+- `[00:53 - 00:55]` This episode of Bluey is called Faceytalk.
+- `[00:59 - 01:01]` Can I have a turn doing the drawing yet, Bluey?
+- `[01:01 - 01:04]` Um, yes. But can I just finish this?
+- `[01:04 - 01:05]` Sure.
+- `[01:05 - 01:07]` Muffin, is my turn?
+- `[01:07 - 01:08]` Not yet.
+- `[01:08 - 01:09]` Muffin!
+- `[01:09 - 01:10]` Hi, girls!
+- `[01:10 - 01:11]` Hi, Aunt Trixie.
+- `[01:11 - 01:13]` Muffles, make sure you give Socks a go
+- `[01:13 - 01:15]` drawing the silly stuff, OK?
+- `[01:15 - 01:17]` But I'm not finished.
+- `[01:17 - 01:18]` Muffin!
+- `[01:18 - 01:19]` Socks, get off!
+- `[01:19 - 01:21]` Girls, I can't do this right now.
+- `[01:21 - 01:23]` I've got somewhere I need to be.
+- `[01:23 - 01:24]` Nooo!
+- `[01:24 - 01:26]` Arghh. I can handle it.
+- `[01:26 - 01:28]` Er… Are you sure?
+- `[01:28 - 01:29]` Yeah, I've got it covered.
+- `[01:29 - 01:32]` Kids, you better share that thing or I'm switching it off.
+- `[01:32 - 01:33]` What?!
+- `[01:33 - 01:33]` Whoa!
+- `[01:33 - 01:35]` OK, maybe not off but…
+- `[01:35 - 01:36]` Look, I'll handle it.
+- `[01:36 - 01:37]` No, I can do it.
+- `[01:37 - 01:38]` You go do your thing.
+- `[01:38 - 01:41]` Well, OK. If you're sure.
+- `[01:42 - 01:44]` Right, I'm setting the timer on my phone.
+- `[01:44 - 01:47]` When it goes off, it's Socks's turn, OK, Muffy?
+- `[01:47 - 01:48]` Ber!
+- `[01:48 - 01:49]` I'll take that as a yes.
+- `[01:52 - 01:55]` I'll just draw some clouds…
+- `[01:55 - 01:57]` Ooh. Nice clouds.
+- `[01:57 - 02:00]` OK, Muffy, there's the timer.
+- `[02:00 - 02:01]` Socks's turn now.
+- `[02:01 - 02:01]` Yay!
+- `[02:01 - 02:04]` I have to finish my cowboy hat.
+- `[02:04 - 02:05]` Aww!
+- `[02:05 - 02:07]` No, you don't have to finish your cowboy hat.
+- `[02:07 - 02:09]` You have to give Socks a turn.
+- `[02:09 - 02:12]` But I want to finish my cowboy hat.
+- `[02:12 - 02:13]` Muffy…
+- `[02:15 - 02:17]` Muffin Heeler, give your sister a turn now.
+- `[02:17 - 02:20]` But I want to do a cowboy hat!
+- `[02:20 - 02:21]` Just give her a turn, Muffin.
+- `[02:21 - 02:22]` No!
+- `[02:22 - 02:24]` Muffin Cupcake Heeler…
+- `[02:24 - 02:25]` Cowboy hat!
+- `[02:25 - 02:27]` If you say cowboy hat one more time,
+- `[02:27 - 02:28]` you'll be in time out.
+- `[02:29 - 02:32]` Cow... boy... hat!
+- `[02:32 - 02:33]` OK! That's it.
+- `[02:33 - 02:35]` You're going to time out.
+- `[02:37 - 02:38]` Oh, boy.
+- `[02:38 - 02:39]` Bye, Muffin.
+- `[02:39 - 02:41]` Muffin, stop wriggling.
+- `[02:42 - 02:45]` There. Now you have a good think about it, young lady.
+- `[02:45 - 02:47]` No, I don't want to.
+- `[02:48 - 02:50]` I'm sorry, girls, but Muffin was hogging,
+- `[02:50 - 02:52]` so she can't do your facey call thing any more.
+- `[02:52 - 02:54]` OK, Uncle Stripe.
+- `[02:54 - 02:56]` She needs to learn that other people have…
+- `[02:56 - 02:57]` What the!
+- `[02:57 - 02:58]` Argh! Muffin!
+- `[02:58 - 03:00]` Gah! She's got my phone.
+- `[03:00 - 03:03]` Muffin, you get off my phone this instant. Urgh!
+- `[03:03 - 03:05]` He's coming, Muffin!
+- `[03:05 - 03:05]` Argh!
+- `[03:05 - 03:06]` Muffin!
+- `[03:06 - 03:09]` Running away will only make it worse!
+- `[03:09 - 03:10]` Oof!
+- `[03:10 - 03:11]` Ha-ha!
+- `[03:11 - 03:12]` Muffin!
+- `[03:13 - 03:15]` Muffin, you can't steal your dad's phone!
+- `[03:15 - 03:16]` Yes, I can!
+- `[03:16 - 03:18]` Now, where do I hide?
+- `[03:18 - 03:19]` Under a bed.
+- `[03:19 - 03:19]` OK!
+- `[03:19 - 03:20]` Don't help her, Bingo.
+- `[03:20 - 03:21]` Why not?
+- `[03:21 - 03:24]` Because she's not meant to be running away.
+- `[03:24 - 03:26]` She's meant to be in time out for hogging.
+- `[03:26 - 03:28]` Hey, that's my ukulele!
+- `[03:28 - 03:30]` You lended it to me.
+- `[03:30 - 03:32]` Yeah, but that was ages ago.
+- `[03:32 - 03:34]` I'm still playing with it.
+- `[03:34 - 03:36]` Muffin, you hang that phone up now, young lady!
+- `[03:36 - 03:37]` No!
+- `[03:37 - 03:39]` OK, well, I'm ending the whole Faceytalk.
+- `[03:39 - 03:40]` Nooo!
+- `[03:40 - 03:41]` OK! OK!
+- `[03:41 - 03:43]` Muffin, this is your last chance.
+- `[03:43 - 03:45]` You hang that up and march down here now.
+- `[03:46 - 03:48]` Gowilla man! Ha-ha!
+- `[03:48 - 03:50]` You little… Get this thing off me!
+- `[03:51 - 03:53]` That's it. Where are you?
+- `[03:53 - 03:55]` OK, you're under a bed…
+- `[03:55 - 03:56]` Can't see whose…
+- `[03:56 - 03:59]` Well, there's only so many beds in this house, kid.
+- `[03:59 - 04:00]` I'm coming.
+- `[03:59 - 04:00]` Oh, no.
+- `[04:00 - 04:02]` He's going to find you, Muffin!
+- `[04:02 - 04:04]` Just give him back his phone.
+- `[04:04 - 04:06]` No! Tell me if he's out there.
+- `[04:07 - 04:10]` It's clear. But, Muffin, I don't think I should help you.
+- `[04:10 - 04:12]` What about now?
+- `[04:12 - 04:14]` Ah! Not clear! Not clear!
+- `[04:14 - 04:14]` A-ha!
+- `[04:14 - 04:16]` I've got you!
+- `[04:19 - 04:20]` Good gravy.
+- `[04:19 - 04:20]` What's going on?
+- `[04:20 - 04:22]` Uncle Stripe is chasing Muffin.
+- `[04:22 - 04:24]` Ha-ha-ha! Classic Stripe.
+- `[04:24 - 04:26]` Get back here, Muffin!
+- `[04:26 - 04:27]` Run, Muffin!
+- `[04:27 - 04:28]` Dad!
+- `[04:28 - 04:29]` Argh! Muffin!
+- `[04:29 - 04:31]` Whoa! OK! There we go!
+- `[04:36 - 04:37]` What's going on?
+- `[04:37 - 04:38]` I'm handling it!
+- `[04:38 - 04:40]` It doesn't look like you're handling it.
+- `[04:40 - 04:40]` Er, guys…
+- `[04:40 - 04:41]` I gave her a time out.
+- `[04:41 - 04:43]` We don't do time out any more.
+- `[04:43 - 04:44]` What? Since when?
+- `[04:44 - 04:45]` I read a blog.
+- `[04:45 - 04:46]` You didn't tell me.
+- `[04:46 - 04:47]` Because you're never here.
+- `[04:47 - 04:49]` Hey, er, guys…
+- `[04:49 - 04:50]` Just let me handle it, Stripe.
+- `[04:50 - 04:52]` No, Trix, let me handle it.
+- `[04:52 - 04:54]` I get to parent too.
+- `[04:54 - 04:57]` Yeah, but you have to do it right.
+- `[04:57 - 04:58]` This is how I do it.
+- `[04:58 - 04:59]` Guys…
+- `[04:59 - 05:01]` Kids, can you switch this off?
+- `[05:01 - 05:02]` Ah! But we're doing drawing things.
+- `[05:02 - 05:04]` All right, well, can you mute it?
+- `[05:04 - 05:05]` Yeah, we can.
+- `[05:05 - 05:07]` I feel like you hog all the parenting.
+- `[05:07 - 05:07]` Oh.
+- `[05:07 - 05:09]` Is it this one?
+- `[05:09 - 05:10]` I don't mean to.
+- `[05:10 - 05:11]` No, try this one.
+- `[05:11 - 05:13]` Oh, no, that's not it.
+- `[05:13 - 05:15]` Oh, I know.
+- `[05:15 - 05:17]` You can turn the sound back on
+- `[05:17 - 05:19]` when Stripe and Trix are finished chatting, OK?
+- `[05:19 - 05:21]` Yes, Dad.
+- `[05:35 - 05:37]` Er, Muffin?
+- `[05:37 - 05:39]` Better look behind you.
+- `[05:39 - 05:40]` Why?!
+- `[05:43 - 05:47]` Stop running away, Muffin!
+- `[05:47 - 05:50]` Muffin, I would urgently advise you to stop right now.
+- `[05:50 - 05:51]` Listen to your father.
+- `[05:51 - 05:52]` Let's split up.
+- `[05:52 - 05:53]` Good idea.
+- `[05:53 - 05:55]` Ah! They're working together!
+- `[05:55 - 05:57]` Come back here!
+- `[05:57 - 05:57]` No!
+- `[05:59 - 06:00]` Where are they?
+- `[06:00 - 06:01]` Your mum's hiding behind the couch.
+- `[06:01 - 06:03]` What couch?
+- `[06:03 - 06:04]` The couch.
+- `[06:04 - 06:06]` We've got lots of couches.
+- `[06:06 - 06:07]` It's that couch right there.
+- `[06:07 - 06:08]` Muffin!
+- `[06:08 - 06:09]` Ow!
+- `[06:09 - 06:11]` I'm freee!
+- `[06:11 - 06:12]` Muffin!
+- `[06:12 - 06:14]` No! My phone!
+- `[06:20 - 06:22]` Oh, boy.
+- `[06:22 - 06:23]` Sorry, Dad.
+- `[06:23 - 06:24]` Muffin?
+- `[06:24 - 06:25]` Yes.
+- `[06:25 - 06:27]` Time out.
+- `[06:27 - 06:28]` OK.
+- `[06:32 - 06:33]` Finished.
+- `[06:33 - 06:35]` Oh, wow. That's great, Socks.
+- `[06:35 - 06:36]` Thanks.
+- `[06:36 - 06:38]` Can I have a turn now, Bluey?
+- `[06:38 - 06:39]` Oh, yeah. Sure.
+- `[06:39 - 06:40]` Thanks.
+- `[06:40 - 06:41]` No problem.
+- `[06:41 - 06:44]` Because we know what happens when you hog.

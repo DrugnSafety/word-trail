@@ -1,0 +1,1687 @@
+{
+  "id": "video-62",
+  "number": 62,
+  "title": "Chocolate Milk and Cherry 🍫 🍒 💙 | Bluey Valentine's Day Clip 🥰 | Clip from Tradies | Bluey",
+  "duration": 118,
+  "declaredDuration": 118,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=BCv01uu2Ac8",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/62_Chocolate Milk and Cherry.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/62_Chocolate Milk and Cherry.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-non-speech-cues",
+    "contains-raw-original-text",
+    "contains-non-spoken-annotation-removal"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Chocolate Milk and Cherry 🍫 🍒 💙 | Bluey Valentine's Day Clip 🥰 | Clip from Tradies | Bluey",
+      "start": 0,
+      "end": 112,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016",
+        "c0017"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 5,
+      "sentenceText": "Are you guys eating ice cream? No, sorry, Chilli. That was me. Still 3 days, Sparky.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 5,
+          "text": "Are you guys eating ice cream? No, sorry, Chilli. That was me. Still 3 days, Sparky.",
+          "originalText": "Are you guys eating ice cream? No, sorry Chilli. That was me. Still 3 days,",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "Are you guys eating ice cream? No, sorry"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "text": "Chilli. That was me. Still 3 days,"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 1,
+              "text": "Are you guys eating ice cream?"
+            },
+            {
+              "id": "c0002",
+              "start": 1,
+              "end": 2,
+              "text": "No, sorry, Chilli."
+            },
+            {
+              "id": "c0003",
+              "start": 2,
+              "end": 3,
+              "text": "That was me."
+            },
+            {
+              "id": "c0004",
+              "start": 3,
+              "end": 5,
+              "text": "Still 3 days, Sparky."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0001",
+          "quote": "Are you guys eating ice cream? No, sorry, Chilli. That was me. Still 3 days, Sparky.",
+          "start": 0,
+          "end": 5,
+          "matchStart": 31,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0001",
+          "quote": "Are you guys eating ice cream? No, sorry, Chilli. That was me. Still 3 days, Sparky.",
+          "start": 0,
+          "end": 5,
+          "matchStart": 35,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 5,
+      "end": 11,
+      "sentenceText": "Sparky. Uh yep, yep. Uh four at the most. Okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 5,
+          "end": 11,
+          "text": "Sparky. Uh yep, yep. Uh four at the most. Okay.",
+          "originalText": "Sparky. Uh yep, yep. Uh four at the most. Okay.",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 8,
+              "text": "Sparky. Uh yep, yep. Uh four at the"
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 11,
+              "text": "most. Okay."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "Sparky. Uh yep, yep. Uh four at the most. Okay.",
+          "start": 5,
+          "end": 11,
+          "matchStart": 42,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 11,
+      "end": 16,
+      "sentenceText": "I tell you what, I wouldn't want to be your mum's enemy. Good chatting with you.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 11,
+          "end": 16,
+          "text": "I tell you what, I wouldn't want to be your mum's enemy. Good chatting with you.",
+          "originalText": "I tell you what, I wouldn't want to be your mum's enemy. Good chatting with you. I guess we'll go",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "text": "I tell you what, I wouldn't want to be"
+            },
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 15,
+              "text": "your mum's enemy."
+            },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 16,
+              "text": "Good chatting with you. I guess we'll go"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 11,
+              "end": 13,
+              "text": "I tell you what,"
+            },
+            {
+              "id": "c0009",
+              "start": 13,
+              "end": 15,
+              "text": "I wouldn't want to be your mum's enemy."
+            },
+            {
+              "id": "c0010",
+              "start": 15,
+              "end": 16,
+              "text": "Good chatting with you."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "I tell you what, I wouldn't want to be your mum's enemy. Good chatting with you.",
+          "start": 11,
+          "end": 16,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0003",
+          "quote": "I tell you what, I wouldn't want to be your mum's enemy. Good chatting with you.",
+          "start": 11,
+          "end": 16,
+          "matchStart": 28,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0003",
+          "quote": "I tell you what, I wouldn't want to be your mum's enemy. Good chatting with you.",
+          "start": 11,
+          "end": 16,
+          "matchStart": 44,
+          "matchEnd": 47
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0003",
+          "quote": "I tell you what, I wouldn't want to be your mum's enemy. Good chatting with you.",
+          "start": 11,
+          "end": 16,
+          "matchStart": 57,
+          "matchEnd": 61
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 16,
+      "end": 22,
+      "sentenceText": "I guess we'll go back to being enemies now. Um, yeah.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 16,
+          "end": 22,
+          "text": "I guess we'll go back to being enemies now. Um, yeah.",
+          "originalText": "back to being enemies now. Um yeah.",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 16,
+              "end": 18,
+              "text": "back to being enemies now."
+            },
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 22,
+              "text": "Um yeah."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 16,
+              "end": 18,
+              "text": "I guess we'll go back to being enemies now."
+            },
+            {
+              "id": "c0012",
+              "start": 18,
+              "end": 22,
+              "text": "Um, yeah."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 16,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "go-back",
+          "cueId": "c0004",
+          "quote": "I guess we'll go back to being enemies now. Um, yeah.",
+          "start": 16,
+          "end": 22,
+          "matchStart": 14,
+          "matchEnd": 21
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 22,
+      "end": 28,
+      "sentenceText": "Hey, Chippy, where's the tape measure? Oh, not again.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 22,
+          "end": 28,
+          "text": "Hey, Chippy, where's the tape measure? Oh, not again.",
+          "originalText": "Hey Chippy, where's the tape measure? Oh, not again.",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 24,
+              "text": "Hey Chippy, where's the tape measure?"
+            },
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 28,
+              "text": "Oh, not again."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 22,
+              "end": 24,
+              "text": "Hey, Chippy, where's the tape measure?"
+            },
+            {
+              "id": "c0014",
+              "start": 24,
+              "end": 28,
+              "text": "Oh, not again."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0005",
+          "quote": "Hey, Chippy, where's the tape measure? Oh, not again.",
+          "start": 22,
+          "end": 28,
+          "matchStart": 13,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0005",
+          "quote": "Hey, Chippy, where's the tape measure? Oh, not again.",
+          "start": 22,
+          "end": 28,
+          "matchStart": 47,
+          "matchEnd": 52
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 30,
+      "end": 37,
+      "sentenceText": "Where is that tape measure? Oh, how about that?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 30,
+          "end": 37,
+          "text": "Where is that tape measure? Oh, how about that?",
+          "originalText": "Where is that tape measure? Oh, how about that?",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "text": "Where is that tape measure?"
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 37,
+              "text": "Oh, how about that?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 30,
+              "end": 33,
+              "text": "Where is that tape measure?"
+            },
+            {
+              "id": "c0016",
+              "start": 33,
+              "end": 37,
+              "text": "Oh, how about that?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 33,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0006",
+          "quote": "Where is that tape measure? Oh, how about that?",
+          "start": 30,
+          "end": 37,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0006",
+          "quote": "Where is that tape measure? Oh, how about that?",
+          "start": 30,
+          "end": 37,
+          "matchStart": 32,
+          "matchEnd": 35
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 46,
+      "end": 51,
+      "sentenceText": "Oh. What the... You're kidding.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 46,
+          "end": 51,
+          "text": "Oh. What the... You're kidding.",
+          "originalText": "Oh. What the You're kidding.",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 46,
+              "end": 48,
+              "text": "Oh."
+            },
+            {
+              "id": "c0015",
+              "start": 48,
+              "end": 50,
+              "text": "What the"
+            },
+            {
+              "id": "c0016",
+              "start": 50,
+              "end": 51,
+              "text": "You're kidding."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 48,
+              "text": "Oh."
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 50,
+              "text": "What the..."
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 51,
+              "text": "You're kidding."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 46,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 50,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "Oh. What the... You're kidding.",
+          "start": 46,
+          "end": 51,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 51,
+      "end": 57,
+      "sentenceText": "Ho ho. Oh. Oh, man.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 51,
+          "end": 57,
+          "text": "Ho ho. Oh. Oh, man.",
+          "originalText": "Ho ho. Oh. Oh, man.",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 51,
+              "end": 54,
+              "text": "Ho ho."
+            },
+            {
+              "id": "c0018",
+              "start": 54,
+              "end": 55,
+              "text": "Oh."
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 57,
+              "text": "Oh, man."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 51,
+              "end": 54,
+              "text": "Ho ho."
+            },
+            {
+              "id": "c0021",
+              "start": 54,
+              "end": 55,
+              "text": "Oh."
+            },
+            {
+              "id": "c0022",
+              "start": 55,
+              "end": 57,
+              "text": "Oh, man."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 51,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 54,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 55,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 61,
+      "end": 66,
+      "sentenceText": "Bluey, come quick. I think they're finished. What?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 61,
+          "end": 66,
+          "text": "Bluey, come quick. I think they're finished. What?",
+          "originalText": "Bluey, come quick. I think they're finished. What?",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 63,
+              "text": "Bluey, come quick. I think they're"
+            },
+            {
+              "id": "c0021",
+              "start": 63,
+              "end": 64,
+              "text": "finished."
+            },
+            {
+              "id": "c0022",
+              "start": 64,
+              "end": 66,
+              "text": "What?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 61,
+              "end": 63,
+              "text": "Bluey, come quick."
+            },
+            {
+              "id": "c0024",
+              "start": 63,
+              "end": 64,
+              "text": "I think they're finished."
+            },
+            {
+              "id": "c0025",
+              "start": 64,
+              "end": 66,
+              "text": "What?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 63,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 64,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0009",
+          "quote": "Bluey, come quick. I think they're finished. What?",
+          "start": 61,
+          "end": 66,
+          "matchStart": 21,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "finished",
+          "cueId": "c0009",
+          "quote": "Bluey, come quick. I think they're finished. What?",
+          "start": 61,
+          "end": 66,
+          "matchStart": 35,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "Bluey, come quick. I think they're finished. What?",
+          "start": 61,
+          "end": 66,
+          "matchStart": 45,
+          "matchEnd": 49
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 66,
+      "end": 72,
+      "sentenceText": "Wow. All right, kids. What do you reckon?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 66,
+          "end": 72,
+          "text": "Wow. All right, kids. What do you reckon?",
+          "originalText": "Wow. All right, kids. What do you reckon?",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 66,
+              "end": 68,
+              "text": "Wow."
+            },
+            {
+              "id": "c0024",
+              "start": 68,
+              "end": 72,
+              "text": "All right, kids. What do you reckon?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 66,
+              "end": 68,
+              "text": "Wow."
+            },
+            {
+              "id": "c0027",
+              "start": 68,
+              "end": 72,
+              "text": "All right, kids. What do you reckon?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 66,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 68,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0010",
+          "quote": "Wow. All right, kids. What do you reckon?",
+          "start": 66,
+          "end": 72,
+          "matchStart": 5,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "Wow. All right, kids. What do you reckon?",
+          "start": 66,
+          "end": 72,
+          "matchStart": 22,
+          "matchEnd": 26
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 77,
+      "end": 79,
+      "sentenceText": "It's amazing.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 77,
+          "end": 79,
+          "text": "It's amazing.",
+          "originalText": "It's amazing.",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 77,
+              "end": 79,
+              "text": "It's amazing."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 77,
+              "end": 79,
+              "text": "It's amazing."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 77,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 79,
+      "end": 81,
+      "sentenceText": ">> [music]",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": false,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 79,
+          "end": 81,
+          "text": ">> [music]",
+          "originalText": ">> [music]",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 79,
+              "end": 81,
+              "text": ">> [music]"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 79,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment",
+        "non-speech-cue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 82,
+      "end": 87,
+      "sentenceText": "Thank you for our fish pond. We love it. You're welcome.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 82,
+          "end": 87,
+          "text": "Thank you for our fish pond. We love it. You're welcome.",
+          "originalText": ">> Thank you for our fish pond. We love it. You're welcome. And you did it in 3",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 82,
+              "end": 85,
+              "text": ">> Thank you for our fish pond. We love it."
+            },
+            {
+              "id": "c0028",
+              "start": 85,
+              "end": 87,
+              "text": "You're welcome. And you did it in 3"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 82,
+              "end": 85,
+              "text": "Thank you for our fish pond. We love it."
+            },
+            {
+              "id": "c0030",
+              "start": 85,
+              "end": 87,
+              "text": "You're welcome."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 82,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 85,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0013",
+          "quote": "Thank you for our fish pond. We love it. You're welcome.",
+          "start": 82,
+          "end": 87,
+          "matchStart": 0,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0013",
+          "quote": "Thank you for our fish pond. We love it. You're welcome.",
+          "start": 82,
+          "end": 87,
+          "matchStart": 32,
+          "matchEnd": 36
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 87,
+      "end": 92,
+      "sentenceText": "And you did it in 3 days. Well, I work better on a full stomach.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 87,
+          "end": 92,
+          "text": "And you did it in 3 days. Well, I work better on a full stomach.",
+          "originalText": "days. Well, I work better on a full stomach.",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 87,
+              "end": 90,
+              "text": "days. Well, I work better on a full"
+            },
+            {
+              "id": "c0030",
+              "start": 90,
+              "end": 92,
+              "text": "stomach."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 87,
+              "end": 90,
+              "text": "And you did it in 3 days."
+            },
+            {
+              "id": "c0032",
+              "start": 90,
+              "end": 92,
+              "text": "Well, I work better on a full stomach."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 92,
+      "end": 99,
+      "sentenceText": "He did well, too. Yep. Chippy can work hard when he wants to. Yep. Okay, see you later. Bye.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 92,
+          "end": 99,
+          "text": "He did well, too. Yep. Chippy can work hard when he wants to. Yep. Okay, see you later. Bye.",
+          "originalText": "He did well, too. Yep. Chippy can work hard when he wants to. >> Yep. Okay, see you later. Bye.",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 92,
+              "end": 94,
+              "text": "He did well, too. Yep. Chippy can work"
+            },
+            {
+              "id": "c0032",
+              "start": 94,
+              "end": 95,
+              "text": "hard when he wants to."
+            },
+            {
+              "id": "c0033",
+              "start": 95,
+              "end": 99,
+              "text": ">> Yep. Okay, see you later. Bye."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 92,
+              "end": 94,
+              "text": "He did well, too."
+            },
+            {
+              "id": "c0034",
+              "start": 94,
+              "end": 95,
+              "text": "Yep. Chippy can work hard when he wants to."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 94,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 95,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0015",
+          "quote": "He did well, too. Yep. Chippy can work hard when he wants to. Yep. Okay, see you later. Bye.",
+          "start": 92,
+          "end": 99,
+          "matchStart": 67,
+          "matchEnd": 71
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0015",
+          "quote": "He did well, too. Yep. Chippy can work hard when he wants to. Yep. Okay, see you later. Bye.",
+          "start": 92,
+          "end": 99,
+          "matchStart": 73,
+          "matchEnd": 76
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 99,
+      "end": 109,
+      "sentenceText": "See you, Chippy. Oh, is Chocolate Milk, I mean, Chippy, not going with you? Nah, he's got a lift.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 99,
+          "end": 109,
+          "text": "See you, Chippy. Oh, is Chocolate Milk, I mean, Chippy, not going with you? Nah, he's got a lift.",
+          "originalText": "See you, Chippy. Oh, is Chocolate Milk, I mean, Chippy, not going with you? Nah, he's got a lift.",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 99,
+              "end": 102,
+              "text": "See you, Chippy. Oh, is Chocolate Milk,"
+            },
+            {
+              "id": "c0035",
+              "start": 102,
+              "end": 106,
+              "text": "I mean, Chippy, not going with you? Nah,"
+            },
+            {
+              "id": "c0036",
+              "start": 106,
+              "end": 109,
+              "text": "he's got a lift."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 99,
+              "end": 102,
+              "text": "See you, Chippy."
+            },
+            {
+              "id": "c0037",
+              "start": 102,
+              "end": 104,
+              "text": "Oh, is Chocolate Milk,"
+            },
+            {
+              "id": "c0038",
+              "start": 104,
+              "end": 106,
+              "text": "I mean, Chippy, not going with you?"
+            },
+            {
+              "id": "c0039",
+              "start": 106,
+              "end": 109,
+              "text": "Nah, he's got a lift."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 99,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 102,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 106,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0016",
+          "quote": "See you, Chippy. Oh, is Chocolate Milk, I mean, Chippy, not going with you? Nah, he's got a lift.",
+          "start": 99,
+          "end": 109,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0017",
+      "title": "문단 17",
+      "start": 110,
+      "end": 112,
+      "sentenceText": ">> [snorts]",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 17,
+      "selectable": false,
+      "cues": [
+        {
+          "id": "c0017",
+          "start": 110,
+          "end": 112,
+          "text": ">> [snorts]",
+          "originalText": ">> [snorts]",
+          "originalCueRefs": [
+            {
+              "id": "c0037",
+              "start": 110,
+              "end": 112,
+              "text": ">> [snorts]"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0037",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 17,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment",
+        "non-speech-cue"
+      ]
+    }
+  ]
+}

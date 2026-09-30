@@ -1,0 +1,61 @@
+# 49. It's on the App! | Phones - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=39qhYmxqh_c
+- Length: 02:03
+- Captions: YouTube auto-generated English captions
+- Script: 00:01 ~ 02:02
+
+---
+
+- `[00:01 - 00:04]` Ring, ring, ring, ring, ring, ring, ring, ring.
+- `[00:04 - 00:05]` Hello?
+- `[00:05 - 00:08]` Oh, hello, I'd like to order some food.
+- `[00:08 - 00:11]` Grandad, you don't phone call the restaurant!
+- `[00:11 - 00:12]` What?
+- `[00:12 - 00:13]` You just order on the app.
+- `[00:13 - 00:15]` But I haven't got a menu!
+- `[00:15 - 00:17]` It's on the app!
+- `[00:17 - 00:19]` All right.
+- `[00:19 - 00:21]` Oh, yeah, here we go.
+- `[00:21 - 00:22]` Hang on.
+- `[00:22 - 00:24]` What type of restaurant are you?
+- `[00:24 - 00:25]` What do you mean?
+- `[00:25 - 00:28]` Are you Chinese or Italian?
+- `[00:28 - 00:28]` We're everything.
+- `[00:28 - 00:32]` Yeah, you can order a pizza or a burrito.
+- `[00:32 - 00:33]` A burrito?
+- `[00:33 - 00:34]` Burrito!
+- `[00:34 - 00:37]` You can have anything you want.
+- `[00:37 - 00:39]` Oh, okay.
+- `[00:39 - 00:41]` Anything I want, eh?
+- `[00:41 - 00:44]` That makes it harder for some reason.
+- `[00:44 - 00:45]` Oh, oh, sorry, guys.
+- `[00:45 - 00:47]` Better pay for that.
+- `[00:47 - 00:49]` Do you need help choosing, Grandad?
+- `[00:49 - 00:51]` No, no, I'm all right.
+- `[00:51 - 00:53]` Ah, I know!
+- `[00:53 - 00:54]` Curried sausages!
+- `[00:54 - 00:56]` Curried sausages?
+- `[00:56 - 00:59]` Why do you want curried sausages?
+- `[00:59 - 01:01]` I love curried sausages!
+- `[01:01 - 01:01]` What?
+- `[01:01 - 01:04]` You said I could have anything!
+- `[01:04 - 01:04]` Okay.
+- `[01:04 - 01:08]` Curried sausages.
+- `[01:08 - 01:13]` Evening, ladies! I'm here to pick up me sausages, Grandad.
+- `[01:13 - 01:16]` You don't pick them up.
+- `[01:16 - 01:18]` Bingo delivers them to you.
+- `[01:18 - 01:21]` All right.
+- `[01:27 - 01:27]` Okay.
+- `[01:27 - 01:30]` Hey, how you going? Nice night, eh?
+- `[01:30 - 01:33]` Uh, you don't really chat to the scooter person.
+- `[01:33 - 01:36]` Oh, okay.
+- `[01:39 - 01:39]` Sorry.
+- `[01:39 - 01:41]` Did I do it right?
+- `[01:41 - 01:44]` Yeah, good one, Grandad! No worries!
+- `[01:44 - 01:46]` Let's have some food.
+- `[01:46 - 01:47]` Oh, that's good.
+- `[01:47 - 01:50]` So do I just eat here alone?
+- `[01:50 - 01:53]` You can watch TV on your phone if you like.
+- `[01:53 - 01:55]` Yeah, there's a TV app.
+- `[01:55 - 02:02]` Okay.

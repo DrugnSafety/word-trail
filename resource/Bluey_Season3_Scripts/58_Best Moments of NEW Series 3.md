@@ -1,0 +1,225 @@
+# 58. Best Moments of NEW Series 3 🤣 | Bluey
+
+- Video: https://www.youtube.com/watch?v=ypA8P1YeaIs
+- Length: 10:42
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 10:43
+
+---
+
+- `[00:00 - 00:02]` Which one's our room?
+- `[00:02 - 00:02]` Oh, tiles!
+- `[00:02 - 00:04]` Dump your stuff, sunscreen up,
+- `[00:04 - 00:07]` and let's hit the beach!
+- `[00:07 - 00:10]` Finger... what is it?
+- `[00:10 - 00:12]` Bunk beds! Bunk beds!
+- `[00:12 - 00:14]` Can I have the...
+- `[00:14 - 00:15]` if you like, thanks!
+- `[00:15 - 00:17]` Oh, look, a present!
+- `[00:17 - 00:19]` What... I think it's soap.
+- `[00:19 - 00:23]` Have you got one? I'll see.
+- `[00:23 - 00:30]` Yes, Bluey, we've got carrots hanging!
+- `[00:30 - 00:34]` Are they all us? Yeah, wow!
+- `[00:34 - 00:37]` Here, wait, I'll stand on this.
+- `[00:37 - 00:39]` What is that? I
+- `[00:39 - 00:40]` don't know, let's
+- `[00:40 - 00:42]` pretend it's an oven, okay?
+- `[00:42 - 00:43]` and we
+- `[00:43 - 00:46]` can be mermaids!
+- `[00:46 - 00:50]` Mermaid waiter, may I have a pie, please?
+- `[00:50 - 00:55]` Oh yes, I'll just cook it.
+- `[00:55 - 00:58]` It will be ready soon, mermaid, thank you.
+- `[00:58 - 01:00]` Ready, girls? Ding! Ready?
+- `[01:00 - 01:01]` No, I mean, are you ready
+- `[01:01 - 01:03]` to go down to the
+- `[01:03 - 01:04]` beach? Have you sunscreened?
+- `[01:04 - 01:06]` Oh no! Once upon a time,
+- `[01:06 - 01:08]` some friends all set off to find a dragon.
+- `[01:08 - 01:12]` Oh man, these fairy frocks are itchy.
+- `[01:12 - 01:17]` When suddenly... it's one of those dudes!
+- `[01:17 - 01:20]` Don't you know what it is?
+- `[01:20 - 01:23]` Yeah, it's, um, Humpty Dumpty?
+- `[01:23 - 01:26]` No, it's the dragon already!
+- `[01:26 - 01:30]` Um, no, it's not the dragon, it's Humpty Dumpty.
+- `[01:30 - 01:31]` Are you sure, Blue?
+- `[01:31 - 01:34]` Yes, the dragon's hiding somewhere else.
+- `[01:34 - 01:37]` Well, that's good, Humpty Dumpty is friendly.
+- `[01:37 - 01:39]` No, he isn't!
+- `[01:39 - 01:45]` Get him! It's all magic! Me, jump!
+- `[01:45 - 01:53]` Who wants scrambled eggs?
+- `[01:53 - 01:56]` So, the friends kept walking.
+- `[01:56 - 01:59]` Maybe I should be shampooing these things.
+- `[01:59 - 02:01]` And then they got to a forest.
+- `[02:01 - 02:02]` Can you draw a forest, Mum?
+- `[02:02 - 02:06]` Okay, will the dragon be in it, do you think?
+- `[02:06 - 02:08]` Um, no, not yet, Dad.
+- `[02:08 - 02:09]` Look, we're on TV!
+- `[02:09 - 02:10]` Oh, good one.
+- `[02:10 - 02:12]` I won't be long, kids,
+- `[02:12 - 02:14]` stay where I can see you.
+- `[02:14 - 02:20]` Look, it's Dad! He's on TV! Hi, Dad!
+- `[02:20 - 02:23]` Look, it's a car! A car!
+- `[02:23 - 02:28]` Hey, over here, over here! Look up, up!
+- `[02:28 - 02:31]` Where'd you go? Look, it's the
+- `[02:31 - 02:32]` Terriers! Mum,
+- `[02:32 - 02:38]` please, can we go home? This place smells like Grandma.
+- `[02:38 - 02:44]` Oh, that's too much! Oh, Scarlet Bombshell!
+- `[02:44 - 02:52]` Ah, it's Bluey! They've seen us! Hi, hi, Terriers!
+- `[02:52 - 02:56]` Oh, they're gone! It's Winton!
+- `[02:56 - 03:00]` Oh yeah, he's seen us too!
+- `[03:00 - 03:05]` Hi! He's dancing, that will get Coco's attention.
+- `[03:05 - 03:15]` Oh, yeah, do you think we should build a playroom here
+- `[03:15 - 03:16]` for Kim Jim?
+- `[03:16 - 03:17]` Yeah, I think we should.
+- `[03:17 - 03:28]` And that's the story.
+- `[03:28 - 03:30]` Dad, you're in the way, ah,
+- `[03:30 - 03:31]` can't you build around me?
+- `[03:31 - 03:33]` I'm trying to watch the cricket!
+- `[03:33 - 03:35]` No! Well, that settles that, then.
+- `[03:35 - 03:36]` Oh, can we have that cushion?
+- `[03:36 - 03:39]` It can be a bath for Kim Jim.
+- `[03:39 - 03:43]` Oh yeah, let's build a bathroom!
+- `[03:43 - 03:49]` Okay, 5 and a half metres,
+- `[03:49 - 03:51]` that's just too small.
+- `[03:51 - 03:55]` Hey, M, the towel covered it,
+- `[03:55 - 03:58]` sorry, look, Kim Jim, this is your new bathroom! Yay!
+- `[03:58 - 03:58]` Thank you, bye!
+- `[03:58 - 04:01]` We're hungry now! Oh yeah, it's your
+- `[04:01 - 04:01]` dinner time.
+- `[04:01 - 04:06]` Where should we eat? Let's build a dining
+- `[04:06 - 04:06]` room.
+- `[04:06 - 04:16]` I finished teaching, mummy! Kim Jim,
+- `[04:16 - 04:18]` you ate all your dinner, well done!
+- `[04:18 - 04:20]` Now, what we didn't know was
+- `[04:20 - 04:22]` that Rusty loved cricket.
+- `[04:22 - 04:25]` He'd play all day with his brother and sister.
+- `[04:25 - 04:27]` Can you hit me a catch?
+- `[04:27 - 04:30]` Not yet, Rusty, I'm almost at 50.
+- `[04:30 - 04:38]` Yeah, and when they went around, he played by himself.
+- `[04:38 - 04:47]` Far out, that's it, Snickers, man, this kid's good!
+- `[04:47 - 04:50]` Look, he likes the square cut, Stripe!
+- `[04:50 - 04:52]` You and me will move to gully and point.
+- `[04:52 - 04:54]` You send one to his off stump, lure him
+- `[04:54 - 04:55]` into the catch.
+- `[04:55 - 04:58]` It was a good plan, but we
+- `[04:58 - 05:01]` didn't know about... about Rusty's kitchen.
+- `[05:01 - 05:05]` Uh, run! Hey, come back here!
+- `[05:05 - 05:09]` That was good motivation to work on your square cut.
+- `[05:09 - 05:24]` I had no chance.
+- `[05:24 - 05:27]` Okay, I can make this work.
+- `[05:27 - 05:28]` Hey, hey!
+- `[05:28 - 05:29]` Hold the door!
+- `[05:29 - 05:31]` Oh, yes, there you go.
+- `[05:31 - 05:32]` Thanks!
+- `[05:32 - 05:34]` I haven't seen you around, are
+- `[05:34 - 05:36]` you new? Yeah, this is my first day.
+- `[05:36 - 05:38]` Oh, well, I can show you around,
+- `[05:38 - 05:40]` and if you like, I've worked
+- `[05:40 - 05:41]` here for ages.
+- `[05:41 - 05:44]` Oh, thanks, it's a pretty boring job.
+- `[05:44 - 05:48]` This is the lift, you push this button,
+- `[05:48 - 05:52]` so then push what floor you want.
+- `[05:52 - 05:56]` This floor is just some, um, people and stuff.
+- `[05:56 - 06:00]` The top floor is the best!
+- `[06:00 - 06:01]` Hi, can I try?
+- `[06:01 - 06:04]` Yes, but the lift's a bit slow
+- `[06:04 - 06:09]` with two people, it's very old.
+- `[06:09 - 06:14]` Floor! Hi everyone, this is Elle, she's new.
+- `[06:14 - 06:18]` I'm showing her, let's take
+- `[06:19 - 06:20]` the stairs.
+- `[06:20 - 06:22]` So, this is your chair.
+- `[06:22 - 06:25]` I'm on! I'll show you how it works.
+- `[06:25 - 06:28]` You push this lever,
+- `[06:28 - 06:31]` and okay, so you have to collect all the upset
+- `[06:31 - 06:33]` and all the angry.
+- `[06:33 - 06:36]` How do I collect upset and angry?
+- `[06:36 - 06:38]` You just feel where it is,
+- `[06:38 - 06:40]` and go get it.
+- `[06:40 - 06:44]` There's usually some in your belly or your neck,
+- `[06:44 - 06:48]` and always remember to check your ears.
+- `[06:48 - 06:53]` Okay, now you've got all that upset and
+- `[06:53 - 06:57]` angry in your hands, what do I do with it?
+- `[06:57 - 06:59]` Do you want to keep it?
+- `[06:59 - 07:00]` No, I don't want it.
+- `[07:00 - 07:02]` Well, what do you do with something
+- `[07:02 - 07:04]` you don't want anymore?
+- `[07:04 - 07:05]` Uh, give it to you?
+- `[07:05 - 07:07]` I don't want it.
+- `[07:07 - 07:08]` Yeah, me neither.
+- `[07:08 - 07:11]` Then what do I do with it?
+- `[07:11 - 07:13]` You throw it away.
+- `[07:13 - 07:15]` Oh, uh-uh! Like Mum said,
+- `[07:15 - 07:18]` you need to throw this thing really far.
+- `[07:18 - 07:20]` Stand sideways, like on a skateboard,
+- `[07:20 - 07:22]` bend your knees.
+- `[07:22 - 07:24]` Yep, get comfy, that's good,
+- `[07:24 - 07:26]` and with this arm...
+- `[07:26 - 07:31]` I just like playing with Indy.
+- `[07:31 - 07:33]` Okay, do you think you could scare
+- `[07:33 - 07:34]` a scarecrow?
+- `[07:34 - 07:45]` What is it? It's the pink witch of the woods.
+- `[07:45 - 07:47]` Hey, Coco's not a pink witch!
+- `[07:47 - 07:50]` Yes she is, she's got a broom.
+- `[07:50 - 07:52]` No, she uses that to
+- `[07:52 - 07:57]` wait... oh no, look, this corn is trellised up!
+- `[07:57 - 08:03]` They all are! It must be the work of the pink witch.
+- `[08:03 - 08:06]` The pink witch has cursed our crops!
+- `[08:06 - 08:08]` I can't be dealing with witches,
+- `[08:08 - 08:10]` I just bought a new quad bike!
+- `[08:10 - 08:13]` What are we going to do?
+- `[08:13 - 08:18]` I have to take her some of our food every day
+- `[08:18 - 08:20]` to keep her happy, otherwise she'll curse
+- `[08:20 - 08:21]` our whole farm.
+- `[08:21 - 08:22]` No, and it's too dangerous!
+- `[08:22 - 08:27]` Don't worry, I used to be a world girl.
+- `[08:27 - 08:30]` There's a leaf bug in the way.
+- `[08:30 - 08:31]` She's so cute!
+- `[08:31 - 08:33]` You have to be more careful, Leafis,
+- `[08:33 - 08:35]` you're lucky we didn't squash you!
+- `[08:35 - 08:38]` I'll move her off the slide,
+- `[08:38 - 08:39]` come on, little fella.
+- `[08:39 - 08:42]` Okay, you can go, Leaf, hooray!
+- `[08:42 - 08:43]` Bye, Leafis!
+- `[08:43 - 08:45]` Oh, wait, stop!
+- `[08:47 - 08:50]` Hey, it's a ladybird!
+- `[08:50 - 08:52]` Oh, I love ladybirds!
+- `[08:52 - 08:59]` We can't squish them, come on, ladybird.
+- `[08:59 - 09:03]` Hey, now there's an ant on the slide.
+- `[09:03 - 09:06]` Bingo, can we squish ants?
+- `[09:06 - 09:10]` Well, I don't like them as much as ladybirds,
+- `[09:10 - 09:14]` but I still don't think we should squish them.
+- `[09:14 - 09:16]` Me neither, come on.
+- `[09:16 - 09:17]` Oh, there's another one!
+- `[09:17 - 09:19]` What are we going to do?
+- `[09:19 - 09:20]` Ooh, I know!
+- `[09:20 - 09:23]` If we make walls, the little bugs won't
+- `[09:23 - 09:26]` be able to get over them.
+- `[09:26 - 09:31]` Oh yeah, Bingo, you're ready to practice
+- `[09:31 - 09:33]` your Show and Tell for tomorrow, um,
+- `[09:33 - 09:34]` okay.
+- `[09:34 - 09:36]` Hello, everybody! Hello, Bingo!
+- `[09:36 - 09:37]` Um, I have a crab claw.
+- `[09:37 - 09:41]` It's called Show and Tell, Bingo.
+- `[09:41 - 09:45]` I'm good at the showing bit,
+- `[09:45 - 09:53]` but not good at the telling bit.
+- `[09:53 - 09:55]` Pro tip, keep it simple,
+- `[09:55 - 09:57]` kids switch off if you talk too long.
+- `[09:57 - 10:00]` Maybe you could talk about how crabs
+- `[10:00 - 10:02]` have an exoskeleton as opposed to an
+- `[10:02 - 10:03]` endoskeleton, you see, blah, blah, blah, blah
+- `[10:03 - 10:06]` skeleton, blah, blah, blah, blah, blah, blah,
+- `[10:06 - 10:06]` mitochondria.
+- `[10:06 - 10:07]` Make sense?
+- `[10:07 - 10:07]` No.
+- `[10:07 - 10:10]` See, can I have some tomato sauce, please?
+- `[10:10 - 10:10]` Yep.
+- `[10:10 - 10:11]` Thanks!
+- `[10:11 - 10:14]` Hey, what's that tomato sauce?
+- `[10:14 - 10:18]` Oh, uh, this is my tomato sauce.
+- `[10:18 - 10:23]` Well, who is this tomato sauce, sauce?
+- `[10:23 - 10:25]` That's your tomato sauce.
+- `[10:25 - 10:28]` What's the difference between my tomato sauce
+- `[10:28 - 10:31]` and your tomato sauce?
+- `[10:31 - 10:33]` Yours is a healthy one,
+- `[10:33 - 10:36]` it's got less sugar in it.
+- `[10:36 - 10:43]` Oh...

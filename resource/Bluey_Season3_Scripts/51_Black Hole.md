@@ -1,0 +1,47 @@
+# 51. Black Hole | Space - Series 3
+
+- Video: https://www.youtube.com/watch?v=iYnMdjjtASU
+- Length: 02:13
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:12
+
+---
+
+- `[00:00 - 00:03]` Is that true, Chief Scientist?
+- `[00:03 - 00:04]` Yes.
+- `[00:04 - 00:07]` I want to pretend that you leave me behind and I'm all alone.
+- `[00:07 - 00:08]` Why?
+- `[00:08 - 00:09]` I don't know.
+- `[00:09 - 00:11]` Well, I'm not sure we can pretend that.
+- `[00:11 - 00:16]` Yeah, to get to Mars we need a chief scientist to put us into hypersleep.
+- `[00:16 - 00:17]` Oh, okay.
+- `[00:18 - 00:21]` Are you sure we can't go to the black hole?
+- `[00:21 - 00:22]` No, it doesn't have aliens.
+- `[00:22 - 00:23]` Neither does Mars.
+- `[00:23 - 00:28]` Dude-a-tron, prepare crew for hypersleep.
+- `[00:28 - 00:31]` Yes, Chief Scientist.
+- `[00:48 - 00:50]` Dude-a-tron, I want to change course.
+- `[00:50 - 00:53]` What is the new destination?
+- `[00:53 - 01:01]` The black hole.
+- `[01:01 - 01:02]` Interrupted.
+- `[01:02 - 01:05]` Um, a weird Mars? I don't think so.
+- `[01:05 - 01:08]` Dude-a-tron, what's going on?
+- `[01:08 - 01:10]` And where's Mackenzie?
+- `[01:10 - 01:13]` Oh, not again.
+- `[01:18 - 01:19]` What are you doing here?
+- `[01:19 - 01:23]` We know you're about to go into the black hole.
+- `[01:23 - 01:24]` We've come to stop you.
+- `[01:24 - 01:25]` But I want to go in!
+- `[01:25 - 01:26]` I have to.
+- `[01:26 - 01:27]` Why?
+- `[01:27 - 01:29]` Because I'm the chief scientist.
+- `[01:29 - 01:33]` It's my job to figure everything out.
+- `[01:35 - 01:37]` We're all going along.
+- `[01:37 - 01:38]` Well, why don't you go to Mars without me?
+- `[01:40 - 01:42]` Are you sure?
+- `[01:42 - 01:44]` I'm sure.
+- `[01:44 - 01:48]` Okay.
+- `[01:48 - 01:50]` You're just gonna let him go?
+- `[01:50 - 01:53]` It's what he wants to play.
+- `[02:07 - 02:09]` Mum!
+- `[02:09 - 02:12]` Mum!

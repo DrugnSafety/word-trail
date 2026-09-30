@@ -1,0 +1,132 @@
+# 03. Pizza Girls | Full Episode | Bluey
+
+- Video: https://www.youtube.com/watch?v=zL_vNn06a5M
+- Length: 07:00
+- Captions: YouTube auto-generated English captions
+- Script: 00:27 ~ 06:45
+
+---
+
+- `[00:27 - 00:29]` Ready?
+- `[00:29 - 00:30]` Okay!
+- `[00:30 - 00:35]` Ring, ring, ring, ring. Hello, pizza shop!
+- `[00:35 - 00:37]` Would you like to order a pizza?
+- `[00:37 - 00:37]` Yes, please.
+- `[00:37 - 00:42]` I want one supreme with no mushrooms.
+- `[00:42 - 00:45]` Yeah, I want garlic bread.
+- `[00:45 - 00:46]` You got it.
+- `[00:46 - 00:52]` Do you need my address?
+- `[00:52 - 00:55]` No mushrooms, please, okay?
+- `[00:55 - 00:57]` I'll do the garlic bread.
+- `[00:57 - 00:58]` Can we pretend we're sisters,
+- `[00:58 - 01:00]` and our mum owns the pizza shop?
+- `[01:00 - 01:03]` Oh, yeah! And we're gonna run it for her,
+- `[01:03 - 01:10]` so she can go on holiday.
+- `[01:10 - 01:13]` Yeah, to Italy!
+- `[01:13 - 01:17]` Don't forget the free drink!
+- `[01:17 - 01:21]` That's Pizza Sisters! See you soon!
+- `[01:26 - 01:30]` Oh, nice one! No mushrooms, no mushrooms.
+- `[01:30 - 01:34]` Great! No, no, you can't have the box, it's our only one.
+- `[01:34 - 01:36]` Right, so what do I do?
+- `[01:36 - 01:37]` Just take the pizza.
+- `[01:37 - 01:46]` Okay.
+- `[01:46 - 01:49]` Not again! Oh, I can fix it.
+- `[01:49 - 01:51]` Mum, can we get a new car?
+- `[01:51 - 01:54]` Oh, but you've had Pedley since you were two.
+- `[01:54 - 01:56]` But the wheel keeps falling off!
+- `[01:56 - 01:57]` I know,
+- `[01:57 - 01:59]` but there's just a lot of stories in that car.
+- `[01:59 - 02:02]` How could a car have stories?
+- `[02:02 - 02:06]` We'll fix... ah, there you go, see?
+- `[02:06 - 02:08]` Good as new.
+- `[02:09 - 02:12]` This is my car.
+- `[02:12 - 02:14]` This episode is called Pizza Girls.
+- `[02:14 - 02:16]` What is this, Muffin?
+- `[02:16 - 02:17]` It's an electric car.
+- `[02:17 - 02:19]` My dad bought a new car,
+- `[02:19 - 02:21]` and this came with it.
+- `[02:21 - 02:23]` It drives without petrol.
+- `[02:23 - 02:27]` Yes, and it's very expensive, Muffin, so be careful with it.
+- `[02:27 - 02:31]` Pizza Girls in it, okay?
+- `[02:31 - 02:33]` All right, all right.
+- `[02:33 - 02:36]` We're all sisters who run the pizza shop.
+- `[02:36 - 02:36]` Got it.
+- `[02:36 - 02:39]` Hmm, there's no roof to stick the pizza sign on.
+- `[02:39 - 02:40]` It's a convertible.
+- `[02:40 - 02:45]` Okay, well, I guess we don't need to use it.
+- `[02:45 - 02:46]` Hello, customers!
+- `[02:46 - 02:49]` And you just do this with your foot,
+- `[02:49 - 02:51]` and that opens the boot.
+- `[02:51 - 02:52]` Oh, cool!
+- `[02:52 - 02:54]` Customers! The boot's not working.
+- `[02:54 - 02:58]` I just asked them. Wait, that's a no.
+- `[02:58 - 03:00]` We meant to do it over the phone.
+- `[03:00 - 03:02]` They want a supreme, okay?
+- `[03:02 - 03:05]` One supreme, thanks, Pizza Sisters.
+- `[03:05 - 03:09]` Our mum started this pizza shop. She worked really hard,
+- `[03:09 - 03:11]` so we're trying to give her a holiday.
+- `[03:11 - 03:16]` Wow, we're gonna deliver pizza fast now!
+- `[03:16 - 03:17]` We're starting the pizza shop,
+- `[03:17 - 03:20]` you can't bring mud in the new car!
+- `[03:20 - 03:21]` What? Why?
+- `[03:21 - 03:25]` Because it's very expensive. Oh, okay, well,
+- `[03:25 - 03:28]` what do we do? We have to play something else.
+- `[03:28 - 03:31]` Oh, whatever you play in it.
+- `[03:31 - 03:33]` I usually just drive around, okay?
+- `[03:33 - 03:35]` Let's do that.
+- `[03:35 - 03:39]` Watch your feet! Sorry, no mud in the car.
+- `[03:39 - 03:49]` We ready, Muffin? But just don't drive, come on.
+- `[04:02 - 04:05]` Hey, how are you getting fingerprints all over it?
+- `[04:05 - 04:06]` Do you like a trick?
+- `[04:06 - 04:08]` Uh, I missed the old one. We
+- `[04:08 - 04:12]` brought the kids home from hospital in this one.
+- `[04:12 - 04:14]` That was fun!
+- `[04:14 - 04:17]` Can I have a turn? Okay.
+- `[04:17 - 04:18]` All right, here we go.
+- `[04:18 - 04:23]` What's going on? Oh, it's out of battery.
+- `[04:23 - 04:28]` We have to charge it. Okay.
+- `[04:28 - 04:29]` Battery's charging, kids.
+- `[04:29 - 04:33]` How long does it take to charge this much?
+- `[04:33 - 04:37]` Oh, what should we play while we wait?
+- `[04:37 - 04:40]` I guess we can go back to Pizza Girls.
+- `[04:40 - 04:40]` Yeah!
+- `[04:40 - 04:44]` So, there's one super pizza with extra pineapple,
+- `[04:44 - 04:47]` Yep, but no mushrooms, you hear me?
+- `[04:47 - 04:50]` Got it! You dream on it?
+- `[04:50 - 04:51]` I'm good. Okay.
+- `[04:51 - 04:52]` Bye!
+- `[04:52 - 04:54]` Let's put mushrooms on it.
+- `[04:54 - 04:55]` Yeah? Really?
+- `[04:55 - 04:57]` Who can I be? Well, I need to
+- `[04:57 - 04:59]` fix my delivery car.
+- `[04:59 - 05:02]` You could be the mechanic, okay?
+- `[05:02 - 05:03]` Ready?
+- `[05:03 - 05:14]` Oh, great! Here's your money.
+- `[05:14 - 05:18]` Oh, extra pineapple! Hey, hang on, what are these?
+- `[05:18 - 05:22]` Enjoy the mushrooms! Ha ha ha!
+- `[05:24 - 05:28]` Okay, thanks, bye!
+- `[05:28 - 05:33]` Goodness me, the customers have ordered 10 pizzas!
+- `[05:33 - 05:35]` They said they're
+- `[05:35 - 05:37]` having a pizza party, and we should take our time.
+- `[05:37 - 05:39]` Okay, I'll get started.
+- `[05:39 - 05:41]` We have the car mechanic.
+- `[05:41 - 05:45]` I put this one on, which makes it go extra fast.
+- `[05:45 - 05:47]` Oh wow, you're a good mechanic!
+- `[05:47 - 05:50]` Thanks! All right, I'll make the garlic breads.
+- `[05:50 - 05:53]` Hey, girls, the battery's charged. You can ride the car again.
+- `[05:53 - 05:56]` Oh, thanks!
+- `[05:56 - 06:00]` It's your turn to have the drive, Bluey.
+- `[06:00 - 06:02]` Um, yeah, it is.
+- `[06:02 - 06:03]` And you just keep the keys in your pocket.
+- `[06:03 - 06:09]` You don't even need to know more about your car, mate.
+- `[06:09 - 06:12]` Oh, great! Well, one of them is...
+- `[06:12 - 06:15]` How's it? Too late, uh...
+- `[06:15 - 06:17]` Good, here you go!
+- `[06:17 - 06:18]` Enjoy! Thanks!
+- `[06:18 - 06:21]` I'll be back in a jiffy!
+- `[06:21 - 06:26]` Oops! Oh dear, maybe it's time for a new car, Bluey.
+- `[06:26 - 06:30]` No way! I've had Pedley since I was two.
+- `[06:30 - 06:32]` Hello?
+- `[06:36 - 06:39]` Hi, I'm here to fix your car!
+- `[06:39 - 06:43]` My goodness, that was quick! Fixed, there you go.
+- `[06:43 - 06:45]` His name...

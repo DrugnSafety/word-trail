@@ -1,0 +1,64 @@
+# 41. Bluey's New Room | Bedroom - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=bv4Z_R7cOPk
+- Length: 02:03
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:03
+
+---
+
+- `[00:00 - 00:01]` Whew, done!
+- `[00:01 - 00:02]` Thanks, Dad.
+- `[00:02 - 00:05]` Hey, Bingo, you moved your bed to where mine was.
+- `[00:05 - 00:06]` Yeah, is that okay?
+- `[00:06 - 00:07]` Sure, that's fine.
+- `[00:07 - 00:10]` I did it so we can still watch Malcolm.
+- `[00:10 - 00:12]` Oh, yeah, good one.
+- `[00:12 - 00:13]` What's he doing?
+- `[00:13 - 00:14]` Not much.
+- `[00:14 - 00:18]` Come on, Malcolm, do something.
+- `[00:18 - 00:20]` Ooh, he heard us!
+- `[00:20 - 00:22]` Okay, these teddies are mine.
+- `[00:22 - 00:24]` And these are all mine.
+- `[00:24 - 00:25]` Yes, now.
+- `[00:25 - 00:27]` What about Gloria?
+- `[00:27 - 00:29]` Yes, what about Gloria?
+- `[00:29 - 00:33]` She was a Christmas present to me from Grandad,
+- `[00:33 - 00:37]` but you didn't get a Christmas present from Grandad
+- `[00:37 - 00:39]` because he forgot I was born.
+- `[00:39 - 00:41]` Yes, he forgot you were born.
+- `[00:41 - 00:46]` So you said, 'It's okay, Bingo, she can be both of ours.'
+- `[00:46 - 00:47]` Yes, that's right.
+- `[00:47 - 00:50]` So, whose room should she go in?
+- `[00:50 - 00:50]` Hmm.
+- `[00:50 - 00:52]` She can go to yours.
+- `[00:52 - 00:52]` Thanks, Bluey.
+- `[00:52 - 00:56]` But how about she sleeps over at yours tonight?
+- `[00:56 - 01:02]` Oh, okay.
+- `[01:02 - 01:03]` Who keeps Lampy?
+- `[01:03 - 01:05]` Oh, um, you can keep her.
+- `[01:05 - 01:08]` No, it's okay, you take Lampy.
+- `[01:08 - 01:08]` Thanks.
+- `[01:08 - 01:12]` But can we play Asleep Awake?
+- `[01:12 - 01:13]` Ooh, okay.
+- `[01:13 - 01:15]` Asleep...
+- `[01:15 - 01:16]` Awake!
+- `[01:16 - 01:19]` Let's see...
+- `[01:30 - 01:31]` Okay, kids, into bed, come on.
+- `[01:31 - 01:33]` Big D is ready for knock-off.
+- `[01:33 - 01:35]` Yeah, yeah, yeah, where are you going?
+- `[01:35 - 01:37]` Oh, yeah, I forgot.
+- `[01:37 - 01:38]` 'Night, Bluey.
+- `[01:38 - 01:39]` 'Night, Bingo.
+- `[01:39 - 01:40]` Sleep tight.
+- `[01:40 - 01:41]` You too.
+- `[01:41 - 01:43]` Don't let the bed bugs bite.
+- `[01:43 - 01:46]` Take care of Gloria and Lampy.
+- `[01:46 - 01:47]` Yes, I will.
+- `[01:47 - 01:51]` All right, come on, come on.
+- `[01:51 - 01:53]` You all set, Bluey?
+- `[01:53 - 01:53]` Yep.
+- `[01:53 - 01:55]` Exciting!
+- `[01:55 - 01:56]` 'Night. 'Night.
+- `[01:56 - 02:02]` Ooh, tell Bingo to say goodnight to Malcolm for me.
+- `[02:02 - 02:03]` Okay.

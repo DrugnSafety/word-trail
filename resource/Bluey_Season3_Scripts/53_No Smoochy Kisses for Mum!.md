@@ -1,0 +1,45 @@
+# 53. No Smoochy Kisses for Mum!
+
+- Video: https://www.youtube.com/watch?v=K-0rTYi8BZU
+- Length: 01:30
+- Captions: YouTube auto-generated English captions
+- Script: 00:01 ~ 01:31
+
+---
+
+- `[00:01 - 00:04]` Woo, yeah! Shake it!
+- `[00:04 - 00:06]` Oh, why did you stop?
+- `[00:06 - 00:08]` I don't like this part of the song.
+- `[00:08 - 00:11]` You got to take the good with the bad, kid.
+- `[00:11 - 00:15]` Why are there forks in the spoon bit?
+- `[00:15 - 00:17]` The same reason all the cupboards are left open,
+- `[00:17 - 00:18]` there's an apron in the sink,
+- `[00:18 - 00:20]` and the fridge doors never shut.
+- `[00:20 - 00:21]` Your dad.
+- `[00:21 - 00:25]` Does that mean you don't like Dad?
+- `[00:25 - 00:25]` What?
+- `[00:25 - 00:29]` Well, you're saying that because the cupboard door has a—
+- `[00:29 - 00:30]` Single ladies!
+- `[00:30 - 00:32]` Hey! Oh, hey, morning, kids!
+- `[00:32 - 00:35]` How was your run, sweetheart?
+- `[00:35 - 00:35]` What?
+- `[00:35 - 00:37]` He's not yours anymore.
+- `[00:37 - 00:38]` He's ours.
+- `[00:38 - 00:39]` Yeah, he belongs to us.
+- `[00:39 - 00:42]` But I want a smoochy kiss.
+- `[00:42 - 00:43]` No! You can't have him!
+- `[00:43 - 00:44]` What? Why not?
+- `[00:44 - 00:46]` You said you don't like him
+- `[00:46 - 00:49]` 'cause he leaves the cupboard doors open!
+- `[00:49 - 00:51]` What?! I never!
+- `[00:51 - 00:55]` Come here, give me a smoochy—
+- `[00:55 - 00:57]` He's... get away!
+- `[00:57 - 01:00]` Ladies, ladies, there's plenty to go around!
+- `[01:00 - 01:02]` Finger... egg beater!
+- `[01:02 - 01:08]` Oh, yeah! Egg beater!
+- `[01:08 - 01:12]` Finger... whisky, whisky, whisky, whisky!
+- `[01:12 - 01:15]` So... shield! Get that out of here!
+- `[01:15 - 01:17]` Okay, come here.
+- `[01:17 - 01:19]` Oh, okay, very good.
+- `[01:19 - 01:24]` That is all forever now.
+- `[01:24 - 01:31]` Well, good luck with that.

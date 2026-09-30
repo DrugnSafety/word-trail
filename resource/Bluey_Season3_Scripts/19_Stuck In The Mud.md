@@ -1,0 +1,47 @@
+# 19. Stuck In The Mud | Dirt - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=r1v5jNsyQKc
+- Length: 01:59
+- Captions: YouTube auto-generated English captions
+- Script: 00:01 ~ 01:59
+
+---
+
+- `[00:01 - 00:06]` Judo, we found a way you can play in the dirt!
+- `[00:14 - 00:16]` Really?
+- `[00:16 - 00:18]` You're meant to go a little faster.
+- `[00:18 - 00:19]` It's a bit hard to run in all this stuff.
+- `[00:19 - 00:23]` Well, at least you didn't get dirty.
+- `[00:23 - 00:24]` Yeah, the suit really works!
+- `[00:24 - 00:26]` Who wants mud?
+- `[00:26 - 00:30]` Yeah, mud!
+- `[00:30 - 00:31]` Come in the mud, Judo!
+- `[00:31 - 00:34]` Uh, I'm not sure this will keep mud out.
+- `[00:34 - 00:35]` Oh, yeah, probably not.
+- `[00:35 - 00:38]` I might just go home.
+- `[00:38 - 00:39]` Oh, my goodness!
+- `[00:39 - 00:42]` Morning, Wendy. Got some dirt.
+- `[00:42 - 00:43]` Yes, I can see.
+- `[00:43 - 00:46]` Wendy, can you play in the dirt with us?
+- `[00:46 - 00:49]` Oh, well, I'm not sure.
+- `[00:49 - 00:50]` Please?
+- `[00:50 - 00:51]` Kids, don't pester.
+- `[00:51 - 00:54]` No, it's... it's fine.
+- `[00:54 - 00:56]` Yes, Judo can play.
+- `[00:56 - 00:57]` What? Really?
+- `[00:57 - 00:58]` But you said I can't get dirty.
+- `[00:58 - 01:00]` Yes, I did.
+- `[01:00 - 01:02]` But I want you to have fun, sweetie.
+- `[01:02 - 01:04]` So, Judo can play in the mud?
+- `[01:04 - 01:07]` Well, it's up to Judo.
+- `[01:13 - 01:21]` Judo, I'll be right back.
+- `[01:21 - 01:24]` Why don't you want to play in the dirt with the girls?
+- `[01:24 - 01:26]` I just don't want to.
+- `[01:26 - 01:28]` Oh, go on! It's important to play and have fun.
+- `[01:28 - 01:30]` But what about my long, lovely coat?
+- `[01:30 - 01:32]` It takes so long to clean.
+- `[01:32 - 01:39]` Oh, yes, I said that, didn't I?
+- `[01:39 - 01:42]` Oh, fiddlesticks!
+- `[01:42 - 01:52]` I'll be right back, sweetheart.
+- `[01:52 - 01:53]` Mum, what are you doing?
+- `[01:53 - 01:59]` I'm going short.

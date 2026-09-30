@@ -1,0 +1,15 @@
+.env
+.env.*
+node_modules/
+.wrangler/
+tmp/
+.DS_Store
+*.log
+.gstack/
+deployment/
+.omx/
+.codex/
+.agents/
+.aws/
+resource/etc/
+/GitHub 업로드.command

@@ -1,0 +1,445 @@
+[
+  {
+    "id": "play",
+    "terms": ["play", "plays", "played", "playing", "is playing"],
+    "titleKo": "play와 함께 배우기",
+    "noteKo": "놀이나 연주를 말할 때 쓰는 말들이에요.",
+    "items": [
+      { "term": "play", "labelKo": "동사", "meaningKo": "놀다; 연주하다", "exampleEn": "We play after school.", "exampleKo": "우리는 방과 후에 놀아요." },
+      { "term": "is playing", "labelKo": "현재진행형(구문)", "meaningKo": "지금 놀고 있다", "exampleEn": "Bluey is playing outside.", "exampleKo": "블루이는 지금 밖에서 놀고 있어요." },
+      { "term": "player", "labelKo": "명사", "meaningKo": "경기나 놀이를 하는 사람", "exampleEn": "Each player gets a turn.", "exampleKo": "각 참가자는 한 번씩 차례를 가져요." },
+      { "term": "playful", "labelKo": "형용사", "meaningKo": "장난기 많은", "exampleEn": "The playful puppy runs around.", "exampleKo": "장난기 많은 강아지가 뛰어다녀요." }
+    ]
+  },
+  {
+    "id": "help",
+    "terms": ["help", "helps", "helped", "helping", "is helping", "helpful", "helpfully"],
+    "titleKo": "help와 함께 배우기",
+    "noteKo": "도움을 주는 행동과 태도를 연결해 봐요.",
+    "items": [
+      { "term": "help", "labelKo": "동사", "meaningKo": "돕다", "exampleEn": "Please help your little sister.", "exampleKo": "여동생을 도와주세요." },
+      { "term": "help", "labelKo": "명사", "meaningKo": "도움", "exampleEn": "I need your help.", "exampleKo": "나는 네 도움이 필요해요." },
+      { "term": "is helping", "labelKo": "현재진행형(구문)", "meaningKo": "지금 돕고 있다", "exampleEn": "Dad is helping me.", "exampleKo": "아빠가 지금 나를 돕고 있어요." },
+      { "term": "helpful", "labelKo": "형용사", "meaningKo": "도움이 되는", "exampleEn": "That was a helpful idea.", "exampleKo": "그건 도움이 되는 생각이었어요." },
+      { "term": "helpfully", "labelKo": "부사", "meaningKo": "도움이 되게", "exampleEn": "She helpfully held the door.", "exampleKo": "그녀는 친절하게 문을 잡아 주었어요." }
+    ]
+  },
+  {
+    "id": "talk",
+    "terms": ["talk", "talks", "talked", "talking", "is talking"],
+    "titleKo": "talk와 함께 배우기",
+    "noteKo": "말을 주고받는 여러 표현을 익혀요.",
+    "items": [
+      { "term": "talk", "labelKo": "동사", "meaningKo": "이야기하다", "exampleEn": "Can we talk now?", "exampleKo": "우리 지금 이야기할 수 있을까요?" },
+      { "term": "talk", "labelKo": "명사", "meaningKo": "이야기; 대화", "exampleEn": "We had a good talk.", "exampleKo": "우리는 좋은 대화를 나눴어요." },
+      { "term": "is talking", "labelKo": "현재진행형(구문)", "meaningKo": "지금 이야기하고 있다", "exampleEn": "Mum is talking on the phone.", "exampleKo": "엄마는 지금 전화로 이야기하고 있어요." },
+      { "term": "conversation", "labelKo": "관련 명사", "meaningKo": "대화", "exampleEn": "Please join our conversation.", "exampleKo": "우리 대화에 함께해 주세요." }
+    ]
+  },
+  {
+    "id": "share",
+    "terms": ["share", "shares", "shared", "sharing", "is sharing"],
+    "titleKo": "share와 함께 배우기",
+    "noteKo": "물건이나 생각을 함께 나누는 말이에요.",
+    "items": [
+      { "term": "share", "labelKo": "동사", "meaningKo": "나누어 쓰다; 나누다", "exampleEn": "We share the crayons.", "exampleKo": "우리는 크레용을 나누어 써요." },
+      { "term": "is sharing", "labelKo": "현재진행형(구문)", "meaningKo": "지금 나누고 있다", "exampleEn": "He is sharing his snack.", "exampleKo": "그는 지금 간식을 나누고 있어요." },
+      { "term": "shared", "labelKo": "형용사", "meaningKo": "함께 쓰는", "exampleEn": "This is our shared room.", "exampleKo": "이곳은 우리가 함께 쓰는 방이에요." }
+    ]
+  },
+  {
+    "id": "draw",
+    "terms": ["draw", "draws", "drew", "drawn", "drawing", "is drawing"],
+    "titleKo": "draw와 함께 배우기",
+    "noteKo": "그림을 만드는 행동과 결과를 함께 봐요.",
+    "items": [
+      { "term": "draw", "labelKo": "동사", "meaningKo": "그리다", "exampleEn": "Draw a big blue circle.", "exampleKo": "큰 파란 원을 그려 보세요." },
+      { "term": "is drawing", "labelKo": "현재진행형(구문)", "meaningKo": "지금 그리고 있다", "exampleEn": "She is drawing a family picture.", "exampleKo": "그녀는 지금 가족 그림을 그리고 있어요." },
+      { "term": "drawing", "labelKo": "명사", "meaningKo": "그림", "exampleEn": "Your drawing is on the wall.", "exampleKo": "네 그림이 벽에 있어요." }
+    ]
+  },
+  {
+    "id": "stop",
+    "terms": ["stop", "stops", "stopped", "stopping", "is stopping"],
+    "titleKo": "stop과 함께 배우기",
+    "noteKo": "움직임이나 행동을 멈출 때 써요.",
+    "items": [
+      { "term": "stop", "labelKo": "동사", "meaningKo": "멈추다", "exampleEn": "Stop at the red light.", "exampleKo": "빨간불에서 멈추세요." },
+      { "term": "is stopping", "labelKo": "현재진행형(구문)", "meaningKo": "지금 멈추고 있다", "exampleEn": "The bus is stopping now.", "exampleKo": "버스가 지금 멈추고 있어요." },
+      { "term": "stop", "labelKo": "명사", "meaningKo": "정류장; 멈춤", "exampleEn": "This is our bus stop.", "exampleKo": "여기가 우리 버스 정류장이에요." }
+    ]
+  },
+  {
+    "id": "listen",
+    "terms": ["listen", "listens", "listened", "listening", "is listening", "listener"],
+    "titleKo": "listen과 함께 배우기",
+    "noteKo": "귀 기울여 듣는 행동을 나타내요.",
+    "items": [
+      { "term": "listen", "labelKo": "동사", "meaningKo": "듣다; 귀 기울이다", "exampleEn": "Listen to the story.", "exampleKo": "이야기를 잘 들어 보세요." },
+      { "term": "is listening", "labelKo": "현재진행형(구문)", "meaningKo": "지금 듣고 있다", "exampleEn": "The class is listening quietly.", "exampleKo": "반 친구들이 지금 조용히 듣고 있어요." },
+      { "term": "listener", "labelKo": "명사", "meaningKo": "듣는 사람", "exampleEn": "A good listener waits to speak.", "exampleKo": "잘 듣는 사람은 말할 차례를 기다려요." }
+    ]
+  },
+  {
+    "id": "wait",
+    "terms": ["wait", "waits", "waited", "waiting", "is waiting"],
+    "titleKo": "wait와 함께 배우기",
+    "noteKo": "차례나 때가 올 때까지 기다리는 말이에요.",
+    "items": [
+      { "term": "wait", "labelKo": "동사", "meaningKo": "기다리다", "exampleEn": "Wait for your turn.", "exampleKo": "네 차례를 기다리세요." },
+      { "term": "is waiting", "labelKo": "현재진행형(구문)", "meaningKo": "지금 기다리고 있다", "exampleEn": "Mum is waiting by the door.", "exampleKo": "엄마가 지금 문 옆에서 기다리고 있어요." },
+      { "term": "patient", "labelKo": "관련 형용사", "meaningKo": "참을성 있는", "exampleEn": "Be patient for one more minute.", "exampleKo": "1분만 더 참고 기다려 주세요." },
+      { "term": "patiently", "labelKo": "관련 부사", "meaningKo": "참을성 있게", "exampleEn": "She waited patiently.", "exampleKo": "그녀는 참을성 있게 기다렸어요." }
+    ]
+  },
+  {
+    "id": "read",
+    "terms": ["read", "reads", "reading", "is reading", "reader", "readable"],
+    "titleKo": "read와 함께 배우기",
+    "noteKo": "글을 읽는 행동과 읽는 사람을 연결해요.",
+    "items": [
+      { "term": "read", "labelKo": "동사", "meaningKo": "읽다", "exampleEn": "I read a book every night.", "exampleKo": "나는 매일 밤 책을 읽어요." },
+      { "term": "is reading", "labelKo": "현재진행형(구문)", "meaningKo": "지금 읽고 있다", "exampleEn": "Dad is reading the note.", "exampleKo": "아빠가 지금 쪽지를 읽고 있어요." },
+      { "term": "reader", "labelKo": "명사", "meaningKo": "읽는 사람; 독자", "exampleEn": "She is a careful reader.", "exampleKo": "그녀는 꼼꼼하게 읽는 사람이에요." },
+      { "term": "readable", "labelKo": "형용사", "meaningKo": "읽기 쉬운", "exampleEn": "Your writing is clear and readable.", "exampleKo": "네 글씨는 또렷하고 읽기 쉬워요." }
+    ]
+  },
+  {
+    "id": "write",
+    "terms": ["write", "writes", "wrote", "written", "writing", "is writing", "writer"],
+    "titleKo": "write와 함께 배우기",
+    "noteKo": "글씨나 이야기를 쓰는 말들이에요.",
+    "items": [
+      { "term": "write", "labelKo": "동사", "meaningKo": "쓰다", "exampleEn": "Write your name here.", "exampleKo": "여기에 네 이름을 쓰세요." },
+      { "term": "is writing", "labelKo": "현재진행형(구문)", "meaningKo": "지금 쓰고 있다", "exampleEn": "He is writing a thank-you card.", "exampleKo": "그는 지금 감사 카드를 쓰고 있어요." },
+      { "term": "writer", "labelKo": "명사", "meaningKo": "글을 쓰는 사람; 작가", "exampleEn": "The writer made a funny story.", "exampleKo": "작가는 재미있는 이야기를 만들었어요." },
+      { "term": "writing", "labelKo": "명사", "meaningKo": "글쓰기; 글씨", "exampleEn": "I practice writing at school.", "exampleKo": "나는 학교에서 글쓰기를 연습해요." }
+    ]
+  },
+  {
+    "id": "go",
+    "terms": ["go", "goes", "went", "gone", "going", "is going"],
+    "titleKo": "go와 함께 배우기",
+    "noteKo": "어딘가로 이동할 때 쓰는 불규칙 동사예요.",
+    "items": [
+      { "term": "go", "labelKo": "동사", "meaningKo": "가다", "exampleEn": "Let's go home.", "exampleKo": "집에 가자." },
+      { "term": "is going", "labelKo": "현재진행형(구문)", "meaningKo": "지금 가고 있다", "exampleEn": "The dog is going outside.", "exampleKo": "강아지가 지금 밖으로 가고 있어요." },
+      { "term": "went", "labelKo": "과거형", "meaningKo": "갔다", "exampleEn": "We went to the park.", "exampleKo": "우리는 공원에 갔어요." }
+    ]
+  },
+  {
+    "id": "come",
+    "terms": ["come", "comes", "came", "coming", "is coming"],
+    "titleKo": "come과 함께 배우기",
+    "noteKo": "말하는 사람 쪽으로 올 때 쓰는 말이에요.",
+    "items": [
+      { "term": "come", "labelKo": "동사", "meaningKo": "오다", "exampleEn": "Come and sit with us.", "exampleKo": "이리 와서 우리와 함께 앉아요." },
+      { "term": "is coming", "labelKo": "현재진행형(구문)", "meaningKo": "지금 오고 있다", "exampleEn": "The bus is coming.", "exampleKo": "버스가 지금 오고 있어요." },
+      { "term": "came", "labelKo": "과거형", "meaningKo": "왔다", "exampleEn": "My friend came early.", "exampleKo": "내 친구가 일찍 왔어요." }
+    ]
+  },
+  {
+    "id": "turn",
+    "terms": ["turn", "turns", "turned", "turning", "is turning", "take turns"],
+    "titleKo": "turn과 함께 배우기",
+    "noteKo": "방향을 바꾸는 행동과 순서라는 뜻이 있어요.",
+    "items": [
+      { "term": "turn", "labelKo": "동사", "meaningKo": "돌다; 돌리다", "exampleEn": "Turn the page slowly.", "exampleKo": "책장을 천천히 넘기세요." },
+      { "term": "is turning", "labelKo": "현재진행형(구문)", "meaningKo": "지금 돌고 있다", "exampleEn": "The wheel is turning.", "exampleKo": "바퀴가 지금 돌고 있어요." },
+      { "term": "turn", "labelKo": "명사", "meaningKo": "차례", "exampleEn": "It is your turn.", "exampleKo": "네 차례예요." },
+      { "term": "take turns", "labelKo": "관련 표현", "meaningKo": "번갈아 하다", "exampleEn": "We take turns with the phone.", "exampleKo": "우리는 전화기를 번갈아 써요." }
+    ]
+  },
+  {
+    "id": "want",
+    "terms": ["want", "wants", "wanted", "wanting"],
+    "titleKo": "want와 함께 배우기",
+    "noteKo": "무언가를 바라거나 원할 때 써요. 보통 진행형으로는 쓰지 않아요.",
+    "items": [
+      { "term": "want", "labelKo": "동사", "meaningKo": "원하다", "exampleEn": "I want a glass of water.", "exampleKo": "나는 물 한 잔을 원해요." },
+      { "term": "wanted", "labelKo": "과거형", "meaningKo": "원했다", "exampleEn": "She wanted the red hat.", "exampleKo": "그녀는 빨간 모자를 원했어요." },
+      { "term": "wish", "labelKo": "관련 명사", "meaningKo": "바람; 소원", "exampleEn": "Make a birthday wish.", "exampleKo": "생일 소원을 빌어 보세요." }
+    ]
+  },
+  {
+    "id": "take",
+    "terms": ["take", "takes", "took", "taken", "taking", "is taking"],
+    "titleKo": "take와 함께 배우기",
+    "noteKo": "무언가를 잡아 옮기거나 데려갈 때 자주 써요.",
+    "items": [
+      { "term": "take", "labelKo": "동사", "meaningKo": "가져가다; 데려가다", "exampleEn": "Take your bag to school.", "exampleKo": "가방을 학교에 가져가세요." },
+      { "term": "is taking", "labelKo": "현재진행형(구문)", "meaningKo": "지금 가져가고 있다", "exampleEn": "Dad is taking the cups outside.", "exampleKo": "아빠가 지금 컵들을 밖으로 가져가고 있어요." },
+      { "term": "took", "labelKo": "과거형", "meaningKo": "가져갔다", "exampleEn": "I took one cookie.", "exampleKo": "나는 쿠키 하나를 가져갔어요." }
+    ]
+  },
+  {
+    "id": "know",
+    "terms": ["know", "knows", "knew", "known", "knowledge", "knowledgeable"],
+    "titleKo": "know와 함께 배우기",
+    "noteKo": "알고 있는 상태를 나타내므로 보통 진행형으로 쓰지 않아요.",
+    "items": [
+      { "term": "know", "labelKo": "동사", "meaningKo": "알다", "exampleEn": "I know the answer.", "exampleKo": "나는 답을 알아요." },
+      { "term": "knew", "labelKo": "과거형", "meaningKo": "알았다", "exampleEn": "She knew his name.", "exampleKo": "그녀는 그의 이름을 알았어요." },
+      { "term": "knowledge", "labelKo": "명사", "meaningKo": "지식", "exampleEn": "Books give us knowledge.", "exampleKo": "책은 우리에게 지식을 줘요." },
+      { "term": "knowledgeable", "labelKo": "형용사", "meaningKo": "아는 것이 많은", "exampleEn": "Our teacher is knowledgeable about animals.", "exampleKo": "우리 선생님은 동물에 대해 아는 것이 많아요." }
+    ]
+  },
+  {
+    "id": "be",
+    "terms": ["be", "am", "is", "are", "was", "were", "been", "being", "is being"],
+    "titleKo": "be동사 함께 배우기",
+    "noteKo": "사람이나 사물의 상태를 이어 주는 특별한 동사예요.",
+    "items": [
+      { "term": "am / is / are", "labelKo": "현재형", "meaningKo": "~이다; ~에 있다", "exampleEn": "We are ready.", "exampleKo": "우리는 준비됐어요." },
+      { "term": "was / were", "labelKo": "과거형", "meaningKo": "~였다; ~에 있었다", "exampleEn": "I was at home.", "exampleKo": "나는 집에 있었어요." },
+      { "term": "is being polite", "labelKo": "현재진행형(구문)", "meaningKo": "지금 예의 바르게 행동하고 있다", "exampleEn": "He is being polite to the guest.", "exampleKo": "그는 지금 손님에게 예의 바르게 행동하고 있어요." }
+    ]
+  },
+  {
+    "id": "have",
+    "terms": ["have", "has", "had", "having", "is having"],
+    "titleKo": "have와 함께 배우기",
+    "noteKo": "가지고 있거나 경험하는 일을 말해요.",
+    "items": [
+      { "term": "have", "labelKo": "동사", "meaningKo": "가지다", "exampleEn": "I have two pencils.", "exampleKo": "나는 연필 두 자루가 있어요." },
+      { "term": "had", "labelKo": "과거형", "meaningKo": "가지고 있었다; 경험했다", "exampleEn": "We had a fun day.", "exampleKo": "우리는 즐거운 하루를 보냈어요." },
+      { "term": "is having fun", "labelKo": "현재진행형(구문)", "meaningKo": "지금 즐겁게 놀고 있다", "exampleEn": "My little sister is having fun.", "exampleKo": "내 여동생은 지금 즐겁게 놀고 있어요." }
+    ]
+  },
+  {
+    "id": "happy",
+    "terms": ["happy", "happier", "happiest", "happily", "happiness", "unhappy"],
+    "titleKo": "happy와 함께 배우기",
+    "noteKo": "기쁜 느낌과 그 느낌을 나타내는 말들이에요.",
+    "items": [
+      { "term": "happy", "labelKo": "형용사", "meaningKo": "행복한; 기쁜", "exampleEn": "I am happy to see you.", "exampleKo": "너를 만나서 기뻐요." },
+      { "term": "happily", "labelKo": "부사", "meaningKo": "행복하게; 기쁘게", "exampleEn": "The children played happily.", "exampleKo": "아이들은 즐겁게 놀았어요." },
+      { "term": "happiness", "labelKo": "명사", "meaningKo": "행복", "exampleEn": "Her smile shows happiness.", "exampleKo": "그녀의 미소에서 행복이 보여요." },
+      { "term": "unhappy", "labelKo": "반대말(형용사)", "meaningKo": "기쁘지 않은", "exampleEn": "He felt unhappy about the broken toy.", "exampleKo": "그는 망가진 장난감 때문에 속상했어요." }
+    ]
+  },
+  {
+    "id": "quick",
+    "terms": ["quick", "quicker", "quickest", "quickly", "quickness"],
+    "titleKo": "quick와 함께 배우기",
+    "noteKo": "빠른 성질과 빠르게 하는 모습을 구별해요.",
+    "items": [
+      { "term": "quick", "labelKo": "형용사", "meaningKo": "빠른", "exampleEn": "That was a quick answer.", "exampleKo": "그건 빠른 대답이었어요." },
+      { "term": "quickly", "labelKo": "부사", "meaningKo": "빠르게", "exampleEn": "Put on your shoes quickly.", "exampleKo": "신발을 빨리 신으세요." },
+      { "term": "quickness", "labelKo": "명사", "meaningKo": "빠름; 민첩함", "exampleEn": "The cat's quickness surprised me.", "exampleKo": "고양이의 민첩함에 나는 놀랐어요." }
+    ]
+  },
+  {
+    "id": "slow",
+    "terms": ["slow", "slower", "slowest", "slowly", "slowness"],
+    "titleKo": "slow와 함께 배우기",
+    "noteKo": "느린 성질과 천천히 하는 모습을 구별해요.",
+    "items": [
+      { "term": "slow", "labelKo": "형용사", "meaningKo": "느린", "exampleEn": "The turtle is slow.", "exampleKo": "거북이는 느려요." },
+      { "term": "slow", "labelKo": "동사", "meaningKo": "속도를 늦추다", "exampleEn": "Slow the bike near the gate.", "exampleKo": "문 근처에서는 자전거 속도를 늦추세요." },
+      { "term": "slowly", "labelKo": "부사", "meaningKo": "천천히", "exampleEn": "Read the new word slowly.", "exampleKo": "새 단어를 천천히 읽어 보세요." }
+    ]
+  },
+  {
+    "id": "quiet",
+    "terms": ["quiet", "quieter", "quietest", "quietly", "quietness"],
+    "titleKo": "quiet와 함께 배우기",
+    "noteKo": "소리가 작거나 조용한 상태를 나타내요.",
+    "items": [
+      { "term": "quiet", "labelKo": "형용사", "meaningKo": "조용한", "exampleEn": "The library is quiet.", "exampleKo": "도서관은 조용해요." },
+      { "term": "quietly", "labelKo": "부사", "meaningKo": "조용히", "exampleEn": "Please close the door quietly.", "exampleKo": "문을 조용히 닫아 주세요." },
+      { "term": "quietness", "labelKo": "명사", "meaningKo": "고요함", "exampleEn": "I like the quietness of the morning.", "exampleKo": "나는 아침의 고요함을 좋아해요." }
+    ]
+  },
+  {
+    "id": "polite",
+    "terms": ["polite", "politer", "politest", "politely", "politeness"],
+    "titleKo": "polite와 함께 배우기",
+    "noteKo": "다른 사람을 존중하는 말과 행동을 나타내요.",
+    "items": [
+      { "term": "polite", "labelKo": "형용사", "meaningKo": "예의 바른", "exampleEn": "It is polite to say thank you.", "exampleKo": "고맙다고 말하는 것은 예의 바른 행동이에요." },
+      { "term": "politely", "labelKo": "부사", "meaningKo": "예의 바르게", "exampleEn": "She asked politely.", "exampleKo": "그녀는 예의 바르게 부탁했어요." },
+      { "term": "politeness", "labelKo": "명사", "meaningKo": "예의 바름", "exampleEn": "His politeness made everyone smile.", "exampleKo": "그의 예의 바른 태도에 모두가 미소 지었어요." },
+      { "term": "please", "labelKo": "관련 표현", "meaningKo": "부탁할 때 쓰는 말", "exampleEn": "Please pass the cup.", "exampleKo": "컵을 건네주세요." }
+    ]
+  },
+  {
+    "id": "good",
+    "terms": ["good", "better", "best", "well"],
+    "titleKo": "good와 함께 배우기",
+    "noteKo": "좋은 상태와 행동을 말하는 불규칙한 형태예요.",
+    "items": [
+      { "term": "good", "labelKo": "형용사", "meaningKo": "좋은", "exampleEn": "That is a good idea.", "exampleKo": "그건 좋은 생각이에요." },
+      { "term": "better", "labelKo": "비교급(형용사)", "meaningKo": "더 좋은", "exampleEn": "This plan is better.", "exampleKo": "이 계획이 더 좋아요." },
+      { "term": "well", "labelKo": "부사", "meaningKo": "잘", "exampleEn": "You listened well.", "exampleKo": "너는 잘 들었어요." }
+    ]
+  },
+  {
+    "id": "silly",
+    "terms": ["silly", "sillier", "silliest", "silliness"],
+    "titleKo": "silly와 함께 배우기",
+    "noteKo": "장난스럽거나 우스운 모습을 나타내요.",
+    "items": [
+      { "term": "silly", "labelKo": "형용사", "meaningKo": "우스운; 엉뚱한", "exampleEn": "We made silly faces.", "exampleKo": "우리는 우스운 표정을 지었어요." },
+      { "term": "silliness", "labelKo": "명사", "meaningKo": "엉뚱함; 장난스러움", "exampleEn": "Their silliness made us laugh.", "exampleKo": "아이들의 장난스러움에 우리는 웃었어요." }
+    ]
+  },
+  {
+    "id": "family",
+    "terms": ["family", "families"],
+    "titleKo": "family와 함께 배우기",
+    "noteKo": "가족을 이루는 사람들을 함께 익혀요.",
+    "items": [
+      { "term": "family", "labelKo": "명사", "meaningKo": "가족", "exampleEn": "My family eats dinner together.", "exampleKo": "우리 가족은 함께 저녁을 먹어요." },
+      { "term": "families", "labelKo": "복수 명사", "meaningKo": "가족들", "exampleEn": "Many families came to the picnic.", "exampleKo": "많은 가족이 소풍에 왔어요." },
+      { "term": "family picture", "labelKo": "관련 표현", "meaningKo": "가족사진; 가족 그림", "exampleEn": "We made a family picture.", "exampleKo": "우리는 가족 그림을 만들었어요." }
+    ]
+  },
+  {
+    "id": "mum",
+    "terms": ["mum", "mum's", "mums", "mother", "mother's", "mothers"],
+    "titleKo": "mum과 함께 배우기",
+    "noteKo": "mum은 영국·호주 영어에서 엄마를 친근하게 부르는 말이에요.",
+    "items": [
+      { "term": "mum", "labelKo": "명사", "meaningKo": "엄마", "exampleEn": "Mum is in the kitchen.", "exampleKo": "엄마는 부엌에 있어요." },
+      { "term": "mum's", "labelKo": "소유격", "meaningKo": "엄마의", "exampleEn": "This is Mum's phone.", "exampleKo": "이것은 엄마의 전화기예요." },
+      { "term": "mother", "labelKo": "관련 명사", "meaningKo": "어머니", "exampleEn": "Her mother reads with her.", "exampleKo": "그 아이의 어머니는 아이와 함께 책을 읽어요." }
+    ]
+  },
+  {
+    "id": "dad",
+    "terms": ["dad", "dad's", "dads", "father", "father's", "fathers"],
+    "titleKo": "dad와 함께 배우기",
+    "noteKo": "dad은 아빠를 친근하게 부르는 말이에요.",
+    "items": [
+      { "term": "dad", "labelKo": "명사", "meaningKo": "아빠", "exampleEn": "Dad can help us.", "exampleKo": "아빠가 우리를 도와줄 수 있어요." },
+      { "term": "dad's", "labelKo": "소유격", "meaningKo": "아빠의", "exampleEn": "Dad's hat is blue.", "exampleKo": "아빠의 모자는 파란색이에요." },
+      { "term": "father", "labelKo": "관련 명사", "meaningKo": "아버지", "exampleEn": "His father makes breakfast.", "exampleKo": "그 아이의 아버지는 아침을 만들어요." }
+    ]
+  },
+  {
+    "id": "parent",
+    "terms": ["parent", "parents", "parenting"],
+    "titleKo": "parent와 함께 배우기",
+    "noteKo": "아이를 돌보는 부모와 그 일을 나타내요.",
+    "items": [
+      { "term": "parent", "labelKo": "명사", "meaningKo": "부모 한 사람", "exampleEn": "Ask a parent for help.", "exampleKo": "부모님께 도움을 요청하세요." },
+      { "term": "parents", "labelKo": "복수 명사", "meaningKo": "부모님", "exampleEn": "My parents are at home.", "exampleKo": "우리 부모님은 집에 계세요." },
+      { "term": "parenting", "labelKo": "명사", "meaningKo": "아이를 돌보고 기르는 일", "exampleEn": "Parenting takes patience.", "exampleKo": "아이를 기르는 데에는 인내심이 필요해요." }
+    ]
+  },
+  {
+    "id": "friend",
+    "terms": ["friend", "friends", "friendly", "friendship"],
+    "titleKo": "friend와 함께 배우기",
+    "noteKo": "친구와 우정을 나타내는 말들이에요.",
+    "items": [
+      { "term": "friend", "labelKo": "명사", "meaningKo": "친구", "exampleEn": "My friend sits beside me.", "exampleKo": "내 친구는 내 옆에 앉아요." },
+      { "term": "friendly", "labelKo": "형용사", "meaningKo": "친절한; 다정한", "exampleEn": "The new student is friendly.", "exampleKo": "새 학생은 다정해요." },
+      { "term": "friendship", "labelKo": "명사", "meaningKo": "우정", "exampleEn": "Sharing can grow a friendship.", "exampleKo": "나누는 행동은 우정을 키울 수 있어요." }
+    ]
+  },
+  {
+    "id": "sister",
+    "terms": ["sister", "sisters", "sister's", "sisters'"],
+    "titleKo": "sister와 함께 배우기",
+    "noteKo": "여자 형제를 나타내는 가족 단어예요.",
+    "items": [
+      { "term": "sister", "labelKo": "명사", "meaningKo": "자매; 여자 형제", "exampleEn": "My sister likes to draw.", "exampleKo": "내 여자 형제는 그림 그리기를 좋아해요." },
+      { "term": "sisters", "labelKo": "복수 명사", "meaningKo": "자매들", "exampleEn": "The sisters play together.", "exampleKo": "자매들은 함께 놀아요." },
+      { "term": "sister's", "labelKo": "소유격", "meaningKo": "여자 형제의", "exampleEn": "This is my sister's book.", "exampleKo": "이것은 내 여자 형제의 책이에요." }
+    ]
+  },
+  {
+    "id": "phone",
+    "terms": ["phone", "phones", "phoned", "phoning", "is phoning", "on the phone"],
+    "titleKo": "phone과 함께 배우기",
+    "noteKo": "전화기와 전화하는 행동을 함께 익혀요.",
+    "items": [
+      { "term": "phone", "labelKo": "명사", "meaningKo": "전화기", "exampleEn": "The phone is on the table.", "exampleKo": "전화기가 탁자 위에 있어요." },
+      { "term": "phone", "labelKo": "동사", "meaningKo": "전화하다", "exampleEn": "Phone me after school.", "exampleKo": "방과 후에 나에게 전화해 주세요." },
+      { "term": "is phoning", "labelKo": "현재진행형(구문)", "meaningKo": "지금 전화하고 있다", "exampleEn": "Mum is phoning Dad.", "exampleKo": "엄마가 지금 아빠에게 전화하고 있어요." },
+      { "term": "on the phone", "labelKo": "관련 표현", "meaningKo": "전화 통화 중인", "exampleEn": "She is on the phone.", "exampleKo": "그녀는 전화 통화 중이에요." }
+    ]
+  },
+  {
+    "id": "hog",
+    "terms": ["hog", "hogs", "hogged", "hogging", "is hogging"],
+    "titleKo": "hog와 함께 배우기",
+    "noteKo": "혼자 너무 오래 차지한다는 뜻으로도 쓰여요.",
+    "items": [
+      { "term": "hog", "labelKo": "동사", "meaningKo": "독차지하다", "exampleEn": "Do not hog the game.", "exampleKo": "게임을 혼자 독차지하지 마세요." },
+      { "term": "is hogging", "labelKo": "현재진행형(구문)", "meaningKo": "지금 독차지하고 있다", "exampleEn": "He is hogging the phone.", "exampleKo": "그가 지금 전화기를 독차지하고 있어요." },
+      { "term": "hog", "labelKo": "명사", "meaningKo": "큰 돼지", "exampleEn": "The hog rolled in the mud.", "exampleKo": "큰 돼지가 진흙에서 뒹굴었어요." }
+    ]
+  },
+  {
+    "id": "please",
+    "terms": ["please", "pleases", "pleased", "pleasing"],
+    "titleKo": "please와 함께 배우기",
+    "noteKo": "부탁할 때의 please와 기쁘게 하다는 동사를 구별해요.",
+    "items": [
+      { "term": "please", "labelKo": "공손한 표현", "meaningKo": "부탁해요; 제발", "exampleEn": "Please wait for me.", "exampleKo": "나를 기다려 주세요." },
+      { "term": "please", "labelKo": "동사", "meaningKo": "기쁘게 하다", "exampleEn": "The surprise will please Mum.", "exampleKo": "그 깜짝 선물은 엄마를 기쁘게 할 거예요." },
+      { "term": "pleased", "labelKo": "형용사", "meaningKo": "기쁜; 만족한", "exampleEn": "Dad was pleased with my drawing.", "exampleKo": "아빠는 내 그림을 보고 기뻐했어요." }
+    ]
+  },
+  {
+    "id": "run",
+    "terms": ["run", "runs", "ran", "running", "is running", "runner"],
+    "titleKo": "run과 함께 배우기",
+    "noteKo": "빠르게 달리는 행동과 사람을 나타내요.",
+    "items": [
+      { "term": "run", "labelKo": "동사", "meaningKo": "달리다", "exampleEn": "Run to the big tree.", "exampleKo": "큰 나무까지 달려가세요." },
+      { "term": "is running", "labelKo": "현재진행형(구문)", "meaningKo": "지금 달리고 있다", "exampleEn": "The boy is running home.", "exampleKo": "그 남자아이는 지금 집으로 달려가고 있어요." },
+      { "term": "runner", "labelKo": "명사", "meaningKo": "달리는 사람; 주자", "exampleEn": "The runner crossed the line.", "exampleKo": "주자가 결승선을 넘었어요." }
+    ]
+  },
+  {
+    "id": "hide",
+    "terms": ["hide", "hides", "hid", "hidden", "hiding", "is hiding"],
+    "titleKo": "hide와 함께 배우기",
+    "noteKo": "보이지 않게 숨거나 숨길 때 쓰는 불규칙 동사예요.",
+    "items": [
+      { "term": "hide", "labelKo": "동사", "meaningKo": "숨다; 숨기다", "exampleEn": "Hide behind the couch.", "exampleKo": "소파 뒤에 숨어요." },
+      { "term": "is hiding", "labelKo": "현재진행형(구문)", "meaningKo": "지금 숨어 있다", "exampleEn": "The puppy is hiding under the bed.", "exampleKo": "강아지가 지금 침대 아래에 숨어 있어요." },
+      { "term": "hidden", "labelKo": "형용사", "meaningKo": "숨겨진", "exampleEn": "We found the hidden toy.", "exampleKo": "우리는 숨겨진 장난감을 찾았어요." }
+    ]
+  },
+  {
+    "id": "finish",
+    "terms": ["finish", "finishes", "finished", "finishing", "is finishing"],
+    "titleKo": "finish와 함께 배우기",
+    "noteKo": "하던 일을 끝낼 때 쓰는 말이에요.",
+    "items": [
+      { "term": "finish", "labelKo": "동사", "meaningKo": "끝내다", "exampleEn": "Finish your picture first.", "exampleKo": "먼저 네 그림을 끝내세요." },
+      { "term": "is finishing", "labelKo": "현재진행형(구문)", "meaningKo": "지금 끝내고 있다", "exampleEn": "She is finishing her homework.", "exampleKo": "그녀는 지금 숙제를 끝내고 있어요." },
+      { "term": "finished", "labelKo": "형용사", "meaningKo": "끝난; 다 한", "exampleEn": "My work is finished.", "exampleKo": "내 일은 끝났어요." },
+      { "term": "finish", "labelKo": "명사", "meaningKo": "끝; 마무리", "exampleEn": "Watch the race from start to finish.", "exampleKo": "경주를 처음부터 끝까지 보세요." }
+    ]
+  },
+  {
+    "id": "work",
+    "terms": ["work", "works", "worked", "working", "is working", "worker"],
+    "titleKo": "work와 함께 배우기",
+    "noteKo": "일하거나 제대로 작동하는 것을 말해요.",
+    "items": [
+      { "term": "work", "labelKo": "동사", "meaningKo": "일하다; 작동하다", "exampleEn": "This button does not work.", "exampleKo": "이 버튼은 작동하지 않아요." },
+      { "term": "is working", "labelKo": "현재진행형(구문)", "meaningKo": "지금 일하고 있다", "exampleEn": "Mum is working at her desk.", "exampleKo": "엄마는 지금 책상에서 일하고 있어요." },
+      { "term": "work", "labelKo": "명사", "meaningKo": "일; 작업", "exampleEn": "Your hard work helped the team.", "exampleKo": "네 노력이 팀에 도움이 되었어요." },
+      { "term": "worker", "labelKo": "명사", "meaningKo": "일하는 사람", "exampleEn": "The worker fixed the road.", "exampleKo": "작업자가 도로를 고쳤어요." }
+    ]
+  },
+  {
+    "id": "learn",
+    "terms": ["learn", "learns", "learned", "learnt", "learning", "is learning", "learner"],
+    "titleKo": "learn과 함께 배우기",
+    "noteKo": "새로운 지식이나 방법을 익힐 때 써요.",
+    "items": [
+      { "term": "learn", "labelKo": "동사", "meaningKo": "배우다", "exampleEn": "We learn new words together.", "exampleKo": "우리는 함께 새 단어를 배워요." },
+      { "term": "is learning", "labelKo": "현재진행형(구문)", "meaningKo": "지금 배우고 있다", "exampleEn": "He is learning to read.", "exampleKo": "그는 지금 읽는 법을 배우고 있어요." },
+      { "term": "learner", "labelKo": "명사", "meaningKo": "배우는 사람; 학습자", "exampleEn": "Every learner can ask questions.", "exampleKo": "모든 학습자는 질문할 수 있어요." },
+      { "term": "learning", "labelKo": "명사", "meaningKo": "배움; 학습", "exampleEn": "Games can make learning fun.", "exampleKo": "게임은 학습을 재미있게 만들 수 있어요." }
+    ]
+  }
+]

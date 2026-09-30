@@ -1,0 +1,50 @@
+# 80. Bingo's Crab Claw Show and Tell 🦀 🧡 | Bluey Season 3 Highlight ⭐️ | Bluey
+
+- Video: https://www.youtube.com/watch?v=-X3EN7KhoNA
+- Length: 01:54
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 01:54
+
+---
+
+- `[00:00 - 00:02]` Turn right here.
+- `[00:02 - 00:04]` Nope. Continue straight for-
+- `[00:04 - 00:09]` No, I don't think so. Love, do a U-turn.
+- `[00:09 - 00:15]` Nah, I'm good. Proceed to the route.
+- `[00:15 - 00:17]` Statue! Is your surfboard here?
+- `[00:17 - 00:22]` No, I think we're lost. We told you.
+- `[00:22 - 00:24]` How am I going to find a surfboard?
+- `[00:24 - 00:28]` You just have to do what Sat Nav says.
+- `[00:28 - 00:30]` Really? Yes.
+- `[00:30 - 00:32]` Even though she's bossing me around.
+- `[00:32 - 00:35]` Yes, she's doing it for a good reason.
+- `[00:35 - 00:37]` Okay, let's give it a go.
+- `[00:37 - 00:39]` Bye, Statue World.
+- `[00:39 - 00:41]` In 50 m, turn right.
+- `[00:41 - 00:45]` Now, turn right like she says. This better work.
+- `[00:45 - 00:47]` Turn left here.
+- `[00:47 - 00:49]` Well, I just...
+- `[00:49 - 00:50]` Okay,
+- `[00:50 - 00:52]` continue straight
+- `[00:52 - 00:56]` if you say so.
+- `[00:56 - 00:59]` You have arrived. Look, your surfboard.
+- `[00:59 - 01:01]` No, it worked!
+- `[01:01 - 01:03]` I told you.
+- `[01:03 - 01:05]` I'm sorry, Sat Nav.
+- `[01:05 - 01:10]` That is okay.
+- `[01:10 - 01:12]` Whoa. What do you got there?
+- `[01:12 - 01:14]` It's a crab claw.
+- `[01:14 - 01:18]` Oh, yeah. Look, it's from a blue coral crab.
+- `[01:18 - 01:20]` Ooh! Hey,
+- `[01:20 - 01:21]` watch this.
+- `[01:21 - 01:22]` Can I have a turn?
+- `[01:22 - 01:24]` Hey, Bluey, throw that strap back to me, will you?
+- `[01:24 - 01:26]` Yes, Dad. Oh, as long as that's
+- `[01:26 - 01:29]` not bossing you around.
+- `[01:29 - 01:32]` No, it's fine.
+- `[01:32 - 01:35]` That's it.
+- `[01:35 - 01:37]` Hello, everybody.
+- `[01:37 - 01:38]` Hi, Bingo.
+- `[01:38 - 01:41]` For show and tell, I've brought a crab claw. It's
+- `[01:41 - 01:47]` from a blue coral crab.
+- `[01:47 - 01:54]` Oh, and it does this again.

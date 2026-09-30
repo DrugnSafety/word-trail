@@ -1,0 +1,53 @@
+# 33. Two Bluey's Are Better Than One | Mini Bluey - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=RZ65LGgsvrI
+- Length: 02:10
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:10
+
+---
+
+- `[00:00 - 00:03]` Okay, Mini Bluey, let's learn about me.
+- `[00:03 - 00:04]` Hmm... oh!
+- `[00:04 - 00:07]` I like to say 'cereal' instead of 'serious'.
+- `[00:07 - 00:09]` Oh, and I'll show you how I dance.
+- `[00:09 - 00:13]` I like to do this sort of thing,
+- `[00:13 - 00:16]` and sometimes this. Yep, that's it.
+- `[00:16 - 00:19]` And I sort of just talk all the time.
+- `[00:19 - 00:24]` It doesn't even need to make sense, just noises are fine.
+- `[00:35 - 00:38]` A bit louder!
+- `[00:38 - 00:40]` Yeah, that's great!
+- `[00:40 - 00:45]` I like to just leave my toys on the ground
+- `[00:45 - 00:46]` away. Yeah,
+- `[00:46 - 00:49]` it doesn't make much difference.
+- `[00:49 - 00:52]` Where is it? Four, four, four!
+- `[00:52 - 00:55]` I like to ask a lot of questions.
+- `[00:55 - 00:56]` Mum, what are you doing?
+- `[00:56 - 00:59]` You know what I'm doing, Blue.
+- `[00:59 - 01:00]` I don't really listen to the whole answer.
+- `[01:00 - 01:04]` And if I see a bum, I give it a little bomp!
+- `[01:04 - 01:07]` Get it, get out of it!
+- `[01:07 - 01:09]` Hey, please, I need you to pick up
+- `[01:09 - 01:11]` these grass clippings and put them in the wheelbarrow.
+- `[01:11 - 01:12]` Yes, Father.
+- `[01:12 - 01:16]` Whoa, whoa, where, where are you going to help Dad?
+- `[01:16 - 01:20]` I like wheelbarrows. Bingo likes wheelbarrows.
+- `[01:20 - 01:24]` Bingo helps Dad. You're Mini Bluey now.
+- `[01:24 - 01:28]` Oh yeah, and Bluey does not like grass clippings.
+- `[01:28 - 01:29]` I'll tell you that for free,
+- `[01:29 - 01:32]` but Dad said we have to do it.
+- `[01:32 - 01:34]` Let's find out if he's 'cereal'.
+- `[01:34 - 01:37]` Um, excuse me, big fella, here we go,
+- `[01:37 - 01:39]` the grass clippings you're talking about, why don't we
+- `[01:39 - 01:42]` have to put them in the wheelbarrow? They don't belong
+- `[01:42 - 01:43]` to us.
+- `[01:43 - 01:44]` Well, you know all that food in the fridge
+- `[01:44 - 01:46]` that doesn't belong to you either,
+- `[01:46 - 01:47]` but if you want to keep eating it,
+- `[01:47 - 01:50]` I suggest you get to work.
+- `[01:50 - 01:52]` Okay, he's through.
+- `[01:54 - 01:57]` Mini Bluey, that's quite loud.
+- `[01:57 - 01:59]` I don't really sing when I'm doing chores.
+- `[01:59 - 02:01]` I usually whinge
+- `[02:01 - 02:05]` and do the job a lot slower than what you're
+- `[02:05 - 02:10]` doing. Well...

@@ -1,0 +1,69 @@
+# 79. Two Grouchy Grannies! 👵 🤣 | New Season 3 Clip - Granny Mobile 💙 | Bluey
+
+- Video: https://www.youtube.com/watch?v=5XekmnSHoHs
+- Length: 02:00
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:00
+
+---
+
+- `[00:00 - 00:04]` This has taken too long. Bugalugs, take me home.
+- `[00:04 - 00:07]` Yes, Nana. And watch the cracks.
+- `[00:07 - 00:08]` Sorry, Nana.
+- `[00:08 - 00:12]` Bluey, Grouchy Granny is a bit too grouchy.
+- `[00:12 - 00:15]` Are you sure there isn't another type of granny?
+- `[00:15 - 00:19]` There might be, but I just don't know what it is.
+- `[00:19 - 00:20]` Do you?
+- `[00:20 - 00:23]` No, I'll stay Grouchy Granny.
+- `[00:23 - 00:24]` Oh, great.
+- `[00:24 - 00:27]` You watch yourself, young man!
+- `[00:27 - 00:30]` How about $5?
+- `[00:30 - 00:33]` How about $2?
+- `[00:33 - 00:35]` Okay, $2.
+- `[00:35 - 00:37]` Doreen, if you want to go on a holiday
+- `[00:37 - 00:40]` to the reef, you'd better toughen up.
+- `[00:40 - 00:41]` Oh, I know.
+- `[00:41 - 00:42]` Oh, dear!
+- `[00:42 - 00:44]` Your table leg's blocking the footpath.
+- `[00:44 - 00:46]` I could have broke my leg.
+- `[00:46 - 00:47]` Oh, I'm terribly sorry.
+- `[00:47 - 00:48]` I should call the council.
+- `[00:48 - 00:50]` I'll get it, Doreen.
+- `[00:50 - 00:52]` Keep that noise down.
+- `[00:52 - 00:53]` I'm sorry.
+- `[00:53 - 00:55]` I'm not paying for any of this.
+- `[00:55 - 00:57]` Oh, well, that's fine.
+- `[00:57 - 00:59]` Well, I think you should pay a little.
+- `[00:59 - 01:02]` I think you should mind your own business.
+- `[01:02 - 01:05]` Whoa, that is one grouchy granny.
+- `[01:05 - 01:07]` We're back home, Nana.
+- `[01:07 - 01:08]` About time!
+- `[01:08 - 01:10]` Now make me a cup of tea, Bugalugs!
+- `[01:11 - 01:12]` Hey, you! Get off that!
+- `[01:12 - 01:14]` No, it's mine!
+- `[01:14 - 01:15]` I'm buying it.
+- `[01:15 - 01:18]` Fine! Give me $900.
+- `[01:18 - 01:22]` What?! The sign says $30.
+- `[01:22 - 01:23]` $900.
+- `[01:23 - 01:25]` I'm not paying $900!
+- `[01:25 - 01:27]` Good! But I keep it.
+- `[01:27 - 01:29]` Oh, it's like that, is it?
+- `[01:29 - 01:29]` Oh, look, love.
+- `[01:29 - 01:31]` I think you want to talk to that lady.
+- `[01:31 - 01:32]` Get your hands off me!
+- `[01:32 - 01:33]` What are you doing?
+- `[01:33 - 01:34]` Where's my cup of tea?
+- `[01:34 - 01:39]` Doreen, I think this delightful lady wants to buy your scooter.
+- `[01:39 - 01:39]` $100.
+- `[01:39 - 01:41]` Um, I guess that sounds okay.
+- `[01:41 - 01:44]` Oh, Doreen, you need to go higher than that.
+- `[01:44 - 01:46]` You need to lay off the biscuits.
+- `[01:46 - 01:46]` What?
+- `[01:46 - 01:48]` You said I was looking good.
+- `[01:48 - 01:49]` You are, honey.
+- `[01:49 - 01:49]` Ignore her.
+- `[01:49 - 01:51]` Oh, nasty neighbors back.
+- `[01:51 - 01:53]` Now you listen.
+- `[01:53 - 01:53]` $100.
+- `[01:53 - 01:56]` Poke it or aim it.
+- `[01:56 - 02:00]` Oh, Doreen. No.

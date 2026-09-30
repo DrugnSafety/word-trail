@@ -1,0 +1,3574 @@
+[
+  {
+    "id": "please",
+    "term": "please",
+    "aliases": [],
+    "ipa": "/pliːz/",
+    "meaningKo": "부탁해요, 제발",
+    "explanationKo": "정중하게 부탁할 때 덧붙이는 말이에요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "간식 부탁",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can I have an apple, please?",
+            "ko": "사과 하나 주세요."
+          },
+          {
+            "speaker": "B",
+            "en": "Sure. Here you are.",
+            "ko": "그럼. 여기 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "교실 부탁",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Please pass me the blue pencil.",
+            "ko": "파란 연필 좀 건네줘."
+          },
+          {
+            "speaker": "B",
+            "en": "Here you go.",
+            "ko": "여기 있어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thank-you",
+    "term": "thank you",
+    "aliases": [],
+    "ipa": "/ˈθæŋk juː/",
+    "meaningKo": "고마워요",
+    "explanationKo": "도움을 받거나 무언가를 받았을 때 고마움을 전해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "문을 잡아 줬을 때",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I held the door for you.",
+            "ko": "내가 문을 잡아 줬어."
+          },
+          {
+            "speaker": "B",
+            "en": "Thank you!",
+            "ko": "고마워!"
+          }
+        ]
+      },
+      {
+        "titleKo": "준비물 빌리기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "You can use my ruler.",
+            "ko": "내 자를 써도 돼."
+          },
+          {
+            "speaker": "B",
+            "en": "Thank you. I needed one.",
+            "ko": "고마워. 하나 필요했어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sorry",
+    "term": "sorry",
+    "aliases": [],
+    "ipa": "/ˈsɒri/",
+    "meaningKo": "미안해요",
+    "explanationKo": "실수했거나 상대를 속상하게 했을 때 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "부딪쳤을 때",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Sorry, I bumped your chair.",
+            "ko": "미안해, 네 의자에 부딪쳤어."
+          },
+          {
+            "speaker": "B",
+            "en": "That's okay.",
+            "ko": "괜찮아."
+          }
+        ]
+      },
+      {
+        "titleKo": "약속을 잊었을 때",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I'm sorry I forgot the book.",
+            "ko": "책을 잊어버려서 미안해."
+          },
+          {
+            "speaker": "B",
+            "en": "Bring it tomorrow.",
+            "ko": "내일 가져와."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "excuse-me",
+    "term": "excuse me",
+    "aliases": [],
+    "ipa": "/ɪkˈskjuːz miː/",
+    "meaningKo": "실례합니다, 잠시만요",
+    "explanationKo": "말을 걸거나 지나갈 때 정중하게 주의를 청해요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "길을 물을 때",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Excuse me, where is the library?",
+            "ko": "실례합니다, 도서관이 어디예요?"
+          },
+          {
+            "speaker": "B",
+            "en": "It's next to the office.",
+            "ko": "사무실 옆이에요."
+          }
+        ]
+      },
+      {
+        "titleKo": "지나갈 때",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Excuse me, can I get past?",
+            "ko": "실례하지만 지나가도 될까요?"
+          },
+          {
+            "speaker": "B",
+            "en": "Of course.",
+            "ko": "물론이지."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hello",
+    "term": "hello",
+    "aliases": [],
+    "ipa": "/həˈləʊ/",
+    "meaningKo": "안녕하세요",
+    "explanationKo": "사람을 만났을 때 하는 인사예요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "새 친구",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Hello, I'm Mina.",
+            "ko": "안녕, 나는 미나야."
+          },
+          {
+            "speaker": "B",
+            "en": "Hi, I'm Sam.",
+            "ko": "안녕, 나는 샘이야."
+          }
+        ]
+      },
+      {
+        "titleKo": "아침 등교",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Hello! How are you today?",
+            "ko": "안녕! 오늘 어때?"
+          },
+          {
+            "speaker": "B",
+            "en": "I'm good, thanks.",
+            "ko": "좋아, 고마워."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "goodbye",
+    "term": "goodbye",
+    "aliases": [],
+    "ipa": "/ˌɡʊdˈbaɪ/",
+    "meaningKo": "안녕, 잘 가요",
+    "explanationKo": "헤어질 때 하는 인사예요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "수업 뒤",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Goodbye, Mrs. Lee.",
+            "ko": "안녕히 계세요, 이 선생님."
+          },
+          {
+            "speaker": "B",
+            "en": "See you tomorrow.",
+            "ko": "내일 보자."
+          }
+        ]
+      },
+      {
+        "titleKo": "친구 집에서",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Goodbye! Thanks for playing.",
+            "ko": "안녕! 같이 놀아 줘서 고마워."
+          },
+          {
+            "speaker": "B",
+            "en": "See you soon.",
+            "ko": "곧 보자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yes",
+    "term": "yes",
+    "aliases": [],
+    "ipa": "/jes/",
+    "meaningKo": "네, 그래",
+    "explanationKo": "맞다고 답하거나 동의할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "준비 확인",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Are you ready?",
+            "ko": "준비됐어?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, I am.",
+            "ko": "응, 준비됐어."
+          }
+        ]
+      },
+      {
+        "titleKo": "함께 놀기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Do you want to play?",
+            "ko": "같이 놀래?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, let's play.",
+            "ko": "응, 같이 놀자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "no",
+    "term": "no",
+    "aliases": [],
+    "ipa": "/nəʊ/",
+    "meaningKo": "아니요, 안 돼",
+    "explanationKo": "부정하거나 원하지 않는다고 답할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "물건 확인",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Is this your hat?",
+            "ko": "이거 네 모자야?"
+          },
+          {
+            "speaker": "B",
+            "en": "No, mine is red.",
+            "ko": "아니, 내 것은 빨간색이야."
+          }
+        ]
+      },
+      {
+        "titleKo": "안전 규칙",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can I run in the hall?",
+            "ko": "복도에서 뛰어도 돼?"
+          },
+          {
+            "speaker": "B",
+            "en": "No, please walk.",
+            "ko": "안 돼, 걸어가 줘."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "okay",
+    "term": "okay",
+    "aliases": [],
+    "ipa": "/əʊˈkeɪ/",
+    "meaningKo": "좋아, 알겠어, 괜찮아",
+    "explanationKo": "동의하거나 이해했다고 답할 때 자주 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "정리 시간",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Please put the blocks away.",
+            "ko": "블록을 정리해 줘."
+          },
+          {
+            "speaker": "B",
+            "en": "Okay, I'll do it now.",
+            "ko": "알겠어, 지금 할게."
+          }
+        ]
+      },
+      {
+        "titleKo": "친구를 안심시키기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Are you okay?",
+            "ko": "괜찮아?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, I'm okay.",
+            "ko": "응, 괜찮아."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sure",
+    "term": "sure",
+    "aliases": [],
+    "ipa": "/ʃʊə/",
+    "meaningKo": "물론, 좋아",
+    "explanationKo": "기꺼이 동의하거나 확실하다고 말할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "색연필 빌리기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can I borrow this pencil?",
+            "ko": "이 연필 빌려도 돼?"
+          },
+          {
+            "speaker": "B",
+            "en": "Sure, go ahead.",
+            "ko": "물론, 써도 돼."
+          }
+        ]
+      },
+      {
+        "titleKo": "도움 요청",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Will you help me carry this?",
+            "ko": "이것 옮기는 걸 도와줄래?"
+          },
+          {
+            "speaker": "B",
+            "en": "Sure, I will.",
+            "ko": "물론 도와줄게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wait",
+    "term": "wait",
+    "aliases": [],
+    "ipa": "/weɪt/",
+    "meaningKo": "기다리다, 잠깐",
+    "explanationKo": "멈추고 잠시 기다려 달라고 할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "신발 묶기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Wait, I need to tie my shoe.",
+            "ko": "잠깐, 신발 끈을 묶어야 해."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll wait by the door.",
+            "ko": "문 옆에서 기다릴게."
+          }
+        ]
+      },
+      {
+        "titleKo": "친구 따라가기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Wait up! You're too fast.",
+            "ko": "기다려! 네가 너무 빨라."
+          },
+          {
+            "speaker": "B",
+            "en": "Okay, I'll slow down.",
+            "ko": "알겠어, 천천히 갈게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "term": "stop",
+    "aliases": [],
+    "ipa": "/stɒp/",
+    "meaningKo": "멈추다, 그만하다",
+    "explanationKo": "움직임이나 행동을 그만하게 할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "길 건너기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Stop at the corner.",
+            "ko": "모퉁이에서 멈춰."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll look for cars.",
+            "ko": "차가 오는지 볼게."
+          }
+        ]
+      },
+      {
+        "titleKo": "간지럼",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Please stop tickling me.",
+            "ko": "간지럼 그만 태워 줘."
+          },
+          {
+            "speaker": "B",
+            "en": "Okay, I stopped.",
+            "ko": "알겠어, 멈췄어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "look",
+    "term": "look",
+    "aliases": [],
+    "ipa": "/lʊk/",
+    "meaningKo": "보다, 봐",
+    "explanationKo": "눈으로 보거나 누군가의 주의를 끌 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "그림 보여 주기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Look at my picture.",
+            "ko": "내 그림을 봐."
+          },
+          {
+            "speaker": "B",
+            "en": "I like the bright sun.",
+            "ko": "밝은 해가 마음에 들어."
+          }
+        ]
+      },
+      {
+        "titleKo": "새 발견",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Look! There's a tiny frog.",
+            "ko": "봐! 작은 개구리가 있어."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's watch it jump.",
+            "ko": "뛰는 걸 보자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "listen",
+    "term": "listen",
+    "aliases": [],
+    "ipa": "/ˈlɪsən/",
+    "meaningKo": "듣다, 잘 들어",
+    "explanationKo": "소리에 주의를 기울일 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "새소리",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Listen to that bird.",
+            "ko": "저 새 소리를 들어 봐."
+          },
+          {
+            "speaker": "B",
+            "en": "It has a pretty song.",
+            "ko": "노랫소리가 예쁘다."
+          }
+        ]
+      },
+      {
+        "titleKo": "수업 안내",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Please listen to the directions.",
+            "ko": "설명을 잘 들어 주세요."
+          },
+          {
+            "speaker": "B",
+            "en": "Okay, I'm listening.",
+            "ko": "네, 듣고 있어요."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "come-on",
+    "term": "come on",
+    "aliases": [],
+    "ipa": "/kʌm ˈɒn/",
+    "meaningKo": "어서, 힘내",
+    "explanationKo": "누군가를 재촉하거나 응원할 때 쓰는 말이에요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "출발 재촉",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Come on, the bus is here.",
+            "ko": "어서, 버스가 왔어."
+          },
+          {
+            "speaker": "B",
+            "en": "I'm coming now.",
+            "ko": "지금 가."
+          }
+        ]
+      },
+      {
+        "titleKo": "경기 응원",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Come on, you can do it!",
+            "ko": "힘내, 넌 할 수 있어!"
+          },
+          {
+            "speaker": "B",
+            "en": "I'll try one more time.",
+            "ko": "한 번 더 해 볼게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lets-go",
+    "term": "let's go",
+    "aliases": [],
+    "ipa": "/lets ˈɡəʊ/",
+    "meaningKo": "가자",
+    "explanationKo": "함께 출발하자고 제안할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "공원으로",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I packed the water bottles.",
+            "ko": "물병을 챙겼어."
+          },
+          {
+            "speaker": "B",
+            "en": "Great, let's go to the park.",
+            "ko": "좋아, 공원에 가자."
+          }
+        ]
+      },
+      {
+        "titleKo": "수업 이동",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "The bell rang.",
+            "ko": "종이 울렸어."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's go back to class.",
+            "ko": "교실로 돌아가자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lets",
+    "term": "let's",
+    "aliases": [],
+    "ipa": "/lets/",
+    "meaningKo": "우리 ~하자",
+    "explanationKo": "다른 사람과 함께할 일을 제안할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "퍼즐 맞추기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Let's finish this puzzle together.",
+            "ko": "이 퍼즐을 같이 끝내자."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll find the corner pieces.",
+            "ko": "내가 모서리 조각을 찾을게."
+          }
+        ]
+      },
+      {
+        "titleKo": "간식 준비",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Let's wash the strawberries.",
+            "ko": "딸기를 씻자."
+          },
+          {
+            "speaker": "B",
+            "en": "Then we can eat them.",
+            "ko": "그러고 나서 먹을 수 있어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "help",
+    "term": "help",
+    "aliases": [],
+    "ipa": "/help/",
+    "meaningKo": "돕다, 도움",
+    "explanationKo": "혼자 하기 어려울 때 도움을 요청하거나 줄 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "가방 지퍼",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can you help me with this zipper?",
+            "ko": "이 지퍼 여는 걸 도와줄래?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, hold the bag still.",
+            "ko": "응, 가방을 가만히 잡아."
+          }
+        ]
+      },
+      {
+        "titleKo": "책 정리",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I can help put the books away.",
+            "ko": "내가 책 정리를 도울 수 있어."
+          },
+          {
+            "speaker": "B",
+            "en": "Thank you. Take the small ones.",
+            "ko": "고마워. 작은 것들을 가져가 줘."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "careful",
+    "term": "careful",
+    "aliases": [],
+    "ipa": "/ˈkeəfəl/",
+    "meaningKo": "조심하는, 조심해",
+    "explanationKo": "위험하거나 깨지기 쉬운 것을 다룰 때 주의를 줘요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "뜨거운 컵",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Be careful. The cup is hot.",
+            "ko": "조심해. 컵이 뜨거워."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll hold the handle.",
+            "ko": "손잡이를 잡을게."
+          }
+        ]
+      },
+      {
+        "titleKo": "젖은 바닥",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Careful! The floor is wet.",
+            "ko": "조심해! 바닥이 젖었어."
+          },
+          {
+            "speaker": "B",
+            "en": "Thanks. I'll walk slowly.",
+            "ko": "고마워. 천천히 걸을게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ready",
+    "term": "ready",
+    "aliases": [],
+    "ipa": "/ˈredi/",
+    "meaningKo": "준비된, 준비해",
+    "explanationKo": "시작할 준비가 되었는지 말할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "경주 시작",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Ready, set, go!",
+            "ko": "준비, 시작!"
+          },
+          {
+            "speaker": "B",
+            "en": "I'm running as fast as I can.",
+            "ko": "할 수 있는 만큼 빨리 달리고 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "학교 갈 준비",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Are you ready for school?",
+            "ko": "학교 갈 준비됐어?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, my bag is packed.",
+            "ko": "응, 가방을 다 챙겼어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "again",
+    "term": "again",
+    "aliases": [],
+    "ipa": "/əˈɡen/",
+    "meaningKo": "다시, 또",
+    "explanationKo": "같은 일을 한 번 더 할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "설명 다시 듣기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can you say that again?",
+            "ko": "그 말을 다시 해 줄래?"
+          },
+          {
+            "speaker": "B",
+            "en": "Sure, I'll speak slowly.",
+            "ko": "물론, 천천히 말할게."
+          }
+        ]
+      },
+      {
+        "titleKo": "미끄럼틀",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "That slide was fun!",
+            "ko": "그 미끄럼틀 재미있었어!"
+          },
+          {
+            "speaker": "B",
+            "en": "Let's go again.",
+            "ko": "한 번 더 타자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "finished",
+    "term": "finished",
+    "aliases": [],
+    "ipa": "/ˈfɪnɪʃt/",
+    "meaningKo": "끝난, 다 한",
+    "explanationKo": "하던 일을 마쳤다고 말할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "숙제 끝내기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Are you finished with your homework?",
+            "ko": "숙제 다 했어?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, I'm all done.",
+            "ko": "응, 다 했어."
+          }
+        ]
+      },
+      {
+        "titleKo": "그림 완성",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "My picture is finished.",
+            "ko": "내 그림이 완성됐어."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's hang it on the wall.",
+            "ko": "벽에 걸자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "turn",
+    "term": "turn",
+    "aliases": [],
+    "ipa": "/tɜːn/",
+    "meaningKo": "차례, 돌다",
+    "explanationKo": "순서대로 하는 차례를 말할 때 자주 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "보드게임",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "It's your turn to roll.",
+            "ko": "네가 굴릴 차례야."
+          },
+          {
+            "speaker": "B",
+            "en": "I hope I get a six.",
+            "ko": "6이 나오면 좋겠다."
+          }
+        ]
+      },
+      {
+        "titleKo": "그네 타기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can I have a turn?",
+            "ko": "나도 한 번 타도 돼?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, after ten pushes.",
+            "ko": "응, 열 번 밀고 나서."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "share",
+    "term": "share",
+    "aliases": [],
+    "ipa": "/ʃeə/",
+    "meaningKo": "나누다, 함께 쓰다",
+    "explanationKo": "물건이나 시간을 다른 사람과 함께 쓸 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "간식 나누기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Will you share your crackers?",
+            "ko": "크래커를 나눠 줄래?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, you can have two.",
+            "ko": "응, 두 개 먹어도 돼."
+          }
+        ]
+      },
+      {
+        "titleKo": "미술 도구",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "We need to share the paint.",
+            "ko": "우리는 물감을 같이 써야 해."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll use the green after you.",
+            "ko": "네 다음에 초록색을 쓸게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "play",
+    "term": "play",
+    "aliases": [],
+    "ipa": "/pleɪ/",
+    "meaningKo": "놀다, 경기하다",
+    "explanationKo": "놀이·게임·운동을 할 때 쓰는 말이에요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "쉬는 시간",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Do you want to play tag?",
+            "ko": "술래잡기 할래?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, you can be it first.",
+            "ko": "응, 네가 먼저 술래 해."
+          }
+        ]
+      },
+      {
+        "titleKo": "실내 놀이",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Let's play with the train set.",
+            "ko": "기차 세트로 놀자."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll build the station.",
+            "ko": "내가 역을 만들게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friend",
+    "term": "friend",
+    "aliases": [],
+    "ipa": "/frend/",
+    "meaningKo": "친구",
+    "explanationKo": "함께 지내고 서로 아끼는 사람을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "새 친구 소개",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "This is my friend, Leo.",
+            "ko": "이쪽은 내 친구 레오야."
+          },
+          {
+            "speaker": "B",
+            "en": "Nice to meet you, Leo.",
+            "ko": "만나서 반가워, 레오."
+          }
+        ]
+      },
+      {
+        "titleKo": "친구 돕기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "A friend helped me find my coat.",
+            "ko": "친구가 내 외투를 찾게 도와줬어."
+          },
+          {
+            "speaker": "B",
+            "en": "That was kind of them.",
+            "ko": "참 친절했구나."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "term": "family",
+    "aliases": [],
+    "ipa": "/ˈfæməli/",
+    "meaningKo": "가족",
+    "explanationKo": "함께 돌보고 살아가는 가족을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "가족 사진",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "This is a picture of my family.",
+            "ko": "이건 우리 가족 사진이야."
+          },
+          {
+            "speaker": "B",
+            "en": "Who is standing next to you?",
+            "ko": "네 옆에 서 있는 사람은 누구야?"
+          }
+        ]
+      },
+      {
+        "titleKo": "주말 계획",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "My family is going hiking.",
+            "ko": "우리 가족은 하이킹을 갈 거야."
+          },
+          {
+            "speaker": "B",
+            "en": "I hope you have fun.",
+            "ko": "재미있게 다녀와."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mum",
+    "term": "mum",
+    "aliases": [],
+    "ipa": "/mʌm/",
+    "meaningKo": "엄마",
+    "explanationKo": "어머니를 친근하게 부르는 말이에요. mum은 영국·호주에서 흔해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "준비물 묻기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Mum, where is my lunch box?",
+            "ko": "엄마, 내 도시락통 어디 있어요?"
+          },
+          {
+            "speaker": "B",
+            "en": "It's beside your backpack.",
+            "ko": "네 가방 옆에 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "귀가 인사",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Hi, Mum! I'm home.",
+            "ko": "엄마! 다녀왔어요."
+          },
+          {
+            "speaker": "B",
+            "en": "Welcome back.",
+            "ko": "잘 다녀왔구나."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dad",
+    "term": "dad",
+    "aliases": [],
+    "ipa": "/dæd/",
+    "meaningKo": "아빠",
+    "explanationKo": "아버지를 친근하게 부르는 말이에요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "자전거 연습",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Dad, will you hold my bike?",
+            "ko": "아빠, 제 자전거를 잡아 줄래요?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, until you feel steady.",
+            "ko": "그래, 균형을 잡을 때까지."
+          }
+        ]
+      },
+      {
+        "titleKo": "간식 만들기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Dad made fruit snacks.",
+            "ko": "아빠가 과일 간식을 만들었어."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's help him set the table.",
+            "ko": "식탁 차리는 걸 도와드리자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sister",
+    "term": "sister",
+    "aliases": [],
+    "ipa": "/ˈsɪstə/",
+    "meaningKo": "자매, 여자 형제",
+    "explanationKo": "여자 형제를 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "동생 소개",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "My sister is in first grade.",
+            "ko": "내 여동생은 1학년이야."
+          },
+          {
+            "speaker": "B",
+            "en": "Does she go to this school?",
+            "ko": "이 학교에 다녀?"
+          }
+        ]
+      },
+      {
+        "titleKo": "함께 만들기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "My sister helped build the fort.",
+            "ko": "내 자매가 요새 만들기를 도왔어."
+          },
+          {
+            "speaker": "B",
+            "en": "You made a great team.",
+            "ko": "멋진 팀이었네."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brother",
+    "term": "brother",
+    "aliases": [],
+    "ipa": "/ˈbrʌðə/",
+    "meaningKo": "형제, 남자 형제",
+    "explanationKo": "남자 형제를 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "형 소개",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "My brother plays baseball.",
+            "ko": "내 형제는 야구를 해."
+          },
+          {
+            "speaker": "B",
+            "en": "What position does he play?",
+            "ko": "어느 포지션을 해?"
+          }
+        ]
+      },
+      {
+        "titleKo": "책 빌리기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I borrowed my brother's book.",
+            "ko": "나는 형제의 책을 빌렸어."
+          },
+          {
+            "speaker": "B",
+            "en": "Remember to give it back.",
+            "ko": "돌려주는 걸 기억해."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "term": "school",
+    "aliases": [],
+    "ipa": "/skuːl/",
+    "meaningKo": "학교",
+    "explanationKo": "공부하고 친구들과 생활하는 곳이에요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "등교 준비",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "It's time to leave for school.",
+            "ko": "학교 갈 시간이야."
+          },
+          {
+            "speaker": "B",
+            "en": "I have my bag and jacket.",
+            "ko": "가방과 재킷 챙겼어요."
+          }
+        ]
+      },
+      {
+        "titleKo": "학교 이야기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "What did you do at school?",
+            "ko": "학교에서 뭐 했어?"
+          },
+          {
+            "speaker": "B",
+            "en": "We planted bean seeds.",
+            "ko": "콩 씨앗을 심었어요."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home",
+    "term": "home",
+    "aliases": [],
+    "ipa": "/həʊm/",
+    "meaningKo": "집, 집으로",
+    "explanationKo": "사는 곳이나 그곳으로 가는 것을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "귀가 시간",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "We need to go home now.",
+            "ko": "이제 집에 가야 해."
+          },
+          {
+            "speaker": "B",
+            "en": "Can we come back tomorrow?",
+            "ko": "내일 다시 와도 돼?"
+          }
+        ]
+      },
+      {
+        "titleKo": "집에서 쉬기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I'm happy to be home.",
+            "ko": "집에 오니 좋아."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's read on the sofa.",
+            "ko": "소파에서 책 읽자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "good",
+    "term": "good",
+    "aliases": [],
+    "ipa": "/ɡʊd/",
+    "meaningKo": "좋은, 잘한",
+    "explanationKo": "마음에 들거나 잘되었다고 말할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "맛 표현",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "This soup tastes good.",
+            "ko": "이 수프 맛이 좋아."
+          },
+          {
+            "speaker": "B",
+            "en": "I added fresh corn.",
+            "ko": "신선한 옥수수를 넣었어."
+          }
+        ]
+      },
+      {
+        "titleKo": "연습 칭찬",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "That was a good throw.",
+            "ko": "잘 던졌어."
+          },
+          {
+            "speaker": "B",
+            "en": "I practiced yesterday.",
+            "ko": "어제 연습했어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "great",
+    "term": "great",
+    "aliases": [],
+    "ipa": "/ɡreɪt/",
+    "meaningKo": "아주 좋은, 멋진",
+    "explanationKo": "무언가가 매우 좋거나 기쁠 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "계획 동의",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Let's make a paper airplane.",
+            "ko": "종이비행기를 만들자."
+          },
+          {
+            "speaker": "B",
+            "en": "Great idea!",
+            "ko": "좋은 생각이야!"
+          }
+        ]
+      },
+      {
+        "titleKo": "작품 감상",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Your model looks great.",
+            "ko": "네 모형이 멋져 보여."
+          },
+          {
+            "speaker": "B",
+            "en": "Thanks for helping me.",
+            "ko": "도와줘서 고마워."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nice",
+    "term": "nice",
+    "aliases": [],
+    "ipa": "/naɪs/",
+    "meaningKo": "좋은, 친절한, 멋진",
+    "explanationKo": "기분 좋은 것이나 친절한 행동을 말할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "날씨",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "It's nice outside today.",
+            "ko": "오늘 밖이 좋다."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's eat lunch outdoors.",
+            "ko": "밖에서 점심 먹자."
+          }
+        ]
+      },
+      {
+        "titleKo": "친절한 행동",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "It was nice of you to share.",
+            "ko": "네가 나눠 줘서 친절했어."
+          },
+          {
+            "speaker": "B",
+            "en": "There was enough for both of us.",
+            "ko": "우리 둘이 먹기에 충분했어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "funny",
+    "term": "funny",
+    "aliases": [],
+    "ipa": "/ˈfʌni/",
+    "meaningKo": "웃기는, 재미있는",
+    "explanationKo": "웃음이 나거나 우스운 것을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "농담",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "That joke was funny.",
+            "ko": "그 농담 웃겼어."
+          },
+          {
+            "speaker": "B",
+            "en": "I heard it from my cousin.",
+            "ko": "사촌에게 들었어."
+          }
+        ]
+      },
+      {
+        "titleKo": "이상한 모자",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "You look funny in that huge hat.",
+            "ko": "그 큰 모자를 쓰니 웃겨 보여."
+          },
+          {
+            "speaker": "B",
+            "en": "It keeps falling over my eyes.",
+            "ko": "자꾸 눈 위로 내려와."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "little",
+    "term": "little",
+    "aliases": [],
+    "ipa": "/ˈlɪtəl/",
+    "meaningKo": "작은, 조금",
+    "explanationKo": "크기나 양이 작을 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "작은 상자",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Put the buttons in the little box.",
+            "ko": "단추를 작은 상자에 넣어."
+          },
+          {
+            "speaker": "B",
+            "en": "The big box is for ribbons.",
+            "ko": "큰 상자는 리본용이야."
+          }
+        ]
+      },
+      {
+        "titleKo": "물 조금",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Would you like a little water?",
+            "ko": "물 조금 마실래?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, just half a cup.",
+            "ko": "응, 반 컵만."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "big",
+    "term": "big",
+    "aliases": [],
+    "ipa": "/bɪɡ/",
+    "meaningKo": "큰",
+    "explanationKo": "크기나 정도가 클 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "큰 상자",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "This box is too big to lift.",
+            "ko": "이 상자는 들기에 너무 커."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's carry it together.",
+            "ko": "같이 옮기자."
+          }
+        ]
+      },
+      {
+        "titleKo": "큰 점프",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "That was a big jump!",
+            "ko": "정말 큰 점프였어!"
+          },
+          {
+            "speaker": "B",
+            "en": "I landed on both feet.",
+            "ko": "두 발로 착지했어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "happy",
+    "term": "happy",
+    "aliases": [],
+    "ipa": "/ˈhæpi/",
+    "meaningKo": "행복한, 기쁜",
+    "explanationKo": "기쁘고 좋은 기분을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "친구 만나기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I'm happy you came today.",
+            "ko": "네가 오늘 와서 기뻐."
+          },
+          {
+            "speaker": "B",
+            "en": "I'm happy to see you too.",
+            "ko": "나도 널 봐서 기뻐."
+          }
+        ]
+      },
+      {
+        "titleKo": "새싹 발견",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Our seed grew!",
+            "ko": "우리 씨앗이 자랐어!"
+          },
+          {
+            "speaker": "B",
+            "en": "That makes me happy.",
+            "ko": "그걸 보니 기뻐."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sad",
+    "term": "sad",
+    "aliases": [],
+    "ipa": "/sæd/",
+    "meaningKo": "슬픈",
+    "explanationKo": "마음이 아프거나 속상한 기분을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "장난감 고장",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I feel sad that my toy broke.",
+            "ko": "장난감이 망가져서 슬퍼."
+          },
+          {
+            "speaker": "B",
+            "en": "Maybe we can fix it together.",
+            "ko": "같이 고칠 수 있을지도 몰라."
+          }
+        ]
+      },
+      {
+        "titleKo": "친구 이사",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I'm sad that Jo is moving.",
+            "ko": "조가 이사 가서 슬퍼."
+          },
+          {
+            "speaker": "B",
+            "en": "You can still write to each other.",
+            "ko": "그래도 서로 편지를 쓸 수 있어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scared",
+    "term": "scared",
+    "aliases": [],
+    "ipa": "/skeəd/",
+    "meaningKo": "무서운, 겁이 난",
+    "explanationKo": "무섭거나 걱정되는 기분을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "천둥 소리",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I'm scared of the loud thunder.",
+            "ko": "큰 천둥 소리가 무서워."
+          },
+          {
+            "speaker": "B",
+            "en": "You can sit beside me.",
+            "ko": "내 옆에 앉아도 돼."
+          }
+        ]
+      },
+      {
+        "titleKo": "높은 미끄럼틀",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Are you scared of the tall slide?",
+            "ko": "높은 미끄럼틀이 무서워?"
+          },
+          {
+            "speaker": "B",
+            "en": "A little, but I want to try.",
+            "ko": "조금, 그래도 해 보고 싶어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "love",
+    "term": "love",
+    "aliases": [],
+    "ipa": "/lʌv/",
+    "meaningKo": "사랑하다, 아주 좋아하다",
+    "explanationKo": "사람을 아끼거나 무언가를 아주 좋아할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "가족에게",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I love you, Grandma.",
+            "ko": "할머니, 사랑해요."
+          },
+          {
+            "speaker": "B",
+            "en": "I love you too.",
+            "ko": "나도 사랑해."
+          }
+        ]
+      },
+      {
+        "titleKo": "좋아하는 책",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I love this space book.",
+            "ko": "이 우주 책이 정말 좋아."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's read another chapter.",
+            "ko": "다음 장을 읽자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "like",
+    "term": "like",
+    "aliases": [],
+    "ipa": "/laɪk/",
+    "meaningKo": "좋아하다, ~처럼",
+    "explanationKo": "마음에 드는 것을 말할 때 자주 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "좋아하는 색",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I like the purple one.",
+            "ko": "나는 보라색 것이 좋아."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll choose the yellow one.",
+            "ko": "나는 노란색을 고를게."
+          }
+        ]
+      },
+      {
+        "titleKo": "운동 취향",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Do you like swimming?",
+            "ko": "수영 좋아해?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, especially in summer.",
+            "ko": "응, 특히 여름에."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "want",
+    "term": "want",
+    "aliases": [],
+    "ipa": "/wɒnt/",
+    "meaningKo": "원하다, ~하고 싶다",
+    "explanationKo": "갖고 싶거나 하고 싶은 것을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "간식 선택",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Do you want grapes or an orange?",
+            "ko": "포도와 오렌지 중 뭐가 좋아?"
+          },
+          {
+            "speaker": "B",
+            "en": "I want the orange, please.",
+            "ko": "오렌지 주세요."
+          }
+        ]
+      },
+      {
+        "titleKo": "놀이 제안",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I want to build a tall tower.",
+            "ko": "높은 탑을 만들고 싶어."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll bring more blocks.",
+            "ko": "블록을 더 가져올게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "need",
+    "term": "need",
+    "aliases": [],
+    "ipa": "/niːd/",
+    "meaningKo": "필요하다, ~해야 한다",
+    "explanationKo": "꼭 있어야 하거나 해야 하는 것을 말해요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "준비물",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I need a glue stick.",
+            "ko": "풀 한 개가 필요해."
+          },
+          {
+            "speaker": "B",
+            "en": "There's one in the art box.",
+            "ko": "미술 상자에 하나 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "외출 준비",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "We need to leave in five minutes.",
+            "ko": "5분 뒤에 출발해야 해."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll put on my shoes.",
+            "ko": "신발 신을게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "know",
+    "term": "know",
+    "aliases": [],
+    "ipa": "/nəʊ/",
+    "meaningKo": "알다",
+    "explanationKo": "사실이나 방법을 알고 있을 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "답 알기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Do you know the answer?",
+            "ko": "답을 아니?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, it's twelve.",
+            "ko": "응, 12야."
+          }
+        ]
+      },
+      {
+        "titleKo": "길 찾기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I know the way to the gym.",
+            "ko": "체육관 가는 길을 알아."
+          },
+          {
+            "speaker": "B",
+            "en": "Great, I'll follow you.",
+            "ko": "좋아, 널 따라갈게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "think",
+    "term": "think",
+    "aliases": [],
+    "ipa": "/θɪŋk/",
+    "meaningKo": "생각하다",
+    "explanationKo": "의견이나 머릿속 생각을 말할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "날씨 예상",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Do you think it will rain?",
+            "ko": "비가 올 것 같아?"
+          },
+          {
+            "speaker": "B",
+            "en": "I think the clouds are moving away.",
+            "ko": "구름이 멀어지는 것 같아."
+          }
+        ]
+      },
+      {
+        "titleKo": "선물 고르기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I think she'd like this book.",
+            "ko": "그 아이가 이 책을 좋아할 것 같아."
+          },
+          {
+            "speaker": "B",
+            "en": "That's a good choice.",
+            "ko": "좋은 선택이야."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "can-i",
+    "term": "can I",
+    "aliases": [],
+    "ipa": "/kæn aɪ/",
+    "meaningKo": "제가 ~해도 될까요?",
+    "explanationKo": "허락을 구하거나 정중히 요청할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "자리 요청",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can I sit here?",
+            "ko": "여기 앉아도 돼?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, this seat is free.",
+            "ko": "응, 이 자리 비었어."
+          }
+        ]
+      },
+      {
+        "titleKo": "화장실 허락",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can I go to the restroom?",
+            "ko": "화장실에 가도 될까요?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, take the hall pass.",
+            "ko": "그래, 복도 출입증을 가져가렴."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "have-to",
+    "term": "have to",
+    "aliases": [],
+    "ipa": "/ˈhæv tə/",
+    "meaningKo": "~해야 한다",
+    "explanationKo": "꼭 해야 하는 일이나 규칙을 말할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "숙제 먼저",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I have to finish my reading first.",
+            "ko": "먼저 읽기를 끝내야 해."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll wait until you're done.",
+            "ko": "끝날 때까지 기다릴게."
+          }
+        ]
+      },
+      {
+        "titleKo": "도서관 규칙",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "We have to use quiet voices here.",
+            "ko": "여기서는 작은 목소리로 말해야 해."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll whisper.",
+            "ko": "소곤소곤 말할게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dont",
+    "term": "don't",
+    "aliases": [],
+    "ipa": "/dəʊnt/",
+    "meaningKo": "~하지 않다, 하지 마",
+    "explanationKo": "행동을 부정하거나 하지 말라고 할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "음식 취향",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I don't like spicy food.",
+            "ko": "나는 매운 음식을 좋아하지 않아."
+          },
+          {
+            "speaker": "B",
+            "en": "This one is mild.",
+            "ko": "이건 맵지 않아."
+          }
+        ]
+      },
+      {
+        "titleKo": "작품 보호",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Don't touch the wet paint.",
+            "ko": "젖은 물감을 만지지 마."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll keep my hands away.",
+            "ko": "손을 멀리 둘게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "where",
+    "term": "where",
+    "aliases": [],
+    "ipa": "/weə/",
+    "meaningKo": "어디, 어디에",
+    "explanationKo": "장소를 물을 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "물건 찾기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Where is my notebook?",
+            "ko": "내 공책 어디 있어?"
+          },
+          {
+            "speaker": "B",
+            "en": "It's under your folder.",
+            "ko": "네 파일 아래에 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "만날 장소",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Where should we meet?",
+            "ko": "어디서 만날까?"
+          },
+          {
+            "speaker": "B",
+            "en": "By the playground gate.",
+            "ko": "운동장 문 옆에서."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "what",
+    "term": "what",
+    "aliases": [],
+    "ipa": "/wɒt/",
+    "meaningKo": "무엇, 어떤 것",
+    "explanationKo": "사물이나 정보를 물을 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "이름 묻기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "What is your dog's name?",
+            "ko": "네 강아지 이름이 뭐야?"
+          },
+          {
+            "speaker": "B",
+            "en": "Her name is Pepper.",
+            "ko": "이름은 페퍼야."
+          }
+        ]
+      },
+      {
+        "titleKo": "하고 싶은 일",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "What should we make?",
+            "ko": "우리 뭘 만들까?"
+          },
+          {
+            "speaker": "B",
+            "en": "Let's make a kite.",
+            "ko": "연을 만들자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "why",
+    "term": "why",
+    "aliases": [],
+    "ipa": "/waɪ/",
+    "meaningKo": "왜",
+    "explanationKo": "이유를 물을 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "우산 이유",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Why are you taking an umbrella?",
+            "ko": "왜 우산을 가져가?"
+          },
+          {
+            "speaker": "B",
+            "en": "It might rain later.",
+            "ko": "나중에 비가 올지도 몰라."
+          }
+        ]
+      },
+      {
+        "titleKo": "기분 이유",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Why are you smiling?",
+            "ko": "왜 웃고 있어?"
+          },
+          {
+            "speaker": "B",
+            "en": "I heard a funny story.",
+            "ko": "재미있는 이야기를 들었어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "how",
+    "term": "how",
+    "aliases": [],
+    "ipa": "/haʊ/",
+    "meaningKo": "어떻게, 얼마나",
+    "explanationKo": "방법이나 상태를 물을 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "방법 묻기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "How do you fold this?",
+            "ko": "이거 어떻게 접어?"
+          },
+          {
+            "speaker": "B",
+            "en": "First, match the corners.",
+            "ko": "먼저 모서리를 맞춰."
+          }
+        ]
+      },
+      {
+        "titleKo": "하루 묻기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "How was your day?",
+            "ko": "오늘 하루 어땠어?"
+          },
+          {
+            "speaker": "B",
+            "en": "It was busy but fun.",
+            "ko": "바빴지만 재미있었어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "right-now",
+    "term": "right now",
+    "aliases": [],
+    "ipa": "/raɪt ˈnaʊ/",
+    "meaningKo": "바로 지금",
+    "explanationKo": "지금 이 순간에 바로 한다는 뜻이에요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "정리 요청",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Please clean up right now.",
+            "ko": "바로 지금 정리해 줘."
+          },
+          {
+            "speaker": "B",
+            "en": "Okay, I'll start with the blocks.",
+            "ko": "알겠어, 블록부터 할게."
+          }
+        ]
+      },
+      {
+        "titleKo": "통화 곤란",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can you talk right now?",
+            "ko": "지금 이야기할 수 있어?"
+          },
+          {
+            "speaker": "B",
+            "en": "Not yet. I'm in class.",
+            "ko": "아직 안 돼. 수업 중이야."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "not-yet",
+    "term": "not yet",
+    "aliases": [],
+    "ipa": "/nɒt ˈjet/",
+    "meaningKo": "아직 아니야",
+    "explanationKo": "어떤 일이 아직 일어나거나 끝나지 않았을 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "숙제 확인",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Did you finish your math?",
+            "ko": "수학 끝냈어?"
+          },
+          {
+            "speaker": "B",
+            "en": "Not yet. I have two problems left.",
+            "ko": "아직. 두 문제 남았어."
+          }
+        ]
+      },
+      {
+        "titleKo": "빵 기다리기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Is the bread ready?",
+            "ko": "빵 다 됐어?"
+          },
+          {
+            "speaker": "B",
+            "en": "Not yet. It needs five more minutes.",
+            "ko": "아직. 5분 더 필요해."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "good-job",
+    "term": "good job",
+    "aliases": [],
+    "ipa": "/ɡʊd ˈdʒɒb/",
+    "meaningKo": "잘했어",
+    "explanationKo": "누군가 노력하거나 잘했을 때 칭찬하는 말이에요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "공 잡기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I caught it with both hands!",
+            "ko": "두 손으로 공을 잡았어!"
+          },
+          {
+            "speaker": "B",
+            "en": "Good job!",
+            "ko": "잘했어!"
+          }
+        ]
+      },
+      {
+        "titleKo": "읽기 마치기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I read the whole page by myself.",
+            "ko": "한 쪽을 혼자 다 읽었어."
+          },
+          {
+            "speaker": "B",
+            "en": "Good job. You kept trying.",
+            "ko": "잘했어. 계속 노력했구나."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "are-you-sure",
+    "term": "are you sure",
+    "aliases": [],
+    "ipa": "/ɑː juː ˈʃʊə/",
+    "meaningKo": "확실해?",
+    "explanationKo": "상대의 결정이나 정보가 확실한지 다시 확인할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "물건 빌리기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "You can keep this sticker.",
+            "ko": "이 스티커 가져도 돼."
+          },
+          {
+            "speaker": "B",
+            "en": "Are you sure? It's your favorite.",
+            "ko": "확실해? 네가 제일 좋아하는 거잖아."
+          }
+        ]
+      },
+      {
+        "titleKo": "방향 확인",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "The field is this way.",
+            "ko": "운동장은 이쪽이야."
+          },
+          {
+            "speaker": "B",
+            "en": "Are you sure? The sign points left.",
+            "ko": "확실해? 표지판은 왼쪽을 가리켜."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "i-dont-know",
+    "term": "I don't know",
+    "aliases": [],
+    "ipa": "/aɪ dəʊnt ˈnəʊ/",
+    "meaningKo": "모르겠어",
+    "explanationKo": "답이나 정보를 알지 못할 때 솔직하게 말해요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "답을 모를 때",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "How many legs does a spider have?",
+            "ko": "거미 다리는 몇 개야?"
+          },
+          {
+            "speaker": "B",
+            "en": "I don't know. Let's look it up.",
+            "ko": "모르겠어. 찾아보자."
+          }
+        ]
+      },
+      {
+        "titleKo": "분실물",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Where is the red marker?",
+            "ko": "빨간 마커 어디 있어?"
+          },
+          {
+            "speaker": "B",
+            "en": "I don't know. I had the blue one.",
+            "ko": "모르겠어. 나는 파란 걸 가지고 있었어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "give-me",
+    "term": "give me",
+    "aliases": [],
+    "ipa": "/ɡɪv miː/",
+    "meaningKo": "나에게 줘",
+    "explanationKo": "무언가를 달라고 직접 요청할 때 써요. please를 붙이면 더 정중해요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "종이 요청",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Please give me a sheet of paper.",
+            "ko": "종이 한 장 주세요."
+          },
+          {
+            "speaker": "B",
+            "en": "Here is a clean one.",
+            "ko": "깨끗한 것 여기 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "시간 요청",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Give me one minute to finish.",
+            "ko": "끝낼 시간 1분만 줘."
+          },
+          {
+            "speaker": "B",
+            "en": "Okay, then it's my turn.",
+            "ko": "알겠어, 그다음 내 차례야."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "go-ahead",
+    "term": "go ahead",
+    "aliases": [],
+    "ipa": "/ɡəʊ əˈhed/",
+    "meaningKo": "먼저 해, 해도 돼",
+    "explanationKo": "상대가 먼저 하거나 계속하도록 허락할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "먼저 발표하기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can I show my project first?",
+            "ko": "제가 먼저 프로젝트를 보여도 될까요?"
+          },
+          {
+            "speaker": "B",
+            "en": "Go ahead. We're ready.",
+            "ko": "하세요. 준비됐어요."
+          }
+        ]
+      },
+      {
+        "titleKo": "문 통과",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "You can go ahead of me.",
+            "ko": "내 앞에 먼저 가도 돼."
+          },
+          {
+            "speaker": "B",
+            "en": "Thanks. I'll hold the door.",
+            "ko": "고마워. 문을 잡아 줄게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "take-turns",
+    "term": "take turns",
+    "aliases": [],
+    "ipa": "/teɪk ˈtɜːnz/",
+    "meaningKo": "번갈아 하다",
+    "explanationKo": "두 명 이상이 차례를 바꾸어 가며 할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "컴퓨터 사용",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Let's take turns using the computer.",
+            "ko": "컴퓨터를 번갈아 쓰자."
+          },
+          {
+            "speaker": "B",
+            "en": "You can go first for ten minutes.",
+            "ko": "네가 먼저 10분 써."
+          }
+        ]
+      },
+      {
+        "titleKo": "책 읽기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "We can take turns reading pages.",
+            "ko": "한 쪽씩 번갈아 읽자."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll read the first page.",
+            "ko": "내가 첫 쪽을 읽을게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hurry-up",
+    "term": "hurry up",
+    "aliases": [],
+    "ipa": "/ˈhʌri ʌp/",
+    "meaningKo": "서둘러",
+    "explanationKo": "시간이 부족해서 빨리 하라고 말할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "버스 시간",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Hurry up, the bus comes soon.",
+            "ko": "서둘러, 곧 버스가 와."
+          },
+          {
+            "speaker": "B",
+            "en": "I'm putting on my coat.",
+            "ko": "외투 입고 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "경기 시작",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Hurry up! The game is starting.",
+            "ko": "서둘러! 경기가 시작해."
+          },
+          {
+            "speaker": "B",
+            "en": "I found my seat.",
+            "ko": "내 자리를 찾았어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "watch-out",
+    "term": "watch out",
+    "aliases": [],
+    "ipa": "/wɒtʃ ˈaʊt/",
+    "meaningKo": "조심해",
+    "explanationKo": "바로 앞의 위험을 급하게 알려 줄 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "날아오는 공",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Watch out! A ball is coming.",
+            "ko": "조심해! 공이 날아와."
+          },
+          {
+            "speaker": "B",
+            "en": "I see it now.",
+            "ko": "이제 보여."
+          }
+        ]
+      },
+      {
+        "titleKo": "낮은 나뭇가지",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Watch out for that low branch.",
+            "ko": "저 낮은 나뭇가지를 조심해."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll duck under it.",
+            "ko": "몸을 숙여 지나갈게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "try-again",
+    "term": "try again",
+    "aliases": [],
+    "ipa": "/traɪ əˈɡen/",
+    "meaningKo": "다시 해 보다",
+    "explanationKo": "실패해도 한 번 더 시도하자고 할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "공 던지기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I missed the basket.",
+            "ko": "골대에 못 넣었어."
+          },
+          {
+            "speaker": "B",
+            "en": "Try again from a closer spot.",
+            "ko": "더 가까운 곳에서 다시 해 봐."
+          }
+        ]
+      },
+      {
+        "titleKo": "단어 읽기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "That word was hard.",
+            "ko": "그 단어 어려웠어."
+          },
+          {
+            "speaker": "B",
+            "en": "Let's sound it out and try again.",
+            "ko": "소리로 나눠 보고 다시 해 보자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "all-right",
+    "term": "all right",
+    "aliases": [],
+    "ipa": "/ˌɔːl ˈraɪt/",
+    "meaningKo": "괜찮아, 좋아",
+    "explanationKo": "괜찮은 상태이거나 동의한다는 뜻으로 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "넘어진 뒤",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Are you all right?",
+            "ko": "괜찮아?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, I just slipped.",
+            "ko": "응, 그냥 미끄러졌어."
+          }
+        ]
+      },
+      {
+        "titleKo": "계획 동의",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "We'll leave after lunch.",
+            "ko": "점심 뒤에 출발할 거야."
+          },
+          {
+            "speaker": "B",
+            "en": "All right, I'll get ready.",
+            "ko": "좋아, 준비할게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "here-you-go",
+    "term": "here you go",
+    "aliases": [],
+    "ipa": "/hɪə juː ˈɡəʊ/",
+    "meaningKo": "여기 있어요",
+    "explanationKo": "상대에게 물건을 건네줄 때 쓰는 말이에요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "지우개 건네기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "May I borrow your eraser?",
+            "ko": "지우개 빌려도 돼?"
+          },
+          {
+            "speaker": "B",
+            "en": "Here you go.",
+            "ko": "여기 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "주문한 음료",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Here you go, one apple juice.",
+            "ko": "여기 있습니다, 사과 주스 하나예요."
+          },
+          {
+            "speaker": "B",
+            "en": "Thank you.",
+            "ko": "고맙습니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sounds-good",
+    "term": "sounds good",
+    "aliases": [],
+    "ipa": "/saʊndz ˈɡʊd/",
+    "meaningKo": "좋아 보여, 좋은 생각이야",
+    "explanationKo": "상대의 제안이 마음에 들 때 답하는 말이에요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "방과 후 계획",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Let's draw after school.",
+            "ko": "방과 후에 그림 그리자."
+          },
+          {
+            "speaker": "B",
+            "en": "Sounds good. I'll bring markers.",
+            "ko": "좋아. 내가 마커를 가져올게."
+          }
+        ]
+      },
+      {
+        "titleKo": "점심 제안",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "How about soup and bread?",
+            "ko": "수프와 빵 어때?"
+          },
+          {
+            "speaker": "B",
+            "en": "Sounds good to me.",
+            "ko": "나는 아주 좋아."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "never-mind",
+    "term": "never mind",
+    "aliases": [],
+    "ipa": "/ˌnevə ˈmaɪnd/",
+    "meaningKo": "신경 쓰지 마, 됐어",
+    "explanationKo": "앞의 부탁이나 걱정을 취소하거나 괜찮다고 할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "스스로 찾았을 때",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can you find my cap? Oh, never mind.",
+            "ko": "내 모자 찾아줄래? 아, 됐어."
+          },
+          {
+            "speaker": "B",
+            "en": "Did you find it?",
+            "ko": "찾았어?"
+          }
+        ]
+      },
+      {
+        "titleKo": "작은 실수",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I used the wrong color.",
+            "ko": "색을 잘못 썼어."
+          },
+          {
+            "speaker": "B",
+            "en": "Never mind. It still looks nice.",
+            "ko": "신경 쓰지 마. 그래도 멋져."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "come-here",
+    "term": "come here",
+    "aliases": [],
+    "ipa": "/kʌm ˈhɪə/",
+    "meaningKo": "이리 와",
+    "explanationKo": "상대에게 내가 있는 곳으로 오라고 할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "발견 보여 주기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Come here and look at this shell.",
+            "ko": "이리 와서 이 조개껍데기를 봐."
+          },
+          {
+            "speaker": "B",
+            "en": "It has pink stripes.",
+            "ko": "분홍 줄무늬가 있네."
+          }
+        ]
+      },
+      {
+        "titleKo": "함께 앉기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Come here and sit with us.",
+            "ko": "이리 와서 우리랑 앉아."
+          },
+          {
+            "speaker": "B",
+            "en": "Thanks, I'll bring my chair.",
+            "ko": "고마워, 의자를 가져올게."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "go-back",
+    "term": "go back",
+    "aliases": [],
+    "ipa": "/ɡəʊ ˈbæk/",
+    "meaningKo": "돌아가다, 돌아오다",
+    "explanationKo": "전에 있던 곳으로 다시 이동할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "교실 복귀",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "It's time to go back to class.",
+            "ko": "교실로 돌아갈 시간이야."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll put the ball away.",
+            "ko": "공을 정리할게."
+          }
+        ]
+      },
+      {
+        "titleKo": "물건 가지러",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I left my bottle at home.",
+            "ko": "물병을 집에 두고 왔어."
+          },
+          {
+            "speaker": "B",
+            "en": "We can go back and get it.",
+            "ko": "돌아가서 가져오면 돼."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hold-on",
+    "term": "hold on",
+    "aliases": [],
+    "ipa": "/həʊld ˈɒn/",
+    "meaningKo": "잠깐 기다려, 꼭 잡아",
+    "explanationKo": "잠시 기다리라고 하거나 무언가를 놓치지 말라고 할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "전화 중 기다리기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Hold on, I'll ask my dad.",
+            "ko": "잠깐만, 아빠에게 물어볼게."
+          },
+          {
+            "speaker": "B",
+            "en": "Okay, I'll wait.",
+            "ko": "알겠어, 기다릴게."
+          }
+        ]
+      },
+      {
+        "titleKo": "썰매 타기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Hold on with both hands.",
+            "ko": "두 손으로 꼭 잡아."
+          },
+          {
+            "speaker": "B",
+            "en": "I'm ready for the hill.",
+            "ko": "언덕 내려갈 준비됐어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thats-it",
+    "term": "that's it",
+    "aliases": [],
+    "ipa": "/ðæts ˈɪt/",
+    "meaningKo": "바로 그거야, 그게 다야",
+    "explanationKo": "정답을 찾았거나 일이 끝났음을 말할 때 써요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "동작 배우기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Do I bend my knees like this?",
+            "ko": "이렇게 무릎을 굽혀?"
+          },
+          {
+            "speaker": "B",
+            "en": "That's it! Now jump.",
+            "ko": "바로 그거야! 이제 뛰어."
+          }
+        ]
+      },
+      {
+        "titleKo": "준비물 확인",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I packed a pencil and notebook.",
+            "ko": "연필과 공책을 챙겼어."
+          },
+          {
+            "speaker": "B",
+            "en": "That's it. You're ready.",
+            "ko": "그게 다야. 준비됐어."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ugh",
+    "term": "ugh",
+    "aliases": [],
+    "ipa": "/ʌɡ/",
+    "meaningKo": "으, 아휴",
+    "explanationKo": "힘들거나 답답하거나 싫은 느낌을 짧게 나타내는 감탄사예요.",
+    "difficulty": "everyday",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "무거운 상자",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Ugh, this box is heavy.",
+            "ko": "으, 이 상자 무겁다."
+          },
+          {
+            "speaker": "B",
+            "en": "I'll help you lift it.",
+            "ko": "내가 드는 걸 도와줄게."
+          }
+        ]
+      },
+      {
+        "titleKo": "엉킨 끈",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Ugh, my laces are tangled again.",
+            "ko": "아휴, 신발 끈이 또 엉켰어."
+          },
+          {
+            "speaker": "B",
+            "en": "Sit down and we'll fix them.",
+            "ko": "앉아, 같이 풀자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "see",
+    "term": "see",
+    "aliases": [],
+    "ipa": "/siː/",
+    "meaningKo": "보다, 알다",
+    "explanationKo": "눈으로 보거나 상대가 설명을 이해했는지 말할 때 써요.",
+    "difficulty": "starter",
+    "generationMethod": "editorial-bank+deterministic-match",
+    "sourceStatus": "captured-not-audio-verified",
+    "reviewStatus": "unreviewed",
+    "contentVersion": "2026.09.25-3",
+    "dialogues": [
+      {
+        "titleKo": "밖을 살펴보기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "Can you see the moon?",
+            "ko": "달이 보여?"
+          },
+          {
+            "speaker": "B",
+            "en": "Yes, it's above the trees.",
+            "ko": "응, 나무 위에 있어."
+          }
+        ]
+      },
+      {
+        "titleKo": "그림 속 찾기",
+        "provenance": "original-editorial",
+        "lines": [
+          {
+            "speaker": "A",
+            "en": "I see a tiny boat in the picture.",
+            "ko": "그림에서 작은 배가 보여."
+          },
+          {
+            "speaker": "B",
+            "en": "It's beside the bridge.",
+            "ko": "다리 옆에 있네."
+          }
+        ]
+      }
+    ]
+  }
+]

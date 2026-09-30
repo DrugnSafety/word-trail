@@ -1,0 +1,1444 @@
+{
+  "id": "video-28",
+  "number": 28,
+  "title": "Muffin's Time Out | Faceytalk - Series 3 | Bluey",
+  "duration": 124,
+  "declaredDuration": 124,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=bn5gbkWgZW0",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/28_Muffin's Time Out.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/28_Muffin's Time Out.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Muffin's Time Out | Faceytalk - Series 3 | Bluey",
+      "start": 0,
+      "end": 123,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 13,
+      "sentenceText": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 13,
+          "text": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+          "originalText": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "hi girls hi a Trixie muffles make sure"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "you give socks a go drawing the silly"
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "text": "stuff okay but I'm not"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 11,
+              "text": "finished socks get off girls I can't do"
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "text": "this right now I've got somewhere I need"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "right-now",
+          "cueId": "c0001",
+          "quote": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+          "start": 0,
+          "end": 13,
+          "matchStart": 145,
+          "matchEnd": 154
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0001",
+          "quote": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+          "start": 0,
+          "end": 13,
+          "matchStart": 34,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+          "start": 0,
+          "end": 13,
+          "matchStart": 83,
+          "matchEnd": 87
+        },
+        {
+          "expressionId": "finished",
+          "cueId": "c0001",
+          "quote": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+          "start": 0,
+          "end": 13,
+          "matchStart": 100,
+          "matchEnd": 108
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0001",
+          "quote": "hi girls hi a Trixie muffles make sure you give socks a go drawing the silly stuff okay but I'm not finished socks get off girls I can't do this right now I've got somewhere I need",
+          "start": 0,
+          "end": 13,
+          "matchStart": 176,
+          "matchEnd": 180
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 13,
+      "end": 26,
+      "sentenceText": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 13,
+          "end": 26,
+          "text": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+          "originalText": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what whoa okay maybe not off but look I'll",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 14,
+              "text": "to"
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 19,
+              "text": "be I can handle it uh are you sure yeah"
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 21,
+              "text": "I got it covered kids you better share"
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "text": "that thing or I'm switching it off what"
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 26,
+              "text": "whoa okay maybe not off but look I'll"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 23,
+              "end": 25,
+              "text": "Okay, maybe not off, but..."
+            },
+            {
+              "id": "c0015",
+              "start": 25,
+              "end": 26,
+              "text": "Look, I'll handle it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 19,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0002",
+          "quote": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+          "start": 13,
+          "end": 26,
+          "matchStart": 25,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0002",
+          "quote": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+          "start": 13,
+          "end": 26,
+          "matchStart": 33,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "share",
+          "cueId": "c0002",
+          "quote": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+          "start": 13,
+          "end": 26,
+          "matchStart": 76,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+          "start": 13,
+          "end": 26,
+          "matchStart": 117,
+          "matchEnd": 121
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+          "start": 13,
+          "end": 26,
+          "matchStart": 122,
+          "matchEnd": 126
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0002",
+          "quote": "to be I can handle it uh are you sure yeah I got it covered kids you better share that thing or I'm switching it off what Okay, maybe not off, but... Look, I'll handle it.",
+          "start": 13,
+          "end": 26,
+          "matchStart": 150,
+          "matchEnd": 154
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 26,
+      "end": 34,
+      "sentenceText": "handle it no I can do it you go do your thing well I okay if you're Right, I'm setting the timer on my phone.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 26,
+          "end": 34,
+          "text": "handle it no I can do it you go do your thing well I okay if you're Right, I'm setting the timer on my phone.",
+          "originalText": "handle it no I can do it you go do your thing well I okay if you're sure right I'm setting the timer on my",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 26,
+              "end": 28,
+              "text": "handle it no I can do it you go do your"
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "text": "thing well I okay if you're"
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "text": "sure right I'm setting the timer on my"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 31,
+              "end": 34,
+              "text": "Right, I'm setting the timer on my phone."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 26,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "handle it no I can do it you go do your thing well I okay if you're Right, I'm setting the timer on my phone.",
+          "start": 26,
+          "end": 34,
+          "matchStart": 10,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "handle it no I can do it you go do your thing well I okay if you're Right, I'm setting the timer on my phone.",
+          "start": 26,
+          "end": 34,
+          "matchStart": 53,
+          "matchEnd": 57
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 34,
+      "end": 48,
+      "sentenceText": "phone when it goes off it's sock's turn Okay Muffy I'll take that as a yes I'll just draw some clouds ooh nice",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 34,
+          "end": 48,
+          "text": "phone when it goes off it's sock's turn Okay Muffy I'll take that as a yes I'll just draw some clouds ooh nice",
+          "originalText": "phone when it goes off it's sock's turn Okay Muffy I'll take that as a yes I'll just draw some clouds ooh nice",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 36,
+              "text": "phone when it goes off it's sock's turn"
+            },
+            {
+              "id": "c0015",
+              "start": 36,
+              "end": 37,
+              "text": "Okay"
+            },
+            {
+              "id": "c0016",
+              "start": 37,
+              "end": 41,
+              "text": "Muffy I'll take that as a"
+            },
+            {
+              "id": "c0017",
+              "start": 42,
+              "end": 48,
+              "text": "yes I'll just draw some clouds ooh nice"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 36,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 37,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 42,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "turn",
+          "cueId": "c0004",
+          "quote": "phone when it goes off it's sock's turn Okay Muffy I'll take that as a yes I'll just draw some clouds ooh nice",
+          "start": 34,
+          "end": 48,
+          "matchStart": 35,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "phone when it goes off it's sock's turn Okay Muffy I'll take that as a yes I'll just draw some clouds ooh nice",
+          "start": 34,
+          "end": 48,
+          "matchStart": 40,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0004",
+          "quote": "phone when it goes off it's sock's turn Okay Muffy I'll take that as a yes I'll just draw some clouds ooh nice",
+          "start": 34,
+          "end": 48,
+          "matchStart": 71,
+          "matchEnd": 74
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0004",
+          "quote": "phone when it goes off it's sock's turn Okay Muffy I'll take that as a yes I'll just draw some clouds ooh nice",
+          "start": 34,
+          "end": 48,
+          "matchStart": 106,
+          "matchEnd": 110
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 48,
+      "end": 59,
+      "sentenceText": "Okay, Muffy, there's the timer. sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 48,
+          "end": 59,
+          "text": "Okay, Muffy, there's the timer. sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+          "originalText": "clouds okay Muffy there's the timer sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 50,
+              "text": "clouds okay Muffy there's the timer"
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 53,
+              "text": "sock's turn now yay I have to finish my"
+            },
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 57,
+              "text": "cowboy hat a no you don't have to finish"
+            },
+            {
+              "id": "c0021",
+              "start": 57,
+              "end": 59,
+              "text": "a cowboy hat you have to give socks a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 48,
+              "end": 50,
+              "text": "Okay, Muffy, there's the timer."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 53,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 57,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0005",
+          "quote": "Okay, Muffy, there's the timer. sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+          "start": 48,
+          "end": 59,
+          "matchStart": 54,
+          "matchEnd": 61
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "Okay, Muffy, there's the timer. sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+          "start": 48,
+          "end": 59,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "turn",
+          "cueId": "c0005",
+          "quote": "Okay, Muffy, there's the timer. sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+          "start": 48,
+          "end": 59,
+          "matchStart": 39,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "Okay, Muffy, there's the timer. sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+          "start": 48,
+          "end": 59,
+          "matchStart": 85,
+          "matchEnd": 87
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "Okay, Muffy, there's the timer. sock's turn now yay I have to finish my cowboy hat a no you don't have to finish a cowboy hat you have to give socks a",
+          "start": 48,
+          "end": 59,
+          "matchStart": 92,
+          "matchEnd": 97
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 59,
+      "end": 73,
+      "sentenceText": "turn but I want to finish my cowboy hat Muffy muffin healer give your sister a turn now but I want to draw a cowboy hat Just give her a turn, Muffin. No!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 59,
+          "end": 73,
+          "text": "turn but I want to finish my cowboy hat Muffy muffin healer give your sister a turn now but I want to draw a cowboy hat Just give her a turn, Muffin. No!",
+          "originalText": "turn but I want to finish my cowboy hat Muffy muffin healer give your sister a turn now but I want to draw a cowboy hat just give her a turn muffin no muffin",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 59,
+              "end": 64,
+              "text": "turn but I want to finish my cowboy hat"
+            },
+            {
+              "id": "c0023",
+              "start": 64,
+              "end": 67,
+              "text": "Muffy muffin healer give your sister a"
+            },
+            {
+              "id": "c0024",
+              "start": 67,
+              "end": 70,
+              "text": "turn now but I want to draw a cowboy hat"
+            },
+            {
+              "id": "c0025",
+              "start": 70,
+              "end": 73,
+              "text": "just give her a turn muffin no muffin"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 70,
+              "end": 72,
+              "text": "Just give her a turn, Muffin."
+            },
+            {
+              "id": "c0034",
+              "start": 72,
+              "end": 73,
+              "text": "No!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 59,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 64,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 67,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "turn",
+          "cueId": "c0006",
+          "quote": "turn but I want to finish my cowboy hat Muffy muffin healer give your sister a turn now but I want to draw a cowboy hat Just give her a turn, Muffin. No!",
+          "start": 59,
+          "end": 73,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0006",
+          "quote": "turn but I want to finish my cowboy hat Muffy muffin healer give your sister a turn now but I want to draw a cowboy hat Just give her a turn, Muffin. No!",
+          "start": 59,
+          "end": 73,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "sister",
+          "cueId": "c0006",
+          "quote": "turn but I want to finish my cowboy hat Muffy muffin healer give your sister a turn now but I want to draw a cowboy hat Just give her a turn, Muffin. No!",
+          "start": 59,
+          "end": 73,
+          "matchStart": 70,
+          "matchEnd": 76
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "turn but I want to finish my cowboy hat Muffy muffin healer give your sister a turn now but I want to draw a cowboy hat Just give her a turn, Muffin. No!",
+          "start": 59,
+          "end": 73,
+          "matchStart": 150,
+          "matchEnd": 152
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 73,
+      "end": 87,
+      "sentenceText": "cupcake healer cowboy hat if you say cowboy hat one more time you'll be in time out cow booy hat okay that's it you're going to time",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 73,
+          "end": 87,
+          "text": "cupcake healer cowboy hat if you say cowboy hat one more time you'll be in time out cow booy hat okay that's it you're going to time",
+          "originalText": "cupcake healer cowboy hat if you say cowboy hat one more time you'll be in time out cow booy hat okay that's it you're going to time",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 76,
+              "text": "cupcake healer cowboy hat if you say"
+            },
+            {
+              "id": "c0027",
+              "start": 76,
+              "end": 78,
+              "text": "cowboy hat one more time you'll be in"
+            },
+            {
+              "id": "c0028",
+              "start": 78,
+              "end": 81,
+              "text": "time out cow"
+            },
+            {
+              "id": "c0029",
+              "start": 81,
+              "end": 85,
+              "text": "booy hat okay that's it you're going to"
+            },
+            {
+              "id": "c0030",
+              "start": 85,
+              "end": 87,
+              "text": "time"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 76,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 78,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 81,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 85,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0007",
+          "quote": "cupcake healer cowboy hat if you say cowboy hat one more time you'll be in time out cow booy hat okay that's it you're going to time",
+          "start": 73,
+          "end": 87,
+          "matchStart": 102,
+          "matchEnd": 111
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "cupcake healer cowboy hat if you say cowboy hat one more time you'll be in time out cow booy hat okay that's it you're going to time",
+          "start": 73,
+          "end": 87,
+          "matchStart": 97,
+          "matchEnd": 101
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 87,
+      "end": 100,
+      "sentenceText": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 87,
+          "end": 100,
+          "text": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "originalText": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want to I'm sorry girls but muffin was",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 87,
+              "end": 92,
+              "text": "out oh boy bye muin muffin stop"
+            },
+            {
+              "id": "c0032",
+              "start": 92,
+              "end": 94,
+              "text": "wriggling there now you have a good"
+            },
+            {
+              "id": "c0033",
+              "start": 94,
+              "end": 96,
+              "text": "think about it young lady no I don't"
+            },
+            {
+              "id": "c0034",
+              "start": 96,
+              "end": 97,
+              "text": "want"
+            },
+            {
+              "id": "c0035",
+              "start": 97,
+              "end": 100,
+              "text": "to I'm sorry girls but muffin was"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0046",
+              "start": 97,
+              "end": 100,
+              "text": "I'm sorry, girls, but Muffin was hogging,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 87,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 94,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 96,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 97,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "stop",
+          "cueId": "c0008",
+          "quote": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "start": 87,
+          "end": 100,
+          "matchStart": 27,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0008",
+          "quote": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "start": 87,
+          "end": 100,
+          "matchStart": 63,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0008",
+          "quote": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "start": 87,
+          "end": 100,
+          "matchStart": 68,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "start": 87,
+          "end": 100,
+          "matchStart": 94,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0008",
+          "quote": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "start": 87,
+          "end": 100,
+          "matchStart": 105,
+          "matchEnd": 109
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0008",
+          "quote": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "start": 87,
+          "end": 100,
+          "matchStart": 114,
+          "matchEnd": 119
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0008",
+          "quote": "out oh boy bye muin muffin stop wriggling there now you have a good think about it young lady no I don't want I'm sorry, girls, but Muffin was hogging,",
+          "start": 87,
+          "end": 100,
+          "matchStart": 99,
+          "matchEnd": 104
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 100,
+      "end": 115,
+      "sentenceText": "hogging so she can't do your Facey call thing anymore okay she needs to learn that other people have what the muffin she's got my phone muffin you get off my phone this instant he's coming",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 100,
+          "end": 115,
+          "text": "hogging so she can't do your Facey call thing anymore okay she needs to learn that other people have what the muffin she's got my phone muffin you get off my phone this instant he's coming",
+          "originalText": "hogging so she can't do your Facey call thing anymore okay she needs to learn that other people have what the muffin she's got my phone muffin you get off my phone this instant he's coming",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 100,
+              "end": 102,
+              "text": "hogging so she can't do your Facey call"
+            },
+            {
+              "id": "c0037",
+              "start": 102,
+              "end": 106,
+              "text": "thing anymore okay she needs to learn"
+            },
+            {
+              "id": "c0038",
+              "start": 106,
+              "end": 109,
+              "text": "that other people have what the muffin"
+            },
+            {
+              "id": "c0039",
+              "start": 109,
+              "end": 111,
+              "text": "she's got my phone muffin you get off my"
+            },
+            {
+              "id": "c0040",
+              "start": 111,
+              "end": 115,
+              "text": "phone this instant he's coming"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 100,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 102,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 106,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 109,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 111,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "hogging so she can't do your Facey call thing anymore okay she needs to learn that other people have what the muffin she's got my phone muffin you get off my phone this instant he's coming",
+          "start": 100,
+          "end": 115,
+          "matchStart": 54,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "hogging so she can't do your Facey call thing anymore okay she needs to learn that other people have what the muffin she's got my phone muffin you get off my phone this instant he's coming",
+          "start": 100,
+          "end": 115,
+          "matchStart": 101,
+          "matchEnd": 105
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 115,
+      "end": 123,
+      "sentenceText": "muffin muffin running away will only make it worth a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 115,
+          "end": 123,
+          "text": "muffin muffin running away will only make it worth a",
+          "originalText": "muffin muffin running away will only make it worth a",
+          "originalCueRefs": [
+            {
+              "id": "c0041",
+              "start": 115,
+              "end": 118,
+              "text": "muffin muffin running away will only"
+            },
+            {
+              "id": "c0042",
+              "start": 118,
+              "end": 123,
+              "text": "make it worth a"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0041",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 118,
+              "end": 123,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

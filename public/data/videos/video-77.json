@@ -1,0 +1,206 @@
+{
+  "id": "video-77",
+  "number": 77,
+  "title": "Edda Whaty What? | Bluey",
+  "duration": 16,
+  "declaredDuration": 15,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=GWX_b9GKRd8",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/77_Edda Whaty What?.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/77_Edda Whaty What?.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Edda Whaty What? | Bluey",
+      "start": 0,
+      "end": 16,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 8,
+      "sentenceText": "This isn't pavlova! Yeah, this isn't pavlova! Je suis le chien! These are edamame beans!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 8,
+          "text": "This isn't pavlova! Yeah, this isn't pavlova! Je suis le chien! These are edamame beans!",
+          "originalText": "is a pavlova yeah this isn't Pavlova yes we love shien these are Ed Madame beans",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "is a pavlova yeah this isn't Pavlova yes"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 8,
+              "text": "we love shien these are Ed Madame beans"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "This isn't pavlova!"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "Yeah, this isn't pavlova!"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 6,
+              "text": "Je suis le chien!"
+            },
+            {
+              "id": "c0004",
+              "start": 6,
+              "end": 8,
+              "text": "These are edamame beans!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 9,
+      "end": 16,
+      "sentenceText": "oh Ella discotheque I was pointing there see Pavlova",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 9,
+          "end": 16,
+          "text": "oh Ella discotheque I was pointing there see Pavlova",
+          "originalText": "oh Ella discotheque I was pointing there see Pavlova",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 9,
+              "end": 13,
+              "text": "oh Ella discotheque I was pointing there"
+            },
+            {
+              "id": "c0004",
+              "start": 13,
+              "end": 16,
+              "text": "see Pavlova"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 9,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 13,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "oh Ella discotheque I was pointing there see Pavlova",
+          "start": 9,
+          "end": 16,
+          "matchStart": 41,
+          "matchEnd": 44
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

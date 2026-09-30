@@ -1,0 +1,76 @@
+# 50. Big Toddlers | Promises - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=zlEF86WNgXY
+- Length: 02:01
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 01:59
+
+---
+
+- `[00:00 - 00:01]` Are you still cranky with me?
+- `[00:01 - 00:03]` You said we
+- `[00:03 - 00:04]` could go to the library.
+- `[00:04 - 00:05]` It was shut!
+- `[00:05 - 00:06]` You
+- `[00:06 - 00:08]` promised. And you shouldn't break your
+- `[00:08 - 00:09]` promise.
+- `[00:09 - 00:10]` Yeah, I know, mate, but...
+- `[00:10 - 00:11]` Why is this
+- `[00:11 - 00:13]` panda puzzle not tidied up?!
+- `[00:13 - 00:14]` Uh-oh!
+- `[00:14 - 00:16]` Quick! Hide!
+- `[00:16 - 00:18]` Where is she?
+- `[00:18 - 00:19]` Uh... Where's who?
+- `[00:19 - 00:20]` The kid who
+- `[00:20 - 00:22]` broke her promise to clean up the panda
+- `[00:22 - 00:24]` puzzle.
+- `[00:24 - 00:26]` Ohh! How interesting!
+- `[00:26 - 00:28]` Did Bluey break her promise?
+- `[00:28 - 00:29]` Well, you
+- `[00:29 - 00:31]` broke your promise, so I can break mine.
+- `[00:31 - 00:32]` What?
+- `[00:32 - 00:34]` It's true. Dad broke his promise.
+- `[00:34 - 00:35]` The
+- `[00:35 - 00:37]` library was shut!
+- `[00:37 - 00:40]` Seems like we've got a promising problem.
+- `[00:40 - 00:42]` Yeah! Okay, from now on, no one makes any
+- `[00:42 - 00:43]` more promises.
+- `[00:43 - 00:45]` But you promised you'd
+- `[00:45 - 00:46]` always love us!
+- `[00:46 - 00:48]` Whoa. I didn't think this
+- `[00:48 - 00:49]` through.
+- `[00:49 - 00:50]` Listen, you can still make
+- `[00:50 - 00:52]` promises. You just have to keep them.
+- `[00:52 - 00:53]` Ah, okay.
+- `[00:53 - 00:56]` Yeah, that makes more sense.
+- `[00:56 - 00:59]` Bluey, from now on, we keep our promises.
+- `[00:59 - 01:00]` No matter what!
+- `[01:00 - 01:02]` No matter what.
+- `[01:02 - 01:05]` Well, goodnight, everyone!
+- `[01:05 - 01:06]` Panda puzzle!
+- `[01:06 - 01:07]` Argh!
+- `[01:07 - 01:09]` Come on,
+- `[01:09 - 01:11]` kids! Hurry up!
+- `[01:11 - 01:12]` Hey, this morning I said to
+- `[01:12 - 01:15]` Bingo to hurry up, and she said,
+- `[01:15 - 01:17]` "I am hurry upping!"
+- `[01:17 - 01:19]` Dad, will you play Toddlers with us at
+- `[01:19 - 01:20]` the library?
+- `[01:20 - 01:21]` I'll play anything with you
+- `[01:21 - 01:23]` at the library if you hurry up.
+- `[01:23 - 01:24]` Do you promise?
+- `[01:24 - 01:26]` I promise. Now come on!
+- `[01:26 - 01:28]` Bingo, Dad promised to play Toddlers at the
+- `[01:28 - 01:30]` library!
+- `[01:30 - 01:31]` Yes!
+- `[01:31 - 01:34]` Hey, hang on, what's Toddlers?
+- `[01:34 - 01:35]` THIS is Toddlers?!
+- `[01:35 - 01:37]` Yeah, you have to walk
+- `[01:37 - 01:38]` everywhere on your knees.
+- `[01:38 - 01:41]` No way!
+- `[01:45 - 01:48]` Excuse me.
+- `[01:48 - 01:50]` Down here.
+- `[01:50 - 01:52]` Hello.
+- `[01:52 - 01:54]` Me want books for big boys.
+- `[01:54 - 01:57]` Next to the magazines.
+- `[01:57 - 01:59]` Thanks!

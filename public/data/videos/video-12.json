@@ -1,0 +1,1252 @@
+{
+  "id": "video-12",
+  "number": 12,
+  "title": "Lucky's Dad's Rules | Pass the Parcel - Series 3 | Bluey",
+  "duration": 125,
+  "declaredDuration": 125,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=1LC6Lbbp71o",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/12_Lucky's Dad's Rules.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/12_Lucky's Dad's Rules.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Lucky's Dad's Rules | Pass the Parcel - Series 3 | Bluey",
+      "start": 4,
+      "end": 115,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 4,
+      "end": 19,
+      "sentenceText": "Okay, kids and parents, Jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 4,
+          "end": 19,
+          "text": "Okay, kids and parents, Jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+          "originalText": "okay kids and parents jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 4,
+              "end": 7,
+              "text": "okay kids and parents jasper has asked"
+            },
+            {
+              "id": "c0002",
+              "start": 7,
+              "end": 10,
+              "text": "that we play past the parcel by lucky's"
+            },
+            {
+              "id": "c0003",
+              "start": 10,
+              "end": 12,
+              "text": "dad's rules"
+            },
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 16,
+              "text": "they're not my rules oh what so let's"
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 19,
+              "text": "just do our best okay okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 4,
+              "end": 7,
+              "text": "Okay, kids and parents, Jasper has asked"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 7,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 10,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "Okay, kids and parents, Jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+          "start": 4,
+          "end": 19,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0001",
+          "quote": "Okay, kids and parents, Jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+          "start": 4,
+          "end": 19,
+          "matchStart": 49,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "Okay, kids and parents, Jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+          "start": 4,
+          "end": 19,
+          "matchStart": 81,
+          "matchEnd": 84
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "Okay, kids and parents, Jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+          "start": 4,
+          "end": 19,
+          "matchStart": 117,
+          "matchEnd": 121
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0001",
+          "quote": "Okay, kids and parents, Jasper has asked that we play past the parcel by lucky's dad's rules they're not my rules oh what so let's just do our best okay okay",
+          "start": 4,
+          "end": 19,
+          "matchStart": 125,
+          "matchEnd": 130
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 19,
+      "end": 21,
+      "sentenceText": "Here we go.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 19,
+          "end": 21,
+          "text": "Here we go.",
+          "originalText": "here we go",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 19,
+              "end": 21,
+              "text": "here we go"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 19,
+              "end": 21,
+              "text": "Here we go."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 19,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 25,
+      "end": 31,
+      "sentenceText": "Oh, it's me! Oh, sorry, Bingo.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 25,
+          "end": 31,
+          "text": "Oh, it's me! Oh, sorry, Bingo.",
+          "originalText": "oh it's me oh sorry bingo",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 25,
+              "end": 27,
+              "text": "oh it's me"
+            },
+            {
+              "id": "c0008",
+              "start": 27,
+              "end": 31,
+              "text": "oh sorry bingo"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0007",
+              "start": 25,
+              "end": 27,
+              "text": "Oh, it's me!"
+            },
+            {
+              "id": "c0008",
+              "start": 27,
+              "end": 31,
+              "text": "Oh, sorry, Bingo."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 25,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 27,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0003",
+          "quote": "Oh, it's me! Oh, sorry, Bingo.",
+          "start": 25,
+          "end": 31,
+          "matchStart": 17,
+          "matchEnd": 22
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 31,
+      "end": 39,
+      "sentenceText": "Keep pausing.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 31,
+          "end": 39,
+          "text": "Keep pausing.",
+          "originalText": "keep pausing",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 31,
+              "end": 39,
+              "text": "keep pausing"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 31,
+              "end": 39,
+              "text": "Keep pausing."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 31,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 39,
+      "end": 48,
+      "sentenceText": "Sorry. oh i was in here Whoa!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 39,
+          "end": 48,
+          "text": "Sorry. oh i was in here Whoa!",
+          "originalText": "sorry oh i was in here whoa",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 39,
+              "end": 42,
+              "text": "sorry"
+            },
+            {
+              "id": "c0011",
+              "start": 44,
+              "end": 45,
+              "text": "oh"
+            },
+            {
+              "id": "c0012",
+              "start": 45,
+              "end": 47,
+              "text": "i was in here"
+            },
+            {
+              "id": "c0013",
+              "start": 47,
+              "end": 48,
+              "text": "whoa"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 39,
+              "end": 42,
+              "text": "Sorry."
+            },
+            {
+              "id": "c0012",
+              "start": 47,
+              "end": 48,
+              "text": "Whoa!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 39,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 44,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 45,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 47,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0005",
+          "quote": "Sorry. oh i was in here Whoa!",
+          "start": 39,
+          "end": 48,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 48,
+      "end": 55,
+      "sentenceText": "I was so close! Maybe next time.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 48,
+          "end": 55,
+          "text": "I was so close! Maybe next time.",
+          "originalText": "i was so close maybe next time",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 52,
+              "text": "i was so close"
+            },
+            {
+              "id": "c0015",
+              "start": 52,
+              "end": 55,
+              "text": "maybe next time"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 48,
+              "end": 52,
+              "text": "I was so close!"
+            },
+            {
+              "id": "c0014",
+              "start": 52,
+              "end": 55,
+              "text": "Maybe next time."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 52,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 55,
+      "end": 69,
+      "sentenceText": "Ready for pass the parcel? Did they say hooray? Please let me win this time.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 55,
+          "end": 69,
+          "text": "Ready for pass the parcel? Did they say hooray? Please let me win this time.",
+          "originalText": "ready for past the parcels did they say hooray please let me win this time",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 55,
+              "end": 59,
+              "text": "ready for past the parcels"
+            },
+            {
+              "id": "c0017",
+              "start": 61,
+              "end": 64,
+              "text": "did they say hooray"
+            },
+            {
+              "id": "c0018",
+              "start": 65,
+              "end": 69,
+              "text": "please let me win this time"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 55,
+              "end": 59,
+              "text": "Ready for pass the parcel?"
+            },
+            {
+              "id": "c0016",
+              "start": 61,
+              "end": 64,
+              "text": "Did they say hooray?"
+            },
+            {
+              "id": "c0017",
+              "start": 65,
+              "end": 69,
+              "text": "Please let me win this time."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 55,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 61,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 65,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0007",
+          "quote": "Ready for pass the parcel? Did they say hooray? Please let me win this time.",
+          "start": 55,
+          "end": 69,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0007",
+          "quote": "Ready for pass the parcel? Did they say hooray? Please let me win this time.",
+          "start": 55,
+          "end": 69,
+          "matchStart": 48,
+          "matchEnd": 54
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 84,
+      "end": 91,
+      "sentenceText": "it's It's me! Ah, Bingo, look, a bubble shooter! Wow!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 84,
+          "end": 91,
+          "text": "it's It's me! Ah, Bingo, look, a bubble shooter! Wow!",
+          "originalText": "it's me ah bingo look a bubble shooter wow",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 84,
+              "end": 85,
+              "text": "it's"
+            },
+            {
+              "id": "c0020",
+              "start": 84,
+              "end": 91,
+              "text": "me ah bingo look a bubble shooter wow"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0018",
+              "start": 84,
+              "end": 91,
+              "text": "It's me! Ah, Bingo, look, a bubble shooter! Wow!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 84,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 84,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0008",
+          "quote": "it's It's me! Ah, Bingo, look, a bubble shooter! Wow!",
+          "start": 84,
+          "end": 91,
+          "matchStart": 25,
+          "matchEnd": 29
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 92,
+      "end": 98,
+      "sentenceText": "I love Lucky Stars! Whoa! Yeah! What have you started?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 92,
+          "end": 98,
+          "text": "I love Lucky Stars! Whoa! Yeah! What have you started?",
+          "originalText": "i love lucky stars whoa yeah what have you started",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 92,
+              "end": 96,
+              "text": "i love lucky stars whoa yeah"
+            },
+            {
+              "id": "c0022",
+              "start": 96,
+              "end": 98,
+              "text": "what have you started"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 92,
+              "end": 96,
+              "text": "I love Lucky Stars! Whoa! Yeah!"
+            },
+            {
+              "id": "c0020",
+              "start": 96,
+              "end": 98,
+              "text": "What have you started?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 92,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 96,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "love",
+          "cueId": "c0009",
+          "quote": "I love Lucky Stars! Whoa! Yeah! What have you started?",
+          "start": 92,
+          "end": 98,
+          "matchStart": 2,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "I love Lucky Stars! Whoa! Yeah! What have you started?",
+          "start": 92,
+          "end": 98,
+          "matchStart": 32,
+          "matchEnd": 36
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 98,
+      "end": 103,
+      "sentenceText": "I'm sorry you didn't win pass the parcel, Bingo. It's okay, I don't mind, really. Yeah.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 98,
+          "end": 103,
+          "text": "I'm sorry you didn't win pass the parcel, Bingo. It's okay, I don't mind, really. Yeah.",
+          "originalText": "i'm sorry you didn't win past the parcel bingo it's okay i don't mind really yeah",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 98,
+              "end": 100,
+              "text": "i'm sorry you didn't win past the parcel"
+            },
+            {
+              "id": "c0024",
+              "start": 100,
+              "end": 103,
+              "text": "bingo it's okay i don't mind really yeah"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 98,
+              "end": 100,
+              "text": "I'm sorry you didn't win pass the parcel, Bingo."
+            },
+            {
+              "id": "c0022",
+              "start": 100,
+              "end": 103,
+              "text": "It's okay, I don't mind, really. Yeah."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 98,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 100,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0010",
+          "quote": "I'm sorry you didn't win pass the parcel, Bingo. It's okay, I don't mind, really. Yeah.",
+          "start": 98,
+          "end": 103,
+          "matchStart": 4,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0010",
+          "quote": "I'm sorry you didn't win pass the parcel, Bingo. It's okay, I don't mind, really. Yeah.",
+          "start": 98,
+          "end": 103,
+          "matchStart": 54,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0010",
+          "quote": "I'm sorry you didn't win pass the parcel, Bingo. It's okay, I don't mind, really. Yeah.",
+          "start": 98,
+          "end": 103,
+          "matchStart": 62,
+          "matchEnd": 67
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 103,
+      "end": 109,
+      "sentenceText": "When Leela is happy, I'm happy. Oh, Bingo. Maybe next time.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 103,
+          "end": 109,
+          "text": "When Leela is happy, I'm happy. Oh, Bingo. Maybe next time.",
+          "originalText": "when leela is happy i'm happy oh bingo maybe next time",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 103,
+              "end": 107,
+              "text": "when leela is happy i'm happy oh bingo"
+            },
+            {
+              "id": "c0026",
+              "start": 107,
+              "end": 109,
+              "text": "maybe next time"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 103,
+              "end": 107,
+              "text": "When Leela is happy, I'm happy. Oh, Bingo."
+            },
+            {
+              "id": "c0024",
+              "start": 107,
+              "end": 109,
+              "text": "Maybe next time."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 103,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 107,
+              "end": 109,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "happy",
+          "cueId": "c0011",
+          "quote": "When Leela is happy, I'm happy. Oh, Bingo. Maybe next time.",
+          "start": 103,
+          "end": 109,
+          "matchStart": 14,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 109,
+      "end": 115,
+      "sentenceText": "You know what, Bingo? i think you're getting quite good at losing",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 109,
+          "end": 115,
+          "text": "You know what, Bingo? i think you're getting quite good at losing",
+          "originalText": "you know what bingo i think you're getting quite good at losing",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 109,
+              "end": 110,
+              "text": "you know what bingo"
+            },
+            {
+              "id": "c0028",
+              "start": 110,
+              "end": 112,
+              "text": "i think you're getting quite good at"
+            },
+            {
+              "id": "c0029",
+              "start": 112,
+              "end": 115,
+              "text": "losing"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 109,
+              "end": 110,
+              "text": "You know what, Bingo?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 109,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0012",
+          "quote": "You know what, Bingo? i think you're getting quite good at losing",
+          "start": 109,
+          "end": 115,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0012",
+          "quote": "You know what, Bingo? i think you're getting quite good at losing",
+          "start": 109,
+          "end": 115,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0012",
+          "quote": "You know what, Bingo? i think you're getting quite good at losing",
+          "start": 109,
+          "end": 115,
+          "matchStart": 24,
+          "matchEnd": 29
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0012",
+          "quote": "You know what, Bingo? i think you're getting quite good at losing",
+          "start": 109,
+          "end": 115,
+          "matchStart": 51,
+          "matchEnd": 55
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

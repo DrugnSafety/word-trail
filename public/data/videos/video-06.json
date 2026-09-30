@@ -1,0 +1,4448 @@
+{
+  "id": "video-06",
+  "number": 6,
+  "title": "Unicorse",
+  "duration": 421,
+  "declaredDuration": 420,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=gvaeBYeN70g",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/06_Unicorse.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/06_Unicorse.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Unicorse",
+      "start": 16,
+      "end": 421,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016",
+        "c0017",
+        "c0018",
+        "c0019",
+        "c0020",
+        "c0021",
+        "c0022",
+        "c0023",
+        "c0024",
+        "c0025",
+        "c0026",
+        "c0027",
+        "c0028",
+        "c0029",
+        "c0030",
+        "c0031",
+        "c0032",
+        "c0033",
+        "c0034"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 16,
+      "end": 19,
+      "sentenceText": "dad",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 16,
+          "end": 19,
+          "text": "dad",
+          "originalText": "dad",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 16,
+              "end": 19,
+              "text": "dad"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 16,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0001",
+          "quote": "dad",
+          "start": 16,
+          "end": 19,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 26,
+      "end": 41,
+      "sentenceText": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 26,
+          "end": 41,
+          "text": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "originalText": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad kid but why do we have to sleep why",
+          "originalCueRefs": [
+            {
+              "id": "c0002",
+              "start": 26,
+              "end": 29,
+              "text": "Bing okay she's asleep what do you want"
+            },
+            {
+              "id": "c0003",
+              "start": 29,
+              "end": 31,
+              "text": "to watch tonight do you watch TV after"
+            },
+            {
+              "id": "c0004",
+              "start": 31,
+              "end": 35,
+              "text": "we go to sleep BL not again come on back"
+            },
+            {
+              "id": "c0005",
+              "start": 35,
+              "end": 38,
+              "text": "to bed I don't want to go to bed too bad"
+            },
+            {
+              "id": "c0006",
+              "start": 38,
+              "end": 41,
+              "text": "kid but why do we have to sleep why"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 38,
+              "end": 41,
+              "text": "But why do we have to sleep?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0002",
+              "start": 26,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 29,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 31,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 35,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 38,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 107,
+          "matchEnd": 114
+        },
+        {
+          "expressionId": "have-to",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 175,
+          "matchEnd": 182
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 5,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 23,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 35,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 101,
+          "matchEnd": 106
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 165,
+          "matchEnd": 168
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0002",
+          "quote": "Bing okay she's asleep what do you want to watch tonight do you watch TV after we go to sleep BL not again come on back to bed I don't want to go to bed too bad But why do we have to sleep?",
+          "start": 26,
+          "end": 41,
+          "matchStart": 129,
+          "matchEnd": 134
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 41,
+      "end": 54,
+      "sentenceText": "Why can't we just stay awake all night? 'Cause that's the way the world is. going to make it so that's not how the world is that might be tricky people like to sleep well I'll take everyone's bed to the dump yeah they'll probably",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 41,
+          "end": 54,
+          "text": "Why can't we just stay awake all night? 'Cause that's the way the world is. going to make it so that's not how the world is that might be tricky people like to sleep well I'll take everyone's bed to the dump yeah they'll probably",
+          "originalText": "can't we just stay awake all night cuz that's the way the world is well I'm going to make it so that's not how the world is that might be tricky people like to sleep well I'll take everyone's bed to the dump yeah they'll probably",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 41,
+              "end": 43,
+              "text": "can't we just stay awake all night cuz"
+            },
+            {
+              "id": "c0008",
+              "start": 43,
+              "end": 45,
+              "text": "that's the way the world is well I'm"
+            },
+            {
+              "id": "c0009",
+              "start": 45,
+              "end": 47,
+              "text": "going to make it so that's not how the"
+            },
+            {
+              "id": "c0010",
+              "start": 47,
+              "end": 50,
+              "text": "world is that might be tricky people"
+            },
+            {
+              "id": "c0011",
+              "start": 50,
+              "end": 52,
+              "text": "like to sleep well I'll take everyone's"
+            },
+            {
+              "id": "c0012",
+              "start": 52,
+              "end": 54,
+              "text": "bed to the dump yeah they'll probably"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 41,
+              "end": 43,
+              "text": "Why can't we just stay awake all night?"
+            },
+            {
+              "id": "c0011",
+              "start": 43,
+              "end": 45,
+              "text": "'Cause that's the way the world is."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 41,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 43,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 45,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 47,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 50,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 52,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0003",
+          "quote": "Why can't we just stay awake all night? 'Cause that's the way the world is. going to make it so that's not how the world is that might be tricky people like to sleep well I'll take everyone's bed to the dump yeah they'll probably",
+          "start": 41,
+          "end": 54,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0003",
+          "quote": "Why can't we just stay awake all night? 'Cause that's the way the world is. going to make it so that's not how the world is that might be tricky people like to sleep well I'll take everyone's bed to the dump yeah they'll probably",
+          "start": 41,
+          "end": 54,
+          "matchStart": 107,
+          "matchEnd": 110
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0003",
+          "quote": "Why can't we just stay awake all night? 'Cause that's the way the world is. going to make it so that's not how the world is that might be tricky people like to sleep well I'll take everyone's bed to the dump yeah they'll probably",
+          "start": 41,
+          "end": 54,
+          "matchStart": 152,
+          "matchEnd": 156
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 54,
+      "end": 64,
+      "sentenceText": "just sleep on the couch well I'll take the couches to the dump too oh sounds like a big jum you'll need a full You'll need a full night's sleep for that. Yeah, I will. 'Night.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 54,
+          "end": 64,
+          "text": "just sleep on the couch well I'll take the couches to the dump too oh sounds like a big jum you'll need a full You'll need a full night's sleep for that. Yeah, I will. 'Night.",
+          "originalText": "just sleep on the couch well I'll take the couches to the dump too oh sounds like a big jum you'll need a full night's sleep for that yeah I will night",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 54,
+              "end": 56,
+              "text": "just sleep on the couch well I'll take"
+            },
+            {
+              "id": "c0014",
+              "start": 56,
+              "end": 59,
+              "text": "the couches to the dump too oh sounds"
+            },
+            {
+              "id": "c0015",
+              "start": 59,
+              "end": 60,
+              "text": "like a big jum you'll need a full"
+            },
+            {
+              "id": "c0016",
+              "start": 60,
+              "end": 64,
+              "text": "night's sleep for that yeah I will night"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 60,
+              "end": 62,
+              "text": "You'll need a full night's sleep for that."
+            },
+            {
+              "id": "c0021",
+              "start": 62,
+              "end": 64,
+              "text": "Yeah, I will. 'Night."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 56,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 59,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 60,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0004",
+          "quote": "just sleep on the couch well I'll take the couches to the dump too oh sounds like a big jum you'll need a full You'll need a full night's sleep for that. Yeah, I will. 'Night.",
+          "start": 54,
+          "end": 64,
+          "matchStart": 77,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0004",
+          "quote": "just sleep on the couch well I'll take the couches to the dump too oh sounds like a big jum you'll need a full You'll need a full night's sleep for that. Yeah, I will. 'Night.",
+          "start": 54,
+          "end": 64,
+          "matchStart": 84,
+          "matchEnd": 87
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0004",
+          "quote": "just sleep on the couch well I'll take the couches to the dump too oh sounds like a big jum you'll need a full You'll need a full night's sleep for that. Yeah, I will. 'Night.",
+          "start": 54,
+          "end": 64,
+          "matchStart": 99,
+          "matchEnd": 103
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 64,
+      "end": 77,
+      "sentenceText": "Hey, wait, no! Come on, I'll read you a story. story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 64,
+          "end": 77,
+          "text": "Hey, wait, no! Come on, I'll read you a story. story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+          "originalText": "hey wait no come on I'll read you a story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 64,
+              "end": 67,
+              "text": "hey wait no come on I'll read you a"
+            },
+            {
+              "id": "c0018",
+              "start": 67,
+              "end": 71,
+              "text": "story you know she can't help it I know"
+            },
+            {
+              "id": "c0019",
+              "start": 71,
+              "end": 73,
+              "text": "can you help me oh yeah I've got an idea"
+            },
+            {
+              "id": "c0020",
+              "start": 73,
+              "end": 77,
+              "text": "wait is it a bad idea Mom are you grumpy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 64,
+              "end": 65,
+              "text": "Hey, wait, no!"
+            },
+            {
+              "id": "c0023",
+              "start": 65,
+              "end": 67,
+              "text": "Come on, I'll read you a story."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 64,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 67,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 71,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 73,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0005",
+          "quote": "Hey, wait, no! Come on, I'll read you a story. story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+          "start": 64,
+          "end": 77,
+          "matchStart": 15,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0005",
+          "quote": "Hey, wait, no! Come on, I'll read you a story. story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+          "start": 64,
+          "end": 77,
+          "matchStart": 5,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "Hey, wait, no! Come on, I'll read you a story. story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+          "start": 64,
+          "end": 77,
+          "matchStart": 11,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0005",
+          "quote": "Hey, wait, no! Come on, I'll read you a story. story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+          "start": 64,
+          "end": 77,
+          "matchStart": 57,
+          "matchEnd": 61
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0005",
+          "quote": "Hey, wait, no! Come on, I'll read you a story. story you know she can't help it I know can you help me oh yeah I've got an idea wait is it a bad idea Mom are you grumpy",
+          "start": 64,
+          "end": 77,
+          "matchStart": 72,
+          "matchEnd": 76
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 77,
+      "end": 90,
+      "sentenceText": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 77,
+          "end": 90,
+          "text": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "originalText": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 77,
+              "end": 81,
+              "text": "with me no honey I'm okay come on once"
+            },
+            {
+              "id": "c0022",
+              "start": 81,
+              "end": 84,
+              "text": "upon a time there was a village are you"
+            },
+            {
+              "id": "c0023",
+              "start": 84,
+              "end": 86,
+              "text": "sure you're not grumpy no I just want"
+            },
+            {
+              "id": "c0024",
+              "start": 86,
+              "end": 90,
+              "text": "you to go to sleep and in the village he"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 77,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 81,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 84,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 86,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0006",
+          "quote": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "start": 77,
+          "end": 90,
+          "matchStart": 71,
+          "matchEnd": 83
+        },
+        {
+          "expressionId": "come-on",
+          "cueId": "c0006",
+          "quote": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "start": 77,
+          "end": 90,
+          "matchStart": 26,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "start": 77,
+          "end": 90,
+          "matchStart": 8,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0006",
+          "quote": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "start": 77,
+          "end": 90,
+          "matchStart": 21,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0006",
+          "quote": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "start": 77,
+          "end": 90,
+          "matchStart": 79,
+          "matchEnd": 83
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0006",
+          "quote": "with me no honey I'm okay come on once upon a time there was a village are you sure you're not grumpy no I just want you to go to sleep and in the village he",
+          "start": 77,
+          "end": 90,
+          "matchStart": 112,
+          "matchEnd": 116
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 90,
+      "end": 100,
+      "sentenceText": "unicor oh no not unicor this episode of Louie unfortunately is called unicor B Watch the horn! What are we reading?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 90,
+          "end": 100,
+          "text": "unicor oh no not unicor this episode of Louie unfortunately is called unicor B Watch the horn! What are we reading?",
+          "originalText": "unicor oh no not unicor this episode of Louie unfortunately is called unicor B watch the horn what are we reading well",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 90,
+              "end": 94,
+              "text": "unicor oh no not unicor this episode of"
+            },
+            {
+              "id": "c0026",
+              "start": 94,
+              "end": 98,
+              "text": "Louie unfortunately is called unicor B"
+            },
+            {
+              "id": "c0027",
+              "start": 98,
+              "end": 100,
+              "text": "watch the horn what are we reading well"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0039",
+              "start": 98,
+              "end": 100,
+              "text": "Watch the horn! What are we reading?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 90,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 94,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 98,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "unicor oh no not unicor this episode of Louie unfortunately is called unicor B Watch the horn! What are we reading?",
+          "start": 90,
+          "end": 100,
+          "matchStart": 10,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "unicor oh no not unicor this episode of Louie unfortunately is called unicor B Watch the horn! What are we reading?",
+          "start": 90,
+          "end": 100,
+          "matchStart": 95,
+          "matchEnd": 99
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 100,
+      "end": 115,
+      "sentenceText": "Well, it's a story... story here read this it's got a unicorn in it I'm not reading that fine I'll read it on up on uh Tim I wish I could read unic course Lou is finding it a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 100,
+          "end": 115,
+          "text": "Well, it's a story... story here read this it's got a unicorn in it I'm not reading that fine I'll read it on up on uh Tim I wish I could read unic course Lou is finding it a",
+          "originalText": "it's a story here read this it's got a unicorn in it I'm not reading that fine I'll read it on up on uh Tim I wish I could read unic course Lou is finding it a",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 100,
+              "end": 101,
+              "text": "it's a"
+            },
+            {
+              "id": "c0029",
+              "start": 101,
+              "end": 104,
+              "text": "story here read this it's got a unicorn"
+            },
+            {
+              "id": "c0030",
+              "start": 104,
+              "end": 107,
+              "text": "in it I'm not reading that fine I'll"
+            },
+            {
+              "id": "c0031",
+              "start": 107,
+              "end": 112,
+              "text": "read it on up on uh Tim I wish I could"
+            },
+            {
+              "id": "c0032",
+              "start": 112,
+              "end": 115,
+              "text": "read unic course Lou is finding it a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0040",
+              "start": 100,
+              "end": 101,
+              "text": "Well, it's a story..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 100,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 101,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 104,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 107,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 115,
+      "end": 129,
+      "sentenceText": "little hard to get to sleep so we're actually trying to calm things down a bit well it's got to be we Bingo's asleep I don't care what do so how about you and your little mate",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 115,
+          "end": 129,
+          "text": "little hard to get to sleep so we're actually trying to calm things down a bit well it's got to be we Bingo's asleep I don't care what do so how about you and your little mate",
+          "originalText": "little hard to get to sleep so we're actually trying to calm things down a bit well it's got to be we Bingo's asleep I don't care what do so how about you and your little mate",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 115,
+              "end": 116,
+              "text": "little hard to get to sleep so we're"
+            },
+            {
+              "id": "c0034",
+              "start": 116,
+              "end": 118,
+              "text": "actually trying to calm things down a"
+            },
+            {
+              "id": "c0035",
+              "start": 118,
+              "end": 121,
+              "text": "bit well it's got to be"
+            },
+            {
+              "id": "c0036",
+              "start": 122,
+              "end": 127,
+              "text": "we Bingo's asleep I don't care what do"
+            },
+            {
+              "id": "c0037",
+              "start": 127,
+              "end": 129,
+              "text": "so how about you and your little mate"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 115,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 116,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 118,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            },
+            {
+              "id": "c0036",
+              "start": 122,
+              "end": 127,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 127,
+              "end": 129,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "little",
+          "cueId": "c0009",
+          "quote": "little hard to get to sleep so we're actually trying to calm things down a bit well it's got to be we Bingo's asleep I don't care what do so how about you and your little mate",
+          "start": 115,
+          "end": 129,
+          "matchStart": 0,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "little hard to get to sleep so we're actually trying to calm things down a bit well it's got to be we Bingo's asleep I don't care what do so how about you and your little mate",
+          "start": 115,
+          "end": 129,
+          "matchStart": 130,
+          "matchEnd": 134
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0009",
+          "quote": "little hard to get to sleep so we're actually trying to calm things down a bit well it's got to be we Bingo's asleep I don't care what do so how about you and your little mate",
+          "start": 115,
+          "end": 129,
+          "matchStart": 141,
+          "matchEnd": 144
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "little hard to get to sleep so we're actually trying to calm things down a bit well it's got to be we Bingo's asleep I don't care what do so how about you and your little mate",
+          "start": 115,
+          "end": 129,
+          "matchStart": 119,
+          "matchEnd": 124
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 129,
+      "end": 143,
+      "sentenceText": "jog on ain't going nowhere toots my name is Chile oh I'm sorry Silly chil Billy yeah that's what I said oh Mom please can unicor stay BL he's the most",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 129,
+          "end": 143,
+          "text": "jog on ain't going nowhere toots my name is Chile oh I'm sorry Silly chil Billy yeah that's what I said oh Mom please can unicor stay BL he's the most",
+          "originalText": "jog on ain't going nowhere toots my name is Chile oh I'm sorry Silly chil Billy yeah that's what I said oh Mom please can unicor stay BL he's the most",
+          "originalCueRefs": [
+            {
+              "id": "c0038",
+              "start": 129,
+              "end": 133,
+              "text": "jog on ain't going nowhere toots my name"
+            },
+            {
+              "id": "c0039",
+              "start": 133,
+              "end": 138,
+              "text": "is Chile oh I'm sorry Silly chil Billy"
+            },
+            {
+              "id": "c0040",
+              "start": 138,
+              "end": 141,
+              "text": "yeah that's what I said oh Mom please"
+            },
+            {
+              "id": "c0041",
+              "start": 141,
+              "end": 143,
+              "text": "can unicor stay BL he's the most"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0038",
+              "start": 129,
+              "end": 133,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 133,
+              "end": 138,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 138,
+              "end": 141,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 141,
+              "end": 143,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0010",
+          "quote": "jog on ain't going nowhere toots my name is Chile oh I'm sorry Silly chil Billy yeah that's what I said oh Mom please can unicor stay BL he's the most",
+          "start": 129,
+          "end": 143,
+          "matchStart": 57,
+          "matchEnd": 62
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "jog on ain't going nowhere toots my name is Chile oh I'm sorry Silly chil Billy yeah that's what I said oh Mom please can unicor stay BL he's the most",
+          "start": 129,
+          "end": 143,
+          "matchStart": 92,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0010",
+          "quote": "jog on ain't going nowhere toots my name is Chile oh I'm sorry Silly chil Billy yeah that's what I said oh Mom please can unicor stay BL he's the most",
+          "start": 129,
+          "end": 143,
+          "matchStart": 111,
+          "matchEnd": 117
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 143,
+      "end": 148,
+      "sentenceText": "annoying unicorn in the world guilty but But I can turn him into a nice unicorn.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 143,
+          "end": 148,
+          "text": "annoying unicorn in the world guilty but But I can turn him into a nice unicorn.",
+          "originalText": "annoying unicorn in the world guilty but I can turn him into a nice unicorn I",
+          "originalCueRefs": [
+            {
+              "id": "c0042",
+              "start": 143,
+              "end": 146,
+              "text": "annoying unicorn in the world guilty but"
+            },
+            {
+              "id": "c0043",
+              "start": 146,
+              "end": 148,
+              "text": "I can turn him into a nice unicorn I"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0062",
+              "start": 146,
+              "end": 148,
+              "text": "But I can turn him into a nice unicorn."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0042",
+              "start": 143,
+              "end": 146,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 146,
+              "end": 148,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "turn",
+          "cueId": "c0011",
+          "quote": "annoying unicorn in the world guilty but But I can turn him into a nice unicorn.",
+          "start": 143,
+          "end": 148,
+          "matchStart": 51,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0011",
+          "quote": "annoying unicorn in the world guilty but But I can turn him into a nice unicorn.",
+          "start": 143,
+          "end": 148,
+          "matchStart": 67,
+          "matchEnd": 71
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 148,
+      "end": 162,
+      "sentenceText": "I promise I can. Unicorse? Don't listen to him. him please Kenny stay fine but we're reading this book not yours you will live to regret Once upon a time there was a village,",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 148,
+          "end": 162,
+          "text": "I promise I can. Unicorse? Don't listen to him. him please Kenny stay fine but we're reading this book not yours you will live to regret Once upon a time there was a village,",
+          "originalText": "promise I can unicor n don't listen to him please Kenny stay fine but we're reading this book not yours you will live to regret that once upon a time there was a",
+          "originalCueRefs": [
+            {
+              "id": "c0044",
+              "start": 148,
+              "end": 152,
+              "text": "promise I can unicor n don't listen to"
+            },
+            {
+              "id": "c0045",
+              "start": 152,
+              "end": 155,
+              "text": "him please Kenny stay fine but we're"
+            },
+            {
+              "id": "c0046",
+              "start": 155,
+              "end": 158,
+              "text": "reading this book not yours you will"
+            },
+            {
+              "id": "c0047",
+              "start": 158,
+              "end": 160,
+              "text": "live to regret"
+            },
+            {
+              "id": "c0048",
+              "start": 160,
+              "end": 162,
+              "text": "that once upon a time there was a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0063",
+              "start": 148,
+              "end": 151,
+              "text": "I promise I can. Unicorse?"
+            },
+            {
+              "id": "c0064",
+              "start": 151,
+              "end": 152,
+              "text": "Don't listen to him."
+            },
+            {
+              "id": "c0068",
+              "start": 160,
+              "end": 162,
+              "text": "Once upon a time there was a village,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0044",
+              "start": 148,
+              "end": 152,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            },
+            {
+              "id": "c0045",
+              "start": 152,
+              "end": 155,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            },
+            {
+              "id": "c0046",
+              "start": 155,
+              "end": 158,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            },
+            {
+              "id": "c0047",
+              "start": 158,
+              "end": 160,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            },
+            {
+              "id": "c0048",
+              "start": 160,
+              "end": 162,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0048"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "listen",
+          "cueId": "c0012",
+          "quote": "I promise I can. Unicorse? Don't listen to him. him please Kenny stay fine but we're reading this book not yours you will live to regret Once upon a time there was a village,",
+          "start": 148,
+          "end": 162,
+          "matchStart": 33,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0012",
+          "quote": "I promise I can. Unicorse? Don't listen to him. him please Kenny stay fine but we're reading this book not yours you will live to regret Once upon a time there was a village,",
+          "start": 148,
+          "end": 162,
+          "matchStart": 52,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0012",
+          "quote": "I promise I can. Unicorse? Don't listen to him. him please Kenny stay fine but we're reading this book not yours you will live to regret Once upon a time there was a village,",
+          "start": 148,
+          "end": 162,
+          "matchStart": 27,
+          "matchEnd": 32
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 162,
+      "end": 176,
+      "sentenceText": "village and in the village everyone walked around bare foot yay you're in a to I can't see the page why should I cat I forgot about the cash FR if you block the words mom can't",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 162,
+          "end": 176,
+          "text": "village and in the village everyone walked around bare foot yay you're in a to I can't see the page why should I cat I forgot about the cash FR if you block the words mom can't",
+          "originalText": "village and in the village everyone walked around bare foot yay you're in a to I can't see the page why should I cat I forgot about the cash FR if you block the words mom can't",
+          "originalCueRefs": [
+            {
+              "id": "c0049",
+              "start": 162,
+              "end": 164,
+              "text": "village and in the village everyone"
+            },
+            {
+              "id": "c0050",
+              "start": 164,
+              "end": 167,
+              "text": "walked around bare foot yay you're in a"
+            },
+            {
+              "id": "c0051",
+              "start": 167,
+              "end": 170,
+              "text": "to I can't see the"
+            },
+            {
+              "id": "c0052",
+              "start": 170,
+              "end": 173,
+              "text": "page why should I cat I forgot about the"
+            },
+            {
+              "id": "c0053",
+              "start": 173,
+              "end": 176,
+              "text": "cash FR if you block the words mom can't"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0049",
+              "start": 162,
+              "end": 164,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0049"
+              ]
+            },
+            {
+              "id": "c0050",
+              "start": 164,
+              "end": 167,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0050"
+              ]
+            },
+            {
+              "id": "c0051",
+              "start": 167,
+              "end": 170,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0051"
+              ]
+            },
+            {
+              "id": "c0052",
+              "start": 170,
+              "end": 173,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0052"
+              ]
+            },
+            {
+              "id": "c0053",
+              "start": 173,
+              "end": 176,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0053"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0013",
+          "quote": "village and in the village everyone walked around bare foot yay you're in a to I can't see the page why should I cat I forgot about the cash FR if you block the words mom can't",
+          "start": 162,
+          "end": 176,
+          "matchStart": 87,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0013",
+          "quote": "village and in the village everyone walked around bare foot yay you're in a to I can't see the page why should I cat I forgot about the cash FR if you block the words mom can't",
+          "start": 162,
+          "end": 176,
+          "matchStart": 100,
+          "matchEnd": 103
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 176,
+      "end": 189,
+      "sentenceText": "read the story and wa I should have K look the stories are nice my story was nice it had a unicorn in it this one has zero unicorns and the ending is boring",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 176,
+          "end": 189,
+          "text": "read the story and wa I should have K look the stories are nice my story was nice it had a unicorn in it this one has zero unicorns and the ending is boring",
+          "originalText": "read the story and wa I should have K look the stories are nice my story was nice it had a unicorn in it this one has zero unicorns and the ending is boring",
+          "originalCueRefs": [
+            {
+              "id": "c0054",
+              "start": 176,
+              "end": 180,
+              "text": "read the story and wa I should have K"
+            },
+            {
+              "id": "c0055",
+              "start": 180,
+              "end": 183,
+              "text": "look the stories are nice my story was"
+            },
+            {
+              "id": "c0056",
+              "start": 183,
+              "end": 186,
+              "text": "nice it had a unicorn in it this one has"
+            },
+            {
+              "id": "c0057",
+              "start": 186,
+              "end": 189,
+              "text": "zero unicorns and the ending is boring"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0054",
+              "start": 176,
+              "end": 180,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0054"
+              ]
+            },
+            {
+              "id": "c0055",
+              "start": 180,
+              "end": 183,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0055"
+              ]
+            },
+            {
+              "id": "c0056",
+              "start": 183,
+              "end": 186,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0056"
+              ]
+            },
+            {
+              "id": "c0057",
+              "start": 186,
+              "end": 189,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0057"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0014",
+          "quote": "read the story and wa I should have K look the stories are nice my story was nice it had a unicorn in it this one has zero unicorns and the ending is boring",
+          "start": 176,
+          "end": 189,
+          "matchStart": 38,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0014",
+          "quote": "read the story and wa I should have K look the stories are nice my story was nice it had a unicorn in it this one has zero unicorns and the ending is boring",
+          "start": 176,
+          "end": 189,
+          "matchStart": 59,
+          "matchEnd": 63
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 189,
+      "end": 195,
+      "sentenceText": "She just makes... Don't spoil the ending! Why not? 'Cause Bluey hasn't heard it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 189,
+          "end": 195,
+          "text": "She just makes... Don't spoil the ending! Why not? 'Cause Bluey hasn't heard it.",
+          "originalText": "she just makes don't spoil the ending why not cuz Bluey hasn't heard",
+          "originalCueRefs": [
+            {
+              "id": "c0058",
+              "start": 189,
+              "end": 192,
+              "text": "she just makes don't spoil the ending"
+            },
+            {
+              "id": "c0059",
+              "start": 192,
+              "end": 195,
+              "text": "why not cuz Bluey hasn't heard"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0080",
+              "start": 189,
+              "end": 190,
+              "text": "She just makes..."
+            },
+            {
+              "id": "c0081",
+              "start": 190,
+              "end": 192,
+              "text": "Don't spoil the ending!"
+            },
+            {
+              "id": "c0082",
+              "start": 192,
+              "end": 193,
+              "text": "Why not?"
+            },
+            {
+              "id": "c0083",
+              "start": 193,
+              "end": 195,
+              "text": "'Cause Bluey hasn't heard it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0058",
+              "start": 189,
+              "end": 192,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0058"
+              ]
+            },
+            {
+              "id": "c0059",
+              "start": 192,
+              "end": 195,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0059"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0015",
+          "quote": "She just makes... Don't spoil the ending! Why not? 'Cause Bluey hasn't heard it.",
+          "start": 189,
+          "end": 195,
+          "matchStart": 42,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0015",
+          "quote": "She just makes... Don't spoil the ending! Why not? 'Cause Bluey hasn't heard it.",
+          "start": 189,
+          "end": 195,
+          "matchStart": 18,
+          "matchEnd": 23
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 195,
+      "end": 208,
+      "sentenceText": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 195,
+          "end": 208,
+          "text": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+          "originalText": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+          "originalCueRefs": [
+            {
+              "id": "c0060",
+              "start": 195,
+              "end": 198,
+              "text": "it what should get unicor I'm trying to"
+            },
+            {
+              "id": "c0061",
+              "start": 198,
+              "end": 202,
+              "text": "make you a nice unicor okay okay okay"
+            },
+            {
+              "id": "c0062",
+              "start": 202,
+              "end": 205,
+              "text": "please continue Millie I W spoil the"
+            },
+            {
+              "id": "c0063",
+              "start": 205,
+              "end": 208,
+              "text": "ending where she makes"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0060",
+              "start": 195,
+              "end": 198,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0060"
+              ]
+            },
+            {
+              "id": "c0061",
+              "start": 198,
+              "end": 202,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0061"
+              ]
+            },
+            {
+              "id": "c0062",
+              "start": 202,
+              "end": 205,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0062"
+              ]
+            },
+            {
+              "id": "c0063",
+              "start": 205,
+              "end": 208,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0063"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0016",
+          "quote": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+          "start": 195,
+          "end": 208,
+          "matchStart": 3,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0016",
+          "quote": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+          "start": 195,
+          "end": 208,
+          "matchStart": 51,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0016",
+          "quote": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+          "start": 195,
+          "end": 208,
+          "matchStart": 63,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0016",
+          "quote": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+          "start": 195,
+          "end": 208,
+          "matchStart": 78,
+          "matchEnd": 84
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0016",
+          "quote": "it what should get unicor I'm trying to make you a nice unicor okay okay okay please continue Millie I W spoil the ending where she makes",
+          "start": 195,
+          "end": 208,
+          "matchStart": 122,
+          "matchEnd": 127
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0017",
+      "title": "문단 17",
+      "start": 208,
+      "end": 221,
+      "sentenceText": "shoes woo wooo one day the queen decided to get off her litter and have a walk around changed my mind oh wait changed it again actually I will no not today up",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 17,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0017",
+          "start": 208,
+          "end": 221,
+          "text": "shoes woo wooo one day the queen decided to get off her litter and have a walk around changed my mind oh wait changed it again actually I will no not today up",
+          "originalText": "shoes woo wooo one day the queen decided to get off her litter and have a walk around changed my mind oh wait changed it again actually I will no not today up",
+          "originalCueRefs": [
+            {
+              "id": "c0064",
+              "start": 208,
+              "end": 213,
+              "text": "shoes woo wooo one day the queen decided"
+            },
+            {
+              "id": "c0065",
+              "start": 213,
+              "end": 215,
+              "text": "to get off her litter and have a walk"
+            },
+            {
+              "id": "c0066",
+              "start": 215,
+              "end": 218,
+              "text": "around changed my mind oh wait changed"
+            },
+            {
+              "id": "c0067",
+              "start": 218,
+              "end": 221,
+              "text": "it again actually I will no not today up"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0064",
+              "start": 208,
+              "end": 213,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0064"
+              ]
+            },
+            {
+              "id": "c0065",
+              "start": 213,
+              "end": 215,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0065"
+              ]
+            },
+            {
+              "id": "c0066",
+              "start": 215,
+              "end": 218,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0066"
+              ]
+            },
+            {
+              "id": "c0067",
+              "start": 218,
+              "end": 221,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0067"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 17,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "wait",
+          "cueId": "c0017",
+          "quote": "shoes woo wooo one day the queen decided to get off her litter and have a walk around changed my mind oh wait changed it again actually I will no not today up",
+          "start": 208,
+          "end": 221,
+          "matchStart": 105,
+          "matchEnd": 109
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0017",
+          "quote": "shoes woo wooo one day the queen decided to get off her litter and have a walk around changed my mind oh wait changed it again actually I will no not today up",
+          "start": 208,
+          "end": 221,
+          "matchStart": 121,
+          "matchEnd": 126
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0017",
+          "quote": "shoes woo wooo one day the queen decided to get off her litter and have a walk around changed my mind oh wait changed it again actually I will no not today up",
+          "start": 208,
+          "end": 221,
+          "matchStart": 143,
+          "matchEnd": 145
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0018",
+      "title": "문단 18",
+      "start": 221,
+      "end": 236,
+      "sentenceText": "Up, down, up, down, up, down, up, up, down, up... course that is bad behavior so is that shall we continue yes Meep so the queen walked a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 18,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0018",
+          "start": 221,
+          "end": 236,
+          "text": "Up, down, up, down, up, down, up, up, down, up... course that is bad behavior so is that shall we continue yes Meep so the queen walked a",
+          "originalText": "down up down up down up up down up course that is bad behavior so is that shall we continue yes Meep so the queen walked a",
+          "originalCueRefs": [
+            {
+              "id": "c0068",
+              "start": 221,
+              "end": 223,
+              "text": "down up down up down up up down up"
+            },
+            {
+              "id": "c0069",
+              "start": 223,
+              "end": 227,
+              "text": "course that is bad"
+            },
+            {
+              "id": "c0070",
+              "start": 227,
+              "end": 230,
+              "text": "behavior so is"
+            },
+            {
+              "id": "c0071",
+              "start": 230,
+              "end": 232,
+              "text": "that shall we"
+            },
+            {
+              "id": "c0072",
+              "start": 232,
+              "end": 236,
+              "text": "continue yes Meep so the queen walked a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0095",
+              "start": 221,
+              "end": 223,
+              "text": "Up, down, up, down, up, down, up, up, down, up..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0068",
+              "start": 221,
+              "end": 223,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0068"
+              ]
+            },
+            {
+              "id": "c0069",
+              "start": 223,
+              "end": 227,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0069"
+              ]
+            },
+            {
+              "id": "c0070",
+              "start": 227,
+              "end": 230,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0070"
+              ]
+            },
+            {
+              "id": "c0071",
+              "start": 230,
+              "end": 232,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0071"
+              ]
+            },
+            {
+              "id": "c0072",
+              "start": 232,
+              "end": 236,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0072"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 18,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0018",
+          "quote": "Up, down, up, down, up, down, up, up, down, up... course that is bad behavior so is that shall we continue yes Meep so the queen walked a",
+          "start": 221,
+          "end": 236,
+          "matchStart": 107,
+          "matchEnd": 110
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0019",
+      "title": "문단 19",
+      "start": 236,
+      "end": 251,
+      "sentenceText": "few steps and stood on a prickle ouch a unic course that's mean how would you feel if you stood on a prickle I feel good I feel so good at dance you wouldn't dance you be crying",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 19,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0019",
+          "start": 236,
+          "end": 251,
+          "text": "few steps and stood on a prickle ouch a unic course that's mean how would you feel if you stood on a prickle I feel good I feel so good at dance you wouldn't dance you be crying",
+          "originalText": "few steps and stood on a prickle ouch a unic course that's mean how would you feel if you stood on a prickle I feel good I feel so good at dance you wouldn't dance you be crying",
+          "originalCueRefs": [
+            {
+              "id": "c0073",
+              "start": 236,
+              "end": 240,
+              "text": "few steps and stood on a prickle ouch"
+            },
+            {
+              "id": "c0074",
+              "start": 240,
+              "end": 243,
+              "text": "a unic course that's mean how would you"
+            },
+            {
+              "id": "c0075",
+              "start": 243,
+              "end": 246,
+              "text": "feel if you stood on a prickle I feel"
+            },
+            {
+              "id": "c0076",
+              "start": 246,
+              "end": 248,
+              "text": "good I feel so good at"
+            },
+            {
+              "id": "c0077",
+              "start": 248,
+              "end": 251,
+              "text": "dance you wouldn't dance you be crying"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0073",
+              "start": 236,
+              "end": 240,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0073"
+              ]
+            },
+            {
+              "id": "c0074",
+              "start": 240,
+              "end": 243,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0074"
+              ]
+            },
+            {
+              "id": "c0075",
+              "start": 243,
+              "end": 246,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0075"
+              ]
+            },
+            {
+              "id": "c0076",
+              "start": 246,
+              "end": 248,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0076"
+              ]
+            },
+            {
+              "id": "c0077",
+              "start": 248,
+              "end": 251,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0077"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 19,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0019",
+          "quote": "few steps and stood on a prickle ouch a unic course that's mean how would you feel if you stood on a prickle I feel good I feel so good at dance you wouldn't dance you be crying",
+          "start": 236,
+          "end": 251,
+          "matchStart": 64,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0019",
+          "quote": "few steps and stood on a prickle ouch a unic course that's mean how would you feel if you stood on a prickle I feel good I feel so good at dance you wouldn't dance you be crying",
+          "start": 236,
+          "end": 251,
+          "matchStart": 116,
+          "matchEnd": 120
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0020",
+      "title": "문단 20",
+      "start": 251,
+      "end": 264,
+      "sentenceText": "like a queen well maybe she should wear some shoes You're... Anyway, the queen discovered her whole kingdom was covered in prickles what was she to do make",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 20,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0020",
+          "start": 251,
+          "end": 264,
+          "text": "like a queen well maybe she should wear some shoes You're... Anyway, the queen discovered her whole kingdom was covered in prickles what was she to do make",
+          "originalText": "like a queen well maybe she should wear some shoes you're anyway the queen discovered that her whole kingdom was covered in prickles what was she to do make",
+          "originalCueRefs": [
+            {
+              "id": "c0078",
+              "start": 251,
+              "end": 253,
+              "text": "like a queen well maybe she should wear"
+            },
+            {
+              "id": "c0079",
+              "start": 253,
+              "end": 255,
+              "text": "some shoes"
+            },
+            {
+              "id": "c0080",
+              "start": 255,
+              "end": 258,
+              "text": "you're anyway the queen discovered that"
+            },
+            {
+              "id": "c0081",
+              "start": 258,
+              "end": 260,
+              "text": "her whole kingdom was covered in"
+            },
+            {
+              "id": "c0082",
+              "start": 260,
+              "end": 264,
+              "text": "prickles what was she to do make"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0107",
+              "start": 255,
+              "end": 258,
+              "text": "You're... Anyway, the queen discovered"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0078",
+              "start": 251,
+              "end": 253,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0078"
+              ]
+            },
+            {
+              "id": "c0079",
+              "start": 253,
+              "end": 255,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0079"
+              ]
+            },
+            {
+              "id": "c0080",
+              "start": 255,
+              "end": 258,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0080"
+              ]
+            },
+            {
+              "id": "c0081",
+              "start": 258,
+              "end": 260,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0081"
+              ]
+            },
+            {
+              "id": "c0082",
+              "start": 260,
+              "end": 264,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0082"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 20,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0020",
+          "quote": "like a queen well maybe she should wear some shoes You're... Anyway, the queen discovered her whole kingdom was covered in prickles what was she to do make",
+          "start": 251,
+          "end": 264,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0020",
+          "quote": "like a queen well maybe she should wear some shoes You're... Anyway, the queen discovered her whole kingdom was covered in prickles what was she to do make",
+          "start": 251,
+          "end": 264,
+          "matchStart": 132,
+          "matchEnd": 136
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0021",
+      "title": "문단 21",
+      "start": 264,
+      "end": 278,
+      "sentenceText": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 21,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0021",
+          "start": 264,
+          "end": 278,
+          "text": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+          "originalText": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+          "originalCueRefs": [
+            {
+              "id": "c0083",
+              "start": 264,
+              "end": 268,
+              "text": "shes blue oh I know unicor what's your"
+            },
+            {
+              "id": "c0084",
+              "start": 268,
+              "end": 271,
+              "text": "favorite food"
+            },
+            {
+              "id": "c0085",
+              "start": 271,
+              "end": 274,
+              "text": "children oh just kidding I like chicken"
+            },
+            {
+              "id": "c0086",
+              "start": 274,
+              "end": 278,
+              "text": "bucket oh great look here's some chicken"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0083",
+              "start": 264,
+              "end": 268,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0083"
+              ]
+            },
+            {
+              "id": "c0084",
+              "start": 268,
+              "end": 271,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0084"
+              ]
+            },
+            {
+              "id": "c0085",
+              "start": 271,
+              "end": 274,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0085"
+              ]
+            },
+            {
+              "id": "c0086",
+              "start": 274,
+              "end": 278,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0086"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 21,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0021",
+          "quote": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+          "start": 264,
+          "end": 278,
+          "matchStart": 15,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0021",
+          "quote": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+          "start": 264,
+          "end": 278,
+          "matchStart": 27,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0021",
+          "quote": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+          "start": 264,
+          "end": 278,
+          "matchStart": 80,
+          "matchEnd": 84
+        },
+        {
+          "expressionId": "great",
+          "cueId": "c0021",
+          "quote": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+          "start": 264,
+          "end": 278,
+          "matchStart": 103,
+          "matchEnd": 108
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0021",
+          "quote": "shes blue oh I know unicor what's your favorite food children oh just kidding I like chicken bucket oh great look here's some chicken",
+          "start": 264,
+          "end": 278,
+          "matchStart": 109,
+          "matchEnd": 113
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0022",
+      "title": "문단 22",
+      "start": 278,
+      "end": 287,
+      "sentenceText": "Ah, thank you, mighty kind. Okay, we're good to go. So the queen had an idea: she will cover the whole kingdom in leather.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 22,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0022",
+          "start": 278,
+          "end": 287,
+          "text": "Ah, thank you, mighty kind. Okay, we're good to go. So the queen had an idea: she will cover the whole kingdom in leather.",
+          "originalText": "bucket a thank you mighty kind okay we're good to go so the queen had an idea she will cover the whole Kingdom in",
+          "originalCueRefs": [
+            {
+              "id": "c0087",
+              "start": 278,
+              "end": 281,
+              "text": "bucket a thank you mighty kind okay"
+            },
+            {
+              "id": "c0088",
+              "start": 281,
+              "end": 284,
+              "text": "we're good to go so the queen had an"
+            },
+            {
+              "id": "c0089",
+              "start": 284,
+              "end": 287,
+              "text": "idea she will cover the whole Kingdom in"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0115",
+              "start": 278,
+              "end": 281,
+              "text": "Ah, thank you, mighty kind."
+            },
+            {
+              "id": "c0116",
+              "start": 281,
+              "end": 282,
+              "text": "Okay, we're good to go."
+            },
+            {
+              "id": "c0117",
+              "start": 282,
+              "end": 284,
+              "text": "So the queen had an idea:"
+            },
+            {
+              "id": "c0118",
+              "start": 284,
+              "end": 287,
+              "text": "she will cover the whole kingdom in leather."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0087",
+              "start": 278,
+              "end": 281,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0087"
+              ]
+            },
+            {
+              "id": "c0088",
+              "start": 281,
+              "end": 284,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0088"
+              ]
+            },
+            {
+              "id": "c0089",
+              "start": 284,
+              "end": 287,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0089"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 22,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0022",
+          "quote": "Ah, thank you, mighty kind. Okay, we're good to go. So the queen had an idea: she will cover the whole kingdom in leather.",
+          "start": 278,
+          "end": 287,
+          "matchStart": 4,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0022",
+          "quote": "Ah, thank you, mighty kind. Okay, we're good to go. So the queen had an idea: she will cover the whole kingdom in leather.",
+          "start": 278,
+          "end": 287,
+          "matchStart": 28,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0022",
+          "quote": "Ah, thank you, mighty kind. Okay, we're good to go. So the queen had an idea: she will cover the whole kingdom in leather.",
+          "start": 278,
+          "end": 287,
+          "matchStart": 40,
+          "matchEnd": 44
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0023",
+      "title": "문단 23",
+      "start": 287,
+      "end": 301,
+      "sentenceText": "leather that way no one will ever stand on the prickles again so she got to work all day and night the queen worked covering her whole Kingdom in leather oh can you",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 23,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0023",
+          "start": 287,
+          "end": 301,
+          "text": "leather that way no one will ever stand on the prickles again so she got to work all day and night the queen worked covering her whole Kingdom in leather oh can you",
+          "originalText": "leather that way no one will ever stand on the prickles again so she got to work all day and night the queen worked covering her whole Kingdom in leather oh can you",
+          "originalCueRefs": [
+            {
+              "id": "c0090",
+              "start": 287,
+              "end": 290,
+              "text": "leather that way no one will ever stand"
+            },
+            {
+              "id": "c0091",
+              "start": 290,
+              "end": 291,
+              "text": "on the"
+            },
+            {
+              "id": "c0092",
+              "start": 291,
+              "end": 296,
+              "text": "prickles again so she got to work all"
+            },
+            {
+              "id": "c0093",
+              "start": 296,
+              "end": 298,
+              "text": "day and night the queen worked covering"
+            },
+            {
+              "id": "c0094",
+              "start": 298,
+              "end": 301,
+              "text": "her whole Kingdom in leather oh can you"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0090",
+              "start": 287,
+              "end": 290,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0090"
+              ]
+            },
+            {
+              "id": "c0091",
+              "start": 290,
+              "end": 291,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0091"
+              ]
+            },
+            {
+              "id": "c0092",
+              "start": 291,
+              "end": 296,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0092"
+              ]
+            },
+            {
+              "id": "c0093",
+              "start": 296,
+              "end": 298,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0093"
+              ]
+            },
+            {
+              "id": "c0094",
+              "start": 298,
+              "end": 301,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0094"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 23,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0023",
+          "quote": "leather that way no one will ever stand on the prickles again so she got to work all day and night the queen worked covering her whole Kingdom in leather oh can you",
+          "start": 287,
+          "end": 301,
+          "matchStart": 17,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0023",
+          "quote": "leather that way no one will ever stand on the prickles again so she got to work all day and night the queen worked covering her whole Kingdom in leather oh can you",
+          "start": 287,
+          "end": 301,
+          "matchStart": 56,
+          "matchEnd": 61
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0024",
+      "title": "문단 24",
+      "start": 301,
+      "end": 308,
+      "sentenceText": "please chew with your mouth shut I can I can chew with my mouth shut, of course I can. Thank you. The queen just... but I'm not gonna!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 24,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0024",
+          "start": 301,
+          "end": 308,
+          "text": "please chew with your mouth shut I can I can chew with my mouth shut, of course I can. Thank you. The queen just... but I'm not gonna!",
+          "originalText": "please chew with your mouth shut I can chew with my mouth shut of course I can thank you the queen just but I'm not g",
+          "originalCueRefs": [
+            {
+              "id": "c0095",
+              "start": 301,
+              "end": 302,
+              "text": "please chew with your mouth shut I can"
+            },
+            {
+              "id": "c0096",
+              "start": 302,
+              "end": 305,
+              "text": "chew with my mouth shut of course I can"
+            },
+            {
+              "id": "c0097",
+              "start": 305,
+              "end": 308,
+              "text": "thank you the queen just but I'm not g"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0124",
+              "start": 302,
+              "end": 305,
+              "text": "I can chew with my mouth shut, of course I can."
+            },
+            {
+              "id": "c0125",
+              "start": 305,
+              "end": 306,
+              "text": "Thank you."
+            },
+            {
+              "id": "c0126",
+              "start": 306,
+              "end": 308,
+              "text": "The queen just... but I'm not gonna!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0095",
+              "start": 301,
+              "end": 302,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0095"
+              ]
+            },
+            {
+              "id": "c0096",
+              "start": 302,
+              "end": 305,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0096"
+              ]
+            },
+            {
+              "id": "c0097",
+              "start": 305,
+              "end": 308,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0097"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 24,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thank-you",
+          "cueId": "c0024",
+          "quote": "please chew with your mouth shut I can I can chew with my mouth shut, of course I can. Thank you. The queen just... but I'm not gonna!",
+          "start": 301,
+          "end": 308,
+          "matchStart": 87,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "can-i",
+          "cueId": "c0024",
+          "quote": "please chew with your mouth shut I can I can chew with my mouth shut, of course I can. Thank you. The queen just... but I'm not gonna!",
+          "start": 301,
+          "end": 308,
+          "matchStart": 35,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0024",
+          "quote": "please chew with your mouth shut I can I can chew with my mouth shut, of course I can. Thank you. The queen just... but I'm not gonna!",
+          "start": 301,
+          "end": 308,
+          "matchStart": 0,
+          "matchEnd": 6
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0025",
+      "title": "문단 25",
+      "start": 308,
+      "end": 322,
+      "sentenceText": "that's it I'm out catch you on the flip side Willie wait no I'm done BL I can handle this mom you're not all ow my back my neck my back and my neck I just tap you on the shoulder Whiplash",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 25,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0025",
+          "start": 308,
+          "end": 322,
+          "text": "that's it I'm out catch you on the flip side Willie wait no I'm done BL I can handle this mom you're not all ow my back my neck my back and my neck I just tap you on the shoulder Whiplash",
+          "originalText": "that's it I'm out catch you on the flip side Willie wait no I'm done BL I can handle this mom you're not all ow my back my neck my back and my neck I just tap you on the shoulder Whiplash",
+          "originalCueRefs": [
+            {
+              "id": "c0098",
+              "start": 308,
+              "end": 310,
+              "text": "that's it I'm out catch you on the flip"
+            },
+            {
+              "id": "c0099",
+              "start": 310,
+              "end": 314,
+              "text": "side Willie wait no I'm done BL I can"
+            },
+            {
+              "id": "c0100",
+              "start": 314,
+              "end": 316,
+              "text": "handle this mom you're not all ow my"
+            },
+            {
+              "id": "c0101",
+              "start": 316,
+              "end": 320,
+              "text": "back my neck my back and my neck I just"
+            },
+            {
+              "id": "c0102",
+              "start": 320,
+              "end": 322,
+              "text": "tap you on the shoulder Whiplash"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0098",
+              "start": 308,
+              "end": 310,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0098"
+              ]
+            },
+            {
+              "id": "c0099",
+              "start": 310,
+              "end": 314,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0099"
+              ]
+            },
+            {
+              "id": "c0100",
+              "start": 314,
+              "end": 316,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0100"
+              ]
+            },
+            {
+              "id": "c0101",
+              "start": 316,
+              "end": 320,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0101"
+              ]
+            },
+            {
+              "id": "c0102",
+              "start": 320,
+              "end": 322,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0102"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 25,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0025",
+          "quote": "that's it I'm out catch you on the flip side Willie wait no I'm done BL I can handle this mom you're not all ow my back my neck my back and my neck I just tap you on the shoulder Whiplash",
+          "start": 308,
+          "end": 322,
+          "matchStart": 0,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0025",
+          "quote": "that's it I'm out catch you on the flip side Willie wait no I'm done BL I can handle this mom you're not all ow my back my neck my back and my neck I just tap you on the shoulder Whiplash",
+          "start": 308,
+          "end": 322,
+          "matchStart": 52,
+          "matchEnd": 56
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0025",
+          "quote": "that's it I'm out catch you on the flip side Willie wait no I'm done BL I can handle this mom you're not all ow my back my neck my back and my neck I just tap you on the shoulder Whiplash",
+          "start": 308,
+          "end": 322,
+          "matchStart": 57,
+          "matchEnd": 59
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0026",
+      "title": "문단 26",
+      "start": 322,
+      "end": 336,
+      "sentenceText": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 26,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0026",
+          "start": 322,
+          "end": 336,
+          "text": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "originalText": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "originalCueRefs": [
+            {
+              "id": "c0103",
+              "start": 322,
+              "end": 326,
+              "text": "Whiplash call my lawyer look BL good on"
+            },
+            {
+              "id": "c0104",
+              "start": 326,
+              "end": 328,
+              "text": "you for trying but you can't change"
+            },
+            {
+              "id": "c0105",
+              "start": 328,
+              "end": 331,
+              "text": "unicor I think you're right I'm not sure"
+            },
+            {
+              "id": "c0106",
+              "start": 331,
+              "end": 334,
+              "text": "you can change anyone very much but what"
+            },
+            {
+              "id": "c0107",
+              "start": 334,
+              "end": 336,
+              "text": "can we change well we can stop letting"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0103",
+              "start": 322,
+              "end": 326,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0103"
+              ]
+            },
+            {
+              "id": "c0104",
+              "start": 326,
+              "end": 328,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0104"
+              ]
+            },
+            {
+              "id": "c0105",
+              "start": 328,
+              "end": 331,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0105"
+              ]
+            },
+            {
+              "id": "c0106",
+              "start": 331,
+              "end": 334,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0106"
+              ]
+            },
+            {
+              "id": "c0107",
+              "start": 334,
+              "end": 336,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0107"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 26,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0026",
+          "quote": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "start": 322,
+          "end": 336,
+          "matchStart": 24,
+          "matchEnd": 28
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0026",
+          "quote": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "start": 322,
+          "end": 336,
+          "matchStart": 32,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0026",
+          "quote": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "start": 322,
+          "end": 336,
+          "matchStart": 85,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0026",
+          "quote": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "start": 322,
+          "end": 336,
+          "matchStart": 112,
+          "matchEnd": 116
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0026",
+          "quote": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "start": 322,
+          "end": 336,
+          "matchStart": 153,
+          "matchEnd": 157
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0026",
+          "quote": "Whiplash call my lawyer look BL good on you for trying but you can't change unicor I think you're right I'm not sure you can change anyone very much but what can we change well we can stop letting",
+          "start": 322,
+          "end": 336,
+          "matchStart": 184,
+          "matchEnd": 188
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0027",
+      "title": "문단 27",
+      "start": 336,
+      "end": 349,
+      "sentenceText": "unicor Annoy Us really how maybe we ignore him he's pretty hard to ignore let's give it a go the queen just couldn't do anymore she was too tired oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 27,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0027",
+          "start": 336,
+          "end": 349,
+          "text": "unicor Annoy Us really how maybe we ignore him he's pretty hard to ignore let's give it a go the queen just couldn't do anymore she was too tired oh",
+          "originalText": "unicor Annoy Us really how maybe we ignore him he's pretty hard to ignore let's give it a go the queen just couldn't do anymore she was too tired oh",
+          "originalCueRefs": [
+            {
+              "id": "c0108",
+              "start": 336,
+              "end": 340,
+              "text": "unicor Annoy Us really how maybe we"
+            },
+            {
+              "id": "c0109",
+              "start": 340,
+              "end": 343,
+              "text": "ignore him he's pretty hard to ignore"
+            },
+            {
+              "id": "c0110",
+              "start": 343,
+              "end": 346,
+              "text": "let's give it a go the queen just"
+            },
+            {
+              "id": "c0111",
+              "start": 346,
+              "end": 349,
+              "text": "couldn't do anymore she was too tired oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0108",
+              "start": 336,
+              "end": 340,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0108"
+              ]
+            },
+            {
+              "id": "c0109",
+              "start": 340,
+              "end": 343,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0109"
+              ]
+            },
+            {
+              "id": "c0110",
+              "start": 343,
+              "end": 346,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0110"
+              ]
+            },
+            {
+              "id": "c0111",
+              "start": 346,
+              "end": 349,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0111"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 27,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0027",
+          "quote": "unicor Annoy Us really how maybe we ignore him he's pretty hard to ignore let's give it a go the queen just couldn't do anymore she was too tired oh",
+          "start": 336,
+          "end": 349,
+          "matchStart": 23,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0027",
+          "quote": "unicor Annoy Us really how maybe we ignore him he's pretty hard to ignore let's give it a go the queen just couldn't do anymore she was too tired oh",
+          "start": 336,
+          "end": 349,
+          "matchStart": 74,
+          "matchEnd": 79
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0028",
+      "title": "문단 28",
+      "start": 349,
+      "end": 355,
+      "sentenceText": "Oh, here he comes. Remember, just ignore him. Are you really Heeler? I'm Chilli Heeler.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 28,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0028",
+          "start": 349,
+          "end": 355,
+          "text": "Oh, here he comes. Remember, just ignore him. Are you really Heeler? I'm Chilli Heeler.",
+          "originalText": "here he comes remember just ignore him are you really healer I'm chilly healer",
+          "originalCueRefs": [
+            {
+              "id": "c0112",
+              "start": 349,
+              "end": 352,
+              "text": "here he comes remember just ignore him"
+            },
+            {
+              "id": "c0113",
+              "start": 352,
+              "end": 355,
+              "text": "are you really healer I'm chilly healer"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0147",
+              "start": 349,
+              "end": 352,
+              "text": "Oh, here he comes. Remember, just ignore him."
+            },
+            {
+              "id": "c0148",
+              "start": 352,
+              "end": 354,
+              "text": "Are you really Heeler?"
+            },
+            {
+              "id": "c0149",
+              "start": 354,
+              "end": 355,
+              "text": "I'm Chilli Heeler."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0112",
+              "start": 349,
+              "end": 352,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0112"
+              ]
+            },
+            {
+              "id": "c0113",
+              "start": 352,
+              "end": 355,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0113"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 28,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0029",
+      "title": "문단 29",
+      "start": 355,
+      "end": 365,
+      "sentenceText": "Mom oh yes sorry but then the Justice said to the queen your majesty instead of covering the whole Kingdom in leather why not just cover your feet?\"",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 29,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0029",
+          "start": 355,
+          "end": 365,
+          "text": "Mom oh yes sorry but then the Justice said to the queen your majesty instead of covering the whole Kingdom in leather why not just cover your feet?\"",
+          "originalText": "Mom oh yes sorry but then the Justice said to the queen your majesty instead of covering the whole Kingdom in leather why not just cover your feet stop that",
+          "originalCueRefs": [
+            {
+              "id": "c0114",
+              "start": 355,
+              "end": 358,
+              "text": "Mom oh yes sorry but then the Justice"
+            },
+            {
+              "id": "c0115",
+              "start": 358,
+              "end": 360,
+              "text": "said to the queen your majesty instead"
+            },
+            {
+              "id": "c0116",
+              "start": 360,
+              "end": 363,
+              "text": "of covering the whole Kingdom in leather"
+            },
+            {
+              "id": "c0117",
+              "start": 363,
+              "end": 365,
+              "text": "why not just cover your feet stop that"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0153",
+              "start": 363,
+              "end": 365,
+              "text": "why not just cover your feet?\""
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0114",
+              "start": 355,
+              "end": 358,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0114"
+              ]
+            },
+            {
+              "id": "c0115",
+              "start": 358,
+              "end": 360,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0115"
+              ]
+            },
+            {
+              "id": "c0116",
+              "start": 360,
+              "end": 363,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0116"
+              ]
+            },
+            {
+              "id": "c0117",
+              "start": 363,
+              "end": 365,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0117"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 29,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0029",
+          "quote": "Mom oh yes sorry but then the Justice said to the queen your majesty instead of covering the whole Kingdom in leather why not just cover your feet?\"",
+          "start": 355,
+          "end": 365,
+          "matchStart": 7,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0029",
+          "quote": "Mom oh yes sorry but then the Justice said to the queen your majesty instead of covering the whole Kingdom in leather why not just cover your feet?\"",
+          "start": 355,
+          "end": 365,
+          "matchStart": 11,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0029",
+          "quote": "Mom oh yes sorry but then the Justice said to the queen your majesty instead of covering the whole Kingdom in leather why not just cover your feet?\"",
+          "start": 355,
+          "end": 365,
+          "matchStart": 118,
+          "matchEnd": 121
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0030",
+      "title": "문단 30",
+      "start": 365,
+      "end": 370,
+      "sentenceText": "Stop that reading, this is a very serious matter. One of you karate chopped my client.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 30,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0030",
+          "start": 365,
+          "end": 370,
+          "text": "Stop that reading, this is a very serious matter. One of you karate chopped my client.",
+          "originalText": "reading this is a very serious matter one of you karate Cho my client karate",
+          "originalCueRefs": [
+            {
+              "id": "c0118",
+              "start": 365,
+              "end": 367,
+              "text": "reading this is a very serious matter"
+            },
+            {
+              "id": "c0119",
+              "start": 367,
+              "end": 370,
+              "text": "one of you karate Cho my client karate"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0154",
+              "start": 365,
+              "end": 367,
+              "text": "Stop that reading, this is a very serious matter."
+            },
+            {
+              "id": "c0155",
+              "start": 367,
+              "end": 370,
+              "text": "One of you karate chopped my client."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0118",
+              "start": 365,
+              "end": 367,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0118"
+              ]
+            },
+            {
+              "id": "c0119",
+              "start": 367,
+              "end": 370,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0119"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 30,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "stop",
+          "cueId": "c0030",
+          "quote": "Stop that reading, this is a very serious matter. One of you karate chopped my client.",
+          "start": 365,
+          "end": 370,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0031",
+      "title": "문단 31",
+      "start": 370,
+      "end": 379,
+      "sentenceText": "chop Louie oh yeah sorry so the queen cut two little bits of leather and made and made them into shoes. Hey, I'm talking to you.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 31,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0031",
+          "start": 370,
+          "end": 379,
+          "text": "chop Louie oh yeah sorry so the queen cut two little bits of leather and made and made them into shoes. Hey, I'm talking to you.",
+          "originalText": "chop Louie oh yeah sorry so the queen cut two little bits of leather and made them into shoes hey I'm talking to you",
+          "originalCueRefs": [
+            {
+              "id": "c0120",
+              "start": 370,
+              "end": 373,
+              "text": "chop Louie oh yeah sorry so the queen"
+            },
+            {
+              "id": "c0121",
+              "start": 373,
+              "end": 375,
+              "text": "cut two little bits of leather and made"
+            },
+            {
+              "id": "c0122",
+              "start": 375,
+              "end": 379,
+              "text": "them into shoes hey I'm talking to you"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0159",
+              "start": 375,
+              "end": 377,
+              "text": "and made them into shoes."
+            },
+            {
+              "id": "c0160",
+              "start": 377,
+              "end": 379,
+              "text": "Hey, I'm talking to you."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0120",
+              "start": 370,
+              "end": 373,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0120"
+              ]
+            },
+            {
+              "id": "c0121",
+              "start": 373,
+              "end": 375,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0121"
+              ]
+            },
+            {
+              "id": "c0122",
+              "start": 375,
+              "end": 379,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0122"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 31,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0031",
+          "quote": "chop Louie oh yeah sorry so the queen cut two little bits of leather and made and made them into shoes. Hey, I'm talking to you.",
+          "start": 370,
+          "end": 379,
+          "matchStart": 19,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0031",
+          "quote": "chop Louie oh yeah sorry so the queen cut two little bits of leather and made and made them into shoes. Hey, I'm talking to you.",
+          "start": 370,
+          "end": 379,
+          "matchStart": 46,
+          "matchEnd": 52
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0032",
+      "title": "문단 32",
+      "start": 379,
+      "end": 391,
+      "sentenceText": "yeah listen to him so the people could walk anywhere they wanted and the freckles couldn't hurt them stop reading unicor let me handle this yeah watch it I'll have to get a little poky.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 32,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0032",
+          "start": 379,
+          "end": 391,
+          "text": "yeah listen to him so the people could walk anywhere they wanted and the freckles couldn't hurt them stop reading unicor let me handle this yeah watch it I'll have to get a little poky.",
+          "originalText": "yeah listen to him so the people could walk anywhere they wanted and the freckles couldn't hurt them stop reading unicor let me handle this yeah watch it mate I'll have to get a little Pokey",
+          "originalCueRefs": [
+            {
+              "id": "c0123",
+              "start": 379,
+              "end": 381,
+              "text": "yeah listen to him so the people could"
+            },
+            {
+              "id": "c0124",
+              "start": 381,
+              "end": 383,
+              "text": "walk anywhere they wanted and the"
+            },
+            {
+              "id": "c0125",
+              "start": 383,
+              "end": 386,
+              "text": "freckles couldn't hurt them stop reading"
+            },
+            {
+              "id": "c0126",
+              "start": 386,
+              "end": 389,
+              "text": "unicor let me handle this yeah watch it"
+            },
+            {
+              "id": "c0127",
+              "start": 389,
+              "end": 391,
+              "text": "mate I'll have to get a little Pokey"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0166",
+              "start": 389,
+              "end": 391,
+              "text": "I'll have to get a little poky."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0123",
+              "start": 379,
+              "end": 381,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0123"
+              ]
+            },
+            {
+              "id": "c0124",
+              "start": 381,
+              "end": 383,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0124"
+              ]
+            },
+            {
+              "id": "c0125",
+              "start": 383,
+              "end": 386,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0125"
+              ]
+            },
+            {
+              "id": "c0126",
+              "start": 386,
+              "end": 389,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0126"
+              ]
+            },
+            {
+              "id": "c0127",
+              "start": 389,
+              "end": 391,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0127"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 32,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0032",
+          "quote": "yeah listen to him so the people could walk anywhere they wanted and the freckles couldn't hurt them stop reading unicor let me handle this yeah watch it I'll have to get a little poky.",
+          "start": 379,
+          "end": 391,
+          "matchStart": 159,
+          "matchEnd": 166
+        },
+        {
+          "expressionId": "listen",
+          "cueId": "c0032",
+          "quote": "yeah listen to him so the people could walk anywhere they wanted and the freckles couldn't hurt them stop reading unicor let me handle this yeah watch it I'll have to get a little poky.",
+          "start": 379,
+          "end": 391,
+          "matchStart": 5,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0032",
+          "quote": "yeah listen to him so the people could walk anywhere they wanted and the freckles couldn't hurt them stop reading unicor let me handle this yeah watch it I'll have to get a little poky.",
+          "start": 379,
+          "end": 391,
+          "matchStart": 101,
+          "matchEnd": 105
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0032",
+          "quote": "yeah listen to him so the people could walk anywhere they wanted and the freckles couldn't hurt them stop reading unicor let me handle this yeah watch it I'll have to get a little poky.",
+          "start": 379,
+          "end": 391,
+          "matchStart": 173,
+          "matchEnd": 179
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0033",
+      "title": "문단 33",
+      "start": 391,
+      "end": 405,
+      "sentenceText": "okay as your lawyer here I go they all happily ever after shall we leave to it yeah I'm tired get to get it now",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 33,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0033",
+          "start": 391,
+          "end": 405,
+          "text": "okay as your lawyer here I go they all happily ever after shall we leave to it yeah I'm tired get to get it now",
+          "originalText": "okay as your lawyer here I go they all happily ever after shall we leave to it yeah I'm tired get to get it now",
+          "originalCueRefs": [
+            {
+              "id": "c0128",
+              "start": 391,
+              "end": 394,
+              "text": "okay as your lawyer here I"
+            },
+            {
+              "id": "c0129",
+              "start": 394,
+              "end": 398,
+              "text": "go they all happily ever"
+            },
+            {
+              "id": "c0130",
+              "start": 398,
+              "end": 402,
+              "text": "after shall we leave to it yeah I'm"
+            },
+            {
+              "id": "c0131",
+              "start": 402,
+              "end": 405,
+              "text": "tired get to get it now"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0128",
+              "start": 391,
+              "end": 394,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0128"
+              ]
+            },
+            {
+              "id": "c0129",
+              "start": 394,
+              "end": 398,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0129"
+              ]
+            },
+            {
+              "id": "c0130",
+              "start": 398,
+              "end": 402,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0130"
+              ]
+            },
+            {
+              "id": "c0131",
+              "start": 402,
+              "end": 405,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0131"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 33,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0033",
+          "quote": "okay as your lawyer here I go they all happily ever after shall we leave to it yeah I'm tired get to get it now",
+          "start": 391,
+          "end": 405,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0034",
+      "title": "문단 34",
+      "start": 418,
+      "end": 421,
+      "sentenceText": "Mate.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 34,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0034",
+          "start": 418,
+          "end": 421,
+          "text": "Mate.",
+          "originalText": "mate",
+          "originalCueRefs": [
+            {
+              "id": "c0132",
+              "start": 418,
+              "end": 421,
+              "text": "mate"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0171",
+              "start": 418,
+              "end": 421,
+              "text": "Mate."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0132",
+              "start": 418,
+              "end": 421,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0132"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 34,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

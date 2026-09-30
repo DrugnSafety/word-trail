@@ -1,0 +1,1267 @@
+{
+  "version": "2026.09.29-2",
+  "generatedAt": "2026-09-25T00:00:00.000Z",
+  "videos": [
+    {
+      "id": "video-01",
+      "number": 1,
+      "title": "Faceytalk | Full Episode - SERIES 3 | Bluey",
+      "duration": 420,
+      "captionType": "YouTube English captions (human-made)",
+      "sourceUrl": "https://www.youtube.com/watch?v=kx8_wF9HOX8",
+      "chapterCount": 2,
+      "sceneCount": 57,
+      "expressionCount": 39,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-explicit-parent-grouping",
+        "contains-non-speech-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-02",
+      "number": 2,
+      "title": "Season 3 Full Episodes | Bluey",
+      "duration": 1587,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=MnFue5zu454",
+      "chapterCount": 5,
+      "sceneCount": 196,
+      "expressionCount": 55,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-cues-without-original-overlap",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-03",
+      "number": 3,
+      "title": "Pizza Girls | Full Episode | Bluey",
+      "duration": 420,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=zL_vNn06a5M",
+      "chapterCount": 1,
+      "sceneCount": 34,
+      "expressionCount": 34,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-04",
+      "number": 4,
+      "title": "Bluey Season 3 New Full Episodes | Featuring Granny Mobile, Faceytalk and more! | Bluey",
+      "duration": 2383,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=T4uKrmq5i1U",
+      "chapterCount": 7,
+      "sceneCount": 195,
+      "expressionCount": 58,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-05",
+      "number": 5,
+      "title": "Relax 🛁 | Brand New - Series 3 | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=VX-lYkW4WuQ",
+      "chapterCount": 1,
+      "sceneCount": 19,
+      "expressionCount": 22,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-06",
+      "number": 6,
+      "title": "Unicorse",
+      "duration": 421,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=gvaeBYeN70g",
+      "chapterCount": 1,
+      "sceneCount": 34,
+      "expressionCount": 37,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-07",
+      "number": 7,
+      "title": "18 FULL BLUEY EPISODES 💙 ✨ | 2 Hours of Bluey Full Episodes 😯 | Bluey",
+      "duration": 6936,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xw3-3jQQMBk",
+      "chapterCount": 19,
+      "sceneCount": 784,
+      "expressionCount": 65,
+      "qualityFlags": [
+        "contains-cues-without-original-overlap",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-08",
+      "number": 8,
+      "title": "Unicorse Returns! | Puppets - Series 3 | Bluey",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=2pxAPOlKivA",
+      "chapterCount": 1,
+      "sceneCount": 10,
+      "expressionCount": 20,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-09",
+      "number": 9,
+      "title": "Meet Aunty Brandy",
+      "duration": 133,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=QqegZrB_fvM",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-10",
+      "number": 10,
+      "title": "BRAND NEW Bluey Season 3 Full Episode Compilation! 💙 | 40 MINUTES | Bluey",
+      "duration": 2383,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=4x2H3X9hQoQ",
+      "chapterCount": 7,
+      "sceneCount": 327,
+      "expressionCount": 58,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-11",
+      "number": 11,
+      "title": "Can Bluey Build a Dam? | Rain - Series 3| Bluey",
+      "duration": 118,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=ftIeN8adm6I",
+      "chapterCount": 1,
+      "sceneCount": 1,
+      "expressionCount": 1,
+      "qualityFlags": []
+    },
+    {
+      "id": "video-12",
+      "number": 12,
+      "title": "Lucky's Dad's Rules | Pass the Parcel - Series 3 | Bluey",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=1LC6Lbbp71o",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 15,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-14",
+      "number": 14,
+      "title": "Adult Bluey Visits Home 👀💙 | BRAND NEW CLIP - Surprise 🎾 | Bluey",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=0uxmFpGFKyY",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 22,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-15",
+      "number": 15,
+      "title": "Bandishwasher! | Fairytale - Series 3 | Bluey",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ka3vyVEaoTg",
+      "chapterCount": 1,
+      "sceneCount": 16,
+      "expressionCount": 22,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-16",
+      "number": 16,
+      "title": "Chocolate Milk and Big Belt - Series 3 | Tradies | Bluey",
+      "duration": 129,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=QzbFUGwfmFE",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 13,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-17",
+      "number": 17,
+      "title": "Muffin's New Car | Pizza Girls - Series 3 | Bluey",
+      "duration": 118,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=tKkKs4RlR2w",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 22,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-18",
+      "number": 18,
+      "title": "There's a Gold Team! 💛 🏉 💚 | New Season 3 Clip - The Decider | Bluey",
+      "duration": 122,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=CVWNu3Drxpw",
+      "chapterCount": 1,
+      "sceneCount": 9,
+      "expressionCount": 10,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-19",
+      "number": 19,
+      "title": "Stuck In The Mud | Dirt - Series 3 | Bluey",
+      "duration": 119,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=r1v5jNsyQKc",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 12,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-20",
+      "number": 20,
+      "title": "Mini Bluey",
+      "duration": 420,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=1NLyCCrNncs",
+      "chapterCount": 1,
+      "sceneCount": 30,
+      "expressionCount": 37,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-21",
+      "number": 21,
+      "title": "Slide 🛝 | Brand New - Series 3 | Bluey",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=SstAKgNOsxc",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 18,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-22",
+      "number": 22,
+      "title": "Granny Mobile",
+      "duration": 420,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=yY4GKcH1rRg",
+      "chapterCount": 1,
+      "sceneCount": 35,
+      "expressionCount": 37,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-23",
+      "number": 23,
+      "title": "Cubby",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=enXGh23RQtE",
+      "chapterCount": 2,
+      "sceneCount": 11,
+      "expressionCount": 18,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-corrected-chapter-title",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-24",
+      "number": 24,
+      "title": "Cricket",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=VEyg0QmSiVM",
+      "chapterCount": 1,
+      "sceneCount": 10,
+      "expressionCount": 16,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-25",
+      "number": 25,
+      "title": "TV Shop | Brand New - Series 3 | Bluey",
+      "duration": 122,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=-n9FFh8GKPA",
+      "chapterCount": 1,
+      "sceneCount": 9,
+      "expressionCount": 14,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-26",
+      "number": 26,
+      "title": "Exercise 🏋️ | Brand New - Series 3 | Bluey",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=Kj2CKqskBK0",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 14,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-27",
+      "number": 27,
+      "title": "Dragon ✏️ | Brand New - Series 3 | Bluey",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=epL7zirDQNo",
+      "chapterCount": 1,
+      "sceneCount": 16,
+      "expressionCount": 20,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-28",
+      "number": 28,
+      "title": "Muffin's Time Out | Faceytalk - Series 3 | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=bn5gbkWgZW0",
+      "chapterCount": 1,
+      "sceneCount": 10,
+      "expressionCount": 22,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-29",
+      "number": 29,
+      "title": "Season 3 Favourites! ☺️ ✨ | 1 HOUR+ | Best Bits from Bluey Series 3 💙 | Bluey",
+      "duration": 4090,
+      "captionType": "YouTube English captions (human-made)",
+      "sourceUrl": "https://www.youtube.com/watch?v=kPFHL0R0oIU",
+      "chapterCount": 7,
+      "sceneCount": 617,
+      "expressionCount": 63,
+      "qualityFlags": [
+        "contains-cues-without-original-overlap",
+        "contains-non-speech-cues",
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-30",
+      "number": 30,
+      "title": "Show and Tell 🦀 | Brand New - Series 3 | Bluey",
+      "duration": 127,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=GuwMGhFw99M",
+      "chapterCount": 1,
+      "sceneCount": 15,
+      "expressionCount": 18,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-31",
+      "number": 31,
+      "title": "The Big Whale Jump!  🐳 | Whale Watching | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=VdeGNEKqUyw",
+      "chapterCount": 1,
+      "sceneCount": 9,
+      "expressionCount": 14,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-32",
+      "number": 32,
+      "title": "Story Time with Unicorse",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=Czf4UFt57Fk",
+      "chapterCount": 1,
+      "sceneCount": 13,
+      "expressionCount": 20,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-33",
+      "number": 33,
+      "title": "Two Bluey's Are Better Than One | Mini Bluey - Series 3 | Bluey",
+      "duration": 130,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=RZ65LGgsvrI",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 23,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-34",
+      "number": 34,
+      "title": "The Done Thing | Turtle Boy - Series 3 | Bluey",
+      "duration": 115,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=qb33_PnPz8A",
+      "chapterCount": 1,
+      "sceneCount": 8,
+      "expressionCount": 13,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-35",
+      "number": 35,
+      "title": "That Was a Big One",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=mJi6mR_yo-I",
+      "chapterCount": 1,
+      "sceneCount": 13,
+      "expressionCount": 20,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-36",
+      "number": 36,
+      "title": "Crazy Walks! | Housework | Bluey",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=eeDCKY_qJBk",
+      "chapterCount": 1,
+      "sceneCount": 10,
+      "expressionCount": 14,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-37",
+      "number": 37,
+      "title": "Shake It Out | Musical Statues - Series 3 | Bluey",
+      "duration": 122,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=hP2Cuir0_FQ",
+      "chapterCount": 1,
+      "sceneCount": 14,
+      "expressionCount": 24,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-cues-without-original-overlap",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-38",
+      "number": 38,
+      "title": "No More Cheekiness! | Magic - Series 3",
+      "duration": 127,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=DTUCwkNYb-E",
+      "chapterCount": 1,
+      "sceneCount": 10,
+      "expressionCount": 12,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-39",
+      "number": 39,
+      "title": "Wendy and Judo's Brand New Look!",
+      "duration": 120,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=esE91SVXKUE",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-40",
+      "number": 40,
+      "title": "Grouchy Granny!",
+      "duration": 113,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dtyspn6fGI0",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 16,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-41",
+      "number": 41,
+      "title": "Bluey's New Room | Bedroom - Series 3 | Bluey",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=bv4Z_R7cOPk",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-42",
+      "number": 42,
+      "title": "Prawns and Pom Pom Heads",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=LsBvTX9AMO0",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 19,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-43",
+      "number": 43,
+      "title": "Aunt Brandy's Visit 🧡 | Season 3 Highlight - Onesies | Bluey",
+      "duration": 106,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=DRyDZBdNrzY",
+      "chapterCount": 1,
+      "sceneCount": 9,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-44",
+      "number": 44,
+      "title": "Let's Find Jack! | Explorers - Series 3 | Bluey",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=2RqutelebwA",
+      "chapterCount": 1,
+      "sceneCount": 9,
+      "expressionCount": 8,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-45",
+      "number": 45,
+      "title": "Stories 🌈 🐴 | NEW Bluey Full Episode 💙 | Bluey",
+      "duration": 417,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=8z2WihkDEHI",
+      "chapterCount": 1,
+      "sceneCount": 33,
+      "expressionCount": 32,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-46",
+      "number": 46,
+      "title": "No Try | The Decider - Series 3 | Bluey",
+      "duration": 115,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=l07BB65eoi4",
+      "chapterCount": 1,
+      "sceneCount": 8,
+      "expressionCount": 12,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-47",
+      "number": 47,
+      "title": "Ragdoll Mode | Ragdoll - Series 3",
+      "duration": 121,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=ps2MOFurJC0",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 12,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-48",
+      "number": 48,
+      "title": "Sheep-Dad | Sheepdog - Series 3 | Bluey",
+      "duration": 120,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=LabBwLEyhx0",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 15,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-49",
+      "number": 49,
+      "title": "It's on the App! | Phones - Series 3 | Bluey",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=39qhYmxqh_c",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 18,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-50",
+      "number": 50,
+      "title": "Big Toddlers | Promises - Series 3 | Bluey",
+      "duration": 121,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=zlEF86WNgXY",
+      "chapterCount": 1,
+      "sceneCount": 15,
+      "expressionCount": 21,
+      "qualityFlags": []
+    },
+    {
+      "id": "video-51",
+      "number": 51,
+      "title": "Black Hole | Space - Series 3",
+      "duration": 133,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=iYnMdjjtASU",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 19,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-52",
+      "number": 52,
+      "title": "Can Bluey Draw the Perfect Picture? | Perfect - Series 3 | Bluey",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=aDRQbqcWC30",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 20,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-53",
+      "number": 53,
+      "title": "No Smoochy Kisses for Mum!",
+      "duration": 91,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=K-0rTYi8BZU",
+      "chapterCount": 1,
+      "sceneCount": 7,
+      "expressionCount": 13,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-54",
+      "number": 54,
+      "title": "Bonjour! | Pavlova - Series 3 | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=246Ujtt5cx0",
+      "chapterCount": 1,
+      "sceneCount": 10,
+      "expressionCount": 26,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-55",
+      "number": 55,
+      "title": "You're my Hero, Bingo",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=HFh4kBAcWYs",
+      "chapterCount": 1,
+      "sceneCount": 9,
+      "expressionCount": 14,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-56",
+      "number": 56,
+      "title": "Who Fluffied? | Family Meeting - Series 3 | Bluey",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=4rYZFi7a0Ao",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-57",
+      "number": 57,
+      "title": "The Flower Girls Save the Wedding!",
+      "duration": 127,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=R3toB8gv2Kw",
+      "chapterCount": 1,
+      "sceneCount": 7,
+      "expressionCount": 10,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-58",
+      "number": 58,
+      "title": "Best Moments of NEW Series 3 🤣 | Bluey",
+      "duration": 643,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=ypA8P1YeaIs",
+      "chapterCount": 1,
+      "sceneCount": 52,
+      "expressionCount": 40,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-59",
+      "number": 59,
+      "title": "Stickbird ☀️ | Brand New Season 3 Clip - Stickbird | Bluey",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=WKD4Mg3nbnY",
+      "chapterCount": 1,
+      "sceneCount": 14,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-60",
+      "number": 60,
+      "title": "Wild Girls 🧹 | Brand New - Series 3 | Bluey",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=sQ9QrOiW2aw",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 16,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-61",
+      "number": 61,
+      "title": "The Best Loser | Pass the Parcel - Series 3 | Bluey",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=R2mLsd_ramg",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues"
+      ]
+    },
+    {
+      "id": "video-62",
+      "number": 62,
+      "title": "Chocolate Milk and Cherry 🍫 🍒 💙 | Bluey Valentine's Day Clip 🥰 | Clip from Tradies | Bluey",
+      "duration": 118,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=BCv01uu2Ac8",
+      "chapterCount": 1,
+      "sceneCount": 15,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-non-speech-cues",
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-63",
+      "number": 63,
+      "title": "How are we enjoying the new Bluey? 💙 #blueyseries3 #shorts",
+      "duration": 15,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=jiUC_XIguos",
+      "chapterCount": 1,
+      "sceneCount": 2,
+      "expressionCount": 3,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues"
+      ]
+    },
+    {
+      "id": "video-64",
+      "number": 64,
+      "title": "Fast Driving Music | Driving - Series 3",
+      "duration": 120,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nye4RK6zbiQ",
+      "chapterCount": 1,
+      "sceneCount": 6,
+      "expressionCount": 9,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-65",
+      "number": 65,
+      "title": "Ready, Set... Go! | Obstacle Course - Series 3 | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=YD-_bnqlJcw",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 26,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-66",
+      "number": 66,
+      "title": "Breaking the Golden Rule | Magic - SERIES 3 | Bluey",
+      "duration": 123,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=n5ZbpiFMQxo",
+      "chapterCount": 1,
+      "sceneCount": 10,
+      "expressionCount": 18,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-67",
+      "number": 67,
+      "title": "Dad Ignores Sat Nav! 🤣 😮 | Funny Bluey Moment - Show and Tell | Bluey",
+      "duration": 127,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=DcCGgCFkpKQ",
+      "chapterCount": 1,
+      "sceneCount": 15,
+      "expressionCount": 21,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-68",
+      "number": 68,
+      "title": "Olympia and Melinda's Spa Bath 🛁 💙 | I Love Bubbles! 🫧 | Bluey Season 3 Highlight - Relax | Bluey",
+      "duration": 121,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dy6wdDVd6gE",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 17,
+      "qualityFlags": [
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-69",
+      "number": 69,
+      "title": "The Grannies Refuse to Leave 🏠 | BRAND NEW CLIP - Ghostbasket 👻🧺 | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=JTmE3xY-mBw",
+      "chapterCount": 1,
+      "sceneCount": 13,
+      "expressionCount": 14,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-70",
+      "number": 70,
+      "title": "Food! | Born Yesterday - Series 3 | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=XI7gHhuFYYQ",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 12,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-71",
+      "number": 71,
+      "title": "Watch Out for the Snapping Turtles!",
+      "duration": 125,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=T4hCDwS0tV8",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 20,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-72",
+      "number": 72,
+      "title": "No More Kisses! | Smoochy Kiss - Series 3 | Bluey",
+      "duration": 135,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=o6MtNdG6a-w",
+      "chapterCount": 1,
+      "sceneCount": 13,
+      "expressionCount": 15,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-73",
+      "number": 73,
+      "title": "Toilet Hands! | Tina - Series 3 | Bluey",
+      "duration": 122,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=ShNAwohbi4g",
+      "chapterCount": 1,
+      "sceneCount": 15,
+      "expressionCount": 16,
+      "qualityFlags": [
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-74",
+      "number": 74,
+      "title": "Rusty Hits His Little Sister a Catch",
+      "duration": 127,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=3beXien8Oqw",
+      "chapterCount": 1,
+      "sceneCount": 18,
+      "expressionCount": 14,
+      "qualityFlags": [
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-75",
+      "number": 75,
+      "title": "Bluey Doesn't Know What to Eat! 😆 🍽️ 💙 | Season 3 Highlight ⭐️ | Bluey",
+      "duration": 73,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=rrfagQ33mdw",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 18,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-76",
+      "number": 76,
+      "title": "Bluey Series 3: The Story So Far",
+      "duration": 57,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=EavpbxJIlFM",
+      "chapterCount": 1,
+      "sceneCount": 3,
+      "expressionCount": 1,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-77",
+      "number": 77,
+      "title": "Edda Whaty What? | Bluey",
+      "duration": 16,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=GWX_b9GKRd8",
+      "chapterCount": 1,
+      "sceneCount": 2,
+      "expressionCount": 1,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-78",
+      "number": 78,
+      "title": "Dad Tries to Teach a Life Lesson | Ragdoll - Series 3 | Bluey",
+      "duration": 124,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=zwPfZcCjS5w",
+      "chapterCount": 1,
+      "sceneCount": 12,
+      "expressionCount": 23,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-79",
+      "number": 79,
+      "title": "Two Grouchy Grannies! 👵 🤣 | New Season 3 Clip - Granny Mobile 💙 | Bluey",
+      "duration": 120,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=5XekmnSHoHs",
+      "chapterCount": 1,
+      "sceneCount": 11,
+      "expressionCount": 23,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text"
+      ]
+    },
+    {
+      "id": "video-80",
+      "number": 80,
+      "title": "Bingo's Crab Claw Show and Tell 🦀 🧡 | Bluey Season 3 Highlight ⭐️ | Bluey",
+      "duration": 114,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=-X3EN7KhoNA",
+      "chapterCount": 1,
+      "sceneCount": 17,
+      "expressionCount": 20,
+      "qualityFlags": [
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-81",
+      "number": 81,
+      "title": "Cheetah Bingo Surprises Bandit! 🐆 🤪 | Funny Moment from Onesies 💙 | Bluey",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=l2gXoYBWAY4",
+      "chapterCount": 1,
+      "sceneCount": 20,
+      "expressionCount": 22,
+      "qualityFlags": [
+        "contains-repaired-zero-duration-cues",
+        "contains-non-speech-cues",
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-82",
+      "number": 82,
+      "title": "Pavlova Cafe Cook-Off!",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=O60VVZQkRs4",
+      "chapterCount": 1,
+      "sceneCount": 14,
+      "expressionCount": 15,
+      "qualityFlags": [
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-83",
+      "number": 83,
+      "title": "A Story Come to Life! 💭 🌈 | Bluey Season 3 Highlight - Stories ⭐️ | Bluey",
+      "duration": 126,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=KZT1fTJqY2w",
+      "chapterCount": 1,
+      "sceneCount": 18,
+      "expressionCount": 16,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-84",
+      "number": 84,
+      "title": "Bluey and Chilli's Magic Battle! 🪄 😯 | Bluey Season 3 Highlight ⭐️ | Bluey",
+      "duration": 127,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=kVR69XcuaHs",
+      "chapterCount": 1,
+      "sceneCount": 19,
+      "expressionCount": 19,
+      "qualityFlags": [
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    },
+    {
+      "id": "video-85",
+      "number": 85,
+      "title": "Winton Loves Being Silly!",
+      "duration": 128,
+      "captionType": "YouTube auto-generated English captions",
+      "sourceUrl": "https://www.youtube.com/watch?v=7dWk3Zg5KMc",
+      "chapterCount": 1,
+      "sceneCount": 15,
+      "expressionCount": 18,
+      "qualityFlags": [
+        "declared-duration-shorter-than-cues",
+        "contains-repaired-zero-duration-cues",
+        "contains-non-speech-cues",
+        "contains-raw-original-text",
+        "contains-non-spoken-annotation-removal"
+      ]
+    }
+  ]
+}

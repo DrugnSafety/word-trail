@@ -1,0 +1,1657 @@
+{
+  "id": "video-59",
+  "number": 59,
+  "title": "Stickbird ☀️ | Brand New Season 3 Clip - Stickbird | Bluey",
+  "duration": 126,
+  "declaredDuration": 124,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=WKD4Mg3nbnY",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/59_Stickbird.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/59_Stickbird.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Stickbird ☀️ | Brand New Season 3 Clip - Stickbird | Bluey",
+      "start": 0,
+      "end": 126,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 7,
+      "sentenceText": "Some kids ruined my stick bird. Oh, I can show you a trick my buddy Mia taught me, if you like.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 7,
+          "text": "Some kids ruined my stick bird. Oh, I can show you a trick my buddy Mia taught me, if you like.",
+          "originalText": "some kids ruined a stick bird oh I can show you a trick my buddy Mia taught me if you like it's for after you're upset",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "some kids ruined a stick bird oh I can"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "show you a trick my buddy Mia taught me"
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "text": "if you like it's for after you're upset"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "Some kids ruined my stick bird."
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 3,
+              "text": "Oh, I can"
+            },
+            {
+              "id": "c0003",
+              "start": 3,
+              "end": 5,
+              "text": "show you a trick my buddy Mia taught me,"
+            },
+            {
+              "id": "c0004",
+              "start": 5,
+              "end": 7,
+              "text": "if you like."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0001",
+          "quote": "Some kids ruined my stick bird. Oh, I can show you a trick my buddy Mia taught me, if you like.",
+          "start": 0,
+          "end": 7,
+          "matchStart": 90,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 7,
+      "end": 18,
+      "sentenceText": "and angry okay so you have to collect all So, you have to collect all the upset and all the angry. How do I collect upset and angry?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 7,
+          "end": 18,
+          "text": "and angry okay so you have to collect all So, you have to collect all the upset and all the angry. How do I collect upset and angry?",
+          "originalText": "and angry okay so you have to collect all the upset and all the angry how do I collect upset and angry you just feel",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 8,
+              "text": "and"
+            },
+            {
+              "id": "c0005",
+              "start": 8,
+              "end": 11,
+              "text": "angry okay so you have to collect all"
+            },
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 14,
+              "text": "the upset and all the angry how do I"
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 18,
+              "text": "collect upset and angry you just feel"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 13,
+              "text": "So, you have to collect all the upset and all the angry."
+            },
+            {
+              "id": "c0007",
+              "start": 13,
+              "end": 14,
+              "text": "How do I"
+            },
+            {
+              "id": "c0008",
+              "start": 14,
+              "end": 18,
+              "text": "collect upset and angry?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 8,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 11,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0002",
+          "quote": "and angry okay so you have to collect all So, you have to collect all the upset and all the angry. How do I collect upset and angry?",
+          "start": 7,
+          "end": 18,
+          "matchStart": 22,
+          "matchEnd": 29
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "and angry okay so you have to collect all So, you have to collect all the upset and all the angry. How do I collect upset and angry?",
+          "start": 7,
+          "end": 18,
+          "matchStart": 10,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0002",
+          "quote": "and angry okay so you have to collect all So, you have to collect all the upset and all the angry. How do I collect upset and angry?",
+          "start": 7,
+          "end": 18,
+          "matchStart": 99,
+          "matchEnd": 102
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 18,
+      "end": 27,
+      "sentenceText": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 27,
+          "text": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears.",
+          "originalText": "where it is and go get it h there's usually some in your belly or your neck and always remember to check your ears",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 21,
+              "text": "where it is and go get it h there's"
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "text": "usually some in your belly or your neck"
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 27,
+              "text": "and always remember to check your ears"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 21,
+              "text": "You just feel where it is, and go get it."
+            },
+            {
+              "id": "c0010",
+              "start": 21,
+              "end": 24,
+              "text": "There's usually some in your belly or your neck,"
+            },
+            {
+              "id": "c0011",
+              "start": 24,
+              "end": 27,
+              "text": "and always remember to check your ears."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0003",
+          "quote": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears.",
+          "start": 18,
+          "end": 27,
+          "matchStart": 14,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 27,
+      "end": 37,
+      "sentenceText": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 27,
+          "end": 37,
+          "text": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
+          "originalText": "okay now you've got all that upset and angry in your hands what do I do with it do",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 30,
+              "text": "okay"
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 34,
+              "text": "now you've got all that upset and angry"
+            },
+            {
+              "id": "c0013",
+              "start": 34,
+              "end": 37,
+              "text": "in your hands what do I do with it do"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0012",
+              "start": 27,
+              "end": 30,
+              "text": "Okay."
+            },
+            {
+              "id": "c0013",
+              "start": 32,
+              "end": 34,
+              "text": "Now you've got all that upset and angry"
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 37,
+              "text": "in your hands. What do I do with it?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 34,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
+          "start": 27,
+          "end": 37,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
+          "start": 27,
+          "end": 37,
+          "matchStart": 61,
+          "matchEnd": 65
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 37,
+      "end": 46,
+      "sentenceText": "Do you want to keep it? No, I don't want it. Well, what do you do with something you don't want anymore? Uh, give it to you?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 37,
+          "end": 46,
+          "text": "Do you want to keep it? No, I don't want it. Well, what do you do with something you don't want anymore? Uh, give it to you?",
+          "originalText": "you want to keep it no I don't want it well what do you do with something you don't want anymore uh give it to you w I",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 41,
+              "text": "you want to keep it no I don't want it"
+            },
+            {
+              "id": "c0015",
+              "start": 41,
+              "end": 43,
+              "text": "well what do you do with something you"
+            },
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "text": "don't want anymore uh give it to you w I"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 37,
+              "end": 39,
+              "text": "Do you want to keep it?"
+            },
+            {
+              "id": "c0016",
+              "start": 39,
+              "end": 41,
+              "text": "No, I don't want it."
+            },
+            {
+              "id": "c0017",
+              "start": 41,
+              "end": 43,
+              "text": "Well, what do you do with something you"
+            },
+            {
+              "id": "c0018",
+              "start": 43,
+              "end": 45,
+              "text": "don't want anymore?"
+            },
+            {
+              "id": "c0019",
+              "start": 45,
+              "end": 46,
+              "text": "Uh, give it to you?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 37,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 41,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0005",
+          "quote": "Do you want to keep it? No, I don't want it. Well, what do you do with something you don't want anymore? Uh, give it to you?",
+          "start": 37,
+          "end": 46,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "Do you want to keep it? No, I don't want it. Well, what do you do with something you don't want anymore? Uh, give it to you?",
+          "start": 37,
+          "end": 46,
+          "matchStart": 24,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0005",
+          "quote": "Do you want to keep it? No, I don't want it. Well, what do you do with something you don't want anymore? Uh, give it to you?",
+          "start": 37,
+          "end": 46,
+          "matchStart": 51,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "Do you want to keep it? No, I don't want it. Well, what do you do with something you don't want anymore? Uh, give it to you?",
+          "start": 37,
+          "end": 46,
+          "matchStart": 30,
+          "matchEnd": 35
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 46,
+      "end": 54,
+      "sentenceText": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 46,
+          "end": 54,
+          "text": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+          "originalText": "don't want it yeah me neither then what do I do with it you throw it away",
+          "originalCueRefs": [
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 50,
+              "text": "don't want it yeah me neither then what"
+            },
+            {
+              "id": "c0018",
+              "start": 50,
+              "end": 54,
+              "text": "do I do with it you throw it away"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 46,
+              "end": 48,
+              "text": "I don't want it!"
+            },
+            {
+              "id": "c0021",
+              "start": 48,
+              "end": 50,
+              "text": "Yeah, me neither."
+            },
+            {
+              "id": "c0022",
+              "start": 50,
+              "end": 52,
+              "text": "Then what do I do with it?"
+            },
+            {
+              "id": "c0023",
+              "start": 52,
+              "end": 54,
+              "text": "You throw it away."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 50,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0006",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+          "start": 46,
+          "end": 54,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+          "start": 46,
+          "end": 54,
+          "matchStart": 40,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0006",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+          "start": 46,
+          "end": 54,
+          "matchStart": 2,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 54,
+      "end": 63,
+      "sentenceText": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 54,
+          "end": 63,
+          "text": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+          "originalText": "oh uh-uh like Mom said you need to throw this thing really far St sideways like on a skateboard bend your knees yeah get",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 54,
+              "end": 57,
+              "text": "oh uh-uh like Mom said you need to throw"
+            },
+            {
+              "id": "c0020",
+              "start": 57,
+              "end": 60,
+              "text": "this thing really far St sideways like"
+            },
+            {
+              "id": "c0021",
+              "start": 60,
+              "end": 63,
+              "text": "on a skateboard bend your knees yeah get"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 54,
+              "end": 55,
+              "text": "Oh."
+            },
+            {
+              "id": "c0025",
+              "start": 55,
+              "end": 57,
+              "text": "Uh-uh, like Mum said,"
+            },
+            {
+              "id": "c0026",
+              "start": 57,
+              "end": 60,
+              "text": "you need to throw this thing really far, sideways, like"
+            },
+            {
+              "id": "c0027",
+              "start": 60,
+              "end": 62,
+              "text": "on a skateboard. Bend your knees,"
+            },
+            {
+              "id": "c0028",
+              "start": 62,
+              "end": 63,
+              "text": "yeah, get comfy."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 54,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 57,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 60,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0007",
+          "quote": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+          "start": 54,
+          "end": 63,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0007",
+          "quote": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+          "start": 54,
+          "end": 63,
+          "matchStart": 16,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0007",
+          "quote": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+          "start": 54,
+          "end": 63,
+          "matchStart": 30,
+          "matchEnd": 34
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 63,
+      "end": 68,
+      "sentenceText": "That's good, and with this arm... and whoa, it's going all the way out to sea!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 63,
+          "end": 68,
+          "text": "That's good, and with this arm... and whoa, it's going all the way out to sea!",
+          "originalText": "comfy that's good and with this arm",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 63,
+              "end": 68,
+              "text": "comfy that's good and with this arm"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 63,
+              "end": 66,
+              "text": "That's good, and with this arm..."
+            },
+            {
+              "id": "c0030",
+              "start": 66,
+              "end": 68,
+              "text": "and whoa, it's going all the way out to sea!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 63,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0008",
+          "quote": "That's good, and with this arm... and whoa, it's going all the way out to sea!",
+          "start": 63,
+          "end": 68,
+          "matchStart": 7,
+          "matchEnd": 11
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 68,
+      "end": 75,
+      "sentenceText": "Look for the splash! Look for the splash! There! Did you see it?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 68,
+          "end": 75,
+          "text": "Look for the splash! Look for the splash! There! Did you see it?",
+          "originalText": "and wo it's going all the way out to sea look for the splash look for the splash",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 68,
+              "end": 72,
+              "text": "and wo it's going all the way out to sea"
+            },
+            {
+              "id": "c0024",
+              "start": 72,
+              "end": 75,
+              "text": "look for the splash look for the splash"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 68,
+              "end": 72,
+              "text": "Look for the splash! Look for the splash!"
+            },
+            {
+              "id": "c0032",
+              "start": 72,
+              "end": 75,
+              "text": "There! Did you see it?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 68,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 72,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0009",
+          "quote": "Look for the splash! Look for the splash! There! Did you see it?",
+          "start": 68,
+          "end": 75,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0009",
+          "quote": "Look for the splash! Look for the splash! There! Did you see it?",
+          "start": 68,
+          "end": 75,
+          "matchStart": 57,
+          "matchEnd": 60
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 75,
+      "end": 81,
+      "sentenceText": "Yes! It was a million miles away! Good throw!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 75,
+          "end": 81,
+          "text": "Yes! It was a million miles away! Good throw!",
+          "originalText": "there did you see it yes it was a Million Miles Away good throw yeah good",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 77,
+              "text": "there did you see it yes it was a"
+            },
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 81,
+              "text": "Million Miles Away good throw yeah good"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 75,
+              "end": 77,
+              "text": "Yes! It was a"
+            },
+            {
+              "id": "c0034",
+              "start": 77,
+              "end": 79,
+              "text": "million miles away!"
+            },
+            {
+              "id": "c0035",
+              "start": 79,
+              "end": 81,
+              "text": "Good throw!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0010",
+          "quote": "Yes! It was a million miles away! Good throw!",
+          "start": 75,
+          "end": 81,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0010",
+          "quote": "Yes! It was a million miles away! Good throw!",
+          "start": 75,
+          "end": 81,
+          "matchStart": 34,
+          "matchEnd": 38
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 81,
+      "end": 89,
+      "sentenceText": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 81,
+          "end": 89,
+          "text": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
+          "originalText": "one Bingo thanks so how do you feel good yay thanks Lou yeah thanks Lou",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 81,
+              "end": 84,
+              "text": "one Bingo thanks so how do you"
+            },
+            {
+              "id": "c0028",
+              "start": 84,
+              "end": 89,
+              "text": "feel good yay thanks Lou yeah thanks Lou"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 81,
+              "end": 83,
+              "text": "Yeah, good one, Bingo."
+            },
+            {
+              "id": "c0037",
+              "start": 83,
+              "end": 84,
+              "text": "Thanks!"
+            },
+            {
+              "id": "c0038",
+              "start": 84,
+              "end": 86,
+              "text": "So, how do you feel?"
+            },
+            {
+              "id": "c0039",
+              "start": 86,
+              "end": 87,
+              "text": "Good! Yay!"
+            },
+            {
+              "id": "c0040",
+              "start": 87,
+              "end": 89,
+              "text": "Thanks, Lou."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 81,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 84,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0011",
+          "quote": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
+          "start": 81,
+          "end": 89,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0011",
+          "quote": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
+          "start": 81,
+          "end": 89,
+          "matchStart": 35,
+          "matchEnd": 38
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 89,
+      "end": 95,
+      "sentenceText": "Yeah, thanks, Lou. Thanks, Mia, she taught me it. Oh, and Mum, for the far bit. Can we have a race to Mum?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 89,
+          "end": 95,
+          "text": "Yeah, thanks, Lou. Thanks, Mia, she taught me it. Oh, and Mum, for the far bit. Can we have a race to Mum?",
+          "originalText": "thanks Mia she taught me it oh and M for the F bit can we have a race to Mom yeah",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 89,
+              "end": 92,
+              "text": "thanks Mia she taught me it oh and M for"
+            },
+            {
+              "id": "c0030",
+              "start": 92,
+              "end": 95,
+              "text": "the F bit can we have a race to Mom yeah"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 89,
+              "end": 91,
+              "text": "Yeah, thanks, Lou."
+            },
+            {
+              "id": "c0042",
+              "start": 91,
+              "end": 92,
+              "text": "Thanks, Mia, she taught me it."
+            },
+            {
+              "id": "c0043",
+              "start": 92,
+              "end": 94,
+              "text": "Oh, and Mum, for the far bit."
+            },
+            {
+              "id": "c0044",
+              "start": 94,
+              "end": 95,
+              "text": "Can we have a race to Mum?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 89,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 92,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0012",
+          "quote": "Yeah, thanks, Lou. Thanks, Mia, she taught me it. Oh, and Mum, for the far bit. Can we have a race to Mum?",
+          "start": 89,
+          "end": 95,
+          "matchStart": 58,
+          "matchEnd": 61
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 95,
+      "end": 103,
+      "sentenceText": "Yeah! Dad, do you want to race too? Yeah, okay, I'll give you a head start. Okay, ready... go! I'm winning!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 95,
+          "end": 103,
+          "text": "Yeah! Dad, do you want to race too? Yeah, okay, I'll give you a head start. Okay, ready... go! I'm winning!",
+          "originalText": "Dad do you want to race too yeah okay I'll give you a head start okay ready to go I'm winning",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 95,
+              "end": 98,
+              "text": "Dad do you want to race too yeah okay"
+            },
+            {
+              "id": "c0032",
+              "start": 98,
+              "end": 101,
+              "text": "I'll give you a head start okay ready to"
+            },
+            {
+              "id": "c0033",
+              "start": 101,
+              "end": 103,
+              "text": "go I'm winning"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0045",
+              "start": 95,
+              "end": 97,
+              "text": "Yeah! Dad, do you want to race too?"
+            },
+            {
+              "id": "c0046",
+              "start": 97,
+              "end": 98,
+              "text": "Yeah, okay,"
+            },
+            {
+              "id": "c0047",
+              "start": 98,
+              "end": 101,
+              "text": "I'll give you a head start."
+            },
+            {
+              "id": "c0048",
+              "start": 101,
+              "end": 102,
+              "text": "Okay, ready... go!"
+            },
+            {
+              "id": "c0049",
+              "start": 102,
+              "end": 103,
+              "text": "I'm winning!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 98,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 101,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0013",
+          "quote": "Yeah! Dad, do you want to race too? Yeah, okay, I'll give you a head start. Okay, ready... go! I'm winning!",
+          "start": 95,
+          "end": 103,
+          "matchStart": 6,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0013",
+          "quote": "Yeah! Dad, do you want to race too? Yeah, okay, I'll give you a head start. Okay, ready... go! I'm winning!",
+          "start": 95,
+          "end": 103,
+          "matchStart": 18,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0013",
+          "quote": "Yeah! Dad, do you want to race too? Yeah, okay, I'll give you a head start. Okay, ready... go! I'm winning!",
+          "start": 95,
+          "end": 103,
+          "matchStart": 42,
+          "matchEnd": 46
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0013",
+          "quote": "Yeah! Dad, do you want to race too? Yeah, okay, I'll give you a head start. Okay, ready... go! I'm winning!",
+          "start": 95,
+          "end": 103,
+          "matchStart": 82,
+          "matchEnd": 87
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 120,
+      "end": 126,
+      "sentenceText": "Here I come!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 120,
+          "end": 126,
+          "text": "Here I come!",
+          "originalText": "here I come",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 120,
+              "end": 126,
+              "text": "here I come"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0050",
+              "start": 120,
+              "end": 126,
+              "text": "Here I come!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 120,
+              "end": 126,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    }
+  ]
+}

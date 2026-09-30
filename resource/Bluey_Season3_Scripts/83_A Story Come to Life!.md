@@ -1,0 +1,59 @@
+# 83. A Story Come to Life! 💭 🌈 | Bluey Season 3 Highlight - Stories ⭐️ | Bluey
+
+- Video: https://www.youtube.com/watch?v=KZT1fTJqY2w
+- Length: 02:04
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:06
+
+---
+
+- `[00:00 - 00:02]` Once upon a time, there was a kid called Indy
+- `[00:02 - 00:05]` who thought she was no good at anything.
+- `[00:05 - 00:08]` I'm not very good at anything.
+- `[00:08 - 00:12]` But then Winton came in.
+- `[00:12 - 00:15]` Now Winton could be a pickle sometimes,
+- `[00:15 - 00:17]` but he had a very kind heart.
+- `[00:17 - 00:20]` He said to Indy, 'You are good at things, Indy.'
+- `[00:20 - 00:22]` Really? I'm not.
+- `[00:22 - 00:27]` Look, my horse looks like a cow.
+- `[00:27 - 00:27]` Winton!
+- `[00:27 - 00:28]` Sorry.
+- `[00:28 - 00:32]` Well, I still say you're good at things.
+- `[00:32 - 00:36]` Was Indy going to believe Winton?
+- `[00:36 - 00:37]` Yes.
+- `[00:37 - 00:38]` Hooray.
+- `[00:38 - 00:40]` Can you help me, Winton? Okay.
+- `[00:40 - 00:43]` I told you Winton had a kind heart.
+- `[00:43 - 00:45]` So, Winton and Indy tried to figure out
+- `[00:45 - 00:47]` what was wrong with Cow-Horse.
+- `[00:47 - 00:49]` Is it the color?
+- `[00:49 - 00:51]` Uh, I don't think so.
+- `[00:51 - 00:52]` I know. We should find a picture
+- `[00:52 - 00:56]` of a cow and look at it.
+- `[00:56 - 00:57]` Oh, yeah.
+- `[00:57 - 00:58]` Oh, I'm liking this story.
+- `[00:58 - 00:59]` Me too.
+- `[00:59 - 01:02]` Cinderella? No, Three Little Pigs.
+- `[01:02 - 01:04]` Oh, Winton! Old McDonald...
+- `[01:04 - 01:07]` He's got a cow, doesn't he?
+- `[01:07 - 01:08]` Let me check.
+- `[01:08 - 01:12]` Old McDonald had a farm, E-I-E-I-O.
+- `[01:12 - 01:17]` And on that farm he had a cow.
+- `[01:17 - 01:19]` Yes! E-I...
+- `[01:19 - 01:21]` They definitely look the same as each other.
+- `[01:21 - 01:24]` Hang on, we already knew that.
+- `[01:24 - 01:27]` Oh, yeah, we need to know what a horse looks like.
+- `[01:27 - 01:30]` See if Old McDonald has a horse.
+- `[01:30 - 01:32]` Chicken, duck, pig...
+- `[01:32 - 01:34]` Oh, no horse.
+- `[01:34 - 01:37]` That's very strange,
+- `[01:37 - 01:41]` Winton, why wouldn't Old McDonald have a horse?
+- `[01:41 - 01:44]` Winton, maybe it ran away.
+- `[01:44 - 01:45]` Yes.
+- `[01:45 - 01:48]` Why don't I just say my horse is a cow?
+- `[01:48 - 01:50]` But it's not a cow.
+- `[01:50 - 01:51]` It's a horse.
+- `[01:51 - 01:54]` I know, but it's not a very good horse.
+- `[01:54 - 01:56]` But it is a pretty good cow.
+- `[01:56 - 01:58]` As well as having a kind heart
+- `[01:58 - 02:06]` and being really muscly, Winton was as honest as they come.

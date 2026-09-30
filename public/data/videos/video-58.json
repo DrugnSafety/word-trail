@@ -1,0 +1,6232 @@
+{
+  "id": "video-58",
+  "number": 58,
+  "title": "Best Moments of NEW Series 3 🤣 | Bluey",
+  "duration": 643,
+  "declaredDuration": 642,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=ypA8P1YeaIs",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/58_Best Moments of NEW Series 3.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/58_Best Moments of NEW Series 3.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Best Moments of NEW Series 3 🤣 | Bluey",
+      "start": 0,
+      "end": 643,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016",
+        "c0017",
+        "c0018",
+        "c0019",
+        "c0020",
+        "c0021",
+        "c0022",
+        "c0023",
+        "c0024",
+        "c0025",
+        "c0026",
+        "c0027",
+        "c0028",
+        "c0029",
+        "c0030",
+        "c0031",
+        "c0032",
+        "c0033",
+        "c0034",
+        "c0035",
+        "c0036",
+        "c0037",
+        "c0038",
+        "c0039",
+        "c0040",
+        "c0041",
+        "c0042",
+        "c0043",
+        "c0044",
+        "c0045",
+        "c0046",
+        "c0047",
+        "c0048",
+        "c0049",
+        "c0050",
+        "c0051",
+        "c0052"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 14,
+      "sentenceText": "which one's our room oh tiles dump your stuff sunscreen up and let's hit the beach finger what is it bunk beds bunk beds can I have the if",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 14,
+          "text": "which one's our room oh tiles dump your stuff sunscreen up and let's hit the beach finger what is it bunk beds bunk beds can I have the if",
+          "originalText": "which one's our room oh tiles dump your stuff sunscreen up and let's hit the beach finger what is it bunk beds bunk beds can I have the if",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "which one's our room oh tiles dump your"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "text": "stuff sunscreen up and let's hit the"
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "text": "beach finger what is"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 14,
+              "text": "it bunk beds bunk beds can I have the if"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 6,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0001",
+          "quote": "which one's our room oh tiles dump your stuff sunscreen up and let's hit the beach finger what is it bunk beds bunk beds can I have the if",
+          "start": 0,
+          "end": 14,
+          "matchStart": 121,
+          "matchEnd": 126
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0001",
+          "quote": "which one's our room oh tiles dump your stuff sunscreen up and let's hit the beach finger what is it bunk beds bunk beds can I have the if",
+          "start": 0,
+          "end": 14,
+          "matchStart": 63,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0001",
+          "quote": "which one's our room oh tiles dump your stuff sunscreen up and let's hit the beach finger what is it bunk beds bunk beds can I have the if",
+          "start": 0,
+          "end": 14,
+          "matchStart": 90,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 14,
+      "end": 27,
+      "sentenceText": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 14,
+          "end": 27,
+          "text": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "originalText": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 18,
+              "text": "you like thanks oh look a present what I"
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 21,
+              "text": "think it's soap have you got one I'll"
+            },
+            {
+              "id": "c0007",
+              "start": 21,
+              "end": 23,
+              "text": "see"
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 27,
+              "text": "yes BL we've got"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 21,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0002",
+          "quote": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "start": 14,
+          "end": 27,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0002",
+          "quote": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "start": 14,
+          "end": 27,
+          "matchStart": 19,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "start": 14,
+          "end": 27,
+          "matchStart": 34,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0002",
+          "quote": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "start": 14,
+          "end": 27,
+          "matchStart": 41,
+          "matchEnd": 46
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "start": 14,
+          "end": 27,
+          "matchStart": 79,
+          "matchEnd": 82
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0002",
+          "quote": "you like thanks oh look a present what I think it's soap have you got one I'll see yes BL we've got",
+          "start": 14,
+          "end": 27,
+          "matchStart": 83,
+          "matchEnd": 86
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 28,
+      "end": 41,
+      "sentenceText": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 28,
+          "end": 41,
+          "text": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "originalText": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 34,
+              "text": "carets C hanging are they all us yeah"
+            },
+            {
+              "id": "c0010",
+              "start": 34,
+              "end": 38,
+              "text": "wow here wait I'll stand on this what is"
+            },
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 41,
+              "text": "that I don't know let's pretend it's an"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 34,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0003",
+          "quote": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "start": 28,
+          "end": 41,
+          "matchStart": 84,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0003",
+          "quote": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "start": 28,
+          "end": 41,
+          "matchStart": 47,
+          "matchEnd": 51
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "start": 28,
+          "end": 41,
+          "matchStart": 71,
+          "matchEnd": 75
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0003",
+          "quote": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "start": 28,
+          "end": 41,
+          "matchStart": 92,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0003",
+          "quote": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "start": 28,
+          "end": 41,
+          "matchStart": 97,
+          "matchEnd": 102
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0003",
+          "quote": "carets C hanging are they all us yeah wow here wait I'll stand on this what is that I don't know let's pretend it's an",
+          "start": 28,
+          "end": 41,
+          "matchStart": 86,
+          "matchEnd": 91
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 41,
+      "end": 54,
+      "sentenceText": "oven okay and we can be mermaids mermaid waiter may I have a pie please oh yes I'll just cook",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 41,
+          "end": 54,
+          "text": "oven okay and we can be mermaids mermaid waiter may I have a pie please oh yes I'll just cook",
+          "originalText": "oven okay and we can be mermaids mermaid waiter may I have a pie please oh yes I'll just cook",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 41,
+              "end": 44,
+              "text": "oven okay and we can be"
+            },
+            {
+              "id": "c0013",
+              "start": 46,
+              "end": 49,
+              "text": "mermaids mermaid waiter may I have a pie"
+            },
+            {
+              "id": "c0014",
+              "start": 49,
+              "end": 54,
+              "text": "please oh yes I'll just cook"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 41,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 46,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 49,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "oven okay and we can be mermaids mermaid waiter may I have a pie please oh yes I'll just cook",
+          "start": 41,
+          "end": 54,
+          "matchStart": 5,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0004",
+          "quote": "oven okay and we can be mermaids mermaid waiter may I have a pie please oh yes I'll just cook",
+          "start": 41,
+          "end": 54,
+          "matchStart": 65,
+          "matchEnd": 71
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0004",
+          "quote": "oven okay and we can be mermaids mermaid waiter may I have a pie please oh yes I'll just cook",
+          "start": 41,
+          "end": 54,
+          "matchStart": 75,
+          "matchEnd": 78
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 54,
+      "end": 68,
+      "sentenceText": "it it will be ready soon mermaid thank Ready, girls? Ding! Ready? No, I mean, are you ready to go down to the beach? Have you sunscreened? Oh no! Once upon a time, some friends all set off to find a dragon.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 54,
+          "end": 68,
+          "text": "it it will be ready soon mermaid thank Ready, girls? Ding! Ready? No, I mean, are you ready to go down to the beach? Have you sunscreened? Oh no! Once upon a time, some friends all set off to find a dragon.",
+          "originalText": "it it will be ready soon mermaid thank you ready girls ding ready no I mean are you ready to go down to the beach have you sunscreened oh no Once Upon a Time some friends all set off to find a",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 54,
+              "end": 58,
+              "text": "it it will be ready soon mermaid thank"
+            },
+            {
+              "id": "c0016",
+              "start": 58,
+              "end": 61,
+              "text": "you ready girls ding ready no I mean are"
+            },
+            {
+              "id": "c0017",
+              "start": 61,
+              "end": 63,
+              "text": "you ready to go down to the beach have"
+            },
+            {
+              "id": "c0018",
+              "start": 63,
+              "end": 66,
+              "text": "you sunscreened oh no Once Upon a Time"
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 68,
+              "text": "some friends all set off to find a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 58,
+              "end": 60,
+              "text": "Ready, girls? Ding! Ready?"
+            },
+            {
+              "id": "c0024",
+              "start": 60,
+              "end": 61,
+              "text": "No, I mean, are you ready"
+            },
+            {
+              "id": "c0025",
+              "start": 61,
+              "end": 63,
+              "text": "to go down to the"
+            },
+            {
+              "id": "c0026",
+              "start": 63,
+              "end": 64,
+              "text": "beach? Have you sunscreened?"
+            },
+            {
+              "id": "c0027",
+              "start": 64,
+              "end": 66,
+              "text": "Oh no! Once upon a time,"
+            },
+            {
+              "id": "c0028",
+              "start": 66,
+              "end": 68,
+              "text": "some friends all set off to find a dragon."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 54,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 58,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 61,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 66,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0005",
+          "quote": "it it will be ready soon mermaid thank Ready, girls? Ding! Ready? No, I mean, are you ready to go down to the beach? Have you sunscreened? Oh no! Once upon a time, some friends all set off to find a dragon.",
+          "start": 54,
+          "end": 68,
+          "matchStart": 14,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "it it will be ready soon mermaid thank Ready, girls? Ding! Ready? No, I mean, are you ready to go down to the beach? Have you sunscreened? Oh no! Once upon a time, some friends all set off to find a dragon.",
+          "start": 54,
+          "end": 68,
+          "matchStart": 66,
+          "matchEnd": 68
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 68,
+      "end": 82,
+      "sentenceText": "dragon oh man these fairy jocks are itchy when suddenly wa it's one of those dudes don't you know what it is yeah it's um",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 68,
+          "end": 82,
+          "text": "dragon oh man these fairy jocks are itchy when suddenly wa it's one of those dudes don't you know what it is yeah it's um",
+          "originalText": "dragon oh man these fairy jocks are itchy when suddenly wa it's one of those dudes don't you know what it is yeah it's um",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 68,
+              "end": 71,
+              "text": "dragon oh man these fairy jocks are"
+            },
+            {
+              "id": "c0021",
+              "start": 71,
+              "end": 73,
+              "text": "itchy when"
+            },
+            {
+              "id": "c0022",
+              "start": 73,
+              "end": 78,
+              "text": "suddenly wa it's one of those dudes"
+            },
+            {
+              "id": "c0023",
+              "start": 78,
+              "end": 82,
+              "text": "don't you know what it is yeah it's um"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 68,
+              "end": 71,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 71,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 73,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 78,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0006",
+          "quote": "dragon oh man these fairy jocks are itchy when suddenly wa it's one of those dudes don't you know what it is yeah it's um",
+          "start": 68,
+          "end": 82,
+          "matchStart": 93,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "dragon oh man these fairy jocks are itchy when suddenly wa it's one of those dudes don't you know what it is yeah it's um",
+          "start": 68,
+          "end": 82,
+          "matchStart": 98,
+          "matchEnd": 102
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0006",
+          "quote": "dragon oh man these fairy jocks are itchy when suddenly wa it's one of those dudes don't you know what it is yeah it's um",
+          "start": 68,
+          "end": 82,
+          "matchStart": 83,
+          "matchEnd": 88
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 82,
+      "end": 95,
+      "sentenceText": "Humpty Dumpty no it's the dragon already um no it's not the dragon it's h hum Dumpty are you sure blue yes the dragon's hiding somewhere else well",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 82,
+          "end": 95,
+          "text": "Humpty Dumpty no it's the dragon already um no it's not the dragon it's h hum Dumpty are you sure blue yes the dragon's hiding somewhere else well",
+          "originalText": "Humpty Dumpty no it's the dragon already um no it's not the dragon it's h hum Dumpty are you sure blue yes the dragon's hiding somewhere else well",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 82,
+              "end": 87,
+              "text": "Humpty Dumpty no it's the dragon already"
+            },
+            {
+              "id": "c0025",
+              "start": 87,
+              "end": 90,
+              "text": "um no it's not the dragon it's h hum"
+            },
+            {
+              "id": "c0026",
+              "start": 90,
+              "end": 93,
+              "text": "Dumpty are you sure blue yes the"
+            },
+            {
+              "id": "c0027",
+              "start": 93,
+              "end": 95,
+              "text": "dragon's hiding somewhere else well"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 82,
+              "end": 87,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 90,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 93,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "are-you-sure",
+          "cueId": "c0007",
+          "quote": "Humpty Dumpty no it's the dragon already um no it's not the dragon it's h hum Dumpty are you sure blue yes the dragon's hiding somewhere else well",
+          "start": 82,
+          "end": 95,
+          "matchStart": 85,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "Humpty Dumpty no it's the dragon already um no it's not the dragon it's h hum Dumpty are you sure blue yes the dragon's hiding somewhere else well",
+          "start": 82,
+          "end": 95,
+          "matchStart": 14,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0007",
+          "quote": "Humpty Dumpty no it's the dragon already um no it's not the dragon it's h hum Dumpty are you sure blue yes the dragon's hiding somewhere else well",
+          "start": 82,
+          "end": 95,
+          "matchStart": 93,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0007",
+          "quote": "Humpty Dumpty no it's the dragon already um no it's not the dragon it's h hum Dumpty are you sure blue yes the dragon's hiding somewhere else well",
+          "start": 82,
+          "end": 95,
+          "matchStart": 103,
+          "matchEnd": 106
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 95,
+      "end": 107,
+      "sentenceText": "that's good Humpty Dumpty is friendly no he isn't get him it's all y magic me",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 95,
+          "end": 107,
+          "text": "that's good Humpty Dumpty is friendly no he isn't get him it's all y magic me",
+          "originalText": "that's good Humpty Dumpty is friendly no he isn't get him it's all y magic me",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 95,
+              "end": 97,
+              "text": "that's good Humpty Dumpty is"
+            },
+            {
+              "id": "c0029",
+              "start": 97,
+              "end": 101,
+              "text": "friendly no he isn't get"
+            },
+            {
+              "id": "c0030",
+              "start": 101,
+              "end": 107,
+              "text": "him it's all y magic me"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 95,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 97,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 101,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0008",
+          "quote": "that's good Humpty Dumpty is friendly no he isn't get him it's all y magic me",
+          "start": 95,
+          "end": 107,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "that's good Humpty Dumpty is friendly no he isn't get him it's all y magic me",
+          "start": 95,
+          "end": 107,
+          "matchStart": 38,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 111,
+      "end": 125,
+      "sentenceText": "jump who wants scrambled eggs so the friends kept walking maybe I should be shampooing these things and then they got to a forest can you draw a forest Mom okay will the dragon",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 111,
+          "end": 125,
+          "text": "jump who wants scrambled eggs so the friends kept walking maybe I should be shampooing these things and then they got to a forest can you draw a forest Mom okay will the dragon",
+          "originalText": "jump who wants scrambled eggs so the friends kept walking maybe I should be shampooing these things and then they got to a forest can you draw a forest Mom okay will the dragon",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 111,
+              "end": 114,
+              "text": "jump who wants scrambled"
+            },
+            {
+              "id": "c0032",
+              "start": 114,
+              "end": 118,
+              "text": "eggs so the friends kept walking maybe I"
+            },
+            {
+              "id": "c0033",
+              "start": 118,
+              "end": 120,
+              "text": "should be shampooing these things"
+            },
+            {
+              "id": "c0034",
+              "start": 120,
+              "end": 122,
+              "text": "and then they got to a forest can you"
+            },
+            {
+              "id": "c0035",
+              "start": 122,
+              "end": 125,
+              "text": "draw a forest Mom okay will the dragon"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0031",
+              "start": 111,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 114,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 118,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 120,
+              "end": 122,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 122,
+              "end": 125,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "jump who wants scrambled eggs so the friends kept walking maybe I should be shampooing these things and then they got to a forest can you draw a forest Mom okay will the dragon",
+          "start": 111,
+          "end": 125,
+          "matchStart": 156,
+          "matchEnd": 160
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 125,
+      "end": 135,
+      "sentenceText": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 125,
+          "end": 135,
+          "text": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "originalText": "be in it do you think um no not yet Dad look we're on TV oh good one I won't be long kids stay where I can see",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 125,
+              "end": 129,
+              "text": "be in it do you think um no not yet Dad"
+            },
+            {
+              "id": "c0037",
+              "start": 129,
+              "end": 132,
+              "text": "look we're on TV oh good one I won't be"
+            },
+            {
+              "id": "c0038",
+              "start": 132,
+              "end": 135,
+              "text": "long kids stay where I can see"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0048",
+              "start": 129,
+              "end": 130,
+              "text": "Oh, good one."
+            },
+            {
+              "id": "c0049",
+              "start": 130,
+              "end": 132,
+              "text": "I won't be long, kids,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 125,
+              "end": 129,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 129,
+              "end": 132,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 132,
+              "end": 135,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "not-yet",
+          "cueId": "c0010",
+          "quote": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "start": 125,
+          "end": 135,
+          "matchStart": 28,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0010",
+          "quote": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "start": 125,
+          "end": 135,
+          "matchStart": 16,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0010",
+          "quote": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "start": 125,
+          "end": 135,
+          "matchStart": 25,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0010",
+          "quote": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "start": 125,
+          "end": 135,
+          "matchStart": 36,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0010",
+          "quote": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "start": 125,
+          "end": 135,
+          "matchStart": 44,
+          "matchEnd": 48
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0010",
+          "quote": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "start": 125,
+          "end": 135,
+          "matchStart": 92,
+          "matchEnd": 97
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0010",
+          "quote": "be in it do you think um no not yet Dad Oh, good one. I won't be long, kids, long kids stay where I can see",
+          "start": 125,
+          "end": 135,
+          "matchStart": 104,
+          "matchEnd": 107
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 136,
+      "end": 149,
+      "sentenceText": "you look it's Dad he dad on TV hi Dad oh look it's car car hey over here over here look up up hey",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 136,
+          "end": 149,
+          "text": "you look it's Dad he dad on TV hi Dad oh look it's car car hey over here over here look up up hey",
+          "originalText": "you look it's Dad he dad on TV hi Dad oh look it's car car hey over here over here look up up hey",
+          "originalCueRefs": [
+            {
+              "id": "c0039",
+              "start": 136,
+              "end": 142,
+              "text": "you look it's Dad he dad on TV hi Dad oh"
+            },
+            {
+              "id": "c0040",
+              "start": 142,
+              "end": 145,
+              "text": "look it's car car"
+            },
+            {
+              "id": "c0041",
+              "start": 145,
+              "end": 149,
+              "text": "hey over here over here look up up hey"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0039",
+              "start": 136,
+              "end": 142,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 142,
+              "end": 145,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            },
+            {
+              "id": "c0041",
+              "start": 145,
+              "end": 149,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0011",
+          "quote": "you look it's Dad he dad on TV hi Dad oh look it's car car hey over here over here look up up hey",
+          "start": 136,
+          "end": 149,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0011",
+          "quote": "you look it's Dad he dad on TV hi Dad oh look it's car car hey over here over here look up up hey",
+          "start": 136,
+          "end": 149,
+          "matchStart": 14,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 149,
+      "end": 160,
+      "sentenceText": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 149,
+          "end": 160,
+          "text": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+          "originalText": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+          "originalCueRefs": [
+            {
+              "id": "c0042",
+              "start": 149,
+              "end": 152,
+              "text": "where you go Lou look it's the Terriers"
+            },
+            {
+              "id": "c0043",
+              "start": 152,
+              "end": 154,
+              "text": "ter"
+            },
+            {
+              "id": "c0044",
+              "start": 154,
+              "end": 158,
+              "text": "ter mom please can we go home this place"
+            },
+            {
+              "id": "c0045",
+              "start": 158,
+              "end": 160,
+              "text": "smells like"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0042",
+              "start": 149,
+              "end": 152,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            },
+            {
+              "id": "c0043",
+              "start": 152,
+              "end": 154,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 154,
+              "end": 158,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            },
+            {
+              "id": "c0045",
+              "start": 158,
+              "end": 160,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0012",
+          "quote": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+          "start": 149,
+          "end": 160,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0012",
+          "quote": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+          "start": 149,
+          "end": 160,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0012",
+          "quote": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+          "start": 149,
+          "end": 160,
+          "matchStart": 52,
+          "matchEnd": 58
+        },
+        {
+          "expressionId": "home",
+          "cueId": "c0012",
+          "quote": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+          "start": 149,
+          "end": 160,
+          "matchStart": 69,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0012",
+          "quote": "where you go Lou look it's the Terriers ter ter mom please can we go home this place smells like",
+          "start": 149,
+          "end": 160,
+          "matchStart": 92,
+          "matchEnd": 96
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 160,
+      "end": 174,
+      "sentenceText": "Grandma oh that's B much oh Scarlet bombshell ah it's Bluey they're seen us hi hi",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 160,
+          "end": 174,
+          "text": "Grandma oh that's B much oh Scarlet bombshell ah it's Bluey they're seen us hi hi",
+          "originalText": "Grandma oh that's B much oh Scarlet bombshell ah it's Bluey they're seen us hi hi",
+          "originalCueRefs": [
+            {
+              "id": "c0046",
+              "start": 160,
+              "end": 166,
+              "text": "Grandma oh that's B much oh Scarlet"
+            },
+            {
+              "id": "c0047",
+              "start": 166,
+              "end": 169,
+              "text": "bombshell ah it's"
+            },
+            {
+              "id": "c0048",
+              "start": 169,
+              "end": 174,
+              "text": "Bluey they're seen us hi hi"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0046",
+              "start": 160,
+              "end": 166,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            },
+            {
+              "id": "c0047",
+              "start": 166,
+              "end": 169,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            },
+            {
+              "id": "c0048",
+              "start": 169,
+              "end": 174,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0048"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 174,
+      "end": 189,
+      "sentenceText": "Terriers oh they're gone it's Winton oh yeah he's seen us too hi he's dancing that will get Coco's attention oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 174,
+          "end": 189,
+          "text": "Terriers oh they're gone it's Winton oh yeah he's seen us too hi he's dancing that will get Coco's attention oh",
+          "originalText": "Terriers oh they're gone it's Winton oh yeah he's seen us too hi he's dancing that will get Coco's attention oh",
+          "originalCueRefs": [
+            {
+              "id": "c0049",
+              "start": 174,
+              "end": 178,
+              "text": "Terriers oh they're gone it's Winton oh"
+            },
+            {
+              "id": "c0050",
+              "start": 178,
+              "end": 182,
+              "text": "yeah he's seen us too"
+            },
+            {
+              "id": "c0051",
+              "start": 182,
+              "end": 186,
+              "text": "hi he's dancing that will get Coco's"
+            },
+            {
+              "id": "c0052",
+              "start": 186,
+              "end": 189,
+              "text": "attention oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0049",
+              "start": 174,
+              "end": 178,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0049"
+              ]
+            },
+            {
+              "id": "c0050",
+              "start": 178,
+              "end": 182,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0050"
+              ]
+            },
+            {
+              "id": "c0051",
+              "start": 182,
+              "end": 186,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0051"
+              ]
+            },
+            {
+              "id": "c0052",
+              "start": 186,
+              "end": 189,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0052"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 192,
+      "end": 197,
+      "sentenceText": "yeah do you think we should build a for Kim Jim? Yeah, I think we should.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 192,
+          "end": 197,
+          "text": "yeah do you think we should build a for Kim Jim? Yeah, I think we should.",
+          "originalText": "yeah do you think we should build a playroom here for Kim Jim yeah I think",
+          "originalCueRefs": [
+            {
+              "id": "c0053",
+              "start": 192,
+              "end": 195,
+              "text": "yeah do you think we should build a"
+            },
+            {
+              "id": "c0054",
+              "start": 195,
+              "end": 197,
+              "text": "playroom here for Kim Jim yeah I think"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0063",
+              "start": 195,
+              "end": 196,
+              "text": "for Kim Jim?"
+            },
+            {
+              "id": "c0064",
+              "start": 196,
+              "end": 197,
+              "text": "Yeah, I think we should."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0053",
+              "start": 192,
+              "end": 195,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0053"
+              ]
+            },
+            {
+              "id": "c0054",
+              "start": 195,
+              "end": 197,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0054"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0015",
+          "quote": "yeah do you think we should build a for Kim Jim? Yeah, I think we should.",
+          "start": 192,
+          "end": 197,
+          "matchStart": 12,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 197,
+      "end": 211,
+      "sentenceText": "we should and that's the story of St dad you're in the way ah can't you build",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 197,
+          "end": 211,
+          "text": "we should and that's the story of St dad you're in the way ah can't you build",
+          "originalText": "we should and that's the story of St dad you're in the way ah can't you build",
+          "originalCueRefs": [
+            {
+              "id": "c0055",
+              "start": 197,
+              "end": 206,
+              "text": "we"
+            },
+            {
+              "id": "c0056",
+              "start": 206,
+              "end": 209,
+              "text": "should and that's the story of St dad"
+            },
+            {
+              "id": "c0057",
+              "start": 209,
+              "end": 211,
+              "text": "you're in the way ah can't you build"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0055",
+              "start": 197,
+              "end": 206,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0055"
+              ]
+            },
+            {
+              "id": "c0056",
+              "start": 206,
+              "end": 209,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0056"
+              ]
+            },
+            {
+              "id": "c0057",
+              "start": 209,
+              "end": 211,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0057"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0016",
+          "quote": "we should and that's the story of St dad you're in the way ah can't you build",
+          "start": 197,
+          "end": 211,
+          "matchStart": 37,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0017",
+      "title": "문단 17",
+      "start": 211,
+      "end": 219,
+      "sentenceText": "around me trying to watch The Cricket no well that settles that then oh can we It can be a bath for Kim Jim.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 17,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0017",
+          "start": 211,
+          "end": 219,
+          "text": "around me trying to watch The Cricket no well that settles that then oh can we It can be a bath for Kim Jim.",
+          "originalText": "around me trying to watch The Cricket no well that settles that then oh can we have that cushion it can be a bath for",
+          "originalCueRefs": [
+            {
+              "id": "c0058",
+              "start": 211,
+              "end": 214,
+              "text": "around me trying to watch The Cricket no"
+            },
+            {
+              "id": "c0059",
+              "start": 214,
+              "end": 216,
+              "text": "well that settles that then oh can we"
+            },
+            {
+              "id": "c0060",
+              "start": 216,
+              "end": 219,
+              "text": "have that cushion it can be a bath for"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0071",
+              "start": 216,
+              "end": 219,
+              "text": "It can be a bath for Kim Jim."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0058",
+              "start": 211,
+              "end": 214,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0058"
+              ]
+            },
+            {
+              "id": "c0059",
+              "start": 214,
+              "end": 216,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0059"
+              ]
+            },
+            {
+              "id": "c0060",
+              "start": 216,
+              "end": 219,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0060"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 17,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0017",
+          "quote": "around me trying to watch The Cricket no well that settles that then oh can we It can be a bath for Kim Jim.",
+          "start": 211,
+          "end": 219,
+          "matchStart": 38,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0018",
+      "title": "문단 18",
+      "start": 219,
+      "end": 224,
+      "sentenceText": "Kim Jim oh yeah let's build a bathroom",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 18,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0018",
+          "start": 219,
+          "end": 224,
+          "text": "Kim Jim oh yeah let's build a bathroom",
+          "originalText": "Kim Jim oh yeah let's build a bathroom",
+          "originalCueRefs": [
+            {
+              "id": "c0061",
+              "start": 219,
+              "end": 224,
+              "text": "Kim Jim oh yeah let's build a bathroom"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0061",
+              "start": 219,
+              "end": 224,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0061"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 18,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets",
+          "cueId": "c0018",
+          "quote": "Kim Jim oh yeah let's build a bathroom",
+          "start": 219,
+          "end": 224,
+          "matchStart": 16,
+          "matchEnd": 21
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    },
+    {
+      "id": "c0019",
+      "title": "문단 19",
+      "start": 227,
+      "end": 241,
+      "sentenceText": "Okay 5 and 1/2 M that's just too small hey M the towel covered sorry look Kim Jim this is your new bathroom yay We're hungry now! Oh yeah, it's your",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 19,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0019",
+          "start": 227,
+          "end": 241,
+          "text": "Okay 5 and 1/2 M that's just too small hey M the towel covered sorry look Kim Jim this is your new bathroom yay We're hungry now! Oh yeah, it's your",
+          "originalText": "Okay 5 and 1/2 M that's just too small hey M the towel covered sorry look Kim Jim this is your new bathroom yay thank you bye we hungry now oh yeah it's",
+          "originalCueRefs": [
+            {
+              "id": "c0062",
+              "start": 227,
+              "end": 232,
+              "text": "Okay 5 and 1/2 M that's just too"
+            },
+            {
+              "id": "c0063",
+              "start": 232,
+              "end": 236,
+              "text": "small hey M the towel covered sorry look"
+            },
+            {
+              "id": "c0064",
+              "start": 236,
+              "end": 238,
+              "text": "Kim Jim this is your new bathroom yay"
+            },
+            {
+              "id": "c0065",
+              "start": 238,
+              "end": 241,
+              "text": "thank you bye we hungry now oh yeah it's"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0078",
+              "start": 238,
+              "end": 241,
+              "text": "We're hungry now! Oh yeah, it's your"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0062",
+              "start": 227,
+              "end": 232,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0062"
+              ]
+            },
+            {
+              "id": "c0063",
+              "start": 232,
+              "end": 236,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0063"
+              ]
+            },
+            {
+              "id": "c0064",
+              "start": 236,
+              "end": 238,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0064"
+              ]
+            },
+            {
+              "id": "c0065",
+              "start": 238,
+              "end": 241,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0065"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 19,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0019",
+          "quote": "Okay 5 and 1/2 M that's just too small hey M the towel covered sorry look Kim Jim this is your new bathroom yay We're hungry now! Oh yeah, it's your",
+          "start": 227,
+          "end": 241,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0019",
+          "quote": "Okay 5 and 1/2 M that's just too small hey M the towel covered sorry look Kim Jim this is your new bathroom yay We're hungry now! Oh yeah, it's your",
+          "start": 227,
+          "end": 241,
+          "matchStart": 63,
+          "matchEnd": 68
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0019",
+          "quote": "Okay 5 and 1/2 M that's just too small hey M the towel covered sorry look Kim Jim this is your new bathroom yay We're hungry now! Oh yeah, it's your",
+          "start": 227,
+          "end": 241,
+          "matchStart": 69,
+          "matchEnd": 73
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0020",
+      "title": "문단 20",
+      "start": 241,
+      "end": 247,
+      "sentenceText": "your dinner time where should we eat let's build a dining",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 20,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0020",
+          "start": 241,
+          "end": 247,
+          "text": "your dinner time where should we eat let's build a dining",
+          "originalText": "your dinner time where should we eat let's build a dining",
+          "originalCueRefs": [
+            {
+              "id": "c0066",
+              "start": 241,
+              "end": 244,
+              "text": "your dinner time where should we eat"
+            },
+            {
+              "id": "c0067",
+              "start": 244,
+              "end": 247,
+              "text": "let's build a dining"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0066",
+              "start": 241,
+              "end": 244,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0066"
+              ]
+            },
+            {
+              "id": "c0067",
+              "start": 244,
+              "end": 247,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0067"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 20,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "where",
+          "cueId": "c0020",
+          "quote": "your dinner time where should we eat let's build a dining",
+          "start": 241,
+          "end": 247,
+          "matchStart": 17,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0020",
+          "quote": "your dinner time where should we eat let's build a dining",
+          "start": 241,
+          "end": 247,
+          "matchStart": 37,
+          "matchEnd": 42
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0021",
+      "title": "문단 21",
+      "start": 253,
+      "end": 265,
+      "sentenceText": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 21,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0021",
+          "start": 253,
+          "end": 265,
+          "text": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+          "originalText": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved Cricket he play all day with his brother",
+          "originalCueRefs": [
+            {
+              "id": "c0068",
+              "start": 253,
+              "end": 257,
+              "text": "room I finished teaching mommy Kim Jim"
+            },
+            {
+              "id": "c0069",
+              "start": 257,
+              "end": 259,
+              "text": "you ate all your dinner well done now"
+            },
+            {
+              "id": "c0070",
+              "start": 259,
+              "end": 262,
+              "text": "what we didn't know was that Rusty loved"
+            },
+            {
+              "id": "c0071",
+              "start": 262,
+              "end": 265,
+              "text": "Cricket he play all day with his brother"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0086",
+              "start": 262,
+              "end": 265,
+              "text": "He'd play all day with his brother and sister."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0068",
+              "start": 253,
+              "end": 257,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0068"
+              ]
+            },
+            {
+              "id": "c0069",
+              "start": 257,
+              "end": 259,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0069"
+              ]
+            },
+            {
+              "id": "c0070",
+              "start": 259,
+              "end": 262,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0070"
+              ]
+            },
+            {
+              "id": "c0071",
+              "start": 262,
+              "end": 265,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0071"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 21,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "finished",
+          "cueId": "c0021",
+          "quote": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+          "start": 253,
+          "end": 265,
+          "matchStart": 7,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0021",
+          "quote": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+          "start": 253,
+          "end": 265,
+          "matchStart": 77,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0021",
+          "quote": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+          "start": 253,
+          "end": 265,
+          "matchStart": 92,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0021",
+          "quote": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+          "start": 253,
+          "end": 265,
+          "matchStart": 123,
+          "matchEnd": 127
+        },
+        {
+          "expressionId": "brother",
+          "cueId": "c0021",
+          "quote": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+          "start": 253,
+          "end": 265,
+          "matchStart": 145,
+          "matchEnd": 152
+        },
+        {
+          "expressionId": "sister",
+          "cueId": "c0021",
+          "quote": "room I finished teaching mommy Kim Jim you ate all your dinner well done now what we didn't know was that Rusty loved He'd play all day with his brother and sister.",
+          "start": 253,
+          "end": 265,
+          "matchStart": 157,
+          "matchEnd": 163
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0022",
+      "title": "문단 22",
+      "start": 265,
+      "end": 279,
+      "sentenceText": "and sister can you hit me a catch not yet Dusty I'm almost at 50 yeah and when they went around he played by",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 22,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0022",
+          "start": 265,
+          "end": 279,
+          "text": "and sister can you hit me a catch not yet Dusty I'm almost at 50 yeah and when they went around he played by",
+          "originalText": "and sister can you hit me a catch not yet Dusty I'm almost at 50 yeah and when they went around he played by",
+          "originalCueRefs": [
+            {
+              "id": "c0072",
+              "start": 265,
+              "end": 268,
+              "text": "and sister can you hit me a catch not"
+            },
+            {
+              "id": "c0073",
+              "start": 268,
+              "end": 272,
+              "text": "yet Dusty I'm almost at 50 yeah and when"
+            },
+            {
+              "id": "c0074",
+              "start": 272,
+              "end": 279,
+              "text": "they went around he played by"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0072",
+              "start": 265,
+              "end": 268,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0072"
+              ]
+            },
+            {
+              "id": "c0073",
+              "start": 268,
+              "end": 272,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0073"
+              ]
+            },
+            {
+              "id": "c0074",
+              "start": 272,
+              "end": 279,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0074"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 22,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "not-yet",
+          "cueId": "c0022",
+          "quote": "and sister can you hit me a catch not yet Dusty I'm almost at 50 yeah and when they went around he played by",
+          "start": 265,
+          "end": 279,
+          "matchStart": 34,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "sister",
+          "cueId": "c0022",
+          "quote": "and sister can you hit me a catch not yet Dusty I'm almost at 50 yeah and when they went around he played by",
+          "start": 265,
+          "end": 279,
+          "matchStart": 4,
+          "matchEnd": 10
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0023",
+      "title": "문단 23",
+      "start": 279,
+      "end": 292,
+      "sentenceText": "himself far out that's it Snickers man this kid's good look he likes the square cut stri you and me will move to Gul and point",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 23,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0023",
+          "start": 279,
+          "end": 292,
+          "text": "himself far out that's it Snickers man this kid's good look he likes the square cut stri you and me will move to Gul and point",
+          "originalText": "himself far out that's it Snickers man this kid's good look he likes the square cut stri you and me will move to Gul and point",
+          "originalCueRefs": [
+            {
+              "id": "c0075",
+              "start": 279,
+              "end": 284,
+              "text": "himself far"
+            },
+            {
+              "id": "c0076",
+              "start": 284,
+              "end": 288,
+              "text": "out that's it Snickers man this kid's"
+            },
+            {
+              "id": "c0077",
+              "start": 288,
+              "end": 291,
+              "text": "good look he likes the square cut stri"
+            },
+            {
+              "id": "c0078",
+              "start": 291,
+              "end": 292,
+              "text": "you and me will move to Gul and point"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0075",
+              "start": 279,
+              "end": 284,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0075"
+              ]
+            },
+            {
+              "id": "c0076",
+              "start": 284,
+              "end": 288,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0076"
+              ]
+            },
+            {
+              "id": "c0077",
+              "start": 288,
+              "end": 291,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0077"
+              ]
+            },
+            {
+              "id": "c0078",
+              "start": 291,
+              "end": 292,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0078"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 23,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0023",
+          "quote": "himself far out that's it Snickers man this kid's good look he likes the square cut stri you and me will move to Gul and point",
+          "start": 279,
+          "end": 292,
+          "matchStart": 16,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0023",
+          "quote": "himself far out that's it Snickers man this kid's good look he likes the square cut stri you and me will move to Gul and point",
+          "start": 279,
+          "end": 292,
+          "matchStart": 50,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0023",
+          "quote": "himself far out that's it Snickers man this kid's good look he likes the square cut stri you and me will move to Gul and point",
+          "start": 279,
+          "end": 292,
+          "matchStart": 55,
+          "matchEnd": 59
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0024",
+      "title": "문단 24",
+      "start": 292,
+      "end": 307,
+      "sentenceText": "You send one to his off stump, lure him into the catch. into the catch it was a good plan but we didn't know about about Rusty's kitchen uh run hey come back here that",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 24,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0024",
+          "start": 292,
+          "end": 307,
+          "text": "You send one to his off stump, lure him into the catch. into the catch it was a good plan but we didn't know about about Rusty's kitchen uh run hey come back here that",
+          "originalText": "you send one to his off stump lure him into the catch it was a good plan but we didn't know about about Rusty's kitchen uh run hey come back here that",
+          "originalCueRefs": [
+            {
+              "id": "c0079",
+              "start": 292,
+              "end": 295,
+              "text": "you send one to his off stump lure him"
+            },
+            {
+              "id": "c0080",
+              "start": 295,
+              "end": 299,
+              "text": "into the catch it was a good plan but we"
+            },
+            {
+              "id": "c0081",
+              "start": 299,
+              "end": 302,
+              "text": "didn't know about about Rusty's"
+            },
+            {
+              "id": "c0082",
+              "start": 302,
+              "end": 307,
+              "text": "kitchen uh run hey come back here that"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0093",
+              "start": 292,
+              "end": 294,
+              "text": "You send one to his off stump, lure him"
+            },
+            {
+              "id": "c0094",
+              "start": 294,
+              "end": 295,
+              "text": "into the catch."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0079",
+              "start": 292,
+              "end": 295,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0079"
+              ]
+            },
+            {
+              "id": "c0080",
+              "start": 295,
+              "end": 299,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0080"
+              ]
+            },
+            {
+              "id": "c0081",
+              "start": 299,
+              "end": 302,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0081"
+              ]
+            },
+            {
+              "id": "c0082",
+              "start": 302,
+              "end": 307,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0082"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 24,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0024",
+          "quote": "You send one to his off stump, lure him into the catch. into the catch it was a good plan but we didn't know about about Rusty's kitchen uh run hey come back here that",
+          "start": 292,
+          "end": 307,
+          "matchStart": 80,
+          "matchEnd": 84
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0024",
+          "quote": "You send one to his off stump, lure him into the catch. into the catch it was a good plan but we didn't know about about Rusty's kitchen uh run hey come back here that",
+          "start": 292,
+          "end": 307,
+          "matchStart": 104,
+          "matchEnd": 108
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0025",
+      "title": "문단 25",
+      "start": 307,
+      "end": 316,
+      "sentenceText": "was good motivation to work on your square",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 25,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0025",
+          "start": 307,
+          "end": 316,
+          "text": "was good motivation to work on your square",
+          "originalText": "was good motivation to work on your square",
+          "originalCueRefs": [
+            {
+              "id": "c0083",
+              "start": 307,
+              "end": 309,
+              "text": "was good motivation to work on your"
+            },
+            {
+              "id": "c0084",
+              "start": 309,
+              "end": 316,
+              "text": "square"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0083",
+              "start": 307,
+              "end": 309,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0083"
+              ]
+            },
+            {
+              "id": "c0084",
+              "start": 309,
+              "end": 316,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0084"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 25,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0025",
+          "quote": "was good motivation to work on your square",
+          "start": 307,
+          "end": 316,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0026",
+      "title": "문단 26",
+      "start": 318,
+      "end": 333,
+      "sentenceText": "cut I had no chance okay I can make this work hey hey hold the sure oh yes there you go thanks oh I haven't seen you",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 26,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0026",
+          "start": 318,
+          "end": 333,
+          "text": "cut I had no chance okay I can make this work hey hey hold the sure oh yes there you go thanks oh I haven't seen you",
+          "originalText": "cut I had no chance okay I can make this work hey hey hold the sure oh yes there you go thanks oh I haven't seen you",
+          "originalCueRefs": [
+            {
+              "id": "c0085",
+              "start": 318,
+              "end": 323,
+              "text": "cut I had no"
+            },
+            {
+              "id": "c0086",
+              "start": 323,
+              "end": 327,
+              "text": "chance okay I can make this"
+            },
+            {
+              "id": "c0087",
+              "start": 327,
+              "end": 330,
+              "text": "work hey hey hold the sure oh yes there"
+            },
+            {
+              "id": "c0088",
+              "start": 330,
+              "end": 333,
+              "text": "you go thanks oh I haven't seen you"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0085",
+              "start": 318,
+              "end": 323,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0085"
+              ]
+            },
+            {
+              "id": "c0086",
+              "start": 323,
+              "end": 327,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0086"
+              ]
+            },
+            {
+              "id": "c0087",
+              "start": 327,
+              "end": 330,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0087"
+              ]
+            },
+            {
+              "id": "c0088",
+              "start": 330,
+              "end": 333,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0088"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 26,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0026",
+          "quote": "cut I had no chance okay I can make this work hey hey hold the sure oh yes there you go thanks oh I haven't seen you",
+          "start": 318,
+          "end": 333,
+          "matchStart": 10,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0026",
+          "quote": "cut I had no chance okay I can make this work hey hey hold the sure oh yes there you go thanks oh I haven't seen you",
+          "start": 318,
+          "end": 333,
+          "matchStart": 20,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0026",
+          "quote": "cut I had no chance okay I can make this work hey hey hold the sure oh yes there you go thanks oh I haven't seen you",
+          "start": 318,
+          "end": 333,
+          "matchStart": 63,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0026",
+          "quote": "cut I had no chance okay I can make this work hey hey hold the sure oh yes there you go thanks oh I haven't seen you",
+          "start": 318,
+          "end": 333,
+          "matchStart": 71,
+          "matchEnd": 74
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0027",
+      "title": "문단 27",
+      "start": 333,
+      "end": 341,
+      "sentenceText": "around are you new yeah this is my first Oh, well, I can show you around, and if you like, I've worked here for ages.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 27,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0027",
+          "start": 333,
+          "end": 341,
+          "text": "around are you new yeah this is my first Oh, well, I can show you around, and if you like, I've worked here for ages.",
+          "originalText": "around are you new yeah this is my first day oh well I can show you aroundand if you like I've worked here for ages oh",
+          "originalCueRefs": [
+            {
+              "id": "c0089",
+              "start": 333,
+              "end": 336,
+              "text": "around are you new yeah this is my first"
+            },
+            {
+              "id": "c0090",
+              "start": 336,
+              "end": 338,
+              "text": "day oh well I can show you aroundand if"
+            },
+            {
+              "id": "c0091",
+              "start": 338,
+              "end": 341,
+              "text": "you like I've worked here for ages oh"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0107",
+              "start": 336,
+              "end": 338,
+              "text": "Oh, well, I can show you around,"
+            },
+            {
+              "id": "c0108",
+              "start": 338,
+              "end": 340,
+              "text": "and if you like, I've worked"
+            },
+            {
+              "id": "c0109",
+              "start": 340,
+              "end": 341,
+              "text": "here for ages."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0089",
+              "start": 333,
+              "end": 336,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0089"
+              ]
+            },
+            {
+              "id": "c0090",
+              "start": 336,
+              "end": 338,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0090"
+              ]
+            },
+            {
+              "id": "c0091",
+              "start": 338,
+              "end": 341,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0091"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 27,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0027",
+          "quote": "around are you new yeah this is my first Oh, well, I can show you around, and if you like, I've worked here for ages.",
+          "start": 333,
+          "end": 341,
+          "matchStart": 85,
+          "matchEnd": 89
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0028",
+      "title": "문단 28",
+      "start": 341,
+      "end": 355,
+      "sentenceText": "Oh, thanks, it's a pretty boring job. a lip you push this button so then push what floor you want this floor is just some um people",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 28,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0028",
+          "start": 341,
+          "end": 355,
+          "text": "Oh, thanks, it's a pretty boring job. a lip you push this button so then push what floor you want this floor is just some um people",
+          "originalText": "thanks it's a pretty boring job this is a lip you push this button so then push what floor you want this floor is just some um people",
+          "originalCueRefs": [
+            {
+              "id": "c0092",
+              "start": 341,
+              "end": 344,
+              "text": "thanks it's a pretty boring job this is"
+            },
+            {
+              "id": "c0093",
+              "start": 344,
+              "end": 347,
+              "text": "a lip you push this"
+            },
+            {
+              "id": "c0094",
+              "start": 347,
+              "end": 351,
+              "text": "button so then push what floor you"
+            },
+            {
+              "id": "c0095",
+              "start": 351,
+              "end": 355,
+              "text": "want this floor is just some um people"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0110",
+              "start": 341,
+              "end": 344,
+              "text": "Oh, thanks, it's a pretty boring job."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0092",
+              "start": 341,
+              "end": 344,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0092"
+              ]
+            },
+            {
+              "id": "c0093",
+              "start": 344,
+              "end": 347,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0093"
+              ]
+            },
+            {
+              "id": "c0094",
+              "start": 347,
+              "end": 351,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0094"
+              ]
+            },
+            {
+              "id": "c0095",
+              "start": 351,
+              "end": 355,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0095"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 28,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0028",
+          "quote": "Oh, thanks, it's a pretty boring job. a lip you push this button so then push what floor you want this floor is just some um people",
+          "start": 341,
+          "end": 355,
+          "matchStart": 78,
+          "matchEnd": 82
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0028",
+          "quote": "Oh, thanks, it's a pretty boring job. a lip you push this button so then push what floor you want this floor is just some um people",
+          "start": 341,
+          "end": 355,
+          "matchStart": 93,
+          "matchEnd": 97
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0029",
+      "title": "문단 29",
+      "start": 355,
+      "end": 368,
+      "sentenceText": "and stuff the top floor is the best hi can I try yes but the lift's a bit slow with two people it's very old",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 29,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0029",
+          "start": 355,
+          "end": 368,
+          "text": "and stuff the top floor is the best hi can I try yes but the lift's a bit slow with two people it's very old",
+          "originalText": "and stuff the top floor is the best hi can I try yes but the lift's a bit slow with two people it's very old",
+          "originalCueRefs": [
+            {
+              "id": "c0096",
+              "start": 355,
+              "end": 358,
+              "text": "and stuff the top floor is the"
+            },
+            {
+              "id": "c0097",
+              "start": 358,
+              "end": 360,
+              "text": "best hi"
+            },
+            {
+              "id": "c0098",
+              "start": 360,
+              "end": 363,
+              "text": "can I try yes but the lift's a bit slow"
+            },
+            {
+              "id": "c0099",
+              "start": 363,
+              "end": 368,
+              "text": "with two people it's very old"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0096",
+              "start": 355,
+              "end": 358,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0096"
+              ]
+            },
+            {
+              "id": "c0097",
+              "start": 358,
+              "end": 360,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0097"
+              ]
+            },
+            {
+              "id": "c0098",
+              "start": 360,
+              "end": 363,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0098"
+              ]
+            },
+            {
+              "id": "c0099",
+              "start": 363,
+              "end": 368,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0099"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 29,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0029",
+          "quote": "and stuff the top floor is the best hi can I try yes but the lift's a bit slow with two people it's very old",
+          "start": 355,
+          "end": 368,
+          "matchStart": 39,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0029",
+          "quote": "and stuff the top floor is the best hi can I try yes but the lift's a bit slow with two people it's very old",
+          "start": 355,
+          "end": 368,
+          "matchStart": 49,
+          "matchEnd": 52
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0030",
+      "title": "문단 30",
+      "start": 368,
+      "end": 383,
+      "sentenceText": "floor hi everyone this is L she's new I'm showing her let's take the stairs Sor this is your chair oo I'm on",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 30,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0030",
+          "start": 368,
+          "end": 383,
+          "text": "floor hi everyone this is L she's new I'm showing her let's take the stairs Sor this is your chair oo I'm on",
+          "originalText": "floor hi everyone this is L she's new I'm showing her let's take the stairs Sor this is your chair oo I'm on",
+          "originalCueRefs": [
+            {
+              "id": "c0100",
+              "start": 368,
+              "end": 373,
+              "text": "floor hi everyone this is L she's new"
+            },
+            {
+              "id": "c0101",
+              "start": 373,
+              "end": 375,
+              "text": "I'm showing"
+            },
+            {
+              "id": "c0102",
+              "start": 375,
+              "end": 378,
+              "text": "her let's take the"
+            },
+            {
+              "id": "c0103",
+              "start": 379,
+              "end": 383,
+              "text": "stairs Sor this is your chair oo I'm on"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0100",
+              "start": 368,
+              "end": 373,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0100"
+              ]
+            },
+            {
+              "id": "c0101",
+              "start": 373,
+              "end": 375,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0101"
+              ]
+            },
+            {
+              "id": "c0102",
+              "start": 375,
+              "end": 378,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0102"
+              ]
+            },
+            {
+              "id": "c0103",
+              "start": 379,
+              "end": 383,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0103"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 30,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets",
+          "cueId": "c0030",
+          "quote": "floor hi everyone this is L she's new I'm showing her let's take the stairs Sor this is your chair oo I'm on",
+          "start": 368,
+          "end": 383,
+          "matchStart": 54,
+          "matchEnd": 59
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0031",
+      "title": "문단 31",
+      "start": 383,
+      "end": 398,
+      "sentenceText": "I'll show you how it works you push this lever and okay, so you have to collect all the upset upset and all the angry how do I collect upset and angry you just feel where it",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 31,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0031",
+          "start": 383,
+          "end": 398,
+          "text": "I'll show you how it works you push this lever and okay, so you have to collect all the upset upset and all the angry how do I collect upset and angry you just feel where it",
+          "originalText": "I'll show you how it works you push this lever and okay so you have to collect all the upset and all the angry how do I collect upset and angry you just feel where it",
+          "originalCueRefs": [
+            {
+              "id": "c0104",
+              "start": 383,
+              "end": 386,
+              "text": "I'll show you how it works you push this"
+            },
+            {
+              "id": "c0105",
+              "start": 386,
+              "end": 388,
+              "text": "lever"
+            },
+            {
+              "id": "c0106",
+              "start": 388,
+              "end": 391,
+              "text": "and okay so you have to collect all the"
+            },
+            {
+              "id": "c0107",
+              "start": 391,
+              "end": 395,
+              "text": "upset and all the angry how do I collect"
+            },
+            {
+              "id": "c0108",
+              "start": 395,
+              "end": 398,
+              "text": "upset and angry you just feel where it"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0124",
+              "start": 388,
+              "end": 391,
+              "text": "and okay, so you have to collect all the upset"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0104",
+              "start": 383,
+              "end": 386,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0104"
+              ]
+            },
+            {
+              "id": "c0105",
+              "start": 386,
+              "end": 388,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0105"
+              ]
+            },
+            {
+              "id": "c0106",
+              "start": 388,
+              "end": 391,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0106"
+              ]
+            },
+            {
+              "id": "c0107",
+              "start": 391,
+              "end": 395,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0107"
+              ]
+            },
+            {
+              "id": "c0108",
+              "start": 395,
+              "end": 398,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0108"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 31,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0031",
+          "quote": "I'll show you how it works you push this lever and okay, so you have to collect all the upset upset and all the angry how do I collect upset and angry you just feel where it",
+          "start": 383,
+          "end": 398,
+          "matchStart": 64,
+          "matchEnd": 71
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0031",
+          "quote": "I'll show you how it works you push this lever and okay, so you have to collect all the upset upset and all the angry how do I collect upset and angry you just feel where it",
+          "start": 383,
+          "end": 398,
+          "matchStart": 14,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0031",
+          "quote": "I'll show you how it works you push this lever and okay, so you have to collect all the upset upset and all the angry how do I collect upset and angry you just feel where it",
+          "start": 383,
+          "end": 398,
+          "matchStart": 51,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0031",
+          "quote": "I'll show you how it works you push this lever and okay, so you have to collect all the upset upset and all the angry how do I collect upset and angry you just feel where it",
+          "start": 383,
+          "end": 398,
+          "matchStart": 165,
+          "matchEnd": 170
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0032",
+      "title": "문단 32",
+      "start": 398,
+      "end": 413,
+      "sentenceText": "is and go get it h there's usually some in your belly or your neck and always remember to check your ears okay now you've got all that upset and",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 32,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0032",
+          "start": 398,
+          "end": 413,
+          "text": "is and go get it h there's usually some in your belly or your neck and always remember to check your ears okay now you've got all that upset and",
+          "originalText": "is and go get it h there's usually some in your belly or your neck and always remember to check your ears okay now you've got all that upset and",
+          "originalCueRefs": [
+            {
+              "id": "c0109",
+              "start": 398,
+              "end": 401,
+              "text": "is and go get it h there's usually some"
+            },
+            {
+              "id": "c0110",
+              "start": 401,
+              "end": 405,
+              "text": "in your belly or your neck and always"
+            },
+            {
+              "id": "c0111",
+              "start": 405,
+              "end": 409,
+              "text": "remember to check your ears"
+            },
+            {
+              "id": "c0112",
+              "start": 411,
+              "end": 413,
+              "text": "okay now you've got all that upset and"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0109",
+              "start": 398,
+              "end": 401,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0109"
+              ]
+            },
+            {
+              "id": "c0110",
+              "start": 401,
+              "end": 405,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0110"
+              ]
+            },
+            {
+              "id": "c0111",
+              "start": 405,
+              "end": 409,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0111"
+              ]
+            },
+            {
+              "id": "c0112",
+              "start": 411,
+              "end": 413,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0112"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 32,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0032",
+          "quote": "is and go get it h there's usually some in your belly or your neck and always remember to check your ears okay now you've got all that upset and",
+          "start": 398,
+          "end": 413,
+          "matchStart": 106,
+          "matchEnd": 110
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0033",
+      "title": "문단 33",
+      "start": 413,
+      "end": 420,
+      "sentenceText": "angry in your hands, what do I do with it? Do you want to keep it? No, I don't want it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 33,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0033",
+          "start": 413,
+          "end": 420,
+          "text": "angry in your hands, what do I do with it? Do you want to keep it? No, I don't want it.",
+          "originalText": "angry in your hands what do I do with it do you want to keep it no I don't want",
+          "originalCueRefs": [
+            {
+              "id": "c0113",
+              "start": 413,
+              "end": 417,
+              "text": "angry in your hands what do I do with it"
+            },
+            {
+              "id": "c0114",
+              "start": 417,
+              "end": 420,
+              "text": "do you want to keep it no I don't want"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0132",
+              "start": 413,
+              "end": 417,
+              "text": "angry in your hands, what do I do with it?"
+            },
+            {
+              "id": "c0133",
+              "start": 417,
+              "end": 419,
+              "text": "Do you want to keep it?"
+            },
+            {
+              "id": "c0134",
+              "start": 419,
+              "end": 420,
+              "text": "No, I don't want it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0113",
+              "start": 413,
+              "end": 417,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0113"
+              ]
+            },
+            {
+              "id": "c0114",
+              "start": 417,
+              "end": 420,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0114"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 33,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0033",
+          "quote": "angry in your hands, what do I do with it? Do you want to keep it? No, I don't want it.",
+          "start": 413,
+          "end": 420,
+          "matchStart": 21,
+          "matchEnd": 25
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0033",
+          "quote": "angry in your hands, what do I do with it? Do you want to keep it? No, I don't want it.",
+          "start": 413,
+          "end": 420,
+          "matchStart": 50,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0033",
+          "quote": "angry in your hands, what do I do with it? Do you want to keep it? No, I don't want it.",
+          "start": 413,
+          "end": 420,
+          "matchStart": 67,
+          "matchEnd": 69
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0033",
+          "quote": "angry in your hands, what do I do with it? Do you want to keep it? No, I don't want it.",
+          "start": 413,
+          "end": 420,
+          "matchStart": 73,
+          "matchEnd": 78
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0034",
+      "title": "문단 34",
+      "start": 420,
+      "end": 434,
+      "sentenceText": "it well what do you do with something you don't want anymore uh give it to you w I don't want it yeah me neither then what do I do with it you throw it away",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 34,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0034",
+          "start": 420,
+          "end": 434,
+          "text": "it well what do you do with something you don't want anymore uh give it to you w I don't want it yeah me neither then what do I do with it you throw it away",
+          "originalText": "it well what do you do with something you don't want anymore uh give it to you w I don't want it yeah me neither then what do I do with it you throw it away",
+          "originalCueRefs": [
+            {
+              "id": "c0115",
+              "start": 420,
+              "end": 423,
+              "text": "it well what do you do with something"
+            },
+            {
+              "id": "c0116",
+              "start": 423,
+              "end": 426,
+              "text": "you don't want anymore uh give it to you"
+            },
+            {
+              "id": "c0117",
+              "start": 426,
+              "end": 429,
+              "text": "w I don't want it yeah me neither then"
+            },
+            {
+              "id": "c0118",
+              "start": 429,
+              "end": 434,
+              "text": "what do I do with it you throw it away"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0115",
+              "start": 420,
+              "end": 423,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0115"
+              ]
+            },
+            {
+              "id": "c0116",
+              "start": 423,
+              "end": 426,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0116"
+              ]
+            },
+            {
+              "id": "c0117",
+              "start": 426,
+              "end": 429,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0117"
+              ]
+            },
+            {
+              "id": "c0118",
+              "start": 429,
+              "end": 434,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0118"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 34,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0034",
+          "quote": "it well what do you do with something you don't want anymore uh give it to you w I don't want it yeah me neither then what do I do with it you throw it away",
+          "start": 420,
+          "end": 434,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0034",
+          "quote": "it well what do you do with something you don't want anymore uh give it to you w I don't want it yeah me neither then what do I do with it you throw it away",
+          "start": 420,
+          "end": 434,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0034",
+          "quote": "it well what do you do with something you don't want anymore uh give it to you w I don't want it yeah me neither then what do I do with it you throw it away",
+          "start": 420,
+          "end": 434,
+          "matchStart": 42,
+          "matchEnd": 47
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0035",
+      "title": "문단 35",
+      "start": 434,
+      "end": 448,
+      "sentenceText": "oh uh-uh like Mom said you need to throw this thing really far stand sideways like on a skateboard bend your knees yep get comfy that's good and with this arm",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 35,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0035",
+          "start": 434,
+          "end": 448,
+          "text": "oh uh-uh like Mom said you need to throw this thing really far stand sideways like on a skateboard bend your knees yep get comfy that's good and with this arm",
+          "originalText": "oh uh-uh like Mom said you need to throw this thing really far stand sideways like on a skateboard bend your knees yep get comfy that's good and with this arm",
+          "originalCueRefs": [
+            {
+              "id": "c0119",
+              "start": 434,
+              "end": 437,
+              "text": "oh uh-uh like Mom said you need to throw"
+            },
+            {
+              "id": "c0120",
+              "start": 437,
+              "end": 440,
+              "text": "this thing really far stand sideways"
+            },
+            {
+              "id": "c0121",
+              "start": 440,
+              "end": 443,
+              "text": "like on a skateboard bend your knees yep"
+            },
+            {
+              "id": "c0122",
+              "start": 443,
+              "end": 448,
+              "text": "get comfy that's good and with this arm"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0119",
+              "start": 434,
+              "end": 437,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0119"
+              ]
+            },
+            {
+              "id": "c0120",
+              "start": 437,
+              "end": 440,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0120"
+              ]
+            },
+            {
+              "id": "c0121",
+              "start": 440,
+              "end": 443,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0121"
+              ]
+            },
+            {
+              "id": "c0122",
+              "start": 443,
+              "end": 448,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0122"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 35,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0035",
+          "quote": "oh uh-uh like Mom said you need to throw this thing really far stand sideways like on a skateboard bend your knees yep get comfy that's good and with this arm",
+          "start": 434,
+          "end": 448,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0035",
+          "quote": "oh uh-uh like Mom said you need to throw this thing really far stand sideways like on a skateboard bend your knees yep get comfy that's good and with this arm",
+          "start": 434,
+          "end": 448,
+          "matchStart": 27,
+          "matchEnd": 31
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0035",
+          "quote": "oh uh-uh like Mom said you need to throw this thing really far stand sideways like on a skateboard bend your knees yep get comfy that's good and with this arm",
+          "start": 434,
+          "end": 448,
+          "matchStart": 136,
+          "matchEnd": 140
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0036",
+      "title": "문단 36",
+      "start": 448,
+      "end": 458,
+      "sentenceText": "and I just like playing with Indie okay do you think you could scare a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 36,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0036",
+          "start": 448,
+          "end": 458,
+          "text": "and I just like playing with Indie okay do you think you could scare a",
+          "originalText": "and I just like playing with Indie okay do you think you could scare a",
+          "originalCueRefs": [
+            {
+              "id": "c0123",
+              "start": 448,
+              "end": 451,
+              "text": "and"
+            },
+            {
+              "id": "c0124",
+              "start": 451,
+              "end": 452,
+              "text": "I just like playing with"
+            },
+            {
+              "id": "c0125",
+              "start": 452,
+              "end": 455,
+              "text": "Indie okay do you think you could scare"
+            },
+            {
+              "id": "c0126",
+              "start": 455,
+              "end": 458,
+              "text": "a"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0123",
+              "start": 448,
+              "end": 451,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0123"
+              ]
+            },
+            {
+              "id": "c0124",
+              "start": 451,
+              "end": 452,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0124"
+              ]
+            },
+            {
+              "id": "c0125",
+              "start": 452,
+              "end": 455,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0125"
+              ]
+            },
+            {
+              "id": "c0126",
+              "start": 455,
+              "end": 458,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0126"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 36,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0036",
+          "quote": "and I just like playing with Indie okay do you think you could scare a",
+          "start": 448,
+          "end": 458,
+          "matchStart": 11,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0036",
+          "quote": "and I just like playing with Indie okay do you think you could scare a",
+          "start": 448,
+          "end": 458,
+          "matchStart": 35,
+          "matchEnd": 39
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0036",
+          "quote": "and I just like playing with Indie okay do you think you could scare a",
+          "start": 448,
+          "end": 458,
+          "matchStart": 47,
+          "matchEnd": 52
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0037",
+      "title": "문단 37",
+      "start": 463,
+      "end": 475,
+      "sentenceText": "scarecrow what is it it's the pink Witch of the woods hey Coco's not a pink witch yes she is she's got a bro no she uses that to",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 37,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0037",
+          "start": 463,
+          "end": 475,
+          "text": "scarecrow what is it it's the pink Witch of the woods hey Coco's not a pink witch yes she is she's got a bro no she uses that to",
+          "originalText": "scarecrow what is it it's the pink Witch of the woods hey Coco's not a pink witch yes she is she's got a bro no she uses that to",
+          "originalCueRefs": [
+            {
+              "id": "c0127",
+              "start": 463,
+              "end": 466,
+              "text": "scarecrow what is it it's the pink Witch"
+            },
+            {
+              "id": "c0128",
+              "start": 466,
+              "end": 469,
+              "text": "of the woods hey Coco's not a pink witch"
+            },
+            {
+              "id": "c0129",
+              "start": 469,
+              "end": 473,
+              "text": "yes she is she's got a bro no she uses"
+            },
+            {
+              "id": "c0130",
+              "start": 473,
+              "end": 475,
+              "text": "that to"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0127",
+              "start": 463,
+              "end": 466,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0127"
+              ]
+            },
+            {
+              "id": "c0128",
+              "start": 466,
+              "end": 469,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0128"
+              ]
+            },
+            {
+              "id": "c0129",
+              "start": 469,
+              "end": 473,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0129"
+              ]
+            },
+            {
+              "id": "c0130",
+              "start": 473,
+              "end": 475,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0130"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 37,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0037",
+          "quote": "scarecrow what is it it's the pink Witch of the woods hey Coco's not a pink witch yes she is she's got a bro no she uses that to",
+          "start": 463,
+          "end": 475,
+          "matchStart": 10,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0037",
+          "quote": "scarecrow what is it it's the pink Witch of the woods hey Coco's not a pink witch yes she is she's got a bro no she uses that to",
+          "start": 463,
+          "end": 475,
+          "matchStart": 82,
+          "matchEnd": 85
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0037",
+          "quote": "scarecrow what is it it's the pink Witch of the woods hey Coco's not a pink witch yes she is she's got a bro no she uses that to",
+          "start": 463,
+          "end": 475,
+          "matchStart": 109,
+          "matchEnd": 111
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0038",
+      "title": "문단 38",
+      "start": 475,
+      "end": 488,
+      "sentenceText": "wait oh no look this Con is Trel up they all are it must be the work of the pink witch the pink witch has cursed our",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 38,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0038",
+          "start": 475,
+          "end": 488,
+          "text": "wait oh no look this Con is Trel up they all are it must be the work of the pink witch the pink witch has cursed our",
+          "originalText": "wait oh no look this Con is Trel up they all are it must be the work of the pink witch the pink witch has cursed our",
+          "originalCueRefs": [
+            {
+              "id": "c0131",
+              "start": 475,
+              "end": 481,
+              "text": "wait oh no look this Con is Trel up they"
+            },
+            {
+              "id": "c0132",
+              "start": 481,
+              "end": 485,
+              "text": "all are it must be the work of the pink"
+            },
+            {
+              "id": "c0133",
+              "start": 485,
+              "end": 488,
+              "text": "witch the pink witch has cursed our"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0131",
+              "start": 475,
+              "end": 481,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0131"
+              ]
+            },
+            {
+              "id": "c0132",
+              "start": 481,
+              "end": 485,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0132"
+              ]
+            },
+            {
+              "id": "c0133",
+              "start": 485,
+              "end": 488,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0133"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 38,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "wait",
+          "cueId": "c0038",
+          "quote": "wait oh no look this Con is Trel up they all are it must be the work of the pink witch the pink witch has cursed our",
+          "start": 475,
+          "end": 488,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0038",
+          "quote": "wait oh no look this Con is Trel up they all are it must be the work of the pink witch the pink witch has cursed our",
+          "start": 475,
+          "end": 488,
+          "matchStart": 8,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0038",
+          "quote": "wait oh no look this Con is Trel up they all are it must be the work of the pink witch the pink witch has cursed our",
+          "start": 475,
+          "end": 488,
+          "matchStart": 11,
+          "matchEnd": 15
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0039",
+      "title": "문단 39",
+      "start": 488,
+      "end": 501,
+      "sentenceText": "crops I can't be dealing with witches I just bought a new quad bike what are we going to do I have to to keep her happy, otherwise she'll curse our whole farm.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 39,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0039",
+          "start": 488,
+          "end": 501,
+          "text": "crops I can't be dealing with witches I just bought a new quad bike what are we going to do I have to to keep her happy, otherwise she'll curse our whole farm.",
+          "originalText": "crops I can't be dealing with witches I just bought a new quad bike what are we going to do I have to take her some of our food every day to",
+          "originalCueRefs": [
+            {
+              "id": "c0134",
+              "start": 488,
+              "end": 491,
+              "text": "crops I can't be dealing with witches I"
+            },
+            {
+              "id": "c0135",
+              "start": 491,
+              "end": 494,
+              "text": "just bought a new quad"
+            },
+            {
+              "id": "c0136",
+              "start": 496,
+              "end": 498,
+              "text": "bike what are we going to do I have to"
+            },
+            {
+              "id": "c0137",
+              "start": 498,
+              "end": 501,
+              "text": "take her some of our food every day to"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0162",
+              "start": 498,
+              "end": 500,
+              "text": "to keep her happy, otherwise she'll curse"
+            },
+            {
+              "id": "c0163",
+              "start": 500,
+              "end": 501,
+              "text": "our whole farm."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0134",
+              "start": 488,
+              "end": 491,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0134"
+              ]
+            },
+            {
+              "id": "c0135",
+              "start": 491,
+              "end": 494,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0135"
+              ]
+            },
+            {
+              "id": "c0136",
+              "start": 496,
+              "end": 498,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0136"
+              ]
+            },
+            {
+              "id": "c0137",
+              "start": 498,
+              "end": 501,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0137"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 39,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0039",
+          "quote": "crops I can't be dealing with witches I just bought a new quad bike what are we going to do I have to to keep her happy, otherwise she'll curse our whole farm.",
+          "start": 488,
+          "end": 501,
+          "matchStart": 94,
+          "matchEnd": 101
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0039",
+          "quote": "crops I can't be dealing with witches I just bought a new quad bike what are we going to do I have to to keep her happy, otherwise she'll curse our whole farm.",
+          "start": 488,
+          "end": 501,
+          "matchStart": 68,
+          "matchEnd": 72
+        },
+        {
+          "expressionId": "happy",
+          "cueId": "c0039",
+          "quote": "crops I can't be dealing with witches I just bought a new quad bike what are we going to do I have to to keep her happy, otherwise she'll curse our whole farm.",
+          "start": 488,
+          "end": 501,
+          "matchStart": 114,
+          "matchEnd": 119
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0040",
+      "title": "문단 40",
+      "start": 501,
+      "end": 511,
+      "sentenceText": "keep her happy otherwise she'll curse our whole Farm no and it's too dangerous There's a leaf bug in the way. She's so cute!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 40,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0040",
+          "start": 501,
+          "end": 511,
+          "text": "keep her happy otherwise she'll curse our whole Farm no and it's too dangerous There's a leaf bug in the way. She's so cute!",
+          "originalText": "keep her happy otherwise she'll curse our whole Farm no and it's too dangerous don't worry I used to be a world girl",
+          "originalCueRefs": [
+            {
+              "id": "c0138",
+              "start": 501,
+              "end": 503,
+              "text": "keep her happy otherwise she'll curse"
+            },
+            {
+              "id": "c0139",
+              "start": 503,
+              "end": 507,
+              "text": "our whole Farm no and it's too dangerous"
+            },
+            {
+              "id": "c0140",
+              "start": 507,
+              "end": 511,
+              "text": "don't worry I used to be a world girl"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0166",
+              "start": 507,
+              "end": 510,
+              "text": "There's a leaf bug in the way."
+            },
+            {
+              "id": "c0167",
+              "start": 510,
+              "end": 511,
+              "text": "She's so cute!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0138",
+              "start": 501,
+              "end": 503,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0138"
+              ]
+            },
+            {
+              "id": "c0139",
+              "start": 503,
+              "end": 507,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0139"
+              ]
+            },
+            {
+              "id": "c0140",
+              "start": 507,
+              "end": 511,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0140"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 40,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "happy",
+          "cueId": "c0040",
+          "quote": "keep her happy otherwise she'll curse our whole Farm no and it's too dangerous There's a leaf bug in the way. She's so cute!",
+          "start": 501,
+          "end": 511,
+          "matchStart": 9,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0040",
+          "quote": "keep her happy otherwise she'll curse our whole Farm no and it's too dangerous There's a leaf bug in the way. She's so cute!",
+          "start": 501,
+          "end": 511,
+          "matchStart": 53,
+          "matchEnd": 55
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0041",
+      "title": "문단 41",
+      "start": 511,
+      "end": 525,
+      "sentenceText": "there's a leaf bug in the way a she's so cute you have to be more careful leafus you're lucky we didn't squash you I'll move her off the slide come on little",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 41,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0041",
+          "start": 511,
+          "end": 525,
+          "text": "there's a leaf bug in the way a she's so cute you have to be more careful leafus you're lucky we didn't squash you I'll move her off the slide come on little",
+          "originalText": "there's a leaf bug in the way a she's so cute you have to be more careful leafus you're lucky we didn't squash you I'll move her off the slide come on little",
+          "originalCueRefs": [
+            {
+              "id": "c0141",
+              "start": 511,
+              "end": 514,
+              "text": "there's a leaf bug in the way a she's so"
+            },
+            {
+              "id": "c0142",
+              "start": 514,
+              "end": 518,
+              "text": "cute you have to be more careful leafus"
+            },
+            {
+              "id": "c0143",
+              "start": 518,
+              "end": 520,
+              "text": "you're lucky we didn't squash you I'll"
+            },
+            {
+              "id": "c0144",
+              "start": 520,
+              "end": 525,
+              "text": "move her off the slide come on little"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0141",
+              "start": 511,
+              "end": 514,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0141"
+              ]
+            },
+            {
+              "id": "c0142",
+              "start": 514,
+              "end": 518,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0142"
+              ]
+            },
+            {
+              "id": "c0143",
+              "start": 518,
+              "end": 520,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0143"
+              ]
+            },
+            {
+              "id": "c0144",
+              "start": 520,
+              "end": 525,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0144"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 41,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0041",
+          "quote": "there's a leaf bug in the way a she's so cute you have to be more careful leafus you're lucky we didn't squash you I'll move her off the slide come on little",
+          "start": 511,
+          "end": 525,
+          "matchStart": 50,
+          "matchEnd": 57
+        },
+        {
+          "expressionId": "come-on",
+          "cueId": "c0041",
+          "quote": "there's a leaf bug in the way a she's so cute you have to be more careful leafus you're lucky we didn't squash you I'll move her off the slide come on little",
+          "start": 511,
+          "end": 525,
+          "matchStart": 143,
+          "matchEnd": 150
+        },
+        {
+          "expressionId": "careful",
+          "cueId": "c0041",
+          "quote": "there's a leaf bug in the way a she's so cute you have to be more careful leafus you're lucky we didn't squash you I'll move her off the slide come on little",
+          "start": 511,
+          "end": 525,
+          "matchStart": 66,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0041",
+          "quote": "there's a leaf bug in the way a she's so cute you have to be more careful leafus you're lucky we didn't squash you I'll move her off the slide come on little",
+          "start": 511,
+          "end": 525,
+          "matchStart": 151,
+          "matchEnd": 157
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0042",
+      "title": "문단 42",
+      "start": 527,
+      "end": 541,
+      "sentenceText": "fell okay you can go Lea hooray bye leus oh wait stop hey it's a ladybird oh I love ladyb",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 42,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0042",
+          "start": 527,
+          "end": 541,
+          "text": "fell okay you can go Lea hooray bye leus oh wait stop hey it's a ladybird oh I love ladyb",
+          "originalText": "fell okay you can go Lea hooray bye leus oh wait stop hey it's a ladybird oh I love ladyb",
+          "originalCueRefs": [
+            {
+              "id": "c0145",
+              "start": 527,
+              "end": 533,
+              "text": "fell okay you can go Lea hooray bye leus"
+            },
+            {
+              "id": "c0146",
+              "start": 533,
+              "end": 536,
+              "text": "oh wait stop"
+            },
+            {
+              "id": "c0147",
+              "start": 537,
+              "end": 541,
+              "text": "hey it's a ladybird oh I love ladyb"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0145",
+              "start": 527,
+              "end": 533,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0145"
+              ]
+            },
+            {
+              "id": "c0146",
+              "start": 533,
+              "end": 536,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0146"
+              ]
+            },
+            {
+              "id": "c0147",
+              "start": 537,
+              "end": 541,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0147"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 42,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0042",
+          "quote": "fell okay you can go Lea hooray bye leus oh wait stop hey it's a ladybird oh I love ladyb",
+          "start": 527,
+          "end": 541,
+          "matchStart": 5,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0042",
+          "quote": "fell okay you can go Lea hooray bye leus oh wait stop hey it's a ladybird oh I love ladyb",
+          "start": 527,
+          "end": 541,
+          "matchStart": 44,
+          "matchEnd": 48
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0042",
+          "quote": "fell okay you can go Lea hooray bye leus oh wait stop hey it's a ladybird oh I love ladyb",
+          "start": 527,
+          "end": 541,
+          "matchStart": 49,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0042",
+          "quote": "fell okay you can go Lea hooray bye leus oh wait stop hey it's a ladybird oh I love ladyb",
+          "start": 527,
+          "end": 541,
+          "matchStart": 79,
+          "matchEnd": 83
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0043",
+      "title": "문단 43",
+      "start": 541,
+      "end": 554,
+      "sentenceText": "birds we can't squish them come on ladyb Well, I don't like them as much as ladybirds, but I still don't think we should squish them.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 43,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0043",
+          "start": 541,
+          "end": 554,
+          "text": "birds we can't squish them come on ladyb Well, I don't like them as much as ladybirds, but I still don't think we should squish them.",
+          "originalText": "birds we can't squish them come on ladyb bird hey now there's an ant on the slide Bingo can we squish ants well I don't",
+          "originalCueRefs": [
+            {
+              "id": "c0148",
+              "start": 541,
+              "end": 546,
+              "text": "birds we can't squish them come on ladyb"
+            },
+            {
+              "id": "c0149",
+              "start": 546,
+              "end": 550,
+              "text": "bird hey now there's an ant on the slide"
+            },
+            {
+              "id": "c0150",
+              "start": 550,
+              "end": 554,
+              "text": "Bingo can we squish ants well I don't"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0180",
+              "start": 546,
+              "end": 550,
+              "text": "Well, I don't like them as much as ladybirds,"
+            },
+            {
+              "id": "c0181",
+              "start": 550,
+              "end": 554,
+              "text": "but I still don't think we should squish them."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0148",
+              "start": 541,
+              "end": 546,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0148"
+              ]
+            },
+            {
+              "id": "c0149",
+              "start": 546,
+              "end": 550,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0149"
+              ]
+            },
+            {
+              "id": "c0150",
+              "start": 550,
+              "end": 554,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0150"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 43,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0043",
+          "quote": "birds we can't squish them come on ladyb Well, I don't like them as much as ladybirds, but I still don't think we should squish them.",
+          "start": 541,
+          "end": 554,
+          "matchStart": 27,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0043",
+          "quote": "birds we can't squish them come on ladyb Well, I don't like them as much as ladybirds, but I still don't think we should squish them.",
+          "start": 541,
+          "end": 554,
+          "matchStart": 55,
+          "matchEnd": 59
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0043",
+          "quote": "birds we can't squish them come on ladyb Well, I don't like them as much as ladybirds, but I still don't think we should squish them.",
+          "start": 541,
+          "end": 554,
+          "matchStart": 105,
+          "matchEnd": 110
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0043",
+          "quote": "birds we can't squish them come on ladyb Well, I don't like them as much as ladybirds, but I still don't think we should squish them.",
+          "start": 541,
+          "end": 554,
+          "matchStart": 49,
+          "matchEnd": 54
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0044",
+      "title": "문단 44",
+      "start": 554,
+      "end": 559,
+      "sentenceText": "Me neither, come on. Oh, there's another one! What are we going to do?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 44,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0044",
+          "start": 554,
+          "end": 559,
+          "text": "Me neither, come on. Oh, there's another one! What are we going to do?",
+          "originalText": "like them as much as ladyb Birds but I still don't think we should squish them",
+          "originalCueRefs": [
+            {
+              "id": "c0151",
+              "start": 554,
+              "end": 557,
+              "text": "like them as much as ladyb Birds but I"
+            },
+            {
+              "id": "c0152",
+              "start": 557,
+              "end": 559,
+              "text": "still don't think we should squish them"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0182",
+              "start": 554,
+              "end": 556,
+              "text": "Me neither, come on."
+            },
+            {
+              "id": "c0183",
+              "start": 556,
+              "end": 557,
+              "text": "Oh, there's another one!"
+            },
+            {
+              "id": "c0184",
+              "start": 557,
+              "end": 559,
+              "text": "What are we going to do?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0151",
+              "start": 554,
+              "end": 557,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0151"
+              ]
+            },
+            {
+              "id": "c0152",
+              "start": 557,
+              "end": 559,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0152"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 44,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0044",
+          "quote": "Me neither, come on. Oh, there's another one! What are we going to do?",
+          "start": 554,
+          "end": 559,
+          "matchStart": 12,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0044",
+          "quote": "Me neither, come on. Oh, there's another one! What are we going to do?",
+          "start": 554,
+          "end": 559,
+          "matchStart": 46,
+          "matchEnd": 50
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0045",
+      "title": "문단 45",
+      "start": 559,
+      "end": 572,
+      "sentenceText": "me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 45,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0045",
+          "start": 559,
+          "end": 572,
+          "text": "me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+          "originalText": "me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+          "originalCueRefs": [
+            {
+              "id": "c0153",
+              "start": 559,
+              "end": 562,
+              "text": "me neither come on oh there's another"
+            },
+            {
+              "id": "c0154",
+              "start": 562,
+              "end": 567,
+              "text": "one what are we going to do ooh I"
+            },
+            {
+              "id": "c0155",
+              "start": 568,
+              "end": 569,
+              "text": "know"
+            },
+            {
+              "id": "c0156",
+              "start": 569,
+              "end": 572,
+              "text": "if we make walls the little bugs won't"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0153",
+              "start": 559,
+              "end": 562,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0153"
+              ]
+            },
+            {
+              "id": "c0154",
+              "start": 562,
+              "end": 567,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0154"
+              ]
+            },
+            {
+              "id": "c0155",
+              "start": 568,
+              "end": 569,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0155"
+              ]
+            },
+            {
+              "id": "c0156",
+              "start": 569,
+              "end": 572,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0156"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 45,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0045",
+          "quote": "me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+          "start": 559,
+          "end": 572,
+          "matchStart": 11,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0045",
+          "quote": "me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+          "start": 559,
+          "end": 572,
+          "matchStart": 42,
+          "matchEnd": 46
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0045",
+          "quote": "me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+          "start": 559,
+          "end": 572,
+          "matchStart": 72,
+          "matchEnd": 76
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0045",
+          "quote": "me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+          "start": 559,
+          "end": 572,
+          "matchStart": 98,
+          "matchEnd": 104
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0046",
+      "title": "문단 46",
+      "start": 572,
+      "end": 577,
+      "sentenceText": "be able to get over them oh yeah Bingo Um, I have a crab claw.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 46,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0046",
+          "start": 572,
+          "end": 577,
+          "text": "be able to get over them oh yeah Bingo Um, I have a crab claw.",
+          "originalText": "be able to get over them oh yeah Bingo you're ready to practice your Show and",
+          "originalCueRefs": [
+            {
+              "id": "c0157",
+              "start": 572,
+              "end": 576,
+              "text": "be able to get over them oh yeah Bingo"
+            },
+            {
+              "id": "c0158",
+              "start": 576,
+              "end": 577,
+              "text": "you're ready to practice your Show and"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0192",
+              "start": 576,
+              "end": 577,
+              "text": "Um, I have a crab claw."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0157",
+              "start": 572,
+              "end": 576,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0157"
+              ]
+            },
+            {
+              "id": "c0158",
+              "start": 576,
+              "end": 577,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0158"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 46,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0047",
+      "title": "문단 47",
+      "start": 577,
+      "end": 589,
+      "sentenceText": "It's called Show and Tell, Bingo. okay hello everybody hello Bingo um I have a crab",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 47,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0047",
+          "start": 577,
+          "end": 589,
+          "text": "It's called Show and Tell, Bingo. okay hello everybody hello Bingo um I have a crab",
+          "originalText": "Tell for tomorrow um okay hello everybody hello Bingo um I have a crab",
+          "originalCueRefs": [
+            {
+              "id": "c0159",
+              "start": 577,
+              "end": 581,
+              "text": "Tell for tomorrow um"
+            },
+            {
+              "id": "c0160",
+              "start": 581,
+              "end": 586,
+              "text": "okay hello everybody hello Bingo um I"
+            },
+            {
+              "id": "c0161",
+              "start": 586,
+              "end": 589,
+              "text": "have a crab"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0193",
+              "start": 577,
+              "end": 581,
+              "text": "It's called Show and Tell, Bingo."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0159",
+              "start": 577,
+              "end": 581,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0159"
+              ]
+            },
+            {
+              "id": "c0160",
+              "start": 581,
+              "end": 586,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0160"
+              ]
+            },
+            {
+              "id": "c0161",
+              "start": 586,
+              "end": 589,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0161"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 47,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0047",
+          "quote": "It's called Show and Tell, Bingo. okay hello everybody hello Bingo um I have a crab",
+          "start": 577,
+          "end": 589,
+          "matchStart": 34,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "hello",
+          "cueId": "c0047",
+          "quote": "It's called Show and Tell, Bingo. okay hello everybody hello Bingo um I have a crab",
+          "start": 577,
+          "end": 589,
+          "matchStart": 39,
+          "matchEnd": 44
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0048",
+      "title": "문단 48",
+      "start": 591,
+      "end": 597,
+      "sentenceText": "claw it's called Show and Tell Bingo I'm kids switch off if you talk too long.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 48,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0048",
+          "start": 591,
+          "end": 597,
+          "text": "claw it's called Show and Tell Bingo I'm kids switch off if you talk too long.",
+          "originalText": "claw it's called Show and Tell Bingo I'm good at the showing bit but not good at",
+          "originalCueRefs": [
+            {
+              "id": "c0162",
+              "start": 591,
+              "end": 595,
+              "text": "claw it's called Show and Tell Bingo I'm"
+            },
+            {
+              "id": "c0163",
+              "start": 595,
+              "end": 597,
+              "text": "good at the showing bit but not good at"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0197",
+              "start": 595,
+              "end": 597,
+              "text": "kids switch off if you talk too long."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0162",
+              "start": 591,
+              "end": 595,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0162"
+              ]
+            },
+            {
+              "id": "c0163",
+              "start": 595,
+              "end": 597,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0163"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 48,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0049",
+      "title": "문단 49",
+      "start": 597,
+      "end": 612,
+      "sentenceText": "the telling bit Pro tip keep it simple kids switch off if you talk too long maybe you could talk about how crabs have an exoskeleton as opposed to an endoskeleton you see blah blah blah blah skeleton blah blah blah blah blah blah",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 49,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0049",
+          "start": 597,
+          "end": 612,
+          "text": "the telling bit Pro tip keep it simple kids switch off if you talk too long maybe you could talk about how crabs have an exoskeleton as opposed to an endoskeleton you see blah blah blah blah skeleton blah blah blah blah blah blah",
+          "originalText": "the telling bit Pro tip keep it simple kids switch off if you talk too long maybe you could talk about how crabs have an exoskeleton as opposed to an endoskeleton you see blah blah blah blah skeleton blah blah blah blah blah blah",
+          "originalCueRefs": [
+            {
+              "id": "c0164",
+              "start": 597,
+              "end": 601,
+              "text": "the telling bit Pro tip keep it simple"
+            },
+            {
+              "id": "c0165",
+              "start": 601,
+              "end": 603,
+              "text": "kids switch off if you talk too long"
+            },
+            {
+              "id": "c0166",
+              "start": 603,
+              "end": 604,
+              "text": "maybe you could talk about how crabs"
+            },
+            {
+              "id": "c0167",
+              "start": 604,
+              "end": 607,
+              "text": "have an exoskeleton as opposed to an"
+            },
+            {
+              "id": "c0168",
+              "start": 607,
+              "end": 609,
+              "text": "endoskeleton you see blah blah blah blah"
+            },
+            {
+              "id": "c0169",
+              "start": 609,
+              "end": 612,
+              "text": "skeleton blah blah blah blah blah blah"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0164",
+              "start": 597,
+              "end": 601,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0164"
+              ]
+            },
+            {
+              "id": "c0165",
+              "start": 601,
+              "end": 603,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0165"
+              ]
+            },
+            {
+              "id": "c0166",
+              "start": 603,
+              "end": 604,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0166"
+              ]
+            },
+            {
+              "id": "c0167",
+              "start": 604,
+              "end": 607,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0167"
+              ]
+            },
+            {
+              "id": "c0168",
+              "start": 607,
+              "end": 609,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0168"
+              ]
+            },
+            {
+              "id": "c0169",
+              "start": 609,
+              "end": 612,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0169"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 49,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0049",
+          "quote": "the telling bit Pro tip keep it simple kids switch off if you talk too long maybe you could talk about how crabs have an exoskeleton as opposed to an endoskeleton you see blah blah blah blah skeleton blah blah blah blah blah blah",
+          "start": 597,
+          "end": 612,
+          "matchStart": 103,
+          "matchEnd": 106
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0049",
+          "quote": "the telling bit Pro tip keep it simple kids switch off if you talk too long maybe you could talk about how crabs have an exoskeleton as opposed to an endoskeleton you see blah blah blah blah skeleton blah blah blah blah blah blah",
+          "start": 597,
+          "end": 612,
+          "matchStart": 167,
+          "matchEnd": 170
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0050",
+      "title": "문단 50",
+      "start": 612,
+      "end": 625,
+      "sentenceText": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 50,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0050",
+          "start": 612,
+          "end": 625,
+          "text": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+          "originalText": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+          "originalCueRefs": [
+            {
+              "id": "c0170",
+              "start": 612,
+              "end": 616,
+              "text": "mitochondria make sense no"
+            },
+            {
+              "id": "c0171",
+              "start": 616,
+              "end": 619,
+              "text": "see can I have some tomato sauce please"
+            },
+            {
+              "id": "c0172",
+              "start": 619,
+              "end": 621,
+              "text": "yep"
+            },
+            {
+              "id": "c0173",
+              "start": 621,
+              "end": 625,
+              "text": "thanks hey what's that tomato sauce oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0170",
+              "start": 612,
+              "end": 616,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0170"
+              ]
+            },
+            {
+              "id": "c0171",
+              "start": 616,
+              "end": 619,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0171"
+              ]
+            },
+            {
+              "id": "c0172",
+              "start": 619,
+              "end": 621,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0172"
+              ]
+            },
+            {
+              "id": "c0173",
+              "start": 621,
+              "end": 625,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0173"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 50,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0050",
+          "quote": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+          "start": 612,
+          "end": 625,
+          "matchStart": 31,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0050",
+          "quote": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+          "start": 612,
+          "end": 625,
+          "matchStart": 24,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0050",
+          "quote": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+          "start": 612,
+          "end": 625,
+          "matchStart": 27,
+          "matchEnd": 30
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0050",
+          "quote": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+          "start": 612,
+          "end": 625,
+          "matchStart": 60,
+          "matchEnd": 66
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0050",
+          "quote": "mitochondria make sense no see can I have some tomato sauce please yep thanks hey what's that tomato sauce oh",
+          "start": 612,
+          "end": 625,
+          "matchStart": 82,
+          "matchEnd": 86
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0051",
+      "title": "문단 51",
+      "start": 625,
+      "end": 640,
+      "sentenceText": "What's the difference between my tomato sauce this tomato sauce sauce that's your tomato sauce what's the difference between my tomato sauce and your tomato sauce yours is a healthy one it's got less sugar in it",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 51,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0051",
+          "start": 625,
+          "end": 640,
+          "text": "What's the difference between my tomato sauce this tomato sauce sauce that's your tomato sauce what's the difference between my tomato sauce and your tomato sauce yours is a healthy one it's got less sugar in it",
+          "originalText": "uh this is my tomato sauce well who is this tomato sauce sauce that's your tomato sauce what's the difference between my tomato sauce and your tomato sauce yours is a healthy one it's got less sugar in it",
+          "originalCueRefs": [
+            {
+              "id": "c0174",
+              "start": 625,
+              "end": 628,
+              "text": "uh this is my tomato sauce well who is"
+            },
+            {
+              "id": "c0175",
+              "start": 628,
+              "end": 630,
+              "text": "this tomato sauce sauce that's your"
+            },
+            {
+              "id": "c0176",
+              "start": 630,
+              "end": 632,
+              "text": "tomato sauce what's the difference"
+            },
+            {
+              "id": "c0177",
+              "start": 632,
+              "end": 634,
+              "text": "between my tomato sauce and your tomato"
+            },
+            {
+              "id": "c0178",
+              "start": 634,
+              "end": 636,
+              "text": "sauce yours is a healthy one it's got"
+            },
+            {
+              "id": "c0179",
+              "start": 636,
+              "end": 640,
+              "text": "less sugar in it"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0212",
+              "start": 625,
+              "end": 628,
+              "text": "What's the difference between my tomato sauce"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0174",
+              "start": 625,
+              "end": 628,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0174"
+              ]
+            },
+            {
+              "id": "c0175",
+              "start": 628,
+              "end": 630,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0175"
+              ]
+            },
+            {
+              "id": "c0176",
+              "start": 630,
+              "end": 632,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0176"
+              ]
+            },
+            {
+              "id": "c0177",
+              "start": 632,
+              "end": 634,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0177"
+              ]
+            },
+            {
+              "id": "c0178",
+              "start": 634,
+              "end": 636,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0178"
+              ]
+            },
+            {
+              "id": "c0179",
+              "start": 636,
+              "end": 640,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0179"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 51,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0051",
+          "quote": "What's the difference between my tomato sauce this tomato sauce sauce that's your tomato sauce what's the difference between my tomato sauce and your tomato sauce yours is a healthy one it's got less sugar in it",
+          "start": 625,
+          "end": 640,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0052",
+      "title": "문단 52",
+      "start": 640,
+      "end": 643,
+      "sentenceText": "oh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 52,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0052",
+          "start": 640,
+          "end": 643,
+          "text": "oh",
+          "originalText": "oh",
+          "originalCueRefs": [
+            {
+              "id": "c0180",
+              "start": 640,
+              "end": 643,
+              "text": "oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0180",
+              "start": 640,
+              "end": 643,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0180"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 52,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

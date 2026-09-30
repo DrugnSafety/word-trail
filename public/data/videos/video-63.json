@@ -1,0 +1,231 @@
+{
+  "id": "video-63",
+  "number": 63,
+  "title": "How are we enjoying the new Bluey? 💙 #blueyseries3 #shorts",
+  "duration": 15,
+  "declaredDuration": 14,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=jiUC_XIguos",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/63_How are we enjoying the new Bluey? blueyseries3 shorts.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/63_How are we enjoying the new Bluey? blueyseries3 shorts.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "How are we enjoying the new Bluey? 💙 #blueyseries3 #shorts",
+      "start": 0,
+      "end": 15,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 5,
+      "sentenceText": "Okay, Turtleboy, we've picked up the curry. Now to get home safe to the Turtle-missus.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 5,
+          "text": "Okay, Turtleboy, we've picked up the curry. Now to get home safe to the Turtle-missus.",
+          "originalText": "okay terrify you picked up the curry now to get home safe to the turtle misses",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "okay terrify you picked up the curry now"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "to get home safe to the turtle misses"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "Okay, Turtleboy, we've picked up the curry."
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "Now to get home safe to the Turtle-missus."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "Okay, Turtleboy, we've picked up the curry. Now to get home safe to the Turtle-missus.",
+          "start": 0,
+          "end": 5,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "home",
+          "cueId": "c0001",
+          "quote": "Okay, Turtleboy, we've picked up the curry. Now to get home safe to the Turtle-missus.",
+          "start": 0,
+          "end": 5,
+          "matchStart": 55,
+          "matchEnd": 59
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 5,
+      "end": 15,
+      "sentenceText": "You ready? He's ready. That's enough of that.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 5,
+          "end": 15,
+          "text": "You ready? He's ready. That's enough of that.",
+          "originalText": "you ready he's ready that's enough of that",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 12,
+              "text": "you ready he's ready"
+            },
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 15,
+              "text": "that's enough of that"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 9,
+              "text": "You ready?"
+            },
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "text": "He's ready."
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 15,
+              "text": "That's enough of that."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 12,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ready",
+          "cueId": "c0002",
+          "quote": "You ready? He's ready. That's enough of that.",
+          "start": 5,
+          "end": 15,
+          "matchStart": 4,
+          "matchEnd": 9
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

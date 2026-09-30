@@ -1,0 +1,42 @@
+# 60. Wild Girls 🧹 | Brand New - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=sQ9QrOiW2aw
+- Length: 02:03
+- Captions: YouTube auto-generated English captions
+- Script: 00:07 ~ 02:01
+
+---
+
+- `[00:07 - 00:13]` Huh? Wild Daughter? Wild Daughter?
+- `[00:13 - 00:17]` I'm sorry I said that Calypso was wrong.
+- `[00:17 - 00:20]` I was just hungry. Indy!
+- `[00:20 - 00:26]` Indy?
+- `[00:31 - 00:34]` Oh, she's really sad. I just wish there
+- `[00:34 - 00:36]` was a way she could join
+- `[00:36 - 00:38]` in.
+- `[00:38 - 00:42]` Coco, that's some sad howling. Calypso,
+- `[00:42 - 00:45]` can you make Indy play with me and not
+- `[00:45 - 00:48]` Chloe? Indy's in charge of Indy,
+- `[00:48 - 00:50]` sweetheart. Aww, but I want to play Wild
+- `[00:50 - 00:53]` Girls. What do you love about playing
+- `[00:53 - 00:56]` Wild Girls? Uh, the broom. And Indy
+- `[00:56 - 00:58]` bringing food. And I love dancing with
+- `[00:58 - 01:00]` Indy.
+- `[01:00 - 01:02]` I just like playing with
+- `[01:02 - 01:05]` Indy. Okay. Do you think you could scare
+- `[01:05 - 01:07]` a
+- `[01:12 - 01:15]` scarecrow? What is it? It's the Pink Witch
+- `[01:15 - 01:19]` of the woods. Hey, Coco's not a pink witch.
+- `[01:19 - 01:22]` Yes, she is. She's got a broom. No, she uses
+- `[01:22 - 01:25]` that to... Wait.
+- `[01:25 - 01:30]` Oh, no! Look, this corn is shriveled up.
+- `[01:30 - 01:33]` They all are! It must be the work of the
+- `[01:33 - 01:34]` Pink
+- `[01:34 - 01:37]` Witch. The Pink Witch has cursed our
+- `[01:37 - 01:41]` crops. I can't be dealing with witches. I
+- `[01:41 - 01:44]` just bought a new quad
+- `[01:45 - 01:48]` bike. What are we going to do? I have to
+- `[01:48 - 01:50]` take her some of our food every day to
+- `[01:50 - 01:52]` keep her happy, otherwise she'll curse
+- `[01:52 - 01:56]` our whole farm. No, it's too dangerous.
+- `[01:56 - 02:01]` Don't worry, I used to be a wild girl.

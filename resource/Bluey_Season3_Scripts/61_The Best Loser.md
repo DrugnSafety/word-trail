@@ -1,0 +1,44 @@
+# 61. The Best Loser | Pass the Parcel - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=R2mLsd_ramg
+- Length: 02:04
+- Captions: YouTube auto-generated English captions
+- Script: 00:03 ~ 02:05
+
+---
+
+- `[00:03 - 00:06]` Maybe next time.
+- `[00:06 - 00:08]` Ready for pass-the-parcel?
+- `[00:08 - 00:09]` Yeah! We're doing
+- `[00:09 - 00:10]` Lucky's Dad's rules!
+- `[00:10 - 00:13]` Alright!
+- `[00:13 - 00:16]` Did they say "hooray"?
+- `[00:16 - 00:19]` Please let me win this time!
+- `[00:35 - 00:37]` It's me!
+- `[00:37 - 00:41]` Bingo! Look! A bubble shooter!
+- `[00:41 - 00:43]` Wow!
+- `[00:44 - 00:47]` I love Lucky's Dad's rules!
+- `[00:47 - 00:48]` What have you started?
+- `[00:48 - 00:50]` I'm sorry you
+- `[00:50 - 00:52]` didn't win pass-the-parcel, Bingo.
+- `[00:52 - 00:53]` It's okay. I don't mind.
+- `[00:53 - 00:55]` Really? Yeah.
+- `[00:55 - 00:59]` When Lila is happy, I'm happy.
+- `[00:59 - 01:00]` Maybe next time.
+- `[01:00 - 01:03]` You know what, Bingo? I think you're
+- `[01:03 - 01:06]` getting quite good at losing.
+- `[01:25 - 01:27]` How do you want to do pass-the-parcel
+- `[01:27 - 01:28]` tomorrow?
+- `[01:28 - 01:30]` Um... I'll let Bingo choose.
+- `[01:30 - 01:31]` Really? Thanks, Bluey.
+- `[01:31 - 01:33]` Which way do you want to play,
+- `[01:33 - 01:35]` Bingo?
+- `[01:35 - 01:38]` Okay, ready for pass-the-parcel? Yeah!
+- `[01:38 - 01:41]` I think it's only fitting to let Lucky's
+- `[01:41 - 01:44]` Dad do the honours.
+- `[01:44 - 01:48]` Oh, righto! Good on youse.
+- `[01:52 - 01:55]` You'll see! Well, Bingo, whatever way is
+- `[01:55 - 01:57]` okay with me.
+- `[01:57 - 01:59]` What happened to raising a nation of
+- `[01:59 - 02:02]` squibs?
+- `[02:02 - 02:05]` Ah, look, let them have some fun.

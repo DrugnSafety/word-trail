@@ -1,0 +1,48 @@
+# 62. Chocolate Milk and Cherry 🍫 🍒 💙 | Bluey Valentine's Day Clip 🥰 | Clip from Tradies | Bluey
+
+- Video: https://www.youtube.com/watch?v=BCv01uu2Ac8
+- Length: 01:58
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 01:49
+
+---
+
+- `[00:00 - 00:01]` Are you guys eating ice cream?
+- `[00:01 - 00:02]` No, sorry, Chilli.
+- `[00:02 - 00:03]` That was me.
+- `[00:03 - 00:05]` Still 3 days, Sparky.
+- `[00:05 - 00:07]` Uh, yep, yep.
+- `[00:07 - 00:11]` Uh, four at the most.
+- `[00:11 - 00:11]` Okay.
+- `[00:11 - 00:13]` I tell you what,
+- `[00:13 - 00:15]` I wouldn't want to be your mum's enemy.
+- `[00:15 - 00:16]` Good chatting with you.
+- `[00:16 - 00:18]` I guess we'll go back to being enemies now.
+- `[00:18 - 00:22]` Um, yeah.
+- `[00:22 - 00:24]` Hey, Chippy, where's the tape measure?
+- `[00:24 - 00:28]` Oh, not again.
+- `[00:30 - 00:33]` Where is that tape measure?
+- `[00:33 - 00:37]` Oh, how about that?
+- `[00:46 - 00:48]` Oh.
+- `[00:48 - 00:50]` What the...
+- `[00:50 - 00:51]` You're kidding.
+- `[00:51 - 00:54]` Ho ho.
+- `[00:54 - 00:55]` Oh.
+- `[00:55 - 00:57]` Oh, man.
+- `[01:01 - 01:03]` Bluey, come quick.
+- `[01:03 - 01:04]` I think they're finished.
+- `[01:04 - 01:06]` What?
+- `[01:06 - 01:08]` Wow.
+- `[01:08 - 01:12]` All right, kids. What do you reckon?
+- `[01:17 - 01:19]` It's amazing.
+- `[01:22 - 01:25]` Thank you for our fish pond. We love it.
+- `[01:25 - 01:27]` You're welcome.
+- `[01:27 - 01:30]` And you did it in 3 days.
+- `[01:30 - 01:32]` Well, I work better on a full stomach.
+- `[01:32 - 01:34]` He did well, too.
+- `[01:34 - 01:35]` Yep. Chippy can work hard when he wants to.
+- `[01:35 - 01:37]` Yep. Okay, see you later. Bye.
+- `[01:39 - 01:42]` See you, Chippy.
+- `[01:42 - 01:44]` Oh, is Chocolate Milk,
+- `[01:44 - 01:46]` I mean, Chippy, not going with you?
+- `[01:46 - 01:49]` Nah, he's got a lift.

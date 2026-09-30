@@ -1,0 +1,59 @@
+# 59. Stickbird ☀️ | Brand New Season 3 Clip - Stickbird | Bluey
+
+- Video: https://www.youtube.com/watch?v=WKD4Mg3nbnY
+- Length: 02:04
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:06
+
+---
+
+- `[00:00 - 00:02]` Some kids ruined my stick bird.
+- `[00:02 - 00:03]` Oh, I can
+- `[00:03 - 00:05]` show you a trick my buddy Mia taught me,
+- `[00:05 - 00:07]` if you like.
+- `[00:07 - 00:11]` It's for after you're upset and angry.
+- `[00:11 - 00:13]` So, you have to collect all the upset and all the angry.
+- `[00:13 - 00:14]` How do I
+- `[00:14 - 00:18]` collect upset and angry?
+- `[00:18 - 00:21]` You just feel where it is, and go get it.
+- `[00:21 - 00:24]` There's usually some in your belly or your neck,
+- `[00:24 - 00:27]` and always remember to check your ears.
+- `[00:27 - 00:30]` Okay.
+- `[00:32 - 00:34]` Now you've got all that upset and angry
+- `[00:34 - 00:37]` in your hands. What do I do with it?
+- `[00:37 - 00:39]` Do you want to keep it?
+- `[00:39 - 00:41]` No, I don't want it.
+- `[00:41 - 00:43]` Well, what do you do with something you
+- `[00:43 - 00:45]` don't want anymore?
+- `[00:45 - 00:46]` Uh, give it to you?
+- `[00:46 - 00:48]` I don't want it!
+- `[00:48 - 00:50]` Yeah, me neither.
+- `[00:50 - 00:52]` Then what do I do with it?
+- `[00:52 - 00:54]` You throw it away.
+- `[00:54 - 00:55]` Oh.
+- `[00:55 - 00:57]` Uh-uh, like Mum said,
+- `[00:57 - 01:00]` you need to throw this thing really far, sideways, like
+- `[01:00 - 01:02]` on a skateboard. Bend your knees,
+- `[01:02 - 01:03]` yeah, get comfy.
+- `[01:03 - 01:06]` That's good, and with this arm...
+- `[01:06 - 01:08]` and whoa, it's going all the way out to sea!
+- `[01:08 - 01:12]` Look for the splash! Look for the splash!
+- `[01:12 - 01:15]` There! Did you see it?
+- `[01:15 - 01:17]` Yes! It was a
+- `[01:17 - 01:19]` million miles away!
+- `[01:19 - 01:21]` Good throw!
+- `[01:21 - 01:23]` Yeah, good one, Bingo.
+- `[01:23 - 01:24]` Thanks!
+- `[01:24 - 01:26]` So, how do you feel?
+- `[01:26 - 01:27]` Good! Yay!
+- `[01:27 - 01:29]` Thanks, Lou.
+- `[01:29 - 01:31]` Yeah, thanks, Lou.
+- `[01:31 - 01:32]` Thanks, Mia, she taught me it.
+- `[01:32 - 01:34]` Oh, and Mum, for the far bit.
+- `[01:34 - 01:35]` Can we have a race to Mum?
+- `[01:35 - 01:37]` Yeah! Dad, do you want to race too?
+- `[01:37 - 01:38]` Yeah, okay,
+- `[01:38 - 01:41]` I'll give you a head start.
+- `[01:41 - 01:42]` Okay, ready... go!
+- `[01:42 - 01:43]` I'm winning!
+- `[02:00 - 02:06]` Here I come!

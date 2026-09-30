@@ -1,0 +1,1843 @@
+{
+  "id": "video-85",
+  "number": 85,
+  "title": "Winton Loves Being Silly!",
+  "duration": 128,
+  "declaredDuration": 127,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=7dWk3Zg5KMc",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/85_Winton Loves Being Silly!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/85_Winton Loves Being Silly!.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-repaired-zero-duration-cues",
+    "contains-non-speech-cues",
+    "contains-raw-original-text",
+    "contains-non-spoken-annotation-removal"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Winton Loves Being Silly!",
+      "start": 0,
+      "end": 128,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012",
+        "c0013",
+        "c0014",
+        "c0015",
+        "c0016"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 8,
+      "sentenceText": "One day in these class were making animals out of beeswax. The terriers were making piranhas.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 8,
+          "text": "One day in these class were making animals out of beeswax. The terriers were making piranhas.",
+          "originalText": "One day in these class were making animals out of beeswax. [music] The terriers were making piranhas.",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "One day in these class were making"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "animals out of beeswax. [music]"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 8,
+              "text": "The terriers were making piranhas."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 8,
+              "text": "The terriers were making piranhas."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 8,
+      "end": 13,
+      "sentenceText": "Bluey was making a whale. Winton was...",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 8,
+          "end": 13,
+          "text": "Bluey was making a whale. Winton was...",
+          "originalText": "Bluey was making a whale. WINTON WAS",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 11,
+              "text": "Bluey was making a whale."
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "text": "WINTON WAS"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 8,
+              "end": 11,
+              "text": "Bluey was making a whale."
+            },
+            {
+              "id": "c0004",
+              "start": 11,
+              "end": 13,
+              "text": "Winton was..."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 8,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 11,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 13,
+      "end": 18,
+      "sentenceText": "Booger! Ew! Well, Winton was Winton.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 13,
+          "end": 18,
+          "text": "Booger! Ew! Well, Winton was Winton.",
+          "originalText": "BOOGER. EW. WELL, WINTON WAS WINTON.",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 14,
+              "text": "BOOGER."
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 15,
+              "text": "EW."
+            },
+            {
+              "id": "c0008",
+              "start": 15,
+              "end": 18,
+              "text": "WELL, WINTON WAS WINTON."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 13,
+              "end": 14,
+              "text": "Booger!"
+            },
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 15,
+              "text": "Ew!"
+            },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 18,
+              "text": "Well, Winton was Winton."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 13,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 15,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 18,
+      "end": 32,
+      "sentenceText": "And Indy, the hero of this story, was making a horse. She worked at it very hard. First she made the horse's body, then its legs, then she made the tail, and finally the head.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 18,
+          "end": 32,
+          "text": "And Indy, the hero of this story, was making a horse. She worked at it very hard. First she made the horse's body, then its legs, then she made the tail, and finally the head.",
+          "originalText": "And Indy, the hero of this story, was [music] making a horse. She worked at it very hard. First she made the horse's body, then its legs, then she made the [music] tail, and finally the head.",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 20,
+              "text": "And Indy, the hero of this story, was"
+            },
+            {
+              "id": "c0010",
+              "start": 20,
+              "end": 23,
+              "text": "[music] making a horse. She worked at it"
+            },
+            {
+              "id": "c0011",
+              "start": 23,
+              "end": 26,
+              "text": "very hard. First she made the horse's"
+            },
+            {
+              "id": "c0012",
+              "start": 26,
+              "end": 27,
+              "text": "body,"
+            },
+            {
+              "id": "c0013",
+              "start": 27,
+              "end": 29,
+              "text": "then its legs, then she made the [music]"
+            },
+            {
+              "id": "c0014",
+              "start": 29,
+              "end": 32,
+              "text": "tail, and finally the head."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 20,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 26,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 27,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 29,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 32,
+      "end": 42,
+      "sentenceText": "Horsey! She was very pleased with it. Hey Bluey, look. Oh, wow. But there was a problem. That's a great cow, Indy.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 32,
+          "end": 42,
+          "text": "Horsey! She was very pleased with it. Hey Bluey, look. Oh, wow. But there was a problem. That's a great cow, Indy.",
+          "originalText": "Fussy. She was very [music] pleased with it. Hey Bluey, look. Oh, wow. But there was a problem. That's a great cow, Indy.",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 32,
+              "end": 34,
+              "text": "Fussy."
+            },
+            {
+              "id": "c0016",
+              "start": 34,
+              "end": 36,
+              "text": "She was very [music] pleased with it."
+            },
+            {
+              "id": "c0017",
+              "start": 36,
+              "end": 39,
+              "text": "Hey Bluey, look. Oh, wow. But there was"
+            },
+            {
+              "id": "c0018",
+              "start": 39,
+              "end": 42,
+              "text": "a problem. That's a great cow, Indy."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 32,
+              "end": 34,
+              "text": "Horsey!"
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 36,
+              "text": "She was very pleased with it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 32,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 34,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 36,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 39,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0005",
+          "quote": "Horsey! She was very pleased with it. Hey Bluey, look. Oh, wow. But there was a problem. That's a great cow, Indy.",
+          "start": 32,
+          "end": 42,
+          "matchStart": 49,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "great",
+          "cueId": "c0005",
+          "quote": "Horsey! She was very pleased with it. Hey Bluey, look. Oh, wow. But there was a problem. That's a great cow, Indy.",
+          "start": 32,
+          "end": 42,
+          "matchStart": 98,
+          "matchEnd": 103
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 42,
+      "end": 52,
+      "sentenceText": "Indy's horse looked like a cow. Nice cow, Indy. It's not a cow, it's a horse. No, that's a cow.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 42,
+          "end": 52,
+          "text": "Indy's horse looked like a cow. Nice cow, Indy. It's not a cow, it's a horse. No, that's a cow.",
+          "originalText": "Cow? Indy's horse looked like a cow. Nice cow, Indy. It's not a cow, it's a horse. No, that's a cow.",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 42,
+              "end": 45,
+              "text": "Cow? Indy's horse looked like a cow."
+            },
+            {
+              "id": "c0020",
+              "start": 45,
+              "end": 48,
+              "text": "Nice cow, Indy. It's not a cow, it's a"
+            },
+            {
+              "id": "c0021",
+              "start": 48,
+              "end": 52,
+              "text": "horse. No, that's a cow."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 42,
+              "end": 45,
+              "text": "Indy's horse looked like a cow."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 48,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0006",
+          "quote": "Indy's horse looked like a cow. Nice cow, Indy. It's not a cow, it's a horse. No, that's a cow.",
+          "start": 42,
+          "end": 52,
+          "matchStart": 20,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "nice",
+          "cueId": "c0006",
+          "quote": "Indy's horse looked like a cow. Nice cow, Indy. It's not a cow, it's a horse. No, that's a cow.",
+          "start": 42,
+          "end": 52,
+          "matchStart": 32,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "Indy's horse looked like a cow. Nice cow, Indy. It's not a cow, it's a horse. No, that's a cow.",
+          "start": 42,
+          "end": 52,
+          "matchStart": 78,
+          "matchEnd": 80
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 52,
+      "end": 59,
+      "sentenceText": "Winton... Yes? Winton! Winton, why can't you just be good?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 52,
+          "end": 59,
+          "text": "Winton... Yes? Winton! Winton, why can't you just be good?",
+          "originalText": "Winton. Yes. Winton. Winton, why can't you just be good? Cuz",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 52,
+              "end": 54,
+              "text": "Winton. Yes."
+            },
+            {
+              "id": "c0023",
+              "start": 54,
+              "end": 56,
+              "text": "Winton."
+            },
+            {
+              "id": "c0024",
+              "start": 56,
+              "end": 59,
+              "text": "Winton, why can't you just be good? Cuz"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 52,
+              "end": 54,
+              "text": "Winton... Yes?"
+            },
+            {
+              "id": "c0024",
+              "start": 54,
+              "end": 56,
+              "text": "Winton!"
+            },
+            {
+              "id": "c0025",
+              "start": 56,
+              "end": 59,
+              "text": "Winton, why can't you just be good?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 52,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 54,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 56,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0007",
+          "quote": "Winton... Yes? Winton! Winton, why can't you just be good?",
+          "start": 52,
+          "end": 59,
+          "matchStart": 10,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0007",
+          "quote": "Winton... Yes? Winton! Winton, why can't you just be good?",
+          "start": 52,
+          "end": 59,
+          "matchStart": 31,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0007",
+          "quote": "Winton... Yes? Winton! Winton, why can't you just be good?",
+          "start": 52,
+          "end": 59,
+          "matchStart": 53,
+          "matchEnd": 57
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 59,
+      "end": 64,
+      "sentenceText": "'Cause I'm not good. Indy was very upset.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 59,
+          "end": 64,
+          "text": "'Cause I'm not good. Indy was very upset.",
+          "originalText": "I'm not good. Indy was very upset.",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 59,
+              "end": 64,
+              "text": "I'm not good. Indy was very upset."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 59,
+              "end": 61,
+              "text": "'Cause I'm not good."
+            },
+            {
+              "id": "c0027",
+              "start": 61,
+              "end": 64,
+              "text": "Indy was very upset."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 59,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0008",
+          "quote": "'Cause I'm not good. Indy was very upset.",
+          "start": 59,
+          "end": 64,
+          "matchStart": 15,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 64,
+      "end": 73,
+      "sentenceText": "She was so upset when her teacher came to see if she was all Indy said, I don't want to make animals out of beeswax ever again.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 64,
+          "end": 73,
+          "text": "She was so upset when her teacher came to see if she was all Indy said, I don't want to make animals out of beeswax ever again.",
+          "originalText": "She was so upset when her teacher [music] came to see if she was all right, Indy said, I don't want to make animals out of beeswax ever again. Oh,",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 64,
+              "end": 66,
+              "text": "She was so upset when her teacher"
+            },
+            {
+              "id": "c0027",
+              "start": 66,
+              "end": 68,
+              "text": "[music] came to see if she was all"
+            },
+            {
+              "id": "c0028",
+              "start": 68,
+              "end": 70,
+              "text": "right, Indy said, I don't want to make"
+            },
+            {
+              "id": "c0029",
+              "start": 70,
+              "end": 73,
+              "text": "animals out of beeswax ever again. Oh,"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 68,
+              "end": 69,
+              "text": "Indy said,"
+            },
+            {
+              "id": "c0032",
+              "start": 69,
+              "end": 70,
+              "text": "I don't want to make animals"
+            },
+            {
+              "id": "c0033",
+              "start": 70,
+              "end": 73,
+              "text": "out of beeswax ever again."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 64,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 66,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 68,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0009",
+          "quote": "She was so upset when her teacher came to see if she was all Indy said, I don't want to make animals out of beeswax ever again.",
+          "start": 64,
+          "end": 73,
+          "matchStart": 42,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0009",
+          "quote": "She was so upset when her teacher came to see if she was all Indy said, I don't want to make animals out of beeswax ever again.",
+          "start": 64,
+          "end": 73,
+          "matchStart": 80,
+          "matchEnd": 84
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0009",
+          "quote": "She was so upset when her teacher came to see if she was all Indy said, I don't want to make animals out of beeswax ever again.",
+          "start": 64,
+          "end": 73,
+          "matchStart": 121,
+          "matchEnd": 126
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0009",
+          "quote": "She was so upset when her teacher came to see if she was all Indy said, I don't want to make animals out of beeswax ever again.",
+          "start": 64,
+          "end": 73,
+          "matchStart": 74,
+          "matchEnd": 79
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 73,
+      "end": 78,
+      "sentenceText": "Oh, goodness me. Tell me why, Indy? Because my horse looks like a cow.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 73,
+          "end": 78,
+          "text": "Oh, goodness me. Tell me why, Indy? Because my horse looks like a cow.",
+          "originalText": "goodness me. Tell me why, Indy. Because my horse looks like a cow.",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 73,
+              "end": 76,
+              "text": "goodness me. Tell me why, Indy. Because"
+            },
+            {
+              "id": "c0031",
+              "start": 76,
+              "end": 78,
+              "text": "my horse looks like a cow."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0034",
+              "start": 73,
+              "end": 76,
+              "text": "Oh, goodness me. Tell me why, Indy?"
+            },
+            {
+              "id": "c0035",
+              "start": 76,
+              "end": 78,
+              "text": "Because my horse looks like a cow."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 73,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 76,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0010",
+          "quote": "Oh, goodness me. Tell me why, Indy? Because my horse looks like a cow.",
+          "start": 73,
+          "end": 78,
+          "matchStart": 25,
+          "matchEnd": 28
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0010",
+          "quote": "Oh, goodness me. Tell me why, Indy? Because my horse looks like a cow.",
+          "start": 73,
+          "end": 78,
+          "matchStart": 59,
+          "matchEnd": 63
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 78,
+      "end": 85,
+      "sentenceText": "And why do you think that is? And then Indy said something very sad.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 78,
+          "end": 85,
+          "text": "And why do you think that is? And then Indy said something very sad.",
+          "originalText": "And why do you think that is? Because And then Indy said something very sad.",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 78,
+              "end": 81,
+              "text": "And why do you think that is? Because"
+            },
+            {
+              "id": "c0033",
+              "start": 81,
+              "end": 85,
+              "text": "And then Indy said something very sad."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 78,
+              "end": 81,
+              "text": "And why do you think that is?"
+            },
+            {
+              "id": "c0038",
+              "start": 81,
+              "end": 85,
+              "text": "And then Indy said something very sad."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 78,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 81,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0011",
+          "quote": "And why do you think that is? And then Indy said something very sad.",
+          "start": 78,
+          "end": 85,
+          "matchStart": 4,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0011",
+          "quote": "And why do you think that is? And then Indy said something very sad.",
+          "start": 78,
+          "end": 85,
+          "matchStart": 15,
+          "matchEnd": 20
+        },
+        {
+          "expressionId": "sad",
+          "cueId": "c0011",
+          "quote": "And why do you think that is? And then Indy said something very sad.",
+          "start": 78,
+          "end": 85,
+          "matchStart": 64,
+          "matchEnd": 67
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 85,
+      "end": 91,
+      "sentenceText": "I'm not very good. Plop!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 85,
+          "end": 91,
+          "text": "I'm not very good. Plop!",
+          "originalText": "I'm not very good. Plop.",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 85,
+              "end": 88,
+              "text": "I'm not very good."
+            },
+            {
+              "id": "c0035",
+              "start": 89,
+              "end": 91,
+              "text": "Plop."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0040",
+              "start": 89,
+              "end": 91,
+              "text": "Plop!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 85,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 89,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0012",
+          "quote": "I'm not very good. Plop!",
+          "start": 85,
+          "end": 91,
+          "matchStart": 13,
+          "matchEnd": 17
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0013",
+      "title": "문단 13",
+      "start": 91,
+      "end": 104,
+      "sentenceText": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 13,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0013",
+          "start": 91,
+          "end": 104,
+          "text": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "originalText": "So, rather than work at it, Indy never made anything [music] out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 91,
+              "end": 93,
+              "text": "So, rather than work at it, Indy never"
+            },
+            {
+              "id": "c0037",
+              "start": 93,
+              "end": 95,
+              "text": "made anything [music] out of beeswax"
+            },
+            {
+              "id": "c0038",
+              "start": 95,
+              "end": 98,
+              "text": "ever again. What? Why? Because she told"
+            },
+            {
+              "id": "c0039",
+              "start": 98,
+              "end": 101,
+              "text": "herself she wasn't very good. Oh, yeah,"
+            },
+            {
+              "id": "c0040",
+              "start": 101,
+              "end": 104,
+              "text": "it did. And it's true, I'm not."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0041",
+              "start": 91,
+              "end": 93,
+              "text": "So, rather than work at it,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 91,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 93,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
+            },
+            {
+              "id": "c0038",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
+            {
+              "id": "c0039",
+              "start": 98,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0039"
+              ]
+            },
+            {
+              "id": "c0040",
+              "start": 101,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0040"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 13,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "again",
+          "cueId": "c0013",
+          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 91,
+          "end": 104,
+          "matchStart": 62,
+          "matchEnd": 67
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0013",
+          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 91,
+          "end": 104,
+          "matchStart": 69,
+          "matchEnd": 73
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0013",
+          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 91,
+          "end": 104,
+          "matchStart": 75,
+          "matchEnd": 78
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0013",
+          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 91,
+          "end": 104,
+          "matchStart": 121,
+          "matchEnd": 125
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 14",
+      "start": 104,
+      "end": 111,
+      "sentenceText": "The end. I don't like that story, Calypso.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 14,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 104,
+          "end": 111,
+          "text": "The end. I don't like that story, Calypso.",
+          "originalText": "The end. I don't like that story, Calypso. Me,",
+          "originalCueRefs": [
+            {
+              "id": "c0041",
+              "start": 104,
+              "end": 107,
+              "text": "The end."
+            },
+            {
+              "id": "c0042",
+              "start": 108,
+              "end": 111,
+              "text": "I don't like that story, Calypso. Me,"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0049",
+              "start": 108,
+              "end": 111,
+              "text": "I don't like that story, Calypso."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0041",
+              "start": 104,
+              "end": 107,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 14,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0014",
+          "quote": "The end. I don't like that story, Calypso.",
+          "start": 104,
+          "end": 111,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0014",
+          "quote": "The end. I don't like that story, Calypso.",
+          "start": 104,
+          "end": 111,
+          "matchStart": 11,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 15",
+      "start": 111,
+      "end": 125,
+      "sentenceText": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 15,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 111,
+          "end": 125,
+          "text": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "originalText": "neither. But it's [music] your story. I liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "originalCueRefs": [
+            {
+              "id": "c0043",
+              "start": 111,
+              "end": 113,
+              "text": "neither. But it's [music] your story. I"
+            },
+            {
+              "id": "c0044",
+              "start": 113,
+              "end": 115,
+              "text": "liked how I was in it. I I like how Indy"
+            },
+            {
+              "id": "c0045",
+              "start": 115,
+              "end": 117,
+              "text": "gives up. Well, why don't you tell a"
+            },
+            {
+              "id": "c0046",
+              "start": 117,
+              "end": 120,
+              "text": "different story? Yeah, and make me"
+            },
+            {
+              "id": "c0047",
+              "start": 120,
+              "end": 125,
+              "text": "really muscular, please. Um, okay."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0051",
+              "start": 111,
+              "end": 113,
+              "text": "But it's your story."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0043",
+              "start": 111,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 113,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            },
+            {
+              "id": "c0045",
+              "start": 115,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0045"
+              ]
+            },
+            {
+              "id": "c0046",
+              "start": 117,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0046"
+              ]
+            },
+            {
+              "id": "c0047",
+              "start": 120,
+              "end": 125,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0047"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 15,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0015",
+          "quote": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "start": 111,
+          "end": 125,
+          "matchStart": 27,
+          "matchEnd": 30
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0015",
+          "quote": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "start": 111,
+          "end": 125,
+          "matchStart": 48,
+          "matchEnd": 52
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0015",
+          "quote": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "start": 111,
+          "end": 125,
+          "matchStart": 78,
+          "matchEnd": 81
+        },
+        {
+          "expressionId": "please",
+          "cueId": "c0015",
+          "quote": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "start": 111,
+          "end": 125,
+          "matchStart": 151,
+          "matchEnd": 157
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0015",
+          "quote": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "start": 111,
+          "end": 125,
+          "matchStart": 163,
+          "matchEnd": 167
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0015",
+          "quote": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
+          "start": 111,
+          "end": 125,
+          "matchStart": 82,
+          "matchEnd": 87
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0016",
+      "title": "문단 16",
+      "start": 126,
+      "end": 128,
+      "sentenceText": ">> [music]",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 16,
+      "selectable": false,
+      "cues": [
+        {
+          "id": "c0016",
+          "start": 126,
+          "end": 128,
+          "text": ">> [music]",
+          "originalText": ">> [music]",
+          "originalCueRefs": [
+            {
+              "id": "c0048",
+              "start": 126,
+              "end": 128,
+              "text": ">> [music]"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0048",
+              "start": 126,
+              "end": 128,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0048"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 16,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment",
+        "non-speech-cue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1131 @@
+{
+  "id": "video-31",
+  "number": 31,
+  "title": "The Big Whale Jump!  🐳 | Whale Watching | Bluey",
+  "duration": 124,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=VdeGNEKqUyw",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/31_The Big Whale Jump!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/31_The Big Whale Jump!.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "The Big Whale Jump!  🐳 | Whale Watching | Bluey",
+      "start": 4,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 4,
+      "end": 16,
+      "sentenceText": "wow whales eat a lot they can eat up to five bags a day these are very bad for you okay kids only whales should eat",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 4,
+          "end": 16,
+          "text": "wow whales eat a lot they can eat up to five bags a day these are very bad for you okay kids only whales should eat",
+          "originalText": "wow whales eat a lot they can eat up to five bags a day these are very bad for you okay kids only whales should eat",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 4,
+              "end": 7,
+              "text": "wow whales eat a lot they can eat up to"
+            },
+            {
+              "id": "c0002",
+              "start": 7,
+              "end": 12,
+              "text": "five bags a day these are very bad for"
+            },
+            {
+              "id": "c0003",
+              "start": 12,
+              "end": 14,
+              "text": "you okay kids only"
+            },
+            {
+              "id": "c0004",
+              "start": 14,
+              "end": 16,
+              "text": "whales should eat"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 7,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 12,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 14,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0001",
+          "quote": "wow whales eat a lot they can eat up to five bags a day these are very bad for you okay kids only whales should eat",
+          "start": 4,
+          "end": 16,
+          "matchStart": 83,
+          "matchEnd": 87
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 16,
+      "end": 31,
+      "sentenceText": "these oh so good okay here we go the whale's being fed now get your cam ready passenger you're going to see the whale jump jump oh man",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 16,
+          "end": 31,
+          "text": "these oh so good okay here we go the whale's being fed now get your cam ready passenger you're going to see the whale jump jump oh man",
+          "originalText": "these oh so good okay here we go the whale's being fed now get your cam ready passenger you're going to see the whale jump jump oh man",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 21,
+              "text": "these oh so good okay here we go the"
+            },
+            {
+              "id": "c0006",
+              "start": 21,
+              "end": 24,
+              "text": "whale's being fed now get your cam ready"
+            },
+            {
+              "id": "c0007",
+              "start": 24,
+              "end": 27,
+              "text": "passenger you're going to see the whale"
+            },
+            {
+              "id": "c0008",
+              "start": 27,
+              "end": 31,
+              "text": "jump jump oh man"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 21,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 24,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 27,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0002",
+          "quote": "these oh so good okay here we go the whale's being fed now get your cam ready passenger you're going to see the whale jump jump oh man",
+          "start": 16,
+          "end": 31,
+          "matchStart": 12,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "these oh so good okay here we go the whale's being fed now get your cam ready passenger you're going to see the whale jump jump oh man",
+          "start": 16,
+          "end": 31,
+          "matchStart": 17,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0002",
+          "quote": "these oh so good okay here we go the whale's being fed now get your cam ready passenger you're going to see the whale jump jump oh man",
+          "start": 16,
+          "end": 31,
+          "matchStart": 72,
+          "matchEnd": 77
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "these oh so good okay here we go the whale's being fed now get your cam ready passenger you're going to see the whale jump jump oh man",
+          "start": 16,
+          "end": 31,
+          "matchStart": 104,
+          "matchEnd": 107
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 34,
+      "end": 48,
+      "sentenceText": "Don't whales usually jump out of the water? water yeah that's not going to happen today a what yeah what sorry so this boat's gone through a huge storm bra rough seas, a tidal wave, and snappy turtles,",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 34,
+          "end": 48,
+          "text": "Don't whales usually jump out of the water? water yeah that's not going to happen today a what yeah what sorry so this boat's gone through a huge storm bra rough seas, a tidal wave, and snappy turtles,",
+          "originalText": "don't whales usually jump out of the water yeah that's not going to happen today a what yeah what sorry so this boat's gone through a huge storm bra rough Seas a tidal wave and snappy",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 34,
+              "end": 36,
+              "text": "don't whales usually jump out of the"
+            },
+            {
+              "id": "c0010",
+              "start": 36,
+              "end": 38,
+              "text": "water yeah that's not going to happen"
+            },
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 42,
+              "text": "today a what yeah what sorry so this"
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 45,
+              "text": "boat's gone through a huge storm bra"
+            },
+            {
+              "id": "c0013",
+              "start": 45,
+              "end": 48,
+              "text": "rough Seas a tidal wave and snappy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 34,
+              "end": 36,
+              "text": "Don't whales usually jump out of the water?"
+            },
+            {
+              "id": "c0014",
+              "start": 45,
+              "end": 48,
+              "text": "rough seas, a tidal wave, and snappy turtles,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0009",
+              "start": 34,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 36,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "Don't whales usually jump out of the water? water yeah that's not going to happen today a what yeah what sorry so this boat's gone through a huge storm bra rough seas, a tidal wave, and snappy turtles,",
+          "start": 34,
+          "end": 48,
+          "matchStart": 90,
+          "matchEnd": 94
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0003",
+          "quote": "Don't whales usually jump out of the water? water yeah that's not going to happen today a what yeah what sorry so this boat's gone through a huge storm bra rough seas, a tidal wave, and snappy turtles,",
+          "start": 34,
+          "end": 48,
+          "matchStart": 105,
+          "matchEnd": 110
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0003",
+          "quote": "Don't whales usually jump out of the water? water yeah that's not going to happen today a what yeah what sorry so this boat's gone through a huge storm bra rough seas, a tidal wave, and snappy turtles,",
+          "start": 34,
+          "end": 48,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 48,
+      "end": 60,
+      "sentenceText": "Turtles to see a whale Who Lies there eating corn chips it would seem so well I guess we'll sail back home now a a kids look um how about I put a show",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 48,
+          "end": 60,
+          "text": "Turtles to see a whale Who Lies there eating corn chips it would seem so well I guess we'll sail back home now a a kids look um how about I put a show",
+          "originalText": "Turtles to see a whale Who Lies there eating corn chips it would seem so well I guess we'll sail back home now a a kids look um how about I put a show",
+          "originalCueRefs": [
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 50,
+              "text": "Turtles to see a whale Who Lies there"
+            },
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 54,
+              "text": "eating corn chips it would seem so well"
+            },
+            {
+              "id": "c0016",
+              "start": 54,
+              "end": 57,
+              "text": "I guess we'll sail back home now a a"
+            },
+            {
+              "id": "c0017",
+              "start": 57,
+              "end": 60,
+              "text": "kids look um how about I put a show"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 54,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 57,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0004",
+          "quote": "Turtles to see a whale Who Lies there eating corn chips it would seem so well I guess we'll sail back home now a a kids look um how about I put a show",
+          "start": 48,
+          "end": 60,
+          "matchStart": 11,
+          "matchEnd": 14
+        },
+        {
+          "expressionId": "home",
+          "cueId": "c0004",
+          "quote": "Turtles to see a whale Who Lies there eating corn chips it would seem so well I guess we'll sail back home now a a kids look um how about I put a show",
+          "start": 48,
+          "end": 60,
+          "matchStart": 102,
+          "matchEnd": 106
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0004",
+          "quote": "Turtles to see a whale Who Lies there eating corn chips it would seem so well I guess we'll sail back home now a a kids look um how about I put a show",
+          "start": 48,
+          "end": 60,
+          "matchStart": 120,
+          "matchEnd": 124
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0004",
+          "quote": "Turtles to see a whale Who Lies there eating corn chips it would seem so well I guess we'll sail back home now a a kids look um how about I put a show",
+          "start": 48,
+          "end": 60,
+          "matchStart": 128,
+          "matchEnd": 131
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 60,
+      "end": 70,
+      "sentenceText": "about Wes on the TV yeah TV it's got to be done oh no argument here um okay Customer, I'm sorry, the whale trip was no good.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 60,
+          "end": 70,
+          "text": "about Wes on the TV yeah TV it's got to be done oh no argument here um okay Customer, I'm sorry, the whale trip was no good.",
+          "originalText": "about Wes on the TV yeah TV it's got to be done oh no argument here um okay customer I'm sorry the whale trip was no",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 60,
+              "end": 64,
+              "text": "about Wes on the TV yeah TV it's got to"
+            },
+            {
+              "id": "c0019",
+              "start": 64,
+              "end": 67,
+              "text": "be done oh no argument here um okay"
+            },
+            {
+              "id": "c0020",
+              "start": 67,
+              "end": 70,
+              "text": "customer I'm sorry the whale trip was no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 67,
+              "end": 70,
+              "text": "Customer, I'm sorry, the whale trip was no good."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 60,
+              "end": 64,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 64,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 67,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "about Wes on the TV yeah TV it's got to be done oh no argument here um okay Customer, I'm sorry, the whale trip was no good.",
+          "start": 60,
+          "end": 70,
+          "matchStart": 51,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "about Wes on the TV yeah TV it's got to be done oh no argument here um okay Customer, I'm sorry, the whale trip was no good.",
+          "start": 60,
+          "end": 70,
+          "matchStart": 71,
+          "matchEnd": 75
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0005",
+          "quote": "about Wes on the TV yeah TV it's got to be done oh no argument here um okay Customer, I'm sorry, the whale trip was no good.",
+          "start": 60,
+          "end": 70,
+          "matchStart": 90,
+          "matchEnd": 95
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0005",
+          "quote": "about Wes on the TV yeah TV it's got to be done oh no argument here um okay Customer, I'm sorry, the whale trip was no good.",
+          "start": 60,
+          "end": 70,
+          "matchStart": 119,
+          "matchEnd": 123
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 70,
+      "end": 83,
+      "sentenceText": "good here's your money back thanks we're going to watch TV now what on me whales travel extremely long distances into warm Waters to have their babies a so",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 70,
+          "end": 83,
+          "text": "good here's your money back thanks we're going to watch TV now what on me whales travel extremely long distances into warm Waters to have their babies a so",
+          "originalText": "good here's your money back thanks we're going to watch TV now what on me whales travel extremely long distances into warm Waters to have their babies a so",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 70,
+              "end": 72,
+              "text": "good here's your money back thanks we're"
+            },
+            {
+              "id": "c0022",
+              "start": 72,
+              "end": 76,
+              "text": "going to watch TV now what on me whales"
+            },
+            {
+              "id": "c0023",
+              "start": 76,
+              "end": 79,
+              "text": "travel extremely long distances into"
+            },
+            {
+              "id": "c0024",
+              "start": 79,
+              "end": 83,
+              "text": "warm Waters to have their babies a so"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 70,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 72,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 76,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 79,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0006",
+          "quote": "good here's your money back thanks we're going to watch TV now what on me whales travel extremely long distances into warm Waters to have their babies a so",
+          "start": 70,
+          "end": 83,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "good here's your money back thanks we're going to watch TV now what on me whales travel extremely long distances into warm Waters to have their babies a so",
+          "start": 70,
+          "end": 83,
+          "matchStart": 63,
+          "matchEnd": 67
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 83,
+      "end": 97,
+      "sentenceText": "cute they stay with them all the way back to the colder Waters gee those wild sure our good moms you can't help but admire that motherly Bond Dad we can't hear the TV there's nothing a whale mom",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 83,
+          "end": 97,
+          "text": "cute they stay with them all the way back to the colder Waters gee those wild sure our good moms you can't help but admire that motherly Bond Dad we can't hear the TV there's nothing a whale mom",
+          "originalText": "cute they stay with them all the way back to the colder Waters gee those wild sure our good moms you can't help but admire that motherly Bond Dad we can't hear the TV there's nothing a whale mom",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 83,
+              "end": 85,
+              "text": "cute they stay with them all the way"
+            },
+            {
+              "id": "c0026",
+              "start": 85,
+              "end": 89,
+              "text": "back to the colder Waters gee those wild"
+            },
+            {
+              "id": "c0027",
+              "start": 89,
+              "end": 92,
+              "text": "sure our good moms you can't help but"
+            },
+            {
+              "id": "c0028",
+              "start": 92,
+              "end": 94,
+              "text": "admire that motherly Bond Dad we can't"
+            },
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 97,
+              "text": "hear the TV there's nothing a whale mom"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0025",
+              "start": 83,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 85,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 89,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 92,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0007",
+          "quote": "cute they stay with them all the way back to the colder Waters gee those wild sure our good moms you can't help but admire that motherly Bond Dad we can't hear the TV there's nothing a whale mom",
+          "start": 83,
+          "end": 97,
+          "matchStart": 78,
+          "matchEnd": 82
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0007",
+          "quote": "cute they stay with them all the way back to the colder Waters gee those wild sure our good moms you can't help but admire that motherly Bond Dad we can't hear the TV there's nothing a whale mom",
+          "start": 83,
+          "end": 97,
+          "matchStart": 87,
+          "matchEnd": 91
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0007",
+          "quote": "cute they stay with them all the way back to the colder Waters gee those wild sure our good moms you can't help but admire that motherly Bond Dad we can't hear the TV there's nothing a whale mom",
+          "start": 83,
+          "end": 97,
+          "matchStart": 107,
+          "matchEnd": 111
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0007",
+          "quote": "cute they stay with them all the way back to the colder Waters gee those wild sure our good moms you can't help but admire that motherly Bond Dad we can't hear the TV there's nothing a whale mom",
+          "start": 83,
+          "end": 97,
+          "matchStart": 142,
+          "matchEnd": 145
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 97,
+      "end": 111,
+      "sentenceText": "wouldn't do for her children wo that whale's more jumpy than the one we saw they teach their young Ting",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 97,
+          "end": 111,
+          "text": "wouldn't do for her children wo that whale's more jumpy than the one we saw they teach their young Ting",
+          "originalText": "wouldn't do for her children wo that whale's more jumpy than the one we saw they teach their young Ting",
+          "originalCueRefs": [
+            {
+              "id": "c0030",
+              "start": 97,
+              "end": 100,
+              "text": "wouldn't do for her"
+            },
+            {
+              "id": "c0031",
+              "start": 102,
+              "end": 105,
+              "text": "children wo that whale's more jumpy than"
+            },
+            {
+              "id": "c0032",
+              "start": 105,
+              "end": 108,
+              "text": "the one we saw they teach their young"
+            },
+            {
+              "id": "c0033",
+              "start": 108,
+              "end": 111,
+              "text": "Ting"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0030",
+              "start": 97,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 102,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 108,
+              "end": 111,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 116,
+      "end": 124,
+      "sentenceText": "huh the whale landed on the boat sh",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 116,
+          "end": 124,
+          "text": "huh the whale landed on the boat sh",
+          "originalText": "huh the whale landed on the boat sh",
+          "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 116,
+              "end": 121,
+              "text": "huh the whale landed on the boat"
+            },
+            {
+              "id": "c0035",
+              "start": 121,
+              "end": 124,
+              "text": "sh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0034",
+              "start": 116,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 121,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

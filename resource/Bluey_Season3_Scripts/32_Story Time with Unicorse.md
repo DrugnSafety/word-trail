@@ -1,0 +1,62 @@
+# 32. Story Time with Unicorse
+
+- Video: https://www.youtube.com/watch?v=Czf4UFt57Fk
+- Length: 02:04
+- Captions: YouTube auto-generated English captions
+- Script: 00:01 ~ 02:04
+
+---
+
+- `[00:01 - 00:02]` Once upon a time, there was a village,
+- `[00:02 - 00:05]` and in the village, everyone walked around barefoot.
+- `[00:05 - 00:09]` Ah, yay! Unicorse, I can't see the page!
+- `[00:09 - 00:12]` Aaaand, why should I care?
+- `[00:12 - 00:13]` Oh, I forgot about the catchphrase.
+- `[00:13 - 00:17]` If you block the words, Mum can't read the story.
+- `[00:17 - 00:19]` Aaaand, why should I care?
+- `[00:19 - 00:21]` Because stories are nice!
+- `[00:21 - 00:24]` My story was nice, it had a unicorn in it.
+- `[00:24 - 00:26]` This one has zero unicorns,
+- `[00:26 - 00:28]` and the ending's boring,
+- `[00:28 - 00:29]` she just makes sho—
+- `[00:29 - 00:31]` Don't spoil the ending!
+- `[00:31 - 00:32]` Why not?
+- `[00:32 - 00:35]` 'Cause Bluey hasn't heard it.
+- `[00:35 - 00:37]` Aaaand, why should I care?
+- `[00:37 - 00:40]` Unicorse, I'm trying to make you a nice unicorse.
+- `[00:40 - 00:41]` Okay, okay, okay.
+- `[00:41 - 00:45]` Please continue, Milly. I won't spoil the ending...
+- `[00:45 - 00:47]` Where she makes shoes!
+- `[00:47 - 00:51]` Unicorse!
+- `[00:51 - 00:53]` One day, the Queen decided to get off her litter
+- `[00:53 - 00:55]` and have a walk around.
+- `[00:55 - 00:55]` Changed my mind!
+- `[00:55 - 00:57]` Oh, wait, changed it again!
+- `[00:57 - 00:59]` Actually, I will!
+- `[00:59 - 01:02]` No, not today!
+- `[01:02 - 01:05]` Unicorse! That is bad behaviour!
+- `[01:05 - 01:07]` Meh-meh-meh.
+- `[01:07 - 01:09]` Oh! So is that!
+- `[01:09 - 01:11]` Meep-meep-meep.
+- `[01:11 - 01:13]` Shall we continue?
+- `[01:13 - 01:14]` Ugh, yes.
+- `[01:14 - 01:19]` So the Queen walked a few steps, and stood on a prickle.
+- `[01:19 - 01:20]` Ouch!
+- `[01:20 - 01:22]` Unicorse, that's mean!
+- `[01:22 - 01:25]` How would you feel if you stood on a prickle?
+- `[01:25 - 01:28]` I'd feel good, I'd feel so good, I'd dance!
+- `[01:28 - 01:31]` You wouldn't dance! You'd be crying like the Queen!
+- `[01:31 - 01:34]` Well, maybe she should wear some shoes!
+- `[01:34 - 01:35]` Unicorse!
+- `[01:35 - 01:40]` Anyway, the Queen discovered that her whole kingdom was covered in prickles.
+- `[01:40 - 01:43]` What was she to do?
+- `[01:43 - 01:44]` Make shoes!
+- `[01:44 - 01:45]` Ugh, Bluey!
+- `[01:45 - 01:46]` Ooh, I know!
+- `[01:46 - 01:50]` Unicorse, what's your favourite food?
+- `[01:50 - 01:51]` Children.
+- `[01:51 - 01:52]` Oh.
+- `[01:52 - 01:55]` Just kidding, I like chicken bucket.
+- `[01:55 - 01:58]` Oh, great, look, here's some chicken bucket.
+- `[01:58 - 02:00]` Ah, thank you, mighty kind.
+- `[02:00 - 02:04]` Okay, we're good to go.

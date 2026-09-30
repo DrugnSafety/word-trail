@@ -1,0 +1,1276 @@
+{
+  "id": "video-48",
+  "number": 48,
+  "title": "Sheep-Dad | Sheepdog - Series 3 | Bluey",
+  "duration": 120,
+  "declaredDuration": 120,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=LabBwLEyhx0",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/48_Sheep-Dad.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/48_Sheep-Dad.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Sheep-Dad | Sheepdog - Series 3 | Bluey",
+      "start": 8,
+      "end": 118,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 8,
+      "end": 14,
+      "sentenceText": "Hi, how would you like to save 200 dollars a year on your energy bill?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 8,
+          "end": 14,
+          "text": "Hi, how would you like to save 200 dollars a year on your energy bill?",
+          "originalText": "hi how would you like to save 200 a year on your energy bill",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 11,
+              "text": "hi how would you like to save 200 a year"
+            },
+            {
+              "id": "c0002",
+              "start": 11,
+              "end": 14,
+              "text": "on your energy bill"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 11,
+              "text": "Hi, how would you like to save 200 dollars a year"
+            },
+            {
+              "id": "c0002",
+              "start": 11,
+              "end": 14,
+              "text": "on your energy bill?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 8,
+              "end": 11,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 11,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0001",
+          "quote": "Hi, how would you like to save 200 dollars a year on your energy bill?",
+          "start": 8,
+          "end": 14,
+          "matchStart": 4,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0001",
+          "quote": "Hi, how would you like to save 200 dollars a year on your energy bill?",
+          "start": 8,
+          "end": 14,
+          "matchStart": 18,
+          "matchEnd": 22
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 14,
+      "end": 19,
+      "sentenceText": "Excuse me, uh, is there someone else I could talk to?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 14,
+          "end": 19,
+          "text": "Excuse me, uh, is there someone else I could talk to?",
+          "originalText": "excuse me uh is there someone else i could talk to",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 14,
+              "end": 17,
+              "text": "excuse me"
+            },
+            {
+              "id": "c0004",
+              "start": 17,
+              "end": 19,
+              "text": "uh is there someone else i could talk to"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 14,
+              "end": 17,
+              "text": "Excuse me,"
+            },
+            {
+              "id": "c0004",
+              "start": 17,
+              "end": 19,
+              "text": "uh, is there someone else I could talk to?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 14,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 17,
+              "end": 19,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "excuse-me",
+          "cueId": "c0002",
+          "quote": "Excuse me, uh, is there someone else I could talk to?",
+          "start": 14,
+          "end": 19,
+          "matchStart": 0,
+          "matchEnd": 9
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 19,
+      "end": 28,
+      "sentenceText": "I'll go get my mum. Uh, I'll come back another time.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 19,
+          "end": 28,
+          "text": "I'll go get my mum. Uh, I'll come back another time.",
+          "originalText": "i'll go get my mom uh i'll come back another time",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 19,
+              "end": 22,
+              "text": "i'll go get my mom"
+            },
+            {
+              "id": "c0006",
+              "start": 24,
+              "end": 28,
+              "text": "uh i'll come back another time"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 19,
+              "end": 22,
+              "text": "I'll go get my mum."
+            },
+            {
+              "id": "c0006",
+              "start": 24,
+              "end": 28,
+              "text": "Uh, I'll come back another time."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 19,
+              "end": 22,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 24,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0003",
+          "quote": "I'll go get my mum. Uh, I'll come back another time.",
+          "start": 19,
+          "end": 28,
+          "matchStart": 15,
+          "matchEnd": 18
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 39,
+      "end": 52,
+      "sentenceText": "Mum? Are you in there? yes bluey i'm in here i'm sorry for whatever i did to upset you You didn't do anything to upset me, sweetheart.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 39,
+          "end": 52,
+          "text": "Mum? Are you in there? yes bluey i'm in here i'm sorry for whatever i did to upset you You didn't do anything to upset me, sweetheart.",
+          "originalText": "mom are you in there yes bluey i'm in here i'm sorry for whatever i did to upset you you didn't do anything to upset me",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 39,
+              "end": 41,
+              "text": "mom"
+            },
+            {
+              "id": "c0008",
+              "start": 41,
+              "end": 43,
+              "text": "are you in there"
+            },
+            {
+              "id": "c0009",
+              "start": 43,
+              "end": 46,
+              "text": "yes bluey i'm in here i'm sorry for"
+            },
+            {
+              "id": "c0010",
+              "start": 46,
+              "end": 49,
+              "text": "whatever i did to upset you"
+            },
+            {
+              "id": "c0011",
+              "start": 50,
+              "end": 52,
+              "text": "you didn't do anything to upset me"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0007",
+              "start": 39,
+              "end": 41,
+              "text": "Mum?"
+            },
+            {
+              "id": "c0008",
+              "start": 41,
+              "end": 43,
+              "text": "Are you in there?"
+            },
+            {
+              "id": "c0012",
+              "start": 50,
+              "end": 52,
+              "text": "You didn't do anything to upset me, sweetheart."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 39,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 41,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 46,
+              "end": 49,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 50,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "mum",
+          "cueId": "c0004",
+          "quote": "Mum? Are you in there? yes bluey i'm in here i'm sorry for whatever i did to upset you You didn't do anything to upset me, sweetheart.",
+          "start": 39,
+          "end": 52,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0004",
+          "quote": "Mum? Are you in there? yes bluey i'm in here i'm sorry for whatever i did to upset you You didn't do anything to upset me, sweetheart.",
+          "start": 39,
+          "end": 52,
+          "matchStart": 23,
+          "matchEnd": 26
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0004",
+          "quote": "Mum? Are you in there? yes bluey i'm in here i'm sorry for whatever i did to upset you You didn't do anything to upset me, sweetheart.",
+          "start": 39,
+          "end": 52,
+          "matchStart": 49,
+          "matchEnd": 54
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 52,
+      "end": 63,
+      "sentenceText": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 52,
+          "end": 63,
+          "text": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "originalText": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids sometimes mums just need 20 minutes i",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 52,
+              "end": 54,
+              "text": "sweetheart then why don't you want to"
+            },
+            {
+              "id": "c0013",
+              "start": 54,
+              "end": 58,
+              "text": "see us i do want to see you but it can"
+            },
+            {
+              "id": "c0014",
+              "start": 58,
+              "end": 60,
+              "text": "be hard work looking after kids"
+            },
+            {
+              "id": "c0015",
+              "start": 60,
+              "end": 63,
+              "text": "sometimes mums just need 20 minutes i"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0016",
+              "start": 60,
+              "end": 63,
+              "text": "Sometimes mums just need 20 minutes."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 52,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 54,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 60,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0005",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "start": 52,
+          "end": 63,
+          "matchStart": 16,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0005",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "start": 52,
+          "end": 63,
+          "matchStart": 30,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0005",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "start": 52,
+          "end": 63,
+          "matchStart": 38,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0005",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "start": 52,
+          "end": 63,
+          "matchStart": 129,
+          "matchEnd": 133
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0005",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "start": 52,
+          "end": 63,
+          "matchStart": 20,
+          "matchEnd": 25
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 63,
+      "end": 73,
+      "sentenceText": "don't understand you will one day sweetheart What is that about?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 63,
+          "end": 73,
+          "text": "don't understand you will one day sweetheart What is that about?",
+          "originalText": "don't understand you will one day sweetheart what is that about",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 63,
+              "end": 66,
+              "text": "don't understand you will one day"
+            },
+            {
+              "id": "c0017",
+              "start": 66,
+              "end": 69,
+              "text": "sweetheart"
+            },
+            {
+              "id": "c0018",
+              "start": 71,
+              "end": 73,
+              "text": "what is that about"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 71,
+              "end": 73,
+              "text": "What is that about?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 66,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 71,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "don't understand you will one day sweetheart What is that about?",
+          "start": 63,
+          "end": 73,
+          "matchStart": 45,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0006",
+          "quote": "don't understand you will one day sweetheart What is that about?",
+          "start": 63,
+          "end": 73,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 73,
+      "end": 80,
+      "sentenceText": "dad's trying to stop me from bothering you I see. But it won't work.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 73,
+          "end": 80,
+          "text": "dad's trying to stop me from bothering you I see. But it won't work.",
+          "originalText": "dad's trying to stop me from bothering you i see but it won't work",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 73,
+              "end": 75,
+              "text": "dad's trying to stop me from bothering"
+            },
+            {
+              "id": "c0020",
+              "start": 75,
+              "end": 76,
+              "text": "you"
+            },
+            {
+              "id": "c0021",
+              "start": 76,
+              "end": 80,
+              "text": "i see but it won't work"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 76,
+              "end": 77,
+              "text": "I see."
+            },
+            {
+              "id": "c0022",
+              "start": 77,
+              "end": 80,
+              "text": "But it won't work."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 73,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 75,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 76,
+              "end": 80,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dad",
+          "cueId": "c0007",
+          "quote": "dad's trying to stop me from bothering you I see. But it won't work.",
+          "start": 73,
+          "end": 80,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0007",
+          "quote": "dad's trying to stop me from bothering you I see. But it won't work.",
+          "start": 73,
+          "end": 80,
+          "matchStart": 16,
+          "matchEnd": 20
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0007",
+          "quote": "dad's trying to stop me from bothering you I see. But it won't work.",
+          "start": 73,
+          "end": 80,
+          "matchStart": 45,
+          "matchEnd": 48
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 80,
+      "end": 86,
+      "sentenceText": "what's going on go go",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 80,
+          "end": 86,
+          "text": "what's going on go go",
+          "originalText": "what's going on go go",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 80,
+              "end": 81,
+              "text": "what's going"
+            },
+            {
+              "id": "c0023",
+              "start": 81,
+              "end": 86,
+              "text": "on go go"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 80,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 81,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "what's going on go go",
+          "start": 80,
+          "end": 86,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 93,
+      "end": 98,
+      "sentenceText": "Drop it! You are a very cheeky sheep! I'm sorry, Wendy.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 93,
+          "end": 98,
+          "text": "Drop it! You are a very cheeky sheep! I'm sorry, Wendy.",
+          "originalText": "drop it you are a very cheeky sheep i'm sorry",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 93,
+              "end": 94,
+              "text": "drop it"
+            },
+            {
+              "id": "c0025",
+              "start": 94,
+              "end": 98,
+              "text": "you are a very cheeky sheep i'm sorry"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 93,
+              "end": 94,
+              "text": "Drop it!"
+            },
+            {
+              "id": "c0025",
+              "start": 94,
+              "end": 97,
+              "text": "You are a very cheeky sheep!"
+            },
+            {
+              "id": "c0026",
+              "start": 97,
+              "end": 98,
+              "text": "I'm sorry, Wendy."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 93,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 94,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0009",
+          "quote": "Drop it! You are a very cheeky sheep! I'm sorry, Wendy.",
+          "start": 93,
+          "end": 98,
+          "matchStart": 42,
+          "matchEnd": 47
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 98,
+      "end": 105,
+      "sentenceText": "wendy he doesn't listen to what anyone says I'm getting chilly.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 98,
+          "end": 105,
+          "text": "wendy he doesn't listen to what anyone says I'm getting chilly.",
+          "originalText": "wendy he doesn't listen to what anyone says i'm getting chilly",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 98,
+              "end": 100,
+              "text": "wendy he doesn't listen to what anyone"
+            },
+            {
+              "id": "c0027",
+              "start": 100,
+              "end": 102,
+              "text": "says"
+            },
+            {
+              "id": "c0028",
+              "start": 102,
+              "end": 105,
+              "text": "i'm getting chilly"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0028",
+              "start": 102,
+              "end": 105,
+              "text": "I'm getting chilly."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 98,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 100,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 102,
+              "end": 105,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "listen",
+          "cueId": "c0010",
+          "quote": "wendy he doesn't listen to what anyone says I'm getting chilly.",
+          "start": 98,
+          "end": 105,
+          "matchStart": 17,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "wendy he doesn't listen to what anyone says I'm getting chilly.",
+          "start": 98,
+          "end": 105,
+          "matchStart": 27,
+          "matchEnd": 31
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 110,
+      "end": 118,
+      "sentenceText": "Oh dear, that will not happen twice",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 110,
+          "end": 118,
+          "text": "Oh dear, that will not happen twice",
+          "originalText": "oh dear that will not happen twice",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 110,
+              "end": 112,
+              "text": "oh dear"
+            },
+            {
+              "id": "c0030",
+              "start": 112,
+              "end": 113,
+              "text": "that"
+            },
+            {
+              "id": "c0031",
+              "start": 113,
+              "end": 114,
+              "text": "will not"
+            },
+            {
+              "id": "c0032",
+              "start": 114,
+              "end": 115,
+              "text": "happen"
+            },
+            {
+              "id": "c0033",
+              "start": 115,
+              "end": 118,
+              "text": "twice"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 110,
+              "end": 112,
+              "text": "Oh dear,"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 112,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 113,
+              "end": 114,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 114,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 115,
+              "end": 118,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

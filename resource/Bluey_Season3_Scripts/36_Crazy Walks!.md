@@ -1,0 +1,52 @@
+# 36. Crazy Walks! | Housework | Bluey
+
+- Video: https://www.youtube.com/watch?v=eeDCKY_qJBk
+- Length: 02:05
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:04
+
+---
+
+- `[00:00 - 00:01]` You're really doing this?
+- `[00:01 - 00:02]` I think I have to.
+- `[00:02 - 00:05]` Okay. At least set the rules.
+- `[00:05 - 00:07]` What will it take for you to get back to the housework?
+- `[00:07 - 00:10]` Just, you know, one foot in front of the other.
+- `[00:10 - 00:13]` I don't think that's too much to ask.
+- `[00:13 - 00:16]` Okay! See? That looks good.
+- `[00:16 - 00:17]` Boom! Come on!
+- `[00:17 - 00:20]` Look at her arms, they're following her legs.
+- `[00:20 - 00:20]` Really?
+- `[00:20 - 00:23]` Yeah, they're meant to go the other way,
+- `[00:23 - 00:24]` the opposite of your legs.
+- `[00:24 - 00:27]` Oh, yeah, that's crazy!
+- `[00:27 - 00:31]` That's what I'm saying!
+- `[00:31 - 00:33]` Okay, that's not even close to her normal walk.
+- `[00:33 - 00:37]` Oh, hang on, hang on, here we go.
+- `[00:37 - 00:39]` Feet okay, arms okay.
+- `[00:39 - 00:41]` I think we're good.
+- `[00:41 - 00:42]` Backwards!
+- `[00:42 - 00:44]` And there it is.
+- `[00:44 - 00:45]` This is hard.
+- `[00:45 - 00:49]` I'll even settle for the same crazy walk from there to there.
+- `[00:49 - 00:53]` But look, one, two, three different walks in three meters.
+- `[00:53 - 00:59]` Why do they do it? Because they're nuts!
+- `[00:59 - 01:01]` Gently down the stream.
+- `[01:01 - 01:02]` That's not even a walk!
+- `[01:02 - 01:06]` I'm making a cuppa, we're gonna be here a while.
+- `[01:06 - 01:13]` Elephant.
+- `[01:20 - 01:21]` Kangaroo.
+- `[01:21 - 01:23]` What did I miss?
+- `[01:23 - 01:23]` Chicken.
+- `[01:23 - 01:26]` Working our way through the animal kingdom.
+- `[01:26 - 01:28]` That's an emu.
+- `[01:28 - 01:32]` Yeah, or maybe an ostrich, or a big duck.
+- `[01:32 - 01:36]` And that's some sort of, uh... um... donkey!
+- `[01:36 - 01:40]` Some of these look really hard to do.
+- `[01:40 - 01:45]` I know! Don't they get tired?
+- `[01:45 - 01:50]` Whoa, we have a winner, holy dooley, that's impressive.
+- `[01:50 - 01:53]` How do you even do that?
+- `[01:53 - 01:56]` You have to, like, have your feet out like a duck...
+- `[01:56 - 01:58]` But then pop them in while spinning.
+- `[01:58 - 02:00]` Oh, yeah, while spinning.
+- `[02:00 - 02:04]` Oh, my... groin!

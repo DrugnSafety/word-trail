@@ -1,0 +1,955 @@
+{
+  "id": "video-44",
+  "number": 44,
+  "title": "Let's Find Jack! | Explorers - Series 3 | Bluey",
+  "duration": 123,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=2RqutelebwA",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/44_Let's Find Jack!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/44_Let's Find Jack!.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Let's Find Jack! | Explorers - Series 3 | Bluey",
+      "start": 0,
+      "end": 120,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 9,
+      "sentenceText": "No more supplies! and i've got no idea if we're heading in the right direction And the deck could use a good scrub.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 9,
+          "text": "No more supplies! and i've got no idea if we're heading in the right direction And the deck could use a good scrub.",
+          "originalText": "no more supplies and i've got no idea if we're heading in the right direction and the deck could use a good scrub",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "no more supplies"
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "text": "and i've got no idea if we're heading in"
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "text": "the right direction"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "and the deck could use a good scrub"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "text": "No more supplies!"
+            },
+            {
+              "id": "c0003",
+              "start": 7,
+              "end": 9,
+              "text": "And the deck could use a good scrub."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 2,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 2,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 4,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0001",
+          "quote": "No more supplies! and i've got no idea if we're heading in the right direction And the deck could use a good scrub.",
+          "start": 0,
+          "end": 9,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0001",
+          "quote": "No more supplies! and i've got no idea if we're heading in the right direction And the deck could use a good scrub.",
+          "start": 0,
+          "end": 9,
+          "matchStart": 104,
+          "matchEnd": 108
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 9,
+      "end": 14,
+      "sentenceText": "Oh, here it is! This is the shortcut. What does this sign say?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 9,
+          "end": 14,
+          "text": "Oh, here it is! This is the shortcut. What does this sign say?",
+          "originalText": "oh here it is this is the shortcut what does this fan say",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 12,
+              "text": "oh here it is this is the shortcut what"
+            },
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 14,
+              "text": "does this fan say"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 9,
+              "end": 12,
+              "text": "Oh, here it is! This is the shortcut."
+            },
+            {
+              "id": "c0005",
+              "start": 12,
+              "end": 14,
+              "text": "What does this sign say?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Oh, here it is! This is the shortcut. What does this sign say?",
+          "start": 9,
+          "end": 14,
+          "matchStart": 38,
+          "matchEnd": 42
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 14,
+      "end": 24,
+      "sentenceText": "it says the road is only for cars that are four-wheel drives No, it's an all-wheel drive.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 14,
+          "end": 24,
+          "text": "it says the road is only for cars that are four-wheel drives No, it's an all-wheel drive.",
+          "originalText": "it says the road is only for cars that are four-wheel drives no it's an all-wheel drive",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 16,
+              "text": "it says the road is only for cars that"
+            },
+            {
+              "id": "c0008",
+              "start": 16,
+              "end": 20,
+              "text": "are four-wheel drives"
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "text": "no it's an all-wheel drive"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0007",
+              "start": 21,
+              "end": 24,
+              "text": "No, it's an all-wheel drive."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 14,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 16,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 24,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "it says the road is only for cars that are four-wheel drives No, it's an all-wheel drive.",
+          "start": 14,
+          "end": 24,
+          "matchStart": 61,
+          "matchEnd": 63
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 24,
+      "end": 30,
+      "sentenceText": "Oh. How many wheels have we got?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 24,
+          "end": 30,
+          "text": "Oh. How many wheels have we got?",
+          "originalText": "oh how many wheels have we got",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 26,
+              "text": "oh"
+            },
+            {
+              "id": "c0011",
+              "start": 26,
+              "end": 30,
+              "text": "how many wheels have we got"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 24,
+              "end": 26,
+              "text": "Oh."
+            },
+            {
+              "id": "c0009",
+              "start": 26,
+              "end": 30,
+              "text": "How many wheels have we got?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 24,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 26,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0004",
+          "quote": "Oh. How many wheels have we got?",
+          "start": 24,
+          "end": 30,
+          "matchStart": 4,
+          "matchEnd": 7
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 41,
+      "end": 50,
+      "sentenceText": "No sign of land. Supplies have run out. We're not gonna make it. You're right, Jack. Yes, Calypso.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 41,
+          "end": 50,
+          "text": "No sign of land. Supplies have run out. We're not gonna make it. You're right, Jack. Yes, Calypso.",
+          "originalText": "no sign of land supplies have run out we're not gonna make it you're right jack yes calypso",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 41,
+              "end": 46,
+              "text": "no sign of land supplies have run out"
+            },
+            {
+              "id": "c0013",
+              "start": 46,
+              "end": 48,
+              "text": "we're not gonna make it"
+            },
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 50,
+              "text": "you're right jack yes calypso"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 41,
+              "end": 46,
+              "text": "No sign of land. Supplies have run out."
+            },
+            {
+              "id": "c0011",
+              "start": 46,
+              "end": 48,
+              "text": "We're not gonna make it."
+            },
+            {
+              "id": "c0012",
+              "start": 48,
+              "end": 50,
+              "text": "You're right, Jack. Yes, Calypso."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 41,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 46,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0005",
+          "quote": "No sign of land. Supplies have run out. We're not gonna make it. You're right, Jack. Yes, Calypso.",
+          "start": 41,
+          "end": 50,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0005",
+          "quote": "No sign of land. Supplies have run out. We're not gonna make it. You're right, Jack. Yes, Calypso.",
+          "start": 41,
+          "end": 50,
+          "matchStart": 85,
+          "matchEnd": 88
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 78,
+      "end": 83,
+      "sentenceText": "um",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 78,
+          "end": 83,
+          "text": "um",
+          "originalText": "um",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 78,
+              "end": 83,
+              "text": "um"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 78,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 95,
+      "end": 101,
+      "sentenceText": "How good was that? Yeah! But the map has strawberry jam on it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 95,
+          "end": 101,
+          "text": "How good was that? Yeah! But the map has strawberry jam on it.",
+          "originalText": "how good was that yeah but the map has strawberry jam on it",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 95,
+              "end": 98,
+              "text": "how good was that yeah"
+            },
+            {
+              "id": "c0017",
+              "start": 98,
+              "end": 101,
+              "text": "but the map has strawberry jam on it"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 95,
+              "end": 98,
+              "text": "How good was that? Yeah!"
+            },
+            {
+              "id": "c0014",
+              "start": 98,
+              "end": 101,
+              "text": "But the map has strawberry jam on it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 98,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0007",
+          "quote": "How good was that? Yeah! But the map has strawberry jam on it.",
+          "start": 95,
+          "end": 101,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0007",
+          "quote": "How good was that? Yeah! But the map has strawberry jam on it.",
+          "start": 95,
+          "end": 101,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 101,
+      "end": 113,
+      "sentenceText": "that's okay sweetie we don't need it anymore I didn't give up.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 101,
+          "end": 113,
+          "text": "that's okay sweetie we don't need it anymore I didn't give up.",
+          "originalText": "that's okay sweetie we don't need it anymore i didn't give up",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 101,
+              "end": 103,
+              "text": "that's okay sweetie we don't need it"
+            },
+            {
+              "id": "c0019",
+              "start": 103,
+              "end": 110,
+              "text": "anymore"
+            },
+            {
+              "id": "c0020",
+              "start": 111,
+              "end": 113,
+              "text": "i didn't give up"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0016",
+              "start": 111,
+              "end": 113,
+              "text": "I didn't give up."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 101,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 103,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 111,
+              "end": 113,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "that's okay sweetie we don't need it anymore I didn't give up.",
+          "start": 101,
+          "end": 113,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0008",
+          "quote": "that's okay sweetie we don't need it anymore I didn't give up.",
+          "start": 101,
+          "end": 113,
+          "matchStart": 29,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0008",
+          "quote": "that's okay sweetie we don't need it anymore I didn't give up.",
+          "start": 101,
+          "end": 113,
+          "matchStart": 23,
+          "matchEnd": 28
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 113,
+      "end": 120,
+      "sentenceText": "Well done, mate. is this australia Yeah.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 113,
+          "end": 120,
+          "text": "Well done, mate. is this australia Yeah.",
+          "originalText": "well done mate is this australia yeah",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 113,
+              "end": 115,
+              "text": "well done mate"
+            },
+            {
+              "id": "c0022",
+              "start": 115,
+              "end": 116,
+              "text": "is this"
+            },
+            {
+              "id": "c0023",
+              "start": 116,
+              "end": 117,
+              "text": "australia"
+            },
+            {
+              "id": "c0024",
+              "start": 117,
+              "end": 120,
+              "text": "yeah"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 113,
+              "end": 115,
+              "text": "Well done, mate."
+            },
+            {
+              "id": "c0019",
+              "start": 117,
+              "end": 120,
+              "text": "Yeah."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 113,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 115,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 116,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 117,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

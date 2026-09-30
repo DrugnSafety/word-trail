@@ -1,0 +1,24 @@
+{
+  "contentVersion": "2026.09.29-2",
+  "videos": {
+    "video-01": {
+      "status": "partial-user-confirmed",
+      "expectedChapterCount": 7,
+      "chapters": [
+        {
+          "title": "Facey talk initiates",
+          "markerStart": 26,
+          "source": "user-provided",
+          "coverage": "confirmed-excerpt",
+          "provenance": "user-provided-chapter-title-and-start"
+        },
+        {
+          "title": "목차 확인 중",
+          "markerStart": 49,
+          "source": "partial-heading-fallback",
+          "provenance": "unverified-remainder-boundary-after-confirmed-segments"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+# 17. Muffin's New Car | Pizza Girls - Series 3 | Bluey
+
+- Video: https://www.youtube.com/watch?v=tKkKs4RlR2w
+- Length: 01:58
+- Captions: YouTube auto-generated English captions
+- Script: 00:01 ~ 01:57
+
+---
+
+- `[00:01 - 00:06]` They want a supreme, okay? One supreme, thanks, Pizza Sisters.
+- `[00:06 - 00:09]` Our Mum started this pizza shop. She worked really hard,
+- `[00:09 - 00:12]` so we're going to give her a holiday.
+- `[00:12 - 00:15]` Wow, we're gonna deliver pizzas fast now!
+- `[00:15 - 00:18]` Stop, I'm just putting the pizza in.
+- `[00:18 - 00:21]` You can't bring mud in the new car!
+- `[00:21 - 00:22]` What? Why?
+- `[00:22 - 00:25]` Because it's very expensive. Oh, okay, well,
+- `[00:25 - 00:30]` what do we do? We have to play something else.
+- `[00:30 - 00:32]` What else do you play in it?
+- `[00:32 - 00:34]` I usually just drive around, okay?
+- `[00:34 - 00:36]` Let's do that.
+- `[00:36 - 00:38]` Watch your feet! Sorry,
+- `[00:38 - 00:40]` no mud in the car.
+- `[00:40 - 00:50]` We ready, Muffin? But just don't drive, too.
+- `[01:03 - 01:05]` Hey, hey! You're getting fingerprints all over it!
+- `[01:05 - 01:07]` Do you like your trick? Uh, I
+- `[01:07 - 01:08]` missed the old one, we
+- `[01:08 - 01:13]` brought the kids home from hospital in it, you know?
+- `[01:13 - 01:14]` That was fun!
+- `[01:14 - 01:17]` Can I have a turn? Okay.
+- `[01:17 - 01:20]` All right, here we go.
+- `[01:20 - 01:23]` What's going on? Oh, it's out of battery.
+- `[01:23 - 01:29]` Oh, we have to charge it, Dad. Okay.
+- `[01:29 - 01:30]` Batteries charging, kids.
+- `[01:30 - 01:33]` How long does it take to charge this?
+- `[01:33 - 01:38]` Oh, what should we play while we wait?
+- `[01:38 - 01:41]` I guess we can go back to Pizza Girls.
+- `[01:41 - 01:42]` Yeah!
+- `[01:42 - 01:45]` So, there's one super pizza with extra pineapple,
+- `[01:45 - 01:48]` Yep, but no mushrooms, you hear me?
+- `[01:48 - 01:49]` Got it.
+- `[01:49 - 01:51]` You put mushrooms on it?
+- `[01:51 - 01:53]` Okay, bye!
+- `[01:53 - 01:57]` Let's put mushrooms on it.

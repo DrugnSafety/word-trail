@@ -1,0 +1,60 @@
+# 81. Cheetah Bingo Surprises Bandit! 🐆 🤪 | Funny Moment from Onesies 💙 | Bluey
+
+- Video: https://www.youtube.com/watch?v=l2gXoYBWAY4
+- Length: 02:06
+- Captions: YouTube auto-generated English captions
+- Script: 00:00 ~ 02:06
+
+---
+
+- `[00:00 - 00:03]` So then your hips go around like this.
+- `[00:03 - 00:05]` Yeah, that's great.
+- `[00:05 - 00:07]` Me and my sister Brandy made this dance
+- `[00:07 - 00:09]` up for our mum's birthday when we were kids.
+- `[00:09 - 00:13]` I can't remember all the moves, though.
+- `[00:13 - 00:16]` That's her.
+- `[00:17 - 00:18]` Hi, girls.
+- `[00:18 - 00:19]` Hi!
+- `[00:19 - 00:23]` Hey, Brandy! Hi, Chilli, it's good to see you.
+- `[00:23 - 00:25]` Yeah, you too!
+- `[00:25 - 00:28]` Kids, this is your Auntie Brandy.
+- `[00:28 - 00:30]` Oh, you've grown so much, Blue. You
+- `[00:30 - 00:32]` look just like your father.
+- `[00:32 - 00:36]` Oh, what? Who do I look like?
+- `[00:36 - 00:39]` You look just like you.
+- `[00:39 - 00:41]` I brought you some presents.
+- `[00:41 - 00:42]` Really?
+- `[00:42 - 00:44]` Oh, Brandy, you shouldn't have.
+- `[00:44 - 00:45]` Onesies!
+- `[00:45 - 00:47]` Oh, you really shouldn't have.
+- `[00:47 - 00:50]` Do they not like onesies? They do, it's
+- `[00:50 - 00:53]` just Bingo has this thing. Um, don't worry,
+- `[00:53 - 00:55]` I'm sure she's grown out of it.
+- `[00:55 - 00:56]` I hope they fit.
+- `[00:56 - 01:01]` I wasn't sure how much they've grown in, um, 4 years.
+- `[01:01 - 01:05]` Hey, mine's too small and mine's too big.
+- `[01:05 - 01:07]` Well, then swap them around.
+- `[01:07 - 01:10]` Can you make my cheetah onesie fit me?
+- `[01:10 - 01:13]` Sorry, Blue, if it doesn't fit, it doesn't fit.
+- `[01:13 - 01:13]` But
+- `[01:13 - 01:14]` I really want the cheetah.
+- `[01:14 - 01:16]` It's not meant to be, kid.
+- `[01:16 - 01:18]` Okay.
+- `[01:18 - 01:22]` They're beautiful. It's been too long.
+- `[01:22 - 01:26]` I know. Look, Chilli, yeah.
+- `[01:26 - 01:28]` Uh, Mum,
+- `[01:28 - 01:30]` it's happening again!
+- `[01:30 - 01:32]` Oh, no. What's going on?
+- `[01:32 - 01:36]` Hey, Brandy, how you doing?
+- `[01:36 - 01:39]` This episode of Bluey is called Onesies.
+- `[01:39 - 01:42]` Oh, no, no, no! Cat! No time to explain.
+- `[01:42 - 01:43]` We have to get to safety.
+- `[01:43 - 01:47]` But what about Bandit again? He's done!
+- `[01:47 - 01:51]` What do we do?
+- `[01:51 - 01:53]` Why is Bingo going...
+- `[01:53 - 01:56]` Onesies make Bingo go crazy.
+- `[01:56 - 01:58]` She sort of becomes one with the onesie.
+- `[01:58 - 01:59]` What?
+- `[01:59 - 02:00]` Where'd she go?
+- `[02:00 - 02:03]` I don't know.
+- `[02:04 - 02:06]` [music]

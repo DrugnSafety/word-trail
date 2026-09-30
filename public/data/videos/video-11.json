@@ -1,0 +1,102 @@
+{
+  "id": "video-11",
+  "number": 11,
+  "title": "Can Bluey Build a Dam? | Rain - Series 3| Bluey",
+  "duration": 118,
+  "declaredDuration": 118,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=ftIeN8adm6I",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/11_Can Bluey Build a Dam?.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/11_Can Bluey Build a Dam?.txt"
+  },
+  "qualityFlags": [],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Can Bluey Build a Dam? | Rain - Series 3| Bluey",
+      "start": 113,
+      "end": 116,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 113,
+      "end": 116,
+      "sentenceText": "Ugh!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 113,
+          "end": 116,
+          "text": "Ugh!",
+          "originalText": "ugh",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 113,
+              "end": 116,
+              "text": "ugh"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 113,
+              "end": 116,
+              "text": "Ugh!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 113,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "ugh",
+          "cueId": "c0001",
+          "quote": "Ugh!",
+          "start": 113,
+          "end": 116,
+          "matchStart": 0,
+          "matchEnd": 3
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

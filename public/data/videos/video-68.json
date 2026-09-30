@@ -1,0 +1,1341 @@
+{
+  "id": "video-68",
+  "number": 68,
+  "title": "Olympia and Melinda's Spa Bath 🛁 💙 | I Love Bubbles! 🫧 | Bluey Season 3 Highlight - Relax | Bluey",
+  "duration": 121,
+  "declaredDuration": 121,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=Dy6wdDVd6gE",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/68_Olympia and Melinda's Spa Bath.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/68_Olympia and Melinda's Spa Bath.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text",
+    "contains-non-spoken-annotation-removal"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Olympia and Melinda's Spa Bath 🛁 💙 | I Love Bubbles! 🫧 | Bluey Season 3 Highlight - Relax | Bluey",
+      "start": 0,
+      "end": 101,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 5,
+      "sentenceText": "I love bubbles! I love your bubbles! Oh, you sing so well, Barb.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 5,
+          "text": "I love bubbles! I love your bubbles! Oh, you sing so well, Barb.",
+          "originalText": "I love bubbles. I love your bubbles. Oh, you sing so well, Barb.",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "I love bubbles. I love your bubbles. Oh,"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "you sing so well, Barb."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "text": "I love bubbles! I love your bubbles!"
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "text": "Oh, you sing so well, Barb."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 3,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 3,
+              "end": 5,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "love",
+          "cueId": "c0001",
+          "quote": "I love bubbles! I love your bubbles! Oh, you sing so well, Barb.",
+          "start": 0,
+          "end": 5,
+          "matchStart": 2,
+          "matchEnd": 6
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 5,
+      "end": 12,
+      "sentenceText": "Hey, you want me to turn the spa on? What is a spa? I'll show you. See those little holes?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 5,
+          "end": 12,
+          "text": "Hey, you want me to turn the spa on? What is a spa? I'll show you. See those little holes?",
+          "originalText": ">> Hey, you want me to turn the spa on? >> What is a spa? >> I'll show you. See those little holes?",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "text": ">> Hey, you want me to turn the spa on?"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": ">> What is a spa?"
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 12,
+              "text": ">> I'll show you. See those little holes?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "text": "Hey, you want me to turn the spa on?"
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "text": "What is a spa?"
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 12,
+              "text": "I'll show you. See those little holes?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 5,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 7,
+              "end": 9,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 9,
+              "end": 12,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0002",
+          "quote": "Hey, you want me to turn the spa on? What is a spa? I'll show you. See those little holes?",
+          "start": 5,
+          "end": 12,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "turn",
+          "cueId": "c0002",
+          "quote": "Hey, you want me to turn the spa on? What is a spa? I'll show you. See those little holes?",
+          "start": 5,
+          "end": 12,
+          "matchStart": 20,
+          "matchEnd": 24
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Hey, you want me to turn the spa on? What is a spa? I'll show you. See those little holes?",
+          "start": 5,
+          "end": 12,
+          "matchStart": 37,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "Hey, you want me to turn the spa on? What is a spa? I'll show you. See those little holes?",
+          "start": 5,
+          "end": 12,
+          "matchStart": 67,
+          "matchEnd": 70
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0002",
+          "quote": "Hey, you want me to turn the spa on? What is a spa? I'll show you. See those little holes?",
+          "start": 5,
+          "end": 12,
+          "matchStart": 77,
+          "matchEnd": 83
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 12,
+      "end": 25,
+      "sentenceText": "Yes. Ready? Okay. Chapter one. Wherever you go, there you are. You need to actually I should just enjoy the beach a bit before",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 12,
+          "end": 25,
+          "text": "Yes. Ready? Okay. Chapter one. Wherever you go, there you are. You need to actually I should just enjoy the beach a bit before",
+          "originalText": ">> Yes. >> Ready? >> Okay. Chapter one. Wherever you go, there you are. You need to actually I should just enjoy the beach a bit before",
+          "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 13,
+              "text": ">> Yes."
+            },
+            {
+              "id": "c0007",
+              "start": 13,
+              "end": 16,
+              "text": ">> Ready?"
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 21,
+              "text": ">> Okay. Chapter one. Wherever you go,"
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "text": "there you are. You need to actually I"
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 25,
+              "text": "should just enjoy the beach a bit before"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 13,
+              "text": "Yes."
+            },
+            {
+              "id": "c0007",
+              "start": 13,
+              "end": 16,
+              "text": "Ready?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 12,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
+            {
+              "id": "c0007",
+              "start": 13,
+              "end": 16,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 21,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0003",
+          "quote": "Yes. Ready? Okay. Chapter one. Wherever you go, there you are. You need to actually I should just enjoy the beach a bit before",
+          "start": 12,
+          "end": 25,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0003",
+          "quote": "Yes. Ready? Okay. Chapter one. Wherever you go, there you are. You need to actually I should just enjoy the beach a bit before",
+          "start": 12,
+          "end": 25,
+          "matchStart": 5,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "Yes. Ready? Okay. Chapter one. Wherever you go, there you are. You need to actually I should just enjoy the beach a bit before",
+          "start": 12,
+          "end": 25,
+          "matchStart": 12,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0003",
+          "quote": "Yes. Ready? Okay. Chapter one. Wherever you go, there you are. You need to actually I should just enjoy the beach a bit before",
+          "start": 12,
+          "end": 25,
+          "matchStart": 67,
+          "matchEnd": 71
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 25,
+      "end": 30,
+      "sentenceText": "I start reading. No, I should read my book.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 25,
+          "end": 30,
+          "text": "I start reading. No, I should read my book.",
+          "originalText": "I start reading. >> No, I should read my book.",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 27,
+              "text": "I start reading."
+            },
+            {
+              "id": "c0012",
+              "start": 27,
+              "end": 30,
+              "text": ">> No, I should read my book."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 30,
+              "text": "No, I should read my book."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 27,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "I start reading. No, I should read my book.",
+          "start": 25,
+          "end": 30,
+          "matchStart": 17,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 30,
+      "end": 39,
+      "sentenceText": "Did you enjoy that spa bath, Olympia? yes, Melinda, I certainly did.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 30,
+          "end": 39,
+          "text": "Did you enjoy that spa bath, Olympia? yes, Melinda, I certainly did.",
+          "originalText": "Did you enjoy that spa bath Olympia? Oh yes, Melinda, I certainly did.",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 30,
+              "end": 34,
+              "text": "Did you enjoy that spa bath Olympia? Oh"
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 39,
+              "text": "yes, Melinda, I certainly did."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0012",
+              "start": 30,
+              "end": 34,
+              "text": "Did you enjoy that spa bath, Olympia?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 30,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 34,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0005",
+          "quote": "Did you enjoy that spa bath, Olympia? yes, Melinda, I certainly did.",
+          "start": 30,
+          "end": 39,
+          "matchStart": 38,
+          "matchEnd": 41
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 39,
+      "end": 51,
+      "sentenceText": "We are fancy ladies indeed. Ooh, this chair has a handle. That's fancy. What happens when you pull it?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 39,
+          "end": 51,
+          "text": "We are fancy ladies indeed. Ooh, this chair has a handle. That's fancy. What happens when you pull it?",
+          "originalText": ">> We are fancy ladies indeed. Ooh, this chair has a handle. That's fancy. What happens when you pull it?",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 39,
+              "end": 43,
+              "text": ">> We are fancy ladies indeed. Ooh, this"
+            },
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "text": "chair has a handle. That's fancy. What"
+            },
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 51,
+              "text": "happens when you pull it?"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 39,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 51,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "We are fancy ladies indeed. Ooh, this chair has a handle. That's fancy. What happens when you pull it?",
+          "start": 39,
+          "end": 51,
+          "matchStart": 72,
+          "matchEnd": 76
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 55,
+      "end": 61,
+      "sentenceText": "What are you doing here? I don't know how to relax. A Come here.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 55,
+          "end": 61,
+          "text": "What are you doing here? I don't know how to relax. A Come here.",
+          "originalText": ">> What are you doing here? I don't know how to relax. >> A Come here.",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 55,
+              "end": 57,
+              "text": ">> What are you doing here? I don't know"
+            },
+            {
+              "id": "c0019",
+              "start": 57,
+              "end": 59,
+              "text": "how to relax."
+            },
+            {
+              "id": "c0020",
+              "start": 59,
+              "end": 61,
+              "text": ">> A Come here."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 55,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 57,
+              "end": 59,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 59,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0007",
+          "quote": "What are you doing here? I don't know how to relax. A Come here.",
+          "start": 55,
+          "end": 61,
+          "matchStart": 25,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "come-here",
+          "cueId": "c0007",
+          "quote": "What are you doing here? I don't know how to relax. A Come here.",
+          "start": 55,
+          "end": 61,
+          "matchStart": 54,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "What are you doing here? I don't know how to relax. A Come here.",
+          "start": 55,
+          "end": 61,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0007",
+          "quote": "What are you doing here? I don't know how to relax. A Come here.",
+          "start": 55,
+          "end": 61,
+          "matchStart": 33,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0007",
+          "quote": "What are you doing here? I don't know how to relax. A Come here.",
+          "start": 55,
+          "end": 61,
+          "matchStart": 38,
+          "matchEnd": 41
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0007",
+          "quote": "What are you doing here? I don't know how to relax. A Come here.",
+          "start": 55,
+          "end": 61,
+          "matchStart": 27,
+          "matchEnd": 32
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 61,
+      "end": 67,
+      "sentenceText": "It's harder than it looks. I'll tell you what. You want to learn to relax?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 61,
+          "end": 67,
+          "text": "It's harder than it looks. I'll tell you what. You want to learn to relax?",
+          "originalText": ">> It's harder than it looks. >> I'll tell you what. You want to learn to",
+          "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 61,
+              "end": 65,
+              "text": ">> It's harder than it looks."
+            },
+            {
+              "id": "c0022",
+              "start": 65,
+              "end": 67,
+              "text": ">> I'll tell you what. You want to learn to"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 65,
+              "end": 66,
+              "text": "I'll tell you what."
+            },
+            {
+              "id": "c0023",
+              "start": 66,
+              "end": 67,
+              "text": "You want to learn to relax?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 61,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 65,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "It's harder than it looks. I'll tell you what. You want to learn to relax?",
+          "start": 61,
+          "end": 67,
+          "matchStart": 41,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0008",
+          "quote": "It's harder than it looks. I'll tell you what. You want to learn to relax?",
+          "start": 61,
+          "end": 67,
+          "matchStart": 51,
+          "matchEnd": 55
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 67,
+      "end": 73,
+      "sentenceText": "relax? Go and get some tips from the masters. Yeah. A little bit this way. Wait, no.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 67,
+          "end": 73,
+          "text": "relax? Go and get some tips from the masters. Yeah. A little bit this way. Wait, no.",
+          "originalText": "relax? Go and get some tips from the masters. >> Yeah. A little bit this way. Wait, no.",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 67,
+              "end": 69,
+              "text": "relax? Go and get some tips from the"
+            },
+            {
+              "id": "c0024",
+              "start": 69,
+              "end": 70,
+              "text": "masters."
+            },
+            {
+              "id": "c0025",
+              "start": 70,
+              "end": 73,
+              "text": ">> Yeah. A little bit this way. Wait, no."
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0023",
+              "start": 67,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
+              "id": "c0024",
+              "start": 69,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "little",
+          "cueId": "c0009",
+          "quote": "relax? Go and get some tips from the masters. Yeah. A little bit this way. Wait, no.",
+          "start": 67,
+          "end": 73,
+          "matchStart": 54,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0009",
+          "quote": "relax? Go and get some tips from the masters. Yeah. A little bit this way. Wait, no.",
+          "start": 67,
+          "end": 73,
+          "matchStart": 75,
+          "matchEnd": 79
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "relax? Go and get some tips from the masters. Yeah. A little bit this way. Wait, no.",
+          "start": 67,
+          "end": 73,
+          "matchStart": 81,
+          "matchEnd": 83
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 73,
+      "end": 78,
+      "sentenceText": "Back that way. Mom, watch this. Watch what?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 73,
+          "end": 78,
+          "text": "Back that way. Mom, watch this. Watch what?",
+          "originalText": "Back that way. Mom, watch this. >> Watch what?",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 75,
+              "text": "Back that way. Mom, watch this."
+            },
+            {
+              "id": "c0027",
+              "start": 75,
+              "end": 78,
+              "text": ">> Watch what?"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 75,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "Back that way. Mom, watch this. Watch what?",
+          "start": 73,
+          "end": 78,
+          "matchStart": 38,
+          "matchEnd": 42
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 78,
+      "end": 89,
+      "sentenceText": "You guys are crazy. My turn. You kids just go about it, don't you? Here, bed. Go on. Go hit the deck.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 78,
+          "end": 89,
+          "text": "You guys are crazy. My turn. You kids just go about it, don't you? Here, bed. Go on. Go hit the deck.",
+          "originalText": ">> You guys are crazy. >> My turn. >> You kids just go about it, don't you? Here, bed. Go on. Go hit the deck.",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 78,
+              "end": 79,
+              "text": ">> You guys are crazy."
+            },
+            {
+              "id": "c0029",
+              "start": 79,
+              "end": 82,
+              "text": ">> My turn."
+            },
+            {
+              "id": "c0030",
+              "start": 82,
+              "end": 85,
+              "text": ">> You kids just go about it, don't you?"
+            },
+            {
+              "id": "c0031",
+              "start": 85,
+              "end": 89,
+              "text": "Here, bed. Go on. Go hit the deck."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0031",
+              "start": 82,
+              "end": 85,
+              "text": "You kids just go about it, don't you?"
+            },
+            {
+              "id": "c0032",
+              "start": 85,
+              "end": 89,
+              "text": "Here, bed. Go on. Go hit the deck."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0028",
+              "start": 78,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 79,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 82,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 85,
+              "end": 89,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "turn",
+          "cueId": "c0011",
+          "quote": "You guys are crazy. My turn. You kids just go about it, don't you? Here, bed. Go on. Go hit the deck.",
+          "start": 78,
+          "end": 89,
+          "matchStart": 23,
+          "matchEnd": 27
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0011",
+          "quote": "You guys are crazy. My turn. You kids just go about it, don't you? Here, bed. Go on. Go hit the deck.",
+          "start": 78,
+          "end": 89,
+          "matchStart": 56,
+          "matchEnd": 61
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 99,
+      "end": 101,
+      "sentenceText": "Just go about it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 99,
+          "end": 101,
+          "text": "Just go about it.",
+          "originalText": "Just go about it.",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 99,
+              "end": 101,
+              "text": "Just go about it."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 99,
+              "end": 101,
+              "text": "Just go about it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 99,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

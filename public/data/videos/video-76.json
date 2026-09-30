@@ -1,0 +1,255 @@
+{
+  "id": "video-76",
+  "number": 76,
+  "title": "Bluey Series 3: The Story So Far",
+  "duration": 57,
+  "declaredDuration": 56,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=EavpbxJIlFM",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/76_Bluey Series 3 The Story So Far.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/76_Bluey Series 3 The Story So Far.txt"
+  },
+  "qualityFlags": [
+    "declared-duration-shorter-than-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Bluey Series 3: The Story So Far",
+      "start": 3,
+      "end": 57,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 3,
+      "end": 8,
+      "sentenceText": "That's me when I was 10 years old.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 3,
+          "end": 8,
+          "text": "That's me when I was 10 years old.",
+          "originalText": "that's me when I was 10 years old",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 3,
+              "end": 8,
+              "text": "that's me when I was 10 years old"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 3,
+              "end": 8,
+              "text": "That's me when I was 10 years old."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 3,
+              "end": 8,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 12,
+      "end": 20,
+      "sentenceText": "Tomorrow. oh yeah this will be easy what would be easy obstacles",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 12,
+          "end": 20,
+          "text": "Tomorrow. oh yeah this will be easy what would be easy obstacles",
+          "originalText": "tomorrow oh yeah this will be easy what would be easy obstacles",
+          "originalCueRefs": [
+            {
+              "id": "c0002",
+              "start": 12,
+              "end": 14,
+              "text": "tomorrow"
+            },
+            {
+              "id": "c0003",
+              "start": 14,
+              "end": 18,
+              "text": "oh yeah this will be easy what would be"
+            },
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 20,
+              "text": "easy obstacles"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0002",
+              "start": 12,
+              "end": 14,
+              "text": "Tomorrow."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0002",
+              "start": 12,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 14,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0002",
+          "quote": "Tomorrow. oh yeah this will be easy what would be easy obstacles",
+          "start": 12,
+          "end": 20,
+          "matchStart": 36,
+          "matchEnd": 40
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 53,
+      "end": 57,
+      "sentenceText": "Wow, that was a wild ride!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 53,
+          "end": 57,
+          "text": "Wow, that was a wild ride!",
+          "originalText": "wow that was a wild ride",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 53,
+              "end": 57,
+              "text": "wow that was a wild ride"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 53,
+              "end": 57,
+              "text": "Wow, that was a wild ride!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 53,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    }
+  ]
+}

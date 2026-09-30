@@ -1,0 +1,771 @@
+{
+  "id": "video-64",
+  "number": 64,
+  "title": "Fast Driving Music | Driving - Series 3",
+  "duration": 120,
+  "declaredDuration": 120,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=Nye4RK6zbiQ",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/64_Fast Driving Music.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/64_Fast Driving Music.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Fast Driving Music | Driving - Series 3",
+      "start": 3,
+      "end": 120,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 3,
+      "end": 14,
+      "sentenceText": "Oh, no! The shop's closed! You're gonna ram the shop? Yeah! You can't do that!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 3,
+          "end": 14,
+          "text": "Oh, no! The shop's closed! You're gonna ram the shop? Yeah! You can't do that!",
+          "originalText": "oh no the shop's closed you're gonna ram the shop yeah you can't do that",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 3,
+              "end": 7,
+              "text": "oh no the shop's closed"
+            },
+            {
+              "id": "c0002",
+              "start": 8,
+              "end": 10,
+              "text": "you're gonna ram the shop yeah"
+            },
+            {
+              "id": "c0003",
+              "start": 10,
+              "end": 14,
+              "text": "you can't do that"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 3,
+              "end": 7,
+              "text": "Oh, no! The shop's closed!"
+            },
+            {
+              "id": "c0002",
+              "start": 8,
+              "end": 9,
+              "text": "You're gonna ram the shop?"
+            },
+            {
+              "id": "c0003",
+              "start": 9,
+              "end": 10,
+              "text": "Yeah!"
+            },
+            {
+              "id": "c0004",
+              "start": 10,
+              "end": 14,
+              "text": "You can't do that!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 3,
+              "end": 7,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 8,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 10,
+              "end": 14,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0001",
+          "quote": "Oh, no! The shop's closed! You're gonna ram the shop? Yeah! You can't do that!",
+          "start": 3,
+          "end": 14,
+          "matchStart": 4,
+          "matchEnd": 6
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 18,
+      "end": 23,
+      "sentenceText": "we're in the shop quick grab the almond milk okay Okay. And make sure you pay for it.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 18,
+          "end": 23,
+          "text": "we're in the shop quick grab the almond milk okay Okay. And make sure you pay for it.",
+          "originalText": "we're in the shop quick grab the almond milk okay and make sure you pay for it okay i'll",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 20,
+              "text": "we're in the shop quick grab the almond"
+            },
+            {
+              "id": "c0005",
+              "start": 20,
+              "end": 21,
+              "text": "milk okay"
+            },
+            {
+              "id": "c0006",
+              "start": 21,
+              "end": 23,
+              "text": "and make sure you pay for it okay i'll"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0007",
+              "start": 21,
+              "end": 22,
+              "text": "Okay."
+            },
+            {
+              "id": "c0008",
+              "start": 22,
+              "end": 23,
+              "text": "And make sure you pay for it."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 20,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 21,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0002",
+          "quote": "we're in the shop quick grab the almond milk okay Okay. And make sure you pay for it.",
+          "start": 18,
+          "end": 23,
+          "matchStart": 45,
+          "matchEnd": 49
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0002",
+          "quote": "we're in the shop quick grab the almond milk okay Okay. And make sure you pay for it.",
+          "start": 18,
+          "end": 23,
+          "matchStart": 65,
+          "matchEnd": 69
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 23,
+      "end": 37,
+      "sentenceText": "Okay, I'll just leave the money on the floor. it's the guy who owns the shop and he doesn't look happy yeah cause you drove your car into his shop cause agus is gonna pee on my curtains ah he's coming Get in the car! Get in the car!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 23,
+          "end": 37,
+          "text": "Okay, I'll just leave the money on the floor. it's the guy who owns the shop and he doesn't look happy yeah cause you drove your car into his shop cause agus is gonna pee on my curtains ah he's coming Get in the car! Get in the car!",
+          "originalText": "just eat the money on the floor it's the guy who owns the shop and he doesn't look happy yeah cause you drove your car into his shop cause agus is gonna pee on my curtains ah he's coming get in the car get in the car",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 23,
+              "end": 25,
+              "text": "just eat the money on the floor"
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 28,
+              "text": "it's the guy who owns the shop and he"
+            },
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 30,
+              "text": "doesn't look happy yeah cause you drove"
+            },
+            {
+              "id": "c0010",
+              "start": 30,
+              "end": 32,
+              "text": "your car into his shop cause agus is"
+            },
+            {
+              "id": "c0011",
+              "start": 32,
+              "end": 35,
+              "text": "gonna pee on my curtains ah he's coming"
+            },
+            {
+              "id": "c0012",
+              "start": 35,
+              "end": 37,
+              "text": "get in the car get in the car"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 25,
+              "text": "Okay, I'll just leave the money on the floor."
+            },
+            {
+              "id": "c0014",
+              "start": 35,
+              "end": 37,
+              "text": "Get in the car! Get in the car!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 23,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 30,
+              "end": 32,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 32,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 35,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "Okay, I'll just leave the money on the floor. it's the guy who owns the shop and he doesn't look happy yeah cause you drove your car into his shop cause agus is gonna pee on my curtains ah he's coming Get in the car! Get in the car!",
+          "start": 23,
+          "end": 37,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0003",
+          "quote": "Okay, I'll just leave the money on the floor. it's the guy who owns the shop and he doesn't look happy yeah cause you drove your car into his shop cause agus is gonna pee on my curtains ah he's coming Get in the car! Get in the car!",
+          "start": 23,
+          "end": 37,
+          "matchStart": 92,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "happy",
+          "cueId": "c0003",
+          "quote": "Okay, I'll just leave the money on the floor. it's the guy who owns the shop and he doesn't look happy yeah cause you drove your car into his shop cause agus is gonna pee on my curtains ah he's coming Get in the car! Get in the car!",
+          "start": 23,
+          "end": 37,
+          "matchStart": 97,
+          "matchEnd": 102
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 37,
+      "end": 43,
+      "sentenceText": "i think you need to have a chat with agatha when all this is over",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 37,
+          "end": 43,
+          "text": "i think you need to have a chat with agatha when all this is over",
+          "originalText": "i think you need to have a chat with agatha when all this is over",
+          "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 37,
+              "end": 38,
+              "text": "i think you need to have a chat with"
+            },
+            {
+              "id": "c0014",
+              "start": 38,
+              "end": 43,
+              "text": "agatha when all this is over"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 37,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 38,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "think",
+          "cueId": "c0004",
+          "quote": "i think you need to have a chat with agatha when all this is over",
+          "start": 37,
+          "end": 43,
+          "matchStart": 2,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0004",
+          "quote": "i think you need to have a chat with agatha when all this is over",
+          "start": 37,
+          "end": 43,
+          "matchStart": 12,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 68,
+      "end": 83,
+      "sentenceText": "he's still following us spray some milk in his wig's grade oh man is she really gonna pee on your curtains oh she'll do it all right okay Okay. Just leave enough for a cup of tea!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 68,
+          "end": 83,
+          "text": "he's still following us spray some milk in his wig's grade oh man is she really gonna pee on your curtains oh she'll do it all right okay Okay. Just leave enough for a cup of tea!",
+          "originalText": "he's still following us spray some milk in his wig's grade oh man is she really gonna pee on your curtains oh she'll do it all right okay just leave enough for a cup of tea okay",
+          "originalCueRefs": [
+            {
+              "id": "c0015",
+              "start": 68,
+              "end": 70,
+              "text": "he's still following us spray some milk"
+            },
+            {
+              "id": "c0016",
+              "start": 70,
+              "end": 73,
+              "text": "in his wig's grade"
+            },
+            {
+              "id": "c0017",
+              "start": 73,
+              "end": 75,
+              "text": "oh man is she really gonna pee on your"
+            },
+            {
+              "id": "c0018",
+              "start": 75,
+              "end": 78,
+              "text": "curtains oh she'll do it all right okay"
+            },
+            {
+              "id": "c0019",
+              "start": 78,
+              "end": 83,
+              "text": "just leave enough for a cup of tea okay"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 78,
+              "end": 79,
+              "text": "Okay."
+            },
+            {
+              "id": "c0021",
+              "start": 79,
+              "end": 83,
+              "text": "Just leave enough for a cup of tea!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0015",
+              "start": 68,
+              "end": 70,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 70,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 73,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 75,
+              "end": 78,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 78,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "all-right",
+          "cueId": "c0005",
+          "quote": "he's still following us spray some milk in his wig's grade oh man is she really gonna pee on your curtains oh she'll do it all right okay Okay. Just leave enough for a cup of tea!",
+          "start": 68,
+          "end": 83,
+          "matchStart": 123,
+          "matchEnd": 132
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0005",
+          "quote": "he's still following us spray some milk in his wig's grade oh man is she really gonna pee on your curtains oh she'll do it all right okay Okay. Just leave enough for a cup of tea!",
+          "start": 68,
+          "end": 83,
+          "matchStart": 133,
+          "matchEnd": 137
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 113,
+      "end": 120,
+      "sentenceText": "What?! She peed on my curtains. I told you I would.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 113,
+          "end": 120,
+          "text": "What?! She peed on my curtains. I told you I would.",
+          "originalText": "what she peed on my curtains i told you i would",
+          "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 113,
+              "end": 116,
+              "text": "what she peed on my curtains i told you"
+            },
+            {
+              "id": "c0021",
+              "start": 116,
+              "end": 120,
+              "text": "i would"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0022",
+              "start": 113,
+              "end": 114,
+              "text": "What?!"
+            },
+            {
+              "id": "c0023",
+              "start": 114,
+              "end": 116,
+              "text": "She peed on my curtains."
+            },
+            {
+              "id": "c0024",
+              "start": 116,
+              "end": 120,
+              "text": "I told you I would."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 113,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 116,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "What?! She peed on my curtains. I told you I would.",
+          "start": 113,
+          "end": 120,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}

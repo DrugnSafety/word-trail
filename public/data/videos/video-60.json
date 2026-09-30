@@ -1,0 +1,1438 @@
+{
+  "id": "video-60",
+  "number": 60,
+  "title": "Wild Girls 🧹 | Brand New - Series 3 | Bluey",
+  "duration": 123,
+  "declaredDuration": 123,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=sQ9QrOiW2aw",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/60_Wild Girls.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/60_Wild Girls.txt"
+  },
+  "qualityFlags": [
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Wild Girls 🧹 | Brand New - Series 3 | Bluey",
+      "start": 7,
+      "end": 121,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011",
+        "c0012"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 7,
+      "end": 17,
+      "sentenceText": "huh wild daughter wild daughter I'm sorry I said I'm sorry I said that Calypso was wrong.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 7,
+          "end": 17,
+          "text": "huh wild daughter wild daughter I'm sorry I said I'm sorry I said that Calypso was wrong.",
+          "originalText": "huh wild daughter wild daughter I'm sorry I said that cpso was wrong I was just",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 7,
+              "end": 10,
+              "text": "huh wild"
+            },
+            {
+              "id": "c0002",
+              "start": 10,
+              "end": 13,
+              "text": "daughter wild daughter I'm sorry I said"
+            },
+            {
+              "id": "c0003",
+              "start": 13,
+              "end": 17,
+              "text": "that cpso was wrong I was just"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0002",
+              "start": 13,
+              "end": 17,
+              "text": "I'm sorry I said that Calypso was wrong."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 7,
+              "end": 10,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 10,
+              "end": 13,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            },
+            {
+              "id": "c0003",
+              "start": 13,
+              "end": 17,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sorry",
+          "cueId": "c0001",
+          "quote": "huh wild daughter wild daughter I'm sorry I said I'm sorry I said that Calypso was wrong.",
+          "start": 7,
+          "end": 17,
+          "matchStart": 36,
+          "matchEnd": 41
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 17,
+      "end": 26,
+      "sentenceText": "hungry Indie Indy?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 17,
+          "end": 26,
+          "text": "hungry Indie Indy?",
+          "originalText": "hungry Indie Indie Sho",
+          "originalCueRefs": [
+            {
+              "id": "c0004",
+              "start": 17,
+              "end": 18,
+              "text": "hungry"
+            },
+            {
+              "id": "c0005",
+              "start": 18,
+              "end": 20,
+              "text": "Indie"
+            },
+            {
+              "id": "c0006",
+              "start": 20,
+              "end": 26,
+              "text": "Indie Sho"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0004",
+              "start": 20,
+              "end": 26,
+              "text": "Indy?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0004",
+              "start": 17,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            },
+            {
+              "id": "c0005",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 20,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 27,
+      "end": 38,
+      "sentenceText": "clothes oh oh oh Oh, she's really sad. I just wish there was a way she could join in.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 27,
+          "end": 38,
+          "text": "clothes oh oh oh Oh, she's really sad. I just wish there was a way she could join in.",
+          "originalText": "clothes oh oh oh oh she's really sad I just wish there was a way she could join in oh",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 27,
+              "end": 31,
+              "text": "clothes oh oh oh"
+            },
+            {
+              "id": "c0008",
+              "start": 31,
+              "end": 34,
+              "text": "oh she's really sad I just wish there"
+            },
+            {
+              "id": "c0009",
+              "start": 34,
+              "end": 36,
+              "text": "was a way she could join"
+            },
+            {
+              "id": "c0010",
+              "start": 36,
+              "end": 38,
+              "text": "in oh"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 31,
+              "end": 34,
+              "text": "Oh, she's really sad. I just wish there"
+            },
+            {
+              "id": "c0006",
+              "start": 34,
+              "end": 36,
+              "text": "was a way she could join"
+            },
+            {
+              "id": "c0007",
+              "start": 36,
+              "end": 38,
+              "text": "in."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 27,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 31,
+              "end": 34,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 34,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            },
+            {
+              "id": "c0010",
+              "start": 36,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sad",
+          "cueId": "c0003",
+          "quote": "clothes oh oh oh Oh, she's really sad. I just wish there was a way she could join in.",
+          "start": 27,
+          "end": 38,
+          "matchStart": 34,
+          "matchEnd": 37
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 38,
+      "end": 53,
+      "sentenceText": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 38,
+          "end": 53,
+          "text": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
+          "originalText": "oh Coco that's some sad howling Calypso can you make Indie play with me and not Chloe Indie is in charge of Indie sweetheart a but I want to play wild girls what do you love about playing",
+          "originalCueRefs": [
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 42,
+              "text": "oh Coco that's some sad howling Calypso"
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 45,
+              "text": "can you make Indie play with me and not"
+            },
+            {
+              "id": "c0013",
+              "start": 45,
+              "end": 48,
+              "text": "Chloe Indie is in charge of Indie"
+            },
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 50,
+              "text": "sweetheart a but I want to play wild"
+            },
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 53,
+              "text": "girls what do you love about playing"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0008",
+              "start": 38,
+              "end": 42,
+              "text": "Coco, that's some sad howling. Calypso,"
+            },
+            {
+              "id": "c0009",
+              "start": 42,
+              "end": 45,
+              "text": "can you make Indy play with me and not"
+            },
+            {
+              "id": "c0010",
+              "start": 45,
+              "end": 48,
+              "text": "Chloe? Indy's in charge of Indy,"
+            },
+            {
+              "id": "c0011",
+              "start": 48,
+              "end": 50,
+              "text": "sweetheart. Aww, but I want to play Wild"
+            },
+            {
+              "id": "c0012",
+              "start": 50,
+              "end": 53,
+              "text": "Girls. What do you love about playing"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0011",
+              "start": 38,
+              "end": 42,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            },
+            {
+              "id": "c0012",
+              "start": 42,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sad",
+          "cueId": "c0004",
+          "quote": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
+          "start": 38,
+          "end": 53,
+          "matchStart": 18,
+          "matchEnd": 21
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0004",
+          "quote": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
+          "start": 38,
+          "end": 53,
+          "matchStart": 58,
+          "matchEnd": 62
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0004",
+          "quote": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
+          "start": 38,
+          "end": 53,
+          "matchStart": 135,
+          "matchEnd": 139
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
+          "start": 38,
+          "end": 53,
+          "matchStart": 160,
+          "matchEnd": 164
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0004",
+          "quote": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
+          "start": 38,
+          "end": 53,
+          "matchStart": 172,
+          "matchEnd": 176
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 53,
+      "end": 60,
+      "sentenceText": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with Indy.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 53,
+          "end": 60,
+          "text": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with Indy.",
+          "originalText": "wild girls uh the broom and Indie bringing food and I love dancing with Indie",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 53,
+              "end": 56,
+              "text": "wild girls uh the broom and Indie"
+            },
+            {
+              "id": "c0017",
+              "start": 56,
+              "end": 58,
+              "text": "bringing food and I love dancing with"
+            },
+            {
+              "id": "c0018",
+              "start": 58,
+              "end": 60,
+              "text": "Indie"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 53,
+              "end": 56,
+              "text": "Wild Girls? Uh, the broom. And Indy"
+            },
+            {
+              "id": "c0014",
+              "start": 56,
+              "end": 58,
+              "text": "bringing food. And I love dancing with"
+            },
+            {
+              "id": "c0015",
+              "start": 58,
+              "end": 60,
+              "text": "Indy."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 53,
+              "end": 56,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 56,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            },
+            {
+              "id": "c0018",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "love",
+          "cueId": "c0005",
+          "quote": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with Indy.",
+          "start": 53,
+          "end": 60,
+          "matchStart": 57,
+          "matchEnd": 61
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 60,
+      "end": 67,
+      "sentenceText": "I just like playing with Indy. Okay. Do you think you could scare a",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 60,
+          "end": 67,
+          "text": "I just like playing with Indy. Okay. Do you think you could scare a",
+          "originalText": "I just like playing with Indie okay do you think you could scare a",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 60,
+              "end": 62,
+              "text": "I just like playing with"
+            },
+            {
+              "id": "c0020",
+              "start": 62,
+              "end": 65,
+              "text": "Indie okay do you think you could scare"
+            },
+            {
+              "id": "c0021",
+              "start": 65,
+              "end": 67,
+              "text": "a"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0016",
+              "start": 60,
+              "end": 62,
+              "text": "I just like playing with"
+            },
+            {
+              "id": "c0017",
+              "start": 62,
+              "end": 65,
+              "text": "Indy. Okay. Do you think you could scare"
+            },
+            {
+              "id": "c0018",
+              "start": 65,
+              "end": 67,
+              "text": "a"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 60,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 62,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 65,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0006",
+          "quote": "I just like playing with Indy. Okay. Do you think you could scare a",
+          "start": 60,
+          "end": 67,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0006",
+          "quote": "I just like playing with Indy. Okay. Do you think you could scare a",
+          "start": 60,
+          "end": 67,
+          "matchStart": 31,
+          "matchEnd": 35
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0006",
+          "quote": "I just like playing with Indy. Okay. Do you think you could scare a",
+          "start": 60,
+          "end": 67,
+          "matchStart": 44,
+          "matchEnd": 49
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 72,
+      "end": 79,
+      "sentenceText": "scarecrow? What is it? It's the Pink Witch of the woods. Hey, Coco's not a pink witch.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 72,
+          "end": 79,
+          "text": "scarecrow? What is it? It's the Pink Witch of the woods. Hey, Coco's not a pink witch.",
+          "originalText": "scarecrow what is it it's the pink Witch of the woods hey Coco's not a pink witch",
+          "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 72,
+              "end": 75,
+              "text": "scarecrow what is it it's the pink Witch"
+            },
+            {
+              "id": "c0023",
+              "start": 75,
+              "end": 79,
+              "text": "of the woods hey Coco's not a pink witch"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 72,
+              "end": 75,
+              "text": "scarecrow? What is it? It's the Pink Witch"
+            },
+            {
+              "id": "c0020",
+              "start": 75,
+              "end": 79,
+              "text": "of the woods. Hey, Coco's not a pink witch."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 72,
+              "end": 75,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 75,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0007",
+          "quote": "scarecrow? What is it? It's the Pink Witch of the woods. Hey, Coco's not a pink witch.",
+          "start": 72,
+          "end": 79,
+          "matchStart": 11,
+          "matchEnd": 15
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 79,
+      "end": 85,
+      "sentenceText": "Yes, she is. She's got a broom. No, she uses that to... Wait.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 79,
+          "end": 85,
+          "text": "Yes, she is. She's got a broom. No, she uses that to... Wait.",
+          "originalText": "yes she is she's got a bro no she uses the to",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 79,
+              "end": 82,
+              "text": "yes she is she's got a bro no she uses"
+            },
+            {
+              "id": "c0025",
+              "start": 82,
+              "end": 85,
+              "text": "the to"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 79,
+              "end": 82,
+              "text": "Yes, she is. She's got a broom. No, she uses"
+            },
+            {
+              "id": "c0022",
+              "start": 82,
+              "end": 85,
+              "text": "that to... Wait."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 79,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 82,
+              "end": 85,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0008",
+          "quote": "Yes, she is. She's got a broom. No, she uses that to... Wait.",
+          "start": 79,
+          "end": 85,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "Yes, she is. She's got a broom. No, she uses that to... Wait.",
+          "start": 79,
+          "end": 85,
+          "matchStart": 32,
+          "matchEnd": 34
+        },
+        {
+          "expressionId": "wait",
+          "cueId": "c0008",
+          "quote": "Yes, she is. She's got a broom. No, she uses that to... Wait.",
+          "start": 79,
+          "end": 85,
+          "matchStart": 56,
+          "matchEnd": 60
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 85,
+      "end": 90,
+      "sentenceText": "Oh, no! Look, this corn is shriveled up.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 85,
+          "end": 90,
+          "text": "Oh, no! Look, this corn is shriveled up.",
+          "originalText": "wait oh no look this Con is shriveled up",
+          "originalCueRefs": [
+            {
+              "id": "c0026",
+              "start": 85,
+              "end": 90,
+              "text": "wait oh no look this Con is shriveled up"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0023",
+              "start": 85,
+              "end": 90,
+              "text": "Oh, no! Look, this corn is shriveled up."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 85,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "Oh, no! Look, this corn is shriveled up.",
+          "start": 85,
+          "end": 90,
+          "matchStart": 4,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0009",
+          "quote": "Oh, no! Look, this corn is shriveled up.",
+          "start": 85,
+          "end": 90,
+          "matchStart": 8,
+          "matchEnd": 12
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 90,
+      "end": 104,
+      "sentenceText": "They all are! It must be the work of the Pink Witch. The Pink Witch has cursed our crops. I can't be dealing with witches. I just bought a new quad",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 90,
+          "end": 104,
+          "text": "They all are! It must be the work of the Pink Witch. The Pink Witch has cursed our crops. I can't be dealing with witches. I just bought a new quad",
+          "originalText": "they all are it must be the work of the pink witch the pink witch has cursed our crops I can't be dealing with witches I just bought a new quad",
+          "originalCueRefs": [
+            {
+              "id": "c0027",
+              "start": 90,
+              "end": 93,
+              "text": "they all are it must be the work of the"
+            },
+            {
+              "id": "c0028",
+              "start": 93,
+              "end": 94,
+              "text": "pink"
+            },
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 97,
+              "text": "witch the pink witch has cursed our"
+            },
+            {
+              "id": "c0030",
+              "start": 97,
+              "end": 101,
+              "text": "crops I can't be dealing with witches I"
+            },
+            {
+              "id": "c0031",
+              "start": 101,
+              "end": 104,
+              "text": "just bought a new quad"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0024",
+              "start": 90,
+              "end": 93,
+              "text": "They all are! It must be the work of the"
+            },
+            {
+              "id": "c0025",
+              "start": 93,
+              "end": 94,
+              "text": "Pink"
+            },
+            {
+              "id": "c0026",
+              "start": 94,
+              "end": 97,
+              "text": "Witch. The Pink Witch has cursed our"
+            },
+            {
+              "id": "c0027",
+              "start": 97,
+              "end": 101,
+              "text": "crops. I can't be dealing with witches. I"
+            },
+            {
+              "id": "c0028",
+              "start": 101,
+              "end": 104,
+              "text": "just bought a new quad"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0027",
+              "start": 90,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 93,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            },
+            {
+              "id": "c0029",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 97,
+              "end": 101,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 101,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 105,
+      "end": 116,
+      "sentenceText": "bike. What are we going to do? I have to take her some of our food every day to keep her happy, otherwise she'll curse our whole farm. No, it's too dangerous.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 105,
+          "end": 116,
+          "text": "bike. What are we going to do? I have to take her some of our food every day to keep her happy, otherwise she'll curse our whole farm. No, it's too dangerous.",
+          "originalText": "bike what are we going to do I have to take her some of our food every day to keep her happy otherwise she'll curse our whole Farm no and it's too dangerous",
+          "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 105,
+              "end": 108,
+              "text": "bike what are we going to do I have to"
+            },
+            {
+              "id": "c0033",
+              "start": 108,
+              "end": 110,
+              "text": "take her some of our food every day to"
+            },
+            {
+              "id": "c0034",
+              "start": 110,
+              "end": 112,
+              "text": "keep her happy otherwise she'll curse"
+            },
+            {
+              "id": "c0035",
+              "start": 112,
+              "end": 116,
+              "text": "our whole Farm no and it's too dangerous"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0029",
+              "start": 105,
+              "end": 108,
+              "text": "bike. What are we going to do? I have to"
+            },
+            {
+              "id": "c0030",
+              "start": 108,
+              "end": 110,
+              "text": "take her some of our food every day to"
+            },
+            {
+              "id": "c0031",
+              "start": 110,
+              "end": 112,
+              "text": "keep her happy, otherwise she'll curse"
+            },
+            {
+              "id": "c0032",
+              "start": 112,
+              "end": 116,
+              "text": "our whole farm. No, it's too dangerous."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 105,
+              "end": 108,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
+              "id": "c0033",
+              "start": 108,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            },
+            {
+              "id": "c0035",
+              "start": 112,
+              "end": 116,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0035"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "have-to",
+          "cueId": "c0011",
+          "quote": "bike. What are we going to do? I have to take her some of our food every day to keep her happy, otherwise she'll curse our whole farm. No, it's too dangerous.",
+          "start": 105,
+          "end": 116,
+          "matchStart": 33,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "bike. What are we going to do? I have to take her some of our food every day to keep her happy, otherwise she'll curse our whole farm. No, it's too dangerous.",
+          "start": 105,
+          "end": 116,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "happy",
+          "cueId": "c0011",
+          "quote": "bike. What are we going to do? I have to take her some of our food every day to keep her happy, otherwise she'll curse our whole farm. No, it's too dangerous.",
+          "start": 105,
+          "end": 116,
+          "matchStart": 89,
+          "matchEnd": 94
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0011",
+          "quote": "bike. What are we going to do? I have to take her some of our food every day to keep her happy, otherwise she'll curse our whole farm. No, it's too dangerous.",
+          "start": 105,
+          "end": 116,
+          "matchStart": 135,
+          "matchEnd": 137
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 12",
+      "start": 116,
+      "end": 121,
+      "sentenceText": "Don't worry, I used to be a wild girl.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 12,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 116,
+          "end": 121,
+          "text": "Don't worry, I used to be a wild girl.",
+          "originalText": "don't worry I used to be a wild girl",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 116,
+              "end": 121,
+              "text": "don't worry I used to be a wild girl"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 116,
+              "end": 121,
+              "text": "Don't worry, I used to be a wild girl."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0036",
+              "start": 116,
+              "end": 121,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 12,
+          "qualityFlags": [
+            "corrected-text-exact-coverage"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "dont",
+          "cueId": "c0012",
+          "quote": "Don't worry, I used to be a wild girl.",
+          "start": 116,
+          "end": 121,
+          "matchStart": 0,
+          "matchEnd": 5
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage"
+      ]
+    }
+  ]
+}

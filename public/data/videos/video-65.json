@@ -1,0 +1,1465 @@
+{
+  "id": "video-65",
+  "number": 65,
+  "title": "Ready, Set... Go! | Obstacle Course - Series 3 | Bluey",
+  "duration": 124,
+  "declaredDuration": 124,
+  "captionType": "YouTube auto-generated English captions",
+  "sourceUrl": "https://www.youtube.com/watch?v=YD-_bnqlJcw",
+  "sourceFiles": {
+    "cleaned": "resource/Bluey_Season3_Scripts/txt_1_shadowing/65_Ready, Set... Go!.txt",
+    "original": "resource/Bluey_Season3_Scripts/txt_2_youtube_original/65_Ready, Set... Go!.txt"
+  },
+  "qualityFlags": [
+    "contains-repaired-zero-duration-cues",
+    "contains-raw-original-text"
+  ],
+  "generationMethod": "editorial-bank+deterministic-match",
+  "sourceStatus": "captured-not-audio-verified",
+  "reviewStatus": "unreviewed",
+  "contentVersion": "2026.09.29-2",
+  "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "title": "Ready, Set... Go! | Obstacle Course - Series 3 | Bluey",
+      "start": 0,
+      "end": 124,
+      "source": "whole-video",
+      "sceneIds": [
+        "c0001",
+        "c0002",
+        "c0003",
+        "c0004",
+        "c0005",
+        "c0006",
+        "c0007",
+        "c0008",
+        "c0009",
+        "c0010",
+        "c0011"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "c0001",
+      "title": "문단 1",
+      "start": 0,
+      "end": 6,
+      "sentenceText": "Go, Bingo! Go, Bluey!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0001",
+          "start": 0,
+          "end": 6,
+          "text": "Go, Bingo! Go, Bluey!",
+          "originalText": "go bingo go glowy",
+          "originalCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "go bingo"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": "go glowy"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "text": "Go, Bingo!"
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "text": "Go, Bluey!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0001",
+              "start": 0,
+              "end": 4,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0001"
+              ]
+            },
+            {
+              "id": "c0002",
+              "start": 4,
+              "end": 6,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0002"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0002",
+      "title": "문단 2",
+      "start": 21,
+      "end": 26,
+      "sentenceText": "Hey, have you kids seen my green ball? Look, Dad! We set up an obstacle course!",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0002",
+          "start": 21,
+          "end": 26,
+          "text": "Hey, have you kids seen my green ball? Look, Dad! We set up an obstacle course!",
+          "originalText": "hey if you kids see my green ball look dad we set up an obstacle",
+          "originalCueRefs": [
+            {
+              "id": "c0003",
+              "start": 21,
+              "end": 23,
+              "text": "hey if you kids see my green"
+            },
+            {
+              "id": "c0004",
+              "start": 23,
+              "end": 26,
+              "text": "ball look dad we set up an obstacle"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0003",
+              "start": 21,
+              "end": 23,
+              "text": "Hey, have you kids seen my green ball?"
+            },
+            {
+              "id": "c0004",
+              "start": 23,
+              "end": 26,
+              "text": "Look, Dad! We set up an obstacle course!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0003",
+              "start": 21,
+              "end": 23,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0003"
+              ]
+            },
+            {
+              "id": "c0004",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0004"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0002",
+          "quote": "Hey, have you kids seen my green ball? Look, Dad! We set up an obstacle course!",
+          "start": 21,
+          "end": 26,
+          "matchStart": 39,
+          "matchEnd": 43
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0002",
+          "quote": "Hey, have you kids seen my green ball? Look, Dad! We set up an obstacle course!",
+          "start": 21,
+          "end": 26,
+          "matchStart": 45,
+          "matchEnd": 48
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 3",
+      "start": 26,
+      "end": 31,
+      "sentenceText": "Do you want to have a go? I'll race you. Where's the finish line?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 26,
+          "end": 31,
+          "text": "Do you want to have a go? I'll race you. Where's the finish line?",
+          "originalText": "course do you want to have a go ryder i'll race you where's the finish line no",
+          "originalCueRefs": [
+            {
+              "id": "c0005",
+              "start": 26,
+              "end": 28,
+              "text": "course do you want to have a go ryder"
+            },
+            {
+              "id": "c0006",
+              "start": 28,
+              "end": 31,
+              "text": "i'll race you where's the finish line no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0005",
+              "start": 26,
+              "end": 28,
+              "text": "Do you want to have a go?"
+            },
+            {
+              "id": "c0007",
+              "start": 28,
+              "end": 29,
+              "text": "I'll race you."
+            },
+            {
+              "id": "c0008",
+              "start": 29,
+              "end": 31,
+              "text": "Where's the finish line?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0005",
+              "start": 26,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0005"
+              ]
+            },
+            {
+              "id": "c0006",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0003",
+          "quote": "Do you want to have a go? I'll race you. Where's the finish line?",
+          "start": 26,
+          "end": 31,
+          "matchStart": 7,
+          "matchEnd": 11
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0003",
+          "quote": "Do you want to have a go? I'll race you. Where's the finish line?",
+          "start": 26,
+          "end": 31,
+          "matchStart": 41,
+          "matchEnd": 46
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 4",
+      "start": 31,
+      "end": 43,
+      "sentenceText": "one's racing anyone this is just for having fun yes i see What are you doing? I'm doing chicken.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 4,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 31,
+          "end": 43,
+          "text": "one's racing anyone this is just for having fun yes i see What are you doing? I'm doing chicken.",
+          "originalText": "one's racing anyone this is just for having fun yes i see what are you doing i'm doing chicken",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 31,
+              "end": 33,
+              "text": "one's racing anyone this is just for"
+            },
+            {
+              "id": "c0008",
+              "start": 33,
+              "end": 38,
+              "text": "having fun yes i see"
+            },
+            {
+              "id": "c0009",
+              "start": 39,
+              "end": 43,
+              "text": "what are you doing i'm doing chicken"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 39,
+              "end": 41,
+              "text": "What are you doing?"
+            },
+            {
+              "id": "c0014",
+              "start": 41,
+              "end": 43,
+              "text": "I'm doing chicken."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 31,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
+            {
+              "id": "c0008",
+              "start": 33,
+              "end": 38,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
+            {
+              "id": "c0009",
+              "start": 39,
+              "end": 43,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0004",
+          "quote": "one's racing anyone this is just for having fun yes i see What are you doing? I'm doing chicken.",
+          "start": 31,
+          "end": 43,
+          "matchStart": 48,
+          "matchEnd": 51
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0004",
+          "quote": "one's racing anyone this is just for having fun yes i see What are you doing? I'm doing chicken.",
+          "start": 31,
+          "end": 43,
+          "matchStart": 54,
+          "matchEnd": 57
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0004",
+          "quote": "one's racing anyone this is just for having fun yes i see What are you doing? I'm doing chicken.",
+          "start": 31,
+          "end": 43,
+          "matchStart": 58,
+          "matchEnd": 62
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 5",
+      "start": 43,
+      "end": 48,
+      "sentenceText": "Why is Dad acting like a chicken? He's saying you're scared. Of chickens?",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 43,
+          "end": 48,
+          "text": "Why is Dad acting like a chicken? He's saying you're scared. Of chickens?",
+          "originalText": "why is dad acting like a chicken he's saying you're scared of chickens no",
+          "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 43,
+              "end": 45,
+              "text": "why is dad acting like a chicken he's"
+            },
+            {
+              "id": "c0011",
+              "start": 45,
+              "end": 48,
+              "text": "saying you're scared of chickens no"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0015",
+              "start": 43,
+              "end": 45,
+              "text": "Why is Dad acting like a chicken?"
+            },
+            {
+              "id": "c0016",
+              "start": 45,
+              "end": 47,
+              "text": "He's saying you're scared."
+            },
+            {
+              "id": "c0017",
+              "start": 47,
+              "end": 48,
+              "text": "Of chickens?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0010",
+              "start": 43,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
+              "id": "c0011",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "why",
+          "cueId": "c0005",
+          "quote": "Why is Dad acting like a chicken? He's saying you're scared. Of chickens?",
+          "start": 43,
+          "end": 48,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0005",
+          "quote": "Why is Dad acting like a chicken? He's saying you're scared. Of chickens?",
+          "start": 43,
+          "end": 48,
+          "matchStart": 7,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0005",
+          "quote": "Why is Dad acting like a chicken? He's saying you're scared. Of chickens?",
+          "start": 43,
+          "end": 48,
+          "matchStart": 18,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "scared",
+          "cueId": "c0005",
+          "quote": "Why is Dad acting like a chicken? He's saying you're scared. Of chickens?",
+          "start": 43,
+          "end": 48,
+          "matchStart": 53,
+          "matchEnd": 59
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 6",
+      "start": 48,
+      "end": 62,
+      "sentenceText": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 48,
+          "end": 62,
+          "text": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "originalText": "they're bracing me don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line ready set no they're not racing yeah we're happy just",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 48,
+              "end": 50,
+              "text": "they're bracing me don't you kids know"
+            },
+            {
+              "id": "c0013",
+              "start": 50,
+              "end": 53,
+              "text": "what chicken means no and they don't"
+            },
+            {
+              "id": "c0014",
+              "start": 53,
+              "end": 54,
+              "text": "need everything turned into a"
+            },
+            {
+              "id": "c0015",
+              "start": 54,
+              "end": 57,
+              "text": "competition that's loser talk come on"
+            },
+            {
+              "id": "c0016",
+              "start": 57,
+              "end": 60,
+              "text": "the hose is the finish line ready set no"
+            },
+            {
+              "id": "c0017",
+              "start": 60,
+              "end": 62,
+              "text": "they're not racing yeah we're happy just"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0019",
+              "start": 48,
+              "end": 49,
+              "text": "of racing me."
+            },
+            {
+              "id": "c0020",
+              "start": 49,
+              "end": 50,
+              "text": "Don't you kids know"
+            },
+            {
+              "id": "c0026",
+              "start": 57,
+              "end": 59,
+              "text": "the hose is the finish line."
+            },
+            {
+              "id": "c0027",
+              "start": 59,
+              "end": 60,
+              "text": "Ready, set—"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
+            {
+              "id": "c0013",
+              "start": 50,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
+            {
+              "id": "c0014",
+              "start": 53,
+              "end": 54,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            },
+            {
+              "id": "c0015",
+              "start": 54,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0015"
+              ]
+            },
+            {
+              "id": "c0016",
+              "start": 57,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 60,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 131,
+          "matchEnd": 138
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 29,
+          "matchEnd": 33
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 34,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 53,
+          "matchEnd": 55
+        },
+        {
+          "expressionId": "need",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 71,
+          "matchEnd": 75
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 168,
+          "matchEnd": 173
+        },
+        {
+          "expressionId": "happy",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 210,
+          "matchEnd": 215
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0006",
+          "quote": "of racing me. Don't you kids know what chicken means no and they don't need everything turned into a competition that's loser talk come on the hose is the finish line. Ready, set— they're not racing yeah we're happy just",
+          "start": 48,
+          "end": 62,
+          "matchStart": 14,
+          "matchEnd": 19
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0007",
+      "title": "문단 7",
+      "start": 62,
+      "end": 66,
+      "sentenceText": "having fun when it gets sherbet",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 7,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0007",
+          "start": 62,
+          "end": 66,
+          "text": "having fun when it gets sherbet",
+          "originalText": "having fun when it gets sherbet",
+          "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 62,
+              "end": 66,
+              "text": "having fun when it gets sherbet"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 62,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 8",
+      "start": 79,
+      "end": 94,
+      "sentenceText": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 8,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 79,
+          "end": 94,
+          "text": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "originalText": "yes dad wins okay well done thanks now i might go and get my sherbet ah yeah you do that i think we've had enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 79,
+              "end": 84,
+              "text": "yes dad wins okay well done thanks now i"
+            },
+            {
+              "id": "c0020",
+              "start": 84,
+              "end": 86,
+              "text": "might go and get my sherbet ah"
+            },
+            {
+              "id": "c0021",
+              "start": 86,
+              "end": 88,
+              "text": "yeah you do that i think we've had"
+            },
+            {
+              "id": "c0022",
+              "start": 88,
+              "end": 91,
+              "text": "enough dad for one morning okay let's go"
+            },
+            {
+              "id": "c0023",
+              "start": 91,
+              "end": 94,
+              "text": "back to having fun that was fun yeah"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 86,
+              "end": 87,
+              "text": "Ah, yeah, you"
+            },
+            {
+              "id": "c0036",
+              "start": 87,
+              "end": 88,
+              "text": "do that. I think we've had enough"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 79,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
+            {
+              "id": "c0020",
+              "start": 84,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 86,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 88,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 91,
+              "end": 94,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 8,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "lets-go",
+          "cueId": "c0008",
+          "quote": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "start": 79,
+          "end": 94,
+          "matchStart": 152,
+          "matchEnd": 160
+        },
+        {
+          "expressionId": "go-back",
+          "cueId": "c0008",
+          "quote": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "start": 79,
+          "end": 94,
+          "matchStart": 158,
+          "matchEnd": 165
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0008",
+          "quote": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "start": 79,
+          "end": 94,
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0008",
+          "quote": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "start": 79,
+          "end": 94,
+          "matchStart": 4,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0008",
+          "quote": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "start": 79,
+          "end": 94,
+          "matchStart": 13,
+          "matchEnd": 17
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0008",
+          "quote": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "start": 79,
+          "end": 94,
+          "matchStart": 97,
+          "matchEnd": 102
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0008",
+          "quote": "yes dad wins okay well done thanks now i might go and get my sherbet ah Ah, yeah, you do that. I think we've had enough enough dad for one morning okay let's go back to having fun that was fun yeah",
+          "start": 79,
+          "end": 94,
+          "matchStart": 152,
+          "matchEnd": 157
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 9",
+      "start": 94,
+      "end": 106,
+      "sentenceText": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true There's only one thing you can do:",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 9,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 94,
+          "end": 106,
+          "text": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true There's only one thing you can do:",
+          "originalText": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true there's only one thing you can do cheats",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 94,
+              "end": 97,
+              "text": "what i'm on another race can you help me"
+            },
+            {
+              "id": "c0025",
+              "start": 97,
+              "end": 100,
+              "text": "be dad yeah i want sherbet"
+            },
+            {
+              "id": "c0026",
+              "start": 100,
+              "end": 103,
+              "text": "okay he won't let you win though that's"
+            },
+            {
+              "id": "c0027",
+              "start": 103,
+              "end": 104,
+              "text": "true"
+            },
+            {
+              "id": "c0028",
+              "start": 104,
+              "end": 106,
+              "text": "there's only one thing you can do cheats"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0044",
+              "start": 104,
+              "end": 106,
+              "text": "There's only one thing you can do:"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 94,
+              "end": 97,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
+            {
+              "id": "c0025",
+              "start": 97,
+              "end": 100,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
+            },
+            {
+              "id": "c0026",
+              "start": 100,
+              "end": 103,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
+            },
+            {
+              "id": "c0027",
+              "start": 103,
+              "end": 104,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            },
+            {
+              "id": "c0028",
+              "start": 104,
+              "end": 106,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0028"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true There's only one thing you can do:",
+          "start": 94,
+          "end": 106,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0009",
+          "quote": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true There's only one thing you can do:",
+          "start": 94,
+          "end": 106,
+          "matchStart": 33,
+          "matchEnd": 37
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0009",
+          "quote": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true There's only one thing you can do:",
+          "start": 94,
+          "end": 106,
+          "matchStart": 44,
+          "matchEnd": 47
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0009",
+          "quote": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true There's only one thing you can do:",
+          "start": 94,
+          "end": 106,
+          "matchStart": 55,
+          "matchEnd": 59
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0009",
+          "quote": "what i'm on another race can you help me be dad yeah i want sherbet okay he won't let you win though that's true There's only one thing you can do:",
+          "start": 94,
+          "end": 106,
+          "matchStart": 68,
+          "matchEnd": 72
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 10",
+      "start": 106,
+      "end": 117,
+      "sentenceText": "Yeah! Yeah! What? No, I meant practice. you kids sure are keen to get whooped again oh yes we are All we can do is try harder this time.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 10,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 106,
+          "end": 117,
+          "text": "Yeah! Yeah! What? No, I meant practice. you kids sure are keen to get whooped again oh yes we are All we can do is try harder this time.",
+          "originalText": "yeah yeah what no i meant practice you kids sure are keen to get whooped again oh yes we are all we can do is try harder this time",
+          "originalCueRefs": [
+            {
+              "id": "c0029",
+              "start": 106,
+              "end": 110,
+              "text": "yeah yeah what no i meant practice"
+            },
+            {
+              "id": "c0030",
+              "start": 110,
+              "end": 112,
+              "text": "you kids sure are keen to get whooped"
+            },
+            {
+              "id": "c0031",
+              "start": 112,
+              "end": 115,
+              "text": "again oh yes we are"
+            },
+            {
+              "id": "c0032",
+              "start": 115,
+              "end": 117,
+              "text": "all we can do is try harder this time"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0046",
+              "start": 106,
+              "end": 107,
+              "text": "Yeah! Yeah!"
+            },
+            {
+              "id": "c0047",
+              "start": 107,
+              "end": 110,
+              "text": "What? No, I meant practice."
+            },
+            {
+              "id": "c0050",
+              "start": 115,
+              "end": 117,
+              "text": "All we can do is try harder this time."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0029",
+              "start": 106,
+              "end": 110,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0029"
+              ]
+            },
+            {
+              "id": "c0030",
+              "start": 110,
+              "end": 112,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0030"
+              ]
+            },
+            {
+              "id": "c0031",
+              "start": 112,
+              "end": 115,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 115,
+              "end": 117,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 10,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0010",
+          "quote": "Yeah! Yeah! What? No, I meant practice. you kids sure are keen to get whooped again oh yes we are All we can do is try harder this time.",
+          "start": 106,
+          "end": 117,
+          "matchStart": 12,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0010",
+          "quote": "Yeah! Yeah! What? No, I meant practice. you kids sure are keen to get whooped again oh yes we are All we can do is try harder this time.",
+          "start": 106,
+          "end": 117,
+          "matchStart": 18,
+          "matchEnd": 20
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0010",
+          "quote": "Yeah! Yeah! What? No, I meant practice. you kids sure are keen to get whooped again oh yes we are All we can do is try harder this time.",
+          "start": 106,
+          "end": 117,
+          "matchStart": 49,
+          "matchEnd": 53
+        },
+        {
+          "expressionId": "again",
+          "cueId": "c0010",
+          "quote": "Yeah! Yeah! What? No, I meant practice. you kids sure are keen to get whooped again oh yes we are All we can do is try harder this time.",
+          "start": 106,
+          "end": 117,
+          "matchStart": 78,
+          "matchEnd": 83
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0010",
+          "quote": "Yeah! Yeah! What? No, I meant practice. you kids sure are keen to get whooped again oh yes we are All we can do is try harder this time.",
+          "start": 106,
+          "end": 117,
+          "matchStart": 87,
+          "matchEnd": 90
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 11",
+      "start": 117,
+      "end": 124,
+      "sentenceText": "that's the way see mom losing doesn't stop these kids",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 11,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 117,
+          "end": 124,
+          "text": "that's the way see mom losing doesn't stop these kids",
+          "originalText": "that's the way see mom losing doesn't stop these kids",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 117,
+              "end": 120,
+              "text": "that's the way see mom losing doesn't"
+            },
+            {
+              "id": "c0034",
+              "start": 120,
+              "end": 124,
+              "text": "stop these kids"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 117,
+              "end": 120,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
+              "id": "c0034",
+              "start": 120,
+              "end": 124,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0034"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 11,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "see",
+          "cueId": "c0011",
+          "quote": "that's the way see mom losing doesn't stop these kids",
+          "start": 117,
+          "end": 124,
+          "matchStart": 15,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0011",
+          "quote": "that's the way see mom losing doesn't stop these kids",
+          "start": 117,
+          "end": 124,
+          "matchStart": 38,
+          "matchEnd": 42
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    }
+  ]
+}
