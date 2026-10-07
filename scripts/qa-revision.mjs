@@ -116,6 +116,11 @@ await page.route('**/api/meaning', async route => {
   aiTerms.push(term);
   await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(aiPackage(term)) });
 });
+await page.route('**/api/study-guide', route => {
+  const { kind, text } = route.request().postDataJSON();
+  return route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ kind, text, ipa: '/qa/',
+    syllables: [text], stressIndex: 0, segments: [{ text, ipa: '/qa/' }], noteKo: '브라우저 검사용 모의 발음 설명입니다.' }) });
+});
 await page.route('**/api/ai-usage', route => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({
   day: '2026-10-06', timezone: 'America/New_York', dailyLimit: 1000000,
   keys: [1,2].map(n => ({ id: `key-${n}`, used: 40, reserved: 0, remaining: 999960, disabled: false }))

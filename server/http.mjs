@@ -26,18 +26,19 @@ export function sameSite(req) {
   } catch { return false; }
 }
 
-export async function readJsonBody(req) {
+export async function readJsonBody(req, maxBytes = 4096) {
+  if (!Number.isSafeInteger(maxBytes) || maxBytes <= 0) throw new TypeError('maxBytes must be a positive integer.');
   if (!/^application\/json(?:;|$)/i.test(req.headers?.['content-type'] || '')) throw new Error('invalid_request');
-  if (Number(req.headers?.['content-length']) > 4096) throw new Error('invalid_request');
+  if (Number(req.headers?.['content-length']) > maxBytes) throw new Error('invalid_request');
   if (req.body !== undefined) {
     const body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
-    if (Buffer.byteLength(JSON.stringify(body)) > 4096) throw new Error('invalid_request');
+    if (Buffer.byteLength(JSON.stringify(body)) > maxBytes) throw new Error('invalid_request');
     return body;
   }
   const chunks = []; let size = 0;
   for await (const chunk of req) {
     size += Buffer.byteLength(chunk);
-    if (size > 4096) throw new Error('invalid_request');
+    if (size > maxBytes) throw new Error('invalid_request');
     chunks.push(Buffer.from(chunk));
   }
   return JSON.parse(Buffer.concat(chunks).toString('utf8'));

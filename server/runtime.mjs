@@ -1,5 +1,6 @@
 import { createBlobLedgerStore } from './blob-store.mjs';
 import { createAiMeaningService } from './ai-service.mjs';
+import { createStudyService } from './study-service.mjs';
 import { createQuotaManager } from './quota.mjs';
 
 let runtime;
@@ -10,6 +11,6 @@ export function createAiRuntime(env = process.env) {
   if (new Set(keys.map(item => item.id)).size !== keys.length) throw new Error('AI is not configured.');
   const store = createBlobLedgerStore({ token: env.BLOB_READ_WRITE_TOKEN });
   const settings = { store, keyIds: keys.map(item => item.id), dailyLimit: 1_000_000, timezone: 'America/New_York' };
-  return { service: createAiMeaningService({ ...settings, keys }), quota: createQuotaManager(settings), store };
+  return { service: createAiMeaningService({ ...settings, keys }), studyService: createStudyService({ ...settings, keys }), quota: createQuotaManager(settings), store };
 }
 export function getAiRuntime() { return runtime ||= createAiRuntime(); }

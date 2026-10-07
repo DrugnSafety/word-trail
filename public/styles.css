@@ -18,6 +18,31 @@
 }
 
 * { box-sizing: border-box; }
+.spelling-input-toggle { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.spelling-input-toggle [aria-pressed="true"] { background: var(--sea); color: white; }
+.word-reading-guide { margin-top: 20px; padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: #f4f9fc; }
+.reading-letter-row, .phonics-segments { display: flex; flex-wrap: wrap; gap: 7px; }
+.reading-letter-row span { min-width: 26px; padding: 4px; text-align: center; border-radius: 6px; font-weight: 750; }
+.reading-letter-row .active, .phonics-segment.active { background: var(--yellow); }
+.phonics-segment { display: grid; gap: 4px; padding: 8px 11px; border-radius: 10px; background: white; border-bottom: 3px solid var(--sea); text-align: center; }
+.phonics-segment small { color: var(--muted); }
+.reading-syllables { font-size: 25px; letter-spacing: .02em; }
+.reading-syllables mark { background: var(--yellow); border-radius: 5px; padding: 1px 4px; }
+.word-reading-guide button { margin: 14px 8px 0 0; }
+.sentence-library-tools { display: flex; flex-wrap: wrap; gap: 14px; margin: 30px 0 15px; }
+.sentence-library-tools label { display: grid; flex: 1 1 180px; min-width: 0; gap: 7px; font-weight: 650; }
+.sentence-library-tools select { width: 100%; min-width: 0; min-height: 46px; border: 1px solid var(--line); padding: 8px; border-radius: 10px; background: white; color: var(--ink); }
+.sentence-library-tools .sentence-search-label { flex-basis: 100%; }
+.sentence-library-list { display: grid; gap: 12px; }
+.sentence-library-item { width: 100%; display: grid; gap: 10px; padding: 22px; text-align: left; border: 1px solid var(--line); border-radius: 18px; background: white; overflow-wrap: anywhere; }
+.sentence-library-item strong { font-size: 22px; }
+.sentence-library-item small { color: var(--muted); }
+.sentence-deck-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 18px 0; }
+.sentence-deck-nav span { text-align: center; }
+.sentence-card-media { padding: 18px; margin-top: 16px; background: white; border-radius: 18px; }
+.sentence-card-media .sentence-player { width: 100%; aspect-ratio: 16 / 9; height: auto; }
+.sentence-card-media .sentence-player iframe { width: 100%; height: 100%; }
+.site-header nav { min-width: 0; max-width: 100%; }
 html { scroll-behavior: smooth; }
 body { margin: 0; min-width: 320px; background: var(--sky); }
 button, input, select, textarea { font: inherit; }

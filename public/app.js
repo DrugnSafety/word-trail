@@ -15,6 +15,10 @@ import { createAiMeaningLookup, createEnglishDictionary, createKoreanGlossLookup
 import { createKnowledgeLoader } from './lib/knowledge-loader.js';
 import { letterTonesEnabled, setLetterTonesEnabled } from './lib/letter-tones.js';
 import { findWordFamily, getWordFamilyReview } from './lib/word-families.js';
+import { createHandwritingInput } from './lib/handwriting.js';
+import { createStudySpeechSequence } from './lib/study-speech.js';
+import { createStudyGuideLookup } from './lib/study-guide.js';
+import { cardCandidates, cardProgressKey, filterCards, renderSentenceCard } from './lib/sentence-cards.js';
 import { listEnglishVoices, getVoicePreference, setVoicePreference, resolveVoice, configureUtterance, alphabetSpeechText } from './lib/voice-settings.js';
 
 export const STAGES = ['listen', 'dictation', 'workspace'];
@@ -33,6 +37,34 @@ export function mergeWordKnowledge(local, remote) {
     meaningKo: local.meaningKo || remote.meaningKo,
     koreanSource: local.meaningKo ? local.source : remote.koreanSource,
     dialogues: local.dialogues
+  };
+}
+
+export function sentenceCardFromProgress(record) {
+  const card = record?.sentenceCard;
+  if (record?.kind !== 'sentence' || !card || !/^sentence-[a-z0-9-]+$/.test(record.expressionId || '')
+    || typeof card.text !== 'string' || !card.text || card.text.length > 500
+    || typeof card.reference !== 'string' || card.reference.length > 2000
+    || !Number.isInteger(card.start) || !Number.isInteger(card.end)
+    || card.start < 0 || card.end <= card.start || card.reference.slice(card.start, card.end) !== card.text) return null;
+  return { ...card, kind: 'sentence', id: `${record.videoId}:${record.sceneId}:${record.expressionId}`,
+    expressionId: record.expressionId, videoId: record.videoId, sceneId: record.sceneId, contentVersion: record.contentVersion };
+}
+
+export function makeSentenceProgress(card, previous = null, { independent, now = new Date(), topic = '' } = {}) {
+  const stamp = now.toISOString();
+  return {
+    ...(previous || {}), kind: 'sentence', learnerId: previous?.learnerId || 'default',
+    videoId: card.videoId, sceneId: card.sceneId, expressionId: card.expressionId, contentVersion: card.contentVersion,
+    sentenceCard: { text: card.text, start: card.start, end: card.end, reference: card.reference,
+      chapterId: card.chapterId || '', sourceLabel: card.sourceLabel, partialSource: Boolean(card.partialSource),
+      topic: topic || previous?.sentenceCard?.topic || card.topic || '' },
+    spelling: previous?.spelling || { attempts: 0, correct: false, hints: 0, lastAnswer: '' },
+    reading: typeof independent === 'boolean' ? { result: independent ? 'independent' : 'helped', lastCheckedAt: stamp }
+      : previous?.reading || { result: null, lastCheckedAt: null },
+    review: typeof independent === 'boolean' ? nextReview(previous?.review, independent, now)
+      : previous?.review || { step: -1, dueAt: null, lastReviewedDate: null },
+    updatedAt: stamp
   };
 }
 
@@ -280,6 +312,8 @@ function startApp() {
     resolve: (word, options) => resolveWordKnowledge(word, [...state.expressions.values()], state.lexicon,
       { dictionary, lookupAiMeaning, lookupKorean }, options) });
   const loadWordKnowledge = word => knowledgeLoader.load(word);
+  const studyGuides = createStudyGuideLookup();
+  const sentenceGuides = new Map();
   const state = {
     catalog: [], baseCatalog: [], library: emptyLibrary(), libraryUpdatedAt: null, libraryError: '', customVideos: new Map(), expressions: new Map(), lexicon: [], families: [], progress: [], dictations: [], nickname: '학습자1', mode: 'guest', session: null,
     video: null, videoData: null, scene: null, stage: 'listen', activeWord: 0,
@@ -288,7 +322,9 @@ function startApp() {
     watchedChapters: new Set(), breakTimer: null, showAllReviews: false,
     dictationResult: null, dictationDraft: '', selectionDraft: new Set(), workspaceMode: 'explain', workspaceWordIndex: 0,
     workspaceResult: null, selectedMistake: null, showVocabularyList: false,
-    wordFilter: 'all', autoAdvance: true, workspaceComplete: false, completedItems: new Set(), audioPaused: false
+    wordFilter: 'all', autoAdvance: true, workspaceComplete: false, completedItems: new Set(), audioPaused: false,
+    spellingInput: storageGet('wordtrail:spelling-input:v1') || (navigator.maxTouchPoints > 0 ? 'handwriting' : 'keyboard'),
+    handwritingMode: 'trace', sentenceVideo: null, sentenceCards: [], selectedSentence: null
   };
   let storeSequence = 0;
   let openSequence = 0;
@@ -298,7 +334,7 @@ function startApp() {
   const queueProgress = createKeyedQueue();
   const accountScope = (session = state.session) => session?.user?.id || 'guest';
 
-  const views = ['library', 'learning', 'words', 'review', 'session'];
+  const views = ['library', 'learning', 'words', 'sentences', 'review', 'session'];
   const status = (message, type = 'info', timeout = 4500) => {
     const node = byId('global-status');
     node.textContent = message;
@@ -337,6 +373,13 @@ function startApp() {
     if (type === 'error') status(message || '영상을 재생하지 못했어요. 원본 링크를 이용해 주세요.', 'error');
   };
   const letterSpeaker = createLetterSpeaker(playerStatus);
+  let handwritingInput = null, sentenceCardView = null, readingGuideNode = null, activeWordReadingGuide = null;
+  let sentenceListEpoch = 0, sentenceRequestedScene = null, sentenceVideoChoiceInitialized = false;
+  const studySpeech = createStudySpeechSequence({ onStatus: playerStatus, onHighlight: event => {
+    if (!readingGuideNode?.isConnected) return;
+    readingGuideNode.querySelectorAll('[data-letter-index]').forEach(node => node.classList.toggle('active', event?.type === 'letter' && Number(node.dataset.letterIndex) === event.index));
+    readingGuideNode.querySelectorAll('.phonics-segment').forEach(node => node.classList.toggle('active', event?.type === 'segment' && Number(node.dataset.segmentIndex) === event.index));
+  } });
   let repeatControl = null;
   let sentencePlayback = null;
   const speechLoop = createSpeechLoop((event) => {
@@ -349,6 +392,9 @@ function startApp() {
     workspaceEpoch += 1;
     window.clearTimeout(autoTimer); autoTimer = null;
     cancelWordSpeech(); speechLoop.stop(); letterSpeaker.cancel(); repeatControl = null;
+    studySpeech.stop(); handwritingInput?.destroy(); handwritingInput = null; readingGuideNode = null;
+    activeWordReadingGuide = null;
+    sentenceCardView?.destroy(); sentenceCardView = null;
     sentencePlayback?.pause();
   }
 
@@ -376,6 +422,7 @@ function startApp() {
     });
     if (routeName === 'review') renderReviews();
     if (routeName === 'words') renderWordLibrary();
+    if (routeName === 'sentences') void renderSentenceLibrary();
     if (push) history.pushState({ route: routeName }, '', `#${routeName}`);
     document.querySelector(`#${routeName}-view h1, #${routeName}-view [tabindex="-1"]`)?.focus?.({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -390,6 +437,7 @@ function startApp() {
     byId('mode-card').classList.toggle('cloud', state.mode === 'cloud');
     updateReviewCount();
     updateWordCount();
+    updateSentenceCount();
   }
 
   async function reloadStore() {
@@ -410,7 +458,7 @@ function startApp() {
     if (librarySaved.accountChanged || requestedScope !== accountScope(await auth.getSession())) return reloadStore();
     if (sequence !== storeSequence) return false;
     const nextScope = accountScope(session);
-    if (activeScope !== null && activeScope !== nextScope) { knowledgeLoader.clear(); resetActiveLearning(); }
+    if (activeScope !== null && activeScope !== nextScope) { knowledgeLoader.clear(); studyGuides.clear(); sentenceGuides.clear(); resetActiveLearning(); }
     activeScope = nextScope;
     store = nextStore;
     state.progress = Array.isArray(saved.progress) ? saved.progress : [];
@@ -431,7 +479,10 @@ function startApp() {
     state.session = session;
     state.progress = [];
     state.dictations = [];
-    state.library = emptyLibrary(); state.libraryUpdatedAt = null; knowledgeLoader.clear(); rebuildCatalog(); renderCatalog();
+    state.library = emptyLibrary(); state.libraryUpdatedAt = null; knowledgeLoader.clear(); studyGuides.clear(); sentenceGuides.clear(); rebuildCatalog(); renderCatalog();
+    state.sentenceCards = []; state.sentenceVideo = null; state.selectedSentence = null;
+    byId('sentence-list').replaceChildren(); byId('sentence-study-panel').replaceChildren(); byId('sentence-study-panel').hidden = true;
+    byId('sentence-count').textContent = '0';
     byId('add-video-form').reset(); byId('add-channel-form').reset(); byId('library-feedback').textContent = '';
     byId('video-request-form').reset(); clearVideoRequest();
     state.nickname = '학습자1';
@@ -489,6 +540,7 @@ function startApp() {
     byId('source-info-button').disabled = true;
     byId('download-workbook').disabled = true;
     byId('download-cards').disabled = true;
+    byId('study-sentences').disabled = true;
     byId('youtube-fallback').removeAttribute('href');
     if (byId('info-dialog').open) byId('info-dialog').close();
     if (byId('note-dialog').open) byId('note-dialog').close();
@@ -846,6 +898,7 @@ function startApp() {
       button.setAttribute('aria-current', button.dataset.stage === state.stage ? 'step' : 'false');
     });
     const hasSubmittedCurrentScene = canEnterStage('workspace', stageContext);
+    byId('study-sentences').disabled = !hasSubmittedCurrentScene;
     const exportWords = hasSubmittedCurrentScene ? selectedWords(dictationFor() || {}) : [];
     const hasExportSelection = exportWords.length > 0 && exportWords.every((word) => word.registeredAt);
     byId('download-workbook').disabled = !hasExportSelection;
@@ -1274,6 +1327,7 @@ function startApp() {
   }
 
   function renderWorkspace(panel, record, words, library = false, libraryEntries = null) {
+    handwritingInput?.destroy(); handwritingInput = null; studySpeech.stop(); readingGuideNode = null;
     player?.pause(); speechLoop.stop(); repeatControl = null;
     sentencePlayback?.destroy(); sentencePlayback = null;
     byId('learning-view').classList.toggle('cloze-active', !library && state.workspaceMode === 'cloze' && !state.workspaceComplete);
@@ -1287,7 +1341,8 @@ function startApp() {
     const word = entry?.word || words[state.workspaceWordIndex];
     if (!state.workspaceComplete) knowledgeLoader.prefetch(words.slice(state.workspaceWordIndex, state.workspaceWordIndex + 3));
     const knowledge = knowledgeFor(word);
-    const quizHidden = !state.workspaceComplete && ['cloze', 'meaning', 'audio'].includes(state.workspaceMode)
+    const quizHidden = !state.workspaceComplete && (['cloze', 'meaning', 'audio'].includes(state.workspaceMode)
+      || (state.workspaceMode === 'spelling' && state.spellingInput === 'handwriting' && state.handwritingMode === 'dictation'))
       && !workspaceResultMatches(record, word, state.workspaceMode);
     setQuizPrivacy(quizHidden, library);
     const guide = library ? make('aside', 'workspace-sidebar library-guide') : byId('workspace-sidebar');
@@ -1551,7 +1606,41 @@ function startApp() {
     const indicator = make('div', 'letter-indicator', '·'); indicator.setAttribute('aria-hidden', 'true');
     const typed = make('div', 'typed-word', ''); typed.setAttribute('aria-hidden', 'true');
     const display = make('div', 'spelling-display'); display.append(indicator, typed);
-    task.append(display, makePracticeForm(record, word, 'spelling', '영어 단어', library, indicator));
+    const form = makePracticeForm(record, word, 'spelling', '영어 단어', library, indicator);
+    const input = form.querySelector('input');
+    const toggle = make('div', 'spelling-input-toggle'); toggle.setAttribute('aria-label', '철자 입력 방법');
+    ['keyboard', 'handwriting'].forEach(kind => {
+      const button = make('button', 'secondary-button', kind === 'handwriting' ? '손글씨' : '키보드');
+      button.type = 'button'; button.setAttribute('aria-pressed', String(state.spellingInput === kind));
+      button.addEventListener('click', () => {
+        stopWorkspaceActivity(); state.spellingInput = kind;
+        storageSet('wordtrail:spelling-input:v1', kind); renderActiveWorkspace(library);
+      }); toggle.append(button);
+    });
+    task.append(toggle, display);
+    if (state.spellingInput === 'handwriting' && !workspaceResultMatches(record, word, 'spelling')) {
+      form.querySelector('label').hidden = true;
+      const ink = make('div', 'spelling-handwriting'); task.append(ink);
+      const hear = make('button', 'secondary-button', '공부할 단어 듣기'); hear.type = 'button';
+      hear.addEventListener('click', () => speakWord(word.term)); task.append(hear);
+      const context = captureWorkspaceContext(record, word, 'spelling', library);
+      handwritingInput = createHandwritingInput({ host: ink, expected: word.term, mode: state.handwritingMode,
+        onActivity: () => { studySpeech.stop(); letterSpeaker.cancel(); speechLoop.stop(); cancelWordSpeech(); },
+        onChange: value => {
+          if (!workspaceContextMatches(context)) return;
+          input.value = value; typed.textContent = value; indicator.textContent = value.at(-1) || '·';
+        },
+        onLetters: letters => { if (workspaceContextMatches(context)) { studySpeech.stop(); cancelWordSpeech(); letterSpeaker.enqueue(letters); } },
+        onComplete: value => {
+          if (!workspaceContextMatches(context)) return;
+          input.value = value; letterSpeaker.cancel(); cancelWordSpeech(); speechLoop.stop(); sentencePlayback?.pause();
+          studySpeech.start(value, { guide: normalizeAnswer(value) === normalizeAnswer(word.term) ? activeWordReadingGuide : null });
+        },
+        onModeChange: next => { state.handwritingMode = next; stopWorkspaceActivity(); renderActiveWorkspace(library); }
+      });
+    }
+    task.append(form);
+    appendWordReadingGuide(task, record, word, library);
     task.append(make('p', 'helper', '글자마다 다른 짧은 음과 알파벳 이름이 들려요. 같은 단어는 같은 소리 흐름으로 기억해요. 음성 설정에서 짧은 음을 끌 수 있어요.'));
   }
 
@@ -1580,11 +1669,59 @@ function startApp() {
     form.addEventListener('submit', async (event) => {
       event.preventDefault(); if (submit.disabled) return; const answer = input.value.trim(); if (!answer) { feedback.textContent = '먼저 답을 적어 주세요.'; feedback.className = 'answer-feedback incorrect'; return; }
       const expected = mode === 'cloze' ? sourceClozeAnswer(record.reference, word) : word.term;
-      const correct = checkAnswer(answer, expected); submit.disabled = true; input.disabled = true; speechLoop.stop(); letterSpeaker.cancel(); sentencePlayback?.pause();
+      const correct = checkAnswer(answer, expected); submit.disabled = true; input.disabled = true; speechLoop.stop(); letterSpeaker.cancel(); studySpeech.stop(); handwritingInput?.cancel(); sentencePlayback?.pause();
       const context = captureWorkspaceContext(record, word, mode, library);
       try { await persistVocabularyMutation(record, word.key, (latestWord) => registerPractice(latestWord, mode, answer, correct), library); if (!workspaceContextMatches(context)) return; state.workspaceResult = { ...context, answer, correct }; renderActiveWorkspace(library); if (correct) scheduleAdvance(record, word, library); }
       catch (error) { feedback.textContent = `저장하지 못했어요: ${error.message}`; feedback.className = 'answer-feedback incorrect'; submit.disabled = false; input.disabled = false; }
     }); return form;
+  }
+
+  function appendWordReadingGuide(task, record, word, library) {
+    if (state.spellingInput === 'handwriting' && state.handwritingMode === 'dictation' && !workspaceResultMatches(record, word, 'spelling')) return;
+    const box = make('section', 'word-reading-guide'); task.append(box); readingGuideNode = box;
+    const context = captureWorkspaceContext(record, word, 'spelling', library);
+    activeWordReadingGuide = null;
+    const paint = (guide, initial = false) => {
+      if (!workspaceContextMatches(context) || (!initial && !box.isConnected)) return;
+      activeWordReadingGuide = guide; box.replaceChildren();
+      box.append(make('h3', '', '철자와 소리 묶음'));
+      const letters = make('div', 'reading-letter-row');
+      [...word.term.matchAll(/[A-Za-z]/g)].forEach((match, index) => {
+        const letter = make('span', '', match[0]); letter.dataset.letterIndex = index; letters.append(letter);
+      }); box.append(letters);
+      if (guide) {
+        const sounds = make('div', 'phonics-segments');
+        guide.segments.forEach((part, index) => {
+          const segment = make('span', 'phonics-segment'); segment.dataset.segmentIndex = index;
+          segment.append(make('strong', '', part.text), make('small', '', part.ipa)); sounds.append(segment);
+        });
+        box.append(make('p', 'helper', '소리 묶음'), sounds);
+        const syllables = make('div', 'reading-syllables');
+        guide.syllables.forEach((part, index) => {
+          if (index) syllables.append(document.createTextNode(' · '));
+          syllables.append(make(index === guide.stressIndex ? 'mark' : 'span', '', part));
+        });
+        box.append(make('p', 'helper', `${guide.syllables.length}음절 · 강조된 음절에 힘을 주어 읽어요.`), syllables, make('p', 'ipa', guide.ipa), make('p', 'helper', guide.noteKo));
+      } else box.append(make('p', 'helper', '발음 묶음을 준비하고 있어요. 단어와 전체 철자는 지금도 들을 수 있어요.'));
+      const hear = make('button', 'secondary-button', '단어·전체 철자 듣기');
+      hear.addEventListener('click', () => {
+        if (!workspaceContextMatches(context)) return;
+        cancelWordSpeech(); letterSpeaker.cancel(); speechLoop.stop(); sentencePlayback?.pause(); player?.pause();
+        studySpeech.start(word.term, { guide: activeWordReadingGuide });
+      });
+      const stop = make('button', 'text-button', '철자 읽기 멈추기'); stop.addEventListener('click', () => studySpeech.stop());
+      box.append(hear, stop, make('p', 'helper', '알파벳 이름과 단어 속 소리는 달라요. 묶음은 발음기호로 확인하고 단어는 자연스럽게 이어서 들어요.'));
+    };
+    const load = () => {
+      paint(null, true);
+      studyGuides.load('word', word.term).then(paint).catch(error => {
+        if (error.name === 'AbortError' || !workspaceContextMatches(context) || !box.isConnected) return;
+        const note = make('p', 'helper', '발음 묶음을 불러오지 못했어요. 단어·철자 듣기는 계속 사용할 수 있어요.');
+        const retry = make('button', 'text-button', '발음 묶음 다시 불러오기'); retry.addEventListener('click', load); box.append(note, retry);
+      });
+    };
+    load();
+    studyGuides.prefetch(workspaceEntries(library).slice(state.workspaceWordIndex + 1, state.workspaceWordIndex + 3).map(({ word: next }) => ({ kind: 'word', text: next.term })));
   }
 
   function captureWorkspaceContext(record, word, mode, library) {
@@ -1625,6 +1762,7 @@ function startApp() {
   }
 
   function speakWord(text) {
+    studySpeech.stop();
     speechLoop.stop(); letterSpeaker.cancel(); sentencePlayback?.pause();
     const word = text.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
     if (!word || !speak(word, playerStatus)) status('이 기기에서 영어 단어 읽어주기를 사용할 수 없어요.', 'error');
@@ -1848,6 +1986,164 @@ function startApp() {
     } else setQuizPrivacy(false, true);
   }
 
+  function savedSentenceCards() { return state.progress.map(sentenceCardFromProgress).filter(Boolean); }
+
+  function updateSentenceCount() { byId('sentence-count').textContent = String(savedSentenceCards().length); }
+
+  function sentenceProgress(card) { return state.progress.find(record => recordKey(record) === cardProgressKey(card)); }
+
+  function sentenceTopic(card) { return sentenceGuides.get(card.id)?.topic || sentenceProgress(card)?.sentenceCard?.topic || state.catalog.find(video => video.id === card.videoId)?.topics?.[0] || '영상 문장'; }
+
+  async function renderSentenceLibrary() {
+    const scope = accountScope(), epoch = ++sentenceListEpoch;
+    const videos = byId('sentence-video-filter');
+    const selected = Object.hasOwn(videos.dataset, 'requestedVideo') ? videos.dataset.requestedVideo : videos.value;
+    delete videos.dataset.requestedVideo;
+    videos.replaceChildren(); const all = make('option', '', '저장한 문장 전체'); all.value = ''; videos.append(all);
+    state.catalog.forEach(video => { const option = make('option', '', video.title); option.value = video.id; videos.append(option); });
+    if (!sentenceVideoChoiceInitialized) {
+      videos.value = selected || (savedSentenceCards().length ? '' : state.videoData?.id || state.catalog[0]?.id || '');
+      sentenceVideoChoiceInitialized = true;
+    } else videos.value = state.catalog.some(video => video.id === selected) ? selected : '';
+    const videoId = videos.value;
+    byId('sentence-library-status').textContent = '문장 카드를 불러오는 중…';
+    try {
+      const video = videoId ? (state.videoData?.id === videoId ? state.videoData : await loadVideoData(videoId)) : null;
+      if (epoch !== sentenceListEpoch || scope !== accountScope() || scope !== activeScope || byId('sentences-view').hidden) return;
+      state.sentenceVideo = video;
+      const candidates = video ? selectableScenes(video).flatMap(scene => cardCandidates(video, scene).map(card => ({ ...card,
+        chapterId: chapterForScene(video, scene.id)?.id || '', chapterTitle: chapterForScene(video, scene.id)?.title || '' }))) : [];
+      const saved = savedSentenceCards().filter(card => !videoId || card.videoId === videoId);
+      const seen = new Set(); state.sentenceCards = [...candidates, ...saved].filter(card => {
+        const key = cardProgressKey(card); if (seen.has(key)) return false; seen.add(key); return true;
+      });
+      const chapters = byId('sentence-chapter-filter'), selectedChapter = chapters.value;
+      chapters.replaceChildren(); const anyChapter = make('option', '', '전체 Chapter'); anyChapter.value = ''; chapters.append(anyChapter);
+      (video?.chapters || []).forEach(chapter => { const option = make('option', '', chapter.title); option.value = chapter.id; chapters.append(option); });
+      chapters.value = video?.chapters?.some(chapter => chapter.id === selectedChapter) ? selectedChapter : '';
+      if (sentenceRequestedScene) {
+        chapters.value = chapterForScene(video, sentenceRequestedScene)?.id || '';
+      }
+      renderSentenceList();
+      if (sentenceRequestedScene) {
+        const requested = state.sentenceCards.find(card => card.sceneId === sentenceRequestedScene);
+        sentenceRequestedScene = null;
+        if (requested) openSentenceCard(requested);
+      } else if (state.selectedSentence) {
+        const card = state.sentenceCards.find(item => item.id === state.selectedSentence.id) || state.selectedSentence;
+        openSentenceCard(card);
+      }
+    } catch (error) {
+      if (epoch !== sentenceListEpoch || scope !== accountScope()) return;
+      byId('sentence-library-status').textContent = `문장 카드를 불러오지 못했어요: ${error.message}`;
+    }
+  }
+
+  function visibleSentenceCards() {
+    const progressByKey = new Map(state.progress.map(record => [recordKey(record), record]));
+    const filter = byId('sentence-filter').value;
+    const topic = byId('sentence-topic-filter').value;
+    return filterCards(state.sentenceCards, { query: byId('sentence-search').value, chapterId: byId('sentence-chapter-filter').value,
+      progressByKey, savedOnly: filter === 'saved', dueOnly: filter === 'due' }).filter(card => !topic || sentenceTopic(card) === topic);
+  }
+
+  function renderSentenceList() {
+    const topics = byId('sentence-topic-filter'), selectedTopic = topics.value;
+    topics.replaceChildren(); const all = make('option', '', '전체 주제'); all.value = ''; topics.append(all);
+    [...new Set(state.sentenceCards.map(sentenceTopic))].sort().forEach(topic => { const option = make('option', '', topic); option.value = topic; topics.append(option); });
+    topics.value = [...topics.options].some(option => option.value === selectedTopic) ? selectedTopic : '';
+    const cards = visibleSentenceCards(), list = byId('sentence-list'); list.replaceChildren();
+    byId('sentence-library-status').textContent = `${cards.length}개 문장 · 저장 ${savedSentenceCards().length}개`;
+    if (!cards.length) { list.append(make('p', 'empty-state', '조건에 맞는 문장이 없어요. 영상을 골라 문장 카드를 모아 보세요.')); return; }
+    cards.forEach(card => {
+      const button = make('button', 'sentence-library-item'); button.type = 'button';
+      button.append(make('strong', '', card.text));
+      const video = state.catalog.find(item => item.id === card.videoId), progress = sentenceProgress(card);
+      button.append(make('small', '', `${video?.title || card.videoId} · ${card.chapterTitle || '영상 문장'} · ${sentenceTopic(card)}${progress ? ' · 저장됨' : ''}${progress?.reading?.result === 'helped' ? ' · 도움받음' : progress?.reading?.result === 'independent' ? ' · 혼자 말함' : ''}${progress?.review?.dueAt && isDue(progress) ? ' · 오늘 복습' : ''}`));
+      button.setAttribute('aria-current', String(state.selectedSentence?.id === card.id));
+      button.addEventListener('click', () => openSentenceCard(card)); list.append(button);
+    });
+    list.hidden = Boolean(state.selectedSentence);
+  }
+
+  function openSentenceCard(card) {
+    stopWorkspaceActivity(); sentencePlayback?.destroy(); sentencePlayback = null;
+    state.selectedSentence = card;
+    const panel = byId('sentence-study-panel'); panel.replaceChildren(); panel.hidden = false; byId('sentence-list').hidden = true;
+    const browsing = visibleSentenceCards(), index = browsing.findIndex(item => item.id === card.id);
+    const navigation = make('div', 'sentence-deck-nav');
+    const previous = make('button', 'secondary-button', '← 이전 문장'), next = make('button', 'secondary-button', '다음 문장 →');
+    previous.disabled = index <= 0; next.disabled = index < 0 || index >= browsing.length - 1;
+    previous.addEventListener('click', () => openSentenceCard(browsing[index - 1])); next.addEventListener('click', () => openSentenceCard(browsing[index + 1]));
+    navigation.append(previous, make('span', '', `문장 ${index >= 0 ? index + 1 : 1} / ${Math.max(1, browsing.length)}`), next); panel.append(navigation);
+    panel.append(make('p', 'helper sentence-card-source-label', `${state.catalog.find(video => video.id === card.videoId)?.title || card.videoId} · ${card.chapterTitle || state.sentenceVideo?.chapters?.find(chapter => chapter.id === card.chapterId)?.title || '영상 문장'}`));
+    const host = make('div', 'sentence-card-host'); panel.append(host);
+    const media = make('section', 'sentence-card-media'); media.hidden = true;
+    const mount = make('div', 'sentence-player');
+    const mediaStatus = make('p', 'helper', ''), stop = make('button', 'text-button', '원본 반복 멈추기');
+    stop.addEventListener('click', () => sentencePlayback?.pause()); media.append(mount, stop, mediaStatus); panel.append(media);
+    const result = make('p', 'helper sentence-review-result'); result.setAttribute('role', 'status'); panel.append(result);
+    const context = { epoch: workspaceEpoch, scope: accountScope(), id: card.id };
+    const current = () => context.epoch === workspaceEpoch && context.scope === accountScope() && context.scope === activeScope && !byId('sentences-view').hidden && state.selectedSentence?.id === card.id;
+    const haltAudio = () => { studySpeech.stop(); letterSpeaker.cancel(); speechLoop.stop(); cancelWordSpeech(); sentencePlayback?.pause(); };
+    const speakSentence = text => { if (!current()) return; haltAudio(); speak(text, playerStatus); };
+    const playSource = async () => {
+      if (!current() || document.hidden) return;
+      haltAudio(); player?.pause(); media.hidden = false;
+      if (!sentencePlayback) sentencePlayback = createSentencePlayback({ element: mount, loadVideo: loadVideoData,
+        onStatus: event => { if (current()) mediaStatus.textContent = event.message || ''; } });
+      await sentencePlayback.prepare({ videoId: card.videoId, sceneId: card.sceneId, contentVersion: card.contentVersion, reference: card.reference });
+      if (!current()) sentencePlayback?.pause();
+    };
+    let view;
+    const loadGuide = () => {
+      if (!current()) return;
+      view?.updateGuide(null, 'loading');
+      studyGuides.load('sentence', card.text, card.reference.slice(0, 1000)).then(guide => {
+        if (!current() || sentenceCardView !== view) return;
+        sentenceGuides.set(card.id, guide); view.updateGuide(guide, 'ready'); renderSentenceList();
+      }).catch(error => { if (error.name !== 'AbortError' && current() && sentenceCardView === view) view.updateGuide(null, 'error'); });
+    };
+    view = renderSentenceCard({ host, card, guide: sentenceGuides.get(card.id), guideStatus: sentenceGuides.has(card.id) ? 'ready' : 'loading',
+      saved: Boolean(sentenceProgress(card)), listeningMode: true, onSource: playSource, onSpeak: speakSentence,
+      onStepChange: haltAudio, onRetryGuide: loadGuide,
+      onSave: () => saveSentenceCard(card),
+      onReview: async (independent, options = {}) => {
+        haltAudio(); const saved = await saveSentenceCard(card, Boolean(independent && !options.usedHelp));
+        if (!saved) return false;
+        if (!current()) return saved;
+        view.updateSaved(true); result.textContent = `${independent && !options.usedHelp ? '혼자 말한' : '도움받은'} 기록을 저장했어요. 다음 복습: ${new Date(saved.review.dueAt).toLocaleDateString('ko-KR')}`;
+        return saved;
+      },
+      onClose: () => { stopWorkspaceActivity(); sentencePlayback?.destroy(); sentencePlayback = null; state.selectedSentence = null; panel.hidden = true; renderSentenceList(); byId('sentence-list').hidden = false; }
+    }); sentenceCardView = view;
+    if (!sentenceGuides.has(card.id)) loadGuide();
+    const nextCards = browsing.slice(Math.max(0, index + 1), Math.max(0, index + 1) + 2);
+    studyGuides.prefetch(nextCards.map(item => ({ kind: 'sentence', text: item.text, context: item.reference.slice(0, 1000) })));
+    host.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+
+  async function saveSentenceCard(card, independent) {
+    const scope = accountScope(), key = cardProgressKey(card), guide = sentenceGuides.get(card.id);
+    try {
+      const saved = await queueProgress(key, async () => {
+        if (scope !== accountScope() || scope !== activeScope) throw new Error('계정이 변경되어 저장을 취소했어요.');
+        const previous = state.progress.find(record => recordKey(record) === key);
+        if (!previous) {
+          const allowance = await store.startLearning(card.videoId, card.sceneId, scope);
+          if (!allowance.allowed) throw new Error('오늘 새로 시작할 수 있는 대화를 모두 공부했어요. 저장한 문장은 계속 복습할 수 있어요.');
+        }
+        const updated = makeSentenceProgress(card, previous, { independent, topic: guide?.topic });
+        const result = await saveProgressVersioned(updated, previous, scope);
+        if (scope !== accountScope() || scope !== activeScope) throw new Error('계정이 변경되어 현재 화면에는 반영하지 않았어요.');
+        const index = state.progress.findIndex(record => recordKey(record) === key);
+        if (index >= 0) state.progress[index] = result; else state.progress.push(result);
+        return result;
+      });
+      updateSentenceCount(); updateReviewCount(); renderSentenceList(); status('문장 카드를 저장했어요.'); return saved;
+    } catch (error) { status(`문장을 저장하지 못했어요: ${error.message}`, 'error', 0); return false; }
+  }
+
   function renderReviews() {
     const list = byId('review-list');
     list.replaceChildren();
@@ -1860,6 +2156,13 @@ function startApp() {
     toggle.setAttribute('aria-pressed', String(state.showAllReviews));
     byId('review-empty').hidden = visible.length + visibleWords.length > 0;
     visible.forEach((record) => {
+      const sentence = sentenceCardFromProgress(record);
+      if (sentence) {
+        const item = make('article', 'review-item'), copy = make('div'), actions = make('div', 'actions');
+        copy.append(make('span', 'term', sentence.text), make('p', 'meta', `${state.catalog.find(video => video.id === sentence.videoId)?.title || sentence.videoId} · 문장 말하기 복습`));
+        const open = make('button', '', '문장 카드 복습'); open.addEventListener('click', () => { state.selectedSentence = sentence; byId('sentence-video-filter').dataset.requestedVideo = ''; route('sentences'); });
+        actions.append(open); item.append(copy, actions); list.append(item); return;
+      }
       const expression = state.expressions.get(record.expressionId);
       const video = state.catalog.find((item) => item.id === record.videoId);
       if (!expression) return;
@@ -2174,6 +2477,20 @@ function startApp() {
     document.querySelectorAll('input[name="duration"]').forEach((input) => input.addEventListener('change', renderCatalog));
     document.querySelectorAll('#stage-nav button').forEach((button) => button.addEventListener('click', () => setStage(button.dataset.stage)));
     byId('next-action').addEventListener('click', advance);
+    byId('study-sentences').addEventListener('click', () => {
+      if (!state.scene || !dictationFor()) return;
+      state.selectedSentence = null; sentenceRequestedScene = state.scene.id;
+      byId('sentence-video-filter').dataset.requestedVideo = state.videoData.id;
+      route('sentences');
+    });
+    byId('sentence-video-filter').addEventListener('change', () => { state.selectedSentence = null; sentenceRequestedScene = null; stopWorkspaceActivity(); void renderSentenceLibrary(); });
+    const changeSentenceFilter = () => {
+      stopWorkspaceActivity(); sentencePlayback?.destroy(); sentencePlayback = null;
+      state.selectedSentence = null; byId('sentence-study-panel').hidden = true; byId('sentence-list').hidden = false;
+      renderSentenceList();
+    };
+    ['sentence-chapter-filter', 'sentence-topic-filter', 'sentence-filter'].forEach(id => byId(id).addEventListener('change', changeSentenceFilter));
+    byId('sentence-search').addEventListener('input', changeSentenceFilter);
     byId('previous-target').addEventListener('click', () => setStage('dictation'));
     byId('load-play-button').addEventListener('click', () => playRange('scene'));
     byId('play-scene-button').addEventListener('click', () => playRange('scene'));

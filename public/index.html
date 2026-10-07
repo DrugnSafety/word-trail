@@ -7,6 +7,8 @@
   <meta name="description" content="영상의 소리와 영어 글자를 연결하는 부모 동반 학습 도구">
   <title>Word Trail · 워드 트레일</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./handwriting.css">
+  <link rel="stylesheet" href="./sentence-cards.css">
 </head>
 <body>
   <a class="skip-link" href="#main">학습 내용으로 바로 가기</a>
@@ -18,6 +20,7 @@
     <nav aria-label="주요 메뉴">
       <button class="nav-button" data-route="library" aria-current="page">영상</button>
       <button class="nav-button" data-route="words">단어 공부 <span id="word-count" class="count-badge">0</span></button>
+      <button class="nav-button" data-route="sentences">문장 카드 <span id="sentence-count" class="count-badge">0</span></button>
       <button class="nav-button" data-route="review">오늘의 복습 <span id="review-count" class="count-badge">0</span></button>
       <button class="nav-button" data-route="session">60분 안내</button>
       <button class="nav-button" id="account-button">부모 계정</button>
@@ -164,11 +167,30 @@
       </div>
 
       <div class="learning-actions">
+        <button id="study-sentences" disabled>이 대화 문장 카드</button>
         <button id="download-workbook">현재 구간 HTML 교재</button>
         <button id="download-cards">현재 구간 카드 SVG</button>
         <button id="skip-scene">이 구간 건너뛰기</button>
         <button id="correction-button">자료 문제 메모</button>
       </div>
+    </section>
+
+    <section id="sentences-view" class="view shell narrow-shell" aria-labelledby="sentences-title" hidden>
+      <div class="section-heading">
+        <div><p class="eyebrow">영상에서 만난 말, 문장으로 기억해요</p><h1 id="sentences-title">문장 카드</h1></div>
+        <button class="text-button" data-route="library">영상 목록으로</button>
+      </div>
+      <p class="lede">문장 하나를 골라 듣고, 뜻을 확인하고, 다른 상황에서도 말해 보세요.</p>
+      <div class="sentence-library-tools">
+        <label>영상<select id="sentence-video-filter"><option value="">저장한 문장 전체</option></select></label>
+        <label>Chapter<select id="sentence-chapter-filter"><option value="">전체 Chapter</option></select></label>
+        <label>학습 주제<select id="sentence-topic-filter"><option value="">전체 주제</option></select></label>
+        <label>모아 보기<select id="sentence-filter"><option value="all">전체 문장</option><option value="saved">저장한 문장</option><option value="due">오늘 복습</option></select></label>
+        <label class="sentence-search-label">문장 찾기<input id="sentence-search" type="search" placeholder="예: Can we" autocomplete="off"></label>
+      </div>
+      <p id="sentence-library-status" class="helper" role="status"></p>
+      <div id="sentence-list" class="sentence-library-list"></div>
+      <div id="sentence-study-panel" hidden></div>
     </section>
 
     <section id="words-view" class="view shell narrow-shell" aria-labelledby="words-title" hidden>

@@ -4,7 +4,8 @@ Word Trail은 설정값이 없을 때 `wordtrail:guest:v1` 로컬 저장소를 �
 
 ## Supabase 준비
 
-1. **새 무료 프로젝트**는 SQL Editor에서 `supabase/schema.sql`을 한 번 실행한다. 기존 Word Trail 스키마를 이미 설치한 프로젝트는 bootstrap을 다시 실행하지 않고 `supabase/migrations/202609250001_add_dictations.sql`, `supabase/migrations/202609250002_selected_vocabulary.sql`, `supabase/migrations/202610060001_user_libraries.sql` 순서로 migration 이력에 기록하며 각각 한 번만 적용한다. 첫 migration은 기존 `s001`과 새 cue 구간 `c0001`을 함께 허용하고 받아쓰기 테이블·RLS·CAS RPC를 추가한다. 기존 복합 record CHECK는 유지하고 단일 `scene_id` CHECK만 교체한다. 두 번째 migration은 테이블·정책·보안 제약을 삭제하지 않고 받아쓰기 검증 함수만 교체해 선택 단어와 연습 이력을 지원한다. 세 번째 migration은 계정별 사용자 영상·채널 라이브러리와 CAS RPC를 추가하고, 사용자 YouTube 영상의 학습 ID인 `custom-<11자리 YouTube ID>`를 진도·시작·받아쓰기에서 허용한다.
+1. **새 무료 프로젝트**는 SQL Editor에서 `supabase/schema.sql`을 한 번 실행한다. 기존 Word Trail 스키마를 이미 설치한 프로젝트는 bootstrap을 다시 실행하지 않고 `supabase/migrations/202609250001_add_dictations.sql`, `supabase/migrations/202609250002_selected_vocabulary.sql`, `supabase/migrations/202610060001_user_libraries.sql`, `supabase/migrations/202610070001_sentence_cards.sql` 순서로 migration 이력에 기록하며 각각 한 번만 적용한다. 첫 migration은 기존 `s001`과 새 cue 구간 `c0001`을 함께 허용하고 받아쓰기 테이블·RLS·CAS RPC를 추가한다. 기존 복합 record CHECK는 유지하고 단일 `scene_id` CHECK만 교체한다. 두 번째 migration은 테이블·정책·보안 제약을 삭제하지 않고 받아쓰기 검증 함수만 교체해 선택 단어와 연습 이력을 지원한다. 세 번째 migration은 계정별 사용자 영상·채널 라이브러리와 CAS RPC를 추가하고, 사용자 YouTube 영상의 학습 ID인 `custom-<11자리 YouTube ID>`를 진도·시작·받아쓰기에서 허용한다.
+네 번째 migration은 기존 단어 기록 5개 제한과 문장 카드 20개 제한을 구간별로 따로 적용하고 원본 문장·UTF-16 위치를 검증한다.
 2. Auth의 Site URL과 Redirect URLs에 실제 서비스 주소와 로컬 개발 주소를 등록한다. 이메일 확인 링크가 돌아오면 앱은 URL의 token/code를 세션으로 채택하지 않고 즉시 제거한다. `auth.confirmationStatus`가 `returned`이면 “메일 확인 후 로그인해 주세요”, `error`이면 “확인 링크가 만료되었거나 올바르지 않습니다. 확인 메일을 다시 요청해 주세요”처럼 일반 안내를 표시한다. 외부 URL의 오류 문구는 그대로 출력하지 않는다. 확인을 마친 부모가 이메일·비밀번호로 다시 로그인해야 세션을 만든다. 이 방식은 URL에서 다른 계정 세션을 주입하는 login CSRF를 피하기 위한 첫 버전 계약이다.
 3. 브라우저의 `public/config.js`에는 project URL과 **publishable/anon key만** 넣는다. service-role key를 브라우저·저장소·정적 배포물에 넣지 않는다.
 4. `supabase functions deploy delete-account`로 계정 삭제 함수를 배포한다. Supabase가 제공하는 `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` 환경 변수를 함수에서만 사용한다. 함수는 호출자 access token을 먼저 검증하고 해당 Auth user만 삭제한다. 연결된 개인 행은 FK cascade로 삭제된다.
@@ -40,3 +41,5 @@ window.WORD_TRAIL_CONFIG = {
 로컬 mock 계약 테스트는 요청 모양, 실패 전파, 계정 전환 감지, 게스트 제한, 받아쓰기와 사용자 라이브러리 CAS, export/reset 포함 여부를 검사한다. 실제 프로젝트를 만든 뒤에는 migration 실행, 별도 계정 A/B의 RLS 차단, 오래된 라이브러리 CAS 거절, 승인되지 않은 구간 저장 거절, 동시에 11개 구간을 시작했을 때의 원자성, 구간당 여섯 번째 받아쓰기 버전 거절, refresh·이메일 확인 redirect, 교차 기기 동기화, export/reset/delete cascade를 확인해야 한다. 현재 저장소의 테스트가 실제 Supabase 실행을 대신하지 않는다.
 
 2026-10-06 로컬 점검 기준으로 `public/config.js`의 Supabase URL과 공개 키는 비어 있고 Vercel CLI는 설치되어 있지 않다. 따라서 코드는 계정 미설정 시 정직하게 게스트 모드로 동작하며, 실제 Supabase migration·계정 간 RLS·Vercel 배포는 연결된 외부 환경에서 별도 검증해야 한다.
+
+2026-10-07 v1.2.0: Vercel 운영 배포와 API는 연결되어 있다. Supabase 공개 설정은 계속 비어 있으며, 위 문장 카드 migration의 실제 DB 적용·계정 간 RLS·다중 기기 동기화는 검증하지 않았다. 게스트 문장 카드의 저장·재열기·복습 일정은 브라우저에서 검증했다.

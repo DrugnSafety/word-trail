@@ -287,6 +287,18 @@ function validateProgress(record) {
   if (!/^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/.test(record.contentVersion)) {
     throw new Error('올바른 콘텐츠 버전이 필요합니다.');
   }
+  const sentenceIdentity = record.expressionId.startsWith('sentence-');
+  if (sentenceIdentity || record.kind === 'sentence') {
+    const source = record.sentenceCard;
+    if (!sentenceIdentity || record.kind !== 'sentence' || !source
+      || typeof source.text !== 'string' || !source.text.length || source.text.length > 500
+      || typeof source.reference !== 'string' || source.reference.length > 2000
+      || !Number.isInteger(source.start) || !Number.isInteger(source.end)
+      || source.start < 0 || source.end <= source.start || source.end > source.reference.length
+      || source.reference.slice(source.start, source.end) !== source.text) {
+      throw new Error('문장 카드는 원본 문장과 위치를 그대로 보존해야 합니다.');
+    }
+  }
   if (String(record.spelling.lastAnswer || '').length > 500) {
     throw new Error('마지막 철자 답안은 500자 이하여야 합니다.');
   }
