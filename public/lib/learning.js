@@ -1,3 +1,6 @@
+import { alphabetSpeechText, configureUtterance } from './voice-settings.js';
+import { createLetterTonePlayer } from './letter-tones.js';
+
 export const REVIEW_DAYS = Object.freeze([1, 3, 7, 14]);
 
 export function normalizeAnswer(text) {
@@ -38,25 +41,71 @@ export function escapeHtml(text) {
   return String(text ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
 }
 
+let wordSpeechGeneration = 0;
+let activeWordUtterance = null;
+let activeWordEngine = null;
+
+function resumeSpeechEngine(engine) {
+  if (typeof engine?.resume === 'function') engine.resume();
+}
+
+export function cancelWordSpeech(onStatus = () => {}) {
+  wordSpeechGeneration += 1;
+  if (!activeWordUtterance || !activeWordEngine) return false;
+  const engine = activeWordEngine;
+  activeWordUtterance = null;
+  activeWordEngine = null;
+  try {
+    engine.cancel();
+    return true;
+  } catch {
+    onStatus({ type: 'error', message: '기기 영어 음성을 멈출 수 없어요.' });
+    return false;
+  }
+}
+
 export function speak(text, onStatus = () => {}) {
   const engine = globalThis.speechSynthesis;
   if (!engine || !globalThis.SpeechSynthesisUtterance) {
     onStatus({ type: 'error', message: '이 기기에서는 단어 읽어주기를 지원하지 않아요. 영상 소리를 다시 들어 주세요.' });
     return false;
   }
-  engine.cancel();
-  const utterance = new SpeechSynthesisUtterance(String(text));
-  utterance.lang = 'en-US';
-  utterance.rate = 0.85;
-  const voices = engine.getVoices();
-  utterance.voice = voices.find(voice => voice.lang === 'en-US') || voices.find(voice => /^en[-_]/i.test(voice.lang)) || null;
-  utterance.onstart = () => onStatus({ type: 'info', message: '기기의 영어 음성으로 읽고 있어요.' });
-  utterance.onend = () => onStatus({ type: 'ready', message: '기기 읽어주기 완료' });
-  utterance.onerror = event => {
-    if (!['interrupted', 'canceled'].includes(event.error)) onStatus({ type: 'error', message: '기기 영어 음성을 재생할 수 없어요. 영상 소리를 사용해 주세요.' });
-  };
-  engine.speak(utterance);
-  return true;
+  const generation = ++wordSpeechGeneration;
+  try {
+    if (activeWordUtterance && activeWordEngine) activeWordEngine.cancel();
+    else if (engine.speaking || engine.pending) engine.cancel();
+    const utterance = new SpeechSynthesisUtterance(String(text));
+    activeWordUtterance = utterance;
+    activeWordEngine = engine;
+    configureUtterance(utterance, { engine, rate: 1 });
+    utterance.onstart = () => {
+      if (generation === wordSpeechGeneration && activeWordUtterance === utterance) {
+        onStatus({ type: 'info', message: '기기의 영어 음성으로 읽고 있어요.' });
+      }
+    };
+    utterance.onend = () => {
+      if (generation !== wordSpeechGeneration || activeWordUtterance !== utterance) return;
+      activeWordUtterance = null;
+      activeWordEngine = null;
+      onStatus({ type: 'ready', message: '기기 읽어주기 완료' });
+    };
+    utterance.onerror = event => {
+      if (generation !== wordSpeechGeneration || activeWordUtterance !== utterance) return;
+      activeWordUtterance = null;
+      activeWordEngine = null;
+      if (!['interrupted', 'canceled'].includes(event.error)) onStatus({ type: 'error', message: '기기 영어 음성을 재생할 수 없어요. 영상 소리를 사용해 주세요.' });
+    };
+    engine.speak(utterance);
+    resumeSpeechEngine(engine);
+    return true;
+  } catch {
+    if (generation === wordSpeechGeneration) {
+      activeWordUtterance = null;
+      activeWordEngine = null;
+    }
+    onStatus({ type: 'error', message: '기기 영어 음성을 재생할 수 없어요. 영상 소리를 사용해 주세요.' });
+    return false;
+  }
 }
 
 export function createSpeechLoop(onStatus = () => {}, options = {}) {
@@ -77,19 +126,28 @@ export function createSpeechLoop(onStatus = () => {}, options = {}) {
 
   function halt(message) {
     generation += 1;
+    const hadWork = active || timer !== null;
     active = false;
     clearPendingTimer();
-    if (engine) engine.cancel();
+    if (engine && hadWork) {
+      try { engine.cancel(); } catch { /* status below remains the useful error */ }
+    }
     onStatus({ type: 'error', message });
   }
 
   function start(text) {
     const value = String(text ?? '').trim();
+    const hadWork = active || timer !== null;
     generation += 1;
     const currentGeneration = generation;
     active = false;
     clearPendingTimer();
-    if (engine) engine.cancel();
+    if (engine && hadWork) {
+      try { engine.cancel(); } catch {
+        onStatus({ type: 'error', message: '기기 영어 음성을 반복 재생할 수 없어요. 영상 소리를 사용해 주세요.' });
+        return false;
+      }
+    }
 
     if (!engine || !Utterance) {
       onStatus({ type: 'error', message: '이 기기에서는 단어 반복 읽어주기를 지원하지 않아요. 영상 소리를 사용해 주세요.' });
@@ -107,10 +165,7 @@ export function createSpeechLoop(onStatus = () => {}, options = {}) {
       try {
         const utterance = new Utterance(value);
         let settled = false;
-        utterance.lang = 'en-US';
-        utterance.rate = 0.85;
-        const voices = typeof engine.getVoices === 'function' ? engine.getVoices() : [];
-        utterance.voice = voices.find(voice => voice.lang === 'en-US') || voices.find(voice => /^en[-_]/i.test(voice.lang)) || null;
+        configureUtterance(utterance, { engine, rate: 1 });
         utterance.onstart = () => {
           if (active && currentGeneration === generation) {
             onStatus({ type: 'info', message: '기기의 영어 음성으로 반복해서 읽고 있어요.' });
@@ -130,6 +185,7 @@ export function createSpeechLoop(onStatus = () => {}, options = {}) {
           halt('기기 영어 음성을 반복 재생할 수 없어요. 영상 소리를 사용해 주세요.');
         };
         engine.speak(utterance);
+        resumeSpeechEngine(engine);
       } catch {
         if (active && currentGeneration === generation) {
           halt('기기 영어 음성을 반복 재생할 수 없어요. 영상 소리를 사용해 주세요.');
@@ -142,12 +198,17 @@ export function createSpeechLoop(onStatus = () => {}, options = {}) {
   }
 
   function stop() {
-    const wasActive = active;
+    const hadWork = active || timer !== null;
     generation += 1;
     active = false;
     clearPendingTimer();
-    if (engine) engine.cancel();
-    if (wasActive) onStatus({ type: 'ready', message: '단어 반복 재생을 멈췄어요.' });
+    if (engine && hadWork) {
+      try { engine.cancel(); } catch {
+        onStatus({ type: 'error', message: '단어 반복 재생을 멈출 수 없어요.' });
+        return;
+      }
+    }
+    if (hadWork) onStatus({ type: 'ready', message: '단어 반복 재생을 멈췄어요.' });
   }
 
   return { start, stop, isActive: () => active };
@@ -169,18 +230,72 @@ export function insertedLetters(previous, next, inputType, isComposing = false) 
   return after.slice(prefix, after.length - suffix).replace(/[^A-Za-z]/g, '');
 }
 
-const LETTER_NAMES = Object.freeze({
-  a: 'ay', b: 'bee', c: 'cee', d: 'dee', e: 'ee', f: 'ef', g: 'gee',
-  h: 'aitch', i: 'eye', j: 'jay', k: 'kay', l: 'el', m: 'em', n: 'en',
-  o: 'oh', p: 'pee', q: 'cue', r: 'ar', s: 'ess', t: 'tee', u: 'you',
-  v: 'vee', w: 'double you', x: 'ex', y: 'why', z: 'zee'
-});
-
-export function createLetterSpeaker(onStatus = () => {}) {
+export function createLetterSpeaker(onStatus = () => {}, { tonePlayer = createLetterTonePlayer() } = {}) {
   const engine = globalThis.speechSynthesis;
   const Utterance = globalThis.SpeechSynthesisUtterance;
   let generation = 0;
   let warned = false;
+  let activeUtterance = null;
+  let activeAudio = null;
+  let pending = [];
+
+  function playNext() {
+    if (activeUtterance || activeAudio || !pending.length) return true;
+    const item = pending.shift();
+    const currentGeneration = generation;
+    try {
+      tonePlayer.play(item.letter);
+      if (item.letter.toLowerCase() === 'a' && typeof globalThis.Audio === 'function') {
+        const audio = new globalThis.Audio(new URL('../audio/letter-a.mp3', import.meta.url).href);
+        activeAudio = audio;
+        const settleAudio = error => {
+          if (currentGeneration !== generation || activeAudio !== audio) return;
+          activeAudio = null;
+          audio.onended = audio.onerror = audio.onplaying = null;
+          if (error) onStatus({ type: 'error', message: 'A의 글자 소리를 재생하지 못했어요. 다시 입력해 주세요.' });
+          playNext();
+        };
+        audio.onplaying = () => {
+          if (currentGeneration === generation && activeAudio === audio) onStatus({ type: 'letter', letter: item.letter });
+        };
+        audio.onended = () => settleAudio(false);
+        audio.onerror = () => settleAudio(true);
+        audio.play().catch(() => settleAudio(true));
+        return true;
+      }
+      const utterance = new Utterance(alphabetSpeechText(item.letter));
+      activeUtterance = utterance;
+      configureUtterance(utterance, { engine, rate: 1, volume: 1 });
+      utterance.onstart = () => {
+        if (currentGeneration === generation && activeUtterance === utterance) {
+          onStatus({ type: 'letter', letter: item.letter });
+        }
+      };
+      const settle = event => {
+        if (currentGeneration !== generation || activeUtterance !== utterance) return;
+        activeUtterance = null;
+        if (event?.type === 'error' && !['interrupted', 'canceled'].includes(event.error)) {
+          onStatus({ type: 'error', message: '글자 소리를 재생할 수 없어요.' });
+        }
+        playNext();
+      };
+      utterance.onend = settle;
+      utterance.onerror = event => settle({ type: 'error', error: event?.error });
+      engine.speak(utterance);
+      resumeSpeechEngine(engine);
+      return true;
+    } catch {
+      if (activeAudio) {
+        activeAudio.onended = activeAudio.onerror = activeAudio.onplaying = null;
+        try { activeAudio.pause(); } catch {}
+        activeAudio = null;
+      }
+      activeUtterance = null;
+      pending = [];
+      if (currentGeneration === generation) onStatus({ type: 'error', message: '글자 소리를 재생할 수 없어요.' });
+      return false;
+    }
+  }
 
   function enqueue(text) {
     const letters = String(text ?? '').match(/[A-Za-z]/g) ?? [];
@@ -190,28 +305,34 @@ export function createLetterSpeaker(onStatus = () => {}) {
       warned = true;
       return [];
     }
-    const queuedGeneration = generation;
-    for (const letter of letters) {
-      const utterance = new Utterance(LETTER_NAMES[letter.toLowerCase()]);
-      utterance.lang = 'en-US';
-      utterance.volume = 1;
-      utterance.rate = 0.8;
-      utterance.onstart = () => {
-        if (queuedGeneration === generation) onStatus({ type: 'letter', letter });
-      };
-      utterance.onerror = event => {
-        if (queuedGeneration === generation && !['interrupted', 'canceled'].includes(event.error)) {
-          onStatus({ type: 'error', message: '글자 소리를 재생할 수 없어요.' });
-        }
-      };
-      engine.speak(utterance);
+    const additions = letters.map(letter => ({ letter }));
+    tonePlayer.unlock();
+    if (!activeUtterance && !activeAudio && !pending.length) {
+      pending.push(additions.shift());
+      if (!playNext()) return [];
     }
+    pending.push(...additions);
+    if (pending.length > 3) pending = pending.slice(-3);
     return letters;
   }
 
   function cancel() {
+    const hadWork = Boolean(activeUtterance || pending.length);
     generation += 1;
-    if (engine) engine.cancel();
+    tonePlayer.stop();
+    if (activeAudio) {
+      activeAudio.onended = activeAudio.onerror = activeAudio.onplaying = null;
+      try { activeAudio.pause(); } catch {}
+      activeAudio = null;
+    }
+    activeUtterance = null;
+    pending = [];
+    if (!engine || !hadWork) return;
+    try {
+      engine.cancel();
+    } catch {
+      onStatus({ type: 'error', message: '글자 소리를 멈출 수 없어요.' });
+    }
   }
 
   return { enqueue, cancel };

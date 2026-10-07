@@ -17,20 +17,59 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 3,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "The Flower Girls Save the Wedding!",
+      "title": "Meeting at the vending machine",
       "start": 0,
-      "end": 110,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 26,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "A stuck lucky coin",
+      "start": 26,
+      "markerStart": 27,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 54,
+      "sceneIds": [
         "c0003",
-        "c0004",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Attempting to retrieve the coin",
+      "start": 54,
+      "markerStart": 57,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 110,
+      "sceneIds": [
         "c0005",
         "c0006",
         "c0007"
@@ -293,12 +332,12 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
+      "title": "문단 1",
       "start": 26,
       "end": 39,
       "sentenceText": "kids I can't see anything put your D no you're putting the coin in the right bit yes but it stuck Mama Lucky coin is stuck you put",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -374,8 +413,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -418,12 +457,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 39,
       "end": 54,
       "sentenceText": "it in the wrong slot what wow it's really wedged sorry girls it's not coming out a that wasn't a very lucky coin we'll see",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -499,8 +538,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -543,12 +582,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 1",
       "start": 54,
       "end": 60,
       "sentenceText": "now we won see we'll get this coin out",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -579,8 +618,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text"
           ]
@@ -603,12 +642,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 2",
       "start": 63,
       "end": 68,
       "sentenceText": "we start the wedding come on go",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -669,8 +708,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -695,12 +734,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 3",
       "start": 107,
       "end": 110,
       "sentenceText": "w",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -731,8 +770,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"

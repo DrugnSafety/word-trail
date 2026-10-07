@@ -16,21 +16,58 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 3,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Sheep-Dad | Sheepdog - Series 3 | Bluey",
-      "start": 8,
-      "end": 118,
-      "source": "whole-video",
+      "title": "The interruption",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 31,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Seeking mother's attention",
+      "start": 31,
+      "markerStart": 31,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 66,
+      "sceneIds": [
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "The runaway sheep",
+      "start": 66,
+      "markerStart": 68,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 118,
+      "sceneIds": [
         "c0006",
         "c0007",
         "c0008",
@@ -322,12 +359,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 1",
       "start": 39,
       "end": 52,
       "sentenceText": "Mum? Are you in there? yes bluey i'm in here i'm sorry for whatever i did to upset you You didn't do anything to upset me, sweetheart.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -437,8 +474,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -483,20 +520,20 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 52,
-      "end": 63,
-      "sentenceText": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "end": 66,
+      "sentenceText": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes. don't understand you will one day",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0005",
           "start": 52,
-          "end": 63,
-          "text": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
-          "originalText": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids sometimes mums just need 20 minutes i",
+          "end": 66,
+          "text": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes. don't understand you will one day",
+          "originalText": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids sometimes mums just need 20 minutes i don't understand you will one day",
           "originalCueRefs": [
             {
               "id": "c0012",
@@ -521,6 +558,12 @@
               "start": 60,
               "end": 63,
               "text": "sometimes mums just need 20 minutes i"
+            },
+            {
+              "id": "c0016",
+              "start": 63,
+              "end": 66,
+              "text": "don't understand you will one day"
             }
           ],
           "cleanedCueRefs": [
@@ -567,12 +610,21 @@
               "originalCueIds": [
                 "c0015"
               ]
+            },
+            {
+              "id": "c0016",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -584,45 +636,45 @@
         {
           "expressionId": "why",
           "cueId": "c0005",
-          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes. don't understand you will one day",
           "start": 52,
-          "end": 63,
+          "end": 66,
           "matchStart": 16,
           "matchEnd": 19
         },
         {
           "expressionId": "want",
           "cueId": "c0005",
-          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes. don't understand you will one day",
           "start": 52,
-          "end": 63,
+          "end": 66,
           "matchStart": 30,
           "matchEnd": 34
         },
         {
           "expressionId": "see",
           "cueId": "c0005",
-          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes. don't understand you will one day",
           "start": 52,
-          "end": 63,
+          "end": 66,
           "matchStart": 38,
           "matchEnd": 41
         },
         {
           "expressionId": "need",
           "cueId": "c0005",
-          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes. don't understand you will one day",
           "start": 52,
-          "end": 63,
+          "end": 66,
           "matchStart": 129,
           "matchEnd": 133
         },
         {
           "expressionId": "dont",
           "cueId": "c0005",
-          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes.",
+          "quote": "sweetheart then why don't you want to see us i do want to see you but it can be hard work looking after kids Sometimes mums just need 20 minutes. don't understand you will one day",
           "start": 52,
-          "end": 63,
+          "end": 66,
           "matchStart": 20,
           "matchEnd": 25
         }
@@ -635,27 +687,21 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
-      "start": 63,
+      "title": "문단 1",
+      "start": 66,
       "end": 73,
-      "sentenceText": "don't understand you will one day sweetheart What is that about?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "sentenceText": "sweetheart What is that about?",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
-          "start": 63,
+          "start": 66,
           "end": 73,
-          "text": "don't understand you will one day sweetheart What is that about?",
-          "originalText": "don't understand you will one day sweetheart what is that about",
+          "text": "sweetheart What is that about?",
+          "originalText": "sweetheart what is that about",
           "originalCueRefs": [
-            {
-              "id": "c0016",
-              "start": 63,
-              "end": 66,
-              "text": "don't understand you will one day"
-            },
             {
               "id": "c0017",
               "start": 66,
@@ -679,15 +725,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0016",
-              "start": 63,
-              "end": 66,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0016"
-              ]
-            },
-            {
               "id": "c0017",
               "start": 66,
               "end": 69,
@@ -708,8 +745,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -721,20 +758,11 @@
         {
           "expressionId": "what",
           "cueId": "c0006",
-          "quote": "don't understand you will one day sweetheart What is that about?",
-          "start": 63,
+          "quote": "sweetheart What is that about?",
+          "start": 66,
           "end": 73,
-          "matchStart": 45,
-          "matchEnd": 49
-        },
-        {
-          "expressionId": "dont",
-          "cueId": "c0006",
-          "quote": "don't understand you will one day sweetheart What is that about?",
-          "start": 63,
-          "end": 73,
-          "matchStart": 0,
-          "matchEnd": 5
+          "matchStart": 11,
+          "matchEnd": 15
         }
       ],
       "qualityFlags": [
@@ -745,12 +773,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 2",
       "start": 73,
       "end": 80,
       "sentenceText": "dad's trying to stop me from bothering you I see. But it won't work.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -824,8 +852,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -870,12 +898,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 3",
       "start": 80,
       "end": 86,
       "sentenceText": "what's going on go go",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -921,8 +949,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -947,12 +975,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 4",
       "start": 93,
       "end": 98,
       "sentenceText": "Drop it! You are a very cheeky sheep! I'm sorry, Wendy.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1017,8 +1045,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1043,12 +1071,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 5",
       "start": 98,
       "end": 105,
       "sentenceText": "wendy he doesn't listen to what anyone says I'm getting chilly.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1116,8 +1144,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1153,12 +1181,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 6",
       "start": 110,
       "end": 118,
       "sentenceText": "Oh dear, that will not happen twice",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -1256,8 +1284,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",

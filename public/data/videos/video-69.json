@@ -17,26 +17,79 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "The Grannies Refuse to Leave 🏠 | BRAND NEW CLIP - Ghostbasket 👻🧺 | Bluey",
+      "title": "Property showing interrupted",
       "start": 0,
-      "end": 124,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 12,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Agent confronted by residents",
+      "start": 12,
+      "markerStart": 12,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 50,
+      "sceneIds": [
         "c0003",
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Kitchen tour and disruptions",
+      "start": 50,
+      "markerStart": 53,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 87,
+      "sceneIds": [
         "c0007",
         "c0008",
         "c0009",
-        "c0010",
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Potential buyer interested",
+      "start": 87,
+      "markerStart": 89,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 124,
+      "sceneIds": [
         "c0011",
         "c0012",
         "c0013"
@@ -245,12 +298,12 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
+      "title": "문단 1",
       "start": 12,
       "end": 21,
       "sentenceText": "What are you doing here? You said you'd be at lawn balls. Phillips had to cancel. Yeah, she went water skiing.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -311,8 +364,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -337,12 +390,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 21,
       "end": 33,
       "sentenceText": "Well, beat it, you old fossils! trying to sell this place. We don't want you to sell this place. Yeah, look, we've been through this. It's not up to Your kids are sticking you in an old codger's home, and they told me to sell it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -467,8 +520,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -522,12 +575,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 3",
       "start": 33,
       "end": 40,
       "sentenceText": "it. Those cheeky kids. If you've got a problem, take it up with them. But But please let me get on with my job.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -595,8 +648,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -623,20 +676,20 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 4",
       "start": 40,
-      "end": 48,
-      "sentenceText": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "end": 50,
+      "sentenceText": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we? Yes. Look, just stay out of my way.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
           "start": 40,
-          "end": 48,
-          "text": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we?",
-          "originalText": "we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we?",
+          "end": 50,
+          "text": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we? Yes. Look, just stay out of my way.",
+          "originalText": "we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we? Yes. Look, just stay out of my way.",
           "originalCueRefs": [
             {
               "id": "c0018",
@@ -655,6 +708,12 @@
               "start": 45,
               "end": 48,
               "text": "at the surf club last April. Did we?"
+            },
+            {
+              "id": "c0021",
+              "start": 48,
+              "end": 50,
+              "text": "Yes. Look, just stay out of my way."
             }
           ],
           "cleanedCueRefs": [
@@ -663,6 +722,12 @@
               "start": 40,
               "end": 44,
               "text": "But we've lived in this house for 50 years."
+            },
+            {
+              "id": "c0024",
+              "start": 48,
+              "end": 50,
+              "text": "Yes. Look, just stay out of my way."
             }
           ],
           "sourceCueRefs": [
@@ -692,12 +757,21 @@
               "originalCueIds": [
                 "c0020"
               ]
+            },
+            {
+              "id": "c0021",
+              "start": 48,
+              "end": 50,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -709,11 +783,29 @@
         {
           "expressionId": "no",
           "cueId": "c0006",
-          "quote": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we?",
+          "quote": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we? Yes. Look, just stay out of my way.",
           "start": 40,
-          "end": 48,
+          "end": 50,
           "matchStart": 44,
           "matchEnd": 46
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0006",
+          "quote": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we? Yes. Look, just stay out of my way.",
+          "start": 40,
+          "end": 50,
+          "matchStart": 121,
+          "matchEnd": 124
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0006",
+          "quote": "But we've lived in this house for 50 years. No, you haven't. You won it in a raffle at the surf club last April. Did we? Yes. Look, just stay out of my way.",
+          "start": 40,
+          "end": 50,
+          "matchStart": 126,
+          "matchEnd": 130
         }
       ],
       "qualityFlags": [
@@ -724,27 +816,21 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
-      "start": 48,
+      "title": "문단 1",
+      "start": 50,
       "end": 55,
-      "sentenceText": "Yes. Look, just stay out of my way. Okay. Okay, love. We will.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "sentenceText": "Okay. Okay, love. We will.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
-          "start": 48,
+          "start": 50,
           "end": 55,
-          "text": "Yes. Look, just stay out of my way. Okay. Okay, love. We will.",
-          "originalText": "Yes. Look, just stay out of my way. Okay. Okay, love. We will.",
+          "text": "Okay. Okay, love. We will.",
+          "originalText": "Okay. Okay, love. We will.",
           "originalCueRefs": [
-            {
-              "id": "c0021",
-              "start": 48,
-              "end": 50,
-              "text": "Yes. Look, just stay out of my way."
-            },
             {
               "id": "c0022",
               "start": 50,
@@ -754,12 +840,6 @@
           ],
           "cleanedCueRefs": [
             {
-              "id": "c0024",
-              "start": 48,
-              "end": 50,
-              "text": "Yes. Look, just stay out of my way."
-            },
-            {
               "id": "c0025",
               "start": 50,
               "end": 55,
@@ -767,15 +847,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0021",
-              "start": 48,
-              "end": 50,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0021"
-              ]
-            },
             {
               "id": "c0022",
               "start": 50,
@@ -787,66 +858,46 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "yes",
-          "cueId": "c0007",
-          "quote": "Yes. Look, just stay out of my way. Okay. Okay, love. We will.",
-          "start": 48,
-          "end": 55,
-          "matchStart": 0,
-          "matchEnd": 3
-        },
-        {
-          "expressionId": "look",
-          "cueId": "c0007",
-          "quote": "Yes. Look, just stay out of my way. Okay. Okay, love. We will.",
-          "start": 48,
-          "end": 55,
-          "matchStart": 5,
-          "matchEnd": 9
-        },
-        {
           "expressionId": "okay",
           "cueId": "c0007",
-          "quote": "Yes. Look, just stay out of my way. Okay. Okay, love. We will.",
-          "start": 48,
+          "quote": "Okay. Okay, love. We will.",
+          "start": 50,
           "end": 55,
-          "matchStart": 36,
-          "matchEnd": 40
+          "matchStart": 0,
+          "matchEnd": 4
         },
         {
           "expressionId": "love",
           "cueId": "c0007",
-          "quote": "Yes. Look, just stay out of my way. Okay. Okay, love. We will.",
-          "start": 48,
+          "quote": "Okay. Okay, love. We will.",
+          "start": 50,
           "end": 55,
-          "matchStart": 48,
-          "matchEnd": 52
+          "matchStart": 12,
+          "matchEnd": 16
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "corrected-text-exact-coverage"
       ]
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 55,
       "end": 68,
       "sentenceText": "Please come in. So, here we have a lovely period. Don't look at me. What was that? Uh, let's just check",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -929,8 +980,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -993,12 +1044,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 68,
       "end": 76,
       "sentenceText": "out the kitchen, shall we? Uh, oven, stove, fridge. Uh, you got some drawers they can open and shut. All All righty. Onto the living room. Well, hang on.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1087,8 +1138,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1105,20 +1156,20 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 4",
       "start": 76,
-      "end": 83,
-      "sentenceText": "on. I like these worktops. Is this Silky Oak? The granny.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "end": 87,
+      "sentenceText": "on. I like these worktops. Is this Silky Oak? The granny. Yeah, I was just asking. Uh, why don't you check out the spacious dining room?",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
           "start": 76,
-          "end": 83,
-          "text": "on. I like these worktops. Is this Silky Oak? The granny.",
-          "originalText": "on. I like these worktops. Is this Silky Oak? The granny.",
+          "end": 87,
+          "text": "on. I like these worktops. Is this Silky Oak? The granny. Yeah, I was just asking. Uh, why don't you check out the spacious dining room?",
+          "originalText": "on. I like these worktops. Is this Silky Oak? The granny. Okay. Yeah, I was just asking. Uh, why don't you check out the spacious dining",
           "originalCueRefs": [
             {
               "id": "c0031",
@@ -1131,72 +1182,7 @@
               "start": 79,
               "end": 83,
               "text": "Oak? The granny."
-            }
-          ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
-            {
-              "id": "c0031",
-              "start": 76,
-              "end": 79,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0031"
-              ]
             },
-            {
-              "id": "c0032",
-              "start": 79,
-              "end": 83,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0032"
-              ]
-            }
-          ],
-          "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
-          "qualityFlags": [
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "like",
-          "cueId": "c0010",
-          "quote": "on. I like these worktops. Is this Silky Oak? The granny.",
-          "start": 76,
-          "end": 83,
-          "matchStart": 6,
-          "matchEnd": 10
-        }
-      ],
-      "qualityFlags": [
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0011",
-      "title": "문단 11",
-      "start": 83,
-      "end": 96,
-      "sentenceText": "Yeah, I was just asking. Uh, why don't you check out the spacious dining room? room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0011",
-          "start": 83,
-          "end": 96,
-          "text": "Yeah, I was just asking. Uh, why don't you check out the spacious dining room? room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-          "originalText": "Okay. Yeah, I was just asking. Uh, why don't you check out the spacious dining room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-          "originalCueRefs": [
             {
               "id": "c0033",
               "start": 83,
@@ -1208,24 +1194,6 @@
               "start": 85,
               "end": 87,
               "text": "don't you check out the spacious dining"
-            },
-            {
-              "id": "c0035",
-              "start": 87,
-              "end": 90,
-              "text": "room? I'll be right back. What do you"
-            },
-            {
-              "id": "c0036",
-              "start": 90,
-              "end": 93,
-              "text": "think you're doing? We told you you're"
-            },
-            {
-              "id": "c0037",
-              "start": 93,
-              "end": 96,
-              "text": "not selling our house. Look, relax. I"
             }
           ],
           "cleanedCueRefs": [
@@ -1244,6 +1212,24 @@
           ],
           "sourceCueRefs": [
             {
+              "id": "c0031",
+              "start": 76,
+              "end": 79,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0031"
+              ]
+            },
+            {
+              "id": "c0032",
+              "start": 79,
+              "end": 83,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
+            },
+            {
               "id": "c0033",
               "start": 83,
               "end": 85,
@@ -1260,7 +1246,105 @@
               "originalCueIds": [
                 "c0034"
               ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0010",
+          "quote": "on. I like these worktops. Is this Silky Oak? The granny. Yeah, I was just asking. Uh, why don't you check out the spacious dining room?",
+          "start": 76,
+          "end": 87,
+          "matchStart": 6,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0010",
+          "quote": "on. I like these worktops. Is this Silky Oak? The granny. Yeah, I was just asking. Uh, why don't you check out the spacious dining room?",
+          "start": 76,
+          "end": 87,
+          "matchStart": 87,
+          "matchEnd": 90
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0010",
+          "quote": "on. I like these worktops. Is this Silky Oak? The granny. Yeah, I was just asking. Uh, why don't you check out the spacious dining room?",
+          "start": 76,
+          "end": 87,
+          "matchStart": 91,
+          "matchEnd": 96
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 1",
+      "start": 87,
+      "end": 98,
+      "sentenceText": "room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I I don't think she's interested anyway.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 87,
+          "end": 98,
+          "text": "room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I I don't think she's interested anyway.",
+          "originalText": "room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I don't think she's interested anyway. I'm",
+          "originalCueRefs": [
+            {
+              "id": "c0035",
+              "start": 87,
+              "end": 90,
+              "text": "room? I'll be right back. What do you"
             },
+            {
+              "id": "c0036",
+              "start": 90,
+              "end": 93,
+              "text": "think you're doing? We told you you're"
+            },
+            {
+              "id": "c0037",
+              "start": 93,
+              "end": 96,
+              "text": "not selling our house. Look, relax. I"
+            },
+            {
+              "id": "c0038",
+              "start": 96,
+              "end": 98,
+              "text": "don't think she's interested anyway. I'm"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0045",
+              "start": 96,
+              "end": 98,
+              "text": "I don't think she's interested anyway."
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0035",
               "start": 87,
@@ -1287,95 +1371,89 @@
               "originalCueIds": [
                 "c0037"
               ]
+            },
+            {
+              "id": "c0038",
+              "start": 96,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
+            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "why",
-          "cueId": "c0011",
-          "quote": "Yeah, I was just asking. Uh, why don't you check out the spacious dining room? room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-          "start": 83,
-          "end": 96,
-          "matchStart": 29,
-          "matchEnd": 32
-        },
-        {
           "expressionId": "what",
           "cueId": "c0011",
-          "quote": "Yeah, I was just asking. Uh, why don't you check out the spacious dining room? room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-          "start": 83,
-          "end": 96,
-          "matchStart": 105,
-          "matchEnd": 109
+          "quote": "room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I I don't think she's interested anyway.",
+          "start": 87,
+          "end": 98,
+          "matchStart": 26,
+          "matchEnd": 30
         },
         {
           "expressionId": "think",
           "cueId": "c0011",
-          "quote": "Yeah, I was just asking. Uh, why don't you check out the spacious dining room? room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-          "start": 83,
-          "end": 96,
-          "matchStart": 117,
-          "matchEnd": 122
+          "quote": "room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I I don't think she's interested anyway.",
+          "start": 87,
+          "end": 98,
+          "matchStart": 38,
+          "matchEnd": 43
         },
         {
           "expressionId": "look",
           "cueId": "c0011",
-          "quote": "Yeah, I was just asking. Uh, why don't you check out the spacious dining room? room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-          "start": 83,
-          "end": 96,
-          "matchStart": 179,
-          "matchEnd": 183
+          "quote": "room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I I don't think she's interested anyway.",
+          "start": 87,
+          "end": 98,
+          "matchStart": 100,
+          "matchEnd": 104
         },
         {
           "expressionId": "dont",
           "cueId": "c0011",
-          "quote": "Yeah, I was just asking. Uh, why don't you check out the spacious dining room? room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I",
-          "start": 83,
-          "end": 96,
-          "matchStart": 33,
-          "matchEnd": 38
+          "quote": "room? I'll be right back. What do you think you're doing? We told you you're not selling our house. Look, relax. I I don't think she's interested anyway.",
+          "start": 87,
+          "end": 98,
+          "matchStart": 117,
+          "matchEnd": 122
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
+        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0012",
-      "title": "문단 12",
-      "start": 96,
+      "title": "문단 2",
+      "start": 98,
       "end": 111,
-      "sentenceText": "I don't think she's interested anyway. I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "sentenceText": "I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0012",
-          "start": 96,
+          "start": 98,
           "end": 111,
-          "text": "I don't think she's interested anyway. I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
-          "originalText": "don't think she's interested anyway. I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
+          "text": "I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
+          "originalText": "interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
           "originalCueRefs": [
-            {
-              "id": "c0038",
-              "start": 96,
-              "end": 98,
-              "text": "don't think she's interested anyway. I'm"
-            },
             {
               "id": "c0039",
               "start": 98,
@@ -1403,12 +1481,6 @@
           ],
           "cleanedCueRefs": [
             {
-              "id": "c0045",
-              "start": 96,
-              "end": 98,
-              "text": "I don't think she's interested anyway."
-            },
-            {
               "id": "c0046",
               "start": 98,
               "end": 100,
@@ -1416,15 +1488,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0038",
-              "start": 96,
-              "end": 98,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0038"
-              ]
-            },
             {
               "id": "c0039",
               "start": 98,
@@ -1464,8 +1527,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1475,40 +1538,31 @@
       ],
       "targets": [
         {
-          "expressionId": "think",
-          "cueId": "c0012",
-          "quote": "I don't think she's interested anyway. I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
-          "start": 96,
-          "end": 111,
-          "matchStart": 8,
-          "matchEnd": 13
-        },
-        {
           "expressionId": "no",
           "cueId": "c0012",
-          "quote": "I don't think she's interested anyway. I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
-          "start": 96,
+          "quote": "I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
+          "start": 98,
           "end": 111,
-          "matchStart": 55,
-          "matchEnd": 57
+          "matchStart": 16,
+          "matchEnd": 18
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0012",
+          "quote": "I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
+          "start": 98,
+          "end": 111,
+          "matchStart": 120,
+          "matchEnd": 125
         },
         {
           "expressionId": "want",
           "cueId": "c0012",
-          "quote": "I don't think she's interested anyway. I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
-          "start": 96,
+          "quote": "I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
+          "start": 98,
           "end": 111,
-          "matchStart": 167,
-          "matchEnd": 171
-        },
-        {
-          "expressionId": "dont",
-          "cueId": "c0012",
-          "quote": "I don't think she's interested anyway. I'm interested. No, Granny. Oh, and who is this? Oh. Uh, this is Rita and Janet. And this is our house. Not for long. I think I want to",
-          "start": 96,
-          "end": 111,
-          "matchStart": 2,
-          "matchEnd": 7
+          "matchStart": 128,
+          "matchEnd": 132
         }
       ],
       "qualityFlags": [
@@ -1519,12 +1573,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 3",
       "start": 111,
       "end": 124,
       "sentenceText": "buy it. Really? Wow, deary. Has he told you about the custom fittings in the en suite? But I can if you like.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1619,8 +1673,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",

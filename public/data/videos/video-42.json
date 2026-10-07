@@ -16,22 +16,75 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Prawns and Pom Pom Heads",
+      "title": "The knight and movements",
       "start": 0,
-      "end": 124,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 26,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Introducing the rook",
+      "start": 26,
+      "markerStart": 28,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 43,
+      "sceneIds": [
         "c0003",
-        "c0004",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Setting up the teams",
+      "start": 43,
+      "markerStart": 44,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 71,
+      "sceneIds": [
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "King and queen rules",
+      "start": 71,
+      "markerStart": 71,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 124,
+      "sceneIds": [
         "c0007",
         "c0008",
         "c0009",
@@ -191,8 +244,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 14,
-      "end": 29,
-      "sentenceText": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+      "end": 26,
+      "sentenceText": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -200,9 +253,9 @@
         {
           "id": "c0002",
           "start": 14,
-          "end": 29,
-          "text": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
-          "originalText": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+          "end": 26,
+          "text": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle",
+          "originalText": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle",
           "originalCueRefs": [
             {
               "id": "c0006",
@@ -227,12 +280,6 @@
               "start": 23,
               "end": 26,
               "text": "horsies love jumping ooh who is castle"
-            },
-            {
-              "id": "c0010",
-              "start": 26,
-              "end": 29,
-              "text": "head that's the rook i'm gonna call him"
             }
           ],
           "cleanedCueRefs": [],
@@ -272,15 +319,6 @@
               "originalCueIds": [
                 "c0009"
               ]
-            },
-            {
-              "id": "c0010",
-              "start": 26,
-              "end": 29,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0010"
-              ]
             }
           ],
           "textSource": "original-captured",
@@ -297,18 +335,18 @@
         {
           "expressionId": "yes",
           "cueId": "c0002",
-          "quote": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+          "quote": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle",
           "start": 14,
-          "end": 29,
+          "end": 26,
           "matchStart": 103,
           "matchEnd": 106
         },
         {
           "expressionId": "love",
           "cueId": "c0002",
-          "quote": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle head that's the rook i'm gonna call him",
+          "quote": "whatever you call him mine's called gallihop mine's called daughter of gallahol he moves by jumping oh yes horsies love jumping ooh who is castle",
           "start": 14,
-          "end": 29,
+          "end": 26,
           "matchStart": 115,
           "matchEnd": 119
         }
@@ -320,21 +358,27 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
-      "start": 29,
+      "title": "문단 1",
+      "start": 26,
       "end": 38,
-      "sentenceText": "castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "sentenceText": "head that's the rook i'm gonna call him castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0003",
-          "start": 29,
+          "start": 26,
           "end": 38,
-          "text": "castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
-          "originalText": "castle head fine castle head moves straight like this castles can't move this game's confusing yeah it is bingo",
+          "text": "head that's the rook i'm gonna call him castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
+          "originalText": "head that's the rook i'm gonna call him castle head fine castle head moves straight like this castles can't move this game's confusing yeah it is bingo",
           "originalCueRefs": [
+            {
+              "id": "c0010",
+              "start": 26,
+              "end": 29,
+              "text": "head that's the rook i'm gonna call him"
+            },
             {
               "id": "c0011",
               "start": 29,
@@ -370,6 +414,15 @@
           ],
           "sourceCueRefs": [
             {
+              "id": "c0010",
+              "start": 26,
+              "end": 29,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
+            },
+            {
               "id": "c0011",
               "start": 29,
               "end": 32,
@@ -399,8 +452,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -412,11 +465,11 @@
         {
           "expressionId": "like",
           "cueId": "c0003",
-          "quote": "castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
-          "start": 29,
+          "quote": "head that's the rook i'm gonna call him castle head fine castle head moves straight like this castles can't move This game's confusing. Yeah, it is, Bingo.",
+          "start": 26,
           "end": 38,
-          "matchStart": 44,
-          "matchEnd": 48
+          "matchStart": 84,
+          "matchEnd": 88
         }
       ],
       "qualityFlags": [
@@ -427,20 +480,20 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 38,
-      "end": 51,
-      "sentenceText": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "end": 43,
+      "sentenceText": "Maybe you just want to do some colouring. no she's on my team oh right let's just",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0004",
           "start": 38,
-          "end": 51,
-          "text": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
-          "originalText": "maybe you just want to do some coloring no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
+          "end": 43,
+          "text": "Maybe you just want to do some colouring. no she's on my team oh right let's just",
+          "originalText": "maybe you just want to do some coloring no she's on my team oh right let's just",
           "originalCueRefs": [
             {
               "id": "c0014",
@@ -453,24 +506,6 @@
               "start": 40,
               "end": 43,
               "text": "no she's on my team oh right let's just"
-            },
-            {
-              "id": "c0016",
-              "start": 43,
-              "end": 46,
-              "text": "start there your go bluey"
-            },
-            {
-              "id": "c0017",
-              "start": 46,
-              "end": 48,
-              "text": "my own chest team well there's only two"
-            },
-            {
-              "id": "c0018",
-              "start": 48,
-              "end": 51,
-              "text": "teams bingo so maybe you just watch"
             }
           ],
           "cleanedCueRefs": [
@@ -499,7 +534,104 @@
               "originalCueIds": [
                 "c0015"
               ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "want",
+          "cueId": "c0004",
+          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just",
+          "start": 38,
+          "end": 43,
+          "matchStart": 15,
+          "matchEnd": 19
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0004",
+          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just",
+          "start": 38,
+          "end": 43,
+          "matchStart": 42,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "lets",
+          "cueId": "c0004",
+          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just",
+          "start": 38,
+          "end": 43,
+          "matchStart": 71,
+          "matchEnd": 76
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0005",
+      "title": "문단 1",
+      "start": 43,
+      "end": 58,
+      "sentenceText": "start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch don't worry bingo look there's two horses see and two castle heads and two",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0005",
+          "start": 43,
+          "end": 58,
+          "text": "start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch don't worry bingo look there's two horses see and two castle heads and two",
+          "originalText": "start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch don't worry bingo look there's two horses see and two castle heads and two",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 43,
+              "end": 46,
+              "text": "start there your go bluey"
             },
+            {
+              "id": "c0017",
+              "start": 46,
+              "end": 48,
+              "text": "my own chest team well there's only two"
+            },
+            {
+              "id": "c0018",
+              "start": 48,
+              "end": 51,
+              "text": "teams bingo so maybe you just watch"
+            },
+            {
+              "id": "c0019",
+              "start": 51,
+              "end": 54,
+              "text": "don't worry bingo look there's two"
+            },
+            {
+              "id": "c0020",
+              "start": 54,
+              "end": 58,
+              "text": "horses see and two castle heads and two"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0016",
               "start": 43,
@@ -526,98 +658,7 @@
               "originalCueIds": [
                 "c0018"
               ]
-            }
-          ],
-          "textSource": "mixed-captured-sources",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "want",
-          "cueId": "c0004",
-          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
-          "start": 38,
-          "end": 51,
-          "matchStart": 15,
-          "matchEnd": 19
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0004",
-          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
-          "start": 38,
-          "end": 51,
-          "matchStart": 42,
-          "matchEnd": 44
-        },
-        {
-          "expressionId": "lets",
-          "cueId": "c0004",
-          "quote": "Maybe you just want to do some colouring. no she's on my team oh right let's just start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch",
-          "start": 38,
-          "end": 51,
-          "matchStart": 71,
-          "matchEnd": 76
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0005",
-      "title": "문단 5",
-      "start": 51,
-      "end": 65,
-      "sentenceText": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0005",
-          "start": 51,
-          "end": 65,
-          "text": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
-          "originalText": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
-          "originalCueRefs": [
-            {
-              "id": "c0019",
-              "start": 51,
-              "end": 54,
-              "text": "don't worry bingo look there's two"
             },
-            {
-              "id": "c0020",
-              "start": 54,
-              "end": 58,
-              "text": "horses see and two castle heads and two"
-            },
-            {
-              "id": "c0021",
-              "start": 58,
-              "end": 61,
-              "text": "pom-pom elves bishops and lots of prawns"
-            },
-            {
-              "id": "c0022",
-              "start": 61,
-              "end": 65,
-              "text": "pawns so this can be your team and this"
-            }
-          ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
             {
               "id": "c0019",
               "start": 51,
@@ -635,30 +676,12 @@
               "originalCueIds": [
                 "c0020"
               ]
-            },
-            {
-              "id": "c0021",
-              "start": 58,
-              "end": 61,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0021"
-              ]
-            },
-            {
-              "id": "c0022",
-              "start": 61,
-              "end": 65,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0022"
-              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -669,29 +692,29 @@
         {
           "expressionId": "look",
           "cueId": "c0005",
-          "quote": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
-          "start": 51,
-          "end": 65,
-          "matchStart": 18,
-          "matchEnd": 22
+          "quote": "start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch don't worry bingo look there's two horses see and two castle heads and two",
+          "start": 43,
+          "end": 58,
+          "matchStart": 120,
+          "matchEnd": 124
         },
         {
           "expressionId": "see",
           "cueId": "c0005",
-          "quote": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
-          "start": 51,
-          "end": 65,
-          "matchStart": 42,
-          "matchEnd": 45
+          "quote": "start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch don't worry bingo look there's two horses see and two castle heads and two",
+          "start": 43,
+          "end": 58,
+          "matchStart": 144,
+          "matchEnd": 147
         },
         {
           "expressionId": "dont",
           "cueId": "c0005",
-          "quote": "don't worry bingo look there's two horses see and two castle heads and two pom-pom elves bishops and lots of prawns pawns so this can be your team and this",
-          "start": 51,
-          "end": 65,
-          "matchStart": 0,
-          "matchEnd": 5
+          "quote": "start there your go bluey my own chest team well there's only two teams bingo so maybe you just watch don't worry bingo look there's two horses see and two castle heads and two",
+          "start": 43,
+          "end": 58,
+          "matchStart": 102,
+          "matchEnd": 107
         }
       ],
       "qualityFlags": [
@@ -701,21 +724,33 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
-      "start": 65,
+      "title": "문단 2",
+      "start": 58,
       "end": 71,
-      "sentenceText": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "sentenceText": "pom-pom elves bishops and lots of prawns pawns so this can be your team and this one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
-          "start": 65,
+          "start": 58,
           "end": 71,
-          "text": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
-          "originalText": "one's mine thanks bluey nice one bluey ah look that's not gonna go deep blue",
+          "text": "pom-pom elves bishops and lots of prawns pawns so this can be your team and this one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+          "originalText": "pom-pom elves bishops and lots of prawns pawns so this can be your team and this one's mine thanks bluey nice one bluey ah look that's not gonna go deep blue",
           "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 58,
+              "end": 61,
+              "text": "pom-pom elves bishops and lots of prawns"
+            },
+            {
+              "id": "c0022",
+              "start": 61,
+              "end": 65,
+              "text": "pawns so this can be your team and this"
+            },
             {
               "id": "c0023",
               "start": 65,
@@ -739,6 +774,24 @@
           ],
           "sourceCueRefs": [
             {
+              "id": "c0021",
+              "start": 58,
+              "end": 61,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 61,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
               "id": "c0023",
               "start": 65,
               "end": 68,
@@ -759,8 +812,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -772,20 +825,20 @@
         {
           "expressionId": "nice",
           "cueId": "c0006",
-          "quote": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
-          "start": 65,
+          "quote": "pom-pom elves bishops and lots of prawns pawns so this can be your team and this one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+          "start": 58,
           "end": 71,
-          "matchStart": 24,
-          "matchEnd": 28
+          "matchStart": 105,
+          "matchEnd": 109
         },
         {
           "expressionId": "look",
           "cueId": "c0006",
-          "quote": "one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
-          "start": 65,
+          "quote": "pom-pom elves bishops and lots of prawns pawns so this can be your team and this one's mine thanks bluey nice one bluey Ah, look, that's not gonna go... Deep Blue.",
+          "start": 58,
           "end": 71,
-          "matchStart": 43,
-          "matchEnd": 47
+          "matchStart": 124,
+          "matchEnd": 128
         }
       ],
       "qualityFlags": [
@@ -796,12 +849,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 1",
       "start": 71,
       "end": 82,
       "sentenceText": "Hang on, there's only one crown lady one wedding cat head ah now that's the king and that's the queen Can I have the queen, Bluey?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -896,8 +949,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -924,12 +977,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 82,
       "end": 87,
       "sentenceText": "Um, sure. Thanks! Oh, you can't just... That's fine.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -994,8 +1047,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1020,12 +1073,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 87,
       "end": 100,
       "sentenceText": "Are you sure you're happy with the king? yeah i'm okay don't worry bluey the king's the most important piece on the board oh is that right yes and how many squares can he move well just one",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1123,8 +1176,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1205,12 +1258,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 4",
       "start": 100,
       "end": 115,
       "sentenceText": "just one square that was a big square wasn't it oh i better rest my royal feeties they're a little tired meanwhile the queen moves as far as she wants in any direction",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1301,8 +1354,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1336,12 +1389,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 5",
       "start": 115,
       "end": 124,
       "sentenceText": "Which is handy, because she has to do all the work. Pop, are you finished? Yes.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1442,8 +1495,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"

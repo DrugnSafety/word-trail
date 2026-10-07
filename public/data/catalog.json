@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.29-2",
+  "version": "2026.10.06-1",
   "generatedAt": "2026-09-25T00:00:00.000Z",
   "videos": [
     {
@@ -9,12 +9,12 @@
       "duration": 420,
       "captionType": "YouTube English captions (human-made)",
       "sourceUrl": "https://www.youtube.com/watch?v=kx8_wF9HOX8",
-      "chapterCount": 2,
-      "sceneCount": 57,
+      "chapterCount": 3,
+      "sceneCount": 55,
       "expressionCount": 39,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
-        "contains-explicit-parent-grouping",
+        "contains-explicit-source-grouping",
         "contains-non-speech-cues",
         "contains-raw-original-text"
       ]
@@ -26,7 +26,7 @@
       "duration": 1587,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=MnFue5zu454",
-      "chapterCount": 5,
+      "chapterCount": 4,
       "sceneCount": 196,
       "expressionCount": 55,
       "qualityFlags": [
@@ -43,8 +43,8 @@
       "duration": 420,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=zL_vNn06a5M",
-      "chapterCount": 1,
-      "sceneCount": 34,
+      "chapterCount": 6,
+      "sceneCount": 35,
       "expressionCount": 34,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -58,7 +58,7 @@
       "duration": 2383,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=T4uKrmq5i1U",
-      "chapterCount": 7,
+      "chapterCount": 6,
       "sceneCount": 195,
       "expressionCount": 58,
       "qualityFlags": [
@@ -72,7 +72,7 @@
       "duration": 124,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=VX-lYkW4WuQ",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 19,
       "expressionCount": 22,
       "qualityFlags": [
@@ -103,8 +103,8 @@
       "duration": 6936,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=Xw3-3jQQMBk",
-      "chapterCount": 19,
-      "sceneCount": 784,
+      "chapterCount": 18,
+      "sceneCount": 782,
       "expressionCount": 65,
       "qualityFlags": [
         "contains-cues-without-original-overlap",
@@ -132,7 +132,7 @@
       "duration": 133,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=QqegZrB_fvM",
-      "chapterCount": 1,
+      "chapterCount": 3,
       "sceneCount": 12,
       "expressionCount": 17,
       "qualityFlags": [
@@ -146,8 +146,8 @@
       "duration": 2383,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=4x2H3X9hQoQ",
-      "chapterCount": 7,
-      "sceneCount": 327,
+      "chapterCount": 6,
+      "sceneCount": 326,
       "expressionCount": 58,
       "qualityFlags": [
         "contains-raw-original-text"
@@ -186,8 +186,8 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=0uxmFpGFKyY",
-      "chapterCount": 1,
-      "sceneCount": 11,
+      "chapterCount": 3,
+      "sceneCount": 12,
       "expressionCount": 22,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -201,7 +201,7 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=Ka3vyVEaoTg",
-      "chapterCount": 1,
+      "chapterCount": 5,
       "sceneCount": 16,
       "expressionCount": 22,
       "qualityFlags": [
@@ -245,7 +245,7 @@
       "duration": 122,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=CVWNu3Drxpw",
-      "chapterCount": 1,
+      "chapterCount": 2,
       "sceneCount": 9,
       "expressionCount": 10,
       "qualityFlags": [
@@ -289,8 +289,8 @@
       "duration": 125,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=SstAKgNOsxc",
-      "chapterCount": 1,
-      "sceneCount": 11,
+      "chapterCount": 4,
+      "sceneCount": 12,
       "expressionCount": 18,
       "qualityFlags": [
         "declared-duration-shorter-than-cues",
@@ -305,8 +305,8 @@
       "duration": 420,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=yY4GKcH1rRg",
-      "chapterCount": 1,
-      "sceneCount": 35,
+      "chapterCount": 5,
+      "sceneCount": 37,
       "expressionCount": 37,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -337,8 +337,8 @@
       "duration": 123,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=VEyg0QmSiVM",
-      "chapterCount": 1,
-      "sceneCount": 10,
+      "chapterCount": 4,
+      "sceneCount": 12,
       "expressionCount": 16,
       "qualityFlags": [
         "declared-duration-shorter-than-cues",
@@ -353,8 +353,8 @@
       "duration": 122,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=-n9FFh8GKPA",
-      "chapterCount": 1,
-      "sceneCount": 9,
+      "chapterCount": 4,
+      "sceneCount": 10,
       "expressionCount": 14,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -368,8 +368,8 @@
       "duration": 125,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=Kj2CKqskBK0",
-      "chapterCount": 1,
-      "sceneCount": 11,
+      "chapterCount": 6,
+      "sceneCount": 12,
       "expressionCount": 14,
       "qualityFlags": [
         "declared-duration-shorter-than-cues",
@@ -384,7 +384,7 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=epL7zirDQNo",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 16,
       "expressionCount": 20,
       "qualityFlags": [
@@ -399,7 +399,7 @@
       "duration": 124,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=bn5gbkWgZW0",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 10,
       "expressionCount": 22,
       "qualityFlags": [
@@ -414,8 +414,8 @@
       "duration": 4090,
       "captionType": "YouTube English captions (human-made)",
       "sourceUrl": "https://www.youtube.com/watch?v=kPFHL0R0oIU",
-      "chapterCount": 7,
-      "sceneCount": 617,
+      "chapterCount": 22,
+      "sceneCount": 614,
       "expressionCount": 63,
       "qualityFlags": [
         "contains-cues-without-original-overlap",
@@ -431,8 +431,8 @@
       "duration": 127,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=GuwMGhFw99M",
-      "chapterCount": 1,
-      "sceneCount": 15,
+      "chapterCount": 2,
+      "sceneCount": 16,
       "expressionCount": 18,
       "qualityFlags": [
         "declared-duration-shorter-than-cues",
@@ -461,7 +461,7 @@
       "duration": 124,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=Czf4UFt57Fk",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 13,
       "expressionCount": 20,
       "qualityFlags": [
@@ -476,8 +476,8 @@
       "duration": 130,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=RZ65LGgsvrI",
-      "chapterCount": 1,
-      "sceneCount": 11,
+      "chapterCount": 4,
+      "sceneCount": 12,
       "expressionCount": 23,
       "qualityFlags": [
         "contains-raw-original-text"
@@ -490,8 +490,8 @@
       "duration": 115,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=qb33_PnPz8A",
-      "chapterCount": 1,
-      "sceneCount": 8,
+      "chapterCount": 4,
+      "sceneCount": 10,
       "expressionCount": 13,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -505,8 +505,8 @@
       "duration": 123,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=mJi6mR_yo-I",
-      "chapterCount": 1,
-      "sceneCount": 13,
+      "chapterCount": 4,
+      "sceneCount": 14,
       "expressionCount": 20,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -535,7 +535,7 @@
       "duration": 122,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=hP2Cuir0_FQ",
-      "chapterCount": 1,
+      "chapterCount": 5,
       "sceneCount": 14,
       "expressionCount": 24,
       "qualityFlags": [
@@ -565,7 +565,7 @@
       "duration": 120,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=esE91SVXKUE",
-      "chapterCount": 1,
+      "chapterCount": 5,
       "sceneCount": 12,
       "expressionCount": 17,
       "qualityFlags": [
@@ -580,7 +580,7 @@
       "duration": 113,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=Dtyspn6fGI0",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 11,
       "expressionCount": 16,
       "qualityFlags": [
@@ -595,7 +595,7 @@
       "duration": 123,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=bv4Z_R7cOPk",
-      "chapterCount": 1,
+      "chapterCount": 5,
       "sceneCount": 11,
       "expressionCount": 17,
       "qualityFlags": [
@@ -610,7 +610,7 @@
       "duration": 124,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=LsBvTX9AMO0",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 11,
       "expressionCount": 19,
       "qualityFlags": [
@@ -624,8 +624,8 @@
       "duration": 106,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=DRyDZBdNrzY",
-      "chapterCount": 1,
-      "sceneCount": 9,
+      "chapterCount": 4,
+      "sceneCount": 10,
       "expressionCount": 17,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -653,8 +653,8 @@
       "duration": 417,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=8z2WihkDEHI",
-      "chapterCount": 1,
-      "sceneCount": 33,
+      "chapterCount": 5,
+      "sceneCount": 34,
       "expressionCount": 32,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -696,7 +696,7 @@
       "duration": 120,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=LabBwLEyhx0",
-      "chapterCount": 1,
+      "chapterCount": 3,
       "sceneCount": 11,
       "expressionCount": 15,
       "qualityFlags": [
@@ -751,8 +751,8 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=aDRQbqcWC30",
-      "chapterCount": 1,
-      "sceneCount": 11,
+      "chapterCount": 6,
+      "sceneCount": 13,
       "expressionCount": 20,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -828,7 +828,7 @@
       "duration": 127,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=R3toB8gv2Kw",
-      "chapterCount": 1,
+      "chapterCount": 3,
       "sceneCount": 7,
       "expressionCount": 10,
       "qualityFlags": [
@@ -843,8 +843,8 @@
       "duration": 643,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=ypA8P1YeaIs",
-      "chapterCount": 1,
-      "sceneCount": 52,
+      "chapterCount": 9,
+      "sceneCount": 56,
       "expressionCount": 40,
       "qualityFlags": [
         "declared-duration-shorter-than-cues",
@@ -859,7 +859,7 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=WKD4Mg3nbnY",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 14,
       "expressionCount": 17,
       "qualityFlags": [
@@ -874,7 +874,7 @@
       "duration": 123,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=sQ9QrOiW2aw",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 12,
       "expressionCount": 16,
       "qualityFlags": [
@@ -902,8 +902,8 @@
       "duration": 118,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=BCv01uu2Ac8",
-      "chapterCount": 1,
-      "sceneCount": 15,
+      "chapterCount": 4,
+      "sceneCount": 16,
       "expressionCount": 17,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -978,8 +978,8 @@
       "duration": 127,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=DcCGgCFkpKQ",
-      "chapterCount": 1,
-      "sceneCount": 15,
+      "chapterCount": 3,
+      "sceneCount": 14,
       "expressionCount": 21,
       "qualityFlags": [
         "declared-duration-shorter-than-cues",
@@ -994,7 +994,7 @@
       "duration": 121,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=Dy6wdDVd6gE",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 12,
       "expressionCount": 17,
       "qualityFlags": [
@@ -1009,7 +1009,7 @@
       "duration": 124,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=JTmE3xY-mBw",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 13,
       "expressionCount": 14,
       "qualityFlags": [
@@ -1038,8 +1038,8 @@
       "duration": 125,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=T4hCDwS0tV8",
-      "chapterCount": 1,
-      "sceneCount": 12,
+      "chapterCount": 5,
+      "sceneCount": 13,
       "expressionCount": 20,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -1053,8 +1053,8 @@
       "duration": 135,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=o6MtNdG6a-w",
-      "chapterCount": 1,
-      "sceneCount": 13,
+      "chapterCount": 4,
+      "sceneCount": 15,
       "expressionCount": 15,
       "qualityFlags": [
         "contains-raw-original-text"
@@ -1081,7 +1081,7 @@
       "duration": 127,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=3beXien8Oqw",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 18,
       "expressionCount": 14,
       "qualityFlags": [
@@ -1096,8 +1096,8 @@
       "duration": 73,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=rrfagQ33mdw",
-      "chapterCount": 1,
-      "sceneCount": 11,
+      "chapterCount": 3,
+      "sceneCount": 10,
       "expressionCount": 18,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -1142,7 +1142,7 @@
       "duration": 124,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=zwPfZcCjS5w",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 12,
       "expressionCount": 23,
       "qualityFlags": [
@@ -1158,7 +1158,7 @@
       "duration": 120,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=5XekmnSHoHs",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 11,
       "expressionCount": 23,
       "qualityFlags": [
@@ -1173,7 +1173,7 @@
       "duration": 114,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=-X3EN7KhoNA",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 17,
       "expressionCount": 20,
       "qualityFlags": [
@@ -1188,8 +1188,8 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=l2gXoYBWAY4",
-      "chapterCount": 1,
-      "sceneCount": 20,
+      "chapterCount": 4,
+      "sceneCount": 19,
       "expressionCount": 22,
       "qualityFlags": [
         "contains-repaired-zero-duration-cues",
@@ -1205,8 +1205,8 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=O60VVZQkRs4",
-      "chapterCount": 1,
-      "sceneCount": 14,
+      "chapterCount": 4,
+      "sceneCount": 13,
       "expressionCount": 15,
       "qualityFlags": [
         "contains-raw-original-text",
@@ -1220,8 +1220,8 @@
       "duration": 126,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=KZT1fTJqY2w",
-      "chapterCount": 1,
-      "sceneCount": 18,
+      "chapterCount": 4,
+      "sceneCount": 16,
       "expressionCount": 16,
       "qualityFlags": [
         "declared-duration-shorter-than-cues",
@@ -1252,7 +1252,7 @@
       "duration": 128,
       "captionType": "YouTube auto-generated English captions",
       "sourceUrl": "https://www.youtube.com/watch?v=7dWk3Zg5KMc",
-      "chapterCount": 1,
+      "chapterCount": 4,
       "sceneCount": 15,
       "expressionCount": 18,
       "qualityFlags": [

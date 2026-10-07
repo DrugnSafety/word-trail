@@ -17,27 +17,66 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 5,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Granny Mobile",
-      "start": 16,
-      "end": 406,
-      "source": "whole-video",
+      "title": "The garage sale",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 82,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Playing granny mobile",
+      "start": 82,
+      "markerStart": 83,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 148,
+      "sceneIds": [
         "c0007",
         "c0008",
         "c0009",
         "c0010",
-        "c0011",
+        "c0011"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Toughening up Doreen",
+      "start": 148,
+      "markerStart": 150,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 234,
+      "sceneIds": [
         "c0012",
         "c0013",
         "c0014",
@@ -46,7 +85,23 @@
         "c0017",
         "c0018",
         "c0019",
-        "c0020",
+        "c0020"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "The intense negotiation",
+      "start": 234,
+      "markerStart": 235,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 351,
+      "sceneIds": [
         "c0021",
         "c0022",
         "c0023",
@@ -57,11 +112,29 @@
         "c0028",
         "c0029",
         "c0030",
-        "c0031",
+        "c0031"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Mission accomplished",
+      "start": 351,
+      "markerStart": 352,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 406,
+      "sceneIds": [
         "c0032",
         "c0033",
         "c0034",
-        "c0035"
+        "c0035",
+        "c0036",
+        "c0037"
       ]
     }
   ],
@@ -797,12 +870,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 1",
       "start": 82,
       "end": 91,
       "sentenceText": "yeah and make it that you want to sell us your granny mobile okay let's go Pardon? How much do you want for this?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -870,8 +943,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -934,12 +1007,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 91,
       "end": 105,
       "sentenceText": "well what do you think $2 okay that's fine thanks dorine that V is worth way more than that oh I don't want to make a fuss Dorene can we play with your Ry",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1015,8 +1088,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1086,12 +1159,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 105,
       "end": 120,
       "sentenceText": "mobile please go for it I've taking the battery out so it won't move oh yes it will bug is going to push it yeah am I buger lugs yes nah and you're going over to",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1182,8 +1255,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1217,12 +1290,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 4",
       "start": 120,
       "end": 134,
       "sentenceText": "many cracks it's a foot path don't talk that to me sunny gee you are one grouchy granny stop I said stop okay n hello GL",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1283,8 +1356,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1336,12 +1409,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 5",
       "start": 134,
       "end": 148,
       "sentenceText": "I'm selling a granny theal are you going to buy it oh well make up your mind how much is it last bucks what number is this uh $300 bucks oh Dorian",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1417,8 +1490,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1452,12 +1525,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 1",
       "start": 148,
       "end": 156,
       "sentenceText": "you can get more than that let's say 900 900 bucks. How much money you got, Rita? Pardon?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1522,8 +1595,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1559,12 +1632,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 2",
       "start": 156,
       "end": 168,
       "sentenceText": "hurry up my hips hurt let me count the coins one two or that's ni hurry",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1640,8 +1713,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1666,12 +1739,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 3",
       "start": 168,
       "end": 183,
       "sentenceText": "up Co this is taking too long burgs take me home yes Nana and watch the cracks sorry Nana Lou Gra actually granny is a bit too grouchy are you sure there isn't",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1747,8 +1820,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1809,12 +1882,12 @@
     },
     {
       "id": "c0015",
-      "title": "문단 15",
+      "title": "문단 4",
       "start": 183,
       "end": 189,
       "sentenceText": "another type of Granny there might be but I just don't know what it is. Do you?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1867,8 +1940,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1913,12 +1986,12 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
+      "title": "문단 5",
       "start": 189,
       "end": 194,
       "sentenceText": "Hmm... no, I'll stay Grouchy Granny. Oh, great.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1962,8 +2035,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1995,12 +2068,12 @@
     },
     {
       "id": "c0017",
-      "title": "문단 17",
+      "title": "문단 6",
       "start": 194,
       "end": 207,
       "sentenceText": "you want young man how about $5 how about $2 okay $2 dorine if you want to go on a holiday",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 17,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -2061,8 +2134,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -2105,12 +2178,12 @@
     },
     {
       "id": "c0018",
-      "title": "문단 18",
+      "title": "문단 7",
       "start": 207,
       "end": 218,
       "sentenceText": "to The Reef you better toughen up oh oh I know oh dear your table legs blocking the foot path I could to broke my leg oh Oh, I'm terribly sorry. I should call the council.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 18,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
@@ -2214,8 +2287,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 18,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -2251,12 +2324,12 @@
     },
     {
       "id": "c0019",
-      "title": "문단 19",
+      "title": "문단 8",
       "start": 218,
       "end": 231,
       "sentenceText": "counsil I'll get it to a Rain take the noise down I'm sorry I'm not paying for any of this oh well that's fine well I think you should pay a little I think you should mind your own",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 19,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 8,
       "selectable": true,
       "cues": [
         {
@@ -2347,8 +2420,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 19,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 8,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -2391,27 +2464,73 @@
     },
     {
       "id": "c0020",
-      "title": "문단 20",
+      "title": "문단 9",
       "start": 231,
-      "end": 244,
-      "sentenceText": "business W that is one grouchy granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 20,
+      "end": 234,
+      "sentenceText": "business W that is one grouchy",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 9,
       "selectable": true,
       "cues": [
         {
           "id": "c0020",
           "start": 231,
-          "end": 244,
-          "text": "business W that is one grouchy granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying",
-          "originalText": "business W that is one grouchy granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying",
+          "end": 234,
+          "text": "business W that is one grouchy",
+          "originalText": "business W that is one grouchy",
           "originalCueRefs": [
             {
               "id": "c0066",
               "start": 231,
               "end": 234,
               "text": "business W that is one grouchy"
-            },
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0066",
+              "start": 231,
+              "end": 234,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0066"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 9,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0021",
+      "title": "문단 1",
+      "start": 234,
+      "end": 247,
+      "sentenceText": "granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying it fine give me",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0021",
+          "start": 234,
+          "end": 247,
+          "text": "granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying it fine give me",
+          "originalText": "granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying it fine give me",
+          "originalCueRefs": [
             {
               "id": "c0067",
               "start": 234,
@@ -2429,19 +2548,16 @@
               "start": 241,
               "end": 244,
               "text": "you get off that no it's mine I'm buying"
+            },
+            {
+              "id": "c0070",
+              "start": 244,
+              "end": 247,
+              "text": "it fine give me"
             }
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0066",
-              "start": 231,
-              "end": 234,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0066"
-              ]
-            },
             {
               "id": "c0067",
               "start": 234,
@@ -2468,12 +2584,21 @@
               "originalCueIds": [
                 "c0069"
               ]
+            },
+            {
+              "id": "c0070",
+              "start": 244,
+              "end": 247,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0070"
+              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 20,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -2482,13 +2607,22 @@
       ],
       "targets": [
         {
+          "expressionId": "give-me",
+          "cueId": "c0021",
+          "quote": "granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying it fine give me",
+          "start": 234,
+          "end": 247,
+          "matchStart": 124,
+          "matchEnd": 131
+        },
+        {
           "expressionId": "no",
-          "cueId": "c0020",
-          "quote": "business W that is one grouchy granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying",
-          "start": 231,
-          "end": 244,
-          "matchStart": 123,
-          "matchEnd": 125
+          "cueId": "c0021",
+          "quote": "granny back time nana about time now make me a cup of tea hey bugalugs hey you get off that no it's mine I'm buying it fine give me",
+          "start": 234,
+          "end": 247,
+          "matchStart": 92,
+          "matchEnd": 94
         }
       ],
       "qualityFlags": [
@@ -2497,28 +2631,22 @@
       ]
     },
     {
-      "id": "c0021",
-      "title": "문단 21",
-      "start": 244,
-      "end": 259,
-      "sentenceText": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 21,
+      "id": "c0022",
+      "title": "문단 2",
+      "start": 247,
+      "end": 260,
+      "sentenceText": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0021",
-          "start": 244,
-          "end": 259,
-          "text": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
-          "originalText": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
+          "id": "c0022",
+          "start": 247,
+          "end": 260,
+          "text": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "originalText": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
           "originalCueRefs": [
-            {
-              "id": "c0070",
-              "start": 244,
-              "end": 247,
-              "text": "it fine give me"
-            },
             {
               "id": "c0071",
               "start": 247,
@@ -2536,19 +2664,16 @@
               "start": 256,
               "end": 259,
               "text": "keep it oh it's like that is it oh look"
+            },
+            {
+              "id": "c0074",
+              "start": 259,
+              "end": 260,
+              "text": "love I think you want to talk to that"
             }
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0070",
-              "start": 244,
-              "end": 247,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0070"
-              ]
-            },
             {
               "id": "c0071",
               "start": 247,
@@ -2575,12 +2700,21 @@
               "originalCueIds": [
                 "c0073"
               ]
+            },
+            {
+              "id": "c0074",
+              "start": 259,
+              "end": 260,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0074"
+              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 21,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -2589,49 +2723,67 @@
       ],
       "targets": [
         {
-          "expressionId": "give-me",
-          "cueId": "c0021",
-          "quote": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
-          "start": 244,
-          "end": 259,
-          "matchStart": 8,
-          "matchEnd": 15
-        },
-        {
           "expressionId": "what",
-          "cueId": "c0021",
-          "quote": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
-          "start": 244,
-          "end": 259,
-          "matchStart": 21,
-          "matchEnd": 25
+          "cueId": "c0022",
+          "quote": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "start": 247,
+          "end": 260,
+          "matchStart": 5,
+          "matchEnd": 9
         },
         {
           "expressionId": "good",
-          "cueId": "c0021",
-          "quote": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
-          "start": 244,
-          "end": 259,
-          "matchStart": 74,
-          "matchEnd": 78
+          "cueId": "c0022",
+          "quote": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "start": 247,
+          "end": 260,
+          "matchStart": 58,
+          "matchEnd": 62
         },
         {
           "expressionId": "like",
-          "cueId": "c0021",
-          "quote": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
-          "start": 244,
-          "end": 259,
-          "matchStart": 102,
-          "matchEnd": 106
+          "cueId": "c0022",
+          "quote": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "start": 247,
+          "end": 260,
+          "matchStart": 86,
+          "matchEnd": 90
         },
         {
           "expressionId": "look",
-          "cueId": "c0021",
-          "quote": "it fine give me $900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look",
-          "start": 244,
-          "end": 259,
-          "matchStart": 121,
-          "matchEnd": 125
+          "cueId": "c0022",
+          "quote": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "start": 247,
+          "end": 260,
+          "matchStart": 105,
+          "matchEnd": 109
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0022",
+          "quote": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "start": 247,
+          "end": 260,
+          "matchStart": 110,
+          "matchEnd": 114
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0022",
+          "quote": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "start": 247,
+          "end": 260,
+          "matchStart": 117,
+          "matchEnd": 122
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0022",
+          "quote": "$900 what the side says 300 yeah $900 I'm not paying $900 good then I keep it oh it's like that is it oh look love I think you want to talk to that",
+          "start": 247,
+          "end": 260,
+          "matchStart": 127,
+          "matchEnd": 131
         }
       ],
       "qualityFlags": [
@@ -2640,28 +2792,22 @@
       ]
     },
     {
-      "id": "c0022",
-      "title": "문단 22",
-      "start": 259,
+      "id": "c0023",
+      "title": "문단 3",
+      "start": 260,
       "end": 272,
-      "sentenceText": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 22,
+      "sentenceText": "Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0022",
-          "start": 259,
+          "id": "c0023",
+          "start": 260,
           "end": 272,
-          "text": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-          "originalText": "love I think you want to talk to that lat get your hands off me what are you doing where's my C dorine I think this delightful lady wants to buy your scooter $100 um I guess that sounds okay or",
+          "text": "Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
+          "originalText": "lat get your hands off me what are you doing where's my C dorine I think this delightful lady wants to buy your scooter $100 um I guess that sounds okay or",
           "originalCueRefs": [
-            {
-              "id": "c0074",
-              "start": 259,
-              "end": 260,
-              "text": "love I think you want to talk to that"
-            },
             {
               "id": "c0075",
               "start": 260,
@@ -2715,15 +2861,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0074",
-              "start": 259,
-              "end": 260,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0074"
-              ]
-            },
-            {
               "id": "c0075",
               "start": 260,
               "end": 262,
@@ -2771,89 +2908,71 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 22,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
-            "raw-original-text",
             "corrected-text-exact-coverage",
+            "raw-original-text",
             "duration-grouped-dialogue"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "love",
-          "cueId": "c0022",
-          "quote": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-          "start": 259,
-          "end": 272,
-          "matchStart": 0,
-          "matchEnd": 4
-        },
-        {
-          "expressionId": "think",
-          "cueId": "c0022",
-          "quote": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-          "start": 259,
-          "end": 272,
-          "matchStart": 7,
-          "matchEnd": 12
-        },
-        {
-          "expressionId": "want",
-          "cueId": "c0022",
-          "quote": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-          "start": 259,
-          "end": 272,
-          "matchStart": 17,
-          "matchEnd": 21
-        },
-        {
           "expressionId": "what",
-          "cueId": "c0022",
-          "quote": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-          "start": 259,
+          "cueId": "c0023",
+          "quote": "Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
+          "start": 260,
           "end": 272,
-          "matchStart": 61,
-          "matchEnd": 65
+          "matchStart": 23,
+          "matchEnd": 27
         },
         {
           "expressionId": "where",
-          "cueId": "c0022",
-          "quote": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-          "start": 259,
+          "cueId": "c0023",
+          "quote": "Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
+          "start": 260,
           "end": 272,
-          "matchStart": 87,
-          "matchEnd": 92
+          "matchStart": 49,
+          "matchEnd": 54
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0023",
+          "quote": "Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
+          "start": 260,
+          "end": 272,
+          "matchStart": 71,
+          "matchEnd": 76
         },
         {
           "expressionId": "okay",
-          "cueId": "c0022",
-          "quote": "love I think you want to talk to that Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
-          "start": 259,
+          "cueId": "c0023",
+          "quote": "Get your hands off me! What are you doing? doing where's my C dorine I think this delightful lady wants to buy your scooter $100? Um, I guess that sounds okay.",
+          "start": 260,
           "end": 272,
-          "matchStart": 192,
-          "matchEnd": 196
+          "matchStart": 154,
+          "matchEnd": 158
         }
       ],
       "qualityFlags": [
-        "raw-original-text",
         "corrected-text-exact-coverage",
+        "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0023",
-      "title": "문단 23",
+      "id": "c0024",
+      "title": "문단 4",
       "start": 272,
       "end": 278,
       "sentenceText": "Oh, Doreen, you need to go higher than that. You need to lay off the biscuits. What?! You said I was looking good!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 23,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0023",
+          "id": "c0024",
           "start": 272,
           "end": 278,
           "text": "Oh, Doreen, you need to go higher than that. You need to lay off the biscuits. What?! You said I was looking good!",
@@ -2929,8 +3048,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 23,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2940,7 +3059,7 @@
       "targets": [
         {
           "expressionId": "need",
-          "cueId": "c0023",
+          "cueId": "c0024",
           "quote": "Oh, Doreen, you need to go higher than that. You need to lay off the biscuits. What?! You said I was looking good!",
           "start": 272,
           "end": 278,
@@ -2949,7 +3068,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0023",
+          "cueId": "c0024",
           "quote": "Oh, Doreen, you need to go higher than that. You need to lay off the biscuits. What?! You said I was looking good!",
           "start": 272,
           "end": 278,
@@ -2958,7 +3077,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0023",
+          "cueId": "c0024",
           "quote": "Oh, Doreen, you need to go higher than that. You need to lay off the biscuits. What?! You said I was looking good!",
           "start": 272,
           "end": 278,
@@ -2972,17 +3091,17 @@
       ]
     },
     {
-      "id": "c0024",
-      "title": "문단 24",
+      "id": "c0025",
+      "title": "문단 5",
       "start": 278,
       "end": 291,
       "sentenceText": "honey ignore her oh niy NE back now you listen $100 take it all a it oh Dory no right you off no what I",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 24,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0024",
+          "id": "c0025",
           "start": 278,
           "end": 291,
           "text": "honey ignore her oh niy NE back now you listen $100 take it all a it oh Dory no right you off no what I",
@@ -3039,8 +3158,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 24,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3050,7 +3169,7 @@
       "targets": [
         {
           "expressionId": "listen",
-          "cueId": "c0024",
+          "cueId": "c0025",
           "quote": "honey ignore her oh niy NE back now you listen $100 take it all a it oh Dory no right you off no what I",
           "start": 278,
           "end": 291,
@@ -3059,7 +3178,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0024",
+          "cueId": "c0025",
           "quote": "honey ignore her oh niy NE back now you listen $100 take it all a it oh Dory no right you off no what I",
           "start": 278,
           "end": 291,
@@ -3068,7 +3187,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0024",
+          "cueId": "c0025",
           "quote": "honey ignore her oh niy NE back now you listen $100 take it all a it oh Dory no right you off no what I",
           "start": 278,
           "end": 291,
@@ -3082,17 +3201,17 @@
       ]
     },
     {
-      "id": "c0025",
-      "title": "문단 25",
+      "id": "c0026",
+      "title": "문단 6",
       "start": 291,
       "end": 296,
       "sentenceText": "told you it's A lot of this is just water weight, Muffin.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 25,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
-          "id": "c0025",
+          "id": "c0026",
           "start": 291,
           "end": 296,
           "text": "told you it's A lot of this is just water weight, Muffin.",
@@ -3141,8 +3260,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 25,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -3158,17 +3277,17 @@
       ]
     },
     {
-      "id": "c0026",
-      "title": "문단 26",
+      "id": "c0027",
+      "title": "문단 7",
       "start": 296,
       "end": 309,
       "sentenceText": "muffin honey why don't we let stay out of it C dog 200 final offer 1000 what you're dreaming 500 11 outrageous if you don't",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 26,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
-          "id": "c0026",
+          "id": "c0027",
           "start": 296,
           "end": 309,
           "text": "muffin honey why don't we let stay out of it C dog 200 final offer 1000 what you're dreaming 500 11 outrageous if you don't",
@@ -3240,8 +3359,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 26,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3251,7 +3370,7 @@
       "targets": [
         {
           "expressionId": "why",
-          "cueId": "c0026",
+          "cueId": "c0027",
           "quote": "muffin honey why don't we let stay out of it C dog 200 final offer 1000 what you're dreaming 500 11 outrageous if you don't",
           "start": 296,
           "end": 309,
@@ -3260,7 +3379,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0026",
+          "cueId": "c0027",
           "quote": "muffin honey why don't we let stay out of it C dog 200 final offer 1000 what you're dreaming 500 11 outrageous if you don't",
           "start": 296,
           "end": 309,
@@ -3269,7 +3388,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0026",
+          "cueId": "c0027",
           "quote": "muffin honey why don't we let stay out of it C dog 200 final offer 1000 what you're dreaming 500 11 outrageous if you don't",
           "start": 296,
           "end": 309,
@@ -3283,17 +3402,17 @@
       ]
     },
     {
-      "id": "c0027",
-      "title": "문단 27",
+      "id": "c0028",
+      "title": "문단 8",
       "start": 309,
       "end": 322,
       "sentenceText": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 27,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 8,
       "selectable": true,
       "cues": [
         {
-          "id": "c0027",
+          "id": "c0028",
           "start": 309,
           "end": 322,
           "text": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
@@ -3365,8 +3484,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 27,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 8,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3376,7 +3495,7 @@
       "targets": [
         {
           "expressionId": "want",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3385,7 +3504,7 @@
         },
         {
           "expressionId": "why",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3394,7 +3513,7 @@
         },
         {
           "expressionId": "like",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3403,7 +3522,7 @@
         },
         {
           "expressionId": "love",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3412,7 +3531,7 @@
         },
         {
           "expressionId": "lets",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3421,7 +3540,7 @@
         },
         {
           "expressionId": "see",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3430,7 +3549,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3439,7 +3558,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0027",
+          "cueId": "c0028",
           "quote": "want it then don't buy it I'm not paying $1,100 why not cuz it's ugly like her hat hey hey hang on love let's see how this plays out and another thing I don't",
           "start": 309,
           "end": 322,
@@ -3453,17 +3572,17 @@
       ]
     },
     {
-      "id": "c0028",
-      "title": "문단 28",
+      "id": "c0029",
+      "title": "문단 9",
       "start": 322,
       "end": 334,
       "sentenceText": "like the color well paint it you paint it you paint it no oh yeah Jiggles no you paint it fine 1,00 1",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 28,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 9,
       "selectable": true,
       "cues": [
         {
-          "id": "c0028",
+          "id": "c0029",
           "start": 322,
           "end": 334,
           "text": "like the color well paint it you paint it you paint it no oh yeah Jiggles no you paint it fine 1,00 1",
@@ -3535,8 +3654,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 28,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 9,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3546,7 +3665,7 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0028",
+          "cueId": "c0029",
           "quote": "like the color well paint it you paint it you paint it no oh yeah Jiggles no you paint it fine 1,00 1",
           "start": 322,
           "end": 334,
@@ -3555,7 +3674,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0028",
+          "cueId": "c0029",
           "quote": "like the color well paint it you paint it you paint it no oh yeah Jiggles no you paint it fine 1,00 1",
           "start": 322,
           "end": 334,
@@ -3569,17 +3688,17 @@
       ]
     },
     {
-      "id": "c0029",
-      "title": "문단 29",
+      "id": "c0030",
+      "title": "문단 10",
       "start": 334,
       "end": 347,
       "sentenceText": "12200 what and 18 lollies oh you cheeky little fine $1,200 oh my goodness and how much are the lollies oh",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 29,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 10,
       "selectable": true,
       "cues": [
         {
-          "id": "c0029",
+          "id": "c0030",
           "start": 334,
           "end": 347,
           "text": "12200 what and 18 lollies oh you cheeky little fine $1,200 oh my goodness and how much are the lollies oh",
@@ -3651,8 +3770,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 29,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 10,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3662,7 +3781,7 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0029",
+          "cueId": "c0030",
           "quote": "12200 what and 18 lollies oh you cheeky little fine $1,200 oh my goodness and how much are the lollies oh",
           "start": 334,
           "end": 347,
@@ -3671,7 +3790,7 @@
         },
         {
           "expressionId": "little",
-          "cueId": "c0029",
+          "cueId": "c0030",
           "quote": "12200 what and 18 lollies oh you cheeky little fine $1,200 oh my goodness and how much are the lollies oh",
           "start": 334,
           "end": 347,
@@ -3680,7 +3799,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0029",
+          "cueId": "c0030",
           "quote": "12200 what and 18 lollies oh you cheeky little fine $1,200 oh my goodness and how much are the lollies oh",
           "start": 334,
           "end": 347,
@@ -3694,43 +3813,30 @@
       ]
     },
     {
-      "id": "c0030",
-      "title": "문단 30",
+      "id": "c0031",
+      "title": "문단 11",
       "start": 347,
-      "end": 354,
-      "sentenceText": "$2 Bye! You'll be going on that holiday now, Doreen.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 30,
+      "end": 350,
+      "sentenceText": "$2",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 11,
       "selectable": true,
       "cues": [
         {
-          "id": "c0030",
+          "id": "c0031",
           "start": 347,
-          "end": 354,
-          "text": "$2 Bye! You'll be going on that holiday now, Doreen.",
-          "originalText": "$2 bye you'll be going on that holiday now",
+          "end": 350,
+          "text": "$2",
+          "originalText": "$2",
           "originalCueRefs": [
             {
               "id": "c0104",
               "start": 347,
               "end": 350,
               "text": "$2"
-            },
-            {
-              "id": "c0105",
-              "start": 351,
-              "end": 354,
-              "text": "bye you'll be going on that holiday now"
             }
           ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0137",
-              "start": 351,
-              "end": 354,
-              "text": "Bye! You'll be going on that holiday now, Doreen."
-            }
-          ],
+          "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
               "id": "c0104",
@@ -3740,52 +3846,47 @@
               "originalCueIds": [
                 "c0104"
               ]
-            },
-            {
-              "id": "c0105",
-              "start": 351,
-              "end": 354,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0105"
-              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 30,
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 11,
           "qualityFlags": [
             "raw-original-text",
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "short-dialogue-fragment"
           ]
         }
       ],
       "targets": [],
       "qualityFlags": [
         "raw-original-text",
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "short-dialogue-fragment"
       ]
     },
     {
-      "id": "c0031",
-      "title": "문단 31",
-      "start": 354,
-      "end": 369,
-      "sentenceText": "dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything you want really yep you are one in a",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 31,
+      "id": "c0032",
+      "title": "문단 1",
+      "start": 351,
+      "end": 363,
+      "sentenceText": "Bye! You'll be going on that holiday now, Doreen. dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0031",
-          "start": 354,
-          "end": 369,
-          "text": "dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything you want really yep you are one in a",
-          "originalText": "dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything you want really yep you are one in a",
+          "id": "c0032",
+          "start": 351,
+          "end": 363,
+          "text": "Bye! You'll be going on that holiday now, Doreen. dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything",
+          "originalText": "bye you'll be going on that holiday now dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything",
           "originalCueRefs": [
+            {
+              "id": "c0105",
+              "start": 351,
+              "end": 354,
+              "text": "bye you'll be going on that holiday now"
+            },
             {
               "id": "c0106",
               "start": 354,
@@ -3803,16 +3904,26 @@
               "start": 360,
               "end": 363,
               "text": "muffin look around you can pick anything"
-            },
-            {
-              "id": "c0109",
-              "start": 363,
-              "end": 369,
-              "text": "you want really yep you are one in a"
             }
           ],
-          "cleanedCueRefs": [],
+          "cleanedCueRefs": [
+            {
+              "id": "c0137",
+              "start": 351,
+              "end": 354,
+              "text": "Bye! You'll be going on that holiday now, Doreen."
+            }
+          ],
           "sourceCueRefs": [
+            {
+              "id": "c0105",
+              "start": 351,
+              "end": 354,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0105"
+              ]
+            },
             {
               "id": "c0106",
               "start": 354,
@@ -3839,22 +3950,14 @@
               "originalCueIds": [
                 "c0108"
               ]
-            },
-            {
-              "id": "c0109",
-              "start": 363,
-              "end": 369,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0109"
-              ]
             }
           ],
-          "textSource": "original-captured",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 31,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
           "qualityFlags": [
+            "corrected-text-exact-coverage",
             "raw-original-text",
             "duration-grouped-dialogue"
           ]
@@ -3863,45 +3966,43 @@
       "targets": [
         {
           "expressionId": "look",
-          "cueId": "c0031",
-          "quote": "dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything you want really yep you are one in a",
-          "start": 354,
-          "end": 369,
-          "matchStart": 75,
-          "matchEnd": 79
-        },
-        {
-          "expressionId": "want",
-          "cueId": "c0031",
-          "quote": "dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything you want really yep you are one in a",
-          "start": 354,
-          "end": 369,
-          "matchStart": 113,
-          "matchEnd": 117
+          "cueId": "c0032",
+          "quote": "Bye! You'll be going on that holiday now, Doreen. dorine yeah I'm going to do some push-ups H these lollies are gross muffin look around you can pick anything",
+          "start": 351,
+          "end": 363,
+          "matchStart": 125,
+          "matchEnd": 129
         }
       ],
       "qualityFlags": [
+        "corrected-text-exact-coverage",
         "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0032",
-      "title": "문단 32",
-      "start": 369,
-      "end": 384,
-      "sentenceText": "million can I have this you sure just a tea tow a my Oh, look, Rita, it's a Super Granny!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 32,
+      "id": "c0033",
+      "title": "문단 2",
+      "start": 363,
+      "end": 375,
+      "sentenceText": "you want really yep you are one in a million can I have this you sure just a tea",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0032",
-          "start": 369,
-          "end": 384,
-          "text": "million can I have this you sure just a tea tow a my Oh, look, Rita, it's a Super Granny!",
-          "originalText": "million can I have this you sure just a tea tow a my coins oh look R it's a super granny may",
+          "id": "c0033",
+          "start": 363,
+          "end": 375,
+          "text": "you want really yep you are one in a million can I have this you sure just a tea",
+          "originalText": "you want really yep you are one in a million can I have this you sure just a tea",
           "originalCueRefs": [
+            {
+              "id": "c0109",
+              "start": 363,
+              "end": 369,
+              "text": "you want really yep you are one in a"
+            },
             {
               "id": "c0110",
               "start": 369,
@@ -3913,7 +4014,99 @@
               "start": 373,
               "end": 375,
               "text": "tea"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0109",
+              "start": 363,
+              "end": 369,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0109"
+              ]
             },
+            {
+              "id": "c0110",
+              "start": 369,
+              "end": 373,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0110"
+              ]
+            },
+            {
+              "id": "c0111",
+              "start": 373,
+              "end": 375,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0111"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0033",
+          "quote": "you want really yep you are one in a million can I have this you sure just a tea",
+          "start": 363,
+          "end": 375,
+          "matchStart": 45,
+          "matchEnd": 50
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0033",
+          "quote": "you want really yep you are one in a million can I have this you sure just a tea",
+          "start": 363,
+          "end": 375,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0033",
+          "quote": "you want really yep you are one in a million can I have this you sure just a tea",
+          "start": 363,
+          "end": 375,
+          "matchStart": 65,
+          "matchEnd": 69
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0034",
+      "title": "문단 3",
+      "start": 376,
+      "end": 384,
+      "sentenceText": "tow a my Oh, look, Rita, it's a Super Granny!",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0034",
+          "start": 376,
+          "end": 384,
+          "text": "tow a my Oh, look, Rita, it's a Super Granny!",
+          "originalText": "tow a my coins oh look R it's a super granny may",
+          "originalCueRefs": [
             {
               "id": "c0112",
               "start": 376,
@@ -3937,24 +4130,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0110",
-              "start": 369,
-              "end": 373,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0110"
-              ]
-            },
-            {
-              "id": "c0111",
-              "start": 373,
-              "end": 375,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0111"
-              ]
-            },
-            {
               "id": "c0112",
               "start": 376,
               "end": 379,
@@ -3975,8 +4150,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 32,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -3986,31 +4161,13 @@
       ],
       "targets": [
         {
-          "expressionId": "can-i",
-          "cueId": "c0032",
-          "quote": "million can I have this you sure just a tea tow a my Oh, look, Rita, it's a Super Granny!",
-          "start": 369,
-          "end": 384,
-          "matchStart": 8,
-          "matchEnd": 13
-        },
-        {
-          "expressionId": "sure",
-          "cueId": "c0032",
-          "quote": "million can I have this you sure just a tea tow a my Oh, look, Rita, it's a Super Granny!",
-          "start": 369,
-          "end": 384,
-          "matchStart": 28,
-          "matchEnd": 32
-        },
-        {
           "expressionId": "look",
-          "cueId": "c0032",
-          "quote": "million can I have this you sure just a tea tow a my Oh, look, Rita, it's a Super Granny!",
-          "start": 369,
+          "cueId": "c0034",
+          "quote": "tow a my Oh, look, Rita, it's a Super Granny!",
+          "start": 376,
           "end": 384,
-          "matchStart": 57,
-          "matchEnd": 61
+          "matchStart": 13,
+          "matchEnd": 17
         }
       ],
       "qualityFlags": [
@@ -4020,17 +4177,17 @@
       ]
     },
     {
-      "id": "c0033",
-      "title": "문단 33",
+      "id": "c0035",
+      "title": "문단 4",
       "start": 384,
       "end": 390,
       "sentenceText": "May I help you with those coins, Pat?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 33,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0033",
+          "id": "c0035",
           "start": 384,
           "end": 390,
           "text": "May I help you with those coins, Pat?",
@@ -4064,8 +4221,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 33,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -4074,7 +4231,7 @@
       "targets": [
         {
           "expressionId": "help",
-          "cueId": "c0033",
+          "cueId": "c0035",
           "quote": "May I help you with those coins, Pat?",
           "start": 384,
           "end": 390,
@@ -4087,17 +4244,17 @@
       ]
     },
     {
-      "id": "c0034",
-      "title": "문단 34",
+      "id": "c0036",
+      "title": "문단 5",
       "start": 390,
       "end": 402,
       "sentenceText": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 34,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0034",
+          "id": "c0036",
           "start": 390,
           "end": 402,
           "text": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
@@ -4176,8 +4333,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 34,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -4188,7 +4345,7 @@
       "targets": [
         {
           "expressionId": "i-dont-know",
-          "cueId": "c0034",
+          "cueId": "c0036",
           "quote": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
           "start": 390,
           "end": 402,
@@ -4197,7 +4354,7 @@
         },
         {
           "expressionId": "want",
-          "cueId": "c0034",
+          "cueId": "c0036",
           "quote": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
           "start": 390,
           "end": 402,
@@ -4206,7 +4363,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0034",
+          "cueId": "c0036",
           "quote": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
           "start": 390,
           "end": 402,
@@ -4215,7 +4372,7 @@
         },
         {
           "expressionId": "know",
-          "cueId": "c0034",
+          "cueId": "c0036",
           "quote": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
           "start": 390,
           "end": 402,
@@ -4224,7 +4381,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0034",
+          "cueId": "c0036",
           "quote": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
           "start": 390,
           "end": 402,
@@ -4233,7 +4390,7 @@
         },
         {
           "expressionId": "think",
-          "cueId": "c0034",
+          "cueId": "c0036",
           "quote": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
           "start": 390,
           "end": 402,
@@ -4242,7 +4399,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0034",
+          "cueId": "c0036",
           "quote": "Bandit, I've got one of those exercise thingies, thingies if you want oh yeah how much you want for it oh I don't know what do you think 20 bucks H 50 H",
           "start": 390,
           "end": 402,
@@ -4257,17 +4414,17 @@
       ]
     },
     {
-      "id": "c0035",
-      "title": "문단 35",
+      "id": "c0037",
+      "title": "문단 6",
       "start": 402,
       "end": 406,
       "sentenceText": "That's my girl.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 35,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
-          "id": "c0035",
+          "id": "c0037",
           "start": 402,
           "end": 406,
           "text": "That's my girl.",
@@ -4301,8 +4458,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 35,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "short-dialogue-fragment"

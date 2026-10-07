@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 
-import { findWordFamily } from '../public/lib/word-families.js';
+import { findWordFamily, getWordFamilyReview } from '../public/lib/word-families.js';
 
 const root = new URL('../', import.meta.url);
 const sourceUrl = new URL('content/word-families.json', root);
@@ -114,4 +114,56 @@ test('published word-family data is byte-identical to its source', async () => {
     readFile(publicUrl)
   ]);
   assert.deepEqual(published, source);
+});
+
+test('review uses curated derivatives before safe dictionary-backed inflections', async () => {
+  const families = await loadFamilies();
+  const curated = getWordFamilyReview('excited', families, { term: 'excite', meanings: [{ partOfSpeech: 'verb' }] });
+  assert.equal(curated.source, 'curated');
+  assert.ok(curated.items.some(item => item.term === 'excitement'));
+
+  const generated = getWordFamilyReview('jump', families, {
+    term: 'jump', meanings: [{ partOfSpeech: 'verb' }, { partOfSpeech: 'noun' }]
+  });
+  assert.equal(generated.source, 'inflection');
+  assert.deepEqual(generated.items, [
+    { term: 'jump', labelKo: '동사원형' },
+    { term: 'jumped', labelKo: '과거형' },
+    { term: 'jumped', labelKo: '과거분사형' },
+    { term: 'jumping', labelKo: '현재분사/진행형' },
+    { term: 'jumps', labelKo: '복수형' }
+  ]);
+  assert.equal(getWordFamilyReview('quickly', families, {
+    term: 'quickly', meanings: [{ partOfSpeech: 'adverb' }]
+  }).source, 'curated');
+  assert.equal(getWordFamilyReview('azure', [], {
+    term: 'azure', meanings: [{ partOfSpeech: 'adjective' }]
+  }), null);
+  assert.equal(getWordFamilyReview('water', [], {
+    term: 'water', meanings: [{ partOfSpeech: 'noun' }]
+  }), null, 'mass nouns must not receive an invented plural review');
+  assert.deepEqual(getWordFamilyReview('buy', [], {
+    term: 'buy', meanings: [{ partOfSpeech: 'verb' }]
+  }).items.map(item => item.term), ['buy', 'bought', 'bought', 'buying']);
+  assert.deepEqual(getWordFamilyReview('fly', [], {
+    term: 'fly', meanings: [{ partOfSpeech: 'verb' }]
+  }).items.map(item => item.term), ['fly', 'flew', 'flown', 'flying']);
+  assert.equal(getWordFamilyReview('invent', [], {
+    term: 'invent', meanings: [{ partOfSpeech: 'verb' }]
+  }), null, 'unknown verbs must not receive guessed forms');
+});
+
+test('review uses a complete knowledge package for noun inflections and semantic relations without inventing verbs', () => {
+  const relatedWords = [
+    { term: 'dragons', partOfSpeech: 'noun', relationship: 'inflection', labelKo: '복수형', meaningKo: '여러 용', exampleEn: 'The book shows two dragons.', exampleKo: '그 책에는 용 두 마리가 나와요.' },
+    { term: 'dragon-like', partOfSpeech: 'adjective', relationship: 'derivation', labelKo: '파생 형용사', meaningKo: '용을 닮은', exampleEn: 'It has a dragon-like tail.', exampleKo: '그것은 용을 닮은 꼬리가 있어요.' },
+    { term: 'mythical creature', partOfSpeech: 'noun', relationship: 'related', labelKo: '관련어', meaningKo: '신화 속 생물', exampleEn: 'A dragon is a mythical creature.', exampleKo: '용은 신화 속 생물이에요.' }
+  ];
+  const review = getWordFamilyReview('dragon', [], {
+    term: 'dragon', familyNoteKo: '명사의 복수형과 뜻이 가까운 말을 함께 살펴봐요.', relatedWords
+  });
+  assert.equal(review.source, 'knowledge-package');
+  assert.equal(review.noteKo, '명사의 복수형과 뜻이 가까운 말을 함께 살펴봐요.');
+  assert.deepEqual(review.items, relatedWords);
+  assert.equal(review.items.some(item => item.partOfSpeech === 'verb'), false);
 });

@@ -1,34 +1,84 @@
 {
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.09.30-1",
   "videos": {
     "video-01": [
       {
         "sourceCueIds": ["c0001", "c0002", "c0003", "c0004"],
         "start": 26,
         "end": 34,
-        "provenance": "parent-explicit-grouping",
-        "qualityFlags": ["explicit-parent-grouping", "overlapping-playback-window", "timing-unverified"]
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section", "overlapping-playback-window", "timing-unverified"]
       },
       {
         "sourceCueIds": ["c0005"],
         "start": 33,
         "end": 37,
-        "provenance": "parent-explicit-grouping",
-        "qualityFlags": ["explicit-parent-grouping", "overlapping-playback-window", "timing-unverified"]
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section", "overlapping-playback-window", "timing-unverified"]
       },
       {
         "sourceCueIds": ["c0006", "c0007"],
         "start": 37,
         "end": 41,
-        "provenance": "parent-explicit-grouping",
-        "qualityFlags": ["explicit-parent-grouping"]
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
       },
       {
         "sourceCueIds": ["c0008", "c0009", "c0010", "c0011"],
         "start": 41,
         "end": 49,
-        "provenance": "parent-explicit-grouping",
-        "qualityFlags": ["explicit-parent-grouping"]
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
+      },
+      {
+        "sourceCueIds": ["c0012", "c0013", "c0014"],
+        "start": 49,
+        "end": 59,
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
+      },
+      {
+        "sourceCueIds": ["c0015", "c0016", "c0017"],
+        "start": 59,
+        "end": 65,
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
+      },
+      {
+        "sourceCueIds": ["c0018", "c0019", "c0020"],
+        "start": 65,
+        "end": 71,
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
+      },
+      {
+        "sourceCueIds": ["c0021", "c0022", "c0023"],
+        "start": 71,
+        "end": 79,
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
+      },
+      {
+        "sourceCueIds": ["c0024", "c0025", "c0026", "c0027", "c0028"],
+        "start": 79,
+        "end": 88,
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
+      },
+      {
+        "sourceCueIds": ["c0029", "c0030", "c0031", "c0032", "c0033"],
+        "start": 88,
+        "end": 96,
+        "text": "Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off. What?! Whoa! OK, maybe not off but… Look, I'll handle it.",
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
+      },
+      {
+        "sourceCueIds": ["c0034", "c0035", "c0036", "c0037"],
+        "start": 96,
+        "end": 104,
+        "provenance": "user-provided-script-section",
+        "qualityFlags": ["explicit-script-section"]
       }
     ]
   }

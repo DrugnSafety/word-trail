@@ -17,15 +17,22 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "browser-visible-youtube-auto-chapters",
+  "expectedChapterCount": 6,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Pizza Girls | Full Episode | Bluey",
-      "start": 27,
-      "end": 405,
-      "source": "whole-video",
+      "title": "The pizza shop game",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-auto-chapter",
+      "provenance": "browser-visible-youtube-auto-chapters",
+      "coverage": "browser-visible-auto-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 97,
       "sceneIds": [
         "c0001",
         "c0002",
@@ -33,10 +40,42 @@
         "c0004",
         "c0005",
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Fixing the car",
+      "start": 97,
+      "markerStart": 103,
+      "source": "youtube-auto-chapter",
+      "provenance": "browser-visible-youtube-auto-chapters",
+      "coverage": "browser-visible-auto-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 6,
+      "end": 129,
+      "sceneIds": [
         "c0008",
         "c0009",
-        "c0010",
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Electric car troubles",
+      "start": 129,
+      "markerStart": 131,
+      "source": "youtube-auto-chapter",
+      "provenance": "browser-visible-youtube-auto-chapters",
+      "coverage": "browser-visible-auto-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 208,
+      "sceneIds": [
         "c0011",
         "c0012",
         "c0013",
@@ -44,23 +83,68 @@
         "c0015",
         "c0016",
         "c0017",
-        "c0018",
+        "c0018"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Driving in the park",
+      "start": 208,
+      "markerStart": 208,
+      "source": "youtube-auto-chapter",
+      "provenance": "browser-visible-youtube-auto-chapters",
+      "coverage": "browser-visible-auto-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 249,
+      "sceneIds": [
         "c0019",
         "c0020",
-        "c0021",
+        "c0021"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Charging and chaos",
+      "start": 249,
+      "markerStart": 251,
+      "source": "youtube-auto-chapter",
+      "provenance": "browser-visible-youtube-auto-chapters",
+      "coverage": "browser-visible-auto-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 322,
+      "sceneIds": [
         "c0022",
         "c0023",
         "c0024",
         "c0025",
         "c0026",
         "c0027",
-        "c0028",
+        "c0028"
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "title": "Making fast deliveries",
+      "start": 322,
+      "markerStart": 322,
+      "source": "youtube-auto-chapter",
+      "provenance": "browser-visible-youtube-auto-chapters",
+      "coverage": "browser-visible-auto-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 405,
+      "sceneIds": [
         "c0029",
         "c0030",
         "c0031",
         "c0032",
         "c0033",
-        "c0034"
+        "c0034",
+        "c0035"
       ]
     }
   ],
@@ -865,12 +949,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 1",
       "start": 97,
       "end": 106,
       "sentenceText": "Okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -908,8 +992,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -932,12 +1016,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 2",
       "start": 106,
       "end": 121,
       "sentenceText": "not again oh I can fix it mom can we get a new car oh but you've had Pedley since you were two but the wheel keeps falling off I know but there's just a lot of stories in that car How could a car have",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1028,8 +1112,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1072,12 +1156,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 3",
       "start": 121,
       "end": 128,
       "sentenceText": "stories we'll fix ah there you go see Good as new.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1130,8 +1214,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1167,12 +1251,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 1",
       "start": 129,
       "end": 142,
       "sentenceText": "this is my car squats this episode is called Pizza girls what is this muffin It's an electric car. My dad bought a new car, car and this came with it it dries",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1261,8 +1345,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1298,12 +1382,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 2",
       "start": 142,
       "end": 155,
       "sentenceText": "without petals yes and it's very expensive muffin so be careful with it Pizza Guys in it okay all right all right we're all sisters who run the",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1379,8 +1463,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1432,12 +1516,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 3",
       "start": 155,
       "end": 168,
       "sentenceText": "pizza shop got it hmm there's no roof to stick the pizza sign on it's a convertible okay well I guess we don't need to use it hello customers and you just do this",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1528,8 +1612,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1590,12 +1674,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 4",
       "start": 168,
       "end": 174,
       "sentenceText": "with your foot and that opens the boot Oh, cool! Customers! The boot's not working.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1654,8 +1738,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1672,12 +1756,12 @@
     },
     {
       "id": "c0015",
-      "title": "문단 15",
+      "title": "문단 5",
       "start": 174,
       "end": 180,
       "sentenceText": "I just asked them. Wait, that's a no. We meant to do it over the phone.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1736,8 +1820,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1771,12 +1855,12 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
+      "title": "문단 6",
       "start": 180,
       "end": 191,
       "sentenceText": "they want to Supreme okay one supreme thanks Pizza sisters our mum started this picture shop he worked really hard so we're trying to give her a holiday.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -1859,8 +1943,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1905,12 +1989,12 @@
     },
     {
       "id": "c0017",
-      "title": "문단 17",
+      "title": "문단 7",
       "start": 191,
       "end": 196,
       "sentenceText": "Wow, we're gonna deliver pizza fast now!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 17,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
@@ -1948,8 +2032,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1962,12 +2046,12 @@
     },
     {
       "id": "c0018",
-      "title": "문단 18",
+      "title": "문단 8",
       "start": 196,
       "end": 208,
       "sentenceText": "we're starting the pizza in you can't bring mud in the new car what why Because it's very expensive. Oh, okay, well, what do we do? We have to play something else.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 18,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 8,
       "selectable": true,
       "cues": [
         {
@@ -2056,8 +2140,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 18,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 8,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -2120,12 +2204,12 @@
     },
     {
       "id": "c0019",
-      "title": "문단 19",
+      "title": "문단 1",
       "start": 208,
       "end": 219,
       "sentenceText": "Oh, whatever you play in it. usually just drive around okay let's do that Watch your feet! Sorry, no mud in the car.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 19,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -2214,8 +2298,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 19,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -2278,12 +2362,12 @@
     },
     {
       "id": "c0020",
-      "title": "문단 20",
+      "title": "문단 2",
       "start": 219,
       "end": 229,
       "sentenceText": "we ready muffins but just don't drive come on",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 20,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -2329,8 +2413,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 20,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -2373,20 +2457,20 @@
     },
     {
       "id": "c0021",
-      "title": "문단 21",
+      "title": "문단 3",
       "start": 242,
-      "end": 257,
-      "sentenceText": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 21,
+      "end": 249,
+      "sentenceText": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0021",
           "start": 242,
-          "end": 257,
-          "text": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-          "originalText": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email that was fun can I have a turn okay all",
+          "end": 249,
+          "text": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home",
+          "originalText": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home",
           "originalCueRefs": [
             {
               "id": "c0059",
@@ -2405,7 +2489,99 @@
               "start": 247,
               "end": 249,
               "text": "the old one we brought the kids home"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0059",
+              "start": 242,
+              "end": 244,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0059"
+              ]
             },
+            {
+              "id": "c0060",
+              "start": 244,
+              "end": 247,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0060"
+              ]
+            },
+            {
+              "id": "c0061",
+              "start": 247,
+              "end": 249,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0061"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "how",
+          "cueId": "c0021",
+          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home",
+          "start": 242,
+          "end": 249,
+          "matchStart": 4,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0021",
+          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home",
+          "start": 242,
+          "end": 249,
+          "matchStart": 56,
+          "matchEnd": 60
+        },
+        {
+          "expressionId": "home",
+          "cueId": "c0021",
+          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home",
+          "start": 242,
+          "end": 249,
+          "matchStart": 114,
+          "matchEnd": 118
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0022",
+      "title": "문단 1",
+      "start": 249,
+      "end": 257,
+      "sentenceText": "from hospital in the email That was fun! Can I have a turn? Okay.",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0022",
+          "start": 249,
+          "end": 257,
+          "text": "from hospital in the email That was fun! Can I have a turn? Okay.",
+          "originalText": "from hospital in the email that was fun can I have a turn okay all",
+          "originalCueRefs": [
             {
               "id": "c0062",
               "start": 249,
@@ -2435,33 +2611,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0059",
-              "start": 242,
-              "end": 244,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0059"
-              ]
-            },
-            {
-              "id": "c0060",
-              "start": 244,
-              "end": 247,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0060"
-              ]
-            },
-            {
-              "id": "c0061",
-              "start": 247,
-              "end": 249,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0061"
-              ]
-            },
-            {
               "id": "c0062",
               "start": 249,
               "end": 252,
@@ -2482,8 +2631,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 21,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -2494,57 +2643,30 @@
       "targets": [
         {
           "expressionId": "can-i",
-          "cueId": "c0021",
-          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-          "start": 242,
+          "cueId": "c0022",
+          "quote": "from hospital in the email That was fun! Can I have a turn? Okay.",
+          "start": 249,
           "end": 257,
-          "matchStart": 160,
-          "matchEnd": 165
-        },
-        {
-          "expressionId": "how",
-          "cueId": "c0021",
-          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-          "start": 242,
-          "end": 257,
-          "matchStart": 4,
-          "matchEnd": 7
-        },
-        {
-          "expressionId": "like",
-          "cueId": "c0021",
-          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-          "start": 242,
-          "end": 257,
-          "matchStart": 56,
-          "matchEnd": 60
-        },
-        {
-          "expressionId": "home",
-          "cueId": "c0021",
-          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-          "start": 242,
-          "end": 257,
-          "matchStart": 114,
-          "matchEnd": 118
+          "matchStart": 41,
+          "matchEnd": 46
         },
         {
           "expressionId": "turn",
-          "cueId": "c0021",
-          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-          "start": 242,
+          "cueId": "c0022",
+          "quote": "from hospital in the email That was fun! Can I have a turn? Okay.",
+          "start": 249,
           "end": 257,
-          "matchStart": 173,
-          "matchEnd": 177
+          "matchStart": 54,
+          "matchEnd": 58
         },
         {
           "expressionId": "okay",
-          "cueId": "c0021",
-          "quote": "hey how are you getting fingerprints all over it do you like a tricks uh I missed the old one we brought the kids home from hospital in the email That was fun! Can I have a turn? Okay.",
-          "start": 242,
+          "cueId": "c0022",
+          "quote": "from hospital in the email That was fun! Can I have a turn? Okay.",
+          "start": 249,
           "end": 257,
-          "matchStart": 179,
-          "matchEnd": 183
+          "matchStart": 60,
+          "matchEnd": 64
         }
       ],
       "qualityFlags": [
@@ -2554,17 +2676,17 @@
       ]
     },
     {
-      "id": "c0022",
-      "title": "문단 22",
+      "id": "c0023",
+      "title": "문단 2",
       "start": 257,
       "end": 270,
       "sentenceText": "All right, here we go. what's going on oh it's after battle we oh we have to charge it okay batteries charging kids how long",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 22,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0022",
+          "id": "c0023",
           "start": 257,
           "end": 270,
           "text": "All right, here we go. what's going on oh it's after battle we oh we have to charge it okay batteries charging kids how long",
@@ -2643,8 +2765,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 22,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -2655,7 +2777,7 @@
       "targets": [
         {
           "expressionId": "all-right",
-          "cueId": "c0022",
+          "cueId": "c0023",
           "quote": "All right, here we go. what's going on oh it's after battle we oh we have to charge it okay batteries charging kids how long",
           "start": 257,
           "end": 270,
@@ -2664,7 +2786,7 @@
         },
         {
           "expressionId": "have-to",
-          "cueId": "c0022",
+          "cueId": "c0023",
           "quote": "All right, here we go. what's going on oh it's after battle we oh we have to charge it okay batteries charging kids how long",
           "start": 257,
           "end": 270,
@@ -2673,7 +2795,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0022",
+          "cueId": "c0023",
           "quote": "All right, here we go. what's going on oh it's after battle we oh we have to charge it okay batteries charging kids how long",
           "start": 257,
           "end": 270,
@@ -2682,7 +2804,7 @@
         },
         {
           "expressionId": "okay",
-          "cueId": "c0022",
+          "cueId": "c0023",
           "quote": "All right, here we go. what's going on oh it's after battle we oh we have to charge it okay batteries charging kids how long",
           "start": 257,
           "end": 270,
@@ -2691,7 +2813,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0022",
+          "cueId": "c0023",
           "quote": "All right, here we go. what's going on oh it's after battle we oh we have to charge it okay batteries charging kids how long",
           "start": 257,
           "end": 270,
@@ -2706,17 +2828,17 @@
       ]
     },
     {
-      "id": "c0023",
-      "title": "문단 23",
+      "id": "c0024",
+      "title": "문단 3",
       "start": 270,
       "end": 280,
       "sentenceText": "does it take to charge this much oh what should we play while we wait I guess we can go back to Pizza Girls.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 23,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0023",
+          "id": "c0024",
           "start": 270,
           "end": 280,
           "text": "does it take to charge this much oh what should we play while we wait I guess we can go back to Pizza Girls.",
@@ -2780,8 +2902,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 23,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -2792,7 +2914,7 @@
       "targets": [
         {
           "expressionId": "go-back",
-          "cueId": "c0023",
+          "cueId": "c0024",
           "quote": "does it take to charge this much oh what should we play while we wait I guess we can go back to Pizza Girls.",
           "start": 270,
           "end": 280,
@@ -2801,7 +2923,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0023",
+          "cueId": "c0024",
           "quote": "does it take to charge this much oh what should we play while we wait I guess we can go back to Pizza Girls.",
           "start": 270,
           "end": 280,
@@ -2810,7 +2932,7 @@
         },
         {
           "expressionId": "play",
-          "cueId": "c0023",
+          "cueId": "c0024",
           "quote": "does it take to charge this much oh what should we play while we wait I guess we can go back to Pizza Girls.",
           "start": 270,
           "end": 280,
@@ -2819,7 +2941,7 @@
         },
         {
           "expressionId": "wait",
-          "cueId": "c0023",
+          "cueId": "c0024",
           "quote": "does it take to charge this much oh what should we play while we wait I guess we can go back to Pizza Girls.",
           "start": 270,
           "end": 280,
@@ -2834,17 +2956,17 @@
       ]
     },
     {
-      "id": "c0024",
-      "title": "문단 24",
+      "id": "c0025",
+      "title": "문단 4",
       "start": 280,
       "end": 287,
       "sentenceText": "yeah so there's one super pizza with extra Yep, but no mushrooms, you hear me?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 24,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0024",
+          "id": "c0025",
           "start": 280,
           "end": 287,
           "text": "yeah so there's one super pizza with extra Yep, but no mushrooms, you hear me?",
@@ -2908,8 +3030,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 24,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -2920,7 +3042,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0024",
+          "cueId": "c0025",
           "quote": "yeah so there's one super pizza with extra Yep, but no mushrooms, you hear me?",
           "start": 280,
           "end": 287,
@@ -2935,17 +3057,17 @@
       ]
     },
     {
-      "id": "c0025",
-      "title": "문단 25",
+      "id": "c0026",
+      "title": "문단 5",
       "start": 287,
       "end": 300,
       "sentenceText": "me got it you dreams on it I'm good okay bye let's put mushrooms on it yeah really who can I be well I need to fix my delivery car you could be the",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 25,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0025",
+          "id": "c0026",
           "start": 287,
           "end": 300,
           "text": "me got it you dreams on it I'm good okay bye let's put mushrooms on it yeah really who can I be well I need to fix my delivery car you could be the",
@@ -3032,8 +3154,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 25,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3043,7 +3165,7 @@
       "targets": [
         {
           "expressionId": "can-i",
-          "cueId": "c0025",
+          "cueId": "c0026",
           "quote": "me got it you dreams on it I'm good okay bye let's put mushrooms on it yeah really who can I be well I need to fix my delivery car you could be the",
           "start": 287,
           "end": 300,
@@ -3052,7 +3174,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0025",
+          "cueId": "c0026",
           "quote": "me got it you dreams on it I'm good okay bye let's put mushrooms on it yeah really who can I be well I need to fix my delivery car you could be the",
           "start": 287,
           "end": 300,
@@ -3061,7 +3183,7 @@
         },
         {
           "expressionId": "okay",
-          "cueId": "c0025",
+          "cueId": "c0026",
           "quote": "me got it you dreams on it I'm good okay bye let's put mushrooms on it yeah really who can I be well I need to fix my delivery car you could be the",
           "start": 287,
           "end": 300,
@@ -3070,7 +3192,7 @@
         },
         {
           "expressionId": "lets",
-          "cueId": "c0025",
+          "cueId": "c0026",
           "quote": "me got it you dreams on it I'm good okay bye let's put mushrooms on it yeah really who can I be well I need to fix my delivery car you could be the",
           "start": 287,
           "end": 300,
@@ -3079,7 +3201,7 @@
         },
         {
           "expressionId": "need",
-          "cueId": "c0025",
+          "cueId": "c0026",
           "quote": "me got it you dreams on it I'm good okay bye let's put mushrooms on it yeah really who can I be well I need to fix my delivery car you could be the",
           "start": 287,
           "end": 300,
@@ -3093,17 +3215,17 @@
       ]
     },
     {
-      "id": "c0026",
-      "title": "문단 26",
+      "id": "c0027",
+      "title": "문단 6",
       "start": 300,
       "end": 305,
       "sentenceText": "mechanic okay ready",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 26,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
-          "id": "c0026",
+          "id": "c0027",
           "start": 300,
           "end": 305,
           "text": "mechanic okay ready",
@@ -3130,8 +3252,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 26,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "raw-original-text"
           ]
@@ -3140,7 +3262,7 @@
       "targets": [
         {
           "expressionId": "okay",
-          "cueId": "c0026",
+          "cueId": "c0027",
           "quote": "mechanic okay ready",
           "start": 300,
           "end": 305,
@@ -3149,7 +3271,7 @@
         },
         {
           "expressionId": "ready",
-          "cueId": "c0026",
+          "cueId": "c0027",
           "quote": "mechanic okay ready",
           "start": 300,
           "end": 305,
@@ -3162,21 +3284,21 @@
       ]
     },
     {
-      "id": "c0027",
-      "title": "문단 27",
+      "id": "c0028",
+      "title": "문단 7",
       "start": 312,
-      "end": 325,
-      "sentenceText": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s hahaha",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 27,
+      "end": 322,
+      "sentenceText": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
-          "id": "c0027",
+          "id": "c0028",
           "start": 312,
-          "end": 325,
-          "text": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s hahaha",
-          "originalText": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s hahaha",
+          "end": 322,
+          "text": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s",
+          "originalText": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s",
           "originalCueRefs": [
             {
               "id": "c0080",
@@ -3201,12 +3323,6 @@
               "start": 320,
               "end": 322,
               "text": "s"
-            },
-            {
-              "id": "c0084",
-              "start": 324,
-              "end": 325,
-              "text": "hahaha"
             }
           ],
           "cleanedCueRefs": [],
@@ -3246,21 +3362,12 @@
               "originalCueIds": [
                 "c0083"
               ]
-            },
-            {
-              "id": "c0084",
-              "start": 324,
-              "end": 325,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0084"
-              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 27,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3270,19 +3377,19 @@
       "targets": [
         {
           "expressionId": "great",
-          "cueId": "c0027",
-          "quote": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s hahaha",
+          "cueId": "c0028",
+          "quote": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s",
           "start": 312,
-          "end": 325,
+          "end": 322,
           "matchStart": 3,
           "matchEnd": 8
         },
         {
           "expressionId": "what",
-          "cueId": "c0027",
-          "quote": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s hahaha",
+          "cueId": "c0028",
+          "quote": "oh great here's your money oh extra pineapple hey hang on what are these enjoy the mushroom s",
           "start": 312,
-          "end": 325,
+          "end": 322,
           "matchStart": 58,
           "matchEnd": 62
         }
@@ -3293,22 +3400,28 @@
       ]
     },
     {
-      "id": "c0028",
-      "title": "문단 28",
-      "start": 325,
+      "id": "c0029",
+      "title": "문단 1",
+      "start": 324,
       "end": 339,
-      "sentenceText": "okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 28,
+      "sentenceText": "hahaha okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
+      "chapterId": "chapter-006",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0028",
-          "start": 325,
+          "id": "c0029",
+          "start": 324,
           "end": 339,
-          "text": "okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
-          "originalText": "okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
+          "text": "hahaha okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
+          "originalText": "hahaha okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
           "originalCueRefs": [
+            {
+              "id": "c0084",
+              "start": 324,
+              "end": 325,
+              "text": "hahaha"
+            },
             {
               "id": "c0085",
               "start": 325,
@@ -3342,6 +3455,15 @@
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
+            {
+              "id": "c0084",
+              "start": 324,
+              "end": 325,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0084"
+              ]
+            },
             {
               "id": "c0085",
               "start": 325,
@@ -3390,8 +3512,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 28,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3401,12 +3523,12 @@
       "targets": [
         {
           "expressionId": "okay",
-          "cueId": "c0028",
-          "quote": "okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
-          "start": 325,
+          "cueId": "c0029",
+          "quote": "hahaha okay thanks bye goodness me the customers have ordered 10 pizzas Ted they said they're having a pizza party and we should take our time okay I'll get",
+          "start": 324,
           "end": 339,
-          "matchStart": 0,
-          "matchEnd": 4
+          "matchStart": 7,
+          "matchEnd": 11
         }
       ],
       "qualityFlags": [
@@ -3415,17 +3537,17 @@
       ]
     },
     {
-      "id": "c0029",
-      "title": "문단 29",
+      "id": "c0030",
+      "title": "문단 2",
       "start": 339,
       "end": 352,
       "sentenceText": "started we have the car mechanic I put this one on which makes it Go extra fast oh wow you're a good mechanic thanks all right I'll make the garlic breads hey girls the battery's charged you can ride",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 29,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0029",
+          "id": "c0030",
           "start": 339,
           "end": 352,
           "text": "started we have the car mechanic I put this one on which makes it Go extra fast oh wow you're a good mechanic thanks all right I'll make the garlic breads hey girls the battery's charged you can ride",
@@ -3512,8 +3634,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 29,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -3523,7 +3645,7 @@
       "targets": [
         {
           "expressionId": "all-right",
-          "cueId": "c0029",
+          "cueId": "c0030",
           "quote": "started we have the car mechanic I put this one on which makes it Go extra fast oh wow you're a good mechanic thanks all right I'll make the garlic breads hey girls the battery's charged you can ride",
           "start": 339,
           "end": 352,
@@ -3532,7 +3654,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0029",
+          "cueId": "c0030",
           "quote": "started we have the car mechanic I put this one on which makes it Go extra fast oh wow you're a good mechanic thanks all right I'll make the garlic breads hey girls the battery's charged you can ride",
           "start": 339,
           "end": 352,
@@ -3546,17 +3668,17 @@
       ]
     },
     {
-      "id": "c0030",
-      "title": "문단 30",
+      "id": "c0031",
+      "title": "문단 3",
       "start": 352,
       "end": 360,
       "sentenceText": "the car again Oh, thanks! It's your turn to have the drive, Bluey.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 30,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0030",
+          "id": "c0031",
           "start": 352,
           "end": 360,
           "text": "the car again Oh, thanks! It's your turn to have the drive, Bluey.",
@@ -3626,8 +3748,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 30,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -3638,7 +3760,7 @@
       "targets": [
         {
           "expressionId": "again",
-          "cueId": "c0030",
+          "cueId": "c0031",
           "quote": "the car again Oh, thanks! It's your turn to have the drive, Bluey.",
           "start": 352,
           "end": 360,
@@ -3647,7 +3769,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0030",
+          "cueId": "c0031",
           "quote": "the car again Oh, thanks! It's your turn to have the drive, Bluey.",
           "start": 352,
           "end": 360,
@@ -3662,17 +3784,17 @@
       ]
     },
     {
-      "id": "c0031",
-      "title": "문단 31",
+      "id": "c0032",
+      "title": "문단 4",
       "start": 360,
       "end": 373,
       "sentenceText": "Um, yeah, it is. And you just keep the keys in your pocket. pocket you don't even need to know more about your car mate oh great well one of them is how's it",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 31,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0031",
+          "id": "c0032",
           "start": 360,
           "end": 373,
           "text": "Um, yeah, it is. And you just keep the keys in your pocket. pocket you don't even need to know more about your car mate oh great well one of them is how's it",
@@ -3772,8 +3894,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 31,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -3784,7 +3906,7 @@
       "targets": [
         {
           "expressionId": "need",
-          "cueId": "c0031",
+          "cueId": "c0032",
           "quote": "Um, yeah, it is. And you just keep the keys in your pocket. pocket you don't even need to know more about your car mate oh great well one of them is how's it",
           "start": 360,
           "end": 373,
@@ -3793,7 +3915,7 @@
         },
         {
           "expressionId": "know",
-          "cueId": "c0031",
+          "cueId": "c0032",
           "quote": "Um, yeah, it is. And you just keep the keys in your pocket. pocket you don't even need to know more about your car mate oh great well one of them is how's it",
           "start": 360,
           "end": 373,
@@ -3802,7 +3924,7 @@
         },
         {
           "expressionId": "great",
-          "cueId": "c0031",
+          "cueId": "c0032",
           "quote": "Um, yeah, it is. And you just keep the keys in your pocket. pocket you don't even need to know more about your car mate oh great well one of them is how's it",
           "start": 360,
           "end": 373,
@@ -3811,7 +3933,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0031",
+          "cueId": "c0032",
           "quote": "Um, yeah, it is. And you just keep the keys in your pocket. pocket you don't even need to know more about your car mate oh great well one of them is how's it",
           "start": 360,
           "end": 373,
@@ -3820,7 +3942,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0031",
+          "cueId": "c0032",
           "quote": "Um, yeah, it is. And you just keep the keys in your pocket. pocket you don't even need to know more about your car mate oh great well one of them is how's it",
           "start": 360,
           "end": 373,
@@ -3835,17 +3957,17 @@
       ]
     },
     {
-      "id": "c0032",
-      "title": "문단 32",
+      "id": "c0033",
+      "title": "문단 5",
       "start": 373,
       "end": 381,
       "sentenceText": "too late uh good here you go enjoy Enjoy! Thanks! I'll be back in a jiffy!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 32,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0032",
+          "id": "c0033",
           "start": 373,
           "end": 381,
           "text": "too late uh good here you go enjoy Enjoy! Thanks! I'll be back in a jiffy!",
@@ -3900,8 +4022,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 32,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -3912,7 +4034,7 @@
       "targets": [
         {
           "expressionId": "here-you-go",
-          "cueId": "c0032",
+          "cueId": "c0033",
           "quote": "too late uh good here you go enjoy Enjoy! Thanks! I'll be back in a jiffy!",
           "start": 373,
           "end": 381,
@@ -3921,7 +4043,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0032",
+          "cueId": "c0033",
           "quote": "too late uh good here you go enjoy Enjoy! Thanks! I'll be back in a jiffy!",
           "start": 373,
           "end": 381,
@@ -3936,17 +4058,17 @@
       ]
     },
     {
-      "id": "c0033",
-      "title": "문단 33",
+      "id": "c0034",
+      "title": "문단 6",
       "start": 381,
       "end": 392,
       "sentenceText": "oops oh dear maybe it is time for a new car Bluey no way I've had Pedley since I was two hello",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 33,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
-          "id": "c0033",
+          "id": "c0034",
           "start": 381,
           "end": 392,
           "text": "oops oh dear maybe it is time for a new car Bluey no way I've had Pedley since I was two hello",
@@ -4018,8 +4140,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 33,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -4029,7 +4151,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0033",
+          "cueId": "c0034",
           "quote": "oops oh dear maybe it is time for a new car Bluey no way I've had Pedley since I was two hello",
           "start": 381,
           "end": 392,
@@ -4038,7 +4160,7 @@
         },
         {
           "expressionId": "hello",
-          "cueId": "c0033",
+          "cueId": "c0034",
           "quote": "oops oh dear maybe it is time for a new car Bluey no way I've had Pedley since I was two hello",
           "start": 381,
           "end": 392,
@@ -4052,17 +4174,17 @@
       ]
     },
     {
-      "id": "c0034",
-      "title": "문단 34",
+      "id": "c0035",
+      "title": "문단 7",
       "start": 396,
       "end": 405,
       "sentenceText": "hi I'm here to fix your car my goodness that was quick fixed there you go His name...",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 34,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
-          "id": "c0034",
+          "id": "c0035",
           "start": 396,
           "end": 405,
           "text": "hi I'm here to fix your car my goodness that was quick fixed there you go His name...",
@@ -4126,8 +4248,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 34,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",

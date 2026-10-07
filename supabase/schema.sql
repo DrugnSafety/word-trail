@@ -13,7 +13,7 @@ create table if not exists public.profiles (
 create table if not exists public.learning_progress (
   user_id uuid not null references auth.users(id) on delete cascade default auth.uid(),
   learner_id text not null default 'default' check (learner_id = 'default'),
-  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^video-[0-9]{2}$'),
+  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$'),
   scene_id text not null check (char_length(scene_id) <= 64 and scene_id ~ '^(s[0-9]{3}|c[0-9]{4})$'),
   expression_id text not null check (char_length(expression_id) <= 80 and expression_id ~ '^[a-z0-9][a-z0-9-]*$'),
   content_version text not null check (char_length(content_version) <= 64 and content_version ~ '^[A-Za-z0-9][A-Za-z0-9._-]*$'),
@@ -39,7 +39,7 @@ create table if not exists public.learning_progress (
 create table if not exists public.learning_starts (
   user_id uuid not null references auth.users(id) on delete cascade default auth.uid(),
   learner_id text not null default 'default' check (learner_id = 'default'),
-  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^video-[0-9]{2}$'),
+  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$'),
   scene_id text not null check (char_length(scene_id) <= 64 and scene_id ~ '^(s[0-9]{3}|c[0-9]{4})$'),
   started_on date not null default (now() at time zone 'utc')::date,
   created_at timestamptz not null default now(),
@@ -98,7 +98,7 @@ for each row execute function public.guard_progress_write();
 create table if not exists public.learning_dictations (
   user_id uuid not null references auth.users(id) on delete cascade default auth.uid(),
   learner_id text not null default 'default' check (learner_id = 'default'),
-  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^video-[0-9]{2}$'),
+  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$'),
   scene_id text not null check (char_length(scene_id) <= 64 and scene_id ~ '^(s[0-9]{3}|c[0-9]{4})$'),
   content_version text not null check (char_length(content_version) <= 64 and content_version ~ '^[A-Za-z0-9][A-Za-z0-9._-]*$'),
   record jsonb not null check (
@@ -219,6 +219,10 @@ begin
        or char_length(v_word->>'meaningKo') > 300) then
       raise exception 'invalid Korean meaning' using errcode = '22023';
     end if;
+    if v_word ? 'sourceTerm' and (jsonb_typeof(v_word->'sourceTerm') is distinct from 'string'
+       or char_length(v_word->>'sourceTerm') > 100) then
+      raise exception 'invalid source term' using errcode = '22023';
+    end if;
     if v_word ? 'lastPracticedAt' and (jsonb_typeof(v_word->'lastPracticedAt') is distinct from 'string'
        or char_length(v_word->>'lastPracticedAt') > 40
        or (v_word->>'lastPracticedAt') !~ '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\.[0-9]{1,6})?(Z|[+-][0-9]{2}:[0-9]{2})$') then
@@ -297,6 +301,20 @@ create table if not exists public.app_settings (
   updated_at timestamptz not null default now()
 );
 
+create table if not exists public.user_libraries (
+  user_id uuid primary key references auth.users(id) on delete cascade default auth.uid(),
+  record jsonb not null default '{"version":1,"channels":[],"videos":[]}'::jsonb check (
+    jsonb_typeof(record) = 'object'
+    and record->>'version' = '1'
+    and jsonb_typeof(record->'channels') = 'array'
+    and jsonb_typeof(record->'videos') = 'array'
+    and jsonb_array_length(record->'channels') <= 100
+    and jsonb_array_length(record->'videos') <= 500
+    and octet_length(record::text) <= 524288
+  ),
+  updated_at timestamptz not null default now()
+);
+
 insert into public.app_settings(singleton, daily_scene_limit) values (true, 10)
 on conflict (singleton) do nothing;
 
@@ -304,6 +322,7 @@ alter table public.profiles enable row level security;
 alter table public.learning_progress enable row level security;
 alter table public.learning_starts enable row level security;
 alter table public.learning_dictations enable row level security;
+alter table public.user_libraries enable row level security;
 alter table public.app_settings enable row level security;
 
 drop policy if exists profiles_own_all on public.profiles;
@@ -318,6 +337,7 @@ drop policy if exists dictations_own_delete on public.learning_dictations;
 drop policy if exists starts_own_select_delete on public.learning_starts;
 drop policy if exists starts_own_delete on public.learning_starts;
 drop policy if exists starts_own_select on public.learning_starts;
+drop policy if exists user_libraries_own_select on public.user_libraries;
 create policy profiles_own_select on public.profiles for select to authenticated
 using (user_id = auth.uid());
 create policy profiles_own_insert on public.profiles for insert to authenticated
@@ -333,6 +353,8 @@ using (user_id = auth.uid());
 create policy dictations_own_delete on public.learning_dictations for delete to authenticated
 using (user_id = auth.uid());
 create policy starts_own_select on public.learning_starts for select to authenticated using (user_id = auth.uid());
+create policy user_libraries_own_select on public.user_libraries for select to authenticated
+using (user_id = auth.uid());
 
 create or replace function public.create_default_profile()
 returns trigger language plpgsql security definer set search_path = public, pg_temp as $$
@@ -354,7 +376,7 @@ declare
   v_used integer;
 begin
   if v_user is null then raise exception 'authentication required' using errcode = '42501'; end if;
-  if p_video_id !~ '^video-[0-9]{2}$' or char_length(p_video_id) > 64
+  if p_video_id !~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$' or char_length(p_video_id) > 64
      or p_scene_id !~ '^(s[0-9]{3}|c[0-9]{4})$' or char_length(p_scene_id) > 64 then
     raise exception 'invalid video or scene id' using errcode = '22023';
   end if;
@@ -400,7 +422,7 @@ declare
 begin
   if v_user is null then raise exception 'authentication required' using errcode = '42501'; end if;
   if p_record is null or jsonb_typeof(p_record) is distinct from 'object' or v_learner is distinct from 'default'
-     or v_video is null or v_video !~ '^video-[0-9]{2}$' or char_length(v_video) > 64
+     or v_video is null or v_video !~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$' or char_length(v_video) > 64
      or v_scene is null or v_scene !~ '^(s[0-9]{3}|c[0-9]{4})$' or char_length(v_scene) > 64
      or v_expression is null or v_expression !~ '^[a-z0-9][a-z0-9-]*$' or char_length(v_expression) > 80
      or v_version is null or v_version !~ '^[A-Za-z0-9][A-Za-z0-9._-]*$' or char_length(v_version) > 64 then
@@ -446,7 +468,7 @@ declare
 begin
   if v_user is null then raise exception 'authentication required' using errcode = '42501'; end if;
   if p_record is null or jsonb_typeof(p_record) is distinct from 'object' or v_learner is distinct from 'default'
-     or v_video is null or v_video !~ '^video-[0-9]{2}$' or char_length(v_video) > 64
+     or v_video is null or v_video !~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$' or char_length(v_video) > 64
      or v_scene is null or v_scene !~ '^(s[0-9]{3}|c[0-9]{4})$' or char_length(v_scene) > 64
      or v_version is null or v_version !~ '^[A-Za-z0-9][A-Za-z0-9._-]*$' or char_length(v_version) > 64 then
     raise exception 'invalid dictation record identifiers' using errcode = '22023';
@@ -477,12 +499,49 @@ begin
   return v_record;
 end $$;
 
+create or replace function public.save_user_library(p_record jsonb, p_expected_updated_at timestamptz default null)
+returns jsonb language plpgsql security definer set search_path = public, pg_temp as $$
+declare
+  v_user uuid := auth.uid();
+  v_current timestamptz;
+  v_now timestamptz := clock_timestamp();
+  v_saved public.user_libraries;
+begin
+  if v_user is null then raise exception 'authentication required' using errcode = '42501'; end if;
+  if p_record is null or jsonb_typeof(p_record) is distinct from 'object'
+     or p_record->>'version' is distinct from '1'
+     or jsonb_typeof(p_record->'channels') is distinct from 'array'
+     or jsonb_typeof(p_record->'videos') is distinct from 'array'
+     or jsonb_array_length(p_record->'channels') > 100
+     or jsonb_array_length(p_record->'videos') > 500
+     or octet_length(p_record::text) > 524288 then
+    raise exception 'invalid user library' using errcode = '22023';
+  end if;
+  perform pg_advisory_xact_lock(hashtextextended(v_user::text || ':library', 1));
+  select updated_at into v_current from public.user_libraries where user_id = v_user for update;
+  if found then
+    if p_expected_updated_at is null or v_current is distinct from p_expected_updated_at then
+      raise exception 'library_conflict: reload before saving again' using errcode = '40001';
+    end if;
+    update public.user_libraries set record = p_record, updated_at = v_now
+    where user_id = v_user returning * into v_saved;
+  else
+    if p_expected_updated_at is not null then
+      raise exception 'library_conflict: record no longer exists' using errcode = '40001';
+    end if;
+    insert into public.user_libraries(user_id, record, updated_at)
+    values (v_user, p_record, v_now) returning * into v_saved;
+  end if;
+  return to_jsonb(v_saved);
+end $$;
+
 revoke execute on function public.create_default_profile() from public, anon, authenticated;
 revoke execute on function public.guard_progress_write() from public, anon, authenticated;
 revoke execute on function public.guard_dictation_write() from public, anon, authenticated;
 revoke execute on function public.start_learning(text,text,text) from public, anon;
 revoke execute on function public.save_progress(jsonb,timestamptz) from public, anon;
 revoke execute on function public.save_dictation(jsonb,timestamptz) from public, anon;
+revoke execute on function public.save_user_library(jsonb,timestamptz) from public, anon;
 revoke all on public.app_settings from anon, authenticated;
 revoke delete on public.profiles from anon, authenticated;
 grant select, insert, update on public.profiles to authenticated;
@@ -492,8 +551,11 @@ revoke insert, update on public.learning_dictations from anon, authenticated;
 grant select, delete on public.learning_dictations to authenticated;
 revoke insert, update, delete on public.learning_starts from anon, authenticated;
 grant select on public.learning_starts to authenticated;
+revoke insert, update, delete on public.user_libraries from anon, authenticated;
+grant select on public.user_libraries to authenticated;
 grant execute on function public.start_learning(text,text,text) to authenticated;
 grant execute on function public.save_progress(jsonb,timestamptz) to authenticated;
 grant execute on function public.save_dictation(jsonb,timestamptz) to authenticated;
+grant execute on function public.save_user_library(jsonb,timestamptz) to authenticated;
 
 commit;

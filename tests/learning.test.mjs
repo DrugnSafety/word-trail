@@ -1,8 +1,44 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  normalizeAnswer, checkAnswer, nextReview, isDue, speak, insertedLetters, createLetterSpeaker, createSpeechLoop
+  normalizeAnswer, checkAnswer, nextReview, isDue, speak, cancelWordSpeech, insertedLetters, createLetterSpeaker, createSpeechLoop
 } from '../public/lib/learning.js';
+
+test('recorded A serializes with speech and cancellation ignores stale audio callbacks', async () => {
+  const originals = [globalThis.Audio, globalThis.speechSynthesis, globalThis.SpeechSynthesisUtterance];
+  const recordings = [], spoken = [], statuses = [];
+  globalThis.Audio = class {
+    constructor(src) { this.src = src; recordings.push(this); }
+    play() { this.onplaying?.(); return Promise.resolve(); }
+    pause() { this.paused = true; }
+  };
+  globalThis.SpeechSynthesisUtterance = class { constructor(text) { this.text = text; } };
+  globalThis.speechSynthesis = { getVoices: () => [], speak: item => spoken.push(item), cancel() {}, resume() {} };
+  try {
+    const toneLetters = []; let toneStops = 0;
+    const speaker = createLetterSpeaker(item => statuses.push(item), { tonePlayer: { unlock() {}, play(letter) { toneLetters.push(letter); }, stop() { toneStops++; } } });
+    speaker.enqueue('ab');
+    assert.match(recordings[0].src, /audio\/letter-a\.mp3$/);
+    assert.equal(spoken.length, 0);
+    recordings[0].onended();
+    assert.equal(spoken[0].text, 'bee');
+    assert.deepEqual(toneLetters, ['a', 'b']);
+    spoken[0].onend();
+    speaker.enqueue('ac');
+    const stale = recordings[1].onended;
+    speaker.cancel();
+    assert.equal(toneStops, 1);
+    assert.equal(recordings[1].paused, true);
+    stale();
+    assert.equal(spoken.length, 1);
+    speaker.enqueue('a');
+    recordings[2].onerror();
+    assert.equal(statuses.at(-1).type, 'error');
+    assert.equal(spoken.some(item => item.text === 'ay'), false);
+  } finally {
+    [globalThis.Audio, globalThis.speechSynthesis, globalThis.SpeechSynthesisUtterance] = originals;
+  }
+});
 
 test('spelling tolerates presentation differences, not different words', () => {
   assert.equal(normalizeAnswer('  Let’s   Go!  '), "let's go");
@@ -43,6 +79,72 @@ test('speech fallback is explicit when browser speech is unavailable', () => {
   assert.equal(status[0].type, 'error');
 });
 
+test('word speech reports synchronous engine failures without throwing', () => {
+  const originalEngine = globalThis.speechSynthesis;
+  const OriginalUtterance = globalThis.SpeechSynthesisUtterance;
+  class MockUtterance { constructor(text) { this.text = text; } }
+  globalThis.SpeechSynthesisUtterance = MockUtterance;
+  try {
+    for (const failingMethod of ['cancel', 'speak']) {
+      const statuses = [];
+      globalThis.speechSynthesis = {
+        speaking: failingMethod === 'cancel',
+        getVoices() { return []; },
+        cancel() { if (failingMethod === 'cancel') throw new Error('engine failure'); },
+        speak() { if (failingMethod === 'speak') throw new Error('engine failure'); }
+      };
+      assert.doesNotThrow(() => assert.equal(speak('hello', status => statuses.push(status)), false));
+      assert.equal(statuses.at(-1).type, 'error');
+    }
+  } finally {
+    globalThis.speechSynthesis = originalEngine;
+    globalThis.SpeechSynthesisUtterance = OriginalUtterance;
+  }
+});
+
+test('word speech resumes a paused engine and ignores callbacks from a replaced request', () => {
+  const originalEngine = globalThis.speechSynthesis;
+  const OriginalUtterance = globalThis.SpeechSynthesisUtterance;
+  const utterances = [];
+  const statuses = [];
+  let cancellations = 0;
+  let resumes = 0;
+  class MockUtterance { constructor(text) { this.text = text; } }
+  globalThis.speechSynthesis = {
+    paused: true,
+    getVoices() { return []; },
+    speak(utterance) { utterances.push(utterance); },
+    cancel() { cancellations += 1; },
+    resume() { resumes += 1; this.paused = false; }
+  };
+  globalThis.SpeechSynthesisUtterance = MockUtterance;
+  try {
+    assert.equal(speak('first', status => statuses.push(status)), true);
+    assert.equal(resumes, 1);
+    assert.equal(utterances[0].rate, 1);
+    globalThis.speechSynthesis.paused = true;
+    assert.equal(speak('second', status => statuses.push(status)), true);
+    assert.equal(cancellations, 1);
+    assert.equal(resumes, 2);
+    utterances[0].onend();
+    assert.equal(statuses.length, 0);
+    utterances[1].onstart();
+    utterances[1].onend();
+    assert.deepEqual(statuses.map(status => status.type), ['info', 'ready']);
+    assert.equal(cancelWordSpeech(), false);
+    assert.equal(cancellations, 1);
+
+    assert.equal(speak('third', status => statuses.push(status)), true);
+    assert.equal(cancelWordSpeech(status => statuses.push(status)), true);
+    assert.equal(cancellations, 2);
+    utterances[2].onend();
+    assert.deepEqual(statuses.map(status => status.type), ['info', 'ready']);
+  } finally {
+    globalThis.speechSynthesis = originalEngine;
+    globalThis.SpeechSynthesisUtterance = OriginalUtterance;
+  }
+});
+
 test('inserted letters only reports ordinary ASCII insertText changes', () => {
   assert.equal(insertedLetters('ac', 'abc', 'insertText', false), 'b');
   assert.equal(insertedLetters('', 'A!', 'insertText', false), 'A');
@@ -51,15 +153,18 @@ test('inserted letters only reports ordinary ASCII insertText changes', () => {
   assert.equal(insertedLetters('', '한', 'insertText', true), '');
 });
 
-test('letter speaker queues explicit alphabet names and preserves typed case in status', () => {
+test('letter speaker serializes real graphemes and preserves typed case in status', () => {
   const originalEngine = globalThis.speechSynthesis;
   const OriginalUtterance = globalThis.SpeechSynthesisUtterance;
   const utterances = [];
   let cancellations = 0;
+  let resumes = 0;
   class MockUtterance { constructor(text) { this.text = text; } }
   globalThis.speechSynthesis = {
+    paused: true,
     speak(utterance) { utterances.push(utterance); },
-    cancel() { cancellations += 1; }
+    cancel() { cancellations += 1; },
+    resume() { resumes += 1; this.paused = false; }
   };
   globalThis.SpeechSynthesisUtterance = MockUtterance;
   try {
@@ -67,10 +172,14 @@ test('letter speaker queues explicit alphabet names and preserves typed case in 
     const speaker = createLetterSpeaker(status => statuses.push(status));
     assert.deepEqual(speaker.enqueue('a-B'), ['a', 'B']);
     assert.equal(cancellations, 0);
-    assert.deepEqual(utterances.map(item => [item.text, item.lang, item.volume]), [
-      ['ay', 'en-US', 1], ['bee', 'en-US', 1]
+    assert.deepEqual(utterances.map(item => [item.text, item.lang, item.volume, item.rate]), [
+      ['ay', 'en-US', 1, 1]
     ]);
+    assert.equal(resumes, 1);
     utterances[0].onstart();
+    utterances[0].onend();
+    assert.deepEqual(utterances.map(item => item.text), ['ay', 'bee']);
+    assert.equal(resumes, 2);
     utterances[1].onstart();
     assert.deepEqual(statuses, [
       { type: 'letter', letter: 'a' },
@@ -80,6 +189,8 @@ test('letter speaker queues explicit alphabet names and preserves typed case in 
     assert.equal(cancellations, 1);
     utterances[1].onstart();
     utterances[1].onerror({ error: 'network' });
+    utterances[1].onend();
+    assert.equal(utterances.length, 2);
     assert.deepEqual(statuses, [
       { type: 'letter', letter: 'a' },
       { type: 'letter', letter: 'B' }
@@ -90,7 +201,32 @@ test('letter speaker queues explicit alphabet names and preserves typed case in 
   }
 });
 
-test('letter speaker has pronunciation text for every English letter', () => {
+test('letter speaker drops stale pending letters during rapid typing', () => {
+  const originalEngine = globalThis.speechSynthesis;
+  const OriginalUtterance = globalThis.SpeechSynthesisUtterance;
+  const utterances = [];
+  class MockUtterance { constructor(text) { this.text = text; } }
+  globalThis.speechSynthesis = {
+    speak(utterance) { utterances.push(utterance); },
+    cancel() {}
+  };
+  globalThis.SpeechSynthesisUtterance = MockUtterance;
+  try {
+    const speaker = createLetterSpeaker();
+    for (const letter of 'abcde') speaker.enqueue(letter);
+    assert.deepEqual(utterances.map(item => item.text), ['ay']);
+    utterances[0].onend();
+    utterances[1].onend();
+    utterances[2].onend();
+    utterances[3].onend();
+    assert.deepEqual(utterances.map(item => item.text), ['ay', 'see', 'dee', 'ee']);
+  } finally {
+    globalThis.speechSynthesis = originalEngine;
+    globalThis.SpeechSynthesisUtterance = OriginalUtterance;
+  }
+});
+
+test('letter speaker bounds a long typing burst to the active and latest three letters', () => {
   const originalEngine = globalThis.speechSynthesis;
   const OriginalUtterance = globalThis.SpeechSynthesisUtterance;
   const utterances = [];
@@ -103,12 +239,78 @@ test('letter speaker has pronunciation text for every English letter', () => {
   try {
     const alphabet = 'abcdefghijklmnopqrstuvwxyz';
     createLetterSpeaker().enqueue(alphabet);
-    assert.deepEqual(utterances.map(item => item.text), [
-      'ay', 'bee', 'cee', 'dee', 'ee', 'ef', 'gee', 'aitch', 'eye',
-      'jay', 'kay', 'el', 'em', 'en', 'oh', 'pee', 'cue', 'ar', 'ess',
-      'tee', 'you', 'vee', 'double you', 'ex', 'why', 'zee'
-    ]);
+    assert.deepEqual(utterances.map(item => item.text), ['ay']);
+    utterances[0].onend();
+    utterances[1].onend();
+    utterances[2].onend();
+    utterances[3].onend();
+    assert.deepEqual(utterances.map(item => item.text), ['ay', 'ex', 'why', 'zee']);
     assert.ok(utterances.every(item => !/\b(?:capital|letter)\b/i.test(item.text)));
+  } finally {
+    globalThis.speechSynthesis = originalEngine;
+    globalThis.SpeechSynthesisUtterance = OriginalUtterance;
+  }
+});
+
+test('letter speaker uses the same persisted English voice as word speech', () => {
+  const originalEngine = globalThis.speechSynthesis;
+  const OriginalUtterance = globalThis.SpeechSynthesisUtterance;
+  const originalWindow = globalThis.window;
+  const utterances = [];
+  const voices = [
+    { lang: 'en-US', name: 'Default', voiceURI: 'default', default: true },
+    { lang: 'en-GB', name: 'Sonia Natural', voiceURI: 'sonia' }
+  ];
+  class MockUtterance { constructor(text) { this.text = text; } }
+  globalThis.window = { localStorage: { getItem() { return 'sonia'; } } };
+  globalThis.speechSynthesis = {
+    getVoices() { return voices; },
+    speak(utterance) { utterances.push(utterance); },
+    cancel() {}
+  };
+  globalThis.SpeechSynthesisUtterance = MockUtterance;
+  try {
+    createLetterSpeaker().enqueue('a');
+    speak('apple');
+    assert.deepEqual(utterances.map(item => [item.text, item.voice?.voiceURI, item.lang]), [
+      ['ay', 'sonia', 'en-GB'],
+      ['apple', 'sonia', 'en-GB']
+    ]);
+    assert.ok(utterances.every(item => item.rate === 1));
+    utterances[1].onend();
+  } finally {
+    globalThis.speechSynthesis = originalEngine;
+    globalThis.SpeechSynthesisUtterance = OriginalUtterance;
+    if (originalWindow === undefined) delete globalThis.window;
+    else globalThis.window = originalWindow;
+  }
+});
+
+test('letter speaker contains synchronous speak and cancel failures', () => {
+  const originalEngine = globalThis.speechSynthesis;
+  const OriginalUtterance = globalThis.SpeechSynthesisUtterance;
+  class MockUtterance { constructor(text) { this.text = text; } }
+  globalThis.SpeechSynthesisUtterance = MockUtterance;
+  try {
+    const statuses = [];
+    let cancelCalls = 0;
+    globalThis.speechSynthesis = {
+      getVoices() { return []; },
+      speak() { throw new Error('engine failure'); },
+      cancel() { cancelCalls += 1; throw new Error('engine failure'); }
+    };
+    const speaker = createLetterSpeaker(status => statuses.push(status));
+    assert.doesNotThrow(() => assert.deepEqual(speaker.enqueue('ab'), []));
+    assert.equal(statuses.at(-1).message, '글자 소리를 재생할 수 없어요.');
+    assert.doesNotThrow(() => speaker.cancel());
+    assert.equal(cancelCalls, 0);
+
+    globalThis.speechSynthesis.speak = () => {};
+    const activeSpeaker = createLetterSpeaker(status => statuses.push(status));
+    activeSpeaker.enqueue('a');
+    assert.doesNotThrow(() => activeSpeaker.cancel());
+    assert.equal(cancelCalls, 1);
+    assert.equal(statuses.at(-1).message, '글자 소리를 멈출 수 없어요.');
   } finally {
     globalThis.speechSynthesis = originalEngine;
     globalThis.SpeechSynthesisUtterance = OriginalUtterance;
@@ -159,11 +361,11 @@ test('speech loop speaks immediately and repeats only after utterance end plus t
 
   assert.equal(loop.start('practice'), true);
   assert.equal(loop.isActive(), true);
-  assert.equal(mock.cancellations(), 1);
+  assert.equal(mock.cancellations(), 0);
   assert.equal(mock.utterances.length, 1);
   assert.equal(mock.utterances[0].text, 'practice');
   assert.equal(mock.utterances[0].lang, 'en-US');
-  assert.equal(mock.utterances[0].rate, 0.85);
+  assert.equal(mock.utterances[0].rate, 1);
   assert.equal(mock.utterances[0].voice.name, 'American');
   assert.equal(mock.timers.size, 0);
 
@@ -193,7 +395,9 @@ test('speech loop stop clears pending work and stale events cannot restart it', 
   loop.stop();
   assert.equal(loop.isActive(), false);
   assert.deepEqual(mock.clearedTimers, [timerId]);
-  assert.equal(mock.cancellations(), 2);
+  assert.equal(mock.cancellations(), 1);
+  loop.stop();
+  assert.equal(mock.cancellations(), 1);
   first.onend();
   assert.equal(mock.timers.size, 0);
   assert.equal(mock.utterances.length, 1);
@@ -212,7 +416,7 @@ test('speech loop rapid restart ignores the former utterance and repeats only th
   loop.start('old');
   const oldUtterance = mock.utterances[0];
   assert.equal(loop.start('new'), true);
-  assert.equal(mock.cancellations(), 2);
+  assert.equal(mock.cancellations(), 1);
   assert.deepEqual(mock.utterances.map(item => item.text), ['old', 'new']);
   oldUtterance.onend();
   oldUtterance.onerror({ error: 'network' });
@@ -238,7 +442,7 @@ test('speech loop halts on an active speech error and reports unsupported speech
   loop.start('error');
   mock.utterances[0].onerror({ error: 'network' });
   assert.equal(loop.isActive(), false);
-  assert.equal(mock.cancellations(), 2);
+  assert.equal(mock.cancellations(), 1);
   assert.equal(statuses.at(-1).type, 'error');
   mock.utterances[0].onend();
   assert.equal(mock.timers.size, 0);

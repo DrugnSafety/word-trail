@@ -27,7 +27,9 @@ export function loadYouTubeAPI() {
   return apiPromise;
 }
 
-const PLAYBACK_RATES = Object.freeze([0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]);
+// The UI may offer fine-grained learning speeds. YouTube still decides which
+// values the current video can actually use through getAvailablePlaybackRates().
+const PLAYBACK_RATES = Object.freeze([0.5, 0.6, 0.7, 0.75, 0.8, 0.9, 1, 1.1, 1.2]);
 
 export function createPlayer(element, onStatus = () => {}, options = {}) {
   let player;
@@ -45,14 +47,15 @@ export function createPlayer(element, onStatus = () => {}, options = {}) {
   let ratesResolved = false;
   let monitor;
   let replay;
-  let pausingForLoop = false;
+  let pendingBoundaryPauses = 0;
+  let rangeFinished = false;
   let loadSequence = 0;
   let playIntent = 0;
   const clock = options.clock || globalThis;
   const apiLoader = options.loadAPI || loadYouTubeAPI;
   const notify = (type, message, details = {}) => { if (!destroyed) onStatus({ type, message, ...details }); };
   function clearMonitor() { if (monitor) clock.clearInterval(monitor); monitor = undefined; }
-  function clearReplay() { if (replay) clock.clearTimeout(replay); replay = undefined; pausingForLoop = false; }
+  function clearReplay() { if (replay) clock.clearTimeout(replay); replay = undefined; }
   function reportedRates() {
     const reported = ready ? player?.getAvailablePlaybackRates?.() : null;
     const values = Array.isArray(reported) ? reported.map(Number).filter(value => PLAYBACK_RATES.includes(value)) : [];
@@ -83,24 +86,33 @@ export function createPlayer(element, onStatus = () => {}, options = {}) {
     return true;
   }
   function rangeRequest() { return { videoId, startSeconds: start, endSeconds: end }; }
-  function finishRange() {
-    if (replay || destroyed) return;
+  function finishRange({ alreadyEnded = false } = {}) {
+    if (rangeFinished || replay || destroyed) return;
+    rangeFinished = true;
     clearMonitor();
-    pausingForLoop = looping;
-    player?.pauseVideo();
-    if (!looping) { notify('paused', '선택한 구간을 다 들었어요.'); return; }
+    if (!alreadyEnded) {
+      pendingBoundaryPauses += 1;
+      player?.pauseVideo();
+    }
+    if (!looping) {
+      notify('range-ended', '선택한 구간을 다 들었어요.', { videoId, start, end });
+      return;
+    }
     notify('info', '잠깐 쉬고 같은 구간을 다시 들어요.');
     const intent = playIntent;
     replay = clock.setTimeout(() => {
       replay = undefined;
-      pausingForLoop = false;
-      if (!destroyed && looping && intent === playIntent) { player.seekTo(start, true); player.playVideo(); }
+      if (!destroyed && looping && intent === playIntent) {
+        rangeFinished = false;
+        player.seekTo(start, true);
+        player.playVideo();
+      }
     }, 1000);
   }
   function onStateChange(event) {
     if (destroyed) return;
-    clearMonitor();
     if (event.data === 1) {
+      clearMonitor();
       prepared = 'loaded';
       ratesResolved = true;
       clearReplay();
@@ -109,9 +121,13 @@ export function createPlayer(element, onStatus = () => {}, options = {}) {
       monitor = clock.setInterval(() => {
         if (player.getCurrentTime() >= end) finishRange();
       }, 100);
-    } else if (event.data === 0) finishRange();
+    } else if (event.data === 0) {
+      clearMonitor();
+      finishRange({ alreadyEnded: true });
+    }
     else if (event.data === 2) {
-      if (!pausingForLoop) { clearReplay(); notify('paused', '일시 정지했어요.'); }
+      if (pendingBoundaryPauses > 0) pendingBoundaryPauses -= 1;
+      else { clearMonitor(); clearReplay(); notify('paused', '일시 정지했어요.'); }
     } else if (event.data === 5) {
       prepared = 'cued';
       ratesResolved = true;
@@ -178,9 +194,10 @@ export function createPlayer(element, onStatus = () => {}, options = {}) {
       if (destroyed) throw new Error('Player closed');
       const sequence = ++loadSequence;
       const shouldPlay = loadOptions.play === true;
+      if (Object.hasOwn(loadOptions, 'loop')) looping = Boolean(loadOptions.loop);
       const intent = ++playIntent;
       clearMonitor(); clearReplay();
-      videoId = id; start = from; end = to; prepared = 'none'; ratesResolved = false; awaitingRate = null; actualRate = null;
+      videoId = id; start = from; end = to; prepared = 'none'; ratesResolved = false; awaitingRate = null; actualRate = null; rangeFinished = false;
       try { await initialize(); } catch (error) { notify('error', error.message); throw error; }
       if (destroyed || sequence !== loadSequence) return false;
       if (shouldPlay && intent === playIntent) {
@@ -194,13 +211,14 @@ export function createPlayer(element, onStatus = () => {}, options = {}) {
       if (!ready || !player || !videoId || destroyed) { notify('info', '먼저 영상 재생을 눌러 주세요.'); return false; }
       ++playIntent;
       clearReplay();
+      rangeFinished = false;
       const current = Number(player.getCurrentTime?.()) || 0;
       if (playOptions.restart === true || prepared === 'cued' || current < start || current >= end) {
         prepared = 'loaded'; player.loadVideoById(rangeRequest());
       } else player.playVideo();
       return true;
     },
-    pause() { ++playIntent; clearReplay(); clearMonitor(); player?.pauseVideo?.(); },
+    pause() { ++playIntent; clearReplay(); clearMonitor(); rangeFinished = false; player?.pauseVideo?.(); },
     setLoop(enabled) { looping = Boolean(enabled); if (!looping) clearReplay(); },
     setRate(value) {
       const requested = Number(value);
@@ -210,6 +228,6 @@ export function createPlayer(element, onStatus = () => {}, options = {}) {
     },
     getRate() { return requestedRate; },
     getAvailableRates() { return availableRates(); },
-    destroy() { destroyed = true; ++loadSequence; ++playIntent; clearReplay(); clearMonitor(); player?.destroy(); player = undefined; ready = false; }
+    destroy() { destroyed = true; ++loadSequence; ++playIntent; clearReplay(); clearMonitor(); pendingBoundaryPauses = 0; player?.destroy(); player = undefined; ready = false; }
   };
 }

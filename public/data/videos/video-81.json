@@ -19,28 +19,79 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Cheetah Bingo Surprises Bandit! 🐆 🤪 | Funny Moment from Onesies 💙 | Bluey",
+      "title": "Auntie Brandy visits",
       "start": 0,
-      "end": 126,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 25,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
-        "c0004",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Gifts and onesies",
+      "start": 25,
+      "markerStart": 25,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 61,
+      "sceneIds": [
         "c0005",
         "c0006",
         "c0007",
         "c0008",
-        "c0009",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Onesie problems",
+      "start": 61,
+      "markerStart": 61,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 82,
+      "sceneIds": [
         "c0010",
         "c0011",
-        "c0012",
+        "c0012"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Bingo's transformation",
+      "start": 82,
+      "markerStart": 85,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 126,
+      "sceneIds": [
         "c0013",
         "c0014",
         "c0015",
@@ -48,8 +99,7 @@
         "c0017",
         "c0018",
         "c0019",
-        "c0020",
-        "c0021"
+        "c0020"
       ]
     }
   ],
@@ -368,8 +418,8 @@
       "id": "c0004",
       "title": "문단 4",
       "start": 18,
-      "end": 23,
-      "sentenceText": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you.",
+      "end": 25,
+      "sentenceText": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you. Yeah, you too!",
       "chapterId": "chapter-001",
       "paragraphIndex": 4,
       "selectable": true,
@@ -377,9 +427,9 @@
         {
           "id": "c0004",
           "start": 18,
-          "end": 23,
-          "text": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you.",
-          "originalText": ">> Hi. >> Hey, Brandy. Hi, Chilly. It's good to see you.",
+          "end": 25,
+          "text": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you. Yeah, you too!",
+          "originalText": ">> Hi. >> Hey, Brandy. Hi, Chilly. It's good to see you. >> Yeah, you too.",
           "originalCueRefs": [
             {
               "id": "c0009",
@@ -398,6 +448,12 @@
               "start": 22,
               "end": 23,
               "text": "see you."
+            },
+            {
+              "id": "c0012",
+              "start": 23,
+              "end": 25,
+              "text": ">> Yeah, you too."
             }
           ],
           "cleanedCueRefs": [
@@ -406,6 +462,12 @@
               "start": 18,
               "end": 19,
               "text": "Hi!"
+            },
+            {
+              "id": "c0010",
+              "start": 23,
+              "end": 25,
+              "text": "Yeah, you too!"
             }
           ],
           "sourceCueRefs": [
@@ -435,6 +497,15 @@
               "originalCueIds": [
                 "c0011"
               ]
+            },
+            {
+              "id": "c0012",
+              "start": 23,
+              "end": 25,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
@@ -453,18 +524,18 @@
         {
           "expressionId": "good",
           "cueId": "c0004",
-          "quote": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you.",
+          "quote": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you. Yeah, you too!",
           "start": 18,
-          "end": 23,
+          "end": 25,
           "matchStart": 34,
           "matchEnd": 38
         },
         {
           "expressionId": "see",
           "cueId": "c0004",
-          "quote": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you.",
+          "quote": "Hi! Hey, Brandy. Hi, Chilly. It's good to see you. Yeah, you too!",
           "start": 18,
-          "end": 23,
+          "end": 25,
           "matchStart": 42,
           "matchEnd": 45
         }
@@ -478,101 +549,27 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
-      "start": 23,
-      "end": 28,
-      "sentenceText": "Yeah, you too! Kids, this is your Auntie Brandy.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "title": "문단 1",
+      "start": 25,
+      "end": 32,
+      "sentenceText": "Kids, this is your Auntie Brandy. Oh, you've grown so much, Blue. You look just like your father.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0005",
-          "start": 23,
-          "end": 28,
-          "text": "Yeah, you too! Kids, this is your Auntie Brandy.",
-          "originalText": ">> Yeah, you too. >> Kids, this is your auntie Brandy. Oh,",
+          "start": 25,
+          "end": 32,
+          "text": "Kids, this is your Auntie Brandy. Oh, you've grown so much, Blue. You look just like your father.",
+          "originalText": ">> Kids, this is your auntie Brandy. Oh, you've grown so much, Blueie. You look just like your father.",
           "originalCueRefs": [
-            {
-              "id": "c0012",
-              "start": 23,
-              "end": 25,
-              "text": ">> Yeah, you too."
-            },
             {
               "id": "c0013",
               "start": 25,
               "end": 28,
               "text": ">> Kids, this is your auntie Brandy. Oh,"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0010",
-              "start": 23,
-              "end": 25,
-              "text": "Yeah, you too!"
             },
-            {
-              "id": "c0011",
-              "start": 25,
-              "end": 28,
-              "text": "Kids, this is your Auntie Brandy."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0012",
-              "start": 23,
-              "end": 25,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0012"
-              ]
-            },
-            {
-              "id": "c0013",
-              "start": 25,
-              "end": 28,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0013"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0006",
-      "title": "문단 6",
-      "start": 28,
-      "end": 36,
-      "sentenceText": "Oh, you've grown so much, Blue. You look just like your father. Oh, what? Who do I look like?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0006",
-          "start": 28,
-          "end": 36,
-          "text": "Oh, you've grown so much, Blue. You look just like your father. Oh, what? Who do I look like?",
-          "originalText": "you've grown so much, Blueie. You look just like your father. >> Oh, what? Who do I look like?",
-          "originalCueRefs": [
             {
               "id": "c0014",
               "start": 28,
@@ -584,15 +581,15 @@
               "start": 30,
               "end": 32,
               "text": "just like your father."
-            },
-            {
-              "id": "c0016",
-              "start": 32,
-              "end": 36,
-              "text": ">> Oh, what? Who do I look like?"
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "text": "Kids, this is your Auntie Brandy."
+            },
             {
               "id": "c0012",
               "start": 28,
@@ -604,15 +601,18 @@
               "start": 30,
               "end": 32,
               "text": "look just like your father."
-            },
-            {
-              "id": "c0014",
-              "start": 32,
-              "end": 36,
-              "text": "Oh, what? Who do I look like?"
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 25,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
             {
               "id": "c0014",
               "start": 28,
@@ -630,21 +630,12 @@
               "originalCueIds": [
                 "c0015"
               ]
-            },
-            {
-              "id": "c0016",
-              "start": 32,
-              "end": 36,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0016"
-              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -654,30 +645,129 @@
       "targets": [
         {
           "expressionId": "look",
+          "cueId": "c0005",
+          "quote": "Kids, this is your Auntie Brandy. Oh, you've grown so much, Blue. You look just like your father.",
+          "start": 25,
+          "end": 32,
+          "matchStart": 70,
+          "matchEnd": 74
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0005",
+          "quote": "Kids, this is your Auntie Brandy. Oh, you've grown so much, Blue. You look just like your father.",
+          "start": 25,
+          "end": 32,
+          "matchStart": 80,
+          "matchEnd": 84
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 2",
+      "start": 32,
+      "end": 39,
+      "sentenceText": "Oh, what? Who do I look like? You look just like you.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 32,
+          "end": 39,
+          "text": "Oh, what? Who do I look like? You look just like you.",
+          "originalText": ">> Oh, what? Who do I look like? >> You look just like you.",
+          "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 32,
+              "end": 36,
+              "text": ">> Oh, what? Who do I look like?"
+            },
+            {
+              "id": "c0017",
+              "start": 36,
+              "end": 39,
+              "text": ">> You look just like you."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0014",
+              "start": 32,
+              "end": 36,
+              "text": "Oh, what? Who do I look like?"
+            },
+            {
+              "id": "c0015",
+              "start": 36,
+              "end": 39,
+              "text": "You look just like you."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 32,
+              "end": 36,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
+            {
+              "id": "c0017",
+              "start": 36,
+              "end": 39,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
           "cueId": "c0006",
-          "quote": "Oh, you've grown so much, Blue. You look just like your father. Oh, what? Who do I look like?",
-          "start": 28,
-          "end": 36,
-          "matchStart": 36,
-          "matchEnd": 40
+          "quote": "Oh, what? Who do I look like? You look just like you.",
+          "start": 32,
+          "end": 39,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0006",
+          "quote": "Oh, what? Who do I look like? You look just like you.",
+          "start": 32,
+          "end": 39,
+          "matchStart": 19,
+          "matchEnd": 23
         },
         {
           "expressionId": "like",
           "cueId": "c0006",
-          "quote": "Oh, you've grown so much, Blue. You look just like your father. Oh, what? Who do I look like?",
-          "start": 28,
-          "end": 36,
-          "matchStart": 46,
-          "matchEnd": 50
-        },
-        {
-          "expressionId": "what",
-          "cueId": "c0006",
-          "quote": "Oh, you've grown so much, Blue. You look just like your father. Oh, what? Who do I look like?",
-          "start": 28,
-          "end": 36,
-          "matchStart": 68,
-          "matchEnd": 72
+          "quote": "Oh, what? Who do I look like? You look just like you.",
+          "start": 32,
+          "end": 39,
+          "matchStart": 24,
+          "matchEnd": 28
         }
       ],
       "qualityFlags": [
@@ -687,120 +777,27 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
-      "start": 36,
-      "end": 41,
-      "sentenceText": "You look just like you. I brought you some presents.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "title": "문단 3",
+      "start": 39,
+      "end": 44,
+      "sentenceText": "I brought you some presents. Really? Oh, Brandy, you shouldn't have.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
-          "start": 36,
-          "end": 41,
-          "text": "You look just like you. I brought you some presents.",
-          "originalText": ">> You look just like you. I brought you some presents.",
+          "start": 39,
+          "end": 44,
+          "text": "I brought you some presents. Really? Oh, Brandy, you shouldn't have.",
+          "originalText": "I brought you some presents. >> Really? >> Oh, Brady, you shouldn't have.",
           "originalCueRefs": [
-            {
-              "id": "c0017",
-              "start": 36,
-              "end": 39,
-              "text": ">> You look just like you."
-            },
             {
               "id": "c0018",
               "start": 39,
               "end": 41,
               "text": "I brought you some presents."
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0015",
-              "start": 36,
-              "end": 39,
-              "text": "You look just like you."
             },
-            {
-              "id": "c0016",
-              "start": 39,
-              "end": 41,
-              "text": "I brought you some presents."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0017",
-              "start": 36,
-              "end": 39,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0017"
-              ]
-            },
-            {
-              "id": "c0018",
-              "start": 39,
-              "end": 41,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0018"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "look",
-          "cueId": "c0007",
-          "quote": "You look just like you. I brought you some presents.",
-          "start": 36,
-          "end": 41,
-          "matchStart": 4,
-          "matchEnd": 8
-        },
-        {
-          "expressionId": "like",
-          "cueId": "c0007",
-          "quote": "You look just like you. I brought you some presents.",
-          "start": 36,
-          "end": 41,
-          "matchStart": 14,
-          "matchEnd": 18
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0008",
-      "title": "문단 8",
-      "start": 41,
-      "end": 47,
-      "sentenceText": "Really? Oh, Brandy, you shouldn't have. Onesies! Oh, you really shouldn't have.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0008",
-          "start": 41,
-          "end": 47,
-          "text": "Really? Oh, Brandy, you shouldn't have. Onesies! Oh, you really shouldn't have.",
-          "originalText": ">> Really? >> Oh, Brady, you shouldn't have. >> Onesies. >> Oh, you really shouldn't have. Do they",
-          "originalCueRefs": [
             {
               "id": "c0019",
               "start": 41,
@@ -812,21 +809,15 @@
               "start": 42,
               "end": 44,
               "text": ">> Oh, Brady, you shouldn't have."
-            },
-            {
-              "id": "c0021",
-              "start": 44,
-              "end": 45,
-              "text": ">> Onesies."
-            },
-            {
-              "id": "c0022",
-              "start": 45,
-              "end": 47,
-              "text": ">> Oh, you really shouldn't have. Do they"
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0016",
+              "start": 39,
+              "end": 41,
+              "text": "I brought you some presents."
+            },
             {
               "id": "c0017",
               "start": 41,
@@ -838,21 +829,18 @@
               "start": 42,
               "end": 44,
               "text": "Oh, Brandy, you shouldn't have."
-            },
-            {
-              "id": "c0019",
-              "start": 44,
-              "end": 45,
-              "text": "Onesies!"
-            },
-            {
-              "id": "c0020",
-              "start": 45,
-              "end": 47,
-              "text": "Oh, you really shouldn't have."
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 39,
+              "end": 41,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
             {
               "id": "c0019",
               "start": 41,
@@ -870,30 +858,12 @@
               "originalCueIds": [
                 "c0020"
               ]
-            },
-            {
-              "id": "c0021",
-              "start": 44,
-              "end": 45,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0021"
-              ]
-            },
-            {
-              "id": "c0022",
-              "start": 45,
-              "end": 47,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0022"
-              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -907,22 +877,34 @@
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
-      "start": 47,
+      "id": "c0008",
+      "title": "문단 4",
+      "start": 44,
       "end": 55,
-      "sentenceText": "Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "sentenceText": "Onesies! Oh, you really shouldn't have. Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
-          "start": 47,
+          "id": "c0008",
+          "start": 44,
           "end": 55,
-          "text": "Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
-          "originalText": "not like onesies? They do. It's just Bingo has this thing. Um, don't worry. I'm sure she's grown out of it.",
+          "text": "Onesies! Oh, you really shouldn't have. Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
+          "originalText": ">> Onesies. >> Oh, you really shouldn't have. Do they not like onesies? They do. It's just Bingo has this thing. Um, don't worry. I'm sure she's grown out of it.",
           "originalCueRefs": [
+            {
+              "id": "c0021",
+              "start": 44,
+              "end": 45,
+              "text": ">> Onesies."
+            },
+            {
+              "id": "c0022",
+              "start": 45,
+              "end": 47,
+              "text": ">> Oh, you really shouldn't have. Do they"
+            },
             {
               "id": "c0023",
               "start": 47,
@@ -944,6 +926,18 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0019",
+              "start": 44,
+              "end": 45,
+              "text": "Onesies!"
+            },
+            {
+              "id": "c0020",
+              "start": 45,
+              "end": 47,
+              "text": "Oh, you really shouldn't have."
+            },
+            {
               "id": "c0021",
               "start": 47,
               "end": 50,
@@ -963,6 +957,24 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0021",
+              "start": 44,
+              "end": 45,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
+            {
+              "id": "c0022",
+              "start": 45,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
             {
               "id": "c0023",
               "start": 47,
@@ -993,8 +1005,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1004,30 +1016,30 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0009",
-          "quote": "Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
-          "start": 47,
+          "cueId": "c0008",
+          "quote": "Onesies! Oh, you really shouldn't have. Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
+          "start": 44,
           "end": 55,
-          "matchStart": 12,
-          "matchEnd": 16
+          "matchStart": 52,
+          "matchEnd": 56
         },
         {
           "expressionId": "sure",
-          "cueId": "c0009",
-          "quote": "Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
-          "start": 47,
+          "cueId": "c0008",
+          "quote": "Onesies! Oh, you really shouldn't have. Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
+          "start": 44,
           "end": 55,
-          "matchStart": 88,
-          "matchEnd": 92
+          "matchStart": 128,
+          "matchEnd": 132
         },
         {
           "expressionId": "dont",
-          "cueId": "c0009",
-          "quote": "Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
-          "start": 47,
+          "cueId": "c0008",
+          "quote": "Onesies! Oh, you really shouldn't have. Do they not like onesies? They do, it's just Bingo has this thing. Um, don't worry, I'm sure she's grown out of it.",
+          "start": 44,
           "end": 55,
-          "matchStart": 71,
-          "matchEnd": 76
+          "matchStart": 111,
+          "matchEnd": 116
         }
       ],
       "qualityFlags": [
@@ -1036,17 +1048,17 @@
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 10",
+      "id": "c0009",
+      "title": "문단 5",
       "start": 55,
       "end": 61,
       "sentenceText": "I hope they fit. I wasn't sure how much they've grown in um 4 years.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
+          "id": "c0009",
           "start": 55,
           "end": 61,
           "text": "I hope they fit. I wasn't sure how much they've grown in um 4 years.",
@@ -1088,8 +1100,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1100,7 +1112,7 @@
       "targets": [
         {
           "expressionId": "sure",
-          "cueId": "c0010",
+          "cueId": "c0009",
           "quote": "I hope they fit. I wasn't sure how much they've grown in um 4 years.",
           "start": 55,
           "end": 61,
@@ -1109,7 +1121,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0010",
+          "cueId": "c0009",
           "quote": "I hope they fit. I wasn't sure how much they've grown in um 4 years.",
           "start": 55,
           "end": 61,
@@ -1124,17 +1136,17 @@
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 11",
+      "id": "c0010",
+      "title": "문단 1",
       "start": 61,
       "end": 67,
       "sentenceText": "Hey, mine's too small and mine's too big. Well, then swap them around.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
+          "id": "c0010",
           "start": 61,
           "end": 67,
           "text": "Hey, mine's too small and mine's too big. Well, then swap them around.",
@@ -1198,8 +1210,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1211,7 +1223,7 @@
       "targets": [
         {
           "expressionId": "big",
-          "cueId": "c0011",
+          "cueId": "c0010",
           "quote": "Hey, mine's too small and mine's too big. Well, then swap them around.",
           "start": 61,
           "end": 67,
@@ -1227,17 +1239,17 @@
       ]
     },
     {
-      "id": "c0012",
-      "title": "문단 12",
+      "id": "c0011",
+      "title": "문단 2",
       "start": 67,
       "end": 73,
       "sentenceText": "Can you make my cheetah onesie fit me? Sorry, Blueie. If it doesn't fit, it doesn't fit.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0012",
+          "id": "c0011",
           "start": 67,
           "end": 73,
           "text": "Can you make my cheetah onesie fit me? Sorry, Blueie. If it doesn't fit, it doesn't fit.",
@@ -1301,8 +1313,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1314,7 +1326,7 @@
       "targets": [
         {
           "expressionId": "sorry",
-          "cueId": "c0012",
+          "cueId": "c0011",
           "quote": "Can you make my cheetah onesie fit me? Sorry, Blueie. If it doesn't fit, it doesn't fit.",
           "start": 67,
           "end": 73,
@@ -1330,21 +1342,21 @@
       ]
     },
     {
-      "id": "c0013",
-      "title": "문단 13",
+      "id": "c0012",
+      "title": "문단 3",
       "start": 72,
-      "end": 78,
-      "sentenceText": "A But I really want the cheetah. It's not meant to be, kid. Okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "end": 82,
+      "sentenceText": "A But I really want the cheetah. It's not meant to be, kid. Okay. They're beautiful. It's been too long.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0013",
+          "id": "c0012",
           "start": 72,
-          "end": 78,
-          "text": "A But I really want the cheetah. It's not meant to be, kid. Okay.",
-          "originalText": ">> A But I really want the cheetah. >> It's not meant to be, kid. >> Okay.",
+          "end": 82,
+          "text": "A But I really want the cheetah. It's not meant to be, kid. Okay. They're beautiful. It's been too long.",
+          "originalText": ">> A But I really want the cheetah. >> It's not meant to be, kid. >> Okay. >> They're beautiful. It's been too long. I",
           "originalCueRefs": [
             {
               "id": "c0034",
@@ -1363,6 +1375,12 @@
               "start": 76,
               "end": 78,
               "text": ">> Okay."
+            },
+            {
+              "id": "c0037",
+              "start": 78,
+              "end": 82,
+              "text": ">> They're beautiful. It's been too long. I"
             }
           ],
           "cleanedCueRefs": [
@@ -1377,6 +1395,12 @@
               "start": 76,
               "end": 78,
               "text": "Okay."
+            },
+            {
+              "id": "c0034",
+              "start": 78,
+              "end": 82,
+              "text": "They're beautiful. It's been too long."
             }
           ],
           "sourceCueRefs": [
@@ -1406,12 +1430,21 @@
               "originalCueIds": [
                 "c0036"
               ]
+            },
+            {
+              "id": "c0037",
+              "start": 78,
+              "end": 82,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1423,19 +1456,19 @@
       "targets": [
         {
           "expressionId": "want",
-          "cueId": "c0013",
-          "quote": "A But I really want the cheetah. It's not meant to be, kid. Okay.",
+          "cueId": "c0012",
+          "quote": "A But I really want the cheetah. It's not meant to be, kid. Okay. They're beautiful. It's been too long.",
           "start": 72,
-          "end": 78,
+          "end": 82,
           "matchStart": 15,
           "matchEnd": 19
         },
         {
           "expressionId": "okay",
-          "cueId": "c0013",
-          "quote": "A But I really want the cheetah. It's not meant to be, kid. Okay.",
+          "cueId": "c0012",
+          "quote": "A But I really want the cheetah. It's not meant to be, kid. Okay. They're beautiful. It's been too long.",
           "start": 72,
-          "end": 78,
+          "end": 82,
           "matchStart": 60,
           "matchEnd": 64
         }
@@ -1448,121 +1481,28 @@
       ]
     },
     {
-      "id": "c0014",
-      "title": "문단 14",
-      "start": 78,
-      "end": 86,
-      "sentenceText": "They're beautiful. It's been too long. I know. Look, Chilli, yeah.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "id": "c0013",
+      "title": "문단 1",
+      "start": 82,
+      "end": 90,
+      "sentenceText": "I know. Look, Chilli, yeah. Uh, Mum, it's happening again!",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0014",
-          "start": 78,
-          "end": 86,
-          "text": "They're beautiful. It's been too long. I know. Look, Chilli, yeah.",
-          "originalText": ">> They're beautiful. It's been too long. I know. Look, Chilly. Yeah.",
+          "id": "c0013",
+          "start": 82,
+          "end": 90,
+          "text": "I know. Look, Chilli, yeah. Uh, Mum, it's happening again!",
+          "originalText": "know. Look, Chilly. Yeah. Uh, Mom, >> it's happening again.",
           "originalCueRefs": [
-            {
-              "id": "c0037",
-              "start": 78,
-              "end": 82,
-              "text": ">> They're beautiful. It's been too long. I"
-            },
             {
               "id": "c0038",
               "start": 82,
               "end": 86,
               "text": "know. Look, Chilly. Yeah."
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0034",
-              "start": 78,
-              "end": 82,
-              "text": "They're beautiful. It's been too long."
             },
-            {
-              "id": "c0035",
-              "start": 82,
-              "end": 86,
-              "text": "I know. Look, Chilli, yeah."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0037",
-              "start": 78,
-              "end": 82,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0037"
-              ]
-            },
-            {
-              "id": "c0038",
-              "start": 82,
-              "end": 86,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0038"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "know",
-          "cueId": "c0014",
-          "quote": "They're beautiful. It's been too long. I know. Look, Chilli, yeah.",
-          "start": 78,
-          "end": 86,
-          "matchStart": 41,
-          "matchEnd": 45
-        },
-        {
-          "expressionId": "look",
-          "cueId": "c0014",
-          "quote": "They're beautiful. It's been too long. I know. Look, Chilli, yeah.",
-          "start": 78,
-          "end": 86,
-          "matchStart": 47,
-          "matchEnd": 51
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0015",
-      "title": "문단 15",
-      "start": 86,
-      "end": 92,
-      "sentenceText": "Uh, Mum, it's happening again! Oh, no. What's going on?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0015",
-          "start": 86,
-          "end": 92,
-          "text": "Uh, Mum, it's happening again! Oh, no. What's going on?",
-          "originalText": "Uh, Mom, >> it's happening again. >> Oh, no. What's going on?",
-          "originalCueRefs": [
             {
               "id": "c0039",
               "start": 86,
@@ -1574,15 +1514,15 @@
               "start": 88,
               "end": 90,
               "text": ">> it's happening again."
-            },
-            {
-              "id": "c0041",
-              "start": 90,
-              "end": 92,
-              "text": ">> Oh, no. What's going on?"
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 82,
+              "end": 86,
+              "text": "I know. Look, Chilli, yeah."
+            },
             {
               "id": "c0036",
               "start": 86,
@@ -1594,15 +1534,18 @@
               "start": 88,
               "end": 90,
               "text": "it's happening again!"
-            },
-            {
-              "id": "c0038",
-              "start": 90,
-              "end": 92,
-              "text": "Oh, no. What's going on?"
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0038",
+              "start": 82,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0038"
+              ]
+            },
             {
               "id": "c0039",
               "start": 86,
@@ -1620,21 +1563,12 @@
               "originalCueIds": [
                 "c0040"
               ]
-            },
-            {
-              "id": "c0041",
-              "start": 90,
-              "end": 92,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0041"
-              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1643,40 +1577,238 @@
       ],
       "targets": [
         {
+          "expressionId": "know",
+          "cueId": "c0013",
+          "quote": "I know. Look, Chilli, yeah. Uh, Mum, it's happening again!",
+          "start": 82,
+          "end": 90,
+          "matchStart": 2,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0013",
+          "quote": "I know. Look, Chilli, yeah. Uh, Mum, it's happening again!",
+          "start": 82,
+          "end": 90,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
           "expressionId": "mum",
-          "cueId": "c0015",
-          "quote": "Uh, Mum, it's happening again! Oh, no. What's going on?",
-          "start": 86,
-          "end": 92,
-          "matchStart": 4,
-          "matchEnd": 7
+          "cueId": "c0013",
+          "quote": "I know. Look, Chilli, yeah. Uh, Mum, it's happening again!",
+          "start": 82,
+          "end": 90,
+          "matchStart": 32,
+          "matchEnd": 35
         },
         {
           "expressionId": "again",
-          "cueId": "c0015",
-          "quote": "Uh, Mum, it's happening again! Oh, no. What's going on?",
-          "start": 86,
-          "end": 92,
-          "matchStart": 24,
-          "matchEnd": 29
-        },
+          "cueId": "c0013",
+          "quote": "I know. Look, Chilli, yeah. Uh, Mum, it's happening again!",
+          "start": 82,
+          "end": 90,
+          "matchStart": 52,
+          "matchEnd": 57
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0014",
+      "title": "문단 2",
+      "start": 90,
+      "end": 96,
+      "sentenceText": "Oh, no. What's going on? Hey, Brandy, how you doing?",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0014",
+          "start": 90,
+          "end": 96,
+          "text": "Oh, no. What's going on? Hey, Brandy, how you doing?",
+          "originalText": ">> Oh, no. What's going on? >> Hey, Brandy. How you doing?",
+          "originalCueRefs": [
+            {
+              "id": "c0041",
+              "start": 90,
+              "end": 92,
+              "text": ">> Oh, no. What's going on?"
+            },
+            {
+              "id": "c0042",
+              "start": 92,
+              "end": 96,
+              "text": ">> Hey, Brandy. How you doing?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0038",
+              "start": 90,
+              "end": 92,
+              "text": "Oh, no. What's going on?"
+            },
+            {
+              "id": "c0039",
+              "start": 92,
+              "end": 96,
+              "text": "Hey, Brandy, how you doing?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0041",
+              "start": 90,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0041"
+              ]
+            },
+            {
+              "id": "c0042",
+              "start": 92,
+              "end": 96,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0042"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0015",
-          "quote": "Uh, Mum, it's happening again! Oh, no. What's going on?",
-          "start": 86,
-          "end": 92,
-          "matchStart": 35,
-          "matchEnd": 37
+          "cueId": "c0014",
+          "quote": "Oh, no. What's going on? Hey, Brandy, how you doing?",
+          "start": 90,
+          "end": 96,
+          "matchStart": 4,
+          "matchEnd": 6
         },
         {
           "expressionId": "what",
+          "cueId": "c0014",
+          "quote": "Oh, no. What's going on? Hey, Brandy, how you doing?",
+          "start": 90,
+          "end": 96,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "how",
+          "cueId": "c0014",
+          "quote": "Oh, no. What's going on? Hey, Brandy, how you doing?",
+          "start": 90,
+          "end": 96,
+          "matchStart": 38,
+          "matchEnd": 41
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0015",
+      "title": "문단 3",
+      "start": 96,
+      "end": 102,
+      "sentenceText": "This episode of Bluey is called Onesies. Oh, no, no, no! Cat! No time to explain.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0015",
+          "start": 96,
+          "end": 102,
+          "text": "This episode of Bluey is called Onesies. Oh, no, no, no! Cat! No time to explain.",
+          "originalText": ">> This episode of Louis is called onesie. >> Oh, no. No. No. Cat. No time to explain.",
+          "originalCueRefs": [
+            {
+              "id": "c0043",
+              "start": 96,
+              "end": 99,
+              "text": ">> This episode of Louis is called onesie."
+            },
+            {
+              "id": "c0044",
+              "start": 99,
+              "end": 102,
+              "text": ">> Oh, no. No. No. Cat. No time to explain."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0040",
+              "start": 96,
+              "end": 99,
+              "text": "This episode of Bluey is called Onesies."
+            },
+            {
+              "id": "c0041",
+              "start": 99,
+              "end": 102,
+              "text": "Oh, no, no, no! Cat! No time to explain."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0043",
+              "start": 96,
+              "end": 99,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0043"
+              ]
+            },
+            {
+              "id": "c0044",
+              "start": 99,
+              "end": 102,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0044"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
           "cueId": "c0015",
-          "quote": "Uh, Mum, it's happening again! Oh, no. What's going on?",
-          "start": 86,
-          "end": 92,
-          "matchStart": 39,
-          "matchEnd": 43
+          "quote": "This episode of Bluey is called Onesies. Oh, no, no, no! Cat! No time to explain.",
+          "start": 96,
+          "end": 102,
+          "matchStart": 45,
+          "matchEnd": 47
         }
       ],
       "qualityFlags": [
@@ -1686,117 +1818,21 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
-      "start": 92,
-      "end": 99,
-      "sentenceText": "Hey, Brandy, how you doing? This episode of Bluey is called Onesies.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "title": "문단 4",
+      "start": 102,
+      "end": 107,
+      "sentenceText": "We have to get to safety. But what about Bandit again? He's done!",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
           "id": "c0016",
-          "start": 92,
-          "end": 99,
-          "text": "Hey, Brandy, how you doing? This episode of Bluey is called Onesies.",
-          "originalText": ">> Hey, Brandy. How you doing? >> This episode of Louis is called onesie.",
-          "originalCueRefs": [
-            {
-              "id": "c0042",
-              "start": 92,
-              "end": 96,
-              "text": ">> Hey, Brandy. How you doing?"
-            },
-            {
-              "id": "c0043",
-              "start": 96,
-              "end": 99,
-              "text": ">> This episode of Louis is called onesie."
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0039",
-              "start": 92,
-              "end": 96,
-              "text": "Hey, Brandy, how you doing?"
-            },
-            {
-              "id": "c0040",
-              "start": 96,
-              "end": 99,
-              "text": "This episode of Bluey is called Onesies."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0042",
-              "start": 92,
-              "end": 96,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0042"
-              ]
-            },
-            {
-              "id": "c0043",
-              "start": 96,
-              "end": 99,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0043"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "how",
-          "cueId": "c0016",
-          "quote": "Hey, Brandy, how you doing? This episode of Bluey is called Onesies.",
-          "start": 92,
-          "end": 99,
-          "matchStart": 13,
-          "matchEnd": 16
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0017",
-      "title": "문단 17",
-      "start": 99,
-      "end": 107,
-      "sentenceText": "Oh, no, no, no! Cat! No time to explain. We have to get to safety. But what about Bandit again? He's done!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 17,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0017",
-          "start": 99,
+          "start": 102,
           "end": 107,
-          "text": "Oh, no, no, no! Cat! No time to explain. We have to get to safety. But what about Bandit again? He's done!",
-          "originalText": ">> Oh, no. No. No. Cat. No time to explain. We [laughter] have to get to safety. But what about bandit again? HE'S DONE.",
+          "text": "We have to get to safety. But what about Bandit again? He's done!",
+          "originalText": "We [laughter] have to get to safety. But what about bandit again? HE'S DONE.",
           "originalCueRefs": [
-            {
-              "id": "c0044",
-              "start": 99,
-              "end": 102,
-              "text": ">> Oh, no. No. No. Cat. No time to explain."
-            },
             {
               "id": "c0045",
               "start": 102,
@@ -1812,12 +1848,6 @@
           ],
           "cleanedCueRefs": [
             {
-              "id": "c0041",
-              "start": 99,
-              "end": 102,
-              "text": "Oh, no, no, no! Cat! No time to explain."
-            },
-            {
               "id": "c0042",
               "start": 102,
               "end": 103,
@@ -1831,15 +1861,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0044",
-              "start": 99,
-              "end": 102,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0044"
-              ]
-            },
             {
               "id": "c0045",
               "start": 102,
@@ -1861,8 +1882,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1872,39 +1893,30 @@
       "targets": [
         {
           "expressionId": "have-to",
-          "cueId": "c0017",
-          "quote": "Oh, no, no, no! Cat! No time to explain. We have to get to safety. But what about Bandit again? He's done!",
-          "start": 99,
+          "cueId": "c0016",
+          "quote": "We have to get to safety. But what about Bandit again? He's done!",
+          "start": 102,
           "end": 107,
-          "matchStart": 44,
-          "matchEnd": 51
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0017",
-          "quote": "Oh, no, no, no! Cat! No time to explain. We have to get to safety. But what about Bandit again? He's done!",
-          "start": 99,
-          "end": 107,
-          "matchStart": 4,
-          "matchEnd": 6
+          "matchStart": 3,
+          "matchEnd": 10
         },
         {
           "expressionId": "what",
-          "cueId": "c0017",
-          "quote": "Oh, no, no, no! Cat! No time to explain. We have to get to safety. But what about Bandit again? He's done!",
-          "start": 99,
+          "cueId": "c0016",
+          "quote": "We have to get to safety. But what about Bandit again? He's done!",
+          "start": 102,
           "end": 107,
-          "matchStart": 71,
-          "matchEnd": 75
+          "matchStart": 30,
+          "matchEnd": 34
         },
         {
           "expressionId": "again",
-          "cueId": "c0017",
-          "quote": "Oh, no, no, no! Cat! No time to explain. We have to get to safety. But what about Bandit again? He's done!",
-          "start": 99,
+          "cueId": "c0016",
+          "quote": "We have to get to safety. But what about Bandit again? He's done!",
+          "start": 102,
           "end": 107,
-          "matchStart": 89,
-          "matchEnd": 94
+          "matchStart": 48,
+          "matchEnd": 53
         }
       ],
       "qualityFlags": [
@@ -1913,17 +1925,17 @@
       ]
     },
     {
-      "id": "c0018",
-      "title": "문단 18",
+      "id": "c0017",
+      "title": "문단 5",
       "start": 107,
       "end": 113,
       "sentenceText": "What do we do? Why is Bingo going...",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 18,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0018",
+          "id": "c0017",
           "start": 107,
           "end": 113,
           "text": "What do we do? Why is Bingo going...",
@@ -1978,8 +1990,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 18,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1989,7 +2001,7 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0018",
+          "cueId": "c0017",
           "quote": "What do we do? Why is Bingo going...",
           "start": 107,
           "end": 113,
@@ -1998,7 +2010,7 @@
         },
         {
           "expressionId": "why",
-          "cueId": "c0018",
+          "cueId": "c0017",
           "quote": "What do we do? Why is Bingo going...",
           "start": 107,
           "end": 113,
@@ -2012,17 +2024,17 @@
       ]
     },
     {
-      "id": "c0019",
-      "title": "문단 19",
+      "id": "c0018",
+      "title": "문단 6",
       "start": 113,
       "end": 118,
       "sentenceText": "Onesies make Bingo go crazy. She sort of becomes one with the onesie.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 19,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
-          "id": "c0019",
+          "id": "c0018",
           "start": 113,
           "end": 118,
           "text": "Onesies make Bingo go crazy. She sort of becomes one with the onesie.",
@@ -2077,8 +2089,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 19,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2092,17 +2104,17 @@
       ]
     },
     {
-      "id": "c0020",
-      "title": "문단 20",
+      "id": "c0019",
+      "title": "문단 7",
       "start": 118,
       "end": 123,
       "sentenceText": "What? Where'd she go? I don't know.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 20,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
-          "id": "c0020",
+          "id": "c0019",
           "start": 118,
           "end": 123,
           "text": "What? Where'd she go? I don't know.",
@@ -2178,8 +2190,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 20,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2189,7 +2201,7 @@
       "targets": [
         {
           "expressionId": "i-dont-know",
-          "cueId": "c0020",
+          "cueId": "c0019",
           "quote": "What? Where'd she go? I don't know.",
           "start": 118,
           "end": 123,
@@ -2198,7 +2210,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0020",
+          "cueId": "c0019",
           "quote": "What? Where'd she go? I don't know.",
           "start": 118,
           "end": 123,
@@ -2207,7 +2219,7 @@
         },
         {
           "expressionId": "where",
-          "cueId": "c0020",
+          "cueId": "c0019",
           "quote": "What? Where'd she go? I don't know.",
           "start": 118,
           "end": 123,
@@ -2216,7 +2228,7 @@
         },
         {
           "expressionId": "know",
-          "cueId": "c0020",
+          "cueId": "c0019",
           "quote": "What? Where'd she go? I don't know.",
           "start": 118,
           "end": 123,
@@ -2225,7 +2237,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0020",
+          "cueId": "c0019",
           "quote": "What? Where'd she go? I don't know.",
           "start": 118,
           "end": 123,
@@ -2239,17 +2251,17 @@
       ]
     },
     {
-      "id": "c0021",
-      "title": "문단 21",
+      "id": "c0020",
+      "title": "문단 8",
       "start": 124,
       "end": 126,
       "sentenceText": "[music]",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 21,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 8,
       "selectable": false,
       "cues": [
         {
-          "id": "c0021",
+          "id": "c0020",
           "start": 124,
           "end": 126,
           "text": "[music]",
@@ -2283,8 +2295,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 21,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 8,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "short-dialogue-fragment"

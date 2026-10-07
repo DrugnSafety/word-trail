@@ -20,28 +20,81 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Winton Loves Being Silly!",
+      "title": "Making beeswax animals",
       "start": 0,
-      "end": 128,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 32,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
-        "c0004",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "The horse looks like a cow",
+      "start": 32,
+      "markerStart": 32,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 59,
+      "sceneIds": [
         "c0005",
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Indie gives up",
+      "start": 59,
+      "markerStart": 60,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 95,
+      "sceneIds": [
         "c0008",
         "c0009",
         "c0010",
         "c0011",
-        "c0012",
+        "c0012"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Changing the story",
+      "start": 95,
+      "markerStart": 96,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 128,
+      "sceneIds": [
         "c0013",
         "c0014",
         "c0015",
@@ -455,12 +508,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 1",
       "start": 32,
       "end": 42,
       "sentenceText": "Horsey! She was very pleased with it. Hey Bluey, look. Oh, wow. But there was a problem. That's a great cow, Indy.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -549,8 +602,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -586,12 +639,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 2",
       "start": 42,
       "end": 52,
       "sentenceText": "Indy's horse looked like a cow. Nice cow, Indy. It's not a cow, it's a horse. No, that's a cow.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -659,8 +712,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -705,12 +758,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 3",
       "start": 52,
       "end": 59,
       "sentenceText": "Winton... Yes? Winton! Winton, why can't you just be good?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -790,8 +843,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -834,12 +887,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 1",
       "start": 59,
       "end": 64,
       "sentenceText": "'Cause I'm not good. Indy was very upset.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -883,8 +936,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -907,12 +960,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 2",
       "start": 64,
       "end": 73,
       "sentenceText": "She was so upset when her teacher came to see if she was all Indy said, I don't want to make animals out of beeswax ever again.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1007,8 +1060,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1064,12 +1117,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 3",
       "start": 73,
       "end": 78,
       "sentenceText": "Oh, goodness me. Tell me why, Indy? Because my horse looks like a cow.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1128,8 +1181,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1163,12 +1216,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 4",
       "start": 78,
       "end": 85,
       "sentenceText": "And why do you think that is? And then Indy said something very sad.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1227,8 +1280,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1271,20 +1324,20 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 5",
       "start": 85,
-      "end": 91,
-      "sentenceText": "I'm not very good. Plop!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "end": 95,
+      "sentenceText": "I'm not very good. Plop! So, rather than work at it, made anything out of beeswax",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
           "id": "c0012",
           "start": 85,
-          "end": 91,
-          "text": "I'm not very good. Plop!",
-          "originalText": "I'm not very good. Plop.",
+          "end": 95,
+          "text": "I'm not very good. Plop! So, rather than work at it, made anything out of beeswax",
+          "originalText": "I'm not very good. Plop. So, rather than work at it, Indy never made anything [music] out of beeswax",
           "originalCueRefs": [
             {
               "id": "c0034",
@@ -1297,6 +1350,18 @@
               "start": 89,
               "end": 91,
               "text": "Plop."
+            },
+            {
+              "id": "c0036",
+              "start": 91,
+              "end": 93,
+              "text": "So, rather than work at it, Indy never"
+            },
+            {
+              "id": "c0037",
+              "start": 93,
+              "end": 95,
+              "text": "made anything [music] out of beeswax"
             }
           ],
           "cleanedCueRefs": [
@@ -1305,6 +1370,12 @@
               "start": 89,
               "end": 91,
               "text": "Plop!"
+            },
+            {
+              "id": "c0041",
+              "start": 91,
+              "end": 93,
+              "text": "So, rather than work at it,"
             }
           ],
           "sourceCueRefs": [
@@ -1325,15 +1396,34 @@
               "originalCueIds": [
                 "c0035"
               ]
+            },
+            {
+              "id": "c0036",
+              "start": 91,
+              "end": 93,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0036"
+              ]
+            },
+            {
+              "id": "c0037",
+              "start": 93,
+              "end": 95,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0037"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
+            "non-spoken-annotation-removed",
             "duration-grouped-dialogue"
           ]
         }
@@ -1342,9 +1432,9 @@
         {
           "expressionId": "good",
           "cueId": "c0012",
-          "quote": "I'm not very good. Plop!",
+          "quote": "I'm not very good. Plop! So, rather than work at it, made anything out of beeswax",
           "start": 85,
-          "end": 91,
+          "end": 95,
           "matchStart": 13,
           "matchEnd": 17
         }
@@ -1352,38 +1442,27 @@
       "qualityFlags": [
         "raw-original-text",
         "corrected-text-exact-coverage",
+        "non-spoken-annotation-removed",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0013",
-      "title": "문단 13",
-      "start": 91,
+      "title": "문단 1",
+      "start": 95,
       "end": 104,
-      "sentenceText": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "sentenceText": "ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0013",
-          "start": 91,
+          "start": 95,
           "end": 104,
-          "text": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
-          "originalText": "So, rather than work at it, Indy never made anything [music] out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "text": "ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "originalText": "ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
           "originalCueRefs": [
-            {
-              "id": "c0036",
-              "start": 91,
-              "end": 93,
-              "text": "So, rather than work at it, Indy never"
-            },
-            {
-              "id": "c0037",
-              "start": 93,
-              "end": 95,
-              "text": "made anything [music] out of beeswax"
-            },
             {
               "id": "c0038",
               "start": 95,
@@ -1403,33 +1482,8 @@
               "text": "it did. And it's true, I'm not."
             }
           ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0041",
-              "start": 91,
-              "end": 93,
-              "text": "So, rather than work at it,"
-            }
-          ],
+          "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0036",
-              "start": 91,
-              "end": 93,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0036"
-              ]
-            },
-            {
-              "id": "c0037",
-              "start": 93,
-              "end": 95,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0037"
-              ]
-            },
             {
               "id": "c0038",
               "start": 95,
@@ -1458,14 +1512,12 @@
               ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
-            "non-spoken-annotation-removed",
             "duration-grouped-dialogue"
           ]
         }
@@ -1474,55 +1526,53 @@
         {
           "expressionId": "again",
           "cueId": "c0013",
-          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
-          "start": 91,
+          "quote": "ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 95,
           "end": 104,
-          "matchStart": 62,
-          "matchEnd": 67
+          "matchStart": 5,
+          "matchEnd": 10
         },
         {
           "expressionId": "what",
           "cueId": "c0013",
-          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
-          "start": 91,
+          "quote": "ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 95,
           "end": 104,
-          "matchStart": 69,
-          "matchEnd": 73
+          "matchStart": 12,
+          "matchEnd": 16
         },
         {
           "expressionId": "why",
           "cueId": "c0013",
-          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
-          "start": 91,
+          "quote": "ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 95,
           "end": 104,
-          "matchStart": 75,
-          "matchEnd": 78
+          "matchStart": 18,
+          "matchEnd": 21
         },
         {
           "expressionId": "good",
           "cueId": "c0013",
-          "quote": "So, rather than work at it, made anything out of beeswax ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
-          "start": 91,
+          "quote": "ever again. What? Why? Because she told herself she wasn't very good. Oh, yeah, it did. And it's true, I'm not.",
+          "start": 95,
           "end": 104,
-          "matchStart": 121,
-          "matchEnd": 125
+          "matchStart": 64,
+          "matchEnd": 68
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
-        "non-spoken-annotation-removed",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 2",
       "start": 104,
       "end": 111,
       "sentenceText": "The end. I don't like that story, Calypso.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1575,8 +1625,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1612,12 +1662,12 @@
     },
     {
       "id": "c0015",
-      "title": "문단 15",
+      "title": "문단 3",
       "start": 111,
       "end": 125,
       "sentenceText": "But it's your story. liked how I was in it. I I like how Indy gives up. Well, why don't you tell a different story? Yeah, and make me really muscular, please. Um, okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1715,8 +1765,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1788,12 +1838,12 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
+      "title": "문단 4",
       "start": 126,
       "end": 128,
       "sentenceText": ">> [music]",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": false,
       "cues": [
         {
@@ -1824,8 +1874,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"

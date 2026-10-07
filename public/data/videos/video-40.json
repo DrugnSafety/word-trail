@@ -17,23 +17,74 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Grouchy Granny!",
+      "title": "Deciding granny roles",
       "start": 0,
-      "end": 112,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 26,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Selling the granny mobile",
+      "start": 26,
+      "markerStart": 28,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 51,
+      "sceneIds": [
         "c0003",
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Riding the mobile",
+      "start": 51,
+      "markerStart": 51,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 77,
+      "sceneIds": [
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Renegotiating the price",
+      "start": 77,
+      "markerStart": 77,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 112,
+      "sceneIds": [
         "c0008",
         "c0009",
         "c0010",
@@ -195,8 +246,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 11,
-      "end": 24,
-      "sentenceText": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah.",
+      "end": 26,
+      "sentenceText": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah. and make it that you want to sell us",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -204,9 +255,9 @@
         {
           "id": "c0002",
           "start": 11,
-          "end": 24,
-          "text": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah.",
-          "originalText": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's it you can be a grouchy granny oh yeah",
+          "end": 26,
+          "text": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah. and make it that you want to sell us",
+          "originalText": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's it you can be a grouchy granny oh yeah and make it that you want to sell us",
           "originalCueRefs": [
             {
               "id": "c0005",
@@ -231,6 +282,12 @@
               "start": 20,
               "end": 24,
               "text": "it you can be a grouchy granny oh yeah"
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 26,
+              "text": "and make it that you want to sell us"
             }
           ],
           "cleanedCueRefs": [
@@ -283,6 +340,15 @@
               "originalCueIds": [
                 "c0008"
               ]
+            },
+            {
+              "id": "c0009",
+              "start": 24,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
@@ -300,20 +366,29 @@
         {
           "expressionId": "sure",
           "cueId": "c0002",
-          "quote": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah.",
+          "quote": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah. and make it that you want to sell us",
           "start": 11,
-          "end": 24,
+          "end": 26,
           "matchStart": 11,
           "matchEnd": 15
         },
         {
           "expressionId": "know",
           "cueId": "c0002",
-          "quote": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah.",
+          "quote": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah. and make it that you want to sell us",
           "start": 11,
-          "end": 24,
+          "end": 26,
           "matchStart": 72,
           "matchEnd": 76
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0002",
+          "quote": "um I'm not sure there are any other types of grannies that's not fair I know I wouldn't get to be a granny Ah that's You can be a grouchy granny. Oh, yeah. and make it that you want to sell us",
+          "start": 11,
+          "end": 26,
+          "matchStart": 177,
+          "matchEnd": 181
         }
       ],
       "qualityFlags": [
@@ -324,27 +399,21 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
-      "start": 24,
+      "title": "문단 1",
+      "start": 26,
       "end": 33,
-      "sentenceText": "and make it that you want to sell us your granny mobile okay let's go Bingo How much do you want for this?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "sentenceText": "your granny mobile okay let's go Bingo How much do you want for this?",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0003",
-          "start": 24,
+          "start": 26,
           "end": 33,
-          "text": "and make it that you want to sell us your granny mobile okay let's go Bingo How much do you want for this?",
-          "originalText": "and make it that you want to sell us your granny mobile okay let's go Bingo pardon how much do you want for this oh",
+          "text": "your granny mobile okay let's go Bingo How much do you want for this?",
+          "originalText": "your granny mobile okay let's go Bingo pardon how much do you want for this oh",
           "originalCueRefs": [
-            {
-              "id": "c0009",
-              "start": 24,
-              "end": 26,
-              "text": "and make it that you want to sell us"
-            },
             {
               "id": "c0010",
               "start": 26,
@@ -368,15 +437,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0009",
-              "start": 24,
-              "end": 26,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0009"
-              ]
-            },
-            {
               "id": "c0010",
               "start": 26,
               "end": 29,
@@ -397,8 +457,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -410,47 +470,47 @@
         {
           "expressionId": "lets-go",
           "cueId": "c0003",
-          "quote": "and make it that you want to sell us your granny mobile okay let's go Bingo How much do you want for this?",
-          "start": 24,
+          "quote": "your granny mobile okay let's go Bingo How much do you want for this?",
+          "start": 26,
           "end": 33,
-          "matchStart": 61,
-          "matchEnd": 69
-        },
-        {
-          "expressionId": "want",
-          "cueId": "c0003",
-          "quote": "and make it that you want to sell us your granny mobile okay let's go Bingo How much do you want for this?",
-          "start": 24,
-          "end": 33,
-          "matchStart": 21,
-          "matchEnd": 25
+          "matchStart": 24,
+          "matchEnd": 32
         },
         {
           "expressionId": "okay",
           "cueId": "c0003",
-          "quote": "and make it that you want to sell us your granny mobile okay let's go Bingo How much do you want for this?",
-          "start": 24,
+          "quote": "your granny mobile okay let's go Bingo How much do you want for this?",
+          "start": 26,
           "end": 33,
-          "matchStart": 56,
-          "matchEnd": 60
+          "matchStart": 19,
+          "matchEnd": 23
         },
         {
           "expressionId": "lets",
           "cueId": "c0003",
-          "quote": "and make it that you want to sell us your granny mobile okay let's go Bingo How much do you want for this?",
-          "start": 24,
+          "quote": "your granny mobile okay let's go Bingo How much do you want for this?",
+          "start": 26,
           "end": 33,
-          "matchStart": 61,
-          "matchEnd": 66
+          "matchStart": 24,
+          "matchEnd": 29
         },
         {
           "expressionId": "how",
           "cueId": "c0003",
-          "quote": "and make it that you want to sell us your granny mobile okay let's go Bingo How much do you want for this?",
-          "start": 24,
+          "quote": "your granny mobile okay let's go Bingo How much do you want for this?",
+          "start": 26,
           "end": 33,
-          "matchStart": 76,
-          "matchEnd": 79
+          "matchStart": 39,
+          "matchEnd": 42
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0003",
+          "quote": "your granny mobile okay let's go Bingo How much do you want for this?",
+          "start": 26,
+          "end": 33,
+          "matchStart": 55,
+          "matchEnd": 59
         }
       ],
       "qualityFlags": [
@@ -461,12 +521,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 33,
       "end": 46,
       "sentenceText": "Oh, well, what do you think? Two dollars? that's fine thanks taurine that fars is worth way more than that no I don't want to make a fuss story can we play with",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -555,8 +615,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -628,12 +688,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 3",
       "start": 46,
       "end": 51,
       "sentenceText": "your running mobile please go for it I'm I'm taking the battery out, so it won't move.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -686,8 +746,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -714,12 +774,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 1",
       "start": 51,
       "end": 58,
       "sentenceText": "yes it will Yeah! Am I Bugalugs?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -793,8 +853,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -821,12 +881,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 2",
       "start": 58,
       "end": 68,
       "sentenceText": "Faster! Yes, Nana. And over too many cracks! It's a footpath! Don't talk back! you are one grouchy granny",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -927,8 +987,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -964,12 +1024,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 1",
       "start": 77,
       "end": 84,
       "sentenceText": "Are you gonna buy it? I'll make up your mind!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1028,8 +1088,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1044,12 +1104,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 2",
       "start": 84,
       "end": 89,
       "sentenceText": "How much is... What number is this? Uh, 300 bucks.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1114,8 +1174,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1149,12 +1209,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 3",
       "start": 89,
       "end": 102,
       "sentenceText": "Oh, Doreen, you can get more than that. Let's say 900. 9 all the Bucks hurry up my hips hurt let me count my",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1243,8 +1303,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1280,12 +1340,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 4",
       "start": 102,
       "end": 112,
       "sentenceText": "coins one Two... Or action...",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1359,8 +1419,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",

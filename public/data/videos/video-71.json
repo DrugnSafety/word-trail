@@ -17,28 +17,100 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 5,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Watch Out for the Snapping Turtles!",
+      "title": "Buying the ticket",
       "start": 0,
-      "end": 124,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 18,
       "sceneIds": [
         "c0001",
-        "c0002",
-        "c0003",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Smooth sailing",
+      "start": 18,
+      "markerStart": 20,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 28,
+      "sceneIds": [
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Searching for rough seas",
+      "start": 28,
+      "markerStart": 29,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 55,
+      "sceneIds": [
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Finding rough seas",
+      "start": 55,
+      "markerStart": 56,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 87,
+      "sceneIds": [
         "c0007",
         "c0008",
-        "c0009",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Arrival at the whales",
+      "start": 87,
+      "markerStart": 88,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 124,
+      "sceneIds": [
         "c0010",
         "c0011",
-        "c0012"
+        "c0012",
+        "c0013"
       ]
     }
   ],
@@ -242,8 +314,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 11,
-      "end": 25,
-      "sentenceText": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey that's too loud yeah we go yay it's a lovely day to go boat riding the sea is",
+      "end": 18,
+      "sentenceText": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -251,9 +323,9 @@
         {
           "id": "c0002",
           "start": 11,
-          "end": 25,
-          "text": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey that's too loud yeah we go yay it's a lovely day to go boat riding the sea is",
-          "originalText": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey that's too loud yeah we go yay it's a lovely day to go boat riding the sea is",
+          "end": 18,
+          "text": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey",
+          "originalText": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey",
           "originalCueRefs": [
             {
               "id": "c0006",
@@ -272,18 +344,6 @@
               "start": 15,
               "end": 18,
               "text": "know about that kid all about oh bluey"
-            },
-            {
-              "id": "c0009",
-              "start": 18,
-              "end": 22,
-              "text": "that's too loud yeah we go yay it's a"
-            },
-            {
-              "id": "c0010",
-              "start": 22,
-              "end": 25,
-              "text": "lovely day to go boat riding the sea is"
             }
           ],
           "cleanedCueRefs": [],
@@ -314,7 +374,90 @@
               "originalCueIds": [
                 "c0008"
               ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "i-dont-know",
+          "cueId": "c0002",
+          "quote": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey",
+          "start": 11,
+          "end": 18,
+          "matchStart": 67,
+          "matchEnd": 79
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0002",
+          "quote": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey",
+          "start": 11,
+          "end": 18,
+          "matchStart": 75,
+          "matchEnd": 79
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0002",
+          "quote": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey",
+          "start": 11,
+          "end": 18,
+          "matchStart": 69,
+          "matchEnd": 74
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 1",
+      "start": 18,
+      "end": 28,
+      "sentenceText": "that's too loud yeah we go yay it's a lovely day to go boat riding the sea is nice and calm yeah it's smooth sailing",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 28,
+          "text": "that's too loud yeah we go yay it's a lovely day to go boat riding the sea is nice and calm yeah it's smooth sailing",
+          "originalText": "that's too loud yeah we go yay it's a lovely day to go boat riding the sea is nice and calm yeah it's smooth sailing",
+          "originalCueRefs": [
+            {
+              "id": "c0009",
+              "start": 18,
+              "end": 22,
+              "text": "that's too loud yeah we go yay it's a"
             },
+            {
+              "id": "c0010",
+              "start": 22,
+              "end": 25,
+              "text": "lovely day to go boat riding the sea is"
+            },
+            {
+              "id": "c0011",
+              "start": 25,
+              "end": 28,
+              "text": "nice and calm yeah it's smooth sailing"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0009",
               "start": 18,
@@ -332,91 +475,7 @@
               "originalCueIds": [
                 "c0010"
               ]
-            }
-          ],
-          "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 2,
-          "qualityFlags": [
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "i-dont-know",
-          "cueId": "c0002",
-          "quote": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey that's too loud yeah we go yay it's a lovely day to go boat riding the sea is",
-          "start": 11,
-          "end": 25,
-          "matchStart": 67,
-          "matchEnd": 79
-        },
-        {
-          "expressionId": "know",
-          "cueId": "c0002",
-          "quote": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey that's too loud yeah we go yay it's a lovely day to go boat riding the sea is",
-          "start": 11,
-          "end": 25,
-          "matchStart": 75,
-          "matchEnd": 79
-        },
-        {
-          "expressionId": "dont",
-          "cueId": "c0002",
-          "quote": "happen this will be the best wild watching toy you've ever been on i don't know about that kid all about oh bluey that's too loud yeah we go yay it's a lovely day to go boat riding the sea is",
-          "start": 11,
-          "end": 25,
-          "matchStart": 69,
-          "matchEnd": 74
-        }
-      ],
-      "qualityFlags": [
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0003",
-      "title": "문단 3",
-      "start": 25,
-      "end": 31,
-      "sentenceText": "nice and calm yeah it's smooth sailing Oh, no! We've hit rough seas!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0003",
-          "start": 25,
-          "end": 31,
-          "text": "nice and calm yeah it's smooth sailing Oh, no! We've hit rough seas!",
-          "originalText": "nice and calm yeah it's smooth sailing today oh no we've hit rough seas what",
-          "originalCueRefs": [
-            {
-              "id": "c0011",
-              "start": 25,
-              "end": 28,
-              "text": "nice and calm yeah it's smooth sailing"
             },
-            {
-              "id": "c0012",
-              "start": 28,
-              "end": 31,
-              "text": "today oh no we've hit rough seas what"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0015",
-              "start": 28,
-              "end": 31,
-              "text": "Oh, no! We've hit rough seas!"
-            }
-          ],
-          "sourceCueRefs": [
             {
               "id": "c0011",
               "start": 25,
@@ -425,24 +484,14 @@
               "originalCueIds": [
                 "c0011"
               ]
-            },
-            {
-              "id": "c0012",
-              "start": 28,
-              "end": 31,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0012"
-              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
-            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
@@ -451,45 +500,41 @@
         {
           "expressionId": "nice",
           "cueId": "c0003",
-          "quote": "nice and calm yeah it's smooth sailing Oh, no! We've hit rough seas!",
-          "start": 25,
-          "end": 31,
-          "matchStart": 0,
-          "matchEnd": 4
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0003",
-          "quote": "nice and calm yeah it's smooth sailing Oh, no! We've hit rough seas!",
-          "start": 25,
-          "end": 31,
-          "matchStart": 43,
-          "matchEnd": 45
+          "quote": "that's too loud yeah we go yay it's a lovely day to go boat riding the sea is nice and calm yeah it's smooth sailing",
+          "start": 18,
+          "end": 28,
+          "matchStart": 78,
+          "matchEnd": 82
         }
       ],
       "qualityFlags": [
         "raw-original-text",
-        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0004",
-      "title": "문단 4",
-      "start": 31,
+      "title": "문단 1",
+      "start": 28,
       "end": 40,
-      "sentenceText": "hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "sentenceText": "Oh, no! We've hit rough seas! hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0004",
-          "start": 31,
+          "start": 28,
           "end": 40,
-          "text": "hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
-          "originalText": "hold on customer here comes a big wave dad we hit rough seas no we hit smooth",
+          "text": "Oh, no! We've hit rough seas! hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
+          "originalText": "today oh no we've hit rough seas what hold on customer here comes a big wave dad we hit rough seas no we hit smooth",
           "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "text": "today oh no we've hit rough seas what"
+            },
             {
               "id": "c0013",
               "start": 31,
@@ -505,6 +550,12 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0015",
+              "start": 28,
+              "end": 31,
+              "text": "Oh, no! We've hit rough seas!"
+            },
+            {
               "id": "c0018",
               "start": 37,
               "end": 39,
@@ -518,6 +569,15 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0012",
+              "start": 28,
+              "end": 31,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
+            },
             {
               "id": "c0013",
               "start": 31,
@@ -539,11 +599,11 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "raw-original-text",
             "corrected-text-exact-coverage",
+            "raw-original-text",
             "duration-grouped-dialogue"
           ]
         }
@@ -552,54 +612,54 @@
         {
           "expressionId": "hold-on",
           "cueId": "c0004",
-          "quote": "hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
-          "start": 31,
-          "end": 40,
-          "matchStart": 0,
-          "matchEnd": 7
-        },
-        {
-          "expressionId": "big",
-          "cueId": "c0004",
-          "quote": "hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
-          "start": 31,
+          "quote": "Oh, no! We've hit rough seas! hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
+          "start": 28,
           "end": 40,
           "matchStart": 30,
-          "matchEnd": 33
-        },
-        {
-          "expressionId": "dad",
-          "cueId": "c0004",
-          "quote": "hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
-          "start": 31,
-          "end": 40,
-          "matchStart": 39,
-          "matchEnd": 42
+          "matchEnd": 37
         },
         {
           "expressionId": "no",
           "cueId": "c0004",
-          "quote": "hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
-          "start": 31,
+          "quote": "Oh, no! We've hit rough seas! hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
+          "start": 28,
           "end": 40,
-          "matchStart": 63,
-          "matchEnd": 65
+          "matchStart": 4,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0004",
+          "quote": "Oh, no! We've hit rough seas! hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
+          "start": 28,
+          "end": 40,
+          "matchStart": 60,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0004",
+          "quote": "Oh, no! We've hit rough seas! hold on customer here comes a big wave Dad, we hit rough seas. No, we hit smooth seas.",
+          "start": 28,
+          "end": 40,
+          "matchStart": 69,
+          "matchEnd": 72
         }
       ],
       "qualityFlags": [
-        "raw-original-text",
         "corrected-text-exact-coverage",
+        "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 40,
       "end": 45,
       "sentenceText": "And, oh, look, we're at the whales! Ah, no, you're not. The whales are ages away.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -658,8 +718,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -693,20 +753,20 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 3",
       "start": 45,
-      "end": 52,
-      "sentenceText": "And point of fact, the boat doesn't decide about rough seas. The boat driver does. Yeah! Uh, point of fact, whales can't talk.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "end": 55,
+      "sentenceText": "And point of fact, the boat doesn't decide about rough seas. The boat driver does. Yeah! Uh, point of fact, whales can't talk. talk second point of fact today there",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
           "start": 45,
-          "end": 52,
-          "text": "And point of fact, the boat doesn't decide about rough seas. The boat driver does. Yeah! Uh, point of fact, whales can't talk.",
-          "originalText": "and point of fact the boat doesn't decide about rough seas the boat driver does yeah uh point of fact whales can't",
+          "end": 55,
+          "text": "And point of fact, the boat doesn't decide about rough seas. The boat driver does. Yeah! Uh, point of fact, whales can't talk. talk second point of fact today there",
+          "originalText": "and point of fact the boat doesn't decide about rough seas the boat driver does yeah uh point of fact whales can't talk second point of fact today there",
           "originalCueRefs": [
             {
               "id": "c0017",
@@ -725,6 +785,12 @@
               "start": 49,
               "end": 52,
               "text": "does yeah uh point of fact whales can't"
+            },
+            {
+              "id": "c0020",
+              "start": 52,
+              "end": 55,
+              "text": "talk second point of fact today there"
             }
           ],
           "cleanedCueRefs": [
@@ -786,14 +852,24 @@
               "originalCueIds": [
                 "c0019"
               ]
+            },
+            {
+              "id": "c0020",
+              "start": 52,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
             }
           ],
-          "textSource": "cleaned-exact-coverage",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
+            "raw-original-text",
             "duration-grouped-dialogue"
           ]
         }
@@ -801,32 +877,27 @@
       "targets": [],
       "qualityFlags": [
         "corrected-text-exact-coverage",
+        "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0007",
-      "title": "문단 7",
-      "start": 52,
+      "title": "문단 1",
+      "start": 55,
       "end": 63,
-      "sentenceText": "talk second point of fact today there are no rough seas well i'm gonna find some rough seas Here we are, rough seas!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "sentenceText": "are no rough seas well i'm gonna find some rough seas Here we are, rough seas!",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
-          "start": 52,
+          "start": 55,
           "end": 63,
-          "text": "talk second point of fact today there are no rough seas well i'm gonna find some rough seas Here we are, rough seas!",
-          "originalText": "talk second point of fact today there are no rough seas well i'm gonna find some rough seas here we are russia's",
+          "text": "are no rough seas well i'm gonna find some rough seas Here we are, rough seas!",
+          "originalText": "are no rough seas well i'm gonna find some rough seas here we are russia's",
           "originalCueRefs": [
-            {
-              "id": "c0020",
-              "start": 52,
-              "end": 55,
-              "text": "talk second point of fact today there"
-            },
             {
               "id": "c0021",
               "start": 55,
@@ -855,15 +926,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0020",
-              "start": 52,
-              "end": 55,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0020"
-              ]
-            },
             {
               "id": "c0021",
               "start": 55,
@@ -894,8 +956,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -907,11 +969,11 @@
         {
           "expressionId": "no",
           "cueId": "c0007",
-          "quote": "talk second point of fact today there are no rough seas well i'm gonna find some rough seas Here we are, rough seas!",
-          "start": 52,
+          "quote": "are no rough seas well i'm gonna find some rough seas Here we are, rough seas!",
+          "start": 55,
           "end": 63,
-          "matchStart": 42,
-          "matchEnd": 44
+          "matchStart": 4,
+          "matchEnd": 6
         }
       ],
       "qualityFlags": [
@@ -922,12 +984,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 63,
       "end": 76,
       "sentenceText": "Nope. well i'm just gonna sail around till i find them ah okay fine hold on to your breakfast here we go hold on customer Sorry, customer, we have seemed to",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1031,8 +1093,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1077,20 +1139,20 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 76,
-      "end": 90,
-      "sentenceText": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before and look we're at the whales watch out",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "end": 86,
+      "sentenceText": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0009",
           "start": 76,
-          "end": 90,
-          "text": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before and look we're at the whales watch out",
-          "originalText": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before and look we're at the whales watch out",
+          "end": 86,
+          "text": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before",
+          "originalText": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before",
           "originalCueRefs": [
             {
               "id": "c0029",
@@ -1115,12 +1177,6 @@
               "start": 84,
               "end": 86,
               "text": "before"
-            },
-            {
-              "id": "c0033",
-              "start": 87,
-              "end": 90,
-              "text": "and look we're at the whales watch out"
             }
           ],
           "cleanedCueRefs": [],
@@ -1160,21 +1216,12 @@
               "originalCueIds": [
                 "c0032"
               ]
-            },
-            {
-              "id": "c0033",
-              "start": 87,
-              "end": 90,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0033"
-              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1183,38 +1230,20 @@
       ],
       "targets": [
         {
-          "expressionId": "watch-out",
-          "cueId": "c0009",
-          "quote": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before and look we're at the whales watch out",
-          "start": 76,
-          "end": 90,
-          "matchStart": 132,
-          "matchEnd": 141
-        },
-        {
           "expressionId": "please",
           "cueId": "c0009",
-          "quote": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before and look we're at the whales watch out",
+          "quote": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before",
           "start": 76,
-          "end": 90,
+          "end": 86,
           "matchStart": 56,
           "matchEnd": 62
         },
         {
-          "expressionId": "look",
-          "cueId": "c0009",
-          "quote": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before and look we're at the whales watch out",
-          "start": 76,
-          "end": 90,
-          "matchStart": 107,
-          "matchEnd": 111
-        },
-        {
           "expressionId": "dont",
           "cueId": "c0009",
-          "quote": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before and look we're at the whales watch out",
+          "quote": "accidentally wandered into some rough seas accidentally please don't go to the lunch food thing before",
           "start": 76,
-          "end": 90,
+          "end": 86,
           "matchStart": 63,
           "matchEnd": 68
         }
@@ -1226,21 +1255,27 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
-      "start": 90,
-      "end": 103,
-      "sentenceText": "snappy turtles oh yeah snappy turtles off it all right snap snap snap snap snap",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "title": "문단 1",
+      "start": 87,
+      "end": 96,
+      "sentenceText": "and look we're at the whales watch out snappy turtles oh yeah snappy turtles off it all right snap snap snap snap",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
-          "start": 90,
-          "end": 103,
-          "text": "snappy turtles oh yeah snappy turtles off it all right snap snap snap snap snap",
-          "originalText": "snappy turtles oh yeah snappy turtles off it all right snap snap snap snap snap",
+          "start": 87,
+          "end": 96,
+          "text": "and look we're at the whales watch out snappy turtles oh yeah snappy turtles off it all right snap snap snap snap",
+          "originalText": "and look we're at the whales watch out snappy turtles oh yeah snappy turtles off it all right snap snap snap snap",
           "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 87,
+              "end": 90,
+              "text": "and look we're at the whales watch out"
+            },
             {
               "id": "c0034",
               "start": 90,
@@ -1252,16 +1287,19 @@
               "start": 93,
               "end": 96,
               "text": "off it all right snap snap snap snap"
-            },
-            {
-              "id": "c0036",
-              "start": 96,
-              "end": 103,
-              "text": "snap"
             }
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
+            {
+              "id": "c0033",
+              "start": 87,
+              "end": 90,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
             {
               "id": "c0034",
               "start": 90,
@@ -1279,7 +1317,78 @@
               "originalCueIds": [
                 "c0035"
               ]
-            },
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "watch-out",
+          "cueId": "c0010",
+          "quote": "and look we're at the whales watch out snappy turtles oh yeah snappy turtles off it all right snap snap snap snap",
+          "start": 87,
+          "end": 96,
+          "matchStart": 29,
+          "matchEnd": 38
+        },
+        {
+          "expressionId": "all-right",
+          "cueId": "c0010",
+          "quote": "and look we're at the whales watch out snappy turtles oh yeah snappy turtles off it all right snap snap snap snap",
+          "start": 87,
+          "end": 96,
+          "matchStart": 84,
+          "matchEnd": 93
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0010",
+          "quote": "and look we're at the whales watch out snappy turtles oh yeah snappy turtles off it all right snap snap snap snap",
+          "start": 87,
+          "end": 96,
+          "matchStart": 4,
+          "matchEnd": 8
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 2",
+      "start": 96,
+      "end": 103,
+      "sentenceText": "snap",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 96,
+          "end": 103,
+          "text": "snap",
+          "originalText": "snap",
+          "originalCueRefs": [
+            {
+              "id": "c0036",
+              "start": 96,
+              "end": 103,
+              "text": "snap"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0036",
               "start": 96,
@@ -1291,43 +1400,31 @@
             }
           ],
           "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
           "qualityFlags": [
-            "raw-original-text",
-            "duration-grouped-dialogue"
+            "raw-original-text"
           ]
         }
       ],
-      "targets": [
-        {
-          "expressionId": "all-right",
-          "cueId": "c0010",
-          "quote": "snappy turtles oh yeah snappy turtles off it all right snap snap snap snap snap",
-          "start": 90,
-          "end": 103,
-          "matchStart": 45,
-          "matchEnd": 54
-        }
-      ],
+      "targets": [],
       "qualityFlags": [
-        "raw-original-text",
-        "duration-grouped-dialogue"
+        "raw-original-text"
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 11",
+      "id": "c0012",
+      "title": "문단 3",
       "start": 111,
       "end": 118,
       "sentenceText": "Oh, man! Are you okay, customer? Yes, I'm fine. You don't want your money back?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
+          "id": "c0012",
           "start": 111,
           "end": 118,
           "text": "Oh, man! Are you okay, customer? Yes, I'm fine. You don't want your money back?",
@@ -1388,8 +1485,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1399,7 +1496,7 @@
       "targets": [
         {
           "expressionId": "okay",
-          "cueId": "c0011",
+          "cueId": "c0012",
           "quote": "Oh, man! Are you okay, customer? Yes, I'm fine. You don't want your money back?",
           "start": 111,
           "end": 118,
@@ -1408,7 +1505,7 @@
         },
         {
           "expressionId": "yes",
-          "cueId": "c0011",
+          "cueId": "c0012",
           "quote": "Oh, man! Are you okay, customer? Yes, I'm fine. You don't want your money back?",
           "start": 111,
           "end": 118,
@@ -1417,7 +1514,7 @@
         },
         {
           "expressionId": "want",
-          "cueId": "c0011",
+          "cueId": "c0012",
           "quote": "Oh, man! Are you okay, customer? Yes, I'm fine. You don't want your money back?",
           "start": 111,
           "end": 118,
@@ -1426,7 +1523,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0011",
+          "cueId": "c0012",
           "quote": "Oh, man! Are you okay, customer? Yes, I'm fine. You don't want your money back?",
           "start": 111,
           "end": 118,
@@ -1440,17 +1537,17 @@
       ]
     },
     {
-      "id": "c0012",
-      "title": "문단 12",
+      "id": "c0013",
+      "title": "문단 4",
       "start": 118,
       "end": 124,
       "sentenceText": "this is fun but are we almost at the wales yes",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0012",
+          "id": "c0013",
           "start": 118,
           "end": 124,
           "text": "this is fun but are we almost at the wales yes",
@@ -1492,8 +1589,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1503,7 +1600,7 @@
       "targets": [
         {
           "expressionId": "yes",
-          "cueId": "c0012",
+          "cueId": "c0013",
           "quote": "this is fun but are we almost at the wales yes",
           "start": 118,
           "end": 124,

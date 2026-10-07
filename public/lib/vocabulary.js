@@ -1,4 +1,5 @@
 import { nextReview } from './learning.js';
+import { lemmatizeEnglish } from './lexicon.js';
 
 const WORD_PATTERN = /[\p{L}\p{M}\p{N}]+(?:'[\p{L}\p{M}\p{N}]+)*/gu;
 const SENTENCE_PUNCTUATION = /[.!?。！？]/u;
@@ -68,6 +69,15 @@ export function makePhraseCandidate(reference, startIndex, endIndex) {
   return phraseCandidateFromSpan(reference, sourceTokens(reference), startIndex, endIndex);
 }
 
+export function makePhraseFromIndexes(reference, indexes) {
+  const ordered = [...new Set(indexes)].sort((a, b) => a - b);
+  if (ordered.length < 2 || ordered.some((index, offset) => !Number.isSafeInteger(index)
+    || (offset > 0 && index !== ordered[offset - 1] + 1))) {
+    throw new RangeError('같은 문장에서 이어진 단어를 두 개 이상 골라 주세요.');
+  }
+  return makePhraseCandidate(reference, ordered[0], ordered.at(-1));
+}
+
 export function phraseCandidates(reference, expressions = []) {
   const tokens = sourceTokens(reference);
   const text = String(reference ?? '').normalize('NFKC').replace(/[‘’ʼ]/g, "'");
@@ -114,23 +124,25 @@ export function phraseCandidates(reference, expressions = []) {
     || right.term.split(' ').length - left.term.split(' ').length || left.key.localeCompare(right.key));
 }
 
-export function wordCandidates(reference, comparison = {}) {
+export function wordCandidates(reference, comparison = {}, options = {}) {
   const tokens = sourceWords(reference);
   const byKey = new Map();
   for (let index = 0; index < tokens.length; index += 1) {
-    const term = tokens[index];
+    const sourceTerm = tokens[index];
+    const lemma = lemmatizeEnglish(sourceTerm, options.families);
+    const term = lemma === normalizeWord(sourceTerm) ? sourceTerm : lemma;
     const key = wordKey(term);
     const existing = byKey.get(key);
     if (existing) existing.sourceIndexes.push(index);
     else byKey.set(key, {
-      key, term, kind: 'manual', typed: '', sourceIndex: index, sourceIndexes: [index],
+      key, term, sourceTerm, kind: 'manual', typed: '', sourceIndex: index, sourceIndexes: [index],
       studied: false, studyAttempts: 0, lastAnswer: '', selected: false, currentMistake: false
     });
   }
 
   for (const operation of Array.isArray(comparison?.operations) ? comparison.operations : []) {
     if (!['missing', 'replace'].includes(operation?.kind)) continue;
-    const key = wordKey(operation.expected);
+    const key = wordKey(lemmatizeEnglish(operation.expected, options.families));
     const candidate = byKey.get(key);
     if (!candidate) continue;
     candidate.selected = true;
@@ -146,6 +158,123 @@ export function wordCandidates(reference, comparison = {}) {
 
 function historicalWords(words) {
   return (Array.isArray(words) ? words : []).filter(word => word?.registeredAt || word?.currentMistake !== true);
+}
+
+function boundedCounter(value) {
+  return Number.isSafeInteger(value) && value >= 0 ? Math.min(value, MAX_COUNTER) : 0;
+}
+
+function sumCounters(left, right) {
+  return Math.min(MAX_COUNTER, boundedCounter(left) + boundedCounter(right));
+}
+
+function earlierTimestamp(left, right) {
+  if (!left) return right;
+  if (!right) return left;
+  return Date.parse(left) <= Date.parse(right) ? left : right;
+}
+
+function laterTimestamp(left, right) {
+  if (!left) return right;
+  if (!right) return left;
+  return Date.parse(left) >= Date.parse(right) ? left : right;
+}
+
+function mergePractice(left = {}, right = {}) {
+  const merged = {};
+  for (const mode of new Set([...Object.keys(left || {}), ...Object.keys(right || {})])) {
+    const prior = left?.[mode] || {};
+    const next = right?.[mode] || {};
+    merged[mode] = {
+      attempts: sumCounters(prior.attempts, next.attempts),
+      correct: sumCounters(prior.correct, next.correct),
+      lastPracticedAt: laterTimestamp(prior.lastPracticedAt, next.lastPracticedAt)
+    };
+    merged[mode].correct = Math.min(merged[mode].correct, merged[mode].attempts);
+  }
+  return Object.keys(merged).length ? merged : undefined;
+}
+
+function mergeReview(left, right) {
+  if (!left) return right;
+  if (!right) return left;
+  const leftDate = String(left.lastReviewedDate ?? '');
+  const rightDate = String(right.lastReviewedDate ?? '');
+  if (leftDate !== rightDate) return leftDate > rightDate ? left : right;
+  if (left.step !== right.step) return boundedCounter(left.step) > boundedCounter(right.step) ? left : right;
+  return String(left.dueAt ?? '') >= String(right.dueAt ?? '') ? left : right;
+}
+
+function canonicalTerm(term, families) {
+  const source = String(term ?? '');
+  const lemma = lemmatizeEnglish(source, families);
+  return lemma === normalizeWord(source) ? source : lemma;
+}
+
+function mergeCanonicalWords(left, right) {
+  const sourceIndexes = [...new Set([
+    ...(Array.isArray(left.sourceIndexes) ? left.sourceIndexes : [left.sourceIndex]),
+    ...(Array.isArray(right.sourceIndexes) ? right.sourceIndexes : [right.sourceIndex])
+  ].filter(Number.isSafeInteger))].sort((a, b) => a - b);
+  const latestRight = String(right.lastPracticedAt ?? '') >= String(left.lastPracticedAt ?? '');
+  const merged = {
+    ...left,
+    ...right,
+    key: left.key,
+    term: left.term,
+    sourceTerm: String(left.sourceTerm ?? left.term),
+    sourceIndex: sourceIndexes[0] ?? right.sourceIndex ?? left.sourceIndex,
+    sourceIndexes,
+    studied: Boolean(left.studied) || Boolean(right.studied),
+    studyAttempts: sumCounters(left.studyAttempts, right.studyAttempts),
+    lastAnswer: String((latestRight ? right.lastAnswer : left.lastAnswer) ?? ''),
+    selected: Boolean(left.selected) || Boolean(right.selected),
+    currentMistake: Boolean(left.currentMistake) || Boolean(right.currentMistake)
+  };
+  const registeredAt = earlierTimestamp(left.registeredAt, right.registeredAt);
+  const lastPracticedAt = laterTimestamp(left.lastPracticedAt, right.lastPracticedAt);
+  const practice = mergePractice(left.practice, right.practice);
+  const review = mergeReview(left.review, right.review);
+  const meaningKo = String(left.meaningKo ?? '').trim() || String(right.meaningKo ?? '').trim();
+  if (registeredAt) merged.registeredAt = registeredAt; else delete merged.registeredAt;
+  if (lastPracticedAt) merged.lastPracticedAt = lastPracticedAt; else delete merged.lastPracticedAt;
+  if (practice) merged.practice = practice; else delete merged.practice;
+  if (review) merged.review = review; else delete merged.review;
+  if (meaningKo) merged.meaningKo = meaningKo; else delete merged.meaningKo;
+  return merged;
+}
+
+export function canonicalizeVocabularyRecord(record, options = {}) {
+  if (!record || typeof record !== 'object') return record;
+  const words = [];
+  const byKey = new Map();
+  const remappedKeys = new Map();
+  for (const input of Array.isArray(record.words) ? record.words : []) {
+    if (!input?.term) continue;
+    const term = canonicalTerm(input.term, options.families);
+    const key = wordKey(term);
+    const word = {
+      ...input,
+      key,
+      term,
+      sourceTerm: String(input.sourceTerm ?? input.term)
+    };
+    remappedKeys.set(String(input.key ?? ''), key);
+    remappedKeys.set(wordKey(input.term), key);
+    const found = byKey.get(key);
+    if (found === undefined) {
+      byKey.set(key, words.length);
+      words.push(word);
+    } else {
+      words[found] = mergeCanonicalWords(words[found], word);
+    }
+  }
+  const available = new Set(words.map(word => word.key));
+  const selectedKeys = [...new Set((Array.isArray(record.selectedKeys) ? record.selectedKeys : [])
+    .map(key => remappedKeys.get(key) || key)
+    .filter(key => available.has(key)))];
+  const selected = new Set(selectedKeys);
+  return { ...record, words: words.map(word => ({ ...word, selected: selected.has(word.key) })), selectedKeys };
 }
 
 function mergeByTerm(baseWords, additions) {
@@ -203,17 +332,18 @@ function validatedExtraCandidates(reference, extraCandidates) {
   return validated;
 }
 
-export function commitSelection(record, selectedKeys = [], now = new Date(), extraCandidates = []) {
+export function commitSelection(record, selectedKeys = [], now = new Date(), extraCandidates = [], options = {}) {
+  const canonicalRecord = canonicalizeVocabularyRecord(record, options);
   const timestamp = validDate(now).toISOString();
   const requested = new Set((Array.isArray(selectedKeys) ? selectedKeys : []).filter(key => typeof key === 'string'));
   const candidates = [...new Map([
-    ...wordCandidates(record?.reference, { operations: [] }),
-    ...validatedExtraCandidates(record?.reference, extraCandidates)
+    ...wordCandidates(canonicalRecord?.reference, { operations: [] }, options),
+    ...validatedExtraCandidates(canonicalRecord?.reference, extraCandidates)
   ].map(candidate => [candidate.key, candidate])).values()];
   const selectedCandidates = candidates.filter(candidate => requested.has(candidate.key));
   const validKeys = selectedCandidates.map(candidate => candidate.key);
-  const history = historicalWords(record?.words);
-  const priorByTerm = new Map((Array.isArray(record?.words) ? record.words : []).map(word => [normalizeWord(word.term), word]));
+  const history = historicalWords(canonicalRecord?.words);
+  const priorByTerm = new Map((Array.isArray(canonicalRecord?.words) ? canonicalRecord.words : []).map(word => [normalizeWord(word.term), word]));
   const registered = selectedCandidates.map(candidate => {
     const prior = priorByTerm.get(normalizeWord(candidate.term));
     const registeredWord = {
@@ -234,14 +364,15 @@ export function commitSelection(record, selectedKeys = [], now = new Date(), ext
   });
   const selectedSet = new Set(validKeys);
   const words = mergeByTerm(history, registered).map(word => ({ ...word, selected: selectedSet.has(word.key) }));
-  return { ...record, words, selectedKeys: validKeys };
+  return { ...canonicalRecord, words, selectedKeys: validKeys };
 }
 
-export function selectedWords(record) {
-  const words = Array.isArray(record?.words) ? record.words : [];
+export function selectedWords(record, options = {}) {
+  const canonicalRecord = canonicalizeVocabularyRecord(record, options);
+  const words = Array.isArray(canonicalRecord?.words) ? canonicalRecord.words : [];
   const byKey = new Map(words.map(word => [wordKey(word.term), word]));
   const seen = new Set();
-  return (Array.isArray(record?.selectedKeys) ? record.selectedKeys : []).flatMap(key => {
+  return (Array.isArray(canonicalRecord?.selectedKeys) ? canonicalRecord.selectedKeys : []).flatMap(key => {
     const canonical = key.startsWith('word:') ? key : '';
     if (!canonical || seen.has(canonical) || !byKey.has(canonical)) return [];
     seen.add(canonical);
@@ -295,5 +426,81 @@ export function wordKnowledge(word, expressions = [], lexicon = []) {
     meaningKo: parentMeaning || String(content.meaningKo ?? ''),
     explanationKo: String(content.explanationKo ?? ''),
     dialogues: editorial && Array.isArray(editorial.dialogues) ? editorial.dialogues : []
+  };
+}
+
+function throwIfAborted(signal) {
+  if (!signal?.aborted) return;
+  if (signal.reason?.name === 'AbortError') throw signal.reason;
+  throw new DOMException(signal.reason?.message || 'The operation was aborted.', 'AbortError');
+}
+
+export async function resolveWordKnowledge(word, expressions = [], lexicon = [], providers = {}, { signal } = {}) {
+  const local = wordKnowledge(word, expressions, lexicon);
+  let english = null;
+  let englishStatus = 'missing';
+  let aiUnavailable = false;
+  if (typeof providers?.lookupAiMeaning === 'function') {
+    try {
+      english = await providers.lookupAiMeaning(local.term, { signal });
+      englishStatus = english ? 'ready' : 'missing';
+    } catch (error) {
+      if (error?.name === 'AbortError') throw error;
+      aiUnavailable = true;
+      englishStatus = 'unavailable';
+    }
+  }
+  throwIfAborted(signal);
+
+  if (!english && providers?.dictionary?.lookup) {
+    try {
+      english = await providers.dictionary.lookup(local.term, { signal });
+      englishStatus = english ? 'ready' : 'missing';
+    } catch (error) {
+      if (error?.name === 'AbortError') throw error;
+      englishStatus = 'unavailable';
+    }
+  }
+  throwIfAborted(signal);
+
+  let meaningKo = local.meaningKo;
+  let koreanSource = meaningKo ? local.source : '';
+  let koreanLabelKo = '';
+  let koreanStatus = meaningKo ? 'ready' : 'missing';
+  if (!meaningKo && english?.source === 'openai') {
+    meaningKo = String(english.meaningKo ?? '').trim();
+    koreanSource = meaningKo ? 'openai' : '';
+    koreanStatus = meaningKo ? 'ready' : 'missing';
+  }
+  if (!meaningKo && typeof providers?.lookupKorean === 'function') {
+    try {
+      const korean = await providers.lookupKorean(local.term, { signal, definitionEn: english?.definitionEn ?? '' });
+      meaningKo = String(korean?.meaningKo ?? korean ?? '').trim();
+      koreanSource = String(korean?.source ?? 'provider');
+      koreanLabelKo = String(korean?.labelKo ?? '자동 번역');
+      koreanStatus = meaningKo ? 'ready' : 'missing';
+    } catch (error) {
+      if (error?.name === 'AbortError') throw error;
+      koreanStatus = 'unavailable';
+    }
+  }
+  throwIfAborted(signal);
+
+  return {
+    ...local,
+    ipa: local.ipa || english?.phonetic || '',
+    definitionEn: english?.definitionEn || '',
+    meaningsEn: english?.meanings || [],
+    exampleEn: english?.exampleEn || english?.meanings?.[0]?.definitions?.[0]?.example || '',
+    exampleKo: english?.exampleKo || '',
+    familyNoteKo: english?.familyNoteKo || '',
+    relatedWords: Array.isArray(english?.relatedWords) ? english.relatedWords : [],
+    meaningKo,
+    koreanSource,
+    koreanLabelKo,
+    englishSource: String(english?.source ?? ''),
+    englishModel: String(english?.model ?? ''),
+    englishStatus: english ? 'ready' : (englishStatus === 'unavailable' || aiUnavailable ? 'unavailable' : 'missing'),
+    koreanStatus
   };
 }

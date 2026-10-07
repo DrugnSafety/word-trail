@@ -1,4 +1,4 @@
-name: Deploy Word Trail to GitHub Pages
+name: Validate Word Trail and optional GitHub Pages
 
 on:
   push:
@@ -30,13 +30,16 @@ jobs:
       - name: Check JavaScript syntax
         run: npm run check
       - name: Configure GitHub Pages
+        if: vars.DEPLOY_GITHUB_PAGES == 'true'
         uses: actions/configure-pages@v5
       - name: Upload website files
+        if: vars.DEPLOY_GITHUB_PAGES == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: public
 
   deploy:
+    if: vars.DEPLOY_GITHUB_PAGES == 'true'
     needs: build
     runs-on: ubuntu-latest
     permissions:

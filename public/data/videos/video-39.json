@@ -17,26 +17,91 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 5,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Wendy and Judo's Brand New Look!",
+      "title": "Preparing for a change",
       "start": 0,
-      "end": 120,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 27,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Cutting the hair",
+      "start": 27,
+      "markerStart": 27,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 50,
+      "sceneIds": [
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "New style admiration",
+      "start": 50,
+      "markerStart": 53,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 65,
+      "sceneIds": [
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Lawn and playtime",
+      "start": 65,
+      "markerStart": 65,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 104,
+      "sceneIds": [
         "c0008",
         "c0009",
-        "c0010",
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Morning greetings",
+      "start": 104,
+      "markerStart": 104,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 120,
+      "sceneIds": [
         "c0011",
         "c0012"
       ]
@@ -295,12 +360,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 1",
       "start": 27,
       "end": 35,
       "sentenceText": "Mom, what are you doing? I'm going short. Dirty clean. Dirty clean.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -346,8 +411,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -372,12 +437,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 35,
       "end": 40,
       "sentenceText": "Hey, check it out. Wendy's gone nuts.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -408,8 +473,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text"
           ]
@@ -422,12 +487,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 1",
       "start": 50,
       "end": 56,
       "sentenceText": "Wa! And... finished! What do you think? I love it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -492,8 +557,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -545,12 +610,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 2",
       "start": 56,
       "end": 65,
       "sentenceText": "Feels so lush. Can you do me? Are you sure? Yes, I'm sure. Okay, let's do it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -596,8 +661,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -658,12 +723,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 1",
       "start": 65,
       "end": 71,
       "sentenceText": "Okay, kids, don't scoot. I've got to top dress the lawn now. Okay, Dad.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -709,8 +774,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -753,12 +818,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 2",
       "start": 75,
       "end": 85,
       "sentenceText": "Oh, yeah. I'll do it later.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -819,8 +884,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -835,12 +900,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 3",
       "start": 92,
       "end": 104,
       "sentenceText": "Here I come. Woo! Woo! Woohoo!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -908,8 +973,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -926,12 +991,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 1",
       "start": 104,
       "end": 110,
       "sentenceText": "Morning again, Dad. Morning again, Wendy. Woo! I like the new look.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -996,8 +1061,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1049,12 +1114,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 2",
       "start": 110,
       "end": 120,
       "sentenceText": "What brought that on? Oh, you know, Mum, watch this. Woohoo! It was time for a change.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1128,8 +1193,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",

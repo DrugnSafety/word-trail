@@ -17,22 +17,77 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Two Grouchy Grannies! 👵 🤣 | New Season 3 Clip - Granny Mobile 💙 | Bluey",
+      "title": "The grouchy granny",
       "start": 0,
-      "end": 120,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 20,
       "sceneIds": [
         "c0001",
-        "c0002",
-        "c0003",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Negotiating prices",
+      "start": 20,
+      "markerStart": 22,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 35,
+      "sceneIds": [
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Footpath confrontation",
+      "start": 35,
+      "markerStart": 36,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 62,
+      "sceneIds": [
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "The scooter sale",
+      "start": 62,
+      "markerStart": 65,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 120,
+      "sceneIds": [
         "c0007",
         "c0008",
         "c0009",
@@ -306,12 +361,12 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
+      "title": "문단 1",
       "start": 20,
       "end": 35,
       "sentenceText": "No, I'll stay Grouchy Granny. Oh, great. You watch yourself, young man. H. How about $5? How about $2? Okay, $2.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -385,8 +440,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -440,12 +495,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 1",
       "start": 35,
       "end": 40,
       "sentenceText": "Doreen, if you want to go on a holiday to the reef, you'd better toughen up.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -504,8 +559,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -530,12 +585,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 40,
       "end": 53,
       "sentenceText": "I know. Oh dear. Your table leg's blocking the footpath. I could have broke my leg. Oh, I'm terribly sorry. I should call the council. I'll get it, Dorine. Keep that noise down. I'm sorry.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -626,8 +681,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -661,12 +716,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 3",
       "start": 53,
       "end": 62,
       "sentenceText": "I'm not paying for any of this. Oh, well that's fine. Well, I think you should pay a little. I think you should mind your own business.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -742,8 +797,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -777,12 +832,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 1",
       "start": 62,
       "end": 75,
       "sentenceText": "Whoa, that is one grouchy granny. We're back home, Nana. About time. Now make me a cup of tea, bugalogs. Hey, you get off No, it's mine! I'm buying it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -871,8 +926,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -908,12 +963,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 75,
       "end": 82,
       "sentenceText": "Fine! Give me $900. What?! The sign says $30.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -972,8 +1027,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1007,12 +1062,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 82,
       "end": 94,
       "sentenceText": "$900. I'm not paying $900. Good. But I keep it. Oh, it's like that, is it? Oh, look, love. I think you want to talk to that lady. Get your hands off me. What What are you doing? Where's my cup of tea?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1116,8 +1171,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1207,12 +1262,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 4",
       "start": 94,
       "end": 107,
       "sentenceText": "Dorene, I think this delightful lady wants to buy your scooter. $100. Um, I guess that sounds okay. Oh, Dorene, you need to go higher than that. You need to lay off the biscuits. What? You said I",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1303,8 +1358,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1356,12 +1411,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 5",
       "start": 107,
       "end": 120,
       "sentenceText": "was looking good. You are, honey. Ignore her. Oh, nasty neighbors back. Now you listen. $100. Poke it or aim it. Oh, Doreen. No.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1444,8 +1499,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",

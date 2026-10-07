@@ -18,27 +18,111 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 6,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Exercise 🏋️ | Brand New - Series 3 | Bluey",
+      "title": "Meeting a new colleague",
       "start": 0,
-      "end": 125,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 18,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Elevator tour",
+      "start": 18,
+      "markerStart": 20,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 44,
+      "sceneIds": [
         "c0003",
-        "c0004",
-        "c0005",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Office introductions",
+      "start": 44,
+      "markerStart": 44,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 55,
+      "sceneIds": [
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Workspace and equipment",
+      "start": 55,
+      "markerStart": 56,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 81,
+      "sceneIds": [
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Cafeteria visit",
+      "start": 81,
+      "markerStart": 81,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 108,
+      "sceneIds": [
         "c0008",
         "c0009",
-        "c0010",
-        "c0011"
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "title": "Ping pong table",
+      "start": 108,
+      "markerStart": 109,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 125,
+      "sceneIds": [
+        "c0011",
+        "c0012"
       ]
     }
   ],
@@ -184,8 +268,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 12,
-      "end": 27,
-      "sentenceText": "day oh well I can show you around if you like I worked here for ages oh thanks it's a pretty boring job this is the lip you push this button so then push what floor you",
+      "end": 18,
+      "sentenceText": "day oh well I can show you around if you like I worked here for ages oh thanks",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -193,9 +277,9 @@
         {
           "id": "c0002",
           "start": 12,
-          "end": 27,
-          "text": "day oh well I can show you around if you like I worked here for ages oh thanks it's a pretty boring job this is the lip you push this button so then push what floor you",
-          "originalText": "day oh well I can show you around if you like I worked here for ages oh thanks it's a pretty boring job this is the lip you push this button so then push what floor you",
+          "end": 18,
+          "text": "day oh well I can show you around if you like I worked here for ages oh thanks",
+          "originalText": "day oh well I can show you around if you like I worked here for ages oh thanks",
           "originalCueRefs": [
             {
               "id": "c0005",
@@ -208,24 +292,6 @@
               "start": 14,
               "end": 18,
               "text": "like I worked here for ages oh thanks"
-            },
-            {
-              "id": "c0007",
-              "start": 18,
-              "end": 21,
-              "text": "it's a pretty boring job this is the lip"
-            },
-            {
-              "id": "c0008",
-              "start": 21,
-              "end": 23,
-              "text": "you push this"
-            },
-            {
-              "id": "c0009",
-              "start": 23,
-              "end": 27,
-              "text": "button so then push what floor you"
             }
           ],
           "cleanedCueRefs": [],
@@ -247,7 +313,84 @@
               "originalCueIds": [
                 "c0006"
               ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "like",
+          "cueId": "c0002",
+          "quote": "day oh well I can show you around if you like I worked here for ages oh thanks",
+          "start": 12,
+          "end": 18,
+          "matchStart": 41,
+          "matchEnd": 45
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 1",
+      "start": 18,
+      "end": 33,
+      "sentenceText": "it's a pretty boring job this is the lip you push this button so then push what floor you want this floor is just some um people and stuff top floor is the",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 33,
+          "text": "it's a pretty boring job this is the lip you push this button so then push what floor you want this floor is just some um people and stuff top floor is the",
+          "originalText": "it's a pretty boring job this is the lip you push this button so then push what floor you want this floor is just some um people and stuff top floor is the",
+          "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 21,
+              "text": "it's a pretty boring job this is the lip"
             },
+            {
+              "id": "c0008",
+              "start": 21,
+              "end": 23,
+              "text": "you push this"
+            },
+            {
+              "id": "c0009",
+              "start": 23,
+              "end": 27,
+              "text": "button so then push what floor you"
+            },
+            {
+              "id": "c0010",
+              "start": 27,
+              "end": 30,
+              "text": "want this floor is just some um people"
+            },
+            {
+              "id": "c0011",
+              "start": 30,
+              "end": 33,
+              "text": "and stuff top floor is the"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0007",
               "start": 18,
@@ -274,87 +417,7 @@
               "originalCueIds": [
                 "c0009"
               ]
-            }
-          ],
-          "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 2,
-          "qualityFlags": [
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "like",
-          "cueId": "c0002",
-          "quote": "day oh well I can show you around if you like I worked here for ages oh thanks it's a pretty boring job this is the lip you push this button so then push what floor you",
-          "start": 12,
-          "end": 27,
-          "matchStart": 41,
-          "matchEnd": 45
-        },
-        {
-          "expressionId": "what",
-          "cueId": "c0002",
-          "quote": "day oh well I can show you around if you like I worked here for ages oh thanks it's a pretty boring job this is the lip you push this button so then push what floor you",
-          "start": 12,
-          "end": 27,
-          "matchStart": 154,
-          "matchEnd": 158
-        }
-      ],
-      "qualityFlags": [
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0003",
-      "title": "문단 3",
-      "start": 27,
-      "end": 39,
-      "sentenceText": "want this floor is just some um people and stuff top floor is the best hi can I try yeah but the lift's a bit",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0003",
-          "start": 27,
-          "end": 39,
-          "text": "want this floor is just some um people and stuff top floor is the best hi can I try yeah but the lift's a bit",
-          "originalText": "want this floor is just some um people and stuff top floor is the best hi can I try yeah but the lift's a bit",
-          "originalCueRefs": [
-            {
-              "id": "c0010",
-              "start": 27,
-              "end": 30,
-              "text": "want this floor is just some um people"
             },
-            {
-              "id": "c0011",
-              "start": 30,
-              "end": 33,
-              "text": "and stuff top floor is the"
-            },
-            {
-              "id": "c0012",
-              "start": 33,
-              "end": 35,
-              "text": "best"
-            },
-            {
-              "id": "c0013",
-              "start": 35,
-              "end": 39,
-              "text": "hi can I try yeah but the lift's a bit"
-            }
-          ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
             {
               "id": "c0010",
               "start": 27,
@@ -372,7 +435,81 @@
               "originalCueIds": [
                 "c0011"
               ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "it's a pretty boring job this is the lip you push this button so then push what floor you want this floor is just some um people and stuff top floor is the",
+          "start": 18,
+          "end": 33,
+          "matchStart": 75,
+          "matchEnd": 79
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0003",
+          "quote": "it's a pretty boring job this is the lip you push this button so then push what floor you want this floor is just some um people and stuff top floor is the",
+          "start": 18,
+          "end": 33,
+          "matchStart": 90,
+          "matchEnd": 94
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 2",
+      "start": 33,
+      "end": 44,
+      "sentenceText": "best hi can I try yeah but the lift's a bit slow with two people it's very old don't",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 33,
+          "end": 44,
+          "text": "best hi can I try yeah but the lift's a bit slow with two people it's very old don't",
+          "originalText": "best hi can I try yeah but the lift's a bit slow with two people it's very old don't",
+          "originalCueRefs": [
+            {
+              "id": "c0012",
+              "start": 33,
+              "end": 35,
+              "text": "best"
             },
+            {
+              "id": "c0013",
+              "start": 35,
+              "end": 39,
+              "text": "hi can I try yeah but the lift's a bit"
+            },
+            {
+              "id": "c0014",
+              "start": 39,
+              "end": 44,
+              "text": "slow with two people it's very old don't"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0012",
               "start": 33,
@@ -390,12 +527,21 @@
               "originalCueIds": [
                 "c0013"
               ]
+            },
+            {
+              "id": "c0014",
+              "start": 39,
+              "end": 44,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -405,21 +551,21 @@
       "targets": [
         {
           "expressionId": "can-i",
-          "cueId": "c0003",
-          "quote": "want this floor is just some um people and stuff top floor is the best hi can I try yeah but the lift's a bit",
-          "start": 27,
-          "end": 39,
-          "matchStart": 74,
-          "matchEnd": 79
+          "cueId": "c0004",
+          "quote": "best hi can I try yeah but the lift's a bit slow with two people it's very old don't",
+          "start": 33,
+          "end": 44,
+          "matchStart": 8,
+          "matchEnd": 13
         },
         {
-          "expressionId": "want",
-          "cueId": "c0003",
-          "quote": "want this floor is just some um people and stuff top floor is the best hi can I try yeah but the lift's a bit",
-          "start": 27,
-          "end": 39,
-          "matchStart": 0,
-          "matchEnd": 4
+          "expressionId": "dont",
+          "cueId": "c0004",
+          "quote": "best hi can I try yeah but the lift's a bit slow with two people it's very old don't",
+          "start": 33,
+          "end": 44,
+          "matchStart": 79,
+          "matchEnd": 84
         }
       ],
       "qualityFlags": [
@@ -428,28 +574,22 @@
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
-      "start": 39,
-      "end": 50,
-      "sentenceText": "slow with two people it's very old don't floor hi everyone this is L she's new I'm showing",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "id": "c0005",
+      "title": "문단 1",
+      "start": 44,
+      "end": 55,
+      "sentenceText": "floor hi everyone this is L she's new I'm showing her let's take the",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
-          "start": 39,
-          "end": 50,
-          "text": "slow with two people it's very old don't floor hi everyone this is L she's new I'm showing",
-          "originalText": "slow with two people it's very old don't floor hi everyone this is L she's new I'm showing",
+          "id": "c0005",
+          "start": 44,
+          "end": 55,
+          "text": "floor hi everyone this is L she's new I'm showing her let's take the",
+          "originalText": "floor hi everyone this is L she's new I'm showing her let's take the",
           "originalCueRefs": [
-            {
-              "id": "c0014",
-              "start": 39,
-              "end": 44,
-              "text": "slow with two people it's very old don't"
-            },
             {
               "id": "c0015",
               "start": 44,
@@ -461,19 +601,16 @@
               "start": 48,
               "end": 50,
               "text": "I'm showing"
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 55,
+              "text": "her let's take the"
             }
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0014",
-              "start": 39,
-              "end": 44,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0014"
-              ]
-            },
             {
               "id": "c0015",
               "start": 44,
@@ -491,12 +628,21 @@
               "originalCueIds": [
                 "c0016"
               ]
+            },
+            {
+              "id": "c0017",
+              "start": 50,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0017"
+              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -505,13 +651,13 @@
       ],
       "targets": [
         {
-          "expressionId": "dont",
-          "cueId": "c0004",
-          "quote": "slow with two people it's very old don't floor hi everyone this is L she's new I'm showing",
-          "start": 39,
-          "end": 50,
-          "matchStart": 35,
-          "matchEnd": 40
+          "expressionId": "lets",
+          "cueId": "c0005",
+          "quote": "floor hi everyone this is L she's new I'm showing her let's take the",
+          "start": 44,
+          "end": 55,
+          "matchStart": 54,
+          "matchEnd": 59
         }
       ],
       "qualityFlags": [
@@ -520,28 +666,22 @@
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
-      "start": 50,
-      "end": 63,
-      "sentenceText": "her let's take the stairs so this is your chair oo a on I'll show you how it works you push this lever",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "id": "c0006",
+      "title": "문단 1",
+      "start": 55,
+      "end": 66,
+      "sentenceText": "stairs so this is your chair oo a on I'll show you how it works you push this lever and it goes lower, and you push it again,",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
-          "start": 50,
-          "end": 63,
-          "text": "her let's take the stairs so this is your chair oo a on I'll show you how it works you push this lever",
-          "originalText": "her let's take the stairs so this is your chair oo a on I'll show you how it works you push this lever",
+          "id": "c0006",
+          "start": 55,
+          "end": 66,
+          "text": "stairs so this is your chair oo a on I'll show you how it works you push this lever and it goes lower, and you push it again,",
+          "originalText": "stairs so this is your chair oo a on I'll show you how it works you push this lever and it goes lower and you push it Again",
           "originalCueRefs": [
-            {
-              "id": "c0017",
-              "start": 50,
-              "end": 55,
-              "text": "her let's take the"
-            },
             {
               "id": "c0018",
               "start": 55,
@@ -559,19 +699,23 @@
               "start": 61,
               "end": 63,
               "text": "lever"
+            },
+            {
+              "id": "c0021",
+              "start": 63,
+              "end": 66,
+              "text": "and it goes lower and you push it Again"
             }
           ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
+          "cleanedCueRefs": [
             {
-              "id": "c0017",
-              "start": 50,
-              "end": 55,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0017"
-              ]
-            },
+              "id": "c0025",
+              "start": 63,
+              "end": 66,
+              "text": "and it goes lower, and you push it again,"
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0018",
               "start": 55,
@@ -598,66 +742,71 @@
               "originalCueIds": [
                 "c0020"
               ]
+            },
+            {
+              "id": "c0021",
+              "start": 63,
+              "end": 66,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
             }
           ],
-          "textSource": "original-captured",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
+            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "lets",
-          "cueId": "c0005",
-          "quote": "her let's take the stairs so this is your chair oo a on I'll show you how it works you push this lever",
-          "start": 50,
-          "end": 63,
-          "matchStart": 4,
-          "matchEnd": 9
+          "expressionId": "how",
+          "cueId": "c0006",
+          "quote": "stairs so this is your chair oo a on I'll show you how it works you push this lever and it goes lower, and you push it again,",
+          "start": 55,
+          "end": 66,
+          "matchStart": 51,
+          "matchEnd": 54
         },
         {
-          "expressionId": "how",
-          "cueId": "c0005",
-          "quote": "her let's take the stairs so this is your chair oo a on I'll show you how it works you push this lever",
-          "start": 50,
-          "end": 63,
-          "matchStart": 70,
-          "matchEnd": 73
+          "expressionId": "again",
+          "cueId": "c0006",
+          "quote": "stairs so this is your chair oo a on I'll show you how it works you push this lever and it goes lower, and you push it again,",
+          "start": 55,
+          "end": 66,
+          "matchStart": 119,
+          "matchEnd": 124
         }
       ],
       "qualityFlags": [
         "raw-original-text",
+        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
-      "start": 63,
-      "end": 76,
-      "sentenceText": "and it goes lower, and you push it again, full higher and when I get bored I",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "id": "c0007",
+      "title": "문단 2",
+      "start": 66,
+      "end": 81,
+      "sentenceText": "full higher and when I get bored I spay come on I'll show you the",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
-          "start": 63,
-          "end": 76,
-          "text": "and it goes lower, and you push it again, full higher and when I get bored I",
-          "originalText": "and it goes lower and you push it Again full higher and when I get bored I",
+          "id": "c0007",
+          "start": 66,
+          "end": 81,
+          "text": "full higher and when I get bored I spay come on I'll show you the",
+          "originalText": "full higher and when I get bored I spay come on I'll show you the",
           "originalCueRefs": [
-            {
-              "id": "c0021",
-              "start": 63,
-              "end": 66,
-              "text": "and it goes lower and you push it Again"
-            },
             {
               "id": "c0022",
               "start": 66,
@@ -669,26 +818,16 @@
               "start": 72,
               "end": 76,
               "text": "higher and when I get bored I"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0025",
-              "start": 63,
-              "end": 66,
-              "text": "and it goes lower, and you push it again,"
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0021",
-              "start": 63,
-              "end": 66,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0021"
-              ]
             },
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 81,
+              "text": "spay come on I'll show you the"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0022",
               "start": 66,
@@ -706,14 +845,22 @@
               "originalCueIds": [
                 "c0023"
               ]
+            },
+            {
+              "id": "c0024",
+              "start": 77,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
             "duration-grouped-dialogue"
           ]
@@ -721,44 +868,37 @@
       ],
       "targets": [
         {
-          "expressionId": "again",
-          "cueId": "c0006",
-          "quote": "and it goes lower, and you push it again, full higher and when I get bored I",
-          "start": 63,
-          "end": 76,
-          "matchStart": 35,
-          "matchEnd": 40
+          "expressionId": "come-on",
+          "cueId": "c0007",
+          "quote": "full higher and when I get bored I spay come on I'll show you the",
+          "start": 66,
+          "end": 81,
+          "matchStart": 40,
+          "matchEnd": 47
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
-      "start": 77,
+      "id": "c0008",
+      "title": "문단 1",
+      "start": 81,
       "end": 86,
-      "sentenceText": "spay come on I'll show you the cafeteria 10 This is the cafeteria.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "sentenceText": "cafeteria 10 This is the cafeteria.",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
-          "start": 77,
+          "id": "c0008",
+          "start": 81,
           "end": 86,
-          "text": "spay come on I'll show you the cafeteria 10 This is the cafeteria.",
-          "originalText": "spay come on I'll show you the cafeteria 10 11 this is the",
+          "text": "cafeteria 10 This is the cafeteria.",
+          "originalText": "cafeteria 10 11 this is the",
           "originalCueRefs": [
-            {
-              "id": "c0024",
-              "start": 77,
-              "end": 81,
-              "text": "spay come on I'll show you the"
-            },
             {
               "id": "c0025",
               "start": 81,
@@ -782,15 +922,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0024",
-              "start": 77,
-              "end": 81,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0024"
-              ]
-            },
-            {
               "id": "c0025",
               "start": 81,
               "end": 84,
@@ -811,8 +942,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -820,17 +951,7 @@
           ]
         }
       ],
-      "targets": [
-        {
-          "expressionId": "come-on",
-          "cueId": "c0007",
-          "quote": "spay come on I'll show you the cafeteria 10 This is the cafeteria.",
-          "start": 77,
-          "end": 86,
-          "matchStart": 5,
-          "matchEnd": 12
-        }
-      ],
+      "targets": [],
       "qualityFlags": [
         "raw-original-text",
         "corrected-text-exact-coverage",
@@ -838,17 +959,17 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0009",
+      "title": "문단 2",
       "start": 86,
       "end": 100,
       "sentenceText": "Do you want a sushi roll? I really think I should be getting to work please you want soy sauce yes please no",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0009",
           "start": 86,
           "end": 100,
           "text": "Do you want a sushi roll? I really think I should be getting to work please you want soy sauce yes please no",
@@ -927,8 +1048,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -939,7 +1060,7 @@
       "targets": [
         {
           "expressionId": "want",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "Do you want a sushi roll? I really think I should be getting to work please you want soy sauce yes please no",
           "start": 86,
           "end": 100,
@@ -948,7 +1069,7 @@
         },
         {
           "expressionId": "think",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "Do you want a sushi roll? I really think I should be getting to work please you want soy sauce yes please no",
           "start": 86,
           "end": 100,
@@ -957,7 +1078,7 @@
         },
         {
           "expressionId": "please",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "Do you want a sushi roll? I really think I should be getting to work please you want soy sauce yes please no",
           "start": 86,
           "end": 100,
@@ -966,7 +1087,7 @@
         },
         {
           "expressionId": "yes",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "Do you want a sushi roll? I really think I should be getting to work please you want soy sauce yes please no",
           "start": 86,
           "end": 100,
@@ -975,7 +1096,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "Do you want a sushi roll? I really think I should be getting to work please you want soy sauce yes please no",
           "start": 86,
           "end": 100,
@@ -990,17 +1111,17 @@
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
+      "id": "c0010",
+      "title": "문단 3",
       "start": 100,
       "end": 108,
       "sentenceText": "dip and Well, thanks for showing me around.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
+          "id": "c0010",
           "start": 100,
           "end": 108,
           "text": "dip and Well, thanks for showing me around.",
@@ -1049,8 +1170,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1066,17 +1187,17 @@
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 10",
+      "id": "c0011",
+      "title": "문단 1",
       "start": 108,
       "end": 122,
       "sentenceText": "I'm going to start work now. Hang on, you haven't seen the ping pong table uh I think I meant to be doing my job what if the boss catches me don't worry the boss loves ping pong come on",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
+          "id": "c0011",
           "start": 108,
           "end": 122,
           "text": "I'm going to start work now. Hang on, you haven't seen the ping pong table uh I think I meant to be doing my job what if the boss catches me don't worry the boss loves ping pong come on",
@@ -1176,8 +1297,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1188,7 +1309,7 @@
       "targets": [
         {
           "expressionId": "come-on",
-          "cueId": "c0010",
+          "cueId": "c0011",
           "quote": "I'm going to start work now. Hang on, you haven't seen the ping pong table uh I think I meant to be doing my job what if the boss catches me don't worry the boss loves ping pong come on",
           "start": 108,
           "end": 122,
@@ -1197,7 +1318,7 @@
         },
         {
           "expressionId": "think",
-          "cueId": "c0010",
+          "cueId": "c0011",
           "quote": "I'm going to start work now. Hang on, you haven't seen the ping pong table uh I think I meant to be doing my job what if the boss catches me don't worry the boss loves ping pong come on",
           "start": 108,
           "end": 122,
@@ -1206,7 +1327,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0010",
+          "cueId": "c0011",
           "quote": "I'm going to start work now. Hang on, you haven't seen the ping pong table uh I think I meant to be doing my job what if the boss catches me don't worry the boss loves ping pong come on",
           "start": 108,
           "end": 122,
@@ -1215,7 +1336,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0010",
+          "cueId": "c0011",
           "quote": "I'm going to start work now. Hang on, you haven't seen the ping pong table uh I think I meant to be doing my job what if the boss catches me don't worry the boss loves ping pong come on",
           "start": 108,
           "end": 122,
@@ -1230,17 +1351,17 @@
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 11",
+      "id": "c0012",
+      "title": "문단 2",
       "start": 122,
       "end": 125,
       "sentenceText": "hey",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
+          "id": "c0012",
           "start": 122,
           "end": 125,
           "text": "hey",
@@ -1267,8 +1388,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"

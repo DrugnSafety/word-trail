@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, readdir, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
@@ -13,6 +13,7 @@ import {
   buildOriginalCueGroups,
   groupDialogueCues,
   isNonSpeechAnnotation,
+  parseChapteredTranscriptText,
   parseScriptHeadings,
   parseTranscriptText,
   segmentCues,
@@ -20,6 +21,7 @@ import {
   validateVideo,
   youtubeVideoIdFromUrl,
 } from '../scripts/build-catalog.mjs';
+import { buildAdditionalVideos } from '../scripts/build-additional-videos.mjs';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const expressionPath = path.join(rootDir, 'content/expressions.json');
@@ -37,6 +39,29 @@ test('script headings retain their exact first-cue marker including hour timesta
   assert.deepEqual(parseScriptHeadings(`# Video\n\n## Opening\n\n- \`[00:12 - 00:15]\` Hello.\n## Later\n- \`[1:02:03 - 1:02:05]\` Again.`), [
     { title: 'Opening', markerStart: 12 },
     { title: 'Later', markerStart: 3723 }
+  ]);
+});
+
+test('chaptered transcript parser accepts English and Korean headings plus copied YouTube timestamp labels', () => {
+  const parsed = parseChapteredTranscriptText(`Expected-Chapter-Count: 7
+Excerpt-End: 1:44
+챕터 1: Facey talk initiates
+0:2626초Opening line.
+0:5959초Last chapter-one line.
+Chapter 2: Sharing struggles
+1:051분 5초First chapter-two line.
+1:361분 36초Final confirmed line.`, 'fixture.txt');
+  assert.equal(parsed.expectedChapterCount, 7);
+  assert.equal(parsed.excerptEnd, 104);
+  assert.deepEqual(parsed.chapters.map(({ number, title, markerStart }) => ({ number, title, markerStart })), [
+    { number: 1, title: 'Facey talk initiates', markerStart: 26 },
+    { number: 2, title: 'Sharing struggles', markerStart: 65 },
+  ]);
+  assert.deepEqual(parsed.sections.map(({ start, end, text, chapterNumber }) => ({ start, end, text, chapterNumber })), [
+    { start: 26, end: 59, text: 'Opening line.', chapterNumber: 1 },
+    { start: 59, end: 65, text: 'Last chapter-one line.', chapterNumber: 1 },
+    { start: 65, end: 96, text: 'First chapter-two line.', chapterNumber: 2 },
+    { start: 96, end: 104, text: 'Final confirmed line.', chapterNumber: 2 },
   ]);
 });
 
@@ -255,6 +280,39 @@ test('expression validation rejects synonym aliases and dialogues without the ca
   assert.throws(() => validateExpressionBank([missingCardTerm]), /dialogue-missing-canonical-term/);
 });
 
+test('catalog publication appends a nonempty prepared-video manifest after the base catalog', async (t) => {
+  const tempRoot = await mkdtemp(path.join(os.tmpdir(), 'word-trail-additional-catalog-'));
+  t.after(() => rm(tempRoot, { recursive: true, force: true }));
+  const outputDir = path.join(tempRoot, 'data');
+  const catalogPath = path.join(tempRoot, 'catalog.json');
+  const manifestPath = path.join(tempRoot, 'additional-videos.json');
+  await writeFile(manifestPath, JSON.stringify({
+    version: 1,
+    videos: [{
+      id: 'video:rKgtm81yi94', youtubeId: 'rKgtm81yi94',
+      url: 'https://www.youtube.com/watch?v=rKgtm81yi94', title: 'Prepared catalog lesson',
+      durationSeconds: 60, topics: ['Science'], tags: ['movement'],
+      transcript: '0:00 Hello everyone.\n0:30 Move your body.',
+      chapters: [{ title: 'Introduction', startSeconds: 0 }, { title: 'Movement', startSeconds: 30 }],
+      createdAt: '2026-10-06T00:00:00Z', updatedAt: '2026-10-06T00:00:00Z',
+      captionType: 'YouTube English captions (human-made)',
+      transcriptProvenance: 'YouTube English caption track',
+      chapterProvenance: 'visible YouTube chapter markers',
+    }],
+  }));
+  await writeFile(catalogPath, JSON.stringify({
+    version: 'fixture', generatedAt: '2026-10-06T00:00:00.000Z',
+    videos: [{ id: 'video-01', number: 1, title: 'Base', duration: 10, sourceUrl: 'https://www.youtube.com/watch?v=kx8_wF9HOX8' }],
+  }));
+
+  const result = await buildAdditionalVideos({ manifestPath, catalogPath, videoOutputDir: path.join(outputDir, 'videos') });
+  assert.deepEqual(result.catalog.videos.map(({ id }) => id), ['video-01', 'custom-rKgtm81yi94']);
+  assert.deepEqual(result.catalog.videos[1].topics, ['Science']);
+  const video = JSON.parse(await readFile(path.join(outputDir, 'videos/custom-rKgtm81yi94.json'), 'utf8'));
+  assert.equal(video.sourceStatus, 'codex-prepared-not-audio-verified');
+  assert.equal(video.provenance.transcript, 'YouTube English caption track');
+});
+
 test('full build covers all 84 captured videos and matches committed deterministic data', async (t) => {
   const tempRoot = await mkdtemp(path.join(os.tmpdir(), 'word-trail-catalog-'));
   t.after(() => rm(tempRoot, { recursive: true, force: true }));
@@ -285,7 +343,7 @@ test('full build covers all 84 captured videos and matches committed determinist
     assert.equal(validateVideo(video, expressions), true);
     assert.equal(video.scenes.filter((scene) => scene.selectable).length, item.sceneCount);
     assert.equal(video.chapters.length, item.chapterCount);
-    assert.ok(video.chapters.every((chapter) => ['script-heading', 'whole-video', 'user-provided', 'partial-heading-fallback'].includes(chapter.source)));
+    assert.ok(video.chapters.every((chapter) => ['script-heading', 'whole-video', 'user-provided', 'youtube-chapter', 'youtube-auto-chapter', 'partial-heading-fallback'].includes(chapter.source)));
     assert.deepEqual(video.chapters.flatMap((chapter) => chapter.sceneIds), video.scenes.map((scene) => scene.id));
     assert.ok(video.scenes.every((scene) => scene.selectable === (scene.cues[0].originalCueRefs.length > 0 && !scene.qualityFlags.includes('non-speech-cue'))));
     assert.ok(video.scenes.every((scene) => scene.id === scene.cues[0].id));
@@ -319,7 +377,13 @@ test('full build covers all 84 captured videos and matches committed determinist
     "Bluey, I'm talking to you. Yes, Mum. No hogging.",
     "Because you know what happens when you hog, don't you? Yes, we know what happens when you hog. Wait. Do we?! Hi!"
   ]);
-  assert.ok(faceytalk.scenes.slice(0, 4).every((scene) => scene.qualityFlags.includes('explicit-parent-grouping')));
+  assert.ok(faceytalk.scenes.slice(0, 11).every((scene) => scene.qualityFlags.includes('explicit-script-section')));
+  assert.deepEqual(faceytalk.scenes.slice(0, 11).map((scene) => [scene.start, scene.end]), [
+    [26, 34], [33, 37], [37, 41], [41, 49], [49, 59], [59, 65],
+    [65, 71], [71, 79], [79, 88], [88, 96], [96, 104]
+  ]);
+  assert.match(faceytalk.scenes[9].sentenceText, /What\?! Whoa!/);
+  assert.equal(faceytalk.scenes[9].cues[0].textSource, 'user-provided-transcript');
   assert.ok(faceytalk.scenes.slice(0, 2).every((scene) => scene.qualityFlags.includes('overlapping-playback-window')));
   assert.deepEqual(faceytalk.scenes.slice(0, 4).map((scene) => [scene.cues[0].sourceCueRefs[0].id, scene.cues[0].sourceCueRefs[0].originalCueIds]), [
     ['c0001', ['c0001', 'c0002', 'c0003', 'c0004']],
@@ -330,7 +394,7 @@ test('full build covers all 84 captured videos and matches committed determinist
   assert.ok(faceytalk.scenes.slice(0, 4).every((scene) => !scene.qualityFlags.includes('duration-grouped-dialogue')));
   assert.equal(faceytalk.scenes.some((scene) => scene.start === 29 && scene.end === 30), false);
   assert.equal(faceytalk.scenes.some((scene) => scene.start === 30 && scene.end === 31), false);
-  assert.deepEqual(faceytalk.chapters.slice(0, 2).map((chapter) => ({
+  assert.deepEqual(faceytalk.chapters.slice(0, 3).map((chapter) => ({
     title: chapter.title,
     start: chapter.start,
     end: chapter.end,
@@ -338,21 +402,39 @@ test('full build covers all 84 captured videos and matches committed determinist
     source: chapter.source,
     provenance: chapter.provenance
   })), [
-    { title: 'Facey talk initiates', start: 26, end: 49, markerStart: 26, source: 'user-provided', provenance: 'user-provided-chapter-title-and-start' },
-    { title: '목차 확인 중', start: 49, end: 404, markerStart: 49, source: 'partial-heading-fallback', provenance: 'unverified-remainder-boundary-after-confirmed-segments' }
+    { title: 'Facey talk initiates', start: 26, end: 65, markerStart: 26, source: 'user-provided', provenance: 'user-provided-chapter-title-and-start' },
+    { title: 'Sharing struggles', start: 65, end: 104, markerStart: 65, source: 'user-provided', provenance: 'user-provided-chapter-title-and-start' },
+    { title: '목차 확인 중', start: 104, end: 404, markerStart: 104, source: 'partial-heading-fallback', provenance: 'unverified-remainder-after-user-confirmed-excerpt' }
   ]);
-  assert.ok(faceytalk.chapters[0].sceneIds.every((id) => faceytalk.scenes.find((scene) => scene.id === id).end <= 49));
-  assert.equal(faceytalk.chapters[0].coverage, 'confirmed-excerpt');
+  assert.ok(faceytalk.chapters[0].sceneIds.every((id) => faceytalk.scenes.find((scene) => scene.id === id).end <= 65));
+  assert.ok(faceytalk.chapters[1].sceneIds.every((id) => {
+    const scene = faceytalk.scenes.find((candidate) => candidate.id === id);
+    return scene.start >= 65 && scene.end <= 104;
+  }));
+  assert.equal(faceytalk.chapters[0].coverage, 'confirmed-boundaries');
+  assert.equal(faceytalk.chapters[1].coverage, 'confirmed-excerpt');
   assert.equal(faceytalk.chapterMetadataStatus, 'partial-user-confirmed');
   assert.equal(faceytalk.expectedChapterCount, 7);
 
   const compilation = JSON.parse(await readFile(path.join(outputDir, 'videos/video-02.json'), 'utf8'));
   assert.deepEqual(compilation.chapters.map((chapter) => [chapter.title, chapter.source]), [
-    ['도입부', 'whole-video'],
-    ['Mini Bluey', 'script-heading'],
-    ['Pass the Parcel', 'script-heading'],
-    ['Pizza Girls', 'script-heading'],
-    ['FaceyTalk', 'script-heading']
+    ['Mini Bluey', 'youtube-chapter'],
+    ['Pass the Parcel', 'youtube-chapter'],
+    ['Pizza Girls', 'youtube-chapter'],
+    ['Faceytalk', 'youtube-chapter']
+  ]);
+  assert.equal(compilation.chapterMetadataStatus, 'youtube-metadata-verified');
+  assert.ok(compilation.chapters.every((chapter) => chapter.provenance === 'youtube-player-metadata-via-yt-dlp'));
+
+  const pizzaGirls = JSON.parse(await readFile(path.join(outputDir, 'videos/video-03.json'), 'utf8'));
+  assert.equal(pizzaGirls.chapterMetadataStatus, 'browser-visible-youtube-auto-chapters');
+  assert.deepEqual(pizzaGirls.chapters.map((chapter) => [chapter.title, chapter.markerStart, chapter.source, chapter.provenance]), [
+    ['The pizza shop game', 0, 'youtube-auto-chapter', 'browser-visible-youtube-auto-chapters'],
+    ['Fixing the car', 103, 'youtube-auto-chapter', 'browser-visible-youtube-auto-chapters'],
+    ['Electric car troubles', 131, 'youtube-auto-chapter', 'browser-visible-youtube-auto-chapters'],
+    ['Driving in the park', 208, 'youtube-auto-chapter', 'browser-visible-youtube-auto-chapters'],
+    ['Charging and chaos', 251, 'youtube-auto-chapter', 'browser-visible-youtube-auto-chapters'],
+    ['Making fast deliveries', 322, 'youtube-auto-chapter', 'browser-visible-youtube-auto-chapters'],
   ]);
   assert.ok(compilation.scenes.every((scene) => compilation.chapters.some((chapter) => chapter.id === scene.chapterId && chapter.sceneIds.includes(scene.id))));
 
@@ -367,8 +449,16 @@ test('full build covers all 84 captured videos and matches committed determinist
   assert.ok(cubbyChapter.qualityFlags.includes('chapter-title-corrected-from-video-title'));
   assert.ok(cubby.qualityFlags.includes('contains-corrected-chapter-title'));
 
+  const additionalResult = await buildAdditionalVideos({
+    manifestPath: path.join(rootDir, 'content/additional-videos.json'),
+    catalogPath: path.join(outputDir, 'catalog.json'),
+    videoOutputDir: path.join(outputDir, 'videos'),
+  });
+  const generatedCatalog = JSON.parse(await readFile(path.join(outputDir, 'catalog.json'), 'utf8'));
+  assert.deepEqual(generatedCatalog, additionalResult.catalog);
+  assert.deepEqual(generatedCatalog.videos.slice(0, catalog.videos.length), catalog.videos);
   const committedCatalog = JSON.parse(await readFile(path.join(rootDir, 'public/data/catalog.json'), 'utf8'));
-  assert.deepEqual(catalog, committedCatalog);
+  assert.deepEqual(generatedCatalog, committedCatalog);
   const committedVocabulary = JSON.parse(await readFile(path.join(rootDir, 'public/data/vocabulary.json'), 'utf8'));
   assert.deepEqual(committedVocabulary, sourceVocabulary);
 });

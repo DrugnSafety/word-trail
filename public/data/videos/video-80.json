@@ -17,30 +17,83 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Bingo's Crab Claw Show and Tell 🦀 🧡 | Bluey Season 3 Highlight ⭐️ | Bluey",
+      "title": "Getting lost",
       "start": 0,
-      "end": 114,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 35,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Finding the surfboard",
+      "start": 35,
+      "markerStart": 35,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 64,
+      "sceneIds": [
         "c0007",
         "c0008",
         "c0009",
-        "c0010",
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Finding the crab claw",
+      "start": 64,
+      "markerStart": 67,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 88,
+      "sceneIds": [
         "c0011",
         "c0012",
         "c0013",
-        "c0014",
+        "c0014"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Show and tell",
+      "start": 88,
+      "markerStart": 89,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 114,
+      "sceneIds": [
         "c0015",
         "c0016",
         "c0017"
@@ -685,12 +738,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 1",
       "start": 35,
       "end": 41,
       "sentenceText": "Okay, let's give it a go. Bye, Statue World. In 50 m, turn right.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -751,8 +804,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -797,12 +850,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 41,
       "end": 46,
       "sentenceText": "Now, turn right like she says. This better work. Turn left here.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -863,8 +916,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -900,12 +953,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 46,
       "end": 55,
       "sentenceText": "Well, I just Okay, continue straight if you say so.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -981,8 +1034,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1009,20 +1062,20 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 4",
       "start": 55,
-      "end": 60,
-      "sentenceText": "You have arrived. Look, you're surfboard. No, it worked.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "end": 64,
+      "sentenceText": "You have arrived. Look, you're surfboard. No, it worked. I told you. I'm sorry, satnav.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
           "start": 55,
-          "end": 60,
-          "text": "You have arrived. Look, you're surfboard. No, it worked.",
-          "originalText": ">> You have arrived. Look, you're surfboard. >> No, it worked.",
+          "end": 64,
+          "text": "You have arrived. Look, you're surfboard. No, it worked. I told you. I'm sorry, satnav.",
+          "originalText": ">> You have arrived. Look, you're surfboard. >> No, it worked. >> I told you. >> I'm sorry, satnav.",
           "originalCueRefs": [
             {
               "id": "c0027",
@@ -1041,6 +1094,18 @@
               "start": 59,
               "end": 60,
               "text": ">> No, it worked."
+            },
+            {
+              "id": "c0030",
+              "start": 60,
+              "end": 62,
+              "text": ">> I told you."
+            },
+            {
+              "id": "c0031",
+              "start": 62,
+              "end": 64,
+              "text": ">> I'm sorry, satnav."
             }
           ],
           "cleanedCueRefs": [],
@@ -1071,83 +1136,7 @@
               "originalCueIds": [
                 "c0029"
               ]
-            }
-          ],
-          "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
-          "qualityFlags": [
-            "raw-original-text",
-            "non-spoken-annotation-removed",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "look",
-          "cueId": "c0010",
-          "quote": "You have arrived. Look, you're surfboard. No, it worked.",
-          "start": 55,
-          "end": 60,
-          "matchStart": 18,
-          "matchEnd": 22
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0010",
-          "quote": "You have arrived. Look, you're surfboard. No, it worked.",
-          "start": 55,
-          "end": 60,
-          "matchStart": 42,
-          "matchEnd": 44
-        }
-      ],
-      "qualityFlags": [
-        "raw-original-text",
-        "non-spoken-annotation-removed",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0011",
-      "title": "문단 11",
-      "start": 60,
-      "end": 68,
-      "sentenceText": "I told you. I'm sorry, satnav. That is okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0011",
-          "start": 60,
-          "end": 68,
-          "text": "I told you. I'm sorry, satnav. That is okay.",
-          "originalText": ">> I told you. >> I'm sorry, satnav. >> That is okay.",
-          "originalCueRefs": [
-            {
-              "id": "c0030",
-              "start": 60,
-              "end": 62,
-              "text": ">> I told you."
             },
-            {
-              "id": "c0031",
-              "start": 62,
-              "end": 64,
-              "text": ">> I'm sorry, satnav."
-            },
-            {
-              "id": "c0032",
-              "start": 64,
-              "end": 68,
-              "text": ">> That is okay."
-            }
-          ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
             {
               "id": "c0030",
               "start": 60,
@@ -1165,21 +1154,12 @@
               "originalCueIds": [
                 "c0031"
               ]
-            },
-            {
-              "id": "c0032",
-              "start": 64,
-              "end": 68,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0032"
-              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1189,22 +1169,31 @@
       ],
       "targets": [
         {
-          "expressionId": "sorry",
-          "cueId": "c0011",
-          "quote": "I told you. I'm sorry, satnav. That is okay.",
-          "start": 60,
-          "end": 68,
-          "matchStart": 16,
-          "matchEnd": 21
+          "expressionId": "look",
+          "cueId": "c0010",
+          "quote": "You have arrived. Look, you're surfboard. No, it worked. I told you. I'm sorry, satnav.",
+          "start": 55,
+          "end": 64,
+          "matchStart": 18,
+          "matchEnd": 22
         },
         {
-          "expressionId": "okay",
-          "cueId": "c0011",
-          "quote": "I told you. I'm sorry, satnav. That is okay.",
-          "start": 60,
-          "end": 68,
-          "matchStart": 39,
-          "matchEnd": 43
+          "expressionId": "no",
+          "cueId": "c0010",
+          "quote": "You have arrived. Look, you're surfboard. No, it worked. I told you. I'm sorry, satnav.",
+          "start": 55,
+          "end": 64,
+          "matchStart": 42,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "sorry",
+          "cueId": "c0010",
+          "quote": "You have arrived. Look, you're surfboard. No, it worked. I told you. I'm sorry, satnav.",
+          "start": 55,
+          "end": 64,
+          "matchStart": 73,
+          "matchEnd": 78
         }
       ],
       "qualityFlags": [
@@ -1214,28 +1203,119 @@
       ]
     },
     {
-      "id": "c0012",
-      "title": "문단 12",
-      "start": 70,
-      "end": 77,
-      "sentenceText": "Whoa. What do you got there? It's a crab claw. Oh, yeah. Look, it's from a blue coral crab.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "id": "c0011",
+      "title": "문단 1",
+      "start": 64,
+      "end": 72,
+      "sentenceText": "That is okay. Whoa. What do you got there?",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0012",
-          "start": 70,
-          "end": 77,
-          "text": "Whoa. What do you got there? It's a crab claw. Oh, yeah. Look, it's from a blue coral crab.",
-          "originalText": ">> Whoa. What do you got there? >> It's a crab claw. >> Oh, yeah. Look, it's from a blue coral crab.",
+          "id": "c0011",
+          "start": 64,
+          "end": 72,
+          "text": "That is okay. Whoa. What do you got there?",
+          "originalText": ">> That is okay. >> Whoa. What do you got there?",
           "originalCueRefs": [
+            {
+              "id": "c0032",
+              "start": 64,
+              "end": 68,
+              "text": ">> That is okay."
+            },
             {
               "id": "c0033",
               "start": 70,
               "end": 72,
               "text": ">> Whoa. What do you got there?"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 70,
+              "end": 72,
+              "text": "Whoa. What do you got there?"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0032",
+              "start": 64,
+              "end": 68,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
             },
+            {
+              "id": "c0033",
+              "start": 70,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "non-spoken-annotation-removed",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0011",
+          "quote": "That is okay. Whoa. What do you got there?",
+          "start": 64,
+          "end": 72,
+          "matchStart": 8,
+          "matchEnd": 12
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0011",
+          "quote": "That is okay. Whoa. What do you got there?",
+          "start": 64,
+          "end": 72,
+          "matchStart": 20,
+          "matchEnd": 24
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "non-spoken-annotation-removed",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 2",
+      "start": 72,
+      "end": 77,
+      "sentenceText": "It's a crab claw. Oh, yeah. Look, it's from a blue coral crab.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 72,
+          "end": 77,
+          "text": "It's a crab claw. Oh, yeah. Look, it's from a blue coral crab.",
+          "originalText": ">> It's a crab claw. >> Oh, yeah. Look, it's from a blue coral crab.",
+          "originalCueRefs": [
             {
               "id": "c0034",
               "start": 72,
@@ -1257,12 +1337,6 @@
           ],
           "cleanedCueRefs": [
             {
-              "id": "c0026",
-              "start": 70,
-              "end": 72,
-              "text": "Whoa. What do you got there?"
-            },
-            {
               "id": "c0027",
               "start": 72,
               "end": 74,
@@ -1270,15 +1344,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0033",
-              "start": 70,
-              "end": 72,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0033"
-              ]
-            },
             {
               "id": "c0034",
               "start": 72,
@@ -1309,8 +1374,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1321,22 +1386,13 @@
       ],
       "targets": [
         {
-          "expressionId": "what",
-          "cueId": "c0012",
-          "quote": "Whoa. What do you got there? It's a crab claw. Oh, yeah. Look, it's from a blue coral crab.",
-          "start": 70,
-          "end": 77,
-          "matchStart": 6,
-          "matchEnd": 10
-        },
-        {
           "expressionId": "look",
           "cueId": "c0012",
-          "quote": "Whoa. What do you got there? It's a crab claw. Oh, yeah. Look, it's from a blue coral crab.",
-          "start": 70,
+          "quote": "It's a crab claw. Oh, yeah. Look, it's from a blue coral crab.",
+          "start": 72,
           "end": 77,
-          "matchStart": 57,
-          "matchEnd": 61
+          "matchStart": 28,
+          "matchEnd": 32
         }
       ],
       "qualityFlags": [
@@ -1348,12 +1404,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 3",
       "start": 77,
       "end": 82,
       "sentenceText": "Oo. Ooh! Hey, watch this. Can I have a turn?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1433,8 +1489,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1472,12 +1528,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 4",
       "start": 82,
       "end": 88,
       "sentenceText": "Hey, Bluey, throw that strap back to me, will you? will you? Yes, Dad. Oh, as long as that's bossing you around.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1566,8 +1622,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1603,12 +1659,12 @@
     },
     {
       "id": "c0015",
-      "title": "문단 15",
+      "title": "문단 1",
       "start": 88,
       "end": 94,
       "sentenceText": "No, it's fine. That's it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1654,8 +1710,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1691,12 +1747,12 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
+      "title": "문단 2",
       "start": 94,
       "end": 105,
       "sentenceText": "Hello everybody. Hi Bingo. For show and tell, I've brought a crab claw. It's from a blue coral crab.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1772,8 +1828,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1800,12 +1856,12 @@
     },
     {
       "id": "c0017",
-      "title": "문단 17",
+      "title": "문단 3",
       "start": 106,
       "end": 114,
       "sentenceText": "Oh, and it does this again.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 17,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1851,8 +1907,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",

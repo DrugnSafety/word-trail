@@ -17,24 +17,87 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 5,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Bluey's New Room | Bedroom - Series 3 | Bluey",
+      "title": "Bed setup",
       "start": 0,
-      "end": 123,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 20,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Toy ownership dispute",
+      "start": 20,
+      "markerStart": 20,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 47,
+      "sceneIds": [
         "c0003",
         "c0004",
-        "c0005",
-        "c0006",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Sharing toys",
+      "start": 47,
+      "markerStart": 47,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 62,
+      "sceneIds": [
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Playing sleep awake",
+      "start": 62,
+      "markerStart": 62,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 90,
+      "sceneIds": [
         "c0007",
-        "c0008",
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Bedtime routine",
+      "start": 90,
+      "markerStart": 90,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 123,
+      "sceneIds": [
         "c0009",
         "c0010",
         "c0011"
@@ -222,8 +285,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 13,
-      "end": 18,
-      "sentenceText": "Not much. Come on, Malcolm, do something.",
+      "end": 20,
+      "sentenceText": "Not much. Come on, Malcolm, do something. Ooh, he heard us!",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -231,15 +294,21 @@
         {
           "id": "c0002",
           "start": 13,
-          "end": 18,
-          "text": "Not much. Come on, Malcolm, do something.",
-          "originalText": "not much come on malcolm do something",
+          "end": 20,
+          "text": "Not much. Come on, Malcolm, do something. Ooh, he heard us!",
+          "originalText": "not much come on malcolm do something oh he heard us",
           "originalCueRefs": [
             {
               "id": "c0006",
               "start": 13,
               "end": 18,
               "text": "not much come on malcolm do something"
+            },
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "text": "oh he heard us"
             }
           ],
           "cleanedCueRefs": [
@@ -254,6 +323,12 @@
               "start": 14,
               "end": 18,
               "text": "Come on, Malcolm, do something."
+            },
+            {
+              "id": "c0011",
+              "start": 18,
+              "end": 20,
+              "text": "Ooh, he heard us!"
             }
           ],
           "sourceCueRefs": [
@@ -265,14 +340,24 @@
               "originalCueIds": [
                 "c0006"
               ]
+            },
+            {
+              "id": "c0007",
+              "start": 18,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "original-captured-cue",
+          "groupingProvenance": "duration-dialogue-grouping",
           "chapterId": "chapter-001",
           "paragraphIndex": 2,
           "qualityFlags": [
-            "corrected-text-exact-coverage"
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
           ]
         }
       ],
@@ -280,40 +365,35 @@
         {
           "expressionId": "come-on",
           "cueId": "c0002",
-          "quote": "Not much. Come on, Malcolm, do something.",
+          "quote": "Not much. Come on, Malcolm, do something. Ooh, he heard us!",
           "start": 13,
-          "end": 18,
+          "end": 20,
           "matchStart": 10,
           "matchEnd": 17
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage"
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0003",
-      "title": "문단 3",
-      "start": 18,
+      "title": "문단 1",
+      "start": 20,
       "end": 29,
-      "sentenceText": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "sentenceText": "okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0003",
-          "start": 18,
+          "start": 20,
           "end": 29,
-          "text": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
-          "originalText": "oh he heard us okay these teddies are mine and these are all mine yes now what about gloria yes what about",
+          "text": "okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "originalText": "okay these teddies are mine and these are all mine yes now what about gloria yes what about",
           "originalCueRefs": [
-            {
-              "id": "c0007",
-              "start": 18,
-              "end": 20,
-              "text": "oh he heard us"
-            },
             {
               "id": "c0008",
               "start": 20,
@@ -335,12 +415,6 @@
           ],
           "cleanedCueRefs": [
             {
-              "id": "c0011",
-              "start": 18,
-              "end": 20,
-              "text": "Ooh, he heard us!"
-            },
-            {
               "id": "c0014",
               "start": 24,
               "end": 25,
@@ -360,15 +434,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0007",
-              "start": 18,
-              "end": 20,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0007"
-              ]
-            },
             {
               "id": "c0008",
               "start": 20,
@@ -399,11 +464,11 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
+            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
@@ -412,45 +477,45 @@
         {
           "expressionId": "okay",
           "cueId": "c0003",
-          "quote": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
-          "start": 18,
+          "quote": "okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "start": 20,
           "end": 29,
-          "matchStart": 18,
-          "matchEnd": 22
+          "matchStart": 0,
+          "matchEnd": 4
         },
         {
           "expressionId": "yes",
           "cueId": "c0003",
-          "quote": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
-          "start": 18,
+          "quote": "okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "start": 20,
           "end": 29,
-          "matchStart": 69,
-          "matchEnd": 72
+          "matchStart": 51,
+          "matchEnd": 54
         },
         {
           "expressionId": "what",
           "cueId": "c0003",
-          "quote": "Ooh, he heard us! okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
-          "start": 18,
+          "quote": "okay these teddies are mine and these are all mine Yes, now. What about Gloria? Yes, what about Gloria?",
+          "start": 20,
           "end": 29,
-          "matchStart": 79,
-          "matchEnd": 83
+          "matchStart": 61,
+          "matchEnd": 65
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
+        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 29,
       "end": 44,
       "sentenceText": "gloria she was a christmas present to me from granddad but you didn't get a christmas present from grandad because he forgot i was born yes he forgot you were born so you said it's okay bingo",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -541,8 +606,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -576,27 +641,83 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 3",
       "start": 44,
-      "end": 56,
-      "sentenceText": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "end": 47,
+      "sentenceText": "she can be both of us yes that's right",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0005",
           "start": 44,
-          "end": 56,
-          "text": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
-          "originalText": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
+          "end": 47,
+          "text": "she can be both of us yes that's right",
+          "originalText": "she can be both of us yes that's right",
           "originalCueRefs": [
             {
               "id": "c0016",
               "start": 44,
               "end": 47,
               "text": "she can be both of us yes that's right"
-            },
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 44,
+              "end": 47,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "yes",
+          "cueId": "c0005",
+          "quote": "she can be both of us yes that's right",
+          "start": 44,
+          "end": 47,
+          "matchStart": 22,
+          "matchEnd": 25
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0006",
+      "title": "문단 1",
+      "start": 47,
+      "end": 62,
+      "sentenceText": "so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight Oh, okay.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0006",
+          "start": 47,
+          "end": 62,
+          "text": "so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight Oh, okay.",
+          "originalText": "so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight oh okay",
+          "originalCueRefs": [
             {
               "id": "c0017",
               "start": 47,
@@ -620,19 +741,23 @@
               "start": 53,
               "end": 56,
               "text": "about she sleeps over at yours tonight"
+            },
+            {
+              "id": "c0021",
+              "start": 56,
+              "end": 62,
+              "text": "oh okay"
             }
           ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
+          "cleanedCueRefs": [
             {
-              "id": "c0016",
-              "start": 44,
-              "end": 47,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0016"
-              ]
-            },
+              "id": "c0028",
+              "start": 56,
+              "end": 62,
+              "text": "Oh, okay."
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0017",
               "start": 47,
@@ -668,76 +793,7 @@
               "originalCueIds": [
                 "c0020"
               ]
-            }
-          ],
-          "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
-          "qualityFlags": [
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "yes",
-          "cueId": "c0005",
-          "quote": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
-          "start": 44,
-          "end": 56,
-          "matchStart": 22,
-          "matchEnd": 25
-        },
-        {
-          "expressionId": "how",
-          "cueId": "c0005",
-          "quote": "she can be both of us yes that's right so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight",
-          "start": 44,
-          "end": 56,
-          "matchStart": 111,
-          "matchEnd": 114
-        }
-      ],
-      "qualityFlags": [
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0006",
-      "title": "문단 6",
-      "start": 56,
-      "end": 62,
-      "sentenceText": "Oh, okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0006",
-          "start": 56,
-          "end": 62,
-          "text": "Oh, okay.",
-          "originalText": "oh okay",
-          "originalCueRefs": [
-            {
-              "id": "c0021",
-              "start": 56,
-              "end": 62,
-              "text": "oh okay"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0028",
-              "start": 56,
-              "end": 62,
-              "text": "Oh, okay."
-            }
-          ],
-          "sourceCueRefs": [
+            },
             {
               "id": "c0021",
               "start": 56,
@@ -748,38 +804,51 @@
               ]
             }
           ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage"
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
           ]
         }
       ],
       "targets": [
         {
+          "expressionId": "how",
+          "cueId": "c0006",
+          "quote": "so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight Oh, okay.",
+          "start": 47,
+          "end": 62,
+          "matchStart": 72,
+          "matchEnd": 75
+        },
+        {
           "expressionId": "okay",
           "cueId": "c0006",
-          "quote": "Oh, okay.",
-          "start": 56,
+          "quote": "so whose room should she go in hmm she can go to yours thanks bluey but how about she sleeps over at yours tonight Oh, okay.",
+          "start": 47,
           "end": 62,
-          "matchStart": 4,
-          "matchEnd": 8
+          "matchStart": 119,
+          "matchEnd": 123
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage"
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 1",
       "start": 62,
       "end": 75,
       "sentenceText": "Who keeps Lampy? oh um you can keep her no it's okay you take lumpy thanks but can we play a sleep awake oh okay Asleep...",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -883,8 +952,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -929,12 +998,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 75,
       "end": 79,
       "sentenceText": "Awake! Let's see...",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -993,8 +1062,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue",
@@ -1030,12 +1099,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 1",
       "start": 90,
       "end": 101,
       "sentenceText": "okay kids into bed come on big d is ready for knock-off yeah yeah yeah where are you going oh yeah i forgot 'Night, Bluey. 'Night, Bingo. Sleep tight. You too.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1136,8 +1205,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1200,12 +1269,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 2",
       "start": 101,
       "end": 113,
       "sentenceText": "don't let the bed bugs bite take care of gloria and lampy yes i will all right come on come on You all set, Bluey?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1288,8 +1357,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1343,12 +1412,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 3",
       "start": 113,
       "end": 123,
       "sentenceText": "Exciting! night night oh tell bingo to say goodnight to malcolm for me okay",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1416,8 +1485,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",

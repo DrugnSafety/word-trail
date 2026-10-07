@@ -17,25 +17,78 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Story Time with Unicorse",
-      "start": 1,
-      "end": 124,
-      "source": "whole-video",
+      "title": "Starting the story",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 51,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "The queen's indecision",
+      "start": 51,
+      "markerStart": 51,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 74,
+      "sceneIds": [
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "The prickle incident",
+      "start": 74,
+      "markerStart": 75,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 95,
+      "sceneIds": [
         "c0008",
-        "c0009",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "The kingdom's solution",
+      "start": 95,
+      "markerStart": 96,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 124,
+      "sceneIds": [
         "c0010",
         "c0011",
         "c0012",
@@ -608,8 +661,8 @@
       "id": "c0005",
       "title": "문단 5",
       "start": 45,
-      "end": 55,
-      "sentenceText": "Where she makes shoes! of course One day, the Queen decided to get off her litter and have a walk around.",
+      "end": 49,
+      "sentenceText": "Where she makes shoes! of course",
       "chapterId": "chapter-001",
       "paragraphIndex": 5,
       "selectable": true,
@@ -617,9 +670,9 @@
         {
           "id": "c0005",
           "start": 45,
-          "end": 55,
-          "text": "Where she makes shoes! of course One day, the Queen decided to get off her litter and have a walk around.",
-          "originalText": "where she makes shoes of course one day the queen decided to get off her litter and have a walk around changed my",
+          "end": 49,
+          "text": "Where she makes shoes! of course",
+          "originalText": "where she makes shoes of course",
           "originalCueRefs": [
             {
               "id": "c0018",
@@ -632,18 +685,6 @@
               "start": 47,
               "end": 49,
               "text": "of course"
-            },
-            {
-              "id": "c0020",
-              "start": 51,
-              "end": 53,
-              "text": "one day the queen decided to get off her"
-            },
-            {
-              "id": "c0021",
-              "start": 53,
-              "end": 55,
-              "text": "litter and have a walk around changed my"
             }
           ],
           "cleanedCueRefs": [
@@ -652,18 +693,6 @@
               "start": 45,
               "end": 47,
               "text": "Where she makes shoes!"
-            },
-            {
-              "id": "c0022",
-              "start": 51,
-              "end": 53,
-              "text": "One day, the Queen decided to get off her litter"
-            },
-            {
-              "id": "c0023",
-              "start": 53,
-              "end": 55,
-              "text": "and have a walk around."
             }
           ],
           "sourceCueRefs": [
@@ -684,24 +713,6 @@
               "originalCueIds": [
                 "c0019"
               ]
-            },
-            {
-              "id": "c0020",
-              "start": 51,
-              "end": 53,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0020"
-              ]
-            },
-            {
-              "id": "c0021",
-              "start": 53,
-              "end": 55,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0021"
-              ]
             }
           ],
           "textSource": "mixed-captured-sources",
@@ -711,7 +722,8 @@
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
-            "duration-grouped-dialogue"
+            "duration-grouped-dialogue",
+            "short-dialogue-fragment"
           ]
         }
       ],
@@ -719,9 +731,9 @@
         {
           "expressionId": "where",
           "cueId": "c0005",
-          "quote": "Where she makes shoes! of course One day, the Queen decided to get off her litter and have a walk around.",
+          "quote": "Where she makes shoes! of course",
           "start": 45,
-          "end": 55,
+          "end": 49,
           "matchStart": 0,
           "matchEnd": 5
         }
@@ -729,26 +741,39 @@
       "qualityFlags": [
         "corrected-text-exact-coverage",
         "raw-original-text",
-        "duration-grouped-dialogue"
+        "duration-grouped-dialogue",
+        "short-dialogue-fragment"
       ]
     },
     {
       "id": "c0006",
-      "title": "문단 6",
-      "start": 55,
+      "title": "문단 1",
+      "start": 51,
       "end": 65,
-      "sentenceText": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "sentenceText": "One day, the Queen decided to get off her litter and have a walk around. mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
-          "start": 55,
+          "start": 51,
           "end": 65,
-          "text": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
-          "originalText": "mind oh wait changed it again actually i will nope not today of course that is bad behavior maybe",
+          "text": "One day, the Queen decided to get off her litter and have a walk around. mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+          "originalText": "one day the queen decided to get off her litter and have a walk around changed my mind oh wait changed it again actually i will nope not today of course that is bad behavior maybe",
           "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 51,
+              "end": 53,
+              "text": "one day the queen decided to get off her"
+            },
+            {
+              "id": "c0021",
+              "start": 53,
+              "end": 55,
+              "text": "litter and have a walk around changed my"
+            },
             {
               "id": "c0022",
               "start": 55,
@@ -770,6 +795,18 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0022",
+              "start": 51,
+              "end": 53,
+              "text": "One day, the Queen decided to get off her litter"
+            },
+            {
+              "id": "c0023",
+              "start": 53,
+              "end": 55,
+              "text": "and have a walk around."
+            },
+            {
               "id": "c0028",
               "start": 62,
               "end": 65,
@@ -777,6 +814,24 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 51,
+              "end": 53,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
+              "id": "c0021",
+              "start": 53,
+              "end": 55,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0021"
+              ]
+            },
             {
               "id": "c0022",
               "start": 55,
@@ -807,11 +862,11 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "raw-original-text",
             "corrected-text-exact-coverage",
+            "raw-original-text",
             "duration-grouped-dialogue"
           ]
         }
@@ -820,36 +875,36 @@
         {
           "expressionId": "wait",
           "cueId": "c0006",
-          "quote": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
-          "start": 55,
+          "quote": "One day, the Queen decided to get off her litter and have a walk around. mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+          "start": 51,
           "end": 65,
-          "matchStart": 8,
-          "matchEnd": 12
+          "matchStart": 81,
+          "matchEnd": 85
         },
         {
           "expressionId": "again",
           "cueId": "c0006",
-          "quote": "mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
-          "start": 55,
+          "quote": "One day, the Queen decided to get off her litter and have a walk around. mind oh wait changed it again actually i will nope not today Unicorse! That is bad behaviour!",
+          "start": 51,
           "end": 65,
-          "matchStart": 24,
-          "matchEnd": 29
+          "matchStart": 97,
+          "matchEnd": 102
         }
       ],
       "qualityFlags": [
-        "raw-original-text",
         "corrected-text-exact-coverage",
+        "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 2",
       "start": 65,
       "end": 74,
       "sentenceText": "Meh-meh-meh. Oh! So is that! Meep-meep-meep. Shall we continue? Ugh, yes.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -941,8 +996,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -976,12 +1031,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 1",
       "start": 74,
       "end": 88,
       "sentenceText": "so the queen walked a few steps and stood on a prickle ouch and of course that's mean how would you feel if you stood on a prickle i feel I'd feel good, I'd feel so good, I'd dance!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1079,8 +1134,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1116,12 +1171,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 2",
       "start": 88,
       "end": 95,
       "sentenceText": "you wouldn't dance you'd be crying like the queen well maybe she should wear some shoes Unicorse!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1204,8 +1259,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1232,12 +1287,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 1",
       "start": 95,
       "end": 105,
       "sentenceText": "anyway the queen discovered that her whole kingdom was covered in prickles What was she to do? Make shoes! Ugh, Bluey!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1317,8 +1372,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1354,12 +1409,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 2",
       "start": 105,
       "end": 111,
       "sentenceText": "oh i know unicorns what's your favorite food Children.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1427,8 +1482,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1464,12 +1519,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 3",
       "start": 111,
       "end": 118,
       "sentenceText": "Oh. Just kidding, I like chicken bucket. Oh, great, look, here's some chicken bucket.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1549,8 +1604,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1593,12 +1648,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 4",
       "start": 118,
       "end": 124,
       "sentenceText": "thank you mighty kind okay we're good to go",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1644,8 +1699,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"

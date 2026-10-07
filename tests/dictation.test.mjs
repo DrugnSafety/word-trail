@@ -149,3 +149,37 @@ test('sentence length is bounded', () => {
   assert.throws(() => compareSentence('a'.repeat(101), ''), /기준 문장의 각 단어는 100자 이하/);
   assert.throws(() => compareSentence('ok', Array(201).fill('x').join(' ')), /입력 문장은 단어 200개 이하/);
 });
+
+test('dictation applies supplied family inflections and preserves the mistaken source form', () => {
+  const record = makeDictationRecord({
+    videoId: 'video-01', sceneId: 's001', contentVersion: '1',
+    reference: 'She phoned Mum', answer: 'She Mum',
+    families: [{ id: 'phone', terms: ['phone', 'phones', 'phoned', 'phoning'] }]
+  });
+  assert.deepEqual(record.selectedKeys, ['word:phone']);
+  assert.equal(record.words[0].term, 'phone');
+  assert.equal(record.words[0].sourceTerm, 'phoned');
+  assert.deepEqual(record.words[0].sourceIndexes, [1]);
+});
+
+test('dictation reload canonicalizes legacy lemma history and retains reading completion', () => {
+  const previous = makeDictationRecord({
+    videoId: 'video-01', sceneId: 's001', contentVersion: '1',
+    reference: 'Goals matter', answer: '',
+  });
+  previous.words[0] = {
+    ...previous.words[0], key: 'word:goals', term: 'Goals', studied: true, studyAttempts: 4,
+    registeredAt: '2026-09-20T10:00:00.000Z',
+    practice: { reading: { attempts: 4, correct: 4, lastPracticedAt: '2026-09-25T10:00:00.000Z' } },
+    review: { step: 3, dueAt: '2026-10-09T10:00:00.000Z', lastReviewedDate: '2026-09-25' }
+  };
+  previous.selectedKeys = ['word:goals'];
+  const reloaded = makeDictationRecord({
+    videoId: 'video-01', sceneId: 's001', contentVersion: '1',
+    reference: 'Goals matter', answer: 'Goals matter', previous
+  });
+  assert.equal(reloaded.words[0].key, 'word:goal');
+  assert.equal(reloaded.words[0].studyAttempts, 4);
+  assert.equal(reloaded.words[0].practice.reading.correct, 4);
+  assert.equal(reloaded.words[0].review.step, 3);
+});

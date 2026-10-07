@@ -1,4 +1,4 @@
-import { normalizeWord, wordCandidates } from './vocabulary.js';
+import { canonicalizeVocabularyRecord, normalizeWord, wordCandidates } from './vocabulary.js';
 
 const MAX_SENTENCE_LENGTH = 2000;
 const MAX_WORD_LENGTH = 100;
@@ -181,11 +181,13 @@ export function makeDictationRecord({
   contentVersion,
   reference,
   answer,
-  previous = null
+  previous = null,
+  families = []
 }) {
+  const canonicalPrevious = canonicalizeVocabularyRecord(previous, { families });
   const comparison = compareSentence(reference, answer);
-  const currentMistakes = wordCandidates(reference, comparison).filter(word => word.currentMistake);
-  const historical = (Array.isArray(previous?.words) ? previous.words : [])
+  const currentMistakes = wordCandidates(reference, comparison, { families }).filter(word => word.currentMistake);
+  const historical = (Array.isArray(canonicalPrevious?.words) ? canonicalPrevious.words : [])
     .filter(word => word?.registeredAt || word?.currentMistake !== true);
   const words = [];
   const byTerm = new Map();
@@ -201,7 +203,7 @@ export function makeDictationRecord({
       words[existing] = {
         ...input, ...prior, key: `word:${normalized}`,
         kind: input.kind, typed: input.typed, sourceIndex: input.sourceIndex,
-        sourceIndexes: input.sourceIndexes, currentMistake: input.currentMistake
+        sourceIndexes: input.sourceIndexes, sourceTerm: input.sourceTerm, currentMistake: input.currentMistake
       };
     }
   }
@@ -209,13 +211,13 @@ export function makeDictationRecord({
   const selectedKeys = currentMistakes.map(word => word.key);
   const selectedSet = new Set(selectedKeys);
   return {
-    learnerId: learnerId ?? previous?.learnerId ?? 'default',
+    learnerId: learnerId ?? canonicalPrevious?.learnerId ?? 'default',
     videoId,
     sceneId,
     contentVersion,
     reference: String(reference ?? ''),
     answer: String(answer ?? ''),
-    attempts: (Number.isInteger(previous?.attempts) && previous.attempts >= 0 ? previous.attempts : 0) + 1,
+    attempts: (Number.isInteger(canonicalPrevious?.attempts) && canonicalPrevious.attempts >= 0 ? canonicalPrevious.attempts : 0) + 1,
     words: words.map(word => ({ ...word, selected: selectedSet.has(word.key) })),
     selectedKeys,
     updatedAt: new Date().toISOString()

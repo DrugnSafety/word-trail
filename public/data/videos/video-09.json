@@ -16,23 +16,58 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 3,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Meet Aunty Brandy",
+      "title": "The onesie game",
       "start": 0,
-      "end": 133,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 30,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Auntie Brandy's visit",
+      "start": 30,
+      "markerStart": 30,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 84,
+      "sceneIds": [
         "c0004",
         "c0005",
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Explaining the situation",
+      "start": 84,
+      "markerStart": 84,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 133,
+      "sceneIds": [
         "c0008",
         "c0009",
         "c0010",
@@ -256,8 +291,8 @@
       "id": "c0003",
       "title": "문단 3",
       "start": 28,
-      "end": 33,
-      "sentenceText": "I'm sorry. Don't worry, we can live in the car.",
+      "end": 30,
+      "sentenceText": "I'm sorry.",
       "chapterId": "chapter-001",
       "paragraphIndex": 3,
       "selectable": true,
@@ -265,21 +300,15 @@
         {
           "id": "c0003",
           "start": 28,
-          "end": 33,
-          "text": "I'm sorry. Don't worry, we can live in the car.",
-          "originalText": "I'm sorry don't worry we can live in the car yeah",
+          "end": 30,
+          "text": "I'm sorry.",
+          "originalText": "I'm sorry",
           "originalCueRefs": [
             {
               "id": "c0006",
               "start": 28,
               "end": 30,
               "text": "I'm sorry"
-            },
-            {
-              "id": "c0007",
-              "start": 30,
-              "end": 33,
-              "text": "don't worry we can live in the car yeah"
             }
           ],
           "cleanedCueRefs": [
@@ -288,12 +317,6 @@
               "start": 28,
               "end": 30,
               "text": "I'm sorry."
-            },
-            {
-              "id": "c0008",
-              "start": 30,
-              "end": 33,
-              "text": "Don't worry, we can live in the car."
             }
           ],
           "sourceCueRefs": [
@@ -305,24 +328,15 @@
               "originalCueIds": [
                 "c0006"
               ]
-            },
-            {
-              "id": "c0007",
-              "start": 30,
-              "end": 33,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0007"
-              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
+          "groupingProvenance": "original-captured-cue",
           "chapterId": "chapter-001",
           "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "short-dialogue-fragment"
           ]
         }
       ],
@@ -330,44 +344,41 @@
         {
           "expressionId": "sorry",
           "cueId": "c0003",
-          "quote": "I'm sorry. Don't worry, we can live in the car.",
+          "quote": "I'm sorry.",
           "start": 28,
-          "end": 33,
+          "end": 30,
           "matchStart": 4,
           "matchEnd": 9
-        },
-        {
-          "expressionId": "dont",
-          "cueId": "c0003",
-          "quote": "I'm sorry. Don't worry, we can live in the car.",
-          "start": 28,
-          "end": 33,
-          "matchStart": 11,
-          "matchEnd": 16
         }
       ],
       "qualityFlags": [
         "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "short-dialogue-fragment"
       ]
     },
     {
       "id": "c0004",
-      "title": "문단 4",
-      "start": 33,
+      "title": "문단 1",
+      "start": 30,
       "end": 43,
-      "sentenceText": "Yeah, there's plenty of food under the seats. yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "sentenceText": "Don't worry, we can live in the car. Yeah, there's plenty of food under the seats. yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0004",
-          "start": 33,
+          "start": 30,
           "end": 43,
-          "text": "Yeah, there's plenty of food under the seats. yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
-          "originalText": "there's plenty of food under the seats yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
+          "text": "Don't worry, we can live in the car. Yeah, there's plenty of food under the seats. yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
+          "originalText": "don't worry we can live in the car yeah there's plenty of food under the seats yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
           "originalCueRefs": [
+            {
+              "id": "c0007",
+              "start": 30,
+              "end": 33,
+              "text": "don't worry we can live in the car yeah"
+            },
             {
               "id": "c0008",
               "start": 33,
@@ -395,6 +406,12 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0008",
+              "start": 30,
+              "end": 33,
+              "text": "Don't worry, we can live in the car."
+            },
+            {
               "id": "c0009",
               "start": 33,
               "end": 34,
@@ -402,6 +419,15 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0007",
+              "start": 30,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            },
             {
               "id": "c0008",
               "start": 33,
@@ -441,8 +467,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -454,11 +480,20 @@
         {
           "expressionId": "what",
           "cueId": "c0004",
-          "quote": "Yeah, there's plenty of food under the seats. yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
-          "start": 33,
+          "quote": "Don't worry, we can live in the car. Yeah, there's plenty of food under the seats. yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
+          "start": 30,
           "end": 43,
-          "matchStart": 86,
-          "matchEnd": 90
+          "matchStart": 123,
+          "matchEnd": 127
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0004",
+          "quote": "Don't worry, we can live in the car. Yeah, there's plenty of food under the seats. yeah and we've got music oh yeah Brandy what was it you wanted to say earlier oh um",
+          "start": 30,
+          "end": 43,
+          "matchStart": 0,
+          "matchEnd": 5
         }
       ],
       "qualityFlags": [
@@ -469,12 +504,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 49,
       "end": 63,
       "sentenceText": "I think we lost her phew Auntie Brandy was there a medium-sized cheetah onesie at the shop um I'm not sure Bluey can you ring them and ask Louie what sorry Bluey the last",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -565,8 +600,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -618,12 +653,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 3",
       "start": 63,
       "end": 74,
       "sentenceText": "time I saw you zebras were your favorite animal they used to be but I changed the cheaters four years ago Look, I have to go. This was a mistake.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -712,8 +747,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -749,38 +784,26 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 4",
       "start": 74,
-      "end": 88,
-      "sentenceText": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "end": 82,
+      "sentenceText": "Brandy I'm sorry don't go say goodbye",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
           "start": 74,
-          "end": 88,
-          "text": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
-          "originalText": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
+          "end": 82,
+          "text": "Brandy I'm sorry don't go say goodbye",
+          "originalText": "Brandy I'm sorry don't go say goodbye",
           "originalCueRefs": [
             {
               "id": "c0021",
               "start": 74,
               "end": 82,
               "text": "Brandy I'm sorry don't go say goodbye"
-            },
-            {
-              "id": "c0022",
-              "start": 84,
-              "end": 86,
-              "text": "I think we're just gonna have to have a"
-            },
-            {
-              "id": "c0023",
-              "start": 86,
-              "end": 88,
-              "text": "no onesie policy from now on"
             }
           ],
           "cleanedCueRefs": [],
@@ -793,114 +816,79 @@
               "originalCueIds": [
                 "c0021"
               ]
-            },
-            {
-              "id": "c0022",
-              "start": 84,
-              "end": 86,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0022"
-              ]
-            },
-            {
-              "id": "c0023",
-              "start": 86,
-              "end": 88,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0023"
-              ]
             }
           ],
           "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
-            "raw-original-text",
-            "duration-grouped-dialogue"
+            "raw-original-text"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "have-to",
-          "cueId": "c0007",
-          "quote": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
-          "start": 74,
-          "end": 88,
-          "matchStart": 63,
-          "matchEnd": 70
-        },
-        {
           "expressionId": "sorry",
           "cueId": "c0007",
-          "quote": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
+          "quote": "Brandy I'm sorry don't go say goodbye",
           "start": 74,
-          "end": 88,
+          "end": 82,
           "matchStart": 11,
           "matchEnd": 16
         },
         {
           "expressionId": "goodbye",
           "cueId": "c0007",
-          "quote": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
+          "quote": "Brandy I'm sorry don't go say goodbye",
           "start": 74,
-          "end": 88,
+          "end": 82,
           "matchStart": 30,
           "matchEnd": 37
         },
         {
-          "expressionId": "think",
-          "cueId": "c0007",
-          "quote": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
-          "start": 74,
-          "end": 88,
-          "matchStart": 40,
-          "matchEnd": 45
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0007",
-          "quote": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
-          "start": 74,
-          "end": 88,
-          "matchStart": 78,
-          "matchEnd": 80
-        },
-        {
           "expressionId": "dont",
           "cueId": "c0007",
-          "quote": "Brandy I'm sorry don't go say goodbye I think we're just gonna have to have a no onesie policy from now on",
+          "quote": "Brandy I'm sorry don't go say goodbye",
           "start": 74,
-          "end": 88,
+          "end": 82,
           "matchStart": 17,
           "matchEnd": 22
         }
       ],
       "qualityFlags": [
-        "raw-original-text",
-        "duration-grouped-dialogue"
+        "raw-original-text"
       ]
     },
     {
       "id": "c0008",
-      "title": "문단 8",
-      "start": 88,
+      "title": "문단 1",
+      "start": 84,
       "end": 94,
-      "sentenceText": "Mum, why? Why do you want to leave? is she sad",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "sentenceText": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0008",
-          "start": 88,
+          "start": 84,
           "end": 94,
-          "text": "Mum, why? Why do you want to leave? is she sad",
-          "originalText": "mum why why do you want to leave is she sad",
+          "text": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "originalText": "I think we're just gonna have to have a no onesie policy from now on mum why why do you want to leave is she sad",
           "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 84,
+              "end": 86,
+              "text": "I think we're just gonna have to have a"
+            },
+            {
+              "id": "c0023",
+              "start": 86,
+              "end": 88,
+              "text": "no onesie policy from now on"
+            },
             {
               "id": "c0024",
               "start": 88,
@@ -936,6 +924,24 @@
           ],
           "sourceCueRefs": [
             {
+              "id": "c0022",
+              "start": 84,
+              "end": 86,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
+            {
+              "id": "c0023",
+              "start": 86,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
+            },
+            {
               "id": "c0024",
               "start": 88,
               "end": 90,
@@ -965,67 +971,94 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
+            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
       ],
       "targets": [
         {
+          "expressionId": "have-to",
+          "cueId": "c0008",
+          "quote": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "start": 84,
+          "end": 94,
+          "matchStart": 25,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0008",
+          "quote": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "start": 84,
+          "end": 94,
+          "matchStart": 2,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0008",
+          "quote": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "start": 84,
+          "end": 94,
+          "matchStart": 40,
+          "matchEnd": 42
+        },
+        {
           "expressionId": "mum",
           "cueId": "c0008",
-          "quote": "Mum, why? Why do you want to leave? is she sad",
-          "start": 88,
+          "quote": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "start": 84,
           "end": 94,
-          "matchStart": 0,
-          "matchEnd": 3
+          "matchStart": 69,
+          "matchEnd": 72
         },
         {
           "expressionId": "why",
           "cueId": "c0008",
-          "quote": "Mum, why? Why do you want to leave? is she sad",
-          "start": 88,
+          "quote": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "start": 84,
           "end": 94,
-          "matchStart": 5,
-          "matchEnd": 8
+          "matchStart": 74,
+          "matchEnd": 77
         },
         {
           "expressionId": "want",
           "cueId": "c0008",
-          "quote": "Mum, why? Why do you want to leave? is she sad",
-          "start": 88,
+          "quote": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "start": 84,
           "end": 94,
-          "matchStart": 21,
-          "matchEnd": 25
+          "matchStart": 90,
+          "matchEnd": 94
         },
         {
           "expressionId": "sad",
           "cueId": "c0008",
-          "quote": "Mum, why? Why do you want to leave? is she sad",
-          "start": 88,
+          "quote": "I think we're just gonna have to have a no onesie policy from now on Mum, why? Why do you want to leave? is she sad",
+          "start": 84,
           "end": 94,
-          "matchStart": 43,
-          "matchEnd": 46
+          "matchStart": 112,
+          "matchEnd": 115
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
+        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 2",
       "start": 97,
       "end": 104,
       "sentenceText": "you know how you really want Bingo's cheetah onesie yeah more than anything But it doesn't fit you, so you can't have it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1093,8 +1126,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1139,12 +1172,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 3",
       "start": 104,
       "end": 117,
       "sentenceText": "it and there's not really anything anyone can do to make it fit yeah well there's something Auntie Brandy wants more than anything as well but she can't have it and there's not really anything",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1235,8 +1268,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1251,12 +1284,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 4",
       "start": 117,
       "end": 120,
       "sentenceText": "anyone can do",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1287,8 +1320,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"
@@ -1303,12 +1336,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 5",
       "start": 123,
       "end": 133,
       "sentenceText": "Why can't you just have the things she wants? Because it's not meant to be.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1388,8 +1421,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"

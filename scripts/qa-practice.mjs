@@ -1,7 +1,6 @@
 // Optional browser QA. Uses an existing Playwright installation; no app dependency.
 import assert from 'node:assert/strict';
 import { mkdir, writeFile } from 'node:fs/promises';
-import { commitSelection, makePhraseCandidate } from '../public/lib/vocabulary.js';
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const base = process.env.QA_URL || 'http://localhost:4174';
 const out = new URL('../tmp/qa-short-dialogue-audio/', import.meta.url).pathname;
@@ -11,31 +10,36 @@ const context = await browser.newContext({ viewport: { width: 1440, height: 1050
 const page = await context.newPage();
 const errors = [];
 page.on('pageerror', error => errors.push(error.message));
+await page.route('https://api.dictionaryapi.dev/**', route => route.fulfill({ status: 404, body: '{}' }));
+await page.route('https://api.mymemory.translated.net/**', route => route.fulfill({ status: 503, body: '{}' }));
 const checks = [];
 function passed(name) { checks.push(name); console.log(`PASS ${name}`); }
 await page.addInitScript(() => {
-  window.__speech = []; window.__player = { playing: false, pauses: 0 }; window.__sentence = null;
+  window.__speech = []; window.__speechVoices = []; window.__player = { playing: false, pauses: 0, starts: 0, cues: 0 }; window.__sentence = null;
   let timers = [];
   Object.defineProperty(window, 'speechSynthesis', { configurable: true, value: {
-    getVoices: () => [{ lang: 'en-US', name: 'QA voice' }],
+    getVoices: () => [{ lang: 'en-US', name: 'QA voice', voiceURI: 'qa-us' }, { lang: 'en-GB', name: 'QA British', voiceURI: 'qa-gb' }, { lang: 'en-AU', name: 'QA Australian', voiceURI: 'qa-au' }],
     cancel: () => { timers.forEach(clearTimeout); timers = []; },
     speak: utterance => {
       window.__speech.push(utterance.text);
+      window.__speechVoices.push(utterance.voice?.voiceURI);
       utterance.onstart?.(); timers.push(setTimeout(() => utterance.onend?.(), 40));
     }
   } });
   window.SpeechSynthesisUtterance = class { constructor(text) { this.text = text; } };
   window.YT = { Player: class {
     constructor(element, options) {
-      this.events = options.events; this.time = 26;
+      this.events = options.events; this.time = 26; this.rate = 1;
       this.probe = element.parentElement?.classList.contains('sentence-player') ? (window.__sentence = { playing: false, pauses: 0, starts: 0 }) : window.__player;
+      this.probe.finish = () => { this.time = this.probe.range.endSeconds; this.probe.playing = false; this.events.onStateChange({ data: 0 }); };
       setTimeout(() => this.events.onReady(), 30);
     }
-    cueVideoById(config) { this.time = config.startSeconds; this.events.onStateChange({ data: 5 }); }
+    cueVideoById(config) { this.probe.cues++; this.time = config.startSeconds; this.events.onStateChange({ data: 5 }); }
     loadVideoById(config) { this.probe.range = config; this.probe.starts++; this.time = config.startSeconds; this.playVideo(); }
     getCurrentTime() { return this.time; }
     getAvailablePlaybackRates() { return [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]; }
-    setPlaybackRate(rate) { this.events.onPlaybackRateChange?.({ data: rate }); }
+    getPlaybackRate() { return this.rate; }
+    setPlaybackRate(rate) { this.rate = rate; this.events.onPlaybackRateChange?.({ data: rate }); }
     seekTo(time) { this.time = time; }
     playVideo() { this.probe.playing = true; this.events.onStateChange({ data: 1 }); }
     pauseVideo() { this.probe.playing = false; this.probe.pauses++; this.events.onStateChange({ data: 2 }); }
@@ -49,13 +53,47 @@ async function submit(answer) { await page.locator('.view:visible .answer-form i
 async function acknowledge() { await page.locator('.view:visible .practice-step-actions button').click(); }
 async function record() { return page.evaluate(() => JSON.parse(localStorage.getItem('wordtrail:guest:v1')).dictations[0]); }
 try {
-  await page.goto(base); await page.locator('#video-search').fill('Faceytalk'); await page.locator('.video-card').first().click();
+  await page.goto(base);
+  await page.getByRole('button', { name: '음성 설정', exact: true }).click();
+  assert.equal(await page.locator('.voice-option').count(), 3);
+  await page.locator('.voice-option').filter({ hasText: 'QA British' }).getByRole('button', { name: '단어 샘플 듣기' }).click();
+  assert.equal(await page.evaluate(() => window.__speechVoices.at(-1)), 'qa-gb');
+  assert.equal(await page.evaluate(() => localStorage.getItem('wordTrail.englishVoice')), null);
+  await page.locator('#voice-select').selectOption('qa-au');
+  await page.getByRole('button', { name: '음성 설정 닫기', exact: true }).click();
+  await page.reload();
+  await page.getByRole('button', { name: '음성 설정', exact: true }).click();
+  assert.equal(await page.locator('#voice-select').inputValue(), 'qa-au');
+  await page.evaluate(() => {
+    window.__voiceOriginalSet = Storage.prototype.setItem;
+    Storage.prototype.setItem = function(key, value) { if (key === 'wordTrail.englishVoice') throw new Error('QA voice storage blocked'); return window.__voiceOriginalSet.call(this, key, value); };
+  });
+  await page.locator('#voice-select').selectOption('qa-gb');
+  assert.equal(await page.locator('#voice-select').inputValue(), 'qa-au');
+  assert.ok((await page.locator('.voice-feedback').innerText()).includes('기존 목소리를 유지'));
+  await page.evaluate(() => { Storage.prototype.setItem = window.__voiceOriginalSet; });
+  await page.getByRole('button', { name: '음성 설정 닫기', exact: true }).click();
+  passed('voice samples do not save; chosen voice persists; failed save restores previous selection');
+  await page.locator('#video-search').fill('Faceytalk'); await page.locator('.video-card').filter({ hasText: 'Faceytalk | Full Episode - SERIES 3 | Bluey' }).click();
+  assert.equal(await page.locator('#stage-nav').isVisible(), false);
   await page.locator('#load-play-button').click();
   await page.waitForFunction(() => window.__player.playing);
-  assert.equal(await page.locator('#rate-select option').count(), 8);
+  assert.equal(await page.locator('#rate-select option[value="0.25"]').count(), 0);
+  // Inspect the option itself: some Playwright versions resolve option actionability
+  // through its enabled parent select rather than the option's disabled property.
+  await page.waitForFunction(() => document.querySelector('#rate-select option[value="0.6"]')?.disabled === true);
+  assert.equal(await page.locator('#rate-select option[value="0.6"]').evaluate(option => option.disabled), true);
+  assert.equal(await page.locator('#rate-select option').count(), 9);
+  assert.deepEqual(await page.evaluate(() => window.__player.range), { videoId: 'kx8_wF9HOX8', startSeconds: 26, endSeconds: 65 });
+  assert.equal(await page.evaluate(() => window.__player.cues), 0);
+  assert.equal(await page.locator('#stage-nav').isVisible(), false);
+  await page.evaluate(() => window.__player.finish());
+  await page.locator('#stage-nav').waitFor();
+  assert.equal(await page.evaluate(() => window.__player.starts), 1);
+  passed('chapter 26–65 plays continuously without cue; completion enters dialogue learning');
   await page.locator('#rate-select').selectOption('0.5');
   assert.equal(await page.locator('#rate-select').inputValue(), '0.5');
-  passed('explicit play starts media; eight playback speeds and applied rate');
+  passed('requested speed grid distinguishes unavailable rates and applies supported 0.5');
   await page.locator('[data-stage="dictation"]').click();
   const video = await (await page.request.get(`${base}/data/videos/video-01.json`)).json();
   assert.deepEqual(video.scenes.slice(0, 4).map(scene => scene.start), [26, 33, 37, 41]);
@@ -64,12 +102,12 @@ try {
   await page.locator('#dictation-answer').fill(video.scenes[0].sentenceText);
   await page.getByRole('button', { name: '받아쓰기 확인', exact: true }).click();
   await page.getByRole('button', { name: '문장의 단어를 모두 맞혔어요', exact: true }).count();
-  await page.locator('#word-selection h3').waitFor();
-  await page.waitForFunction(() => document.activeElement?.matches('#word-selection h3'));
-  assert.equal(await page.locator('.phrase-builder').count(), 0);
-  const selectionBounds = await page.locator('#word-selection h3').boundingBox();
+  await page.locator('#word-selection > h3').waitFor();
+  await page.waitForFunction(() => document.activeElement?.matches('#word-selection > h3'));
+  assert.equal(await page.locator('.phrase-builder').count(), 1);
+  const selectionBounds = await page.locator('#word-selection > h3').boundingBox();
   assert.ok(selectionBounds.y >= 0 && selectionBounds.y < 1050);
-  passed('paragraph chapter navigation; submitted dictation scrolls to word selection; manual grouping removed');
+  passed('paragraph chapter navigation; submitted dictation scrolls to word selection with custom phrase builder');
   await page.locator('.select-word').filter({ hasText: /^Mum$/ }).first().click();
   await page.locator('.select-word').filter({ hasText: /^Please$/ }).click();
   await page.locator('#next-action').click(); await expectMode('explain');
@@ -89,6 +127,7 @@ try {
       assert.equal(await page.locator('.letter-indicator').innerText(), 'm');
       assert.equal(await page.locator('.typed-word').innerText(), 'mum');
       assert.ok((await page.evaluate(() => window.__speech)).includes('em'));
+      assert.equal(await page.evaluate(() => window.__speechVoices.at(-1)), 'qa-au');
       assert.ok(!(await page.evaluate(() => window.__speech)).some(text => /^(letter|capital) /i.test(text)));
       await submit('incorrect'); await page.waitForTimeout(1300); assert.equal(await mode(), 'spelling');
       await page.getByRole('button', { name: '다시 해보기', exact: true }).click();
@@ -116,7 +155,9 @@ try {
     await page.waitForTimeout(1750); assert.equal(await page.evaluate(() => window.__speech.length), stopped);
     await submit(term); await expectMode('meaning');
     assert.ok(!(await page.locator('.view:visible .workspace-word-title').innerText()).includes(term));
-    await submit(term); await expectMode('reading');
+    await submit(term); await expectMode('family');
+    assert.ok(await page.locator('.view:visible .family-review .family-item').count());
+    await acknowledge(); await expectMode('reading');
     assert.ok((await page.locator('.pronunciation').innerText()).startsWith('/'));
     if (index === 0) {
       await page.getByRole('button', { name: '도움이 필요해요', exact: true }).click();
@@ -125,7 +166,7 @@ try {
     await page.getByRole('button', { name: '혼자 읽었어요', exact: true }).click();
     if (index === 0) await expectMode('explain');
     else await page.locator('.practice-complete').waitFor();
-    passed(`${term}: all seven modes, speech repeats/stops, saved success auto-advances`);
+    passed(`${term}: all eight modes, speech repeats/stops, saved success auto-advances`);
   }
   let saved = await record();
   assert.equal(saved.words.filter(word => word.registeredAt).length, 2);
@@ -148,10 +189,10 @@ try {
   assert.equal(await page.locator('#dictation-answer').inputValue(), video.scenes[0].sentenceText);
   await page.locator('#next-action').click(); await expectMode('explain');
   await chooseMode('spelling');
-  await page.locator('.auto-advance input').uncheck();
+  await page.locator('.view:visible .auto-advance input').uncheck();
   await submit('Mum'); await page.waitForTimeout(1300); assert.equal(await mode(), 'spelling');
   await acknowledge(); await expectMode('cloze');
-  await page.locator('.auto-advance input').check();
+  await page.locator('.view:visible .auto-advance input').check();
   await submit('Mum'); await chooseMode('point'); await page.waitForTimeout(1300); assert.equal(await mode(), 'point');
   passed('return to video preserves dictation; auto pause and stale navigation cancellation');
   await chooseMode('audio');
@@ -159,27 +200,28 @@ try {
   await page.waitForTimeout(1750); assert.equal(await page.evaluate(() => window.__speech.length), leaving);
   passed('leaving word workspace cancels all repeated speech');
   await page.locator('[data-stage="dictation"]').click();
-  assert.equal(await page.locator('.phrase-builder').count(), 0);
-  // Existing custom expressions remain usable even though their creation UI was removed.
-  const previousRecord = await record();
-  const savedPhrase = makePhraseCandidate(previousRecord.reference, 1, 3);
-  const withPhrase = commitSelection(previousRecord, [...previousRecord.selectedKeys, savedPhrase.key], new Date(), [savedPhrase]);
-  await page.evaluate(value => {
-    const data = JSON.parse(localStorage.getItem('wordtrail:guest:v1'));
-    data.dictations[0] = value; localStorage.setItem('wordtrail:guest:v1', JSON.stringify(data));
-  }, withPhrase);
-  await page.reload(); await page.locator('[data-stage="dictation"]').click();
+  assert.equal(await page.locator('.phrase-builder').count(), 1);
+  const tokens = page.locator('.phrase-token');
+  await tokens.nth(1).click(); await tokens.nth(3).click();
+  const createPhrase = page.getByRole('button', { name: '선택한 단어를 표현으로 묶기', exact: true });
+  assert.equal(await createPhrase.isDisabled(), true);
+  await tokens.nth(2).click();
+  assert.equal(await page.locator('.phrase-preview').innerText(), '만들 표현: can we do');
+  await page.screenshot({ path: `${out}custom-phrase.png`, fullPage: true });
+  await createPhrase.click();
+  assert.equal(await page.locator('.phrase-option').filter({ hasText: /^can we do$/ }).getAttribute('aria-pressed'), 'true');
+  passed('custom phrase UI rejects gaps and creates an original contiguous expression from selected tokens');
   await page.locator('#next-action').click(); await expectMode('explain');
   await page.locator('.word-queue button').filter({ hasText: 'can we do' }).click();
   await chooseMode('cloze'); assert.equal(await page.locator('.cloze-blank').count(), 1);
   assert.ok(!(await page.locator('.cloze-sentence').innerText()).includes('can we do'));
-  await page.locator('.auto-advance input').uncheck();
+  await page.locator('.view:visible .auto-advance input').uncheck();
   await submit('can we do');
   saved = await record(); const phrase = saved.words.find(word => word.term === 'can we do');
   assert.deepEqual(phrase.sourceIndexes, [1, 2, 3]); assert.equal(phrase.practice.cloze.correct, 1);
   const downloadPromise = page.waitForEvent('download'); await page.locator('#download-workbook').click();
   const download = await downloadPromise; await download.saveAs(`${out}phrase-workbook.html`);
-  passed('previously saved phrase remains one blank, graded/stored as one item, workbook downloads');
+  passed('custom phrase becomes one blank, graded/stored as one item, workbook downloads');
   await page.reload(); await page.locator('[data-stage="dictation"]').click();
   assert.ok(await page.locator('.phrase-option[aria-pressed="true"]').filter({ hasText: 'can we do' }).count());
   await page.locator('#next-action').click(); await expectMode('explain');
@@ -241,12 +283,14 @@ try {
   await page.evaluate(() => { delete document.hidden; document.dispatchEvent(new Event('visibilitychange')); });
   assert.equal(await page.evaluate(() => window.__sentence.playing), false);
   await page.getByRole('button', { name: '문장 반복 시작', exact: true }).click();
+  await page.waitForFunction(() => window.__sentence?.playing === true);
   assert.equal(await page.evaluate(() => window.__sentence.playing), true);
   await chooseMode('point');
   assert.equal(await page.evaluate(() => window.__sentence.playing), false);
   passed('cloze uses the full source clip; hidden tab and mode changes stop video; manual restart works');
   await page.locator('.word-queue button').nth(2).click(); await chooseMode('audio');
-  await submit('can we do'); await expectMode('reading');
+  await submit('can we do'); await expectMode('family');
+  await acknowledge(); await expectMode('reading');
   assert.ok(await page.getByText('발음기호 준비 중', { exact: false }).isVisible());
   passed('unavailable meaning quiz is skipped without inventing IPA');
   await page.locator('button.nav-button[data-route="words"]').click();

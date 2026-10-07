@@ -1,11 +1,12 @@
 {
   "name": "word-trail",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "description": "Video listening, guided reading and delayed recall for families",
   "scripts": {
-    "build": "node scripts/build-catalog.mjs && node scripts/build-examples.mjs",
+    "build": "node scripts/build-catalog.mjs && node scripts/build-additional-videos.mjs && node scripts/build-examples.mjs",
+    "chapters:refresh": "node scripts/refresh-youtube-chapters.mjs",
     "package:hosting": "npm run build && node scripts/package-hosting.mjs",
     "start": "node scripts/serve.mjs",
     "test": "node --test tests/*.test.mjs",

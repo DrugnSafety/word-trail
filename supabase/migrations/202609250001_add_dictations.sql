@@ -27,7 +27,7 @@ alter table public.learning_starts add constraint learning_starts_scene_id_forma
 create table public.learning_dictations (
   user_id uuid not null references auth.users(id) on delete cascade default auth.uid(),
   learner_id text not null default 'default' check (learner_id = 'default'),
-  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^video-[0-9]{2}$'),
+  video_id text not null check (char_length(video_id) <= 64 and video_id ~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$'),
   scene_id text not null check (char_length(scene_id) <= 64 and scene_id ~ '^(s[0-9]{3}|c[0-9]{4})$'),
   content_version text not null check (char_length(content_version) <= 64 and content_version ~ '^[A-Za-z0-9][A-Za-z0-9._-]*$'),
   record jsonb not null check (
@@ -103,7 +103,7 @@ returns jsonb language plpgsql security definer set search_path = public, pg_tem
 declare v_user uuid := auth.uid(); v_today date := (now() at time zone 'utc')::date; v_limit integer; v_used integer;
 begin
   if v_user is null then raise exception 'authentication required' using errcode = '42501'; end if;
-  if p_video_id !~ '^video-[0-9]{2}$' or char_length(p_video_id) > 64
+  if p_video_id !~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$' or char_length(p_video_id) > 64
      or p_scene_id !~ '^(s[0-9]{3}|c[0-9]{4})$' or char_length(p_scene_id) > 64 then
     raise exception 'invalid video or scene id' using errcode = '22023';
   end if;
@@ -133,7 +133,7 @@ declare
 begin
   if v_user is null then raise exception 'authentication required' using errcode='42501'; end if;
   if p_record is null or jsonb_typeof(p_record) is distinct from 'object' or v_learner is distinct from 'default'
-     or v_video is null or v_video !~ '^video-[0-9]{2}$' or char_length(v_video)>64
+     or v_video is null or v_video !~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$' or char_length(v_video)>64
      or v_scene is null or v_scene !~ '^(s[0-9]{3}|c[0-9]{4})$' or char_length(v_scene)>64
      or v_expression is null or v_expression !~ '^[a-z0-9][a-z0-9-]*$' or char_length(v_expression)>80
      or v_version is null or v_version !~ '^[A-Za-z0-9][A-Za-z0-9._-]*$' or char_length(v_version)>64 then
@@ -165,7 +165,7 @@ declare
 begin
   if v_user is null then raise exception 'authentication required' using errcode='42501'; end if;
   if p_record is null or jsonb_typeof(p_record) is distinct from 'object' or v_learner is distinct from 'default'
-     or v_video is null or v_video !~ '^video-[0-9]{2}$' or char_length(v_video)>64
+     or v_video is null or v_video !~ '^(video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$' or char_length(v_video)>64
      or v_scene is null or v_scene !~ '^(s[0-9]{3}|c[0-9]{4})$' or char_length(v_scene)>64
      or v_version is null or v_version !~ '^[A-Za-z0-9][A-Za-z0-9._-]*$' or char_length(v_version)>64 then
     raise exception 'invalid dictation record identifiers' using errcode='22023';

@@ -19,34 +19,85 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "A Story Come to Life! 💭 🌈 | Bluey Season 3 Highlight - Stories ⭐️ | Bluey",
+      "title": "Indie's doubt",
       "start": 0,
-      "end": 126,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 36,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Seeking inspiration",
+      "start": 36,
+      "markerStart": 36,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 58,
+      "sceneIds": [
         "c0006",
         "c0007",
-        "c0008",
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Reviewing Old McDonald",
+      "start": 58,
+      "markerStart": 60,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 101,
+      "sceneIds": [
         "c0009",
         "c0010",
         "c0011",
         "c0012",
-        "c0013",
+        "c0013"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "A creative solution",
+      "start": 101,
+      "markerStart": 103,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 126,
+      "sceneIds": [
         "c0014",
         "c0015",
-        "c0016",
-        "c0017",
-        "c0018"
+        "c0016"
       ]
     }
   ],
@@ -436,8 +487,8 @@
       "id": "c0005",
       "title": "문단 5",
       "start": 27,
-      "end": 32,
-      "sentenceText": "Win. Sorry. Well, I still say you're good at things.",
+      "end": 36,
+      "sentenceText": "Win. Sorry. Well, I still say you're good at things. Was Indy going to believe Winton?",
       "chapterId": "chapter-001",
       "paragraphIndex": 5,
       "selectable": true,
@@ -445,9 +496,9 @@
         {
           "id": "c0005",
           "start": 27,
-          "end": 32,
-          "text": "Win. Sorry. Well, I still say you're good at things.",
-          "originalText": "Win. Sorry. Well, I still say you're good at things.",
+          "end": 36,
+          "text": "Win. Sorry. Well, I still say you're good at things. Was Indy going to believe Winton?",
+          "originalText": "Win. Sorry. Well, I still say you're good at things. >> Was Indie going to believe Winton?",
           "originalCueRefs": [
             {
               "id": "c0010",
@@ -460,9 +511,22 @@
               "start": 30,
               "end": 32,
               "text": "good at things."
+            },
+            {
+              "id": "c0012",
+              "start": 32,
+              "end": 36,
+              "text": ">> Was Indie going to believe Winton?"
             }
           ],
-          "cleanedCueRefs": [],
+          "cleanedCueRefs": [
+            {
+              "id": "c0013",
+              "start": 32,
+              "end": 36,
+              "text": "Was Indy going to believe Winton?"
+            }
+          ],
           "sourceCueRefs": [
             {
               "id": "c0010",
@@ -481,88 +545,7 @@
               "originalCueIds": [
                 "c0011"
               ]
-            }
-          ],
-          "textSource": "original-captured",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
-          "qualityFlags": [
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "sorry",
-          "cueId": "c0005",
-          "quote": "Win. Sorry. Well, I still say you're good at things.",
-          "start": 27,
-          "end": 32,
-          "matchStart": 5,
-          "matchEnd": 10
-        },
-        {
-          "expressionId": "good",
-          "cueId": "c0005",
-          "quote": "Win. Sorry. Well, I still say you're good at things.",
-          "start": 27,
-          "end": 32,
-          "matchStart": 37,
-          "matchEnd": 41
-        }
-      ],
-      "qualityFlags": [
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0006",
-      "title": "문단 6",
-      "start": 32,
-      "end": 37,
-      "sentenceText": "Was Indy going to believe Winton? Yes.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0006",
-          "start": 32,
-          "end": 37,
-          "text": "Was Indy going to believe Winton? Yes.",
-          "originalText": ">> Was Indie going to believe Winton? >> Yes.",
-          "originalCueRefs": [
-            {
-              "id": "c0012",
-              "start": 32,
-              "end": 36,
-              "text": ">> Was Indie going to believe Winton?"
             },
-            {
-              "id": "c0013",
-              "start": 36,
-              "end": 37,
-              "text": ">> Yes."
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0013",
-              "start": 32,
-              "end": 36,
-              "text": "Was Indy going to believe Winton?"
-            },
-            {
-              "id": "c0014",
-              "start": 36,
-              "end": 37,
-              "text": "Yes."
-            }
-          ],
-          "sourceCueRefs": [
             {
               "id": "c0012",
               "start": 32,
@@ -571,22 +554,14 @@
               "originalCueIds": [
                 "c0012"
               ]
-            },
-            {
-              "id": "c0013",
-              "start": 36,
-              "end": 37,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0013"
-              ]
             }
           ],
-          "textSource": "cleaned-exact-coverage",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
           "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "paragraphIndex": 5,
           "qualityFlags": [
+            "raw-original-text",
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
@@ -594,37 +569,53 @@
       ],
       "targets": [
         {
-          "expressionId": "yes",
-          "cueId": "c0006",
-          "quote": "Was Indy going to believe Winton? Yes.",
-          "start": 32,
-          "end": 37,
-          "matchStart": 34,
-          "matchEnd": 37
+          "expressionId": "sorry",
+          "cueId": "c0005",
+          "quote": "Win. Sorry. Well, I still say you're good at things. Was Indy going to believe Winton?",
+          "start": 27,
+          "end": 36,
+          "matchStart": 5,
+          "matchEnd": 10
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0005",
+          "quote": "Win. Sorry. Well, I still say you're good at things. Was Indy going to believe Winton?",
+          "start": 27,
+          "end": 36,
+          "matchStart": 37,
+          "matchEnd": 41
         }
       ],
       "qualityFlags": [
+        "raw-original-text",
         "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
-      "start": 37,
+      "id": "c0006",
+      "title": "문단 1",
+      "start": 36,
       "end": 43,
-      "sentenceText": "Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "sentenceText": "Yes. Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
-          "start": 37,
+          "id": "c0006",
+          "start": 36,
           "end": 43,
-          "text": "Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
-          "originalText": ">> Hooray. >> Can you help me, Winon? Okay. >> I told you Winton had a kind heart.",
+          "text": "Yes. Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
+          "originalText": ">> Yes. >> Hooray. >> Can you help me, Winon? Okay. >> I told you Winton had a kind heart.",
           "originalCueRefs": [
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 37,
+              "text": ">> Yes."
+            },
             {
               "id": "c0014",
               "start": 37,
@@ -646,6 +637,12 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0014",
+              "start": 36,
+              "end": 37,
+              "text": "Yes."
+            },
+            {
               "id": "c0015",
               "start": 37,
               "end": 38,
@@ -665,6 +662,15 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0013",
+              "start": 36,
+              "end": 37,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
+            },
             {
               "id": "c0014",
               "start": 37,
@@ -695,8 +701,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -705,22 +711,31 @@
       ],
       "targets": [
         {
-          "expressionId": "help",
-          "cueId": "c0007",
-          "quote": "Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
-          "start": 37,
+          "expressionId": "yes",
+          "cueId": "c0006",
+          "quote": "Yes. Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
+          "start": 36,
           "end": 43,
-          "matchStart": 16,
-          "matchEnd": 20
+          "matchStart": 0,
+          "matchEnd": 3
+        },
+        {
+          "expressionId": "help",
+          "cueId": "c0006",
+          "quote": "Yes. Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
+          "start": 36,
+          "end": 43,
+          "matchStart": 21,
+          "matchEnd": 25
         },
         {
           "expressionId": "okay",
-          "cueId": "c0007",
-          "quote": "Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
-          "start": 37,
+          "cueId": "c0006",
+          "quote": "Yes. Hooray. Can you help me, Winton? Okay. I told you Winton had a kind heart.",
+          "start": 36,
           "end": 43,
-          "matchStart": 33,
-          "matchEnd": 37
+          "matchStart": 38,
+          "matchEnd": 42
         }
       ],
       "qualityFlags": [
@@ -729,17 +744,17 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0007",
+      "title": "문단 2",
       "start": 43,
       "end": 49,
       "sentenceText": "So, Winton and Indy tried to figure out what was wrong with cow horse. Is it the color?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0007",
           "start": 43,
           "end": 49,
           "text": "So, Winton and Indy tried to figure out what was wrong with cow horse. Is it the color?",
@@ -803,8 +818,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -815,7 +830,7 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0008",
+          "cueId": "c0007",
           "quote": "So, Winton and Indy tried to figure out what was wrong with cow horse. Is it the color?",
           "start": 43,
           "end": 49,
@@ -830,21 +845,21 @@
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
+      "id": "c0008",
+      "title": "문단 3",
       "start": 49,
-      "end": 57,
-      "sentenceText": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "end": 58,
+      "sentenceText": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah. Oh, I'm liking this story.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
+          "id": "c0008",
           "start": 49,
-          "end": 57,
-          "text": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah.",
-          "originalText": ">> Uh, I don't think so. >> I know. We should find a picture of a cow and look at it. Oh, yeah.",
+          "end": 58,
+          "text": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah. Oh, I'm liking this story.",
+          "originalText": ">> Uh, I don't think so. >> I know. We should find a picture of a cow and look at it. Oh, yeah. Oh, I'm liking this story.",
           "originalCueRefs": [
             {
               "id": "c0020",
@@ -863,6 +878,12 @@
               "start": 52,
               "end": 57,
               "text": "cow and look at it. Oh, yeah."
+            },
+            {
+              "id": "c0023",
+              "start": 57,
+              "end": 58,
+              "text": "Oh, I'm liking this story."
             }
           ],
           "cleanedCueRefs": [
@@ -889,6 +910,12 @@
               "start": 56,
               "end": 57,
               "text": "Oh, yeah."
+            },
+            {
+              "id": "c0025",
+              "start": 57,
+              "end": 58,
+              "text": "Oh, I'm liking this story."
             }
           ],
           "sourceCueRefs": [
@@ -918,12 +945,21 @@
               "originalCueIds": [
                 "c0022"
               ]
+            },
+            {
+              "id": "c0023",
+              "start": 57,
+              "end": 58,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0023"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -933,37 +969,37 @@
       "targets": [
         {
           "expressionId": "think",
-          "cueId": "c0009",
-          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah.",
+          "cueId": "c0008",
+          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah. Oh, I'm liking this story.",
           "start": 49,
-          "end": 57,
+          "end": 58,
           "matchStart": 12,
           "matchEnd": 17
         },
         {
           "expressionId": "know",
-          "cueId": "c0009",
-          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah.",
+          "cueId": "c0008",
+          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah. Oh, I'm liking this story.",
           "start": 49,
-          "end": 57,
+          "end": 58,
           "matchStart": 24,
           "matchEnd": 28
         },
         {
           "expressionId": "look",
-          "cueId": "c0009",
-          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah.",
+          "cueId": "c0008",
+          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah. Oh, I'm liking this story.",
           "start": 49,
-          "end": 57,
+          "end": 58,
           "matchStart": 68,
           "matchEnd": 72
         },
         {
           "expressionId": "dont",
-          "cueId": "c0009",
-          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah.",
+          "cueId": "c0008",
+          "quote": "Uh, I don't think so. I know. We should find a picture of a cow and look at it. Oh, yeah. Oh, I'm liking this story.",
           "start": 49,
-          "end": 57,
+          "end": 58,
           "matchStart": 6,
           "matchEnd": 11
         }
@@ -974,127 +1010,28 @@
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 10",
-      "start": 57,
-      "end": 62,
-      "sentenceText": "Oh, I'm liking this story. Me too. Cinderella? No, Three Little Pigs.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "id": "c0009",
+      "title": "문단 1",
+      "start": 58,
+      "end": 72,
+      "sentenceText": "Me too. Cinderella? No, Three Little Pigs. pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Old McDonald had a farm, E-I-E-I-O.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
-          "start": 57,
-          "end": 62,
-          "text": "Oh, I'm liking this story. Me too. Cinderella? No, Three Little Pigs.",
-          "originalText": "Oh, I'm liking this story. >> Me, too. Cinderella. No. Three little",
+          "id": "c0009",
+          "start": 58,
+          "end": 72,
+          "text": "Me too. Cinderella? No, Three Little Pigs. pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Old McDonald had a farm, E-I-E-I-O.",
+          "originalText": ">> Me, too. Cinderella. No. Three little pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Macdonald had a farm, E-I-E-I-O.",
           "originalCueRefs": [
-            {
-              "id": "c0023",
-              "start": 57,
-              "end": 58,
-              "text": "Oh, I'm liking this story."
-            },
             {
               "id": "c0024",
               "start": 58,
               "end": 62,
               "text": ">> Me, too. Cinderella. No. Three little"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0025",
-              "start": 57,
-              "end": 58,
-              "text": "Oh, I'm liking this story."
             },
-            {
-              "id": "c0026",
-              "start": 58,
-              "end": 59,
-              "text": "Me too."
-            },
-            {
-              "id": "c0027",
-              "start": 59,
-              "end": 62,
-              "text": "Cinderella? No, Three Little Pigs."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0023",
-              "start": 57,
-              "end": 58,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0023"
-              ]
-            },
-            {
-              "id": "c0024",
-              "start": 58,
-              "end": 62,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0024"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "no",
-          "cueId": "c0010",
-          "quote": "Oh, I'm liking this story. Me too. Cinderella? No, Three Little Pigs.",
-          "start": 57,
-          "end": 62,
-          "matchStart": 47,
-          "matchEnd": 49
-        },
-        {
-          "expressionId": "little",
-          "cueId": "c0010",
-          "quote": "Oh, I'm liking this story. Me too. Cinderella? No, Three Little Pigs.",
-          "start": 57,
-          "end": 62,
-          "matchStart": 57,
-          "matchEnd": 63
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0011",
-      "title": "문단 11",
-      "start": 62,
-      "end": 72,
-      "sentenceText": "pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Old McDonald had a farm, E-I-E-I-O.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0011",
-          "start": 62,
-          "end": 72,
-          "text": "pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Old McDonald had a farm, E-I-E-I-O.",
-          "originalText": "pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Macdonald had a farm, E-I-E-I-O.",
-          "originalCueRefs": [
             {
               "id": "c0025",
               "start": 62,
@@ -1116,6 +1053,18 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0026",
+              "start": 58,
+              "end": 59,
+              "text": "Me too."
+            },
+            {
+              "id": "c0027",
+              "start": 59,
+              "end": 62,
+              "text": "Cinderella? No, Three Little Pigs."
+            },
+            {
               "id": "c0031",
               "start": 68,
               "end": 72,
@@ -1123,6 +1072,15 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0024",
+              "start": 58,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0024"
+              ]
+            },
             {
               "id": "c0025",
               "start": 62,
@@ -1153,34 +1111,53 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "raw-original-text",
             "corrected-text-exact-coverage",
+            "raw-original-text",
             "duration-grouped-dialogue"
           ]
         }
       ],
-      "targets": [],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "Me too. Cinderella? No, Three Little Pigs. pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Old McDonald had a farm, E-I-E-I-O.",
+          "start": 58,
+          "end": 72,
+          "matchStart": 20,
+          "matchEnd": 22
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0009",
+          "quote": "Me too. Cinderella? No, Three Little Pigs. pigs. Oh, Linton. Old McDonald. He's got a cow, doesn't he? Let me check. Old Old McDonald had a farm, E-I-E-I-O.",
+          "start": 58,
+          "end": 72,
+          "matchStart": 30,
+          "matchEnd": 36
+        }
+      ],
       "qualityFlags": [
-        "raw-original-text",
         "corrected-text-exact-coverage",
+        "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0012",
-      "title": "문단 12",
+      "id": "c0010",
+      "title": "문단 2",
       "start": 72,
       "end": 78,
       "sentenceText": "And on that farm he had a cow. Yes. Ei.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0012",
+          "id": "c0010",
           "start": 72,
           "end": 78,
           "text": "And on that farm he had a cow. Yes. Ei.",
@@ -1207,8 +1184,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text"
           ]
@@ -1217,7 +1194,7 @@
       "targets": [
         {
           "expressionId": "yes",
-          "cueId": "c0012",
+          "cueId": "c0010",
           "quote": "And on that farm he had a cow. Yes. Ei.",
           "start": 72,
           "end": 78,
@@ -1230,17 +1207,17 @@
       ]
     },
     {
-      "id": "c0013",
-      "title": "문단 13",
+      "id": "c0011",
+      "title": "문단 3",
       "start": 79,
       "end": 84,
       "sentenceText": "They definitely look the same as each other. Hang on, we already knew that.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0013",
+          "id": "c0011",
           "start": 79,
           "end": 84,
           "text": "They definitely look the same as each other. Hang on, we already knew that.",
@@ -1295,8 +1272,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1306,7 +1283,7 @@
       "targets": [
         {
           "expressionId": "look",
-          "cueId": "c0013",
+          "cueId": "c0011",
           "quote": "They definitely look the same as each other. Hang on, we already knew that.",
           "start": 79,
           "end": 84,
@@ -1320,17 +1297,17 @@
       ]
     },
     {
-      "id": "c0014",
-      "title": "문단 14",
+      "id": "c0012",
+      "title": "문단 4",
       "start": 84,
       "end": 94,
       "sentenceText": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0014",
+          "id": "c0012",
           "start": 84,
           "end": 94,
           "text": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
@@ -1387,8 +1364,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1398,7 +1375,7 @@
       "targets": [
         {
           "expressionId": "need",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
           "start": 84,
           "end": 94,
@@ -1407,7 +1384,7 @@
         },
         {
           "expressionId": "know",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
           "start": 84,
           "end": 94,
@@ -1416,7 +1393,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
           "start": 84,
           "end": 94,
@@ -1425,7 +1402,7 @@
         },
         {
           "expressionId": "like",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
           "start": 84,
           "end": 94,
@@ -1434,7 +1411,7 @@
         },
         {
           "expressionId": "see",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
           "start": 84,
           "end": 94,
@@ -1443,7 +1420,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "Oh, yeah. We need to know what a horse looks like. See if Old McDonald has a horse. Chicken, duck, pig. Oh, no horse.",
           "start": 84,
           "end": 94,
@@ -1457,17 +1434,17 @@
       ]
     },
     {
-      "id": "c0015",
-      "title": "문단 15",
+      "id": "c0013",
+      "title": "문단 5",
       "start": 94,
       "end": 101,
       "sentenceText": "A, that's very strange. Winton, why wouldn't old McDonald have a horse?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0015",
+          "id": "c0013",
           "start": 94,
           "end": 101,
           "text": "A, that's very strange. Winton, why wouldn't old McDonald have a horse?",
@@ -1509,8 +1486,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1520,7 +1497,7 @@
       "targets": [
         {
           "expressionId": "why",
-          "cueId": "c0015",
+          "cueId": "c0013",
           "quote": "A, that's very strange. Winton, why wouldn't old McDonald have a horse?",
           "start": 94,
           "end": 101,
@@ -1534,17 +1511,17 @@
       ]
     },
     {
-      "id": "c0016",
-      "title": "문단 16",
+      "id": "c0014",
+      "title": "문단 1",
       "start": 101,
       "end": 108,
       "sentenceText": "Winton, maybe it ran away. Yes. Why don't I just say my horse is a cow?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0016",
+          "id": "c0014",
           "start": 101,
           "end": 108,
           "text": "Winton, maybe it ran away. Yes. Why don't I just say my horse is a cow?",
@@ -1605,8 +1582,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1616,7 +1593,7 @@
       "targets": [
         {
           "expressionId": "yes",
-          "cueId": "c0016",
+          "cueId": "c0014",
           "quote": "Winton, maybe it ran away. Yes. Why don't I just say my horse is a cow?",
           "start": 101,
           "end": 108,
@@ -1625,7 +1602,7 @@
         },
         {
           "expressionId": "why",
-          "cueId": "c0016",
+          "cueId": "c0014",
           "quote": "Winton, maybe it ran away. Yes. Why don't I just say my horse is a cow?",
           "start": 101,
           "end": 108,
@@ -1634,7 +1611,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0016",
+          "cueId": "c0014",
           "quote": "Winton, maybe it ran away. Yes. Why don't I just say my horse is a cow?",
           "start": 101,
           "end": 108,
@@ -1648,17 +1625,17 @@
       ]
     },
     {
-      "id": "c0017",
-      "title": "문단 17",
+      "id": "c0015",
+      "title": "문단 2",
       "start": 108,
       "end": 114,
       "sentenceText": "But it's not a cow. It's a horse. I know, but it's not a very good horse.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 17,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0017",
+          "id": "c0015",
           "start": 108,
           "end": 114,
           "text": "But it's not a cow. It's a horse. I know, but it's not a very good horse.",
@@ -1719,8 +1696,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1730,7 +1707,7 @@
       "targets": [
         {
           "expressionId": "know",
-          "cueId": "c0017",
+          "cueId": "c0015",
           "quote": "But it's not a cow. It's a horse. I know, but it's not a very good horse.",
           "start": 108,
           "end": 114,
@@ -1739,7 +1716,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0017",
+          "cueId": "c0015",
           "quote": "But it's not a cow. It's a horse. I know, but it's not a very good horse.",
           "start": 108,
           "end": 114,
@@ -1753,17 +1730,17 @@
       ]
     },
     {
-      "id": "c0018",
-      "title": "문단 18",
+      "id": "c0016",
+      "title": "문단 3",
       "start": 114,
       "end": 126,
       "sentenceText": "But it is a pretty good cow. As well as having a kind heart really musly, Winton was as honest as they come.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 18,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0018",
+          "id": "c0016",
           "start": 114,
           "end": 126,
           "text": "But it is a pretty good cow. As well as having a kind heart really musly, Winton was as honest as they come.",
@@ -1848,8 +1825,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 18,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1860,7 +1837,7 @@
       "targets": [
         {
           "expressionId": "good",
-          "cueId": "c0018",
+          "cueId": "c0016",
           "quote": "But it is a pretty good cow. As well as having a kind heart really musly, Winton was as honest as they come.",
           "start": 114,
           "end": 126,

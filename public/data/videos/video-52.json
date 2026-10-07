@@ -17,27 +17,114 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 6,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Can Bluey Draw the Perfect Picture? | Perfect - Series 3 | Bluey",
-      "start": 2,
-      "end": 125,
-      "source": "whole-video",
+      "title": "The drawing challenge",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 27,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
-        "c0004",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Doubt in artistic skills",
+      "start": 27,
+      "markerStart": 29,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 40,
+      "sceneIds": [
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Finding drawing materials",
+      "start": 40,
+      "markerStart": 40,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 59,
+      "sceneIds": [
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Drawing a comfortable chair",
+      "start": 59,
+      "markerStart": 61,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 77,
+      "sceneIds": [
         "c0007",
-        "c0008",
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Dad relaxes in a chair",
+      "start": 77,
+      "markerStart": 81,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 4,
+      "end": 95,
+      "sceneIds": [
         "c0009",
-        "c0010",
-        "c0011"
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "title": "Finishing the artwork",
+      "start": 95,
+      "markerStart": 96,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 125,
+      "sceneIds": [
+        "c0011",
+        "c0012",
+        "c0013"
       ]
     }
   ],
@@ -324,8 +411,8 @@
       "id": "c0003",
       "title": "문단 3",
       "start": 23,
-      "end": 36,
-      "sentenceText": "that looks great Bluey I can't draw tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da!",
+      "end": 27,
+      "sentenceText": "that looks great Bluey I can't draw",
       "chapterId": "chapter-001",
       "paragraphIndex": 3,
       "selectable": true,
@@ -333,16 +420,72 @@
         {
           "id": "c0003",
           "start": 23,
-          "end": 36,
-          "text": "that looks great Bluey I can't draw tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da!",
-          "originalText": "that looks great Bluey I can't draw tickling very perfect yeah it looks more like he's throwing you oh I can't draw throwing oh you can draw no ticket and",
+          "end": 27,
+          "text": "that looks great Bluey I can't draw",
+          "originalText": "that looks great Bluey I can't draw",
           "originalCueRefs": [
             {
               "id": "c0008",
               "start": 23,
               "end": 27,
               "text": "that looks great Bluey I can't draw"
-            },
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 27,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "great",
+          "cueId": "c0003",
+          "quote": "that looks great Bluey I can't draw",
+          "start": 23,
+          "end": 27,
+          "matchStart": 11,
+          "matchEnd": 16
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 1",
+      "start": 27,
+      "end": 40,
+      "sentenceText": "tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da! he built his house out of straw hmm bad",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 27,
+          "end": 40,
+          "text": "tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da! he built his house out of straw hmm bad",
+          "originalText": "tickling very perfect yeah it looks more like he's throwing you oh I can't draw throwing oh you can draw no ticket and he built his house out of straw hmm bad",
+          "originalCueRefs": [
             {
               "id": "c0009",
               "start": 27,
@@ -360,6 +503,12 @@
               "start": 33,
               "end": 36,
               "text": "throwing oh you can draw no ticket and"
+            },
+            {
+              "id": "c0012",
+              "start": 36,
+              "end": 40,
+              "text": "he built his house out of straw hmm bad"
             }
           ],
           "cleanedCueRefs": [
@@ -371,15 +520,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0008",
-              "start": 23,
-              "end": 27,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0008"
-              ]
-            },
             {
               "id": "c0009",
               "start": 27,
@@ -406,12 +546,21 @@
               "originalCueIds": [
                 "c0011"
               ]
+            },
+            {
+              "id": "c0012",
+              "start": 36,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0012"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -421,31 +570,22 @@
       ],
       "targets": [
         {
-          "expressionId": "great",
-          "cueId": "c0003",
-          "quote": "that looks great Bluey I can't draw tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da!",
-          "start": 23,
-          "end": 36,
-          "matchStart": 11,
-          "matchEnd": 16
-        },
-        {
           "expressionId": "like",
-          "cueId": "c0003",
-          "quote": "that looks great Bluey I can't draw tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da!",
-          "start": 23,
-          "end": 36,
-          "matchStart": 77,
-          "matchEnd": 81
+          "cueId": "c0004",
+          "quote": "tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da! he built his house out of straw hmm bad",
+          "start": 27,
+          "end": 40,
+          "matchStart": 41,
+          "matchEnd": 45
         },
         {
           "expressionId": "no",
-          "cueId": "c0003",
-          "quote": "that looks great Bluey I can't draw tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da!",
-          "start": 23,
-          "end": 36,
-          "matchStart": 134,
-          "matchEnd": 136
+          "cueId": "c0004",
+          "quote": "tickling very perfect yeah it looks more like he's throwing you oh I can't draw Oh, you can draw! No, ta-da! he built his house out of straw hmm bad",
+          "start": 27,
+          "end": 40,
+          "matchStart": 98,
+          "matchEnd": 100
         }
       ],
       "qualityFlags": [
@@ -455,28 +595,22 @@
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
-      "start": 36,
+      "id": "c0005",
+      "title": "문단 1",
+      "start": 40,
       "end": 47,
-      "sentenceText": "he built his house out of straw hmm bad move Pig ticket oh yeah Oh yes, of course.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "sentenceText": "move Pig ticket oh yeah Oh yes, of course.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
-          "start": 36,
+          "id": "c0005",
+          "start": 40,
           "end": 47,
-          "text": "he built his house out of straw hmm bad move Pig ticket oh yeah Oh yes, of course.",
-          "originalText": "he built his house out of straw hmm bad move Pig ticket oh yeah oh yes of course",
+          "text": "move Pig ticket oh yeah Oh yes, of course.",
+          "originalText": "move Pig ticket oh yeah oh yes of course",
           "originalCueRefs": [
-            {
-              "id": "c0012",
-              "start": 36,
-              "end": 40,
-              "text": "he built his house out of straw hmm bad"
-            },
             {
               "id": "c0013",
               "start": 40,
@@ -500,15 +634,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0012",
-              "start": 36,
-              "end": 40,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0012"
-              ]
-            },
-            {
               "id": "c0013",
               "start": 40,
               "end": 44,
@@ -529,8 +654,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -541,12 +666,12 @@
       "targets": [
         {
           "expressionId": "yes",
-          "cueId": "c0004",
-          "quote": "he built his house out of straw hmm bad move Pig ticket oh yeah Oh yes, of course.",
-          "start": 36,
+          "cueId": "c0005",
+          "quote": "move Pig ticket oh yeah Oh yes, of course.",
+          "start": 40,
           "end": 47,
-          "matchStart": 67,
-          "matchEnd": 70
+          "matchStart": 27,
+          "matchEnd": 30
         }
       ],
       "qualityFlags": [
@@ -556,21 +681,21 @@
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
+      "id": "c0006",
+      "title": "문단 2",
       "start": 47,
-      "end": 62,
-      "sentenceText": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one No, ta-da!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "end": 59,
+      "sentenceText": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
+          "id": "c0006",
           "start": 47,
-          "end": 62,
-          "text": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one No, ta-da!",
-          "originalText": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one no ticket",
+          "end": 59,
+          "text": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one",
+          "originalText": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one",
           "originalCueRefs": [
             {
               "id": "c0015",
@@ -595,22 +720,9 @@
               "start": 57,
               "end": 59,
               "text": "have one"
-            },
-            {
-              "id": "c0019",
-              "start": 59,
-              "end": 62,
-              "text": "no ticket"
             }
           ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0020",
-              "start": 59,
-              "end": 62,
-              "text": "No, ta-da!"
-            }
-          ],
+          "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
               "id": "c0015",
@@ -647,24 +759,14 @@
               "originalCueIds": [
                 "c0018"
               ]
-            },
-            {
-              "id": "c0019",
-              "start": 59,
-              "end": 62,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0019"
-              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
-            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
@@ -672,55 +774,51 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0005",
-          "quote": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one No, ta-da!",
+          "cueId": "c0006",
+          "quote": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one",
           "start": 47,
-          "end": 62,
+          "end": 59,
           "matchStart": 0,
           "matchEnd": 4
         },
         {
-          "expressionId": "no",
-          "cueId": "c0005",
-          "quote": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one No, ta-da!",
-          "start": 47,
-          "end": 62,
-          "matchStart": 110,
-          "matchEnd": 112
-        },
-        {
           "expressionId": "dont",
-          "cueId": "c0005",
-          "quote": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one No, ta-da!",
+          "cueId": "c0006",
+          "quote": "what did I do with it somewhere ticket oh here it is a chunk quicker next time kick it oh uh I don't have one",
           "start": 47,
-          "end": 62,
+          "end": 59,
           "matchStart": 95,
           "matchEnd": 100
         }
       ],
       "qualityFlags": [
         "raw-original-text",
-        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
-      "start": 62,
-      "end": 77,
-      "sentenceText": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "id": "c0007",
+      "title": "문단 1",
+      "start": 59,
+      "end": 74,
+      "sentenceText": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
-          "start": 62,
-          "end": 77,
-          "text": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-          "originalText": "beautiful Bluey I think dad'll like that that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
+          "id": "c0007",
+          "start": 59,
+          "end": 74,
+          "text": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "originalText": "no ticket beautiful Bluey I think dad'll like that that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
           "originalCueRefs": [
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 62,
+              "text": "no ticket"
+            },
             {
               "id": "c0020",
               "start": 62,
@@ -744,15 +842,15 @@
               "start": 71,
               "end": 74,
               "text": "it looks great yeah it doesn't look like"
-            },
-            {
-              "id": "c0024",
-              "start": 74,
-              "end": 77,
-              "text": "our couch it looks more like a chair oh"
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0020",
+              "start": 59,
+              "end": 62,
+              "text": "No, ta-da!"
+            },
             {
               "id": "c0021",
               "start": 62,
@@ -761,6 +859,15 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 62,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
             {
               "id": "c0020",
               "start": 62,
@@ -796,7 +903,116 @@
               "originalCueIds": [
                 "c0023"
               ]
-            },
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "start": 59,
+          "end": 74,
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0007",
+          "quote": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "start": 59,
+          "end": 74,
+          "matchStart": 31,
+          "matchEnd": 36
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0007",
+          "quote": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "start": 59,
+          "end": 74,
+          "matchStart": 37,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0007",
+          "quote": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "start": 59,
+          "end": 74,
+          "matchStart": 44,
+          "matchEnd": 48
+        },
+        {
+          "expressionId": "big",
+          "cueId": "c0007",
+          "quote": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "start": 59,
+          "end": 74,
+          "matchStart": 123,
+          "matchEnd": 126
+        },
+        {
+          "expressionId": "great",
+          "cueId": "c0007",
+          "quote": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "start": 59,
+          "end": 74,
+          "matchStart": 144,
+          "matchEnd": 149
+        },
+        {
+          "expressionId": "look",
+          "cueId": "c0007",
+          "quote": "No, ta-da! Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like",
+          "start": 59,
+          "end": 74,
+          "matchStart": 166,
+          "matchEnd": 170
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 2",
+      "start": 74,
+      "end": 77,
+      "sentenceText": "our couch it looks more like a chair oh",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 74,
+          "end": 77,
+          "text": "our couch it looks more like a chair oh",
+          "originalText": "our couch it looks more like a chair oh",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 74,
+              "end": 77,
+              "text": "our couch it looks more like a chair oh"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0024",
               "start": 74,
@@ -807,91 +1023,44 @@
               ]
             }
           ],
-          "textSource": "mixed-captured-sources",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
-            "duration-grouped-dialogue"
+            "short-dialogue-fragment"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "think",
-          "cueId": "c0006",
-          "quote": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-          "start": 62,
-          "end": 77,
-          "matchStart": 20,
-          "matchEnd": 25
-        },
-        {
-          "expressionId": "dad",
-          "cueId": "c0006",
-          "quote": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-          "start": 62,
-          "end": 77,
-          "matchStart": 26,
-          "matchEnd": 29
-        },
-        {
           "expressionId": "like",
-          "cueId": "c0006",
-          "quote": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-          "start": 62,
+          "cueId": "c0008",
+          "quote": "our couch it looks more like a chair oh",
+          "start": 74,
           "end": 77,
-          "matchStart": 33,
-          "matchEnd": 37
-        },
-        {
-          "expressionId": "big",
-          "cueId": "c0006",
-          "quote": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-          "start": 62,
-          "end": 77,
-          "matchStart": 112,
-          "matchEnd": 115
-        },
-        {
-          "expressionId": "great",
-          "cueId": "c0006",
-          "quote": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-          "start": 62,
-          "end": 77,
-          "matchStart": 133,
-          "matchEnd": 138
-        },
-        {
-          "expressionId": "look",
-          "cueId": "c0006",
-          "quote": "Beautiful, Bluey! I think Dad'll like that, that games are always too rough hmm I'm not very perfect to drawing big couches it looks great yeah it doesn't look like our couch it looks more like a chair oh",
-          "start": 62,
-          "end": 77,
-          "matchStart": 155,
-          "matchEnd": 159
+          "matchStart": 24,
+          "matchEnd": 28
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
-        "duration-grouped-dialogue"
+        "short-dialogue-fragment"
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
+      "id": "c0009",
+      "title": "문단 1",
       "start": 77,
       "end": 90,
       "sentenceText": "you can draw dabbling chair oh yeah oh man my legs are tired from all this child rearing surely sitting down on a comfy chair will do the trick",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
+          "id": "c0009",
           "start": 77,
           "end": 90,
           "text": "you can draw dabbling chair oh yeah oh man my legs are tired from all this child rearing surely sitting down on a comfy chair will do the trick",
@@ -963,8 +1132,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -978,21 +1147,21 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0010",
+      "title": "문단 2",
       "start": 90,
-      "end": 105,
-      "sentenceText": "Oh, look, I have my choice of any chair want where to sit here sitting in this chair was definitely the right decision the server relaxing",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "end": 95,
+      "sentenceText": "Oh, look, I have my choice of any chair want where to sit",
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0010",
           "start": 90,
-          "end": 105,
-          "text": "Oh, look, I have my choice of any chair want where to sit here sitting in this chair was definitely the right decision the server relaxing",
-          "originalText": "oh look I have my choice of any chair I want where to sit here sitting in this chair was definitely the right decision the server relaxing",
+          "end": 95,
+          "text": "Oh, look, I have my choice of any chair want where to sit",
+          "originalText": "oh look I have my choice of any chair I want where to sit",
           "originalCueRefs": [
             {
               "id": "c0029",
@@ -1005,24 +1174,6 @@
               "start": 93,
               "end": 95,
               "text": "want where to sit"
-            },
-            {
-              "id": "c0031",
-              "start": 95,
-              "end": 97,
-              "text": "here"
-            },
-            {
-              "id": "c0032",
-              "start": 98,
-              "end": 101,
-              "text": "sitting in this chair was definitely the"
-            },
-            {
-              "id": "c0033",
-              "start": 101,
-              "end": 105,
-              "text": "right decision the server relaxing"
             }
           ],
           "cleanedCueRefs": [
@@ -1051,7 +1202,111 @@
               "originalCueIds": [
                 "c0030"
               ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "look",
+          "cueId": "c0010",
+          "quote": "Oh, look, I have my choice of any chair want where to sit",
+          "start": 90,
+          "end": 95,
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0010",
+          "quote": "Oh, look, I have my choice of any chair want where to sit",
+          "start": 90,
+          "end": 95,
+          "matchStart": 40,
+          "matchEnd": 44
+        },
+        {
+          "expressionId": "where",
+          "cueId": "c0010",
+          "quote": "Oh, look, I have my choice of any chair want where to sit",
+          "start": 90,
+          "end": 95,
+          "matchStart": 45,
+          "matchEnd": 50
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 1",
+      "start": 95,
+      "end": 110,
+      "sentenceText": "here sitting in this chair was definitely the right decision the server relaxing Jay looks like a chair good to go but But you're not really in it, yeah?",
+      "chapterId": "chapter-006",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 95,
+          "end": 110,
+          "text": "here sitting in this chair was definitely the right decision the server relaxing Jay looks like a chair good to go but But you're not really in it, yeah?",
+          "originalText": "here sitting in this chair was definitely the right decision the server relaxing Jay looks like a chair good to go but you're not really in it yeah it's",
+          "originalCueRefs": [
+            {
+              "id": "c0031",
+              "start": 95,
+              "end": 97,
+              "text": "here"
             },
+            {
+              "id": "c0032",
+              "start": 98,
+              "end": 101,
+              "text": "sitting in this chair was definitely the"
+            },
+            {
+              "id": "c0033",
+              "start": 101,
+              "end": 105,
+              "text": "right decision the server relaxing"
+            },
+            {
+              "id": "c0034",
+              "start": 105,
+              "end": 107,
+              "text": "Jay looks like a chair good to go but"
+            },
+            {
+              "id": "c0035",
+              "start": 107,
+              "end": 110,
+              "text": "you're not really in it yeah it's"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 107,
+              "end": 110,
+              "text": "But you're not really in it, yeah?"
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0031",
               "start": 95,
@@ -1078,93 +1333,7 @@
               "originalCueIds": [
                 "c0033"
               ]
-            }
-          ],
-          "textSource": "mixed-captured-sources",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "look",
-          "cueId": "c0008",
-          "quote": "Oh, look, I have my choice of any chair want where to sit here sitting in this chair was definitely the right decision the server relaxing",
-          "start": 90,
-          "end": 105,
-          "matchStart": 4,
-          "matchEnd": 8
-        },
-        {
-          "expressionId": "want",
-          "cueId": "c0008",
-          "quote": "Oh, look, I have my choice of any chair want where to sit here sitting in this chair was definitely the right decision the server relaxing",
-          "start": 90,
-          "end": 105,
-          "matchStart": 40,
-          "matchEnd": 44
-        },
-        {
-          "expressionId": "where",
-          "cueId": "c0008",
-          "quote": "Oh, look, I have my choice of any chair want where to sit here sitting in this chair was definitely the right decision the server relaxing",
-          "start": 90,
-          "end": 105,
-          "matchStart": 45,
-          "matchEnd": 50
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0009",
-      "title": "문단 9",
-      "start": 105,
-      "end": 110,
-      "sentenceText": "Jay looks like a chair good to go but But you're not really in it, yeah?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0009",
-          "start": 105,
-          "end": 110,
-          "text": "Jay looks like a chair good to go but But you're not really in it, yeah?",
-          "originalText": "Jay looks like a chair good to go but you're not really in it yeah it's",
-          "originalCueRefs": [
-            {
-              "id": "c0034",
-              "start": 105,
-              "end": 107,
-              "text": "Jay looks like a chair good to go but"
             },
-            {
-              "id": "c0035",
-              "start": 107,
-              "end": 110,
-              "text": "you're not really in it yeah it's"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0036",
-              "start": 107,
-              "end": 110,
-              "text": "But you're not really in it, yeah?"
-            }
-          ],
-          "sourceCueRefs": [
             {
               "id": "c0034",
               "start": 105,
@@ -1186,8 +1355,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1198,21 +1367,21 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0009",
-          "quote": "Jay looks like a chair good to go but But you're not really in it, yeah?",
-          "start": 105,
+          "cueId": "c0011",
+          "quote": "here sitting in this chair was definitely the right decision the server relaxing Jay looks like a chair good to go but But you're not really in it, yeah?",
+          "start": 95,
           "end": 110,
-          "matchStart": 10,
-          "matchEnd": 14
+          "matchStart": 91,
+          "matchEnd": 95
         },
         {
           "expressionId": "good",
-          "cueId": "c0009",
-          "quote": "Jay looks like a chair good to go but But you're not really in it, yeah?",
-          "start": 105,
+          "cueId": "c0011",
+          "quote": "here sitting in this chair was definitely the right decision the server relaxing Jay looks like a chair good to go but But you're not really in it, yeah?",
+          "start": 95,
           "end": 110,
-          "matchStart": 23,
-          "matchEnd": 27
+          "matchStart": 104,
+          "matchEnd": 108
         }
       ],
       "qualityFlags": [
@@ -1222,17 +1391,17 @@
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 10",
+      "id": "c0012",
+      "title": "문단 2",
       "start": 110,
       "end": 115,
       "sentenceText": "It's supposed to be a picture of Dad Look, it's fine, it doesn't have to be perfect.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
+          "id": "c0012",
           "start": 110,
           "end": 115,
           "text": "It's supposed to be a picture of Dad Look, it's fine, it doesn't have to be perfect.",
@@ -1287,8 +1456,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1298,7 +1467,7 @@
       "targets": [
         {
           "expressionId": "have-to",
-          "cueId": "c0010",
+          "cueId": "c0012",
           "quote": "It's supposed to be a picture of Dad Look, it's fine, it doesn't have to be perfect.",
           "start": 110,
           "end": 115,
@@ -1307,7 +1476,7 @@
         },
         {
           "expressionId": "dad",
-          "cueId": "c0010",
+          "cueId": "c0012",
           "quote": "It's supposed to be a picture of Dad Look, it's fine, it doesn't have to be perfect.",
           "start": 110,
           "end": 115,
@@ -1316,7 +1485,7 @@
         },
         {
           "expressionId": "look",
-          "cueId": "c0010",
+          "cueId": "c0012",
           "quote": "It's supposed to be a picture of Dad Look, it's fine, it doesn't have to be perfect.",
           "start": 110,
           "end": 115,
@@ -1330,17 +1499,17 @@
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 11",
+      "id": "c0013",
+      "title": "문단 3",
       "start": 115,
       "end": 125,
       "sentenceText": "Dad will love anything you do, so if I gave him this, he'd love it. Um, yes.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-006",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
+          "id": "c0013",
           "start": 115,
           "end": 125,
           "text": "Dad will love anything you do, so if I gave him this, he'd love it. Um, yes.",
@@ -1416,8 +1585,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-006",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1427,7 +1596,7 @@
       "targets": [
         {
           "expressionId": "dad",
-          "cueId": "c0011",
+          "cueId": "c0013",
           "quote": "Dad will love anything you do, so if I gave him this, he'd love it. Um, yes.",
           "start": 115,
           "end": 125,
@@ -1436,7 +1605,7 @@
         },
         {
           "expressionId": "love",
-          "cueId": "c0011",
+          "cueId": "c0013",
           "quote": "Dad will love anything you do, so if I gave him this, he'd love it. Um, yes.",
           "start": 115,
           "end": 125,
@@ -1445,7 +1614,7 @@
         },
         {
           "expressionId": "yes",
-          "cueId": "c0011",
+          "cueId": "c0013",
           "quote": "Dad will love anything you do, so if I gave him this, he'd love it. Um, yes.",
           "start": 115,
           "end": 125,

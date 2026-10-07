@@ -17,25 +17,78 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Dragon ✏️ | Brand New - Series 3 | Bluey",
+      "title": "The quest for the dragon",
       "start": 0,
-      "end": 126,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 35,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Humpty Dumpty confrontation",
+      "start": 35,
+      "markerStart": 35,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 48,
+      "sceneIds": [
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Journey through the forest",
+      "start": 48,
+      "markerStart": 51,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 63,
+      "sceneIds": [
         "c0008",
-        "c0009",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Meeting the wise tree",
+      "start": 63,
+      "markerStart": 65,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 126,
+      "sceneIds": [
         "c0010",
         "c0011",
         "c0012",
@@ -570,12 +623,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 1",
       "start": 35,
       "end": 42,
       "sentenceText": "No, he isn't! Get him! It's all a ninja jump!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -634,8 +687,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -660,27 +713,90 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 2",
       "start": 45,
-      "end": 54,
-      "sentenceText": "Okay, who unscrambled eggs? So the friends kept walking. Maybe I should be shampooing these things.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "end": 48,
+      "sentenceText": "Okay, who unscrambled",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
           "start": 45,
-          "end": 54,
-          "text": "Okay, who unscrambled eggs? So the friends kept walking. Maybe I should be shampooing these things.",
-          "originalText": "okay who unscrambled eggs so the friends kept walking maybe I should be shampooing these things and",
+          "end": 48,
+          "text": "Okay, who unscrambled",
+          "originalText": "okay who unscrambled",
           "originalCueRefs": [
             {
               "id": "c0014",
               "start": 45,
               "end": 48,
               "text": "okay who unscrambled"
-            },
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0017",
+              "start": 45,
+              "end": 48,
+              "text": "Okay, who unscrambled"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0014",
+              "start": 45,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0014"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "Okay, who unscrambled",
+          "start": 45,
+          "end": 48,
+          "matchStart": 0,
+          "matchEnd": 4
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 1",
+      "start": 48,
+      "end": 54,
+      "sentenceText": "eggs? So the friends kept walking. Maybe I should be shampooing these things.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 48,
+          "end": 54,
+          "text": "eggs? So the friends kept walking. Maybe I should be shampooing these things.",
+          "originalText": "eggs so the friends kept walking maybe I should be shampooing these things and",
+          "originalCueRefs": [
             {
               "id": "c0015",
               "start": 48,
@@ -695,12 +811,6 @@
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0017",
-              "start": 45,
-              "end": 48,
-              "text": "Okay, who unscrambled"
-            },
             {
               "id": "c0018",
               "start": 48,
@@ -722,15 +832,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0014",
-              "start": 45,
-              "end": 48,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0014"
-              ]
-            },
-            {
               "id": "c0015",
               "start": 48,
               "end": 52,
@@ -751,46 +852,36 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
       ],
-      "targets": [
-        {
-          "expressionId": "okay",
-          "cueId": "c0007",
-          "quote": "Okay, who unscrambled eggs? So the friends kept walking. Maybe I should be shampooing these things.",
-          "start": 45,
-          "end": 54,
-          "matchStart": 0,
-          "matchEnd": 4
-        }
-      ],
+      "targets": [],
       "qualityFlags": [
         "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0009",
+      "title": "문단 2",
       "start": 54,
-      "end": 59,
-      "sentenceText": "And then they got to a forest. Can you draw a forest, Mum?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "end": 63,
+      "sentenceText": "And then they got to a forest. Can you draw a forest, Mum? Okay. Will the dragon be in it, do you think?",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0009",
           "start": 54,
-          "end": 59,
-          "text": "And then they got to a forest. Can you draw a forest, Mum?",
-          "originalText": "then they got to a forest can you draw a forest Mom okay will the dragon be in it",
+          "end": 63,
+          "text": "And then they got to a forest. Can you draw a forest, Mum? Okay. Will the dragon be in it, do you think?",
+          "originalText": "then they got to a forest can you draw a forest Mom okay will the dragon be in it do you think um no not yet wow this",
           "originalCueRefs": [
             {
               "id": "c0017",
@@ -803,6 +894,12 @@
               "start": 57,
               "end": 59,
               "text": "forest Mom okay will the dragon be in it"
+            },
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 63,
+              "text": "do you think um no not yet wow this"
             }
           ],
           "cleanedCueRefs": [
@@ -817,6 +914,18 @@
               "start": 57,
               "end": 59,
               "text": "Can you draw a forest, Mum?"
+            },
+            {
+              "id": "c0023",
+              "start": 59,
+              "end": 61,
+              "text": "Okay. Will the dragon be in it,"
+            },
+            {
+              "id": "c0024",
+              "start": 61,
+              "end": 63,
+              "text": "do you think?"
             }
           ],
           "sourceCueRefs": [
@@ -837,12 +946,21 @@
               "originalCueIds": [
                 "c0018"
               ]
+            },
+            {
+              "id": "c0019",
+              "start": 59,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -852,141 +970,30 @@
       "targets": [
         {
           "expressionId": "mum",
-          "cueId": "c0008",
-          "quote": "And then they got to a forest. Can you draw a forest, Mum?",
+          "cueId": "c0009",
+          "quote": "And then they got to a forest. Can you draw a forest, Mum? Okay. Will the dragon be in it, do you think?",
           "start": 54,
-          "end": 59,
+          "end": 63,
           "matchStart": 54,
           "matchEnd": 57
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0009",
-      "title": "문단 9",
-      "start": 59,
-      "end": 67,
-      "sentenceText": "Okay. Will the dragon be in it, do you think? Um, no, not yet. Wow, this dragon's hard to find.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0009",
-          "start": 59,
-          "end": 67,
-          "text": "Okay. Will the dragon be in it, do you think? Um, no, not yet. Wow, this dragon's hard to find.",
-          "originalText": "do you think um no not yet wow this dragon's hard to find let's ask the wise",
-          "originalCueRefs": [
-            {
-              "id": "c0019",
-              "start": 59,
-              "end": 63,
-              "text": "do you think um no not yet wow this"
-            },
-            {
-              "id": "c0020",
-              "start": 63,
-              "end": 67,
-              "text": "dragon's hard to find let's ask the wise"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0023",
-              "start": 59,
-              "end": 61,
-              "text": "Okay. Will the dragon be in it,"
-            },
-            {
-              "id": "c0024",
-              "start": 61,
-              "end": 63,
-              "text": "do you think?"
-            },
-            {
-              "id": "c0025",
-              "start": 63,
-              "end": 65,
-              "text": "Um, no, not yet."
-            },
-            {
-              "id": "c0026",
-              "start": 65,
-              "end": 67,
-              "text": "Wow, this dragon's hard to find."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0019",
-              "start": 59,
-              "end": 63,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0019"
-              ]
-            },
-            {
-              "id": "c0020",
-              "start": 63,
-              "end": 67,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0020"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "not-yet",
-          "cueId": "c0009",
-          "quote": "Okay. Will the dragon be in it, do you think? Um, no, not yet. Wow, this dragon's hard to find.",
-          "start": 59,
-          "end": 67,
-          "matchStart": 54,
-          "matchEnd": 61
         },
         {
           "expressionId": "okay",
           "cueId": "c0009",
-          "quote": "Okay. Will the dragon be in it, do you think? Um, no, not yet. Wow, this dragon's hard to find.",
-          "start": 59,
-          "end": 67,
-          "matchStart": 0,
-          "matchEnd": 4
+          "quote": "And then they got to a forest. Can you draw a forest, Mum? Okay. Will the dragon be in it, do you think?",
+          "start": 54,
+          "end": 63,
+          "matchStart": 59,
+          "matchEnd": 63
         },
         {
           "expressionId": "think",
           "cueId": "c0009",
-          "quote": "Okay. Will the dragon be in it, do you think? Um, no, not yet. Wow, this dragon's hard to find.",
-          "start": 59,
-          "end": 67,
-          "matchStart": 39,
-          "matchEnd": 44
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0009",
-          "quote": "Okay. Will the dragon be in it, do you think? Um, no, not yet. Wow, this dragon's hard to find.",
-          "start": 59,
-          "end": 67,
-          "matchStart": 50,
-          "matchEnd": 52
+          "quote": "And then they got to a forest. Can you draw a forest, Mum? Okay. Will the dragon be in it, do you think?",
+          "start": 54,
+          "end": 63,
+          "matchStart": 98,
+          "matchEnd": 103
         }
       ],
       "qualityFlags": [
@@ -996,21 +1003,27 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
-      "start": 67,
+      "title": "문단 1",
+      "start": 63,
       "end": 72,
-      "sentenceText": "Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "sentenceText": "Um, no, not yet. Wow, this dragon's hard to find. Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
-          "start": 67,
+          "start": 63,
           "end": 72,
-          "text": "Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
-          "originalText": "old talking tree oh yeah you can tell us where the dragon is so they walked to",
+          "text": "Um, no, not yet. Wow, this dragon's hard to find. Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
+          "originalText": "dragon's hard to find let's ask the wise old talking tree oh yeah you can tell us where the dragon is so they walked to",
           "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 63,
+              "end": 67,
+              "text": "dragon's hard to find let's ask the wise"
+            },
             {
               "id": "c0021",
               "start": 67,
@@ -1025,6 +1038,18 @@
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 63,
+              "end": 65,
+              "text": "Um, no, not yet."
+            },
+            {
+              "id": "c0026",
+              "start": 65,
+              "end": 67,
+              "text": "Wow, this dragon's hard to find."
+            },
             {
               "id": "c0027",
               "start": 67,
@@ -1046,6 +1071,15 @@
           ],
           "sourceCueRefs": [
             {
+              "id": "c0020",
+              "start": 63,
+              "end": 67,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
+            {
               "id": "c0021",
               "start": 67,
               "end": 70,
@@ -1066,8 +1100,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1076,22 +1110,40 @@
       ],
       "targets": [
         {
+          "expressionId": "not-yet",
+          "cueId": "c0010",
+          "quote": "Um, no, not yet. Wow, this dragon's hard to find. Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 8,
+          "matchEnd": 15
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0010",
+          "quote": "Um, no, not yet. Wow, this dragon's hard to find. Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 4,
+          "matchEnd": 6
+        },
+        {
           "expressionId": "lets",
           "cueId": "c0010",
-          "quote": "Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
-          "start": 67,
+          "quote": "Um, no, not yet. Wow, this dragon's hard to find. Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
+          "start": 63,
           "end": 72,
-          "matchStart": 0,
-          "matchEnd": 5
+          "matchStart": 50,
+          "matchEnd": 55
         },
         {
           "expressionId": "where",
           "cueId": "c0010",
-          "quote": "Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
-          "start": 67,
+          "quote": "Um, no, not yet. Wow, this dragon's hard to find. Let's ask the wise old talking tree. Oh, yeah! She can tell us where the dragon is.",
+          "start": 63,
           "end": 72,
-          "matchStart": 63,
-          "matchEnd": 68
+          "matchStart": 113,
+          "matchEnd": 118
         }
       ],
       "qualityFlags": [
@@ -1101,12 +1153,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 2",
       "start": 72,
       "end": 78,
       "sentenceText": "So they walked to where the wise old talking tree was. We're here! Where's the magic tree, Mum?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1171,8 +1223,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1206,12 +1258,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 3",
       "start": 78,
       "end": 83,
       "sentenceText": "Oh, my hand's sore from drawing all these leaves. Could you draw it, Bluey?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1276,8 +1328,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1292,12 +1344,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 4",
       "start": 83,
       "end": 98,
       "sentenceText": "Um, no, I don't want to. I'll draw it. it going Uh, Bingo, why don't you draw it? Okay, wait, no...",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1419,8 +1471,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1492,12 +1544,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 5",
       "start": 98,
       "end": 108,
       "sentenceText": "Hey, talking tree, we just want to know where the dragon is. He's at the toilet.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1562,8 +1614,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1606,12 +1658,12 @@
     },
     {
       "id": "c0015",
-      "title": "문단 15",
+      "title": "문단 6",
       "start": 108,
       "end": 116,
       "sentenceText": "Oh, hey, I know what tree to say. Say hello to my little friend!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -1676,8 +1728,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1738,12 +1790,12 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
+      "title": "문단 7",
       "start": 118,
       "end": 126,
       "sentenceText": "Bluey, why... we came here for the night.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
@@ -1802,8 +1854,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"

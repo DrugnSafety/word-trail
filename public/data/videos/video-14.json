@@ -17,15 +17,22 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 3,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Adult Bluey Visits Home 👀💙 | BRAND NEW CLIP - Surprise 🎾 | Bluey",
+      "title": "Settling into the hospital",
       "start": 0,
-      "end": 126,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 65,
       "sceneIds": [
         "c0001",
         "c0002",
@@ -33,11 +40,40 @@
         "c0004",
         "c0005",
         "c0006",
-        "c0007",
-        "c0008",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Supporting Fukan",
+      "start": 65,
+      "markerStart": 65,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 88,
+      "sceneIds": [
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "A visitor at home",
+      "start": 88,
+      "markerStart": 88,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 126,
+      "sceneIds": [
         "c0009",
         "c0010",
-        "c0011"
+        "c0011",
+        "c0012"
       ]
     }
   ],
@@ -822,8 +858,8 @@
       "id": "c0007",
       "title": "문단 7",
       "start": 56,
-      "end": 69,
-      "sentenceText": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
+      "end": 65,
+      "sentenceText": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
       "chapterId": "chapter-001",
       "paragraphIndex": 7,
       "selectable": true,
@@ -831,9 +867,9 @@
         {
           "id": "c0007",
           "start": 56,
-          "end": 69,
-          "text": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
-          "originalText": "You take the others to daycare. Really? You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, Fukin. They're always surprising you.",
+          "end": 65,
+          "text": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
+          "originalText": "You take the others to daycare. Really? You sure? You don't want to play your game? No, I'm okay.",
           "originalCueRefs": [
             {
               "id": "c0021",
@@ -852,18 +888,6 @@
               "start": 61,
               "end": 65,
               "text": "game? No, I'm okay."
-            },
-            {
-              "id": "c0024",
-              "start": 65,
-              "end": 67,
-              "text": "That's the thing about kids, Fukin."
-            },
-            {
-              "id": "c0025",
-              "start": 67,
-              "end": 69,
-              "text": "They're always surprising you."
             }
           ],
           "cleanedCueRefs": [
@@ -872,18 +896,6 @@
               "start": 56,
               "end": 59,
               "text": "You take the others to daycare."
-            },
-            {
-              "id": "c0033",
-              "start": 65,
-              "end": 67,
-              "text": "That's the thing about kids,"
-            },
-            {
-              "id": "c0035",
-              "start": 67,
-              "end": 69,
-              "text": "They're always surprising you."
             }
           ],
           "sourceCueRefs": [
@@ -913,7 +925,126 @@
               "originalCueIds": [
                 "c0023"
               ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 7,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "sure",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 36,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 52,
+          "matchEnd": 56
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 60,
+          "matchEnd": 64
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 76,
+          "matchEnd": 78
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 84,
+          "matchEnd": 88
+        },
+        {
+          "expressionId": "dont",
+          "cueId": "c0007",
+          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay.",
+          "start": 56,
+          "end": 65,
+          "matchStart": 46,
+          "matchEnd": 51
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 1",
+      "start": 65,
+      "end": 69,
+      "sentenceText": "That's the thing about kids, They're always surprising you.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 65,
+          "end": 69,
+          "text": "That's the thing about kids, They're always surprising you.",
+          "originalText": "That's the thing about kids, Fukin. They're always surprising you.",
+          "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 65,
+              "end": 67,
+              "text": "That's the thing about kids, Fukin."
             },
+            {
+              "id": "c0025",
+              "start": 67,
+              "end": 69,
+              "text": "They're always surprising you."
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 65,
+              "end": 67,
+              "text": "That's the thing about kids,"
+            },
+            {
+              "id": "c0035",
+              "start": 67,
+              "end": 69,
+              "text": "They're always surprising you."
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0024",
               "start": 65,
@@ -933,91 +1064,36 @@
               ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
-            "raw-original-text",
-            "duration-grouped-dialogue"
+            "duration-grouped-dialogue",
+            "short-dialogue-fragment"
           ]
         }
       ],
-      "targets": [
-        {
-          "expressionId": "sure",
-          "cueId": "c0007",
-          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
-          "start": 56,
-          "end": 69,
-          "matchStart": 36,
-          "matchEnd": 40
-        },
-        {
-          "expressionId": "want",
-          "cueId": "c0007",
-          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
-          "start": 56,
-          "end": 69,
-          "matchStart": 52,
-          "matchEnd": 56
-        },
-        {
-          "expressionId": "play",
-          "cueId": "c0007",
-          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
-          "start": 56,
-          "end": 69,
-          "matchStart": 60,
-          "matchEnd": 64
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0007",
-          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
-          "start": 56,
-          "end": 69,
-          "matchStart": 76,
-          "matchEnd": 78
-        },
-        {
-          "expressionId": "okay",
-          "cueId": "c0007",
-          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
-          "start": 56,
-          "end": 69,
-          "matchStart": 84,
-          "matchEnd": 88
-        },
-        {
-          "expressionId": "dont",
-          "cueId": "c0007",
-          "quote": "You take the others to daycare. You sure? You don't want to play your game? No, I'm okay. That's the thing about kids, They're always surprising you.",
-          "start": 56,
-          "end": 69,
-          "matchStart": 46,
-          "matchEnd": 51
-        }
-      ],
+      "targets": [],
       "qualityFlags": [
         "corrected-text-exact-coverage",
-        "raw-original-text",
-        "duration-grouped-dialogue"
+        "duration-grouped-dialogue",
+        "short-dialogue-fragment"
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0009",
+      "title": "문단 1",
       "start": 88,
       "end": 93,
       "sentenceText": "Hi, Mum! Bluey, what a lovely surprise!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0009",
           "start": 88,
           "end": 93,
           "text": "Hi, Mum! Bluey, what a lovely surprise!",
@@ -1057,8 +1133,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1067,7 +1143,7 @@
       "targets": [
         {
           "expressionId": "mum",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "Hi, Mum! Bluey, what a lovely surprise!",
           "start": 88,
           "end": 93,
@@ -1076,7 +1152,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "Hi, Mum! Bluey, what a lovely surprise!",
           "start": 88,
           "end": 93,
@@ -1089,17 +1165,17 @@
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
+      "id": "c0010",
+      "title": "문단 2",
       "start": 93,
       "end": 100,
       "sentenceText": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
+          "id": "c0010",
           "start": 93,
           "end": 100,
           "text": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
@@ -1160,8 +1236,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1171,7 +1247,7 @@
       "targets": [
         {
           "expressionId": "good",
-          "cueId": "c0009",
+          "cueId": "c0010",
           "quote": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
           "start": 93,
           "end": 100,
@@ -1180,7 +1256,7 @@
         },
         {
           "expressionId": "see",
-          "cueId": "c0009",
+          "cueId": "c0010",
           "quote": "Bandit, I just thought I'd pop by. It's so good to see you. Come in, Bandit.",
           "start": 93,
           "end": 100,
@@ -1194,17 +1270,17 @@
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 10",
+      "id": "c0011",
+      "title": "문단 3",
       "start": 100,
       "end": 114,
       "sentenceText": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
+          "id": "c0011",
           "start": 100,
           "end": 114,
           "text": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
@@ -1310,8 +1386,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1322,7 +1398,7 @@
       "targets": [
         {
           "expressionId": "dad",
-          "cueId": "c0010",
+          "cueId": "c0011",
           "quote": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
           "start": 100,
           "end": 114,
@@ -1331,7 +1407,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0010",
+          "cueId": "c0011",
           "quote": "I hear you. Hey, Bluey! Hey, Dad. on. Bingo's out the back. Oh, the house is looking good. Thanks. Can you believe dad almost sold it? Are you ever going to let that go?",
           "start": 100,
           "end": 114,
@@ -1346,17 +1422,17 @@
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 11",
+      "id": "c0012",
+      "title": "문단 4",
       "start": 115,
       "end": 126,
       "sentenceText": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
+          "id": "c0012",
           "start": 115,
           "end": 126,
           "text": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
@@ -1398,8 +1474,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1409,7 +1485,7 @@
       "targets": [
         {
           "expressionId": "hello",
-          "cueId": "c0011",
+          "cueId": "c0012",
           "quote": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
           "start": 115,
           "end": 126,
@@ -1418,7 +1494,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0011",
+          "cueId": "c0012",
           "quote": "Huh? Hello. Huh? No one. That's weird. Oh, no.",
           "start": 115,
           "end": 126,

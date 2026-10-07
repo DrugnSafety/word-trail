@@ -13,3 +13,5 @@ deployment/
 .aws/
 resource/etc/
 /GitHub 업로드.command
+.vercel
+.env*

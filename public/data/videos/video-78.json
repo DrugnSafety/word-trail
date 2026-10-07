@@ -18,25 +18,76 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Dad Tries to Teach a Life Lesson | Ragdoll - Series 3 | Bluey",
+      "title": "Starting the mission",
       "start": 0,
-      "end": 124,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 25,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Slow progress and ice cream",
+      "start": 25,
+      "markerStart": 25,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 48,
+      "sceneIds": [
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Overcoming physical struggle",
+      "start": 48,
+      "markerStart": 51,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 85,
+      "sceneIds": [
         "c0007",
         "c0008",
-        "c0009",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "The long path ahead",
+      "start": 85,
+      "markerStart": 85,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 124,
+      "sceneIds": [
         "c0010",
         "c0011",
         "c0012"
@@ -453,12 +504,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 1",
       "start": 25,
       "end": 31,
       "sentenceText": "favor ice cream I'll get it's working It's very slow, though. Try rolling him. Okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -517,8 +568,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -545,12 +596,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 31,
       "end": 39,
       "sentenceText": "Maybe choc chip. Choc mint? Ready, set, go! Bubblegum. Salted caramel. No, wait! Pistachio!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -621,8 +672,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -665,20 +716,20 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 3",
       "start": 39,
-      "end": 52,
-      "sentenceText": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "end": 48,
+      "sentenceText": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
           "start": 39,
-          "end": 52,
-          "text": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
-          "originalText": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we can square pig in a round Hall I know",
+          "end": 48,
+          "text": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we",
+          "originalText": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we",
           "originalCueRefs": [
             {
               "id": "c0013",
@@ -697,28 +748,9 @@
               "start": 45,
               "end": 48,
               "text": "fast as we"
-            },
-            {
-              "id": "c0016",
-              "start": 48,
-              "end": 52,
-              "text": "can square pig in a round Hall I know"
             }
           ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0026",
-              "start": 48,
-              "end": 51,
-              "text": "Square peg in a round hole."
-            },
-            {
-              "id": "c0027",
-              "start": 51,
-              "end": 52,
-              "text": "I know, Dad."
-            }
-          ],
+          "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
               "id": "c0013",
@@ -746,24 +778,14 @@
               "originalCueIds": [
                 "c0015"
               ]
-            },
-            {
-              "id": "c0016",
-              "start": 48,
-              "end": 52,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0016"
-              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
-            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
@@ -772,63 +794,50 @@
         {
           "expressionId": "hurry-up",
           "cueId": "c0006",
-          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we",
           "start": 39,
-          "end": 52,
+          "end": 48,
           "matchStart": 31,
           "matchEnd": 39
         },
         {
           "expressionId": "want",
           "cueId": "c0006",
-          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
+          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we",
           "start": 39,
-          "end": 52,
+          "end": 48,
           "matchStart": 47,
           "matchEnd": 51
-        },
-        {
-          "expressionId": "know",
-          "cueId": "c0006",
-          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
-          "start": 39,
-          "end": 52,
-          "matchStart": 121,
-          "matchEnd": 125
-        },
-        {
-          "expressionId": "dad",
-          "cueId": "c0006",
-          "quote": "pistachio definitely pistachio hurry up kids I want an ice cream we're going as fast as we Square peg in a round hole. I know, Dad.",
-          "start": 39,
-          "end": 52,
-          "matchStart": 127,
-          "matchEnd": 130
         }
       ],
       "qualityFlags": [
         "raw-original-text",
-        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0007",
-      "title": "문단 7",
-      "start": 52,
-      "end": 65,
-      "sentenceText": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "title": "문단 1",
+      "start": 48,
+      "end": 61,
+      "sentenceText": "Square peg in a round hole. I know, Dad. Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
-          "start": 52,
-          "end": 65,
-          "text": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
-          "originalText": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
+          "start": 48,
+          "end": 61,
+          "text": "Square peg in a round hole. I know, Dad. Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you",
+          "originalText": "can square pig in a round Hall I know Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you",
           "originalCueRefs": [
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 52,
+              "text": "can square pig in a round Hall I know"
+            },
             {
               "id": "c0017",
               "start": 52,
@@ -846,16 +855,32 @@
               "start": 59,
               "end": 61,
               "text": "understand what you're saying Lou you"
-            },
-            {
-              "id": "c0020",
-              "start": 61,
-              "end": 65,
-              "text": "lift him up that way"
             }
           ],
-          "cleanedCueRefs": [],
+          "cleanedCueRefs": [
+            {
+              "id": "c0026",
+              "start": 48,
+              "end": 51,
+              "text": "Square peg in a round hole."
+            },
+            {
+              "id": "c0027",
+              "start": 51,
+              "end": 52,
+              "text": "I know, Dad."
+            }
+          ],
           "sourceCueRefs": [
+            {
+              "id": "c0016",
+              "start": 48,
+              "end": 52,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0016"
+              ]
+            },
             {
               "id": "c0017",
               "start": 52,
@@ -882,22 +907,14 @@
               "originalCueIds": [
                 "c0019"
               ]
-            },
-            {
-              "id": "c0020",
-              "start": 61,
-              "end": 65,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0020"
-              ]
             }
           ],
-          "textSource": "original-captured",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
+            "corrected-text-exact-coverage",
             "raw-original-text",
             "duration-grouped-dialogue"
           ]
@@ -905,55 +922,71 @@
       ],
       "targets": [
         {
+          "expressionId": "know",
+          "cueId": "c0007",
+          "quote": "Square peg in a round hole. I know, Dad. Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you",
+          "start": 48,
+          "end": 61,
+          "matchStart": 30,
+          "matchEnd": 34
+        },
+        {
           "expressionId": "dad",
           "cueId": "c0007",
-          "quote": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
-          "start": 52,
-          "end": 65,
-          "matchStart": 0,
-          "matchEnd": 3
+          "quote": "Square peg in a round hole. I know, Dad. Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you",
+          "start": 48,
+          "end": 61,
+          "matchStart": 36,
+          "matchEnd": 39
         },
         {
           "expressionId": "what",
           "cueId": "c0007",
-          "quote": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
-          "start": 52,
-          "end": 65,
-          "matchStart": 90,
-          "matchEnd": 94
+          "quote": "Square peg in a round hole. I know, Dad. Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you",
+          "start": 48,
+          "end": 61,
+          "matchStart": 131,
+          "matchEnd": 135
         },
         {
           "expressionId": "dont",
           "cueId": "c0007",
-          "quote": "Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you lift him up that way",
-          "start": 52,
-          "end": 65,
-          "matchStart": 73,
-          "matchEnd": 78
+          "quote": "Square peg in a round hole. I know, Dad. Dad this is too hard obstacles do not block the path they are the path I don't understand what you're saying Lou you",
+          "start": 48,
+          "end": 61,
+          "matchStart": 114,
+          "matchEnd": 119
         }
       ],
       "qualityFlags": [
+        "corrected-text-exact-coverage",
         "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0008",
-      "title": "문단 8",
-      "start": 66,
+      "title": "문단 2",
+      "start": 61,
       "end": 74,
-      "sentenceText": "okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "sentenceText": "lift him up that way okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0008",
-          "start": 66,
+          "start": 61,
           "end": 74,
-          "text": "okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
-          "originalText": "okay this is hard work a bit of hard work never hurt anyone okay that actually did hurt Come",
+          "text": "lift him up that way okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
+          "originalText": "lift him up that way okay this is hard work a bit of hard work never hurt anyone okay that actually did hurt Come",
           "originalCueRefs": [
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 65,
+              "text": "lift him up that way"
+            },
             {
               "id": "c0021",
               "start": 66,
@@ -982,6 +1015,15 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0020",
+              "start": 61,
+              "end": 65,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0020"
+              ]
+            },
             {
               "id": "c0021",
               "start": 66,
@@ -1012,8 +1054,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1025,11 +1067,11 @@
         {
           "expressionId": "okay",
           "cueId": "c0008",
-          "quote": "okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
-          "start": 66,
+          "quote": "lift him up that way okay this is hard work a bit of hard work never hurt Okay, that actually did hurt.",
+          "start": 61,
           "end": 74,
-          "matchStart": 0,
-          "matchEnd": 4
+          "matchStart": 21,
+          "matchEnd": 25
         }
       ],
       "qualityFlags": [
@@ -1040,12 +1082,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 74,
       "end": 85,
       "sentenceText": "on B go that's it kids if you get knocked down seven times you get a eight There's no 'I' in 'team'! Stop talking! Bluey, look!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1125,8 +1167,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1180,12 +1222,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 1",
       "start": 85,
       "end": 100,
       "sentenceText": "Oh, yeah! This will be easy. What will be easy? easy o I'm to go a place in our way to see if what we want is really worth fighting for go",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1274,8 +1316,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1320,12 +1362,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 2",
       "start": 100,
       "end": 111,
       "sentenceText": "Help me get him around the corner. corner he's stop even if we get him out of the house we still have to get him across the yard to the car.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1414,8 +1456,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1460,12 +1502,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 3",
       "start": 111,
       "end": 124,
       "sentenceText": "it's impossible great works are performed not by great strength but by perseverance hang on are you trying to teach us something",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1556,8 +1598,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"

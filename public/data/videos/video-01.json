@@ -12,14 +12,14 @@
   },
   "qualityFlags": [
     "contains-repaired-zero-duration-cues",
-    "contains-explicit-parent-grouping",
+    "contains-explicit-source-grouping",
     "contains-non-speech-cues",
     "contains-raw-original-text"
   ],
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
   "chapterMetadataStatus": "partial-user-confirmed",
   "expectedChapterCount": 7,
@@ -31,35 +31,49 @@
       "markerStart": 26,
       "source": "user-provided",
       "provenance": "user-provided-chapter-title-and-start",
-      "coverage": "confirmed-excerpt",
+      "coverage": "confirmed-boundaries",
       "qualityFlags": [],
       "snapSeconds": 0,
-      "end": 49,
+      "end": 65,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
-        "c0004"
+        "c0004",
+        "c0005",
+        "c0006"
       ]
     },
     {
       "id": "chapter-002",
-      "title": "목차 확인 중",
-      "start": 49,
-      "markerStart": 49,
-      "source": "partial-heading-fallback",
-      "provenance": "unverified-remainder-boundary-after-confirmed-segments",
+      "title": "Sharing struggles",
+      "start": 65,
+      "markerStart": 65,
+      "source": "user-provided",
+      "provenance": "user-provided-chapter-title-and-start",
+      "coverage": "confirmed-excerpt",
       "qualityFlags": [],
       "snapSeconds": 0,
-      "end": 404,
+      "end": 104,
       "sceneIds": [
-        "c0005",
-        "c0006",
         "c0007",
         "c0008",
         "c0009",
         "c0010",
-        "c0011",
+        "c0011"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "목차 확인 중",
+      "start": 104,
+      "markerStart": 104,
+      "source": "partial-heading-fallback",
+      "provenance": "unverified-remainder-after-user-confirmed-excerpt",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 404,
+      "sceneIds": [
         "c0012",
         "c0013",
         "c0014",
@@ -106,9 +120,7 @@
         "c0055",
         "c0056",
         "c0057",
-        "c0058",
-        "c0059",
-        "c0060"
+        "c0058"
       ]
     }
   ],
@@ -192,7 +204,7 @@
               "id": "c0001",
               "start": 26,
               "end": 34,
-              "groupingProvenance": "parent-explicit-grouping",
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
                 "c0001",
                 "c0002",
@@ -202,11 +214,11 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "parent-explicit-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-001",
           "paragraphIndex": 1,
           "qualityFlags": [
-            "explicit-parent-grouping",
+            "explicit-script-section",
             "overlapping-playback-window",
             "timing-unverified",
             "corrected-text-exact-coverage"
@@ -234,7 +246,7 @@
         }
       ],
       "qualityFlags": [
-        "explicit-parent-grouping",
+        "explicit-script-section",
         "overlapping-playback-window",
         "timing-unverified",
         "corrected-text-exact-coverage"
@@ -277,18 +289,18 @@
               "id": "c0002",
               "start": 33,
               "end": 37,
-              "groupingProvenance": "parent-explicit-grouping",
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
                 "c0005"
               ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "parent-explicit-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-001",
           "paragraphIndex": 2,
           "qualityFlags": [
-            "explicit-parent-grouping",
+            "explicit-script-section",
             "overlapping-playback-window",
             "timing-unverified",
             "corrected-text-exact-coverage",
@@ -317,7 +329,7 @@
         }
       ],
       "qualityFlags": [
-        "explicit-parent-grouping",
+        "explicit-script-section",
         "overlapping-playback-window",
         "timing-unverified",
         "corrected-text-exact-coverage",
@@ -373,7 +385,7 @@
               "id": "c0003",
               "start": 37,
               "end": 41,
-              "groupingProvenance": "parent-explicit-grouping",
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
                 "c0006",
                 "c0007"
@@ -381,11 +393,11 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "parent-explicit-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-001",
           "paragraphIndex": 3,
           "qualityFlags": [
-            "explicit-parent-grouping",
+            "explicit-script-section",
             "corrected-text-exact-coverage",
             "short-dialogue-fragment"
           ]
@@ -421,7 +433,7 @@
         }
       ],
       "qualityFlags": [
-        "explicit-parent-grouping",
+        "explicit-script-section",
         "corrected-text-exact-coverage",
         "short-dialogue-fragment"
       ]
@@ -499,7 +511,7 @@
               "id": "c0004",
               "start": 41,
               "end": 49,
-              "groupingProvenance": "parent-explicit-grouping",
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
                 "c0008",
                 "c0009",
@@ -509,11 +521,11 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "parent-explicit-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-001",
           "paragraphIndex": 4,
           "qualityFlags": [
-            "explicit-parent-grouping",
+            "explicit-script-section",
             "corrected-text-exact-coverage"
           ]
         }
@@ -566,24 +578,24 @@
         }
       ],
       "qualityFlags": [
-        "explicit-parent-grouping",
+        "explicit-script-section",
         "corrected-text-exact-coverage"
       ]
     },
     {
       "id": "c0005",
-      "title": "문단 1",
+      "title": "문단 5",
       "start": 49,
-      "end": 55,
+      "end": 59,
       "sentenceText": "Hi, Muffin! Ah! Socks, stop hogging! This episode of Bluey is called Faceytalk.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 1,
+      "chapterId": "chapter-001",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
           "id": "c0005",
           "start": 49,
-          "end": 55,
+          "end": 59,
           "text": "Hi, Muffin! Ah! Socks, stop hogging! This episode of Bluey is called Faceytalk.",
           "originalText": "- Hi, Muffin! - Hi! Ah! Socks, stop hogging! This episode of Bluey is called Faceytalk.",
           "originalCueRefs": [
@@ -630,38 +642,22 @@
             {
               "id": "c0005",
               "start": 49,
-              "end": 50,
-              "groupingProvenance": "original-captured-cue",
+              "end": 59,
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
-                "c0012"
-              ]
-            },
-            {
-              "id": "c0006",
-              "start": 50,
-              "end": 53,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0013"
-              ]
-            },
-            {
-              "id": "c0007",
-              "start": 53,
-              "end": 55,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
+                "c0012",
+                "c0013",
                 "c0014"
               ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 1,
+          "groupingProvenance": "user-provided-script-section",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 5,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "explicit-script-section",
+            "corrected-text-exact-coverage"
           ]
         }
       ],
@@ -671,32 +667,32 @@
           "cueId": "c0005",
           "quote": "Hi, Muffin! Ah! Socks, stop hogging! This episode of Bluey is called Faceytalk.",
           "start": 49,
-          "end": 55,
+          "end": 59,
           "matchStart": 23,
           "matchEnd": 27
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "explicit-script-section",
+        "corrected-text-exact-coverage"
       ]
     },
     {
       "id": "c0006",
-      "title": "문단 2",
+      "title": "문단 6",
       "start": 59,
-      "end": 64,
-      "sentenceText": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this?",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 2,
+      "end": 65,
+      "sentenceText": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this? Sure.",
+      "chapterId": "chapter-001",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
           "start": 59,
-          "end": 64,
-          "text": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this?",
-          "originalText": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this?",
+          "end": 65,
+          "text": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this? Sure.",
+          "originalText": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this? Sure.",
           "originalCueRefs": [
             {
               "id": "c0015",
@@ -709,6 +705,12 @@
               "start": 61,
               "end": 64,
               "text": "Um, yes. But can I just finish this?"
+            },
+            {
+              "id": "c0017",
+              "start": 64,
+              "end": 65,
+              "text": "Sure."
             }
           ],
           "cleanedCueRefs": [
@@ -723,35 +725,34 @@
               "start": 61,
               "end": 64,
               "text": "Um, yes. But can I just finish this?"
+            },
+            {
+              "id": "c0019",
+              "start": 64,
+              "end": 65,
+              "text": "Sure."
             }
           ],
           "sourceCueRefs": [
             {
-              "id": "c0008",
+              "id": "c0006",
               "start": 59,
-              "end": 61,
-              "groupingProvenance": "original-captured-cue",
+              "end": 65,
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
-                "c0015"
-              ]
-            },
-            {
-              "id": "c0009",
-              "start": 61,
-              "end": 64,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0016"
+                "c0015",
+                "c0016",
+                "c0017"
               ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 2,
+          "groupingProvenance": "user-provided-script-section",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 6,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "explicit-script-section",
+            "corrected-text-exact-coverage"
           ]
         }
       ],
@@ -759,59 +760,62 @@
         {
           "expressionId": "can-i",
           "cueId": "c0006",
-          "quote": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this?",
+          "quote": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this? Sure.",
           "start": 59,
-          "end": 64,
+          "end": 65,
           "matchStart": 0,
           "matchEnd": 5
         },
         {
           "expressionId": "turn",
           "cueId": "c0006",
-          "quote": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this?",
+          "quote": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this? Sure.",
           "start": 59,
-          "end": 64,
+          "end": 65,
           "matchStart": 13,
           "matchEnd": 17
         },
         {
           "expressionId": "yes",
           "cueId": "c0006",
-          "quote": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this?",
+          "quote": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this? Sure.",
           "start": 59,
-          "end": 64,
+          "end": 65,
           "matchStart": 52,
           "matchEnd": 55
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0006",
+          "quote": "Can I have a turn doing the drawing yet, Bluey? Um, yes. But can I just finish this? Sure.",
+          "start": 59,
+          "end": 65,
+          "matchStart": 85,
+          "matchEnd": 89
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "explicit-script-section",
+        "corrected-text-exact-coverage"
       ]
     },
     {
       "id": "c0007",
-      "title": "문단 3",
-      "start": 64,
-      "end": 70,
-      "sentenceText": "Sure. Muffin, is my turn? Not yet. Muffin! Hi, girls!",
+      "title": "문단 1",
+      "start": 65,
+      "end": 71,
+      "sentenceText": "Muffin, is my turn? Not yet. Muffin! Hi, girls! Hi, Aunt Trixie.",
       "chapterId": "chapter-002",
-      "paragraphIndex": 3,
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
-          "start": 64,
-          "end": 70,
-          "text": "Sure. Muffin, is my turn? Not yet. Muffin! Hi, girls!",
-          "originalText": "Sure. - Muffin, is my turn? - Not yet. - Muffin! - Hi, girls!",
+          "start": 65,
+          "end": 71,
+          "text": "Muffin, is my turn? Not yet. Muffin! Hi, girls! Hi, Aunt Trixie.",
+          "originalText": "- Muffin, is my turn? - Not yet. - Muffin! - Hi, girls! Hi, Aunt Trixie.",
           "originalCueRefs": [
-            {
-              "id": "c0017",
-              "start": 64,
-              "end": 65,
-              "text": "Sure."
-            },
             {
               "id": "c0018",
               "start": 65,
@@ -823,15 +827,15 @@
               "start": 68,
               "end": 70,
               "text": "- Muffin! - Hi, girls!"
+            },
+            {
+              "id": "c0020",
+              "start": 70,
+              "end": 71,
+              "text": "Hi, Aunt Trixie."
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0019",
-              "start": 64,
-              "end": 65,
-              "text": "Sure."
-            },
             {
               "id": "c0020",
               "start": 65,
@@ -855,44 +859,34 @@
               "start": 69,
               "end": 70,
               "text": "Hi, girls!"
+            },
+            {
+              "id": "c0024",
+              "start": 70,
+              "end": 71,
+              "text": "Hi, Aunt Trixie."
             }
           ],
           "sourceCueRefs": [
             {
-              "id": "c0010",
-              "start": 64,
-              "end": 65,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0017"
-              ]
-            },
-            {
-              "id": "c0011",
+              "id": "c0007",
               "start": 65,
-              "end": 68,
-              "groupingProvenance": "original-captured-cue",
+              "end": 71,
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
-                "c0018"
-              ]
-            },
-            {
-              "id": "c0012",
-              "start": 68,
-              "end": 70,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0019"
+                "c0018",
+                "c0019",
+                "c0020"
               ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-002",
-          "paragraphIndex": 3,
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "explicit-script-section",
+            "corrected-text-exact-coverage"
           ]
         }
       ],
@@ -900,149 +894,50 @@
         {
           "expressionId": "not-yet",
           "cueId": "c0007",
-          "quote": "Sure. Muffin, is my turn? Not yet. Muffin! Hi, girls!",
-          "start": 64,
-          "end": 70,
-          "matchStart": 26,
-          "matchEnd": 33
-        },
-        {
-          "expressionId": "sure",
-          "cueId": "c0007",
-          "quote": "Sure. Muffin, is my turn? Not yet. Muffin! Hi, girls!",
-          "start": 64,
-          "end": 70,
-          "matchStart": 0,
-          "matchEnd": 4
+          "quote": "Muffin, is my turn? Not yet. Muffin! Hi, girls! Hi, Aunt Trixie.",
+          "start": 65,
+          "end": 71,
+          "matchStart": 20,
+          "matchEnd": 27
         },
         {
           "expressionId": "turn",
           "cueId": "c0007",
-          "quote": "Sure. Muffin, is my turn? Not yet. Muffin! Hi, girls!",
-          "start": 64,
-          "end": 70,
-          "matchStart": 20,
-          "matchEnd": 24
+          "quote": "Muffin, is my turn? Not yet. Muffin! Hi, girls! Hi, Aunt Trixie.",
+          "start": 65,
+          "end": 71,
+          "matchStart": 14,
+          "matchEnd": 18
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "explicit-script-section",
+        "corrected-text-exact-coverage"
       ]
     },
     {
       "id": "c0008",
-      "title": "문단 4",
-      "start": 70,
-      "end": 75,
-      "sentenceText": "Hi, Aunt Trixie. Muffles, make sure you give Socks a go drawing the silly stuff, OK?",
+      "title": "문단 2",
+      "start": 71,
+      "end": 79,
+      "sentenceText": "Muffles, make sure you give Socks a go drawing the silly stuff, OK? But I'm not finished. Muffin! Socks, get off!",
       "chapterId": "chapter-002",
-      "paragraphIndex": 4,
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0008",
-          "start": 70,
-          "end": 75,
-          "text": "Hi, Aunt Trixie. Muffles, make sure you give Socks a go drawing the silly stuff, OK?",
-          "originalText": "Hi, Aunt Trixie. Muffles, make sure you give Socks a go drawing the silly stuff, OK?",
+          "start": 71,
+          "end": 79,
+          "text": "Muffles, make sure you give Socks a go drawing the silly stuff, OK? But I'm not finished. Muffin! Socks, get off!",
+          "originalText": "Muffles, make sure you give Socks a go drawing the silly stuff, OK? But I'm not finished. - Muffin! - Socks, get off!",
           "originalCueRefs": [
-            {
-              "id": "c0020",
-              "start": 70,
-              "end": 71,
-              "text": "Hi, Aunt Trixie."
-            },
             {
               "id": "c0021",
               "start": 71,
               "end": 75,
               "text": "Muffles, make sure you give Socks a go drawing the silly stuff, OK?"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0024",
-              "start": 70,
-              "end": 71,
-              "text": "Hi, Aunt Trixie."
             },
-            {
-              "id": "c0025",
-              "start": 71,
-              "end": 73,
-              "text": "Muffles, make sure you give Socks a go"
-            },
-            {
-              "id": "c0026",
-              "start": 73,
-              "end": 75,
-              "text": "drawing the silly stuff, OK?"
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0013",
-              "start": 70,
-              "end": 71,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0020"
-              ]
-            },
-            {
-              "id": "c0014",
-              "start": 71,
-              "end": 75,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0021"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 4,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "sure",
-          "cueId": "c0008",
-          "quote": "Hi, Aunt Trixie. Muffles, make sure you give Socks a go drawing the silly stuff, OK?",
-          "start": 70,
-          "end": 75,
-          "matchStart": 31,
-          "matchEnd": 35
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0009",
-      "title": "문단 5",
-      "start": 75,
-      "end": 81,
-      "sentenceText": "But I'm not finished. Muffin! Socks, get off! Girls, I can't do this right now.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 5,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0009",
-          "start": 75,
-          "end": 81,
-          "text": "But I'm not finished. Muffin! Socks, get off! Girls, I can't do this right now.",
-          "originalText": "But I'm not finished. - Muffin! - Socks, get off! Girls, I can't do this right now.",
-          "originalCueRefs": [
             {
               "id": "c0022",
               "start": 75,
@@ -1054,15 +949,21 @@
               "start": 77,
               "end": 79,
               "text": "- Muffin! - Socks, get off!"
-            },
-            {
-              "id": "c0024",
-              "start": 79,
-              "end": 81,
-              "text": "Girls, I can't do this right now."
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 71,
+              "end": 73,
+              "text": "Muffles, make sure you give Socks a go"
+            },
+            {
+              "id": "c0026",
+              "start": 73,
+              "end": 75,
+              "text": "drawing the silly stuff, OK?"
+            },
             {
               "id": "c0027",
               "start": 75,
@@ -1080,95 +981,79 @@
               "start": 78,
               "end": 79,
               "text": "Socks, get off!"
-            },
-            {
-              "id": "c0030",
-              "start": 79,
-              "end": 81,
-              "text": "Girls, I can't do this right now."
             }
           ],
           "sourceCueRefs": [
             {
-              "id": "c0015",
-              "start": 75,
-              "end": 77,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0022"
-              ]
-            },
-            {
-              "id": "c0016",
-              "start": 77,
+              "id": "c0008",
+              "start": 71,
               "end": 79,
-              "groupingProvenance": "original-captured-cue",
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
+                "c0021",
+                "c0022",
                 "c0023"
-              ]
-            },
-            {
-              "id": "c0017",
-              "start": 79,
-              "end": 81,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0024"
               ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-002",
-          "paragraphIndex": 5,
+          "paragraphIndex": 2,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "explicit-script-section",
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "right-now",
-          "cueId": "c0009",
-          "quote": "But I'm not finished. Muffin! Socks, get off! Girls, I can't do this right now.",
-          "start": 75,
-          "end": 81,
-          "matchStart": 69,
-          "matchEnd": 78
+          "expressionId": "sure",
+          "cueId": "c0008",
+          "quote": "Muffles, make sure you give Socks a go drawing the silly stuff, OK? But I'm not finished. Muffin! Socks, get off!",
+          "start": 71,
+          "end": 79,
+          "matchStart": 14,
+          "matchEnd": 18
         },
         {
           "expressionId": "finished",
-          "cueId": "c0009",
-          "quote": "But I'm not finished. Muffin! Socks, get off! Girls, I can't do this right now.",
-          "start": 75,
-          "end": 81,
-          "matchStart": 12,
-          "matchEnd": 20
+          "cueId": "c0008",
+          "quote": "Muffles, make sure you give Socks a go drawing the silly stuff, OK? But I'm not finished. Muffin! Socks, get off!",
+          "start": 71,
+          "end": 79,
+          "matchStart": 80,
+          "matchEnd": 88
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "explicit-script-section",
+        "corrected-text-exact-coverage"
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 6",
-      "start": 81,
-      "end": 86,
-      "sentenceText": "I've got somewhere I need to be. Nooo! Arghh. I can handle it.",
+      "id": "c0009",
+      "title": "문단 3",
+      "start": 79,
+      "end": 88,
+      "sentenceText": "Girls, I can't do this right now. I've got somewhere I need to be. Nooo! Arghh. I can handle it. Er… Are you sure?",
       "chapterId": "chapter-002",
-      "paragraphIndex": 6,
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
-          "start": 81,
-          "end": 86,
-          "text": "I've got somewhere I need to be. Nooo! Arghh. I can handle it.",
-          "originalText": "I've got somewhere I need to be. Nooo! Arghh. I can handle it.",
+          "id": "c0009",
+          "start": 79,
+          "end": 88,
+          "text": "Girls, I can't do this right now. I've got somewhere I need to be. Nooo! Arghh. I can handle it. Er… Are you sure?",
+          "originalText": "Girls, I can't do this right now. I've got somewhere I need to be. Nooo! Arghh. I can handle it. [Trixie] Er… Are you sure?",
           "originalCueRefs": [
+            {
+              "id": "c0024",
+              "start": 79,
+              "end": 81,
+              "text": "Girls, I can't do this right now."
+            },
             {
               "id": "c0025",
               "start": 81,
@@ -1186,9 +1071,21 @@
               "start": 84,
               "end": 86,
               "text": "Arghh. I can handle it."
+            },
+            {
+              "id": "c0028",
+              "start": 86,
+              "end": 88,
+              "text": "[Trixie] Er… Are you sure?"
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0030",
+              "start": 79,
+              "end": 81,
+              "text": "Girls, I can't do this right now."
+            },
             {
               "id": "c0031",
               "start": 81,
@@ -1206,86 +1103,99 @@
               "start": 84,
               "end": 86,
               "text": "Arghh. I can handle it."
+            },
+            {
+              "id": "c0034",
+              "start": 86,
+              "end": 88,
+              "text": "Er… Are you sure?"
             }
           ],
           "sourceCueRefs": [
             {
-              "id": "c0018",
-              "start": 81,
-              "end": 83,
-              "groupingProvenance": "original-captured-cue",
+              "id": "c0009",
+              "start": 79,
+              "end": 88,
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
-                "c0025"
-              ]
-            },
-            {
-              "id": "c0019",
-              "start": 83,
-              "end": 84,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0026"
-              ]
-            },
-            {
-              "id": "c0020",
-              "start": 84,
-              "end": 86,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0027"
+                "c0024",
+                "c0025",
+                "c0026",
+                "c0027",
+                "c0028"
               ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-002",
-          "paragraphIndex": 6,
+          "paragraphIndex": 3,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "explicit-script-section",
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
+          "expressionId": "are-you-sure",
+          "cueId": "c0009",
+          "quote": "Girls, I can't do this right now. I've got somewhere I need to be. Nooo! Arghh. I can handle it. Er… Are you sure?",
+          "start": 79,
+          "end": 88,
+          "matchStart": 101,
+          "matchEnd": 113
+        },
+        {
+          "expressionId": "right-now",
+          "cueId": "c0009",
+          "quote": "Girls, I can't do this right now. I've got somewhere I need to be. Nooo! Arghh. I can handle it. Er… Are you sure?",
+          "start": 79,
+          "end": 88,
+          "matchStart": 23,
+          "matchEnd": 32
+        },
+        {
           "expressionId": "need",
-          "cueId": "c0010",
-          "quote": "I've got somewhere I need to be. Nooo! Arghh. I can handle it.",
-          "start": 81,
-          "end": 86,
-          "matchStart": 21,
-          "matchEnd": 25
+          "cueId": "c0009",
+          "quote": "Girls, I can't do this right now. I've got somewhere I need to be. Nooo! Arghh. I can handle it. Er… Are you sure?",
+          "start": 79,
+          "end": 88,
+          "matchStart": 55,
+          "matchEnd": 59
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0009",
+          "quote": "Girls, I can't do this right now. I've got somewhere I need to be. Nooo! Arghh. I can handle it. Er… Are you sure?",
+          "start": 79,
+          "end": 88,
+          "matchStart": 109,
+          "matchEnd": 113
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "explicit-script-section",
+        "corrected-text-exact-coverage"
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 7",
-      "start": 86,
-      "end": 92,
-      "sentenceText": "Er… Are you sure? Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off.",
+      "id": "c0010",
+      "title": "문단 4",
+      "start": 88,
+      "end": 96,
+      "sentenceText": "Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off. What?! Whoa! OK, maybe not off but… Look, I'll handle it.",
       "chapterId": "chapter-002",
-      "paragraphIndex": 7,
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
-          "start": 86,
-          "end": 92,
-          "text": "Er… Are you sure? Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off.",
-          "originalText": "[Trixie] Er… Are you sure? Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off.",
+          "id": "c0010",
+          "start": 88,
+          "end": 96,
+          "text": "Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off. What?! Whoa! OK, maybe not off but… Look, I'll handle it.",
+          "originalText": "Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off. - What?! - Whoa! OK, maybe not off but… [Trixie] Look, I'll handle it.",
           "originalCueRefs": [
-            {
-              "id": "c0028",
-              "start": 86,
-              "end": 88,
-              "text": "[Trixie] Er… Are you sure?"
-            },
             {
               "id": "c0029",
               "start": 88,
@@ -1297,118 +1207,7 @@
               "start": 89,
               "end": 92,
               "text": "Kids, you better share that thing or I'm switching it off."
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0034",
-              "start": 86,
-              "end": 88,
-              "text": "Er… Are you sure?"
             },
-            {
-              "id": "c0035",
-              "start": 88,
-              "end": 89,
-              "text": "Yeah, I've got it covered."
-            },
-            {
-              "id": "c0036",
-              "start": 89,
-              "end": 92,
-              "text": "Kids, you better share that thing or I'm switching it off."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0021",
-              "start": 86,
-              "end": 88,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0028"
-              ]
-            },
-            {
-              "id": "c0022",
-              "start": 88,
-              "end": 89,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0029"
-              ]
-            },
-            {
-              "id": "c0023",
-              "start": 89,
-              "end": 92,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0030"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 7,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "are-you-sure",
-          "cueId": "c0011",
-          "quote": "Er… Are you sure? Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off.",
-          "start": 86,
-          "end": 92,
-          "matchStart": 4,
-          "matchEnd": 16
-        },
-        {
-          "expressionId": "sure",
-          "cueId": "c0011",
-          "quote": "Er… Are you sure? Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off.",
-          "start": 86,
-          "end": 92,
-          "matchStart": 12,
-          "matchEnd": 16
-        },
-        {
-          "expressionId": "share",
-          "cueId": "c0011",
-          "quote": "Er… Are you sure? Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off.",
-          "start": 86,
-          "end": 92,
-          "matchStart": 62,
-          "matchEnd": 67
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0012",
-      "title": "문단 8",
-      "start": 92,
-      "end": 97,
-      "sentenceText": "What?! OK, maybe not off but… Look, I'll handle it. No, I can do it.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 8,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0012",
-          "start": 92,
-          "end": 97,
-          "text": "What?! OK, maybe not off but… Look, I'll handle it. No, I can do it.",
-          "originalText": "- What?! - Whoa! OK, maybe not off but… [Trixie] Look, I'll handle it. No, I can do it.",
-          "originalCueRefs": [
             {
               "id": "c0031",
               "start": 92,
@@ -1426,15 +1225,21 @@
               "start": 95,
               "end": 96,
               "text": "[Trixie] Look, I'll handle it."
-            },
-            {
-              "id": "c0034",
-              "start": 96,
-              "end": 97,
-              "text": "No, I can do it."
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 88,
+              "end": 89,
+              "text": "Yeah, I've got it covered."
+            },
+            {
+              "id": "c0036",
+              "start": 89,
+              "end": 92,
+              "text": "Kids, you better share that thing or I'm switching it off."
+            },
             {
               "id": "c0037",
               "start": 92,
@@ -1452,113 +1257,92 @@
               "start": 95,
               "end": 96,
               "text": "Look, I'll handle it."
-            },
-            {
-              "id": "c0041",
-              "start": 96,
-              "end": 97,
-              "text": "No, I can do it."
             }
           ],
           "sourceCueRefs": [
             {
-              "id": "c0024",
-              "start": 92,
-              "end": 93,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0031"
-              ]
-            },
-            {
-              "id": "c0025",
-              "start": 93,
-              "end": 95,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0032"
-              ]
-            },
-            {
-              "id": "c0026",
-              "start": 95,
+              "id": "c0010",
+              "start": 88,
               "end": 96,
-              "groupingProvenance": "original-captured-cue",
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
+                "c0029",
+                "c0030",
+                "c0031",
+                "c0032",
                 "c0033"
-              ]
-            },
-            {
-              "id": "c0027",
-              "start": 96,
-              "end": 97,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0034"
               ]
             }
           ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
+          "textSource": "user-provided-transcript",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-002",
-          "paragraphIndex": 8,
+          "paragraphIndex": 4,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "explicit-script-section",
+            "user-provided-transcript-text",
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
+          "expressionId": "share",
+          "cueId": "c0010",
+          "quote": "Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off. What?! Whoa! OK, maybe not off but… Look, I'll handle it.",
+          "start": 88,
+          "end": 96,
+          "matchStart": 44,
+          "matchEnd": 49
+        },
+        {
           "expressionId": "what",
-          "cueId": "c0012",
-          "quote": "What?! OK, maybe not off but… Look, I'll handle it. No, I can do it.",
-          "start": 92,
-          "end": 97,
-          "matchStart": 0,
-          "matchEnd": 4
+          "cueId": "c0010",
+          "quote": "Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off. What?! Whoa! OK, maybe not off but… Look, I'll handle it.",
+          "start": 88,
+          "end": 96,
+          "matchStart": 86,
+          "matchEnd": 90
         },
         {
           "expressionId": "look",
-          "cueId": "c0012",
-          "quote": "What?! OK, maybe not off but… Look, I'll handle it. No, I can do it.",
-          "start": 92,
-          "end": 97,
-          "matchStart": 30,
-          "matchEnd": 34
-        },
-        {
-          "expressionId": "no",
-          "cueId": "c0012",
-          "quote": "What?! OK, maybe not off but… Look, I'll handle it. No, I can do it.",
-          "start": 92,
-          "end": 97,
-          "matchStart": 52,
-          "matchEnd": 54
+          "cueId": "c0010",
+          "quote": "Yeah, I've got it covered. Kids, you better share that thing or I'm switching it off. What?! Whoa! OK, maybe not off but… Look, I'll handle it.",
+          "start": 88,
+          "end": 96,
+          "matchStart": 122,
+          "matchEnd": 126
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "explicit-script-section",
+        "user-provided-transcript-text",
+        "corrected-text-exact-coverage"
       ]
     },
     {
-      "id": "c0013",
-      "title": "문단 9",
-      "start": 97,
+      "id": "c0011",
+      "title": "문단 5",
+      "start": 96,
       "end": 104,
-      "sentenceText": "You go do your thing. Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
+      "sentenceText": "No, I can do it. You go do your thing. Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
       "chapterId": "chapter-002",
-      "paragraphIndex": 9,
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0013",
-          "start": 97,
+          "id": "c0011",
+          "start": 96,
           "end": 104,
-          "text": "You go do your thing. Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
-          "originalText": "You go do your thing. [Trixie] Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
+          "text": "No, I can do it. You go do your thing. Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
+          "originalText": "No, I can do it. You go do your thing. [Trixie] Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
           "originalCueRefs": [
+            {
+              "id": "c0034",
+              "start": 96,
+              "end": 97,
+              "text": "No, I can do it."
+            },
             {
               "id": "c0035",
               "start": 97,
@@ -1580,6 +1364,12 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0041",
+              "start": 96,
+              "end": 97,
+              "text": "No, I can do it."
+            },
+            {
               "id": "c0042",
               "start": 97,
               "end": 98,
@@ -1600,71 +1390,65 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0028",
-              "start": 97,
-              "end": 98,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0035"
-              ]
-            },
-            {
-              "id": "c0029",
-              "start": 98,
-              "end": 101,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0036"
-              ]
-            },
-            {
-              "id": "c0030",
-              "start": 102,
+              "id": "c0011",
+              "start": 96,
               "end": 104,
-              "groupingProvenance": "original-captured-cue",
+              "groupingProvenance": "user-provided-script-section",
               "originalCueIds": [
+                "c0034",
+                "c0035",
+                "c0036",
                 "c0037"
               ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
+          "groupingProvenance": "user-provided-script-section",
           "chapterId": "chapter-002",
-          "paragraphIndex": 9,
+          "paragraphIndex": 5,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "explicit-script-section",
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "sure",
-          "cueId": "c0013",
-          "quote": "You go do your thing. Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
-          "start": 97,
+          "expressionId": "no",
+          "cueId": "c0011",
+          "quote": "No, I can do it. You go do your thing. Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
+          "start": 96,
           "end": 104,
-          "matchStart": 42,
-          "matchEnd": 46
+          "matchStart": 0,
+          "matchEnd": 2
+        },
+        {
+          "expressionId": "sure",
+          "cueId": "c0011",
+          "quote": "No, I can do it. You go do your thing. Well, OK. If you're sure. Right, I'm setting the timer on my phone.",
+          "start": 96,
+          "end": 104,
+          "matchStart": 59,
+          "matchEnd": 63
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "explicit-script-section",
+        "corrected-text-exact-coverage"
       ]
     },
     {
-      "id": "c0014",
-      "title": "문단 10",
+      "id": "c0012",
+      "title": "문단 1",
       "start": 104,
       "end": 109,
       "sentenceText": "When it goes off, it's Socks's turn, OK, Muffy? Ber! I'll take that as a yes.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0014",
+          "id": "c0012",
           "start": 104,
           "end": 109,
           "text": "When it goes off, it's Socks's turn, OK, Muffy? Ber! I'll take that as a yes.",
@@ -1711,7 +1495,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0031",
+              "id": "c0012",
               "start": 104,
               "end": 107,
               "groupingProvenance": "original-captured-cue",
@@ -1720,7 +1504,7 @@
               ]
             },
             {
-              "id": "c0032",
+              "id": "c0013",
               "start": 107,
               "end": 108,
               "groupingProvenance": "original-captured-cue",
@@ -1729,7 +1513,7 @@
               ]
             },
             {
-              "id": "c0033",
+              "id": "c0014",
               "start": 108,
               "end": 109,
               "groupingProvenance": "original-captured-cue",
@@ -1740,8 +1524,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1751,7 +1535,7 @@
       "targets": [
         {
           "expressionId": "turn",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "When it goes off, it's Socks's turn, OK, Muffy? Ber! I'll take that as a yes.",
           "start": 104,
           "end": 109,
@@ -1760,7 +1544,7 @@
         },
         {
           "expressionId": "yes",
-          "cueId": "c0014",
+          "cueId": "c0012",
           "quote": "When it goes off, it's Socks's turn, OK, Muffy? Ber! I'll take that as a yes.",
           "start": 104,
           "end": 109,
@@ -1774,17 +1558,17 @@
       ]
     },
     {
-      "id": "c0015",
-      "title": "문단 11",
+      "id": "c0013",
+      "title": "문단 2",
       "start": 112,
       "end": 117,
       "sentenceText": "I'll just draw some clouds… Ooh. Nice clouds.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0015",
+          "id": "c0013",
           "start": 112,
           "end": 117,
           "text": "I'll just draw some clouds… Ooh. Nice clouds.",
@@ -1819,7 +1603,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0034",
+              "id": "c0015",
               "start": 112,
               "end": 115,
               "groupingProvenance": "original-captured-cue",
@@ -1828,7 +1612,7 @@
               ]
             },
             {
-              "id": "c0035",
+              "id": "c0016",
               "start": 115,
               "end": 117,
               "groupingProvenance": "original-captured-cue",
@@ -1839,8 +1623,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1850,7 +1634,7 @@
       "targets": [
         {
           "expressionId": "nice",
-          "cueId": "c0015",
+          "cueId": "c0013",
           "quote": "I'll just draw some clouds… Ooh. Nice clouds.",
           "start": 112,
           "end": 117,
@@ -1864,17 +1648,17 @@
       ]
     },
     {
-      "id": "c0016",
-      "title": "문단 12",
+      "id": "c0014",
+      "title": "문단 3",
       "start": 117,
       "end": 124,
       "sentenceText": "OK, Muffy, there's the timer. Socks's turn now. I have to finish my cowboy hat.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0016",
+          "id": "c0014",
           "start": 117,
           "end": 124,
           "text": "OK, Muffy, there's the timer. Socks's turn now. I have to finish my cowboy hat.",
@@ -1921,7 +1705,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0036",
+              "id": "c0017",
               "start": 117,
               "end": 120,
               "groupingProvenance": "original-captured-cue",
@@ -1930,7 +1714,7 @@
               ]
             },
             {
-              "id": "c0037",
+              "id": "c0018",
               "start": 120,
               "end": 121,
               "groupingProvenance": "original-captured-cue",
@@ -1939,7 +1723,7 @@
               ]
             },
             {
-              "id": "c0038",
+              "id": "c0019",
               "start": 121,
               "end": 124,
               "groupingProvenance": "original-captured-cue",
@@ -1950,8 +1734,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1961,7 +1745,7 @@
       "targets": [
         {
           "expressionId": "have-to",
-          "cueId": "c0016",
+          "cueId": "c0014",
           "quote": "OK, Muffy, there's the timer. Socks's turn now. I have to finish my cowboy hat.",
           "start": 117,
           "end": 124,
@@ -1970,7 +1754,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0016",
+          "cueId": "c0014",
           "quote": "OK, Muffy, there's the timer. Socks's turn now. I have to finish my cowboy hat.",
           "start": 117,
           "end": 124,
@@ -1984,17 +1768,17 @@
       ]
     },
     {
-      "id": "c0017",
-      "title": "문단 13",
+      "id": "c0015",
+      "title": "문단 4",
       "start": 124,
       "end": 129,
       "sentenceText": "Aww! No, you don't have to finish your cowboy hat. You have to give Socks a turn.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0017",
+          "id": "c0015",
           "start": 124,
           "end": 129,
           "text": "Aww! No, you don't have to finish your cowboy hat. You have to give Socks a turn.",
@@ -2041,7 +1825,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0039",
+              "id": "c0020",
               "start": 124,
               "end": 125,
               "groupingProvenance": "original-captured-cue",
@@ -2050,7 +1834,7 @@
               ]
             },
             {
-              "id": "c0040",
+              "id": "c0021",
               "start": 125,
               "end": 127,
               "groupingProvenance": "original-captured-cue",
@@ -2059,7 +1843,7 @@
               ]
             },
             {
-              "id": "c0041",
+              "id": "c0022",
               "start": 127,
               "end": 129,
               "groupingProvenance": "original-captured-cue",
@@ -2070,8 +1854,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2081,7 +1865,7 @@
       "targets": [
         {
           "expressionId": "have-to",
-          "cueId": "c0017",
+          "cueId": "c0015",
           "quote": "Aww! No, you don't have to finish your cowboy hat. You have to give Socks a turn.",
           "start": 124,
           "end": 129,
@@ -2090,7 +1874,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0017",
+          "cueId": "c0015",
           "quote": "Aww! No, you don't have to finish your cowboy hat. You have to give Socks a turn.",
           "start": 124,
           "end": 129,
@@ -2099,7 +1883,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0017",
+          "cueId": "c0015",
           "quote": "Aww! No, you don't have to finish your cowboy hat. You have to give Socks a turn.",
           "start": 124,
           "end": 129,
@@ -2108,7 +1892,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0017",
+          "cueId": "c0015",
           "quote": "Aww! No, you don't have to finish your cowboy hat. You have to give Socks a turn.",
           "start": 124,
           "end": 129,
@@ -2122,17 +1906,17 @@
       ]
     },
     {
-      "id": "c0018",
-      "title": "문단 14",
+      "id": "c0016",
+      "title": "문단 5",
       "start": 129,
       "end": 137,
       "sentenceText": "But I want to finish my cowboy hat. Muffy… Muffin Heeler, give your sister a turn now.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0018",
+          "id": "c0016",
           "start": 129,
           "end": 137,
           "text": "But I want to finish my cowboy hat. Muffy… Muffin Heeler, give your sister a turn now.",
@@ -2179,7 +1963,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0042",
+              "id": "c0023",
               "start": 129,
               "end": 132,
               "groupingProvenance": "original-captured-cue",
@@ -2188,7 +1972,7 @@
               ]
             },
             {
-              "id": "c0043",
+              "id": "c0024",
               "start": 132,
               "end": 133,
               "groupingProvenance": "original-captured-cue",
@@ -2197,7 +1981,7 @@
               ]
             },
             {
-              "id": "c0044",
+              "id": "c0025",
               "start": 135,
               "end": 137,
               "groupingProvenance": "original-captured-cue",
@@ -2208,8 +1992,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2219,7 +2003,7 @@
       "targets": [
         {
           "expressionId": "want",
-          "cueId": "c0018",
+          "cueId": "c0016",
           "quote": "But I want to finish my cowboy hat. Muffy… Muffin Heeler, give your sister a turn now.",
           "start": 129,
           "end": 137,
@@ -2228,7 +2012,7 @@
         },
         {
           "expressionId": "sister",
-          "cueId": "c0018",
+          "cueId": "c0016",
           "quote": "But I want to finish my cowboy hat. Muffy… Muffin Heeler, give your sister a turn now.",
           "start": 129,
           "end": 137,
@@ -2237,7 +2021,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0018",
+          "cueId": "c0016",
           "quote": "But I want to finish my cowboy hat. Muffy… Muffin Heeler, give your sister a turn now.",
           "start": 129,
           "end": 137,
@@ -2251,17 +2035,17 @@
       ]
     },
     {
-      "id": "c0019",
-      "title": "문단 15",
+      "id": "c0017",
+      "title": "문단 6",
       "start": 137,
       "end": 144,
       "sentenceText": "But I want to do a cowboy hat! Just give her a turn, Muffin. No! Muffin Cupcake Heeler…",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
-          "id": "c0019",
+          "id": "c0017",
           "start": 137,
           "end": 144,
           "text": "But I want to do a cowboy hat! Just give her a turn, Muffin. No! Muffin Cupcake Heeler…",
@@ -2314,7 +2098,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0045",
+              "id": "c0026",
               "start": 137,
               "end": 140,
               "groupingProvenance": "original-captured-cue",
@@ -2323,7 +2107,7 @@
               ]
             },
             {
-              "id": "c0046",
+              "id": "c0027",
               "start": 140,
               "end": 141,
               "groupingProvenance": "original-captured-cue",
@@ -2332,7 +2116,7 @@
               ]
             },
             {
-              "id": "c0047",
+              "id": "c0028",
               "start": 141,
               "end": 144,
               "groupingProvenance": "original-captured-cue",
@@ -2343,8 +2127,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2354,7 +2138,7 @@
       "targets": [
         {
           "expressionId": "want",
-          "cueId": "c0019",
+          "cueId": "c0017",
           "quote": "But I want to do a cowboy hat! Just give her a turn, Muffin. No! Muffin Cupcake Heeler…",
           "start": 137,
           "end": 144,
@@ -2363,7 +2147,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0019",
+          "cueId": "c0017",
           "quote": "But I want to do a cowboy hat! Just give her a turn, Muffin. No! Muffin Cupcake Heeler…",
           "start": 137,
           "end": 144,
@@ -2372,7 +2156,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0019",
+          "cueId": "c0017",
           "quote": "But I want to do a cowboy hat! Just give her a turn, Muffin. No! Muffin Cupcake Heeler…",
           "start": 137,
           "end": 144,
@@ -2386,17 +2170,17 @@
       ]
     },
     {
-      "id": "c0020",
-      "title": "문단 16",
+      "id": "c0018",
+      "title": "문단 7",
       "start": 144,
       "end": 150,
       "sentenceText": "Cowboy hat! If you say cowboy hat one more time, you'll be in time out. Cow…",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
-          "id": "c0020",
+          "id": "c0018",
           "start": 144,
           "end": 150,
           "text": "Cowboy hat! If you say cowboy hat one more time, you'll be in time out. Cow…",
@@ -2443,7 +2227,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0048",
+              "id": "c0029",
               "start": 144,
               "end": 145,
               "groupingProvenance": "original-captured-cue",
@@ -2452,7 +2236,7 @@
               ]
             },
             {
-              "id": "c0049",
+              "id": "c0030",
               "start": 145,
               "end": 148,
               "groupingProvenance": "original-captured-cue",
@@ -2461,7 +2245,7 @@
               ]
             },
             {
-              "id": "c0050",
+              "id": "c0031",
               "start": 149,
               "end": 150,
               "groupingProvenance": "original-captured-cue",
@@ -2472,8 +2256,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -2489,17 +2273,17 @@
       ]
     },
     {
-      "id": "c0021",
-      "title": "문단 17",
+      "id": "c0019",
+      "title": "문단 8",
       "start": 150,
       "end": 155,
       "sentenceText": "..boy… OK! That's it. You're going to time out.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 17,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 8,
       "selectable": true,
       "cues": [
         {
-          "id": "c0021",
+          "id": "c0019",
           "start": 150,
           "end": 155,
           "text": "..boy… OK! That's it. You're going to time out.",
@@ -2540,7 +2324,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0051",
+              "id": "c0032",
               "start": 150,
               "end": 151,
               "groupingProvenance": "original-captured-cue",
@@ -2549,7 +2333,7 @@
               ]
             },
             {
-              "id": "c0052",
+              "id": "c0033",
               "start": 152,
               "end": 153,
               "groupingProvenance": "original-captured-cue",
@@ -2558,7 +2342,7 @@
               ]
             },
             {
-              "id": "c0053",
+              "id": "c0034",
               "start": 153,
               "end": 155,
               "groupingProvenance": "original-captured-cue",
@@ -2569,8 +2353,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 8,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -2581,7 +2365,7 @@
       "targets": [
         {
           "expressionId": "thats-it",
-          "cueId": "c0021",
+          "cueId": "c0019",
           "quote": "..boy… OK! That's it. You're going to time out.",
           "start": 150,
           "end": 155,
@@ -2596,17 +2380,17 @@
       ]
     },
     {
-      "id": "c0022",
-      "title": "문단 18",
+      "id": "c0020",
+      "title": "문단 9",
       "start": 155,
       "end": 157,
       "sentenceText": "(MUFFIN SQUEALS, STRIPE GRUNTS)",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 18,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 9,
       "selectable": false,
       "cues": [
         {
-          "id": "c0022",
+          "id": "c0020",
           "start": 155,
           "end": 157,
           "text": "(MUFFIN SQUEALS, STRIPE GRUNTS)",
@@ -2622,7 +2406,7 @@
           "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
-              "id": "c0054",
+              "id": "c0035",
               "start": 155,
               "end": 157,
               "groupingProvenance": "original-captured-cue",
@@ -2633,8 +2417,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 18,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 9,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"
@@ -2649,17 +2433,17 @@
       ]
     },
     {
-      "id": "c0023",
-      "title": "문단 19",
+      "id": "c0021",
+      "title": "문단 10",
       "start": 157,
       "end": 165,
       "sentenceText": "Oh, boy. Bye, Muffin. Muffin, stop wriggling. There. Now you have a good think about it, young lady.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 19,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 10,
       "selectable": true,
       "cues": [
         {
-          "id": "c0023",
+          "id": "c0021",
           "start": 157,
           "end": 165,
           "text": "Oh, boy. Bye, Muffin. Muffin, stop wriggling. There. Now you have a good think about it, young lady.",
@@ -2718,7 +2502,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0055",
+              "id": "c0036",
               "start": 157,
               "end": 158,
               "groupingProvenance": "original-captured-cue",
@@ -2727,7 +2511,7 @@
               ]
             },
             {
-              "id": "c0056",
+              "id": "c0037",
               "start": 158,
               "end": 159,
               "groupingProvenance": "original-captured-cue",
@@ -2736,7 +2520,7 @@
               ]
             },
             {
-              "id": "c0057",
+              "id": "c0038",
               "start": 159,
               "end": 161,
               "groupingProvenance": "original-captured-cue",
@@ -2745,7 +2529,7 @@
               ]
             },
             {
-              "id": "c0058",
+              "id": "c0039",
               "start": 162,
               "end": 165,
               "groupingProvenance": "original-captured-cue",
@@ -2756,8 +2540,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 19,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 10,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2767,7 +2551,7 @@
       "targets": [
         {
           "expressionId": "stop",
-          "cueId": "c0023",
+          "cueId": "c0021",
           "quote": "Oh, boy. Bye, Muffin. Muffin, stop wriggling. There. Now you have a good think about it, young lady.",
           "start": 157,
           "end": 165,
@@ -2776,7 +2560,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0023",
+          "cueId": "c0021",
           "quote": "Oh, boy. Bye, Muffin. Muffin, stop wriggling. There. Now you have a good think about it, young lady.",
           "start": 157,
           "end": 165,
@@ -2785,7 +2569,7 @@
         },
         {
           "expressionId": "think",
-          "cueId": "c0023",
+          "cueId": "c0021",
           "quote": "Oh, boy. Bye, Muffin. Muffin, stop wriggling. There. Now you have a good think about it, young lady.",
           "start": 157,
           "end": 165,
@@ -2799,17 +2583,17 @@
       ]
     },
     {
-      "id": "c0024",
-      "title": "문단 20",
+      "id": "c0022",
+      "title": "문단 11",
       "start": 165,
       "end": 172,
       "sentenceText": "No, I don't want to. I'm sorry, girls, but Muffin was hogging, so she can't do your facey call thing any more.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 20,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 11,
       "selectable": true,
       "cues": [
         {
-          "id": "c0024",
+          "id": "c0022",
           "start": 165,
           "end": 172,
           "text": "No, I don't want to. I'm sorry, girls, but Muffin was hogging, so she can't do your facey call thing any more.",
@@ -2856,7 +2640,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0059",
+              "id": "c0040",
               "start": 165,
               "end": 167,
               "groupingProvenance": "original-captured-cue",
@@ -2865,7 +2649,7 @@
               ]
             },
             {
-              "id": "c0060",
+              "id": "c0041",
               "start": 168,
               "end": 170,
               "groupingProvenance": "original-captured-cue",
@@ -2874,7 +2658,7 @@
               ]
             },
             {
-              "id": "c0061",
+              "id": "c0042",
               "start": 170,
               "end": 172,
               "groupingProvenance": "original-captured-cue",
@@ -2885,8 +2669,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 20,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 11,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -2896,7 +2680,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0024",
+          "cueId": "c0022",
           "quote": "No, I don't want to. I'm sorry, girls, but Muffin was hogging, so she can't do your facey call thing any more.",
           "start": 165,
           "end": 172,
@@ -2905,7 +2689,7 @@
         },
         {
           "expressionId": "want",
-          "cueId": "c0024",
+          "cueId": "c0022",
           "quote": "No, I don't want to. I'm sorry, girls, but Muffin was hogging, so she can't do your facey call thing any more.",
           "start": 165,
           "end": 172,
@@ -2914,7 +2698,7 @@
         },
         {
           "expressionId": "sorry",
-          "cueId": "c0024",
+          "cueId": "c0022",
           "quote": "No, I don't want to. I'm sorry, girls, but Muffin was hogging, so she can't do your facey call thing any more.",
           "start": 165,
           "end": 172,
@@ -2923,7 +2707,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0024",
+          "cueId": "c0022",
           "quote": "No, I don't want to. I'm sorry, girls, but Muffin was hogging, so she can't do your facey call thing any more.",
           "start": 165,
           "end": 172,
@@ -2937,17 +2721,17 @@
       ]
     },
     {
-      "id": "c0025",
-      "title": "문단 21",
+      "id": "c0023",
+      "title": "문단 12",
       "start": 172,
       "end": 178,
       "sentenceText": "OK, Uncle Stripe. She needs to learn that other people have… What the! Argh! Muffin!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 21,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 12,
       "selectable": true,
       "cues": [
         {
-          "id": "c0025",
+          "id": "c0023",
           "start": 172,
           "end": 178,
           "text": "OK, Uncle Stripe. She needs to learn that other people have… What the! Argh! Muffin!",
@@ -3000,7 +2784,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0062",
+              "id": "c0043",
               "start": 172,
               "end": 174,
               "groupingProvenance": "original-captured-cue",
@@ -3009,7 +2793,7 @@
               ]
             },
             {
-              "id": "c0063",
+              "id": "c0044",
               "start": 174,
               "end": 176,
               "groupingProvenance": "original-captured-cue",
@@ -3018,7 +2802,7 @@
               ]
             },
             {
-              "id": "c0064",
+              "id": "c0045",
               "start": 176,
               "end": 178,
               "groupingProvenance": "original-captured-cue",
@@ -3029,8 +2813,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 21,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 12,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3040,7 +2824,7 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0025",
+          "cueId": "c0023",
           "quote": "OK, Uncle Stripe. She needs to learn that other people have… What the! Argh! Muffin!",
           "start": 172,
           "end": 178,
@@ -3054,17 +2838,17 @@
       ]
     },
     {
-      "id": "c0026",
-      "title": "문단 22",
+      "id": "c0024",
+      "title": "문단 13",
       "start": 178,
       "end": 183,
       "sentenceText": "Gah! She's got my phone. Muffin, you get off my phone this instant. Urgh!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 22,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 13,
       "selectable": true,
       "cues": [
         {
-          "id": "c0026",
+          "id": "c0024",
           "start": 178,
           "end": 183,
           "text": "Gah! She's got my phone. Muffin, you get off my phone this instant. Urgh!",
@@ -3099,7 +2883,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0065",
+              "id": "c0046",
               "start": 178,
               "end": 180,
               "groupingProvenance": "original-captured-cue",
@@ -3108,7 +2892,7 @@
               ]
             },
             {
-              "id": "c0066",
+              "id": "c0047",
               "start": 180,
               "end": 183,
               "groupingProvenance": "original-captured-cue",
@@ -3119,8 +2903,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 22,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 13,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3134,17 +2918,17 @@
       ]
     },
     {
-      "id": "c0027",
-      "title": "문단 23",
+      "id": "c0025",
+      "title": "문단 14",
       "start": 183,
       "end": 189,
       "sentenceText": "He's coming, Muffin! Muffin! Running away will only make it worse!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 23,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 14,
       "selectable": true,
       "cues": [
         {
-          "id": "c0027",
+          "id": "c0025",
           "start": 183,
           "end": 189,
           "text": "He's coming, Muffin! Muffin! Running away will only make it worse!",
@@ -3191,7 +2975,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0067",
+              "id": "c0048",
               "start": 183,
               "end": 185,
               "groupingProvenance": "original-captured-cue",
@@ -3200,7 +2984,7 @@
               ]
             },
             {
-              "id": "c0068",
+              "id": "c0049",
               "start": 185,
               "end": 186,
               "groupingProvenance": "original-captured-cue",
@@ -3209,7 +2993,7 @@
               ]
             },
             {
-              "id": "c0069",
+              "id": "c0050",
               "start": 186,
               "end": 189,
               "groupingProvenance": "original-captured-cue",
@@ -3220,8 +3004,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 23,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 14,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3235,17 +3019,17 @@
       ]
     },
     {
-      "id": "c0028",
-      "title": "문단 24",
+      "id": "c0026",
+      "title": "문단 15",
       "start": 189,
       "end": 195,
       "sentenceText": "Oof! Ha-ha! Muffin! Muffin, you can't steal your dad's phone!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 24,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 15,
       "selectable": true,
       "cues": [
         {
-          "id": "c0028",
+          "id": "c0026",
           "start": 189,
           "end": 195,
           "text": "Oof! Ha-ha! Muffin! Muffin, you can't steal your dad's phone!",
@@ -3298,7 +3082,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0070",
+              "id": "c0051",
               "start": 189,
               "end": 190,
               "groupingProvenance": "original-captured-cue",
@@ -3307,7 +3091,7 @@
               ]
             },
             {
-              "id": "c0071",
+              "id": "c0052",
               "start": 190,
               "end": 192,
               "groupingProvenance": "original-captured-cue",
@@ -3316,7 +3100,7 @@
               ]
             },
             {
-              "id": "c0072",
+              "id": "c0053",
               "start": 193,
               "end": 195,
               "groupingProvenance": "original-captured-cue",
@@ -3327,8 +3111,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 24,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 15,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3338,7 +3122,7 @@
       "targets": [
         {
           "expressionId": "dad",
-          "cueId": "c0028",
+          "cueId": "c0026",
           "quote": "Oof! Ha-ha! Muffin! Muffin, you can't steal your dad's phone!",
           "start": 189,
           "end": 195,
@@ -3352,17 +3136,17 @@
       ]
     },
     {
-      "id": "c0029",
-      "title": "문단 25",
+      "id": "c0027",
+      "title": "문단 16",
       "start": 195,
       "end": 201,
       "sentenceText": "Yes, I can! Now, where do I hide? Under a bed. Don't help her, Bingo. Why not?",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 25,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 16,
       "selectable": true,
       "cues": [
         {
-          "id": "c0029",
+          "id": "c0027",
           "start": 195,
           "end": 201,
           "text": "Yes, I can! Now, where do I hide? Under a bed. Don't help her, Bingo. Why not?",
@@ -3427,7 +3211,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0073",
+              "id": "c0054",
               "start": 195,
               "end": 196,
               "groupingProvenance": "original-captured-cue",
@@ -3436,7 +3220,7 @@
               ]
             },
             {
-              "id": "c0074",
+              "id": "c0055",
               "start": 196,
               "end": 198,
               "groupingProvenance": "original-captured-cue",
@@ -3445,7 +3229,7 @@
               ]
             },
             {
-              "id": "c0075",
+              "id": "c0056",
               "start": 198,
               "end": 199,
               "groupingProvenance": "original-captured-cue",
@@ -3454,7 +3238,7 @@
               ]
             },
             {
-              "id": "c0076",
+              "id": "c0057",
               "start": 199,
               "end": 201,
               "groupingProvenance": "original-captured-cue",
@@ -3465,8 +3249,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 25,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 16,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3476,7 +3260,7 @@
       "targets": [
         {
           "expressionId": "yes",
-          "cueId": "c0029",
+          "cueId": "c0027",
           "quote": "Yes, I can! Now, where do I hide? Under a bed. Don't help her, Bingo. Why not?",
           "start": 195,
           "end": 201,
@@ -3485,7 +3269,7 @@
         },
         {
           "expressionId": "where",
-          "cueId": "c0029",
+          "cueId": "c0027",
           "quote": "Yes, I can! Now, where do I hide? Under a bed. Don't help her, Bingo. Why not?",
           "start": 195,
           "end": 201,
@@ -3494,7 +3278,7 @@
         },
         {
           "expressionId": "help",
-          "cueId": "c0029",
+          "cueId": "c0027",
           "quote": "Yes, I can! Now, where do I hide? Under a bed. Don't help her, Bingo. Why not?",
           "start": 195,
           "end": 201,
@@ -3503,7 +3287,7 @@
         },
         {
           "expressionId": "why",
-          "cueId": "c0029",
+          "cueId": "c0027",
           "quote": "Yes, I can! Now, where do I hide? Under a bed. Don't help her, Bingo. Why not?",
           "start": 195,
           "end": 201,
@@ -3512,7 +3296,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0029",
+          "cueId": "c0027",
           "quote": "Yes, I can! Now, where do I hide? Under a bed. Don't help her, Bingo. Why not?",
           "start": 195,
           "end": 201,
@@ -3526,17 +3310,17 @@
       ]
     },
     {
-      "id": "c0030",
-      "title": "문단 26",
+      "id": "c0028",
+      "title": "문단 17",
       "start": 201,
       "end": 206,
       "sentenceText": "Because she's not meant to be running away. She's meant to be in time out for hogging.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 26,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 17,
       "selectable": true,
       "cues": [
         {
-          "id": "c0030",
+          "id": "c0028",
           "start": 201,
           "end": 206,
           "text": "Because she's not meant to be running away. She's meant to be in time out for hogging.",
@@ -3571,7 +3355,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0077",
+              "id": "c0058",
               "start": 201,
               "end": 204,
               "groupingProvenance": "original-captured-cue",
@@ -3580,7 +3364,7 @@
               ]
             },
             {
-              "id": "c0078",
+              "id": "c0059",
               "start": 204,
               "end": 206,
               "groupingProvenance": "original-captured-cue",
@@ -3591,8 +3375,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 26,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 17,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3606,17 +3390,17 @@
       ]
     },
     {
-      "id": "c0031",
-      "title": "문단 27",
+      "id": "c0029",
+      "title": "문단 18",
       "start": 206,
       "end": 212,
       "sentenceText": "Hey, that's my ukulele! You lended it to me. Yeah, but that was ages ago.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 27,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 18,
       "selectable": true,
       "cues": [
         {
-          "id": "c0031",
+          "id": "c0029",
           "start": 206,
           "end": 212,
           "text": "Hey, that's my ukulele! You lended it to me. Yeah, but that was ages ago.",
@@ -3663,7 +3447,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0079",
+              "id": "c0060",
               "start": 206,
               "end": 208,
               "groupingProvenance": "original-captured-cue",
@@ -3672,7 +3456,7 @@
               ]
             },
             {
-              "id": "c0080",
+              "id": "c0061",
               "start": 208,
               "end": 210,
               "groupingProvenance": "original-captured-cue",
@@ -3681,7 +3465,7 @@
               ]
             },
             {
-              "id": "c0081",
+              "id": "c0062",
               "start": 210,
               "end": 212,
               "groupingProvenance": "original-captured-cue",
@@ -3692,8 +3476,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 27,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 18,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3707,17 +3491,17 @@
       ]
     },
     {
-      "id": "c0032",
-      "title": "문단 28",
+      "id": "c0030",
+      "title": "문단 19",
       "start": 212,
       "end": 217,
       "sentenceText": "I'm still playing with it. Muffin, you hang that phone up now, young lady! No!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 28,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 19,
       "selectable": true,
       "cues": [
         {
-          "id": "c0032",
+          "id": "c0030",
           "start": 212,
           "end": 217,
           "text": "I'm still playing with it. Muffin, you hang that phone up now, young lady! No!",
@@ -3764,7 +3548,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0082",
+              "id": "c0063",
               "start": 212,
               "end": 214,
               "groupingProvenance": "original-captured-cue",
@@ -3773,7 +3557,7 @@
               ]
             },
             {
-              "id": "c0083",
+              "id": "c0064",
               "start": 214,
               "end": 216,
               "groupingProvenance": "original-captured-cue",
@@ -3782,7 +3566,7 @@
               ]
             },
             {
-              "id": "c0084",
+              "id": "c0065",
               "start": 216,
               "end": 217,
               "groupingProvenance": "original-captured-cue",
@@ -3793,8 +3577,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 28,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 19,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3804,7 +3588,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0032",
+          "cueId": "c0030",
           "quote": "I'm still playing with it. Muffin, you hang that phone up now, young lady! No!",
           "start": 212,
           "end": 217,
@@ -3818,17 +3602,17 @@
       ]
     },
     {
-      "id": "c0033",
-      "title": "문단 29",
+      "id": "c0031",
+      "title": "문단 20",
       "start": 217,
       "end": 223,
       "sentenceText": "OK, well, I'm ending the whole Faceytalk. Nooo! OK! OK! Muffin, this is your last chance.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 29,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 20,
       "selectable": true,
       "cues": [
         {
-          "id": "c0033",
+          "id": "c0031",
           "start": 217,
           "end": 223,
           "text": "OK, well, I'm ending the whole Faceytalk. Nooo! OK! OK! Muffin, this is your last chance.",
@@ -3881,7 +3665,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0085",
+              "id": "c0066",
               "start": 217,
               "end": 219,
               "groupingProvenance": "original-captured-cue",
@@ -3890,7 +3674,7 @@
               ]
             },
             {
-              "id": "c0086",
+              "id": "c0067",
               "start": 219,
               "end": 221,
               "groupingProvenance": "original-captured-cue",
@@ -3899,7 +3683,7 @@
               ]
             },
             {
-              "id": "c0087",
+              "id": "c0068",
               "start": 221,
               "end": 223,
               "groupingProvenance": "original-captured-cue",
@@ -3910,8 +3694,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 29,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 20,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -3925,17 +3709,17 @@
       ]
     },
     {
-      "id": "c0034",
-      "title": "문단 30",
+      "id": "c0032",
+      "title": "문단 21",
       "start": 223,
       "end": 228,
       "sentenceText": "You hang that up and march down here now. Gowilla man! Ha-ha!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 30,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 21,
       "selectable": true,
       "cues": [
         {
-          "id": "c0034",
+          "id": "c0032",
           "start": 223,
           "end": 228,
           "text": "You hang that up and march down here now. Gowilla man! Ha-ha!",
@@ -3970,7 +3754,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0088",
+              "id": "c0069",
               "start": 223,
               "end": 225,
               "groupingProvenance": "original-captured-cue",
@@ -3979,7 +3763,7 @@
               ]
             },
             {
-              "id": "c0089",
+              "id": "c0070",
               "start": 226,
               "end": 228,
               "groupingProvenance": "original-captured-cue",
@@ -3990,8 +3774,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 30,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 21,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4005,17 +3789,17 @@
       ]
     },
     {
-      "id": "c0035",
-      "title": "문단 31",
+      "id": "c0033",
+      "title": "문단 22",
       "start": 228,
       "end": 233,
       "sentenceText": "You little… Get this thing off me! That's it. Where are you?",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 31,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 22,
       "selectable": true,
       "cues": [
         {
-          "id": "c0035",
+          "id": "c0033",
           "start": 228,
           "end": 233,
           "text": "You little… Get this thing off me! That's it. Where are you?",
@@ -4050,7 +3834,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0090",
+              "id": "c0071",
               "start": 228,
               "end": 230,
               "groupingProvenance": "original-captured-cue",
@@ -4059,7 +3843,7 @@
               ]
             },
             {
-              "id": "c0091",
+              "id": "c0072",
               "start": 231,
               "end": 233,
               "groupingProvenance": "original-captured-cue",
@@ -4070,8 +3854,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 31,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 22,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4081,7 +3865,7 @@
       "targets": [
         {
           "expressionId": "thats-it",
-          "cueId": "c0035",
+          "cueId": "c0033",
           "quote": "You little… Get this thing off me! That's it. Where are you?",
           "start": 228,
           "end": 233,
@@ -4090,7 +3874,7 @@
         },
         {
           "expressionId": "little",
-          "cueId": "c0035",
+          "cueId": "c0033",
           "quote": "You little… Get this thing off me! That's it. Where are you?",
           "start": 228,
           "end": 233,
@@ -4099,7 +3883,7 @@
         },
         {
           "expressionId": "where",
-          "cueId": "c0035",
+          "cueId": "c0033",
           "quote": "You little… Get this thing off me! That's it. Where are you?",
           "start": 228,
           "end": 233,
@@ -4113,17 +3897,17 @@
       ]
     },
     {
-      "id": "c0036",
-      "title": "문단 32",
+      "id": "c0034",
+      "title": "문단 23",
       "start": 233,
       "end": 239,
       "sentenceText": "OK, you're under a bed… Can't see whose… Well, there's only so many beds in this house, kid.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 32,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 23,
       "selectable": true,
       "cues": [
         {
-          "id": "c0036",
+          "id": "c0034",
           "start": 233,
           "end": 239,
           "text": "OK, you're under a bed… Can't see whose… Well, there's only so many beds in this house, kid.",
@@ -4170,7 +3954,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0092",
+              "id": "c0073",
               "start": 233,
               "end": 235,
               "groupingProvenance": "original-captured-cue",
@@ -4179,7 +3963,7 @@
               ]
             },
             {
-              "id": "c0093",
+              "id": "c0074",
               "start": 235,
               "end": 236,
               "groupingProvenance": "original-captured-cue",
@@ -4188,7 +3972,7 @@
               ]
             },
             {
-              "id": "c0094",
+              "id": "c0075",
               "start": 236,
               "end": 239,
               "groupingProvenance": "original-captured-cue",
@@ -4199,8 +3983,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 32,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 23,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4210,7 +3994,7 @@
       "targets": [
         {
           "expressionId": "see",
-          "cueId": "c0036",
+          "cueId": "c0034",
           "quote": "OK, you're under a bed… Can't see whose… Well, there's only so many beds in this house, kid.",
           "start": 233,
           "end": 239,
@@ -4224,17 +4008,17 @@
       ]
     },
     {
-      "id": "c0037",
-      "title": "문단 33",
+      "id": "c0035",
+      "title": "문단 24",
       "start": 239,
       "end": 244,
       "sentenceText": "I'm coming. I'm coming. He's going to find you, Muffin! Just give him back his phone.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 33,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 24,
       "selectable": true,
       "cues": [
         {
-          "id": "c0037",
+          "id": "c0035",
           "start": 239,
           "end": 244,
           "text": "I'm coming. I'm coming. He's going to find you, Muffin! Just give him back his phone.",
@@ -4287,7 +4071,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0095",
+              "id": "c0076",
               "start": 239,
               "end": 240,
               "groupingProvenance": "original-captured-cue",
@@ -4296,7 +4080,7 @@
               ]
             },
             {
-              "id": "c0096",
+              "id": "c0077",
               "start": 239,
               "end": 240,
               "groupingProvenance": "original-captured-cue",
@@ -4305,7 +4089,7 @@
               ]
             },
             {
-              "id": "c0097",
+              "id": "c0078",
               "start": 240,
               "end": 242,
               "groupingProvenance": "original-captured-cue",
@@ -4314,7 +4098,7 @@
               ]
             },
             {
-              "id": "c0098",
+              "id": "c0079",
               "start": 242,
               "end": 244,
               "groupingProvenance": "original-captured-cue",
@@ -4325,8 +4109,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 33,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 24,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4340,17 +4124,17 @@
       ]
     },
     {
-      "id": "c0038",
-      "title": "문단 34",
+      "id": "c0036",
+      "title": "문단 25",
       "start": 244,
       "end": 250,
       "sentenceText": "No! Tell me if he's out there. It's clear. But, Muffin, I don't think I should help you.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 34,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 25,
       "selectable": true,
       "cues": [
         {
-          "id": "c0038",
+          "id": "c0036",
           "start": 244,
           "end": 250,
           "text": "No! Tell me if he's out there. It's clear. But, Muffin, I don't think I should help you.",
@@ -4385,7 +4169,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0099",
+              "id": "c0080",
               "start": 244,
               "end": 246,
               "groupingProvenance": "original-captured-cue",
@@ -4394,7 +4178,7 @@
               ]
             },
             {
-              "id": "c0100",
+              "id": "c0081",
               "start": 247,
               "end": 250,
               "groupingProvenance": "original-captured-cue",
@@ -4405,8 +4189,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 34,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 25,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4416,7 +4200,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0038",
+          "cueId": "c0036",
           "quote": "No! Tell me if he's out there. It's clear. But, Muffin, I don't think I should help you.",
           "start": 244,
           "end": 250,
@@ -4425,7 +4209,7 @@
         },
         {
           "expressionId": "think",
-          "cueId": "c0038",
+          "cueId": "c0036",
           "quote": "No! Tell me if he's out there. It's clear. But, Muffin, I don't think I should help you.",
           "start": 244,
           "end": 250,
@@ -4434,7 +4218,7 @@
         },
         {
           "expressionId": "help",
-          "cueId": "c0038",
+          "cueId": "c0036",
           "quote": "No! Tell me if he's out there. It's clear. But, Muffin, I don't think I should help you.",
           "start": 244,
           "end": 250,
@@ -4443,7 +4227,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0038",
+          "cueId": "c0036",
           "quote": "No! Tell me if he's out there. It's clear. But, Muffin, I don't think I should help you.",
           "start": 244,
           "end": 250,
@@ -4457,17 +4241,17 @@
       ]
     },
     {
-      "id": "c0039",
-      "title": "문단 35",
+      "id": "c0037",
+      "title": "문단 26",
       "start": 250,
       "end": 256,
       "sentenceText": "What about now? Ah! Not clear! Not clear! I've got you!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 35,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 26,
       "selectable": true,
       "cues": [
         {
-          "id": "c0039",
+          "id": "c0037",
           "start": 250,
           "end": 256,
           "text": "What about now? Ah! Not clear! Not clear! I've got you!",
@@ -4514,7 +4298,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0101",
+              "id": "c0082",
               "start": 250,
               "end": 252,
               "groupingProvenance": "original-captured-cue",
@@ -4523,7 +4307,7 @@
               ]
             },
             {
-              "id": "c0102",
+              "id": "c0083",
               "start": 252,
               "end": 254,
               "groupingProvenance": "original-captured-cue",
@@ -4532,7 +4316,7 @@
               ]
             },
             {
-              "id": "c0103",
+              "id": "c0084",
               "start": 254,
               "end": 256,
               "groupingProvenance": "original-captured-cue",
@@ -4543,8 +4327,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 35,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 26,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4554,7 +4338,7 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0039",
+          "cueId": "c0037",
           "quote": "What about now? Ah! Not clear! Not clear! I've got you!",
           "start": 250,
           "end": 256,
@@ -4568,17 +4352,17 @@
       ]
     },
     {
-      "id": "c0040",
-      "title": "문단 36",
+      "id": "c0038",
+      "title": "문단 27",
       "start": 256,
       "end": 258,
       "sentenceText": "(SCREAMING CONTINUES)",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 36,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 27,
       "selectable": false,
       "cues": [
         {
-          "id": "c0040",
+          "id": "c0038",
           "start": 256,
           "end": 258,
           "text": "(SCREAMING CONTINUES)",
@@ -4594,7 +4378,7 @@
           "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
-              "id": "c0104",
+              "id": "c0085",
               "start": 256,
               "end": 258,
               "groupingProvenance": "original-captured-cue",
@@ -4605,8 +4389,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 36,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 27,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"
@@ -4621,17 +4405,17 @@
       ]
     },
     {
-      "id": "c0041",
-      "title": "문단 37",
+      "id": "c0039",
+      "title": "문단 28",
       "start": 259,
       "end": 264,
       "sentenceText": "Good gravy. Good gravy. Uncle Stripe is chasing Muffin. Ha-ha-ha! Classic Stripe.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 37,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 28,
       "selectable": true,
       "cues": [
         {
-          "id": "c0041",
+          "id": "c0039",
           "start": 259,
           "end": 264,
           "text": "Good gravy. Good gravy. Uncle Stripe is chasing Muffin. Ha-ha-ha! Classic Stripe.",
@@ -4684,7 +4468,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0105",
+              "id": "c0086",
               "start": 259,
               "end": 260,
               "groupingProvenance": "original-captured-cue",
@@ -4693,7 +4477,7 @@
               ]
             },
             {
-              "id": "c0106",
+              "id": "c0087",
               "start": 259,
               "end": 260,
               "groupingProvenance": "original-captured-cue",
@@ -4702,7 +4486,7 @@
               ]
             },
             {
-              "id": "c0107",
+              "id": "c0088",
               "start": 260,
               "end": 262,
               "groupingProvenance": "original-captured-cue",
@@ -4711,7 +4495,7 @@
               ]
             },
             {
-              "id": "c0108",
+              "id": "c0089",
               "start": 262,
               "end": 264,
               "groupingProvenance": "original-captured-cue",
@@ -4722,8 +4506,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 37,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 28,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4733,7 +4517,7 @@
       "targets": [
         {
           "expressionId": "good",
-          "cueId": "c0041",
+          "cueId": "c0039",
           "quote": "Good gravy. Good gravy. Uncle Stripe is chasing Muffin. Ha-ha-ha! Classic Stripe.",
           "start": 259,
           "end": 264,
@@ -4747,17 +4531,17 @@
       ]
     },
     {
-      "id": "c0042",
-      "title": "문단 38",
+      "id": "c0040",
+      "title": "문단 29",
       "start": 264,
       "end": 271,
       "sentenceText": "Get back here, Muffin! Run, Muffin! Dad! Argh! Muffin! Whoa! OK! There we go!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 38,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 29,
       "selectable": true,
       "cues": [
         {
-          "id": "c0042",
+          "id": "c0040",
           "start": 264,
           "end": 271,
           "text": "Get back here, Muffin! Run, Muffin! Dad! Argh! Muffin! Whoa! OK! There we go!",
@@ -4822,7 +4606,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0109",
+              "id": "c0090",
               "start": 264,
               "end": 267,
               "groupingProvenance": "original-captured-cue",
@@ -4831,7 +4615,7 @@
               ]
             },
             {
-              "id": "c0110",
+              "id": "c0091",
               "start": 267,
               "end": 268,
               "groupingProvenance": "original-captured-cue",
@@ -4840,7 +4624,7 @@
               ]
             },
             {
-              "id": "c0111",
+              "id": "c0092",
               "start": 268,
               "end": 269,
               "groupingProvenance": "original-captured-cue",
@@ -4849,7 +4633,7 @@
               ]
             },
             {
-              "id": "c0112",
+              "id": "c0093",
               "start": 269,
               "end": 271,
               "groupingProvenance": "original-captured-cue",
@@ -4860,8 +4644,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 38,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 29,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4871,7 +4655,7 @@
       "targets": [
         {
           "expressionId": "dad",
-          "cueId": "c0042",
+          "cueId": "c0040",
           "quote": "Get back here, Muffin! Run, Muffin! Dad! Argh! Muffin! Whoa! OK! There we go!",
           "start": 264,
           "end": 271,
@@ -4885,17 +4669,17 @@
       ]
     },
     {
-      "id": "c0043",
-      "title": "문단 39",
+      "id": "c0041",
+      "title": "문단 30",
       "start": 276,
       "end": 281,
       "sentenceText": "What's going on? I'm handling it! It doesn't look like you're handling it. I gave her a time out.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 39,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 30,
       "selectable": true,
       "cues": [
         {
-          "id": "c0043",
+          "id": "c0041",
           "start": 276,
           "end": 281,
           "text": "What's going on? I'm handling it! It doesn't look like you're handling it. I gave her a time out.",
@@ -4948,7 +4732,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0113",
+              "id": "c0094",
               "start": 276,
               "end": 278,
               "groupingProvenance": "original-captured-cue",
@@ -4957,7 +4741,7 @@
               ]
             },
             {
-              "id": "c0114",
+              "id": "c0095",
               "start": 278,
               "end": 280,
               "groupingProvenance": "original-captured-cue",
@@ -4966,7 +4750,7 @@
               ]
             },
             {
-              "id": "c0115",
+              "id": "c0096",
               "start": 280,
               "end": 281,
               "groupingProvenance": "original-captured-cue",
@@ -4977,8 +4761,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 39,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 30,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -4988,7 +4772,7 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0043",
+          "cueId": "c0041",
           "quote": "What's going on? I'm handling it! It doesn't look like you're handling it. I gave her a time out.",
           "start": 276,
           "end": 281,
@@ -4997,7 +4781,7 @@
         },
         {
           "expressionId": "look",
-          "cueId": "c0043",
+          "cueId": "c0041",
           "quote": "What's going on? I'm handling it! It doesn't look like you're handling it. I gave her a time out.",
           "start": 276,
           "end": 281,
@@ -5006,7 +4790,7 @@
         },
         {
           "expressionId": "like",
-          "cueId": "c0043",
+          "cueId": "c0041",
           "quote": "What's going on? I'm handling it! It doesn't look like you're handling it. I gave her a time out.",
           "start": 276,
           "end": 281,
@@ -5020,17 +4804,17 @@
       ]
     },
     {
-      "id": "c0044",
-      "title": "문단 40",
+      "id": "c0042",
+      "title": "문단 31",
       "start": 281,
       "end": 287,
       "sentenceText": "We don't do time out any more. What? Since when? I read a blog. You didn't tell me. Because you're never here.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 40,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 31,
       "selectable": true,
       "cues": [
         {
-          "id": "c0044",
+          "id": "c0042",
           "start": 281,
           "end": 287,
           "text": "We don't do time out any more. What? Since when? I read a blog. You didn't tell me. Because you're never here.",
@@ -5089,7 +4873,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0116",
+              "id": "c0097",
               "start": 281,
               "end": 283,
               "groupingProvenance": "original-captured-cue",
@@ -5098,7 +4882,7 @@
               ]
             },
             {
-              "id": "c0117",
+              "id": "c0098",
               "start": 283,
               "end": 285,
               "groupingProvenance": "original-captured-cue",
@@ -5107,7 +4891,7 @@
               ]
             },
             {
-              "id": "c0118",
+              "id": "c0099",
               "start": 285,
               "end": 287,
               "groupingProvenance": "original-captured-cue",
@@ -5118,8 +4902,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 40,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 31,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5129,7 +4913,7 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0044",
+          "cueId": "c0042",
           "quote": "We don't do time out any more. What? Since when? I read a blog. You didn't tell me. Because you're never here.",
           "start": 281,
           "end": 287,
@@ -5138,7 +4922,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0044",
+          "cueId": "c0042",
           "quote": "We don't do time out any more. What? Since when? I read a blog. You didn't tell me. Because you're never here.",
           "start": 281,
           "end": 287,
@@ -5152,17 +4936,17 @@
       ]
     },
     {
-      "id": "c0045",
-      "title": "문단 41",
+      "id": "c0043",
+      "title": "문단 32",
       "start": 287,
       "end": 292,
       "sentenceText": "Hey, er, guys… Just let me handle it, Stripe. No, Trix, let me handle it.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 41,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 32,
       "selectable": true,
       "cues": [
         {
-          "id": "c0045",
+          "id": "c0043",
           "start": 287,
           "end": 292,
           "text": "Hey, er, guys… Just let me handle it, Stripe. No, Trix, let me handle it.",
@@ -5209,7 +4993,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0119",
+              "id": "c0100",
               "start": 287,
               "end": 289,
               "groupingProvenance": "original-captured-cue",
@@ -5218,7 +5002,7 @@
               ]
             },
             {
-              "id": "c0120",
+              "id": "c0101",
               "start": 289,
               "end": 290,
               "groupingProvenance": "original-captured-cue",
@@ -5227,7 +5011,7 @@
               ]
             },
             {
-              "id": "c0121",
+              "id": "c0102",
               "start": 290,
               "end": 292,
               "groupingProvenance": "original-captured-cue",
@@ -5238,8 +5022,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 41,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 32,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5249,7 +5033,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0045",
+          "cueId": "c0043",
           "quote": "Hey, er, guys… Just let me handle it, Stripe. No, Trix, let me handle it.",
           "start": 287,
           "end": 292,
@@ -5263,17 +5047,17 @@
       ]
     },
     {
-      "id": "c0046",
-      "title": "문단 42",
+      "id": "c0044",
+      "title": "문단 33",
       "start": 292,
       "end": 297,
       "sentenceText": "I get to parent too. Yeah, but you have to do it right.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 42,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 33,
       "selectable": true,
       "cues": [
         {
-          "id": "c0046",
+          "id": "c0044",
           "start": 292,
           "end": 297,
           "text": "I get to parent too. Yeah, but you have to do it right.",
@@ -5308,7 +5092,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0122",
+              "id": "c0103",
               "start": 292,
               "end": 294,
               "groupingProvenance": "original-captured-cue",
@@ -5317,7 +5101,7 @@
               ]
             },
             {
-              "id": "c0123",
+              "id": "c0104",
               "start": 294,
               "end": 297,
               "groupingProvenance": "original-captured-cue",
@@ -5328,8 +5112,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 42,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 33,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5339,7 +5123,7 @@
       "targets": [
         {
           "expressionId": "have-to",
-          "cueId": "c0046",
+          "cueId": "c0044",
           "quote": "I get to parent too. Yeah, but you have to do it right.",
           "start": 292,
           "end": 297,
@@ -5353,17 +5137,17 @@
       ]
     },
     {
-      "id": "c0047",
-      "title": "문단 43",
+      "id": "c0045",
+      "title": "문단 34",
       "start": 297,
       "end": 302,
       "sentenceText": "This is how I do it. Guys… Kids, can you switch this off? Ah! But we're doing drawing things.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 43,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 34,
       "selectable": true,
       "cues": [
         {
-          "id": "c0047",
+          "id": "c0045",
           "start": 297,
           "end": 302,
           "text": "This is how I do it. Guys… Kids, can you switch this off? Ah! But we're doing drawing things.",
@@ -5422,7 +5206,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0124",
+              "id": "c0105",
               "start": 297,
               "end": 298,
               "groupingProvenance": "original-captured-cue",
@@ -5431,7 +5215,7 @@
               ]
             },
             {
-              "id": "c0125",
+              "id": "c0106",
               "start": 298,
               "end": 299,
               "groupingProvenance": "original-captured-cue",
@@ -5440,7 +5224,7 @@
               ]
             },
             {
-              "id": "c0126",
+              "id": "c0107",
               "start": 299,
               "end": 301,
               "groupingProvenance": "original-captured-cue",
@@ -5449,7 +5233,7 @@
               ]
             },
             {
-              "id": "c0127",
+              "id": "c0108",
               "start": 301,
               "end": 302,
               "groupingProvenance": "original-captured-cue",
@@ -5460,8 +5244,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 43,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 34,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5471,7 +5255,7 @@
       "targets": [
         {
           "expressionId": "how",
-          "cueId": "c0047",
+          "cueId": "c0045",
           "quote": "This is how I do it. Guys… Kids, can you switch this off? Ah! But we're doing drawing things.",
           "start": 297,
           "end": 302,
@@ -5485,17 +5269,17 @@
       ]
     },
     {
-      "id": "c0048",
-      "title": "문단 44",
+      "id": "c0046",
+      "title": "문단 35",
       "start": 302,
       "end": 307,
       "sentenceText": "All right, well, can you mute it? Yeah, we can. I feel like you hog all the parenting.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 44,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 35,
       "selectable": true,
       "cues": [
         {
-          "id": "c0048",
+          "id": "c0046",
           "start": 302,
           "end": 307,
           "text": "All right, well, can you mute it? Yeah, we can. I feel like you hog all the parenting.",
@@ -5542,7 +5326,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0128",
+              "id": "c0109",
               "start": 302,
               "end": 304,
               "groupingProvenance": "original-captured-cue",
@@ -5551,7 +5335,7 @@
               ]
             },
             {
-              "id": "c0129",
+              "id": "c0110",
               "start": 304,
               "end": 305,
               "groupingProvenance": "original-captured-cue",
@@ -5560,7 +5344,7 @@
               ]
             },
             {
-              "id": "c0130",
+              "id": "c0111",
               "start": 305,
               "end": 307,
               "groupingProvenance": "original-captured-cue",
@@ -5571,8 +5355,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 44,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 35,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5582,7 +5366,7 @@
       "targets": [
         {
           "expressionId": "all-right",
-          "cueId": "c0048",
+          "cueId": "c0046",
           "quote": "All right, well, can you mute it? Yeah, we can. I feel like you hog all the parenting.",
           "start": 302,
           "end": 307,
@@ -5591,7 +5375,7 @@
         },
         {
           "expressionId": "like",
-          "cueId": "c0048",
+          "cueId": "c0046",
           "quote": "All right, well, can you mute it? Yeah, we can. I feel like you hog all the parenting.",
           "start": 302,
           "end": 307,
@@ -5605,17 +5389,17 @@
       ]
     },
     {
-      "id": "c0049",
-      "title": "문단 45",
+      "id": "c0047",
+      "title": "문단 36",
       "start": 307,
       "end": 313,
       "sentenceText": "Is it this one? I don't mean to. No, try this one. Oh, no, that's not it.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 45,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 36,
       "selectable": true,
       "cues": [
         {
-          "id": "c0049",
+          "id": "c0047",
           "start": 307,
           "end": 313,
           "text": "Is it this one? I don't mean to. No, try this one. Oh, no, that's not it.",
@@ -5668,7 +5452,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0131",
+              "id": "c0112",
               "start": 307,
               "end": 309,
               "groupingProvenance": "original-captured-cue",
@@ -5677,7 +5461,7 @@
               ]
             },
             {
-              "id": "c0132",
+              "id": "c0113",
               "start": 309,
               "end": 311,
               "groupingProvenance": "original-captured-cue",
@@ -5686,7 +5470,7 @@
               ]
             },
             {
-              "id": "c0133",
+              "id": "c0114",
               "start": 311,
               "end": 313,
               "groupingProvenance": "original-captured-cue",
@@ -5697,8 +5481,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 45,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 36,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5708,7 +5492,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0049",
+          "cueId": "c0047",
           "quote": "Is it this one? I don't mean to. No, try this one. Oh, no, that's not it.",
           "start": 307,
           "end": 313,
@@ -5717,7 +5501,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0049",
+          "cueId": "c0047",
           "quote": "Is it this one? I don't mean to. No, try this one. Oh, no, that's not it.",
           "start": 307,
           "end": 313,
@@ -5731,17 +5515,17 @@
       ]
     },
     {
-      "id": "c0050",
-      "title": "문단 46",
+      "id": "c0048",
+      "title": "문단 37",
       "start": 313,
       "end": 321,
       "sentenceText": "Oh, I know. You can turn the sound back on when Stripe and Trix are finished chatting, OK? Yes, Dad.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 46,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 37,
       "selectable": true,
       "cues": [
         {
-          "id": "c0050",
+          "id": "c0048",
           "start": 313,
           "end": 321,
           "text": "Oh, I know. You can turn the sound back on when Stripe and Trix are finished chatting, OK? Yes, Dad.",
@@ -5794,7 +5578,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0134",
+              "id": "c0115",
               "start": 313,
               "end": 315,
               "groupingProvenance": "original-captured-cue",
@@ -5803,7 +5587,7 @@
               ]
             },
             {
-              "id": "c0135",
+              "id": "c0116",
               "start": 315,
               "end": 319,
               "groupingProvenance": "original-captured-cue",
@@ -5812,7 +5596,7 @@
               ]
             },
             {
-              "id": "c0136",
+              "id": "c0117",
               "start": 319,
               "end": 321,
               "groupingProvenance": "original-captured-cue",
@@ -5823,8 +5607,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 46,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 37,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5834,7 +5618,7 @@
       "targets": [
         {
           "expressionId": "know",
-          "cueId": "c0050",
+          "cueId": "c0048",
           "quote": "Oh, I know. You can turn the sound back on when Stripe and Trix are finished chatting, OK? Yes, Dad.",
           "start": 313,
           "end": 321,
@@ -5843,7 +5627,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0050",
+          "cueId": "c0048",
           "quote": "Oh, I know. You can turn the sound back on when Stripe and Trix are finished chatting, OK? Yes, Dad.",
           "start": 313,
           "end": 321,
@@ -5852,7 +5636,7 @@
         },
         {
           "expressionId": "finished",
-          "cueId": "c0050",
+          "cueId": "c0048",
           "quote": "Oh, I know. You can turn the sound back on when Stripe and Trix are finished chatting, OK? Yes, Dad.",
           "start": 313,
           "end": 321,
@@ -5861,7 +5645,7 @@
         },
         {
           "expressionId": "yes",
-          "cueId": "c0050",
+          "cueId": "c0048",
           "quote": "Oh, I know. You can turn the sound back on when Stripe and Trix are finished chatting, OK? Yes, Dad.",
           "start": 313,
           "end": 321,
@@ -5870,7 +5654,7 @@
         },
         {
           "expressionId": "dad",
-          "cueId": "c0050",
+          "cueId": "c0048",
           "quote": "Oh, I know. You can turn the sound back on when Stripe and Trix are finished chatting, OK? Yes, Dad.",
           "start": 313,
           "end": 321,
@@ -5884,17 +5668,17 @@
       ]
     },
     {
-      "id": "c0051",
-      "title": "문단 47",
+      "id": "c0049",
+      "title": "문단 38",
       "start": 335,
       "end": 340,
       "sentenceText": "Er, Muffin? Better look behind you. Why?!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 47,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 38,
       "selectable": true,
       "cues": [
         {
-          "id": "c0051",
+          "id": "c0049",
           "start": 335,
           "end": 340,
           "text": "Er, Muffin? Better look behind you. Why?!",
@@ -5941,7 +5725,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0137",
+              "id": "c0118",
               "start": 335,
               "end": 337,
               "groupingProvenance": "original-captured-cue",
@@ -5950,7 +5734,7 @@
               ]
             },
             {
-              "id": "c0138",
+              "id": "c0119",
               "start": 337,
               "end": 339,
               "groupingProvenance": "original-captured-cue",
@@ -5959,7 +5743,7 @@
               ]
             },
             {
-              "id": "c0139",
+              "id": "c0120",
               "start": 339,
               "end": 340,
               "groupingProvenance": "original-captured-cue",
@@ -5970,8 +5754,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 47,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 38,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -5981,7 +5765,7 @@
       "targets": [
         {
           "expressionId": "look",
-          "cueId": "c0051",
+          "cueId": "c0049",
           "quote": "Er, Muffin? Better look behind you. Why?!",
           "start": 335,
           "end": 340,
@@ -5990,7 +5774,7 @@
         },
         {
           "expressionId": "why",
-          "cueId": "c0051",
+          "cueId": "c0049",
           "quote": "Er, Muffin? Better look behind you. Why?!",
           "start": 335,
           "end": 340,
@@ -6004,17 +5788,17 @@
       ]
     },
     {
-      "id": "c0052",
-      "title": "문단 48",
+      "id": "c0050",
+      "title": "문단 39",
       "start": 340,
       "end": 342,
       "sentenceText": "(SHE SCREAMS)",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 48,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 39,
       "selectable": false,
       "cues": [
         {
-          "id": "c0052",
+          "id": "c0050",
           "start": 340,
           "end": 342,
           "text": "(SHE SCREAMS)",
@@ -6030,7 +5814,7 @@
           "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
-              "id": "c0140",
+              "id": "c0121",
               "start": 340,
               "end": 342,
               "groupingProvenance": "original-captured-cue",
@@ -6041,8 +5825,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 48,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 39,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"
@@ -6057,17 +5841,17 @@
       ]
     },
     {
-      "id": "c0053",
-      "title": "문단 49",
+      "id": "c0051",
+      "title": "문단 40",
       "start": 343,
       "end": 350,
       "sentenceText": "Stop running away, Muffin! Muffin, I would urgently advise you to stop right now.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 49,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 40,
       "selectable": true,
       "cues": [
         {
-          "id": "c0053",
+          "id": "c0051",
           "start": 343,
           "end": 350,
           "text": "Stop running away, Muffin! Muffin, I would urgently advise you to stop right now.",
@@ -6102,7 +5886,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0141",
+              "id": "c0122",
               "start": 343,
               "end": 347,
               "groupingProvenance": "original-captured-cue",
@@ -6111,7 +5895,7 @@
               ]
             },
             {
-              "id": "c0142",
+              "id": "c0123",
               "start": 347,
               "end": 350,
               "groupingProvenance": "original-captured-cue",
@@ -6122,8 +5906,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 49,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 40,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -6133,7 +5917,7 @@
       "targets": [
         {
           "expressionId": "right-now",
-          "cueId": "c0053",
+          "cueId": "c0051",
           "quote": "Stop running away, Muffin! Muffin, I would urgently advise you to stop right now.",
           "start": 343,
           "end": 350,
@@ -6142,7 +5926,7 @@
         },
         {
           "expressionId": "stop",
-          "cueId": "c0053",
+          "cueId": "c0051",
           "quote": "Stop running away, Muffin! Muffin, I would urgently advise you to stop right now.",
           "start": 343,
           "end": 350,
@@ -6156,17 +5940,17 @@
       ]
     },
     {
-      "id": "c0054",
-      "title": "문단 50",
+      "id": "c0052",
+      "title": "문단 41",
       "start": 350,
       "end": 355,
       "sentenceText": "Listen to your father. Let's split up. Good idea. Ah! They're working together!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 50,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 41,
       "selectable": true,
       "cues": [
         {
-          "id": "c0054",
+          "id": "c0052",
           "start": 350,
           "end": 355,
           "text": "Listen to your father. Let's split up. Good idea. Ah! They're working together!",
@@ -6225,7 +6009,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0143",
+              "id": "c0124",
               "start": 350,
               "end": 351,
               "groupingProvenance": "original-captured-cue",
@@ -6234,7 +6018,7 @@
               ]
             },
             {
-              "id": "c0144",
+              "id": "c0125",
               "start": 351,
               "end": 352,
               "groupingProvenance": "original-captured-cue",
@@ -6243,7 +6027,7 @@
               ]
             },
             {
-              "id": "c0145",
+              "id": "c0126",
               "start": 352,
               "end": 353,
               "groupingProvenance": "original-captured-cue",
@@ -6252,7 +6036,7 @@
               ]
             },
             {
-              "id": "c0146",
+              "id": "c0127",
               "start": 353,
               "end": 355,
               "groupingProvenance": "original-captured-cue",
@@ -6263,8 +6047,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 50,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 41,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -6274,7 +6058,7 @@
       "targets": [
         {
           "expressionId": "listen",
-          "cueId": "c0054",
+          "cueId": "c0052",
           "quote": "Listen to your father. Let's split up. Good idea. Ah! They're working together!",
           "start": 350,
           "end": 355,
@@ -6283,7 +6067,7 @@
         },
         {
           "expressionId": "lets",
-          "cueId": "c0054",
+          "cueId": "c0052",
           "quote": "Listen to your father. Let's split up. Good idea. Ah! They're working together!",
           "start": 350,
           "end": 355,
@@ -6292,7 +6076,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0054",
+          "cueId": "c0052",
           "quote": "Listen to your father. Let's split up. Good idea. Ah! They're working together!",
           "start": 350,
           "end": 355,
@@ -6306,17 +6090,17 @@
       ]
     },
     {
-      "id": "c0055",
-      "title": "문단 51",
+      "id": "c0053",
+      "title": "문단 42",
       "start": 355,
       "end": 360,
       "sentenceText": "Come back here! Where are they?",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 51,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 42,
       "selectable": true,
       "cues": [
         {
-          "id": "c0055",
+          "id": "c0053",
           "start": 355,
           "end": 360,
           "text": "Come back here! Where are they?",
@@ -6351,7 +6135,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0147",
+              "id": "c0128",
               "start": 355,
               "end": 357,
               "groupingProvenance": "original-captured-cue",
@@ -6360,7 +6144,7 @@
               ]
             },
             {
-              "id": "c0148",
+              "id": "c0129",
               "start": 359,
               "end": 360,
               "groupingProvenance": "original-captured-cue",
@@ -6371,8 +6155,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 51,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 42,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -6382,7 +6166,7 @@
       "targets": [
         {
           "expressionId": "where",
-          "cueId": "c0055",
+          "cueId": "c0053",
           "quote": "Come back here! Where are they?",
           "start": 355,
           "end": 360,
@@ -6396,17 +6180,17 @@
       ]
     },
     {
-      "id": "c0056",
-      "title": "문단 52",
+      "id": "c0054",
+      "title": "문단 43",
       "start": 360,
       "end": 366,
       "sentenceText": "Your mum's hiding behind the couch. What couch? The couch. We've got lots of couches.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 52,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 43,
       "selectable": true,
       "cues": [
         {
-          "id": "c0056",
+          "id": "c0054",
           "start": 360,
           "end": 366,
           "text": "Your mum's hiding behind the couch. What couch? The couch. We've got lots of couches.",
@@ -6459,7 +6243,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0149",
+              "id": "c0130",
               "start": 360,
               "end": 361,
               "groupingProvenance": "original-captured-cue",
@@ -6468,7 +6252,7 @@
               ]
             },
             {
-              "id": "c0150",
+              "id": "c0131",
               "start": 361,
               "end": 364,
               "groupingProvenance": "original-captured-cue",
@@ -6477,7 +6261,7 @@
               ]
             },
             {
-              "id": "c0151",
+              "id": "c0132",
               "start": 364,
               "end": 366,
               "groupingProvenance": "original-captured-cue",
@@ -6488,8 +6272,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 52,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 43,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -6499,7 +6283,7 @@
       "targets": [
         {
           "expressionId": "mum",
-          "cueId": "c0056",
+          "cueId": "c0054",
           "quote": "Your mum's hiding behind the couch. What couch? The couch. We've got lots of couches.",
           "start": 360,
           "end": 366,
@@ -6508,7 +6292,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0056",
+          "cueId": "c0054",
           "quote": "Your mum's hiding behind the couch. What couch? The couch. We've got lots of couches.",
           "start": 360,
           "end": 366,
@@ -6522,17 +6306,17 @@
       ]
     },
     {
-      "id": "c0057",
-      "title": "문단 53",
+      "id": "c0055",
+      "title": "문단 44",
       "start": 366,
       "end": 374,
       "sentenceText": "It's that couch right there. Muffin! Ow! I'm freee! Muffin! No! My phone!",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 53,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 44,
       "selectable": true,
       "cues": [
         {
-          "id": "c0057",
+          "id": "c0055",
           "start": 366,
           "end": 374,
           "text": "It's that couch right there. Muffin! Ow! I'm freee! Muffin! No! My phone!",
@@ -6609,7 +6393,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0152",
+              "id": "c0133",
               "start": 366,
               "end": 367,
               "groupingProvenance": "original-captured-cue",
@@ -6618,7 +6402,7 @@
               ]
             },
             {
-              "id": "c0153",
+              "id": "c0134",
               "start": 367,
               "end": 369,
               "groupingProvenance": "original-captured-cue",
@@ -6627,7 +6411,7 @@
               ]
             },
             {
-              "id": "c0154",
+              "id": "c0135",
               "start": 369,
               "end": 371,
               "groupingProvenance": "original-captured-cue",
@@ -6636,7 +6420,7 @@
               ]
             },
             {
-              "id": "c0155",
+              "id": "c0136",
               "start": 371,
               "end": 372,
               "groupingProvenance": "original-captured-cue",
@@ -6645,7 +6429,7 @@
               ]
             },
             {
-              "id": "c0156",
+              "id": "c0137",
               "start": 372,
               "end": 374,
               "groupingProvenance": "original-captured-cue",
@@ -6656,8 +6440,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 53,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 44,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -6667,7 +6451,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0057",
+          "cueId": "c0055",
           "quote": "It's that couch right there. Muffin! Ow! I'm freee! Muffin! No! My phone!",
           "start": 366,
           "end": 374,
@@ -6681,17 +6465,17 @@
       ]
     },
     {
-      "id": "c0058",
-      "title": "문단 54",
+      "id": "c0056",
+      "title": "문단 45",
       "start": 380,
       "end": 388,
       "sentenceText": "Oh, boy. Sorry, Dad. Muffin? Yes. Time out. OK.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 54,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 45,
       "selectable": true,
       "cues": [
         {
-          "id": "c0058",
+          "id": "c0056",
           "start": 380,
           "end": 388,
           "text": "Oh, boy. Sorry, Dad. Muffin? Yes. Time out. OK.",
@@ -6768,7 +6552,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0157",
+              "id": "c0138",
               "start": 380,
               "end": 382,
               "groupingProvenance": "original-captured-cue",
@@ -6777,7 +6561,7 @@
               ]
             },
             {
-              "id": "c0158",
+              "id": "c0139",
               "start": 382,
               "end": 383,
               "groupingProvenance": "original-captured-cue",
@@ -6786,7 +6570,7 @@
               ]
             },
             {
-              "id": "c0159",
+              "id": "c0140",
               "start": 383,
               "end": 385,
               "groupingProvenance": "original-captured-cue",
@@ -6795,7 +6579,7 @@
               ]
             },
             {
-              "id": "c0160",
+              "id": "c0141",
               "start": 385,
               "end": 387,
               "groupingProvenance": "original-captured-cue",
@@ -6804,7 +6588,7 @@
               ]
             },
             {
-              "id": "c0161",
+              "id": "c0142",
               "start": 387,
               "end": 388,
               "groupingProvenance": "original-captured-cue",
@@ -6815,8 +6599,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 54,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 45,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -6826,7 +6610,7 @@
       "targets": [
         {
           "expressionId": "sorry",
-          "cueId": "c0058",
+          "cueId": "c0056",
           "quote": "Oh, boy. Sorry, Dad. Muffin? Yes. Time out. OK.",
           "start": 380,
           "end": 388,
@@ -6835,7 +6619,7 @@
         },
         {
           "expressionId": "dad",
-          "cueId": "c0058",
+          "cueId": "c0056",
           "quote": "Oh, boy. Sorry, Dad. Muffin? Yes. Time out. OK.",
           "start": 380,
           "end": 388,
@@ -6844,7 +6628,7 @@
         },
         {
           "expressionId": "yes",
-          "cueId": "c0058",
+          "cueId": "c0056",
           "quote": "Oh, boy. Sorry, Dad. Muffin? Yes. Time out. OK.",
           "start": 380,
           "end": 388,
@@ -6858,17 +6642,17 @@
       ]
     },
     {
-      "id": "c0059",
-      "title": "문단 55",
+      "id": "c0057",
+      "title": "문단 46",
       "start": 392,
       "end": 398,
       "sentenceText": "Finished. Oh, wow. That's great, Socks. Thanks. Can I have a turn now, Bluey?",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 55,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 46,
       "selectable": true,
       "cues": [
         {
-          "id": "c0059",
+          "id": "c0057",
           "start": 392,
           "end": 398,
           "text": "Finished. Oh, wow. That's great, Socks. Thanks. Can I have a turn now, Bluey?",
@@ -6927,7 +6711,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0162",
+              "id": "c0143",
               "start": 392,
               "end": 393,
               "groupingProvenance": "original-captured-cue",
@@ -6936,7 +6720,7 @@
               ]
             },
             {
-              "id": "c0163",
+              "id": "c0144",
               "start": 393,
               "end": 395,
               "groupingProvenance": "original-captured-cue",
@@ -6945,7 +6729,7 @@
               ]
             },
             {
-              "id": "c0164",
+              "id": "c0145",
               "start": 395,
               "end": 396,
               "groupingProvenance": "original-captured-cue",
@@ -6954,7 +6738,7 @@
               ]
             },
             {
-              "id": "c0165",
+              "id": "c0146",
               "start": 396,
               "end": 398,
               "groupingProvenance": "original-captured-cue",
@@ -6965,8 +6749,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 55,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 46,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -6976,7 +6760,7 @@
       "targets": [
         {
           "expressionId": "can-i",
-          "cueId": "c0059",
+          "cueId": "c0057",
           "quote": "Finished. Oh, wow. That's great, Socks. Thanks. Can I have a turn now, Bluey?",
           "start": 392,
           "end": 398,
@@ -6985,7 +6769,7 @@
         },
         {
           "expressionId": "finished",
-          "cueId": "c0059",
+          "cueId": "c0057",
           "quote": "Finished. Oh, wow. That's great, Socks. Thanks. Can I have a turn now, Bluey?",
           "start": 392,
           "end": 398,
@@ -6994,7 +6778,7 @@
         },
         {
           "expressionId": "great",
-          "cueId": "c0059",
+          "cueId": "c0057",
           "quote": "Finished. Oh, wow. That's great, Socks. Thanks. Can I have a turn now, Bluey?",
           "start": 392,
           "end": 398,
@@ -7003,7 +6787,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0059",
+          "cueId": "c0057",
           "quote": "Finished. Oh, wow. That's great, Socks. Thanks. Can I have a turn now, Bluey?",
           "start": 392,
           "end": 398,
@@ -7017,17 +6801,17 @@
       ]
     },
     {
-      "id": "c0060",
-      "title": "문단 56",
+      "id": "c0058",
+      "title": "문단 47",
       "start": 398,
       "end": 404,
       "sentenceText": "Oh, yeah. Sure. Thanks. No problem. Because we know what happens when you hog.",
-      "chapterId": "chapter-002",
-      "paragraphIndex": 56,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 47,
       "selectable": true,
       "cues": [
         {
-          "id": "c0060",
+          "id": "c0058",
           "start": 398,
           "end": 404,
           "text": "Oh, yeah. Sure. Thanks. No problem. Because we know what happens when you hog.",
@@ -7086,7 +6870,7 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0166",
+              "id": "c0147",
               "start": 398,
               "end": 399,
               "groupingProvenance": "original-captured-cue",
@@ -7095,7 +6879,7 @@
               ]
             },
             {
-              "id": "c0167",
+              "id": "c0148",
               "start": 399,
               "end": 400,
               "groupingProvenance": "original-captured-cue",
@@ -7104,7 +6888,7 @@
               ]
             },
             {
-              "id": "c0168",
+              "id": "c0149",
               "start": 400,
               "end": 401,
               "groupingProvenance": "original-captured-cue",
@@ -7113,7 +6897,7 @@
               ]
             },
             {
-              "id": "c0169",
+              "id": "c0150",
               "start": 401,
               "end": 404,
               "groupingProvenance": "original-captured-cue",
@@ -7124,8 +6908,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-002",
-          "paragraphIndex": 56,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 47,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -7135,7 +6919,7 @@
       "targets": [
         {
           "expressionId": "sure",
-          "cueId": "c0060",
+          "cueId": "c0058",
           "quote": "Oh, yeah. Sure. Thanks. No problem. Because we know what happens when you hog.",
           "start": 398,
           "end": 404,
@@ -7144,7 +6928,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0060",
+          "cueId": "c0058",
           "quote": "Oh, yeah. Sure. Thanks. No problem. Because we know what happens when you hog.",
           "start": 398,
           "end": 404,
@@ -7153,7 +6937,7 @@
         },
         {
           "expressionId": "know",
-          "cueId": "c0060",
+          "cueId": "c0058",
           "quote": "Oh, yeah. Sure. Thanks. No problem. Because we know what happens when you hog.",
           "start": 398,
           "end": 404,
@@ -7162,7 +6946,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0060",
+          "cueId": "c0058",
           "quote": "Oh, yeah. Sure. Thanks. No problem. Because we know what happens when you hog.",
           "start": 398,
           "end": 404,

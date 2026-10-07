@@ -1,8 +1,24 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import { availableStages, canEnterStage, canNavigateSource, canResumeScene, clearUiState, clozeParts, createKeyedQueue, createSingleFlight, CURRENT_CONTENT_VERSION, durationBucket, filterCatalog, filterVocabulary, isCompletedWord, isVocabularyWord, makeProgress, meaningQuizAvailable, savedDictationComparison, scopedStorageKey, secondsLabel, selectableScenes, sentenceWordRanges, sourceVideoId, STAGES, updateMistakeWord, vocabularyAttemptCount } from '../public/app.js';
+import { availableStages, canEnterStage, canNavigateSource, canResumeScene, clearUiState, clozeParts, createKeyedQueue, createSingleFlight, CURRENT_CONTENT_VERSION, durationBucket, filterCatalog, filterVocabulary, isCompletedWord, isVocabularyWord, makeProgress, meaningQuizAvailable, mergeWordKnowledge, savedDictationComparison, scopedStorageKey, secondsLabel, selectableScenes, sentenceWordRanges, sourceVideoId, STAGES, updateMistakeWord, vocabularyAttemptCount } from '../public/app.js';
 import { registerPractice } from '../public/lib/vocabulary.js';
+
+test('shared remote knowledge keeps each current word record parent meaning', () => {
+  const remote = {
+    meaningKo: 'AI 기본 뜻', koreanSource: 'openai', dialogues: [{ titleKo: '원격 대화' }],
+    englishStatus: 'ready', definitionEn: 'A shared definition.'
+  };
+  const first = mergeWordKnowledge({ meaningKo: '첫 기록 뜻', source: 'parent', dialogues: [{ titleKo: '첫 대화' }] }, remote);
+  const second = mergeWordKnowledge({ meaningKo: '둘째 기록 뜻', source: 'parent', dialogues: [{ titleKo: '둘째 대화' }] }, remote);
+  const fallback = mergeWordKnowledge({ meaningKo: '', source: 'missing', dialogues: [] }, remote);
+  assert.equal(first.meaningKo, '첫 기록 뜻');
+  assert.equal(second.meaningKo, '둘째 기록 뜻');
+  assert.equal(first.koreanSource, 'parent');
+  assert.equal(second.dialogues[0].titleKo, '둘째 대화');
+  assert.equal(fallback.meaningKo, 'AI 기본 뜻');
+  assert.equal(fallback.koreanSource, 'openai');
+});
 
 test('catalog search and duration filtering are independent', () => {
   const videos = [
@@ -235,7 +251,11 @@ test('listen panel contains no answer-bearing static DOM', async () => {
   assert.match(app, /auth\.confirmationStatus === 'returned'/);
   assert.match(app, /auth\.confirmationStatus === 'error'/);
   assert.doesNotMatch(app, /error_description/);
-  assert.match(app, /if \(state\.dictationResult\) input\.value = dictationFor\(\)\?\.answer \|\| ''/);
+  assert.match(app, /dictationDraft:\s*''/);
+  assert.match(app, /input\.value = state\.dictationDraft/);
+  assert.match(app, /input\.addEventListener\('input',[\s\S]{0,100}state\.dictationDraft = input\.value/);
+  assert.doesNotMatch(app, /input\.value = dictationFor\(\)\?\.answer/);
+  assert.match(app, /state\.dictationDraft = ''/);
   assert.match(app, /await store\.resetProgress\(scope\)[\s\S]{0,400}clearUiState\(scope\)[\s\S]{0,120}resetActiveLearning\(\)/);
   assert.match(app, /videoId !== state\.videoData\?\.id[\s\S]{0,160}contentVersion !== state\.videoData\?\.contentVersion/);
   assert.doesNotMatch(app, /뜻이나 출처를 만들어내지 않습니다|표현은행 설명이 없는 단어/);
@@ -246,5 +266,8 @@ test('listen panel contains no answer-bearing static DOM', async () => {
   assert.match(css, /\.quiz-masked \.media-column/);
   assert.match(css, /\.library-quiz-active #word-list/);
   assert.match(html, /<details id="scene-list-panel" class="scene-list-panel" open>/);
+  assert.match(html, /id="ai-usage-button"[^>]*>오늘 사용량 확인/);
+  assert.match(app, /fetch\('\/api\/ai-usage'/);
+  assert.doesNotMatch(html, /sk-proj-/);
   assert.match(css, /@media \(max-width: 1000px\)[\s\S]*\.learning-grid \{ grid-template-columns: 1fr; \}/);
 });

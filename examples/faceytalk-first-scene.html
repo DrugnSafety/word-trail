@@ -29,7 +29,7 @@
       <label class="own">내 상황에 맞는 한 문장 <textarea rows="2" placeholder="말로 먼저 만든 뒤 적어도 좋아요."></textarea></label>
       <fieldset class="check"><legend>부모와 읽기 확인</legend><label><input type="radio" name="read-1"> 혼자 읽었어요</label> <label><input type="radio" name="read-1"> 도움이 필요해요</label><label>다음 복습 날짜 <input type="date"></label></fieldset>
     </article>
-<footer>Word Trail · 표현 2개 · 자료 버전 2026.09.29-2<br>IPA는 학습용 사전 발음입니다. 영상의 호주 영어 발음과 차이가 있을 수 있습니다. 자료 출처와 음성 정확도는 별도로 확인해 주세요. 학습 효과나 진단을 판정하는 자료가 아닙니다.</footer>
+<footer>Word Trail · 표현 2개 · 자료 버전 2026.10.06-1<br>IPA는 학습용 사전 발음입니다. 영상의 호주 영어 발음과 차이가 있을 수 있습니다. 자료 출처와 음성 정확도는 별도로 확인해 주세요. 학습 효과나 진단을 판정하는 자료가 아닙니다.</footer>
 </main><script>
 const normalize=text=>String(text).normalize('NFKC').toLowerCase().replace(/[‘’ʼ]/g,"'").trim().replace(/\s+/g,' ').replace(/[.!?,;:]+$/g,'').trim();
 document.querySelectorAll('form[data-answer]').forEach(form=>form.addEventListener('submit',event=>{event.preventDefault();const value=normalize(form.elements.answer.value);form.querySelector('.feedback').textContent=value&&value===normalize(form.dataset.answer)?'잘 떠올렸어요! 이번에는 소리 내어 읽어 보세요.':'다시 듣거나 도움을 펼쳐 보세요. 천천히 해도 괜찮아요.';}));

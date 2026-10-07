@@ -17,18 +17,39 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 2,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "There's a Gold Team! 💛 🏉 💚 | New Season 3 Clip - The Decider | Bluey",
-      "start": 8,
-      "end": 122,
-      "source": "whole-video",
+      "title": "Preparation and warm up",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 65,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Football game highlights",
+      "start": 65,
+      "markerStart": 65,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 122,
+      "sceneIds": [
         "c0003",
         "c0004",
         "c0005",
@@ -219,12 +240,12 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
+      "title": "문단 1",
       "start": 65,
       "end": 75,
       "sentenceText": "Welcome back. And what a game we have ahead of us today. Hey, here we go. Look Look out. Come on. The maroon and gold!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -304,8 +325,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -350,12 +371,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 75,
       "end": 82,
       "sentenceText": "What's going on? There's a gold team. There's a gold team. What? Let's do this.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -429,8 +450,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -466,12 +487,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 3",
       "start": 82,
       "end": 92,
       "sentenceText": "There's another game of football, and there's a gold team, and Mum and Dad both on it. Really? They're on the same team? Yeah, we're all on it. Yeah.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -560,8 +581,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -597,12 +618,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 4",
       "start": 92,
       "end": 98,
       "sentenceText": "Except for your mate McKenzie. You got that? Got it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -648,8 +669,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -664,12 +685,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 5",
       "start": 98,
       "end": 104,
       "sentenceText": "We're going to vlog you. We're going to vlog you.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -715,8 +736,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -731,12 +752,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 6",
       "start": 104,
       "end": 115,
       "sentenceText": "What's going on? Go the Kway! This could be the clincher. They can't stop it. Yes, you can.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -810,8 +831,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -856,12 +877,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 7",
       "start": 118,
       "end": 122,
       "sentenceText": "That's what it's all about.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
@@ -899,8 +920,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "short-dialogue-fragment"

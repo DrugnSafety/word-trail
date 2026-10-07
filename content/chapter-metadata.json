@@ -1,22 +1,2508 @@
 {
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "videos": {
     "video-01": {
       "status": "partial-user-confirmed",
       "expectedChapterCount": 7,
+      "scriptSource": "content/script-sections/video-01.txt",
+      "unverifiedRemainder": {
+        "title": "목차 확인 중",
+        "markerStart": 104,
+        "source": "partial-heading-fallback",
+        "provenance": "unverified-remainder-after-user-confirmed-excerpt"
+      }
+    },
+    "video-02": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "MnFue5zu454",
+      "sourceTitle": "Season 3 Full Episodes | Bluey",
+      "sourceDuration": 1586,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
       "chapters": [
         {
-          "title": "Facey talk initiates",
-          "markerStart": 26,
-          "source": "user-provided",
-          "coverage": "confirmed-excerpt",
-          "provenance": "user-provided-chapter-title-and-start"
+          "title": "Mini Bluey",
+          "markerStart": 0,
+          "sourceEnd": 380,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
         },
         {
-          "title": "목차 확인 중",
+          "title": "Pass the Parcel",
+          "markerStart": 380,
+          "sourceEnd": 825,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Pizza Girls",
+          "markerStart": 825,
+          "sourceEnd": 1204,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Faceytalk",
+          "markerStart": 1204,
+          "sourceEnd": 1586,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-03": {
+      "status": "browser-visible-youtube-auto-chapters",
+      "expectedChapterCount": 6,
+      "sourceVideoId": "zL_vNn06a5M",
+      "sourceTitle": "Pizza Girls | Full Episode | Bluey",
+      "sourceDuration": 420,
+      "verifiedAt": "2026-10-06T20:57:52Z",
+      "chapters": [
+        {
+          "title": "The pizza shop game",
+          "markerStart": 0,
+          "sourceEnd": 103,
+          "source": "youtube-auto-chapter",
+          "provenance": "browser-visible-youtube-auto-chapters",
+          "coverage": "browser-visible-auto-boundary"
+        },
+        {
+          "title": "Fixing the car",
+          "markerStart": 103,
+          "sourceEnd": 131,
+          "source": "youtube-auto-chapter",
+          "provenance": "browser-visible-youtube-auto-chapters",
+          "coverage": "browser-visible-auto-boundary"
+        },
+        {
+          "title": "Electric car troubles",
+          "markerStart": 131,
+          "sourceEnd": 208,
+          "source": "youtube-auto-chapter",
+          "provenance": "browser-visible-youtube-auto-chapters",
+          "coverage": "browser-visible-auto-boundary"
+        },
+        {
+          "title": "Driving in the park",
+          "markerStart": 208,
+          "sourceEnd": 251,
+          "source": "youtube-auto-chapter",
+          "provenance": "browser-visible-youtube-auto-chapters",
+          "coverage": "browser-visible-auto-boundary"
+        },
+        {
+          "title": "Charging and chaos",
+          "markerStart": 251,
+          "sourceEnd": 322,
+          "source": "youtube-auto-chapter",
+          "provenance": "browser-visible-youtube-auto-chapters",
+          "coverage": "browser-visible-auto-boundary"
+        },
+        {
+          "title": "Making fast deliveries",
+          "markerStart": 322,
+          "sourceEnd": 420,
+          "source": "youtube-auto-chapter",
+          "provenance": "browser-visible-youtube-auto-chapters",
+          "coverage": "browser-visible-auto-boundary"
+        }
+      ]
+    },
+    "video-04": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 6,
+      "sourceVideoId": "T4uKrmq5i1U",
+      "sourceTitle": "Bluey Season 3 New Full Episodes 💙🧡 | Featuring Granny Mobile, Faceytalk and more! | Bluey",
+      "sourceDuration": 2383,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Granny Mobile",
+          "markerStart": 0,
+          "sourceEnd": 406,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Faceytalk",
+          "markerStart": 406,
+          "sourceEnd": 784,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Pizza Girls",
+          "markerStart": 784,
+          "sourceEnd": 1164,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Pass the Parcel",
+          "markerStart": 1164,
+          "sourceEnd": 1608,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Unicorse",
+          "markerStart": 1608,
+          "sourceEnd": 1988,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Mini Bluey",
+          "markerStart": 1988,
+          "sourceEnd": 2383,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-05": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "VX-lYkW4WuQ",
+      "sourceTitle": "Relax 🛁 | Brand New - Series 3 | Bluey",
+      "sourceDuration": 123,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Arrival and room check",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Imaginary games",
+          "markerStart": 28,
+          "sourceEnd": 64,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Preparing for the beach",
+          "markerStart": 64,
+          "sourceEnd": 76,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Exploring the bathroom",
+          "markerStart": 76,
+          "sourceEnd": 123,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-07": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 18,
+      "sourceVideoId": "Xw3-3jQQMBk",
+      "sourceTitle": "18 FULL BLUEY EPISODES 💙 ✨ | 2 Hours of Bluey Full Episodes 😯 | Bluey",
+      "sourceDuration": 6936,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Stories",
+          "markerStart": 0,
+          "sourceEnd": 404,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Granny Mobile",
+          "markerStart": 404,
+          "sourceEnd": 783,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Unicorse",
+          "markerStart": 783,
+          "sourceEnd": 1163,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Pass the Parcel",
+          "markerStart": 1163,
+          "sourceEnd": 1607,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Pizza Girls",
+          "markerStart": 1607,
+          "sourceEnd": 1987,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Faceytalk",
+          "markerStart": 1987,
+          "sourceEnd": 2366,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Baby Race",
+          "markerStart": 2366,
+          "sourceEnd": 2746,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Movies",
+          "markerStart": 2746,
+          "sourceEnd": 3126,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Seesaw",
+          "markerStart": 3126,
+          "sourceEnd": 3506,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Dad Baby",
+          "markerStart": 3506,
+          "sourceEnd": 3885,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Bingo",
+          "markerStart": 3885,
+          "sourceEnd": 4265,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Asparagus",
+          "markerStart": 4265,
+          "sourceEnd": 4644,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The Sleepover",
+          "markerStart": 4644,
+          "sourceEnd": 5024,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The Beach",
+          "markerStart": 5024,
+          "sourceEnd": 5402,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The Pool",
+          "markerStart": 5402,
+          "sourceEnd": 5782,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Yoga Ball",
+          "markerStart": 5782,
+          "sourceEnd": 6162,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Hotel",
+          "markerStart": 6162,
+          "sourceEnd": 6541,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Christmas Swim",
+          "markerStart": 6541,
+          "sourceEnd": 6936,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-09": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 3,
+      "sourceVideoId": "QqegZrB_fvM",
+      "sourceTitle": "Meet Aunty Brandy 🧡 | Onesies - Series 3 | Bluey",
+      "sourceDuration": 133,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The onesie game",
+          "markerStart": 0,
+          "sourceEnd": 30,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Auntie Brandy's visit",
+          "markerStart": 30,
+          "sourceEnd": 84,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Explaining the situation",
+          "markerStart": 84,
+          "sourceEnd": 133,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-10": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 6,
+      "sourceVideoId": "4x2H3X9hQoQ",
+      "sourceTitle": "BRAND NEW Bluey Season 3 Full Episode Compilation! 💙 | 40 MINUTES | Bluey",
+      "sourceDuration": 2383,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Unicorse",
+          "markerStart": 0,
+          "sourceEnd": 405,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Pass the Parcel",
+          "markerStart": 405,
+          "sourceEnd": 849,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Pizza Girls",
+          "markerStart": 849,
+          "sourceEnd": 1229,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Faceytalk",
+          "markerStart": 1229,
+          "sourceEnd": 1609,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Stories",
+          "markerStart": 1609,
+          "sourceEnd": 1988,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Granny Mobile",
+          "markerStart": 1988,
+          "sourceEnd": 2383,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-14": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 3,
+      "sourceVideoId": "0uxmFpGFKyY",
+      "sourceTitle": "Adult Bluey Visits Home 👀💙 | BRAND NEW CLIP - Surprise 🎾 | Bluey",
+      "sourceDuration": 126,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Settling into the hospital",
+          "markerStart": 0,
+          "sourceEnd": 65,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Supporting Fukan",
+          "markerStart": 65,
+          "sourceEnd": 88,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "A visitor at home",
+          "markerStart": 88,
+          "sourceEnd": 126,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-15": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 5,
+      "sourceVideoId": "Ka3vyVEaoTg",
+      "sourceTitle": "Bandishwasher! | Fairytale - Series 3 | Bluey",
+      "sourceDuration": 126,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The curse of silence",
+          "markerStart": 0,
+          "sourceEnd": 26,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Holiday dining drama",
+          "markerStart": 26,
+          "sourceEnd": 42,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Sibling conflict",
+          "markerStart": 42,
+          "sourceEnd": 63,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Dad breaks the curse",
+          "markerStart": 63,
+          "sourceEnd": 97,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Reflection on behavior",
+          "markerStart": 97,
+          "sourceEnd": 126,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-18": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 2,
+      "sourceVideoId": "CVWNu3Drxpw",
+      "sourceTitle": "There's a Gold Team! 💛 🏉 💚 | New Season 3 Clip - The Decider | Bluey",
+      "sourceDuration": 122,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Preparation and warm up",
+          "markerStart": 0,
+          "sourceEnd": 65,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Football game highlights",
+          "markerStart": 65,
+          "sourceEnd": 122,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-21": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "SstAKgNOsxc",
+      "sourceTitle": "Slide 🛝 | Brand New - Series 3 | Bluey",
+      "sourceDuration": 123,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Starting the slide",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Rescuing the leaf bug",
+          "markerStart": 28,
+          "sourceEnd": 55,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Avoiding more bugs",
+          "markerStart": 55,
+          "sourceEnd": 87,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Ineffective bug wall",
+          "markerStart": 87,
+          "sourceEnd": 123,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-22": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 5,
+      "sourceVideoId": "yY4GKcH1rRg",
+      "sourceTitle": "Granny Mobile 🤍💙 | FULL BLUEY EPISODE | Bluey, Bingo, and Muffin Grannies! 🩷 | Bluey",
+      "sourceDuration": 420,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The garage sale",
+          "markerStart": 0,
+          "sourceEnd": 83,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Playing granny mobile",
+          "markerStart": 83,
+          "sourceEnd": 150,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Toughening up Doreen",
+          "markerStart": 150,
+          "sourceEnd": 235,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The intense negotiation",
+          "markerStart": 235,
+          "sourceEnd": 352,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Mission accomplished",
+          "markerStart": 352,
+          "sourceEnd": 420,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-24": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "VEyg0QmSiVM",
+      "sourceTitle": "Cricket 🏏 | Brand New - Series 3 | Bluey",
+      "sourceDuration": 122,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Rusty's love for cricket",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Planning to defeat Rusty",
+          "markerStart": 28,
+          "sourceEnd": 60,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Changing the bowling attack",
+          "markerStart": 60,
+          "sourceEnd": 90,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Rusty's secret practice",
+          "markerStart": 90,
+          "sourceEnd": 122,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-25": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "-n9FFh8GKPA",
+      "sourceTitle": "TV Shop 📺 | Brand New - Series 3 | Bluey",
+      "sourceDuration": 122,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Seeing Dad on TV",
+          "markerStart": 0,
+          "sourceEnd": 22,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Meeting the Terriers",
+          "markerStart": 22,
+          "sourceEnd": 44,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Dancing for attention",
+          "markerStart": 44,
+          "sourceEnd": 75,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Searching for Coco",
+          "markerStart": 75,
+          "sourceEnd": 122,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-26": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 6,
+      "sourceVideoId": "Kj2CKqskBK0",
+      "sourceTitle": "Exercise 🏋️ | Brand New - Series 3 | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Meeting a new colleague",
+          "markerStart": 0,
+          "sourceEnd": 20,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Elevator tour",
+          "markerStart": 20,
+          "sourceEnd": 44,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Office introductions",
+          "markerStart": 44,
+          "sourceEnd": 56,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Workspace and equipment",
+          "markerStart": 56,
+          "sourceEnd": 81,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Cafeteria visit",
+          "markerStart": 81,
+          "sourceEnd": 109,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Ping pong table",
+          "markerStart": 109,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-27": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "epL7zirDQNo",
+      "sourceTitle": "Dragon ✏️ | Brand New - Series 3 | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The quest for the dragon",
+          "markerStart": 0,
+          "sourceEnd": 35,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Humpty Dumpty confrontation",
+          "markerStart": 35,
+          "sourceEnd": 51,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Journey through the forest",
+          "markerStart": 51,
+          "sourceEnd": 65,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Meeting the wise tree",
+          "markerStart": 65,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-28": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "bn5gbkWgZW0",
+      "sourceTitle": "Muffin's Time Out | Faceytalk - Series 3 | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Tension over sharing",
+          "markerStart": 0,
+          "sourceEnd": 36,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The timer challenge",
+          "markerStart": 36,
+          "sourceEnd": 74,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Time out consequences",
+          "markerStart": 74,
+          "sourceEnd": 91,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Muffin takes the phone",
+          "markerStart": 91,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-29": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 22,
+      "sourceVideoId": "kPFHL0R0oIU",
+      "sourceTitle": "Season 3 Favourites! ☺️ ✨ | 1 HOUR+ | Best Bits from Bluey Series 3 💙 | Bluey",
+      "sourceDuration": 4090,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Settling into the room",
+          "markerStart": 0,
+          "sourceEnd": 120,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Rusty's cricket skills",
+          "markerStart": 120,
+          "sourceEnd": 242,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Bedtime struggles",
+          "markerStart": 242,
+          "sourceEnd": 339,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The unicorn story",
+          "markerStart": 339,
+          "sourceEnd": 622,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Video call fun",
+          "markerStart": 622,
+          "sourceEnd": 763,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Saving the small bugs",
+          "markerStart": 763,
+          "sourceEnd": 860,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Musical statues",
+          "markerStart": 860,
+          "sourceEnd": 1053,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Space mission",
+          "markerStart": 1053,
+          "sourceEnd": 1228,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Playing in the dirt",
+          "markerStart": 1228,
+          "sourceEnd": 1345,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The mini Bluey experiment",
+          "markerStart": 1345,
+          "sourceEnd": 1514,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Chores and doubling",
+          "markerStart": 1514,
+          "sourceEnd": 1717,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Making breakfast",
+          "markerStart": 1717,
+          "sourceEnd": 1852,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Hiding from mom",
+          "markerStart": 1852,
+          "sourceEnd": 2043,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Building bedrooms",
+          "markerStart": 2043,
+          "sourceEnd": 2136,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Getting ready for bed",
+          "markerStart": 2136,
+          "sourceEnd": 2337,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Playing pizza shop",
+          "markerStart": 2337,
+          "sourceEnd": 2441,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The electric car",
+          "markerStart": 2441,
+          "sourceEnd": 2731,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Obstacle course race",
+          "markerStart": 2731,
+          "sourceEnd": 2969,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The granny mobile",
+          "markerStart": 2969,
+          "sourceEnd": 3334,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Haunted house hunt",
+          "markerStart": 3334,
+          "sourceEnd": 3569,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Transforming into horses",
+          "markerStart": 3569,
+          "sourceEnd": 3700,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The facey talk mishap",
+          "markerStart": 3700,
+          "sourceEnd": 4090,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-30": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 2,
+      "sourceVideoId": "GuwMGhFw99M",
+      "sourceTitle": "Show and Tell 🦀 | Brand New - Series 3 | Bluey",
+      "sourceDuration": 125,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Preparing for show and tell",
+          "markerStart": 0,
+          "sourceEnd": 39,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Lunchtime sauce debate",
+          "markerStart": 39,
+          "sourceEnd": 125,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-32": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "Czf4UFt57Fk",
+      "sourceTitle": "Story Time with Unicorse | Unicorse - Series 3 | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Starting the story",
+          "markerStart": 0,
+          "sourceEnd": 51,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The queen's indecision",
+          "markerStart": 51,
+          "sourceEnd": 75,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The prickle incident",
+          "markerStart": 75,
+          "sourceEnd": 96,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The kingdom's solution",
+          "markerStart": 96,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-33": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "RZ65LGgsvrI",
+      "sourceTitle": "Two Bluey's Are Better Than One | Mini Bluey - Series 3 | Bluey",
+      "sourceDuration": 130,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Introduction to Bowie",
+          "markerStart": 0,
+          "sourceEnd": 35,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Bowie's daily habits",
+          "markerStart": 35,
+          "sourceEnd": 66,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Helping with chores",
+          "markerStart": 66,
+          "sourceEnd": 114,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Bowie's cleaning style",
+          "markerStart": 114,
+          "sourceEnd": 130,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-34": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "qb33_PnPz8A",
+      "sourceTitle": "The Done Thing | Turtle Boy - Series 3 | Bluey",
+      "sourceDuration": 115,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The turtle's race",
+          "markerStart": 0,
+          "sourceEnd": 20,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Seeking shelter from rain",
+          "markerStart": 20,
+          "sourceEnd": 49,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Returning home safe",
           "markerStart": 49,
-          "source": "partial-heading-fallback",
-          "provenance": "unverified-remainder-boundary-after-confirmed-segments"
+          "sourceEnd": 72,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Hoping to take him home",
+          "markerStart": 72,
+          "sourceEnd": 115,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-35": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "mJi6mR_yo-I",
+      "sourceTitle": "That Was a Big One | Omelette - Series 3 | Bluey",
+      "sourceDuration": 123,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Preparing breakfast",
+          "markerStart": 0,
+          "sourceEnd": 21,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Cracking the eggs",
+          "markerStart": 21,
+          "sourceEnd": 60,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Urgency for breakfast",
+          "markerStart": 60,
+          "sourceEnd": 83,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Kitchen mishaps",
+          "markerStart": 83,
+          "sourceEnd": 123,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-37": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 5,
+      "sourceVideoId": "hP2Cuir0_FQ",
+      "sourceTitle": "Shake It Out | Musical Statues - Series 3 | Bluey",
+      "sourceDuration": 121,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Starting the game",
+          "markerStart": 0,
+          "sourceEnd": 20,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Music and dancing",
+          "markerStart": 20,
+          "sourceEnd": 60,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Dance off competition",
+          "markerStart": 60,
+          "sourceEnd": 75,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Radio song request",
+          "markerStart": 75,
+          "sourceEnd": 101,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Final dance break",
+          "markerStart": 101,
+          "sourceEnd": 121,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-39": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 5,
+      "sourceVideoId": "esE91SVXKUE",
+      "sourceTitle": "Wendy and Judo's Brand New Look! ✂️ 👀 | New Season 3 Clip - Dirt | Bluey",
+      "sourceDuration": 120,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Preparing for a change",
+          "markerStart": 0,
+          "sourceEnd": 27,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Cutting the hair",
+          "markerStart": 27,
+          "sourceEnd": 53,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "New style admiration",
+          "markerStart": 53,
+          "sourceEnd": 65,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Lawn and playtime",
+          "markerStart": 65,
+          "sourceEnd": 104,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Morning greetings",
+          "markerStart": 104,
+          "sourceEnd": 120,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-40": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "Dtyspn6fGI0",
+      "sourceTitle": "Grouchy Granny! | Granny Mobile - Series 3 | Bluey",
+      "sourceDuration": 113,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Deciding granny roles",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Selling the granny mobile",
+          "markerStart": 28,
+          "sourceEnd": 51,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Riding the mobile",
+          "markerStart": 51,
+          "sourceEnd": 77,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Renegotiating the price",
+          "markerStart": 77,
+          "sourceEnd": 113,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-41": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 5,
+      "sourceVideoId": "bv4Z_R7cOPk",
+      "sourceTitle": "Bluey's New Room | Bedroom - Series 3 | Bluey",
+      "sourceDuration": 123,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Bed setup",
+          "markerStart": 0,
+          "sourceEnd": 20,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Toy ownership dispute",
+          "markerStart": 20,
+          "sourceEnd": 47,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Sharing toys",
+          "markerStart": 47,
+          "sourceEnd": 62,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Playing sleep awake",
+          "markerStart": 62,
+          "sourceEnd": 90,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Bedtime routine",
+          "markerStart": 90,
+          "sourceEnd": 123,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-42": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "LsBvTX9AMO0",
+      "sourceTitle": "Prawns and Pom Pom Heads | Chest - Series 3 | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The knight and movements",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Introducing the rook",
+          "markerStart": 28,
+          "sourceEnd": 44,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Setting up the teams",
+          "markerStart": 44,
+          "sourceEnd": 71,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "King and queen rules",
+          "markerStart": 71,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-43": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "DRyDZBdNrzY",
+      "sourceTitle": "Aunt Brandy's Visit 🧡 | Season 3 Highlight - Onesies | Bluey",
+      "sourceDuration": 106,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Recalling a childhood dance",
+          "markerStart": 0,
+          "sourceEnd": 23,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Auntie Brandy visits",
+          "markerStart": 23,
+          "sourceEnd": 46,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Opening presents",
+          "markerStart": 46,
+          "sourceEnd": 92,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Something happens again",
+          "markerStart": 92,
+          "sourceEnd": 106,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-45": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 5,
+      "sourceVideoId": "8z2WihkDEHI",
+      "sourceTitle": "Stories 🌈 🐴 | NEW Bluey Full Episode 💙 | Bluey",
+      "sourceDuration": 417,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Indie's frustrated attempt",
+          "markerStart": 0,
+          "sourceEnd": 133,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Telling a better story",
+          "markerStart": 133,
+          "sourceEnd": 207,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Winton helps find answers",
+          "markerStart": 207,
+          "sourceEnd": 285,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Fixing the horse sculpture",
+          "markerStart": 285,
+          "sourceEnd": 350,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Success and a happy ending",
+          "markerStart": 350,
+          "sourceEnd": 417,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-48": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 3,
+      "sourceVideoId": "LabBwLEyhx0",
+      "sourceTitle": "Sheep-Dad | Sheepdog - Series 3 | Bluey",
+      "sourceDuration": 120,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The interruption",
+          "markerStart": 0,
+          "sourceEnd": 31,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Seeking mother's attention",
+          "markerStart": 31,
+          "sourceEnd": 68,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The runaway sheep",
+          "markerStart": 68,
+          "sourceEnd": 120,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-52": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 6,
+      "sourceVideoId": "aDRQbqcWC30",
+      "sourceTitle": "Can Bluey Draw the Perfect Picture? | Perfect - Series 3 | Bluey",
+      "sourceDuration": 126,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The drawing challenge",
+          "markerStart": 0,
+          "sourceEnd": 29,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Doubt in artistic skills",
+          "markerStart": 29,
+          "sourceEnd": 40,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Finding drawing materials",
+          "markerStart": 40,
+          "sourceEnd": 61,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Drawing a comfortable chair",
+          "markerStart": 61,
+          "sourceEnd": 81,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Dad relaxes in a chair",
+          "markerStart": 81,
+          "sourceEnd": 96,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Finishing the artwork",
+          "markerStart": 96,
+          "sourceEnd": 126,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-57": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 3,
+      "sourceVideoId": "R3toB8gv2Kw",
+      "sourceTitle": "The Flower Girls Save the Wedding! 💐 | BRAND NEW CLIP - Bluey: The Sign 🪧 | Bluey",
+      "sourceDuration": 127,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Meeting at the vending machine",
+          "markerStart": 0,
+          "sourceEnd": 27,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "A stuck lucky coin",
+          "markerStart": 27,
+          "sourceEnd": 57,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Attempting to retrieve the coin",
+          "markerStart": 57,
+          "sourceEnd": 127,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-58": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 9,
+      "sourceVideoId": "ypA8P1YeaIs",
+      "sourceTitle": "Best Moments of NEW Series 3 🤣 | Bluey",
+      "sourceDuration": 642,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Mermaids",
+          "markerStart": 0,
+          "sourceEnd": 65,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Humpty Dumpty",
+          "markerStart": 65,
+          "sourceEnd": 128,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Dad on TV",
+          "markerStart": 128,
+          "sourceEnd": 193,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Playroom",
+          "markerStart": 193,
+          "sourceEnd": 259,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Rusty",
+          "markerStart": 259,
+          "sourceEnd": 388,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Upset Angry",
+          "markerStart": 388,
+          "sourceEnd": 450,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The Pink Witch",
+          "markerStart": 450,
+          "sourceEnd": 510,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Leaf Bugs",
+          "markerStart": 510,
+          "sourceEnd": 575,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Show Tell",
+          "markerStart": 575,
+          "sourceEnd": 642,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-59": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "WKD4Mg3nbnY",
+      "sourceTitle": "Stickbird ☀️ | Brand New Season 3 Clip - Stickbird | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Identifying anger",
+          "markerStart": 0,
+          "sourceEnd": 31,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Preparing to let go",
+          "markerStart": 31,
+          "sourceEnd": 59,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Releasing the anger",
+          "markerStart": 59,
+          "sourceEnd": 80,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Feeling better and racing",
+          "markerStart": 80,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-60": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "sQ9QrOiW2aw",
+      "sourceTitle": "Wild Girls 🧹 | Brand New - Series 3 | Bluey",
+      "sourceDuration": 123,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "A lonely child",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Negotiating playtime",
+          "markerStart": 28,
+          "sourceEnd": 59,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The pink witch",
+          "markerStart": 59,
+          "sourceEnd": 80,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Saving the crops",
+          "markerStart": 80,
+          "sourceEnd": 123,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-62": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "BCv01uu2Ac8",
+      "sourceTitle": "Chocolate Milk and Cherry 🍫 🍒 💙 | Bluey Valentine's Day Clip 🥰 | Clip from Tradies | Bluey",
+      "sourceDuration": 118,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Morning greetings",
+          "markerStart": 0,
+          "sourceEnd": 22,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The missing tape measure",
+          "markerStart": 22,
+          "sourceEnd": 61,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Project reveal",
+          "markerStart": 61,
+          "sourceEnd": 85,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Final goodbyes",
+          "markerStart": 85,
+          "sourceEnd": 118,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-67": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 3,
+      "sourceVideoId": "DcCGgCFkpKQ",
+      "sourceTitle": "Dad Ignores Sat Nav! 🤣 😮 | Funny Bluey Moment - Show and Tell | Bluey",
+      "sourceDuration": 126,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Setting up the journey",
+          "markerStart": 0,
+          "sourceEnd": 37,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Ignoring navigation",
+          "markerStart": 37,
+          "sourceEnd": 88,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Following directions",
+          "markerStart": 88,
+          "sourceEnd": 126,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-68": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "Dy6wdDVd6gE",
+      "sourceTitle": "Olympia and Melinda's Spa Bath 🛁 💙 | I Love Bubbles! 🫧 | Bluey Season 3 Highlight - Relax | Bluey",
+      "sourceDuration": 121,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Spa bath relaxation",
+          "markerStart": 0,
+          "sourceEnd": 18,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Beach relaxation tips",
+          "markerStart": 18,
+          "sourceEnd": 39,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Learning to relax",
+          "markerStart": 39,
+          "sourceEnd": 65,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Fun at the beach",
+          "markerStart": 65,
+          "sourceEnd": 121,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-69": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "JTmE3xY-mBw",
+      "sourceTitle": "The Grannies Refuse to Leave 🏠 | BRAND NEW CLIP - Ghostbasket 👻🧺 | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Property showing interrupted",
+          "markerStart": 0,
+          "sourceEnd": 12,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Agent confronted by residents",
+          "markerStart": 12,
+          "sourceEnd": 53,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Kitchen tour and disruptions",
+          "markerStart": 53,
+          "sourceEnd": 89,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Potential buyer interested",
+          "markerStart": 89,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-71": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 5,
+      "sourceVideoId": "T4hCDwS0tV8",
+      "sourceTitle": "Watch Out for the Snapping Turtles! | Whale Watching - Series 3 | Bluey",
+      "sourceDuration": 125,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Buying the ticket",
+          "markerStart": 0,
+          "sourceEnd": 20,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Smooth sailing",
+          "markerStart": 20,
+          "sourceEnd": 29,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Searching for rough seas",
+          "markerStart": 29,
+          "sourceEnd": 56,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Finding rough seas",
+          "markerStart": 56,
+          "sourceEnd": 88,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Arrival at the whales",
+          "markerStart": 88,
+          "sourceEnd": 125,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-72": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "o6MtNdG6a-w",
+      "sourceTitle": "No More Kisses! | Smoochy Kiss - Series 3 | Bluey",
+      "sourceDuration": 135,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Finding a safe place",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Searching the house",
+          "markerStart": 28,
+          "sourceEnd": 52,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The risky bathroom trip",
+          "markerStart": 52,
+          "sourceEnd": 71,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Post-bathroom antics",
+          "markerStart": 71,
+          "sourceEnd": 135,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-74": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "3beXien8Oqw",
+      "sourceTitle": "Rusty Hits His Little Sister a Catch 🥰 🏏 💙 | Bluey Season 3 Highlight - Cricket ⭐️ | Bluey",
+      "sourceDuration": 127,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Dad's letter from abroad",
+          "markerStart": 0,
+          "sourceEnd": 12,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Lessons through cricket",
+          "markerStart": 12,
+          "sourceEnd": 51,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Intense backyard cricket",
+          "markerStart": 51,
+          "sourceEnd": 74,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The final wicket",
+          "markerStart": 74,
+          "sourceEnd": 127,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-75": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 3,
+      "sourceVideoId": "rrfagQ33mdw",
+      "sourceTitle": "Bluey Doesn't Know What to Eat! 😆 🍽️ 💙 | Season 3 Highlight ⭐️ | Bluey",
+      "sourceDuration": 73,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Dad cannot play",
+          "markerStart": 0,
+          "sourceEnd": 28,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Dinner dilemma",
+          "markerStart": 28,
+          "sourceEnd": 62,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Musical statues",
+          "markerStart": 62,
+          "sourceEnd": 73,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-78": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "zwPfZcCjS5w",
+      "sourceTitle": "Dad Tries to Teach a Life Lesson | Ragdoll - Series 3 | Bluey",
+      "sourceDuration": 123,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Starting the mission",
+          "markerStart": 0,
+          "sourceEnd": 25,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Slow progress and ice cream",
+          "markerStart": 25,
+          "sourceEnd": 51,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Overcoming physical struggle",
+          "markerStart": 51,
+          "sourceEnd": 85,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The long path ahead",
+          "markerStart": 85,
+          "sourceEnd": 123,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-79": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "5XekmnSHoHs",
+      "sourceTitle": "Two Grouchy Grannies! 👵 🤣 | New Season 3 Clip - Granny Mobile 💙 | Bluey",
+      "sourceDuration": 120,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "The grouchy granny",
+          "markerStart": 0,
+          "sourceEnd": 22,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Negotiating prices",
+          "markerStart": 22,
+          "sourceEnd": 36,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Footpath confrontation",
+          "markerStart": 36,
+          "sourceEnd": 65,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The scooter sale",
+          "markerStart": 65,
+          "sourceEnd": 120,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-80": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "-X3EN7KhoNA",
+      "sourceTitle": "Bingo's Crab Claw Show and Tell 🦀 🧡 | Bluey Season 3 Highlight ⭐️ | Bluey",
+      "sourceDuration": 114,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Getting lost",
+          "markerStart": 0,
+          "sourceEnd": 35,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Finding the surfboard",
+          "markerStart": 35,
+          "sourceEnd": 67,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Finding the crab claw",
+          "markerStart": 67,
+          "sourceEnd": 89,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Show and tell",
+          "markerStart": 89,
+          "sourceEnd": 114,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-81": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "l2gXoYBWAY4",
+      "sourceTitle": "Cheetah Bingo Surprises Bandit! 🐆 🤪 | Funny Moment from Onesies 💙 | Bluey",
+      "sourceDuration": 126,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Auntie Brandy visits",
+          "markerStart": 0,
+          "sourceEnd": 25,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Gifts and onesies",
+          "markerStart": 25,
+          "sourceEnd": 61,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Onesie problems",
+          "markerStart": 61,
+          "sourceEnd": 85,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Bingo's transformation",
+          "markerStart": 85,
+          "sourceEnd": 126,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-82": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "O60VVZQkRs4",
+      "sourceTitle": "Pavlova Cafe Cook-Off! 🥝 💙 | Bluey Pretends to be a Chef ⭐️ | Season 3 Highlight | Bluey",
+      "sourceDuration": 126,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Cafe rivalry",
+          "markerStart": 0,
+          "sourceEnd": 20,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Menu disputes",
+          "markerStart": 20,
+          "sourceEnd": 50,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Competition intensifies",
+          "markerStart": 50,
+          "sourceEnd": 75,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Order finalization",
+          "markerStart": 75,
+          "sourceEnd": 126,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-83": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "KZT1fTJqY2w",
+      "sourceTitle": "A Story Come to Life! 💭 🌈 | Bluey Season 3 Highlight - Stories ⭐️ | Bluey",
+      "sourceDuration": 124,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Indie's doubt",
+          "markerStart": 0,
+          "sourceEnd": 36,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Seeking inspiration",
+          "markerStart": 36,
+          "sourceEnd": 60,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Reviewing Old McDonald",
+          "markerStart": 60,
+          "sourceEnd": 103,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "A creative solution",
+          "markerStart": 103,
+          "sourceEnd": 124,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        }
+      ]
+    },
+    "video-85": {
+      "status": "youtube-metadata-verified",
+      "expectedChapterCount": 4,
+      "sourceVideoId": "7dWk3Zg5KMc",
+      "sourceTitle": "Winton Loves Being Silly! 🤪 | Funny Bluey Clip from Stories - Season 3 🌈 | Bluey",
+      "sourceDuration": 127,
+      "fetchedAt": "2026-10-06T20:47:13.584Z",
+      "chapters": [
+        {
+          "title": "Making beeswax animals",
+          "markerStart": 0,
+          "sourceEnd": 32,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "The horse looks like a cow",
+          "markerStart": 32,
+          "sourceEnd": 60,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Indie gives up",
+          "markerStart": 60,
+          "sourceEnd": 96,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
+        },
+        {
+          "title": "Changing the story",
+          "markerStart": 96,
+          "sourceEnd": 127,
+          "source": "youtube-chapter",
+          "provenance": "youtube-player-metadata-via-yt-dlp",
+          "coverage": "youtube-metadata-boundary"
         }
       ]
     }

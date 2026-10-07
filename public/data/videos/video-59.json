@@ -17,25 +17,78 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Stickbird ☀️ | Brand New Season 3 Clip - Stickbird | Bluey",
+      "title": "Identifying anger",
       "start": 0,
-      "end": 126,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 31,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Preparing to let go",
+      "start": 31,
+      "markerStart": 31,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 57,
+      "sceneIds": [
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Releasing the anger",
+      "start": 57,
+      "markerStart": 59,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 77,
+      "sceneIds": [
         "c0007",
         "c0008",
-        "c0009",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Feeling better and racing",
+      "start": 77,
+      "markerStart": 80,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 126,
+      "sceneIds": [
         "c0010",
         "c0011",
         "c0012",
@@ -312,8 +365,8 @@
       "id": "c0003",
       "title": "문단 3",
       "start": 18,
-      "end": 27,
-      "sentenceText": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears.",
+      "end": 30,
+      "sentenceText": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears. Okay.",
       "chapterId": "chapter-001",
       "paragraphIndex": 3,
       "selectable": true,
@@ -321,9 +374,9 @@
         {
           "id": "c0003",
           "start": 18,
-          "end": 27,
-          "text": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears.",
-          "originalText": "where it is and go get it h there's usually some in your belly or your neck and always remember to check your ears",
+          "end": 30,
+          "text": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears. Okay.",
+          "originalText": "where it is and go get it h there's usually some in your belly or your neck and always remember to check your ears okay",
           "originalCueRefs": [
             {
               "id": "c0008",
@@ -342,6 +395,12 @@
               "start": 24,
               "end": 27,
               "text": "and always remember to check your ears"
+            },
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 30,
+              "text": "okay"
             }
           ],
           "cleanedCueRefs": [
@@ -362,6 +421,12 @@
               "start": 24,
               "end": 27,
               "text": "and always remember to check your ears."
+            },
+            {
+              "id": "c0012",
+              "start": 27,
+              "end": 30,
+              "text": "Okay."
             }
           ],
           "sourceCueRefs": [
@@ -391,6 +456,15 @@
               "originalCueIds": [
                 "c0010"
               ]
+            },
+            {
+              "id": "c0011",
+              "start": 27,
+              "end": 30,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0011"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
@@ -407,11 +481,20 @@
         {
           "expressionId": "where",
           "cueId": "c0003",
-          "quote": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears.",
+          "quote": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears. Okay.",
           "start": 18,
-          "end": 27,
+          "end": 30,
           "matchStart": 14,
           "matchEnd": 19
+        },
+        {
+          "expressionId": "okay",
+          "cueId": "c0003",
+          "quote": "You just feel where it is, and go get it. There's usually some in your belly or your neck, and always remember to check your ears. Okay.",
+          "start": 18,
+          "end": 30,
+          "matchStart": 131,
+          "matchEnd": 135
         }
       ],
       "qualityFlags": [
@@ -421,27 +504,21 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
-      "start": 27,
+      "title": "문단 1",
+      "start": 32,
       "end": 37,
-      "sentenceText": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "sentenceText": "Now you've got all that upset and angry in your hands. What do I do with it?",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0004",
-          "start": 27,
+          "start": 32,
           "end": 37,
-          "text": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
-          "originalText": "okay now you've got all that upset and angry in your hands what do I do with it do",
+          "text": "Now you've got all that upset and angry in your hands. What do I do with it?",
+          "originalText": "now you've got all that upset and angry in your hands what do I do with it do",
           "originalCueRefs": [
-            {
-              "id": "c0011",
-              "start": 27,
-              "end": 30,
-              "text": "okay"
-            },
             {
               "id": "c0012",
               "start": 32,
@@ -457,12 +534,6 @@
           ],
           "cleanedCueRefs": [
             {
-              "id": "c0012",
-              "start": 27,
-              "end": 30,
-              "text": "Okay."
-            },
-            {
               "id": "c0013",
               "start": 32,
               "end": 34,
@@ -476,15 +547,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0011",
-              "start": 27,
-              "end": 30,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0011"
-              ]
-            },
             {
               "id": "c0012",
               "start": 32,
@@ -506,8 +568,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -516,22 +578,13 @@
       ],
       "targets": [
         {
-          "expressionId": "okay",
-          "cueId": "c0004",
-          "quote": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
-          "start": 27,
-          "end": 37,
-          "matchStart": 0,
-          "matchEnd": 4
-        },
-        {
           "expressionId": "what",
           "cueId": "c0004",
-          "quote": "Okay. Now you've got all that upset and angry in your hands. What do I do with it?",
-          "start": 27,
+          "quote": "Now you've got all that upset and angry in your hands. What do I do with it?",
+          "start": 32,
           "end": 37,
-          "matchStart": 61,
-          "matchEnd": 65
+          "matchStart": 55,
+          "matchEnd": 59
         }
       ],
       "qualityFlags": [
@@ -541,12 +594,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 37,
       "end": 46,
       "sentenceText": "Do you want to keep it? No, I don't want it. Well, what do you do with something you don't want anymore? Uh, give it to you?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -638,8 +691,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -691,20 +744,20 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 3",
       "start": 46,
-      "end": 54,
-      "sentenceText": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "end": 57,
+      "sentenceText": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away. Oh. Uh-uh, like Mum said,",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
           "start": 46,
-          "end": 54,
-          "text": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
-          "originalText": "don't want it yeah me neither then what do I do with it you throw it away",
+          "end": 57,
+          "text": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away. Oh. Uh-uh, like Mum said,",
+          "originalText": "don't want it yeah me neither then what do I do with it you throw it away oh uh-uh like Mom said you need to throw",
           "originalCueRefs": [
             {
               "id": "c0017",
@@ -717,6 +770,12 @@
               "start": 50,
               "end": 54,
               "text": "do I do with it you throw it away"
+            },
+            {
+              "id": "c0019",
+              "start": 54,
+              "end": 57,
+              "text": "oh uh-uh like Mom said you need to throw"
             }
           ],
           "cleanedCueRefs": [
@@ -743,6 +802,18 @@
               "start": 52,
               "end": 54,
               "text": "You throw it away."
+            },
+            {
+              "id": "c0024",
+              "start": 54,
+              "end": 55,
+              "text": "Oh."
+            },
+            {
+              "id": "c0025",
+              "start": 55,
+              "end": 57,
+              "text": "Uh-uh, like Mum said,"
             }
           ],
           "sourceCueRefs": [
@@ -763,12 +834,21 @@
               "originalCueIds": [
                 "c0018"
               ]
+            },
+            {
+              "id": "c0019",
+              "start": 54,
+              "end": 57,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -779,27 +859,45 @@
         {
           "expressionId": "want",
           "cueId": "c0006",
-          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away. Oh. Uh-uh, like Mum said,",
           "start": 46,
-          "end": 54,
+          "end": 57,
           "matchStart": 8,
           "matchEnd": 12
         },
         {
           "expressionId": "what",
           "cueId": "c0006",
-          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away. Oh. Uh-uh, like Mum said,",
           "start": 46,
-          "end": 54,
+          "end": 57,
           "matchStart": 40,
           "matchEnd": 44
         },
         {
+          "expressionId": "like",
+          "cueId": "c0006",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away. Oh. Uh-uh, like Mum said,",
+          "start": 46,
+          "end": 57,
+          "matchStart": 92,
+          "matchEnd": 96
+        },
+        {
+          "expressionId": "mum",
+          "cueId": "c0006",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away. Oh. Uh-uh, like Mum said,",
+          "start": 46,
+          "end": 57,
+          "matchStart": 97,
+          "matchEnd": 100
+        },
+        {
           "expressionId": "dont",
           "cueId": "c0006",
-          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away.",
+          "quote": "I don't want it! Yeah, me neither. Then what do I do with it? You throw it away. Oh. Uh-uh, like Mum said,",
           "start": 46,
-          "end": 54,
+          "end": 57,
           "matchStart": 2,
           "matchEnd": 7
         }
@@ -811,27 +909,21 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
-      "start": 54,
+      "title": "문단 1",
+      "start": 57,
       "end": 63,
-      "sentenceText": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "sentenceText": "you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0007",
-          "start": 54,
+          "start": 57,
           "end": 63,
-          "text": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
-          "originalText": "oh uh-uh like Mom said you need to throw this thing really far St sideways like on a skateboard bend your knees yeah get",
+          "text": "you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+          "originalText": "this thing really far St sideways like on a skateboard bend your knees yeah get",
           "originalCueRefs": [
-            {
-              "id": "c0019",
-              "start": 54,
-              "end": 57,
-              "text": "oh uh-uh like Mom said you need to throw"
-            },
             {
               "id": "c0020",
               "start": 57,
@@ -846,18 +938,6 @@
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0024",
-              "start": 54,
-              "end": 55,
-              "text": "Oh."
-            },
-            {
-              "id": "c0025",
-              "start": 55,
-              "end": 57,
-              "text": "Uh-uh, like Mum said,"
-            },
             {
               "id": "c0026",
               "start": 57,
@@ -879,15 +959,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0019",
-              "start": 54,
-              "end": 57,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0019"
-              ]
-            },
-            {
               "id": "c0020",
               "start": 57,
               "end": 60,
@@ -908,8 +979,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -918,31 +989,22 @@
       ],
       "targets": [
         {
-          "expressionId": "like",
-          "cueId": "c0007",
-          "quote": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
-          "start": 54,
-          "end": 63,
-          "matchStart": 11,
-          "matchEnd": 15
-        },
-        {
-          "expressionId": "mum",
-          "cueId": "c0007",
-          "quote": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
-          "start": 54,
-          "end": 63,
-          "matchStart": 16,
-          "matchEnd": 19
-        },
-        {
           "expressionId": "need",
           "cueId": "c0007",
-          "quote": "Oh. Uh-uh, like Mum said, you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
-          "start": 54,
+          "quote": "you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+          "start": 57,
           "end": 63,
-          "matchStart": 30,
-          "matchEnd": 34
+          "matchStart": 4,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "like",
+          "cueId": "c0007",
+          "quote": "you need to throw this thing really far, sideways, like on a skateboard. Bend your knees, yeah, get comfy.",
+          "start": 57,
+          "end": 63,
+          "matchStart": 51,
+          "matchEnd": 55
         }
       ],
       "qualityFlags": [
@@ -952,12 +1014,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 2",
       "start": 63,
       "end": 68,
       "sentenceText": "That's good, and with this arm... and whoa, it's going all the way out to sea!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1001,8 +1063,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1025,20 +1087,20 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 3",
       "start": 68,
-      "end": 75,
-      "sentenceText": "Look for the splash! Look for the splash! There! Did you see it?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "end": 77,
+      "sentenceText": "Look for the splash! Look for the splash! There! Did you see it? Yes! It was a",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0009",
           "start": 68,
-          "end": 75,
-          "text": "Look for the splash! Look for the splash! There! Did you see it?",
-          "originalText": "and wo it's going all the way out to sea look for the splash look for the splash",
+          "end": 77,
+          "text": "Look for the splash! Look for the splash! There! Did you see it? Yes! It was a",
+          "originalText": "and wo it's going all the way out to sea look for the splash look for the splash there did you see it yes it was a",
           "originalCueRefs": [
             {
               "id": "c0023",
@@ -1051,6 +1113,12 @@
               "start": 72,
               "end": 75,
               "text": "look for the splash look for the splash"
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 77,
+              "text": "there did you see it yes it was a"
             }
           ],
           "cleanedCueRefs": [
@@ -1065,6 +1133,12 @@
               "start": 72,
               "end": 75,
               "text": "There! Did you see it?"
+            },
+            {
+              "id": "c0033",
+              "start": 75,
+              "end": 77,
+              "text": "Yes! It was a"
             }
           ],
           "sourceCueRefs": [
@@ -1085,12 +1159,21 @@
               "originalCueIds": [
                 "c0024"
               ]
+            },
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 77,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1101,20 +1184,29 @@
         {
           "expressionId": "look",
           "cueId": "c0009",
-          "quote": "Look for the splash! Look for the splash! There! Did you see it?",
+          "quote": "Look for the splash! Look for the splash! There! Did you see it? Yes! It was a",
           "start": 68,
-          "end": 75,
+          "end": 77,
           "matchStart": 0,
           "matchEnd": 4
         },
         {
           "expressionId": "see",
           "cueId": "c0009",
-          "quote": "Look for the splash! Look for the splash! There! Did you see it?",
+          "quote": "Look for the splash! Look for the splash! There! Did you see it? Yes! It was a",
           "start": 68,
-          "end": 75,
+          "end": 77,
           "matchStart": 57,
           "matchEnd": 60
+        },
+        {
+          "expressionId": "yes",
+          "cueId": "c0009",
+          "quote": "Look for the splash! Look for the splash! There! Did you see it? Yes! It was a",
+          "start": 68,
+          "end": 77,
+          "matchStart": 65,
+          "matchEnd": 68
         }
       ],
       "qualityFlags": [
@@ -1124,41 +1216,35 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
-      "start": 75,
-      "end": 81,
-      "sentenceText": "Yes! It was a million miles away! Good throw!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "title": "문단 1",
+      "start": 77,
+      "end": 84,
+      "sentenceText": "million miles away! Good throw! Yeah, good one, Bingo. Thanks!",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
-          "start": 75,
-          "end": 81,
-          "text": "Yes! It was a million miles away! Good throw!",
-          "originalText": "there did you see it yes it was a Million Miles Away good throw yeah good",
+          "start": 77,
+          "end": 84,
+          "text": "million miles away! Good throw! Yeah, good one, Bingo. Thanks!",
+          "originalText": "Million Miles Away good throw yeah good one Bingo thanks so how do you",
           "originalCueRefs": [
-            {
-              "id": "c0025",
-              "start": 75,
-              "end": 77,
-              "text": "there did you see it yes it was a"
-            },
             {
               "id": "c0026",
               "start": 77,
               "end": 81,
               "text": "Million Miles Away good throw yeah good"
+            },
+            {
+              "id": "c0027",
+              "start": 81,
+              "end": 84,
+              "text": "one Bingo thanks so how do you"
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0033",
-              "start": 75,
-              "end": 77,
-              "text": "Yes! It was a"
-            },
             {
               "id": "c0034",
               "start": 77,
@@ -1170,94 +1256,7 @@
               "start": 79,
               "end": 81,
               "text": "Good throw!"
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0025",
-              "start": 75,
-              "end": 77,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0025"
-              ]
             },
-            {
-              "id": "c0026",
-              "start": 77,
-              "end": 81,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0026"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "yes",
-          "cueId": "c0010",
-          "quote": "Yes! It was a million miles away! Good throw!",
-          "start": 75,
-          "end": 81,
-          "matchStart": 0,
-          "matchEnd": 3
-        },
-        {
-          "expressionId": "good",
-          "cueId": "c0010",
-          "quote": "Yes! It was a million miles away! Good throw!",
-          "start": 75,
-          "end": 81,
-          "matchStart": 34,
-          "matchEnd": 38
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0011",
-      "title": "문단 11",
-      "start": 81,
-      "end": 89,
-      "sentenceText": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0011",
-          "start": 81,
-          "end": 89,
-          "text": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
-          "originalText": "one Bingo thanks so how do you feel good yay thanks Lou yeah thanks Lou",
-          "originalCueRefs": [
-            {
-              "id": "c0027",
-              "start": 81,
-              "end": 84,
-              "text": "one Bingo thanks so how do you"
-            },
-            {
-              "id": "c0028",
-              "start": 84,
-              "end": 89,
-              "text": "feel good yay thanks Lou yeah thanks Lou"
-            }
-          ],
-          "cleanedCueRefs": [
             {
               "id": "c0036",
               "start": 81,
@@ -1269,7 +1268,79 @@
               "start": 83,
               "end": 84,
               "text": "Thanks!"
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 81,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0026"
+              ]
             },
+            {
+              "id": "c0027",
+              "start": 81,
+              "end": 84,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0010",
+          "quote": "million miles away! Good throw! Yeah, good one, Bingo. Thanks!",
+          "start": 77,
+          "end": 84,
+          "matchStart": 20,
+          "matchEnd": 24
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 2",
+      "start": 84,
+      "end": 89,
+      "sentenceText": "So, how do you feel? Good! Yay! Thanks, Lou.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 84,
+          "end": 89,
+          "text": "So, how do you feel? Good! Yay! Thanks, Lou.",
+          "originalText": "feel good yay thanks Lou yeah thanks Lou",
+          "originalCueRefs": [
+            {
+              "id": "c0028",
+              "start": 84,
+              "end": 89,
+              "text": "feel good yay thanks Lou yeah thanks Lou"
+            }
+          ],
+          "cleanedCueRefs": [
             {
               "id": "c0038",
               "start": 84,
@@ -1291,15 +1362,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0027",
-              "start": 81,
-              "end": 84,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0027"
-              ]
-            },
-            {
               "id": "c0028",
               "start": 84,
               "end": 89,
@@ -1310,48 +1372,46 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "good",
-          "cueId": "c0011",
-          "quote": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
-          "start": 81,
-          "end": 89,
-          "matchStart": 6,
-          "matchEnd": 10
-        },
-        {
           "expressionId": "how",
           "cueId": "c0011",
-          "quote": "Yeah, good one, Bingo. Thanks! So, how do you feel? Good! Yay! Thanks, Lou.",
-          "start": 81,
+          "quote": "So, how do you feel? Good! Yay! Thanks, Lou.",
+          "start": 84,
           "end": 89,
-          "matchStart": 35,
-          "matchEnd": 38
+          "matchStart": 4,
+          "matchEnd": 7
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0011",
+          "quote": "So, how do you feel? Good! Yay! Thanks, Lou.",
+          "start": 84,
+          "end": 89,
+          "matchStart": 21,
+          "matchEnd": 25
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "corrected-text-exact-coverage"
       ]
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 3",
       "start": 89,
       "end": 95,
       "sentenceText": "Yeah, thanks, Lou. Thanks, Mia, she taught me it. Oh, and Mum, for the far bit. Can we have a race to Mum?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1422,8 +1482,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1448,12 +1508,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 4",
       "start": 95,
       "end": 103,
       "sentenceText": "Yeah! Dad, do you want to race too? Yeah, okay, I'll give you a head start. Okay, ready... go! I'm winning!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1545,8 +1605,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1598,12 +1658,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 5",
       "start": 120,
       "end": 126,
       "sentenceText": "Here I come!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1641,8 +1701,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]

@@ -21,6 +21,7 @@
       <button class="nav-button" data-route="review">오늘의 복습 <span id="review-count" class="count-badge">0</span></button>
       <button class="nav-button" data-route="session">60분 안내</button>
       <button class="nav-button" id="account-button">부모 계정</button>
+      <button class="nav-button" id="settings-button">음성 설정</button>
     </nav>
   </header>
 
@@ -54,7 +55,44 @@
             <label><input type="radio" name="duration" value="short"> 10분 이하</label>
             <label><input type="radio" name="duration" value="long"> 모음·긴 영상</label>
           </fieldset>
+          <label>학습 주제<select id="topic-filter"><option value="">전체 주제</option></select></label>
+          <label>정렬<select id="video-sort"><option value="title">제목 순</option><option value="duration">짧은 영상 순</option><option value="createdAt">최근 추가 순</option></select></label>
         </div>
+        <details class="library-editor"><summary>내 영상 · 채널 추가</summary>
+          <form id="video-request-form">
+            <h2>주소만 보내고 영상 준비하기</h2>
+            <p>Codex 채팅에 YouTube 주소나 영상 목록만 보내 주세요. 제목·길이·대본·챕터는 Codex가 원본을 확인해 준비해요.</p>
+            <label>추가할 영상 · 채널 · 재생목록<textarea name="sources" rows="5" required maxlength="60000" placeholder="https://www.youtube.com/watch?v=…&#10;https://www.youtube.com/@TED"></textarea></label>
+            <label>학습 주제 (선택)<input type="text" name="topic" maxlength="80" placeholder="예: 시간 관리, 과학, 일상 회화"></label>
+            <button class="primary-button" type="submit">Codex에 전달할 목록 만들기</button>
+            <p id="video-request-feedback" class="helper" role="status"></p>
+            <div id="video-request-result" hidden>
+              <label>전달할 내용<textarea id="video-request-output" rows="8" readonly></textarea></label>
+              <div class="request-actions"><button id="copy-video-request" class="secondary-button" type="button">전달할 내용 복사</button><button id="download-video-request" class="secondary-button" type="button">목록 파일 다운로드</button></div>
+              <p class="helper">복사한 내용이나 내려받은 파일을 Codex 채팅에 보내 주세요. 이 화면에서 Codex로 자동 전송되지는 않아요. 채널·재생목록은 영상 후보를 먼저 확인한 뒤 골라서 추가해요.</p>
+            </div>
+          </form>
+          <details id="manual-library-editor"><summary>대본이 준비되어 있다면 직접 추가하기</summary>
+          <form id="add-video-form">
+            <h2>준비된 대본으로 바로 공부하기</h2>
+            <label>영상 주소<input name="url" type="url" required placeholder="https://www.youtube.com/watch?v=…"></label>
+            <label>제목<input name="title" maxlength="180" required></label>
+            <label>학습 주제<input name="topic" maxlength="80" placeholder="예: 일상 회화, 과학, 여행"></label>
+            <label>길이 (초)<input name="duration" type="number" min="1" max="86400" required></label>
+            <label>챕터 목차<textarea name="chapters" rows="3" placeholder="0:00 Introduction&#10;2:10 A new idea"></textarea></label>
+            <label>시간별 영어 대본<textarea name="transcript" rows="5" required placeholder="0:00 Hello everyone.&#10;0:05 Today we will learn something new."></textarea></label>
+            <p class="helper">원본의 목차와 영어 대본을 붙여 넣으면 구간별로 공부할 수 있어요. 내 계정의 영상 목록에 저장돼요.</p>
+            <button class="primary-button" type="submit">내 영상 저장</button><p class="helper" id="library-feedback" role="status"></p>
+          </form>
+          <form id="add-channel-form"><h2>좋아하는 채널</h2>
+            <label>채널 주소<input name="url" type="url" required placeholder="https://www.youtube.com/@TED"></label>
+            <label>채널 이름<input name="title" maxlength="180" required></label>
+            <label>학습 주제<input name="topic" maxlength="80"></label>
+            <button type="submit">채널 저장</button>
+          </form>
+          <div id="my-channels" class="my-channels"></div>
+          </details>
+        </details>
         <div class="catalog-summary"><strong id="catalog-count">0개</strong><span> · 준비된 대본을 자동 조립한 자료</span></div>
         <div id="video-grid" class="video-grid" aria-live="polite"></div>
         <div id="catalog-empty" class="empty-state" hidden>검색 조건에 맞는 영상이 없어요.</div>
@@ -83,21 +121,23 @@
           <div class="player-controls" aria-label="재생 설정">
             <button id="play-scene-button">구간 처음부터</button>
             <button id="pause-button">일시 정지</button>
+            <button id="enlarge-video" aria-pressed="false">영상 확대</button>
             <button id="play-target-button">현재 대화 듣기</button>
             <label><input id="loop-toggle" type="checkbox" checked> 반복</label>
             <label>속도
               <select id="rate-select">
-                <option value="0.25">0.25×</option>
                 <option value="0.5">0.5×</option>
-                <option value="0.75">0.75×</option>
+                <option value="0.6">0.6×</option>
+                <option value="0.7">0.7×</option>
+                <option value="0.8">0.8×</option>
+                <option value="0.9">0.9×</option>
                 <option value="1" selected>1×</option>
-                <option value="1.25">1.25×</option>
-                <option value="1.5">1.5×</option>
-                <option value="1.75">1.75×</option>
-                <option value="2">2×</option>
+                <option value="1.1">1.1×</option>
+                <option value="1.2">1.2×</option>
               </select>
             </label>
           </div>
+          <p id="rate-help" class="helper">0.5~1.2× 중 YouTube에서 지원하는 속도를 사용할 수 있어요. 재생 후 지원 여부가 표시돼요.</p>
           <p id="player-status" class="helper" role="status" aria-live="polite">앱이 만든 자막은 듣기 단계에서 표시하지 않습니다. YouTube 자체 CC는 플레이어에서 꺼 주세요.</p>
           <a id="youtube-fallback" class="source-link" target="_blank" rel="noopener">YouTube에서 원본 구간 열기 ↗</a>
 
@@ -108,6 +148,7 @@
         </section>
 
         <section class="practice-column" aria-label="단계별 학습">
+          <button id="chapter-return" class="text-button chapter-return">← Chapter 전체 다시 보기</button>
           <ol id="stage-nav" class="stage-nav" aria-label="학습 단계">
             <li><button data-stage="listen" aria-current="step"><span>1</span>듣기</button></li>
             <li><button data-stage="dictation"><span>2</span>받아쓰기</button></li>
@@ -175,9 +216,21 @@
     </section>
   </main>
 
+  <dialog id="settings-dialog" class="dialog" aria-labelledby="settings-title">
+    <form method="dialog" class="dialog-close-row"><button aria-label="음성 설정 닫기">×</button></form>
+    <h2 id="settings-title">영어 목소리 설정</h2>
+    <div id="voice-settings-content"></div>
+  </dialog>
+
   <dialog id="account-dialog" class="dialog account-dialog">
     <form method="dialog" class="dialog-close-row"><button aria-label="닫기">×</button></form>
     <div id="account-content"></div>
+    <details>
+      <summary>AI 뜻풀이 사용량</summary>
+      <p class="helper">앱 전체 기준 · America/New_York · API 키당 하루 1,000,000 토큰</p>
+      <button id="ai-usage-button" type="button">오늘 사용량 확인</button>
+      <div id="ai-usage-output" class="source-details" role="status" aria-live="polite"></div>
+    </details>
   </dialog>
 
   <dialog id="info-dialog" class="dialog">

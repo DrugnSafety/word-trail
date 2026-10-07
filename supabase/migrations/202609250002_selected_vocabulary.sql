@@ -94,6 +94,10 @@ begin
        or char_length(v_word->>'meaningKo') > 300) then
       raise exception 'invalid Korean meaning' using errcode = '22023';
     end if;
+    if v_word ? 'sourceTerm' and (jsonb_typeof(v_word->'sourceTerm') is distinct from 'string'
+       or char_length(v_word->>'sourceTerm') > 100) then
+      raise exception 'invalid source term' using errcode = '22023';
+    end if;
     if v_word ? 'lastPracticedAt' and (jsonb_typeof(v_word->'lastPracticedAt') is distinct from 'string'
        or char_length(v_word->>'lastPracticedAt') > 40
        or (v_word->>'lastPracticedAt') !~ '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\.[0-9]{1,6})?(Z|[+-][0-9]{2}:[0-9]{2})$') then
@@ -165,4 +169,3 @@ end $$;
 revoke execute on function public.guard_dictation_write() from public, anon, authenticated;
 
 commit;
-

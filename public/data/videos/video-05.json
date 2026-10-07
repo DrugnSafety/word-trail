@@ -17,26 +17,79 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Relax 🛁 | Brand New - Series 3 | Bluey",
+      "title": "Arrival and room check",
       "start": 0,
-      "end": 124,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 28,
       "sceneIds": [
         "c0001",
         "c0002",
         "c0003",
-        "c0004",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Imaginary games",
+      "start": 28,
+      "markerStart": 28,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 63,
+      "sceneIds": [
         "c0005",
         "c0006",
         "c0007",
         "c0008",
-        "c0009",
-        "c0010",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Preparing for the beach",
+      "start": 63,
+      "markerStart": 64,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 72,
+      "sceneIds": [
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Exploring the bathroom",
+      "start": 72,
+      "markerStart": 76,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 4,
+      "end": 124,
+      "sceneIds": [
         "c0011",
         "c0012",
         "c0013",
@@ -526,12 +579,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 1",
       "start": 28,
       "end": 35,
       "sentenceText": "Coat hangers! Are they all ours? Yeah! Wow!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -581,8 +634,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -595,12 +648,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 2",
       "start": 35,
       "end": 41,
       "sentenceText": "Here, wait, I'll stand on this. What is that? I don't know. Let's pretend it's an oven.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -671,8 +724,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -742,12 +795,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 3",
       "start": 41,
       "end": 50,
       "sentenceText": "Okay, and we can be mermaids. Mermaid waiter, may I have a pie, please? Oh, yes. I'll just cook it.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -812,8 +865,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -856,12 +909,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 4",
       "start": 50,
       "end": 55,
       "sentenceText": "It will be ready soon, Mermaid.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -899,8 +952,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -923,20 +976,20 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 5",
       "start": 55,
-      "end": 61,
-      "sentenceText": "Thank you! Ready, girls? Bing! Ready!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "end": 63,
+      "sentenceText": "Thank you! Ready, girls? Bing! Ready! No, I mean, are you ready to go down to the beach?",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
           "id": "c0009",
           "start": 55,
-          "end": 61,
-          "text": "Thank you! Ready, girls? Bing! Ready!",
-          "originalText": "it it will be ready soon mermaid thank you ready girls",
+          "end": 63,
+          "text": "Thank you! Ready, girls? Bing! Ready! No, I mean, are you ready to go down to the beach?",
+          "originalText": "it it will be ready soon mermaid thank you ready girls ready no I mean are you ready to go down",
           "originalCueRefs": [
             {
               "id": "c0016",
@@ -949,6 +1002,12 @@
               "start": 58,
               "end": 61,
               "text": "you ready girls"
+            },
+            {
+              "id": "c0018",
+              "start": 61,
+              "end": 63,
+              "text": "ready no I mean are you ready to go down"
             }
           ],
           "cleanedCueRefs": [
@@ -969,6 +1028,12 @@
               "start": 59,
               "end": 61,
               "text": "Bing! Ready!"
+            },
+            {
+              "id": "c0033",
+              "start": 61,
+              "end": 63,
+              "text": "No, I mean, are you ready to go down to the beach?"
             }
           ],
           "sourceCueRefs": [
@@ -989,12 +1054,21 @@
               "originalCueIds": [
                 "c0017"
               ]
+            },
+            {
+              "id": "c0018",
+              "start": 61,
+              "end": 63,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1005,20 +1079,29 @@
         {
           "expressionId": "thank-you",
           "cueId": "c0009",
-          "quote": "Thank you! Ready, girls? Bing! Ready!",
+          "quote": "Thank you! Ready, girls? Bing! Ready! No, I mean, are you ready to go down to the beach?",
           "start": 55,
-          "end": 61,
+          "end": 63,
           "matchStart": 0,
           "matchEnd": 9
         },
         {
           "expressionId": "ready",
           "cueId": "c0009",
-          "quote": "Thank you! Ready, girls? Bing! Ready!",
+          "quote": "Thank you! Ready, girls? Bing! Ready! No, I mean, are you ready to go down to the beach?",
           "start": 55,
-          "end": 61,
+          "end": 63,
           "matchStart": 11,
           "matchEnd": 16
+        },
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "Thank you! Ready, girls? Bing! Ready! No, I mean, are you ready to go down to the beach?",
+          "start": 55,
+          "end": 63,
+          "matchStart": 38,
+          "matchEnd": 40
         }
       ],
       "qualityFlags": [
@@ -1028,27 +1111,21 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
-      "start": 61,
-      "end": 71,
-      "sentenceText": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "title": "문단 1",
+      "start": 63,
+      "end": 72,
+      "sentenceText": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
-          "start": 61,
-          "end": 71,
-          "text": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "originalText": "ready no I mean are you ready to go down to the beach have you sunscreened oh no oh come on the sunscreen's in the bathroom let's go okay Mom I want to",
+          "start": 63,
+          "end": 72,
+          "text": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "originalText": "to the beach have you sunscreened oh no oh come on the sunscreen's in the bathroom let's go okay Mom I want to start",
           "originalCueRefs": [
-            {
-              "id": "c0018",
-              "start": 61,
-              "end": 63,
-              "text": "ready no I mean are you ready to go down"
-            },
             {
               "id": "c0019",
               "start": 63,
@@ -1066,15 +1143,15 @@
               "start": 68,
               "end": 71,
               "text": "bathroom let's go okay Mom I want to"
+            },
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 72,
+              "text": "start"
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0033",
-              "start": 61,
-              "end": 63,
-              "text": "No, I mean, are you ready to go down to the beach?"
-            },
             {
               "id": "c0037",
               "start": 68,
@@ -1086,18 +1163,15 @@
               "start": 69,
               "end": 71,
               "text": "Okay, Mum."
+            },
+            {
+              "id": "c0039",
+              "start": 71,
+              "end": 72,
+              "text": "I want to start relaxing."
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0018",
-              "start": 61,
-              "end": 63,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0018"
-              ]
-            },
             {
               "id": "c0019",
               "start": 63,
@@ -1124,15 +1198,24 @@
               "originalCueIds": [
                 "c0021"
               ]
+            },
+            {
+              "id": "c0022",
+              "start": 71,
+              "end": 72,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
+            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
@@ -1141,96 +1224,90 @@
         {
           "expressionId": "lets-go",
           "cueId": "c0010",
-          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "start": 61,
-          "end": 71,
-          "matchStart": 125,
-          "matchEnd": 133
+          "quote": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 74,
+          "matchEnd": 82
         },
         {
           "expressionId": "come-on",
           "cueId": "c0010",
-          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "start": 61,
-          "end": 71,
-          "matchStart": 94,
-          "matchEnd": 101
+          "quote": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 43,
+          "matchEnd": 50
         },
         {
           "expressionId": "no",
           "cueId": "c0010",
-          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "start": 61,
-          "end": 71,
-          "matchStart": 0,
-          "matchEnd": 2
-        },
-        {
-          "expressionId": "ready",
-          "cueId": "c0010",
-          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "start": 61,
-          "end": 71,
-          "matchStart": 20,
-          "matchEnd": 25
+          "quote": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 37,
+          "matchEnd": 39
         },
         {
           "expressionId": "lets",
           "cueId": "c0010",
-          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "start": 61,
-          "end": 71,
-          "matchStart": 125,
-          "matchEnd": 130
+          "quote": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 74,
+          "matchEnd": 79
         },
         {
           "expressionId": "okay",
           "cueId": "c0010",
-          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "start": 61,
-          "end": 71,
-          "matchStart": 135,
-          "matchEnd": 139
+          "quote": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 84,
+          "matchEnd": 88
         },
         {
           "expressionId": "mum",
           "cueId": "c0010",
-          "quote": "No, I mean, are you ready to go down to the beach? to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum.",
-          "start": 61,
-          "end": 71,
-          "matchStart": 141,
-          "matchEnd": 144
+          "quote": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 90,
+          "matchEnd": 93
+        },
+        {
+          "expressionId": "want",
+          "cueId": "c0010",
+          "quote": "to the beach have you sunscreened oh no oh come on the sunscreen's in the Let's go. Okay, Mum. I want to start relaxing.",
+          "start": 63,
+          "end": 72,
+          "matchStart": 97,
+          "matchEnd": 101
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
+        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0011",
-      "title": "문단 11",
-      "start": 71,
+      "title": "문단 1",
+      "start": 72,
       "end": 77,
-      "sentenceText": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "sentenceText": "Oh, wow. Bathtub! Whoa, Bingo, what's this?",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0011",
-          "start": 71,
+          "start": 72,
           "end": 77,
-          "text": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
-          "originalText": "start relaxing oh wow btub wo Bingo what's",
+          "text": "Oh, wow. Bathtub! Whoa, Bingo, what's this?",
+          "originalText": "relaxing oh wow btub wo Bingo what's",
           "originalCueRefs": [
-            {
-              "id": "c0022",
-              "start": 71,
-              "end": 72,
-              "text": "start"
-            },
             {
               "id": "c0023",
               "start": 72,
@@ -1239,12 +1316,6 @@
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0039",
-              "start": 71,
-              "end": 72,
-              "text": "I want to start relaxing."
-            },
             {
               "id": "c0040",
               "start": 72,
@@ -1260,15 +1331,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0022",
-              "start": 71,
-              "end": 72,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0022"
-              ]
-            },
-            {
               "id": "c0023",
               "start": 72,
               "end": 77,
@@ -1279,48 +1341,37 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "want",
-          "cueId": "c0011",
-          "quote": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
-          "start": 71,
-          "end": 77,
-          "matchStart": 2,
-          "matchEnd": 6
-        },
-        {
           "expressionId": "what",
           "cueId": "c0011",
-          "quote": "I want to start relaxing. Oh, wow. Bathtub! Whoa, Bingo, what's this?",
-          "start": 71,
+          "quote": "Oh, wow. Bathtub! Whoa, Bingo, what's this?",
+          "start": 72,
           "end": 77,
-          "matchStart": 57,
-          "matchEnd": 61
+          "matchStart": 31,
+          "matchEnd": 35
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "corrected-text-exact-coverage"
       ]
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 2",
       "start": 77,
       "end": 82,
       "sentenceText": "I don't know. The toilet's got a ribbon? Maybe it won a prize.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1385,8 +1436,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1429,12 +1480,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 3",
       "start": 82,
       "end": 88,
       "sentenceText": "Yeah, the best toilet in the world! I congratulations your ribbon!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1493,8 +1544,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1509,12 +1560,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 4",
       "start": 88,
       "end": 95,
       "sentenceText": "Oh! I want to rip one. Hmm, can't see another one. Let's see if there's another toilet.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1579,8 +1630,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1623,12 +1674,12 @@
     },
     {
       "id": "c0015",
-      "title": "문단 15",
+      "title": "문단 5",
       "start": 95,
       "end": 101,
       "sentenceText": "Alright, how are we... Whoop! Hey!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1687,8 +1738,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1713,12 +1764,12 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
+      "title": "문단 6",
       "start": 101,
       "end": 106,
       "sentenceText": "Ooh, hang on! In here. Let's go.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -1777,8 +1828,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1812,12 +1863,12 @@
     },
     {
       "id": "c0017",
-      "title": "문단 17",
+      "title": "문단 7",
       "start": 106,
       "end": 112,
       "sentenceText": "It's got one. Congratulations, toilet! Bingo, look!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 17,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 7,
       "selectable": true,
       "cues": [
         {
@@ -1876,8 +1927,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 7,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1902,12 +1953,12 @@
     },
     {
       "id": "c0018",
-      "title": "문단 18",
+      "title": "문단 8",
       "start": 112,
       "end": 118,
       "sentenceText": "Whoa! Bathtub! It's a triangle!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 18,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 8,
       "selectable": true,
       "cues": [
         {
@@ -1966,8 +2017,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 18,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 8,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1982,12 +2033,12 @@
     },
     {
       "id": "c0019",
-      "title": "문단 19",
+      "title": "문단 9",
       "start": 118,
       "end": 124,
       "sentenceText": "microphone oh",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 19,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 9,
       "selectable": true,
       "cues": [
         {
@@ -2033,8 +2084,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 19,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 9,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"

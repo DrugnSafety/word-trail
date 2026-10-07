@@ -1,0 +1,13 @@
+.omx
+.codex
+.agents
+.aws
+.gstack
+.env*
+tmp
+node_modules
+deployment
+.git
+resource/etc
+.DS_Store
+*.log

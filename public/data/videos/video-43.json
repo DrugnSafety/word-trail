@@ -17,25 +17,79 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Aunt Brandy's Visit 🧡 | Season 3 Highlight - Onesies | Bluey",
-      "start": 5,
-      "end": 104,
-      "source": "whole-video",
+      "title": "Recalling a childhood dance",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 23,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Auntie Brandy visits",
+      "start": 23,
+      "markerStart": 23,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 45,
+      "sceneIds": [
         "c0003",
-        "c0004",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Opening presents",
+      "start": 45,
+      "markerStart": 46,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 88,
+      "sceneIds": [
         "c0005",
         "c0006",
         "c0007",
-        "c0008",
-        "c0009"
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Something happens again",
+      "start": 88,
+      "markerStart": 92,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 4,
+      "end": 104,
+      "sceneIds": [
+        "c0009",
+        "c0010"
       ]
     }
   ],
@@ -217,8 +271,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 19,
-      "end": 33,
-      "sentenceText": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
+      "end": 23,
+      "sentenceText": "though that's",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -226,27 +280,15 @@
         {
           "id": "c0002",
           "start": 19,
-          "end": 33,
-          "text": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
-          "originalText": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
+          "end": 23,
+          "text": "though that's",
+          "originalText": "though that's",
           "originalCueRefs": [
             {
               "id": "c0007",
               "start": 19,
               "end": 23,
               "text": "though that's"
-            },
-            {
-              "id": "c0008",
-              "start": 23,
-              "end": 28,
-              "text": "her hi girls hi hey Brandy hi Chile it's"
-            },
-            {
-              "id": "c0009",
-              "start": 28,
-              "end": 33,
-              "text": "good to see you yeah you too kids this"
             }
           ],
           "cleanedCueRefs": [],
@@ -259,7 +301,62 @@
               "originalCueIds": [
                 "c0007"
               ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 1",
+      "start": 23,
+      "end": 35,
+      "sentenceText": "her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this is your auntie Brandy you've grown so",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 23,
+          "end": 35,
+          "text": "her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this is your auntie Brandy you've grown so",
+          "originalText": "her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this is your auntie Brandy you've grown so",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 28,
+              "text": "her hi girls hi hey Brandy hi Chile it's"
             },
+            {
+              "id": "c0009",
+              "start": 28,
+              "end": 33,
+              "text": "good to see you yeah you too kids this"
+            },
+            {
+              "id": "c0010",
+              "start": 33,
+              "end": 35,
+              "text": "is your auntie Brandy you've grown so"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0008",
               "start": 23,
@@ -277,12 +374,21 @@
               "originalCueIds": [
                 "c0009"
               ]
+            },
+            {
+              "id": "c0010",
+              "start": 33,
+              "end": 35,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 2,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -292,21 +398,21 @@
       "targets": [
         {
           "expressionId": "good",
-          "cueId": "c0002",
-          "quote": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
-          "start": 19,
-          "end": 33,
-          "matchStart": 55,
-          "matchEnd": 59
+          "cueId": "c0003",
+          "quote": "her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this is your auntie Brandy you've grown so",
+          "start": 23,
+          "end": 35,
+          "matchStart": 41,
+          "matchEnd": 45
         },
         {
           "expressionId": "see",
-          "cueId": "c0002",
-          "quote": "though that's her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this",
-          "start": 19,
-          "end": 33,
-          "matchStart": 63,
-          "matchEnd": 66
+          "cueId": "c0003",
+          "quote": "her hi girls hi hey Brandy hi Chile it's good to see you yeah you too kids this is your auntie Brandy you've grown so",
+          "start": 23,
+          "end": 35,
+          "matchStart": 49,
+          "matchEnd": 52
         }
       ],
       "qualityFlags": [
@@ -315,28 +421,22 @@
       ]
     },
     {
-      "id": "c0003",
-      "title": "문단 3",
-      "start": 33,
+      "id": "c0004",
+      "title": "문단 2",
+      "start": 35,
       "end": 45,
-      "sentenceText": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "sentenceText": "much blue you look just like your father oh what who do I look like you look just like",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0003",
-          "start": 33,
+          "id": "c0004",
+          "start": 35,
           "end": 45,
-          "text": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
-          "originalText": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
+          "text": "much blue you look just like your father oh what who do I look like you look just like",
+          "originalText": "much blue you look just like your father oh what who do I look like you look just like",
           "originalCueRefs": [
-            {
-              "id": "c0010",
-              "start": 33,
-              "end": 35,
-              "text": "is your auntie Brandy you've grown so"
-            },
             {
               "id": "c0011",
               "start": 35,
@@ -358,15 +458,6 @@
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0010",
-              "start": 33,
-              "end": 35,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0010"
-              ]
-            },
             {
               "id": "c0011",
               "start": 35,
@@ -397,8 +488,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -408,30 +499,30 @@
       "targets": [
         {
           "expressionId": "look",
-          "cueId": "c0003",
-          "quote": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
-          "start": 33,
+          "cueId": "c0004",
+          "quote": "much blue you look just like your father oh what who do I look like you look just like",
+          "start": 35,
           "end": 45,
-          "matchStart": 52,
-          "matchEnd": 56
+          "matchStart": 14,
+          "matchEnd": 18
         },
         {
           "expressionId": "like",
-          "cueId": "c0003",
-          "quote": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
-          "start": 33,
+          "cueId": "c0004",
+          "quote": "much blue you look just like your father oh what who do I look like you look just like",
+          "start": 35,
           "end": 45,
-          "matchStart": 62,
-          "matchEnd": 66
+          "matchStart": 24,
+          "matchEnd": 28
         },
         {
           "expressionId": "what",
-          "cueId": "c0003",
-          "quote": "is your auntie Brandy you've grown so much blue you look just like your father oh what who do I look like you look just like",
-          "start": 33,
+          "cueId": "c0004",
+          "quote": "much blue you look just like your father oh what who do I look like you look just like",
+          "start": 35,
           "end": 45,
-          "matchStart": 82,
-          "matchEnd": 86
+          "matchStart": 44,
+          "matchEnd": 48
         }
       ],
       "qualityFlags": [
@@ -440,17 +531,17 @@
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
+      "id": "c0005",
+      "title": "문단 1",
       "start": 45,
       "end": 57,
       "sentenceText": "you I brought you some presents really oh Brandy you shouldn't have onesies oh you really shouldn't have do they not like onesies they do it's just Bingo has",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
+          "id": "c0005",
           "start": 45,
           "end": 57,
           "text": "you I brought you some presents really oh Brandy you shouldn't have onesies oh you really shouldn't have do they not like onesies they do it's just Bingo has",
@@ -522,8 +613,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -533,7 +624,7 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0004",
+          "cueId": "c0005",
           "quote": "you I brought you some presents really oh Brandy you shouldn't have onesies oh you really shouldn't have do they not like onesies they do it's just Bingo has",
           "start": 45,
           "end": 57,
@@ -547,17 +638,17 @@
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
+      "id": "c0006",
+      "title": "문단 2",
       "start": 57,
       "end": 71,
       "sentenceText": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
+          "id": "c0006",
           "start": 57,
           "end": 71,
           "text": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
@@ -629,8 +720,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -640,7 +731,7 @@
       "targets": [
         {
           "expressionId": "sorry",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
           "start": 57,
           "end": 71,
@@ -649,7 +740,7 @@
         },
         {
           "expressionId": "sure",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
           "start": 57,
           "end": 71,
@@ -658,7 +749,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
           "start": 57,
           "end": 71,
@@ -667,7 +758,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "this thing um don't sorry I'm sure she's grown out of it I hope they fit I wasn't sure how much they'd grown in um four years hey mine's too small and mine's",
           "start": 57,
           "end": 71,
@@ -681,17 +772,17 @@
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
+      "id": "c0007",
+      "title": "문단 3",
       "start": 71,
       "end": 77,
       "sentenceText": "too big well then swap them around can Can you make my cheetah onesie fit me?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
+          "id": "c0007",
           "start": 71,
           "end": 77,
           "text": "too big well then swap them around can Can you make my cheetah onesie fit me?",
@@ -740,8 +831,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -752,7 +843,7 @@
       "targets": [
         {
           "expressionId": "big",
-          "cueId": "c0006",
+          "cueId": "c0007",
           "quote": "too big well then swap them around can Can you make my cheetah onesie fit me?",
           "start": 71,
           "end": 77,
@@ -767,17 +858,17 @@
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
+      "id": "c0008",
+      "title": "문단 4",
       "start": 77,
       "end": 88,
       "sentenceText": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
+          "id": "c0008",
           "start": 77,
           "end": 88,
           "text": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
@@ -856,8 +947,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -868,7 +959,7 @@
       "targets": [
         {
           "expressionId": "want",
-          "cueId": "c0007",
+          "cueId": "c0008",
           "quote": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
           "start": 77,
           "end": 88,
@@ -877,7 +968,7 @@
         },
         {
           "expressionId": "okay",
-          "cueId": "c0007",
+          "cueId": "c0008",
           "quote": "if it doesn't fit, it doesn't fit. but I really want the cheetah it's not meant to be kid okay they're beautiful it's been too",
           "start": 77,
           "end": 88,
@@ -892,17 +983,17 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0009",
+      "title": "문단 1",
       "start": 88,
       "end": 98,
       "sentenceText": "long I know look Chile yeah uh Mom it's happening again oh no what's",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0009",
           "start": 88,
           "end": 98,
           "text": "long I know look Chile yeah uh Mom it's happening again oh no what's",
@@ -944,8 +1035,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -955,7 +1046,7 @@
       "targets": [
         {
           "expressionId": "know",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
           "start": 88,
           "end": 98,
@@ -964,7 +1055,7 @@
         },
         {
           "expressionId": "look",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
           "start": 88,
           "end": 98,
@@ -973,7 +1064,7 @@
         },
         {
           "expressionId": "again",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
           "start": 88,
           "end": 98,
@@ -982,7 +1073,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
           "start": 88,
           "end": 98,
@@ -991,7 +1082,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0008",
+          "cueId": "c0009",
           "quote": "long I know look Chile yeah uh Mom it's happening again oh no what's",
           "start": 88,
           "end": 98,
@@ -1005,17 +1096,17 @@
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
+      "id": "c0010",
+      "title": "문단 2",
       "start": 98,
       "end": 104,
       "sentenceText": "going on hey Brandy how you",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
+          "id": "c0010",
           "start": 98,
           "end": 104,
           "text": "going on hey Brandy how you",
@@ -1042,8 +1133,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text"
           ]
@@ -1052,7 +1143,7 @@
       "targets": [
         {
           "expressionId": "how",
-          "cueId": "c0009",
+          "cueId": "c0010",
           "quote": "going on hey Brandy how you",
           "start": 98,
           "end": 104,

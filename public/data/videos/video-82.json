@@ -17,30 +17,82 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Pavlova Cafe Cook-Off!",
-      "start": 4,
-      "end": 123,
-      "source": "whole-video",
+      "title": "Cafe rivalry",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 18,
       "sceneIds": [
-        "c0001",
+        "c0001"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Menu disputes",
+      "start": 18,
+      "markerStart": 20,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 48,
+      "sceneIds": [
         "c0002",
         "c0003",
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Competition intensifies",
+      "start": 48,
+      "markerStart": 50,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 75,
+      "sceneIds": [
         "c0006",
         "c0007",
-        "c0008",
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Order finalization",
+      "start": 75,
+      "markerStart": 75,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 123,
+      "sceneIds": [
         "c0009",
         "c0010",
         "c0011",
         "c0012",
-        "c0013",
-        "c0014"
+        "c0013"
       ]
     }
   ],
@@ -49,8 +101,8 @@
       "id": "c0001",
       "title": "문단 1",
       "start": 4,
-      "end": 14,
-      "sentenceText": "Yeah. Hey, you can't open a cafe right next to mine.",
+      "end": 18,
+      "sentenceText": "Yeah. Hey, you can't open a cafe right next to mine. Where are you going? I just want to see the menu. Well, don't be long. Your pad",
       "chapterId": "chapter-001",
       "paragraphIndex": 1,
       "selectable": true,
@@ -58,9 +110,9 @@
         {
           "id": "c0001",
           "start": 4,
-          "end": 14,
-          "text": "Yeah. Hey, you can't open a cafe right next to mine.",
-          "originalText": "Yeah. >> Hey, you can't open a cafe right next to mine.",
+          "end": 18,
+          "text": "Yeah. Hey, you can't open a cafe right next to mine. Where are you going? I just want to see the menu. Well, don't be long. Your pad",
+          "originalText": "Yeah. >> Hey, you can't open a cafe right next to mine. >> Where are you going? I just want to see the menu. Well, don't be long. Your pad",
           "originalCueRefs": [
             {
               "id": "c0001",
@@ -79,6 +131,18 @@
               "start": 11,
               "end": 14,
               "text": "mine."
+            },
+            {
+              "id": "c0004",
+              "start": 14,
+              "end": 16,
+              "text": ">> Where are you going? I just want to see"
+            },
+            {
+              "id": "c0005",
+              "start": 16,
+              "end": 18,
+              "text": "the menu. Well, don't be long. Your pad"
             }
           ],
           "cleanedCueRefs": [
@@ -116,66 +180,7 @@
               "originalCueIds": [
                 "c0003"
               ]
-            }
-          ],
-          "textSource": "mixed-captured-sources",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 1,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "raw-original-text",
-            "non-spoken-annotation-removed",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "raw-original-text",
-        "non-spoken-annotation-removed",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0002",
-      "title": "문단 2",
-      "start": 14,
-      "end": 21,
-      "sentenceText": "Where are you going? I just want to see the menu. Well, don't be long. Your pad lover's coming.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 2,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0002",
-          "start": 14,
-          "end": 21,
-          "text": "Where are you going? I just want to see the menu. Well, don't be long. Your pad lover's coming.",
-          "originalText": ">> Where are you going? I just want to see the menu. Well, don't be long. Your pad lover's coming.",
-          "originalCueRefs": [
-            {
-              "id": "c0004",
-              "start": 14,
-              "end": 16,
-              "text": ">> Where are you going? I just want to see"
             },
-            {
-              "id": "c0005",
-              "start": 16,
-              "end": 18,
-              "text": "the menu. Well, don't be long. Your pad"
-            },
-            {
-              "id": "c0006",
-              "start": 18,
-              "end": 21,
-              "text": "lover's coming."
-            }
-          ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
             {
               "id": "c0004",
               "start": 14,
@@ -193,22 +198,14 @@
               "originalCueIds": [
                 "c0005"
               ]
-            },
-            {
-              "id": "c0006",
-              "start": 18,
-              "end": 21,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0006"
-              ]
             }
           ],
-          "textSource": "original-captured",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
           "chapterId": "chapter-001",
-          "paragraphIndex": 2,
+          "paragraphIndex": 1,
           "qualityFlags": [
+            "corrected-text-exact-coverage",
             "raw-original-text",
             "non-spoken-annotation-removed",
             "duration-grouped-dialogue"
@@ -218,75 +215,76 @@
       "targets": [
         {
           "expressionId": "where",
-          "cueId": "c0002",
-          "quote": "Where are you going? I just want to see the menu. Well, don't be long. Your pad lover's coming.",
-          "start": 14,
-          "end": 21,
-          "matchStart": 0,
-          "matchEnd": 5
+          "cueId": "c0001",
+          "quote": "Yeah. Hey, you can't open a cafe right next to mine. Where are you going? I just want to see the menu. Well, don't be long. Your pad",
+          "start": 4,
+          "end": 18,
+          "matchStart": 53,
+          "matchEnd": 58
         },
         {
           "expressionId": "want",
-          "cueId": "c0002",
-          "quote": "Where are you going? I just want to see the menu. Well, don't be long. Your pad lover's coming.",
-          "start": 14,
-          "end": 21,
-          "matchStart": 28,
-          "matchEnd": 32
+          "cueId": "c0001",
+          "quote": "Yeah. Hey, you can't open a cafe right next to mine. Where are you going? I just want to see the menu. Well, don't be long. Your pad",
+          "start": 4,
+          "end": 18,
+          "matchStart": 81,
+          "matchEnd": 85
         },
         {
           "expressionId": "see",
-          "cueId": "c0002",
-          "quote": "Where are you going? I just want to see the menu. Well, don't be long. Your pad lover's coming.",
-          "start": 14,
-          "end": 21,
-          "matchStart": 36,
-          "matchEnd": 39
+          "cueId": "c0001",
+          "quote": "Yeah. Hey, you can't open a cafe right next to mine. Where are you going? I just want to see the menu. Well, don't be long. Your pad",
+          "start": 4,
+          "end": 18,
+          "matchStart": 89,
+          "matchEnd": 92
         },
         {
           "expressionId": "dont",
-          "cueId": "c0002",
-          "quote": "Where are you going? I just want to see the menu. Well, don't be long. Your pad lover's coming.",
-          "start": 14,
-          "end": 21,
-          "matchStart": 56,
-          "matchEnd": 61
+          "cueId": "c0001",
+          "quote": "Yeah. Hey, you can't open a cafe right next to mine. Where are you going? I just want to see the menu. Well, don't be long. Your pad",
+          "start": 4,
+          "end": 18,
+          "matchStart": 109,
+          "matchEnd": 114
         }
       ],
       "qualityFlags": [
+        "corrected-text-exact-coverage",
         "raw-original-text",
         "non-spoken-annotation-removed",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0003",
-      "title": "문단 3",
-      "start": 21,
-      "end": 26,
-      "sentenceText": "Can I see a menu, please? Mercredi!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "id": "c0002",
+      "title": "문단 1",
+      "start": 18,
+      "end": 23,
+      "sentenceText": "lover's coming. Can I see a menu, please?",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0003",
-          "start": 21,
-          "end": 26,
-          "text": "Can I see a menu, please? Mercredi!",
-          "originalText": ">> Can I see a menu, please? >> Macy,",
+          "id": "c0002",
+          "start": 18,
+          "end": 23,
+          "text": "lover's coming. Can I see a menu, please?",
+          "originalText": "lover's coming. >> Can I see a menu, please?",
           "originalCueRefs": [
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 21,
+              "text": "lover's coming."
+            },
             {
               "id": "c0007",
               "start": 21,
               "end": 23,
               "text": ">> Can I see a menu, please?"
-            },
-            {
-              "id": "c0008",
-              "start": 23,
-              "end": 26,
-              "text": ">> Macy,"
             }
           ],
           "cleanedCueRefs": [
@@ -295,15 +293,18 @@
               "start": 21,
               "end": 23,
               "text": "Can I see a menu, please?"
-            },
-            {
-              "id": "c0006",
-              "start": 23,
-              "end": 26,
-              "text": "Mercredi!"
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 18,
+              "end": 21,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            },
             {
               "id": "c0007",
               "start": 21,
@@ -312,22 +313,14 @@
               "originalCueIds": [
                 "c0007"
               ]
-            },
-            {
-              "id": "c0008",
-              "start": 23,
-              "end": 26,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0008"
-              ]
             }
           ],
-          "textSource": "cleaned-exact-coverage",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
+            "raw-original-text",
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
@@ -336,54 +329,61 @@
       "targets": [
         {
           "expressionId": "can-i",
-          "cueId": "c0003",
-          "quote": "Can I see a menu, please? Mercredi!",
-          "start": 21,
-          "end": 26,
-          "matchStart": 0,
-          "matchEnd": 5
+          "cueId": "c0002",
+          "quote": "lover's coming. Can I see a menu, please?",
+          "start": 18,
+          "end": 23,
+          "matchStart": 16,
+          "matchEnd": 21
         },
         {
           "expressionId": "see",
-          "cueId": "c0003",
-          "quote": "Can I see a menu, please? Mercredi!",
-          "start": 21,
-          "end": 26,
-          "matchStart": 6,
-          "matchEnd": 9
+          "cueId": "c0002",
+          "quote": "lover's coming. Can I see a menu, please?",
+          "start": 18,
+          "end": 23,
+          "matchStart": 22,
+          "matchEnd": 25
         },
         {
           "expressionId": "please",
-          "cueId": "c0003",
-          "quote": "Can I see a menu, please? Mercredi!",
-          "start": 21,
-          "end": 26,
-          "matchStart": 18,
-          "matchEnd": 24
+          "cueId": "c0002",
+          "quote": "lover's coming. Can I see a menu, please?",
+          "start": 18,
+          "end": 23,
+          "matchStart": 34,
+          "matchEnd": 40
         }
       ],
       "qualityFlags": [
+        "raw-original-text",
         "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
-      "start": 26,
+      "id": "c0003",
+      "title": "문단 2",
+      "start": 23,
       "end": 36,
-      "sentenceText": "what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "sentenceText": "Mercredi! what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
-          "start": 26,
+          "id": "c0003",
+          "start": 23,
           "end": 36,
-          "text": "what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
-          "originalText": ">> what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
+          "text": "Mercredi! what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
+          "originalText": ">> Macy, >> what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
           "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 26,
+              "text": ">> Macy,"
+            },
             {
               "id": "c0009",
               "start": 26,
@@ -403,8 +403,24 @@
               "text": "them. She wants paddle lover."
             }
           ],
-          "cleanedCueRefs": [],
+          "cleanedCueRefs": [
+            {
+              "id": "c0006",
+              "start": 23,
+              "end": 26,
+              "text": "Mercredi!"
+            }
+          ],
           "sourceCueRefs": [
+            {
+              "id": "c0008",
+              "start": 23,
+              "end": 26,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0008"
+              ]
+            },
             {
               "id": "c0009",
               "start": 26,
@@ -433,11 +449,12 @@
               ]
             }
           ],
-          "textSource": "original-captured",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
+            "corrected-text-exact-coverage",
             "raw-original-text",
             "non-spoken-annotation-removed",
             "duration-grouped-dialogue"
@@ -447,41 +464,42 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0004",
-          "quote": "what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
-          "start": 26,
+          "cueId": "c0003",
+          "quote": "Mercredi! what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
+          "start": 23,
           "end": 36,
-          "matchStart": 0,
-          "matchEnd": 4
+          "matchStart": 10,
+          "matchEnd": 14
         },
         {
           "expressionId": "want",
-          "cueId": "c0004",
-          "quote": "what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
-          "start": 26,
+          "cueId": "c0003",
+          "quote": "Mercredi! what's it got on it? It's only got in the barley beans. Well, she doesn't want them. She wants paddle lover.",
+          "start": 23,
           "end": 36,
-          "matchStart": 74,
-          "matchEnd": 78
+          "matchStart": 84,
+          "matchEnd": 88
         }
       ],
       "qualityFlags": [
+        "corrected-text-exact-coverage",
         "raw-original-text",
         "non-spoken-annotation-removed",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
+      "id": "c0004",
+      "title": "문단 3",
       "start": 38,
       "end": 43,
       "sentenceText": "I think he's saying he put some lovely things on them to make them taste nice.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
+          "id": "c0004",
           "start": 38,
           "end": 43,
           "text": "I think he's saying he put some lovely things on them to make them taste nice.",
@@ -523,8 +541,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -535,7 +553,7 @@
       "targets": [
         {
           "expressionId": "think",
-          "cueId": "c0005",
+          "cueId": "c0004",
           "quote": "I think he's saying he put some lovely things on them to make them taste nice.",
           "start": 38,
           "end": 43,
@@ -544,7 +562,7 @@
         },
         {
           "expressionId": "nice",
-          "cueId": "c0005",
+          "cueId": "c0004",
           "quote": "I think he's saying he put some lovely things on them to make them taste nice.",
           "start": 38,
           "end": 43,
@@ -559,17 +577,17 @@
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
+      "id": "c0005",
+      "title": "문단 4",
       "start": 43,
       "end": 48,
       "sentenceText": "Um, it's just that I really think I want pavlova.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
+          "id": "c0005",
           "start": 43,
           "end": 48,
           "text": "Um, it's just that I really think I want pavlova.",
@@ -611,8 +629,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -623,7 +641,7 @@
       "targets": [
         {
           "expressionId": "think",
-          "cueId": "c0006",
+          "cueId": "c0005",
           "quote": "Um, it's just that I really think I want pavlova.",
           "start": 43,
           "end": 48,
@@ -632,7 +650,7 @@
         },
         {
           "expressionId": "want",
-          "cueId": "c0006",
+          "cueId": "c0005",
           "quote": "Um, it's just that I really think I want pavlova.",
           "start": 43,
           "end": 48,
@@ -647,17 +665,17 @@
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
+      "id": "c0006",
+      "title": "문단 1",
       "start": 48,
       "end": 62,
       "sentenceText": "Tres bon! Well, you can make me some end of mommy beans if you want. Drealad, but I get to choose if I want to eat them or the pavlova.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
+          "id": "c0006",
           "start": 48,
           "end": 62,
           "text": "Tres bon! Well, you can make me some end of mommy beans if you want. Drealad, but I get to choose if I want to eat them or the pavlova.",
@@ -751,8 +769,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -764,7 +782,7 @@
       "targets": [
         {
           "expressionId": "want",
-          "cueId": "c0007",
+          "cueId": "c0006",
           "quote": "Tres bon! Well, you can make me some end of mommy beans if you want. Drealad, but I get to choose if I want to eat them or the pavlova.",
           "start": 48,
           "end": 62,
@@ -780,17 +798,17 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0007",
+      "title": "문단 2",
       "start": 62,
       "end": 67,
       "sentenceText": "It's just I don't like it when you make me eat something.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0007",
           "start": 62,
           "end": 67,
           "text": "It's just I don't like it when you make me eat something.",
@@ -832,8 +850,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -844,7 +862,7 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0008",
+          "cueId": "c0007",
           "quote": "It's just I don't like it when you make me eat something.",
           "start": 62,
           "end": 67,
@@ -853,7 +871,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0008",
+          "cueId": "c0007",
           "quote": "It's just I don't like it when you make me eat something.",
           "start": 62,
           "end": 67,
@@ -868,17 +886,17 @@
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
+      "id": "c0008",
+      "title": "문단 3",
       "start": 67,
       "end": 74,
       "sentenceText": "Mon petit chou... it's a cafe competition. I'm going to get the sprinkles.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
+          "id": "c0008",
           "start": 67,
           "end": 74,
           "text": "Mon petit chou... it's a cafe competition. I'm going to get the sprinkles.",
@@ -942,8 +960,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -961,17 +979,17 @@
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 10",
+      "id": "c0009",
+      "title": "문단 1",
       "start": 76,
       "end": 86,
       "sentenceText": "Hey! can I help? S",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
+          "id": "c0009",
           "start": 76,
           "end": 86,
           "text": "Hey! can I help? S",
@@ -1035,8 +1053,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1048,7 +1066,7 @@
       "targets": [
         {
           "expressionId": "can-i",
-          "cueId": "c0010",
+          "cueId": "c0009",
           "quote": "Hey! can I help? S",
           "start": 76,
           "end": 86,
@@ -1057,7 +1075,7 @@
         },
         {
           "expressionId": "help",
-          "cueId": "c0010",
+          "cueId": "c0009",
           "quote": "Hey! can I help? S",
           "start": 76,
           "end": 86,
@@ -1073,17 +1091,17 @@
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 11",
+      "id": "c0010",
+      "title": "문단 2",
       "start": 89,
       "end": 92,
       "sentenceText": "ready.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
+          "id": "c0010",
           "start": 89,
           "end": 92,
           "text": "ready.",
@@ -1110,8 +1128,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -1122,7 +1140,7 @@
       "targets": [
         {
           "expressionId": "ready",
-          "cueId": "c0011",
+          "cueId": "c0010",
           "quote": "ready.",
           "start": 89,
           "end": 92,
@@ -1137,17 +1155,17 @@
       ]
     },
     {
-      "id": "c0012",
-      "title": "문단 12",
+      "id": "c0011",
+      "title": "문단 3",
       "start": 103,
       "end": 110,
       "sentenceText": "Okay, I've decided... over seafood plate.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0012",
+          "id": "c0011",
           "start": 103,
           "end": 110,
           "text": "Okay, I've decided... over seafood plate.",
@@ -1211,8 +1229,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1223,7 +1241,7 @@
       "targets": [
         {
           "expressionId": "okay",
-          "cueId": "c0012",
+          "cueId": "c0011",
           "quote": "Okay, I've decided... over seafood plate.",
           "start": 103,
           "end": 110,
@@ -1238,17 +1256,17 @@
       ]
     },
     {
-      "id": "c0013",
-      "title": "문단 13",
+      "id": "c0012",
+      "title": "문단 4",
       "start": 110,
       "end": 117,
       "sentenceText": "So, I can eat this?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0013",
+          "id": "c0012",
           "start": 110,
           "end": 117,
           "text": "So, I can eat this?",
@@ -1282,8 +1300,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1295,17 +1313,17 @@
       ]
     },
     {
-      "id": "c0014",
-      "title": "문단 14",
+      "id": "c0013",
+      "title": "문단 5",
       "start": 117,
       "end": 123,
       "sentenceText": "Thank you. You know he just called you a booger? What?!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0014",
+          "id": "c0013",
           "start": 117,
           "end": 123,
           "text": "Thank you. You know he just called you a booger? What?!",
@@ -1381,8 +1399,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1392,7 +1410,7 @@
       "targets": [
         {
           "expressionId": "thank-you",
-          "cueId": "c0014",
+          "cueId": "c0013",
           "quote": "Thank you. You know he just called you a booger? What?!",
           "start": 117,
           "end": 123,
@@ -1401,7 +1419,7 @@
         },
         {
           "expressionId": "know",
-          "cueId": "c0014",
+          "cueId": "c0013",
           "quote": "Thank you. You know he just called you a booger? What?!",
           "start": 117,
           "end": 123,
@@ -1410,7 +1428,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0014",
+          "cueId": "c0013",
           "quote": "Thank you. You know he just called you a booger? What?!",
           "start": 117,
           "end": 123,

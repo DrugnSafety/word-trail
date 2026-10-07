@@ -441,5 +441,28 @@
       { "term": "learner", "labelKo": "명사", "meaningKo": "배우는 사람; 학습자", "exampleEn": "Every learner can ask questions.", "exampleKo": "모든 학습자는 질문할 수 있어요." },
       { "term": "learning", "labelKo": "명사", "meaningKo": "배움; 학습", "exampleEn": "Games can make learning fun.", "exampleKo": "게임은 학습을 재미있게 만들 수 있어요." }
     ]
+  },
+  {
+    "id": "goal",
+    "terms": ["goal", "goals"],
+    "titleKo": "goal과 함께 배우기",
+    "noteKo": "이루고 싶은 목표나 경기에서 득점하는 지점을 말해요.",
+    "items": [
+      { "term": "goal", "labelKo": "명사", "meaningKo": "목표", "exampleEn": "My goal is to read this book.", "exampleKo": "내 목표는 이 책을 읽는 것이에요." },
+      { "term": "goal", "labelKo": "명사", "meaningKo": "골; 득점", "exampleEn": "Our team scored a goal.", "exampleKo": "우리 팀이 골을 넣었어요." },
+      { "term": "goalkeeper", "labelKo": "관련 명사", "meaningKo": "골키퍼", "exampleEn": "The goalkeeper caught the ball.", "exampleKo": "골키퍼가 공을 잡았어요." }
+    ]
+  },
+  {
+    "id": "excite",
+    "terms": ["excite", "excites", "excited", "exciting"],
+    "titleKo": "excite와 함께 배우기",
+    "noteKo": "기대되거나 신나는 감정을 만드는 말들을 연결해 봐요.",
+    "items": [
+      { "term": "excite", "labelKo": "동사", "meaningKo": "신나게 하다", "exampleEn": "The surprise will excite the children.", "exampleKo": "그 깜짝 소식은 아이들을 신나게 할 거예요." },
+      { "term": "excited", "labelKo": "형용사", "meaningKo": "신이 난; 기대되는", "exampleEn": "I am excited about the trip.", "exampleKo": "나는 여행이 기대돼요." },
+      { "term": "exciting", "labelKo": "형용사", "meaningKo": "신나는", "exampleEn": "It was an exciting game.", "exampleKo": "그것은 신나는 경기였어요." },
+      { "term": "excitement", "labelKo": "명사", "meaningKo": "흥분; 신남", "exampleEn": "We shouted with excitement.", "exampleKo": "우리는 신이 나서 소리쳤어요." }
+    ]
   }
 ]

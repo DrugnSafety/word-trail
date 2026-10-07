@@ -11,7 +11,7 @@ async function files(dir) {
   return results;
 }
 let failed = false;
-const scripts = (await Promise.all(['public', 'scripts', 'tests'].map(files))).flat();
+const scripts = (await Promise.all(['public', 'scripts', 'tests', 'server', 'api'].map(files))).flat();
 for (const filename of scripts) {
   const result = spawnSync(process.execPath, ['--check', filename], { encoding: 'utf8' });
   if (result.status !== 0) { console.error(result.stderr); failed = true; }

@@ -1,3 +1,5 @@
+import { emptyLibrary, normalizeLibrary } from './library.js';
+
 const GUEST_KEY = 'wordtrail:guest:v1';
 const DEFAULT_NICKNAME = '학습자1';
 const LEARNER_ID = 'default';
@@ -50,8 +52,9 @@ export function createStore(auth) {
     return payload;
   }
 
-  async function load() {
+  async function load(expectedScope = null) {
     const ctx = await context();
+    assertExpectedScope(ctx, expectedScope);
     if (ctx.mode === 'guest') {
       const data = read(storage, GUEST_KEY, blankGuest());
       return {
@@ -131,6 +134,49 @@ export function createStore(auth) {
     });
   }
 
+  async function loadLibrary(expectedScope = null) {
+    const ctx = await context();
+    assertExpectedScope(ctx, expectedScope);
+    if (ctx.mode === 'guest') {
+      const data = read(storage, GUEST_KEY, blankGuest());
+      return {
+        library: normalizeLibrary(data.library || emptyLibrary()),
+        updatedAt: data.libraryUpdatedAt || null,
+        mode: 'guest',
+      };
+    }
+    const rows = await rest(ctx, 'user_libraries?select=record,updated_at');
+    return {
+      library: normalizeLibrary(rows?.[0]?.record || emptyLibrary()),
+      updatedAt: rows?.[0]?.updated_at || null,
+      mode: 'cloud',
+    };
+  }
+
+  async function saveLibrary(library, expectedUpdatedAt = null, expectedScope = null) {
+    const normalized = normalizeLibrary(library);
+    validateLibrarySize(normalized);
+    const ctx = await context();
+    assertExpectedScope(ctx, expectedScope);
+    if (ctx.mode === 'guest') {
+      const data = read(storage, GUEST_KEY, blankGuest());
+      const current = data.libraryUpdatedAt || null;
+      if (current !== expectedUpdatedAt) {
+        throw new Error('다른 화면에서 영상 목록이 변경되었습니다. 새로 불러온 뒤 다시 시도해 주세요.');
+      }
+      const updatedAt = nextTimestamp(current);
+      write(storage, GUEST_KEY, { ...data, library: normalized, libraryUpdatedAt: updatedAt });
+      return { library: normalized, updatedAt, mode: 'guest' };
+    }
+    const saved = await rest(ctx, 'rpc/save_user_library', {
+      method: 'POST', body: JSON.stringify({
+        p_record: normalized,
+        p_expected_updated_at: expectedUpdatedAt,
+      }),
+    });
+    return { library: normalizeLibrary(saved.record), updatedAt: saved.updated_at, mode: 'cloud' };
+  }
+
   async function startLearning(videoId, sceneId, expectedScope = null) {
     validateSceneIds(videoId, sceneId);
     const ctx = await context();
@@ -154,13 +200,14 @@ export function createStore(auth) {
     const ctx = await context();
     assertExpectedScope(ctx, expectedScope);
     if (ctx.mode === 'guest') return { mode: 'guest', ...read(storage, GUEST_KEY, blankGuest()) };
-    const [profiles, progress, dictations, starts] = await Promise.all([
+    const [profiles, progress, dictations, starts, libraries] = await Promise.all([
       rest(ctx, `profiles?select=learner_id,nickname,updated_at&learner_id=eq.${LEARNER_ID}`),
       rest(ctx, `learning_progress?select=record,updated_at&learner_id=eq.${LEARNER_ID}`),
       rest(ctx, `learning_dictations?select=record,updated_at&learner_id=eq.${LEARNER_ID}`),
       rest(ctx, `learning_starts?select=learner_id,video_id,scene_id,started_on,created_at&learner_id=eq.${LEARNER_ID}`),
+      rest(ctx, 'user_libraries?select=record,updated_at'),
     ]);
-    return { mode: 'cloud', exportedAt: new Date().toISOString(), profiles, progress, dictations, starts };
+    return { mode: 'cloud', exportedAt: new Date().toISOString(), profiles, progress, dictations, starts, libraries };
   }
 
   async function resetProgress(expectedScope = null) {
@@ -193,7 +240,22 @@ export function createStore(auth) {
     return nickname;
   }
 
-  return { load, saveProgress, saveDictation, startLearning, exportData, resetProgress, setNickname };
+  return {
+    load, saveProgress, saveDictation, loadLibrary, saveLibrary,
+    startLearning, exportData, resetProgress, setNickname,
+  };
+}
+
+function nextTimestamp(current) {
+  const now = new Date();
+  if (current && now.getTime() <= Date.parse(current)) return new Date(Date.parse(current) + 1).toISOString();
+  return now.toISOString();
+}
+
+function validateLibrarySize(library) {
+  if (new TextEncoder().encode(JSON.stringify(library)).byteLength > 524288) {
+    throw new Error('사용자 영상 목록은 512KB 이하여야 합니다.');
+  }
 }
 
 function progressKey(record) {
@@ -234,7 +296,7 @@ function validateProgress(record) {
 }
 
 function validateSceneIds(videoId, sceneId) {
-  if (!/^video-[0-9]{2}$/.test(String(videoId || '')) || !/^(?:s[0-9]{3}|c[0-9]{4})$/.test(String(sceneId || ''))) {
+  if (!/^(?:video-[0-9]{2}|custom-[A-Za-z0-9_-]{11})$/.test(String(videoId || '')) || !/^(?:s[0-9]{3}|c[0-9]{4})$/.test(String(sceneId || ''))) {
     throw new Error('올바른 영상과 학습 구간 ID가 필요합니다.');
   }
 }
@@ -295,6 +357,9 @@ function validateDictation(record) {
     }
     if (word.meaningKo !== undefined && (typeof word.meaningKo !== 'string' || word.meaningKo.length > 300)) {
       throw new Error('한국어 뜻은 300자 이하여야 합니다.');
+    }
+    if (word.sourceTerm !== undefined && (typeof word.sourceTerm !== 'string' || word.sourceTerm.length > 100)) {
+      throw new Error('원문 단어는 100자 이하여야 합니다.');
     }
     if (word.lastPracticedAt !== undefined && !isIsoTimestamp(word.lastPracticedAt)) {
       throw new Error('마지막 연습 시간이 올바르지 않습니다.');

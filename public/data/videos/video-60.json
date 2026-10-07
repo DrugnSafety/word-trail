@@ -16,23 +16,78 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Wild Girls 🧹 | Brand New - Series 3 | Bluey",
-      "start": 7,
-      "end": 121,
-      "source": "whole-video",
+      "title": "A lonely child",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 27,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Negotiating playtime",
+      "start": 27,
+      "markerStart": 28,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 58,
+      "sceneIds": [
         "c0003",
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "The pink witch",
+      "start": 58,
+      "markerStart": 59,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 79,
+      "sceneIds": [
         "c0006",
-        "c0007",
+        "c0007"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Saving the crops",
+      "start": 79,
+      "markerStart": 80,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 121,
+      "sceneIds": [
         "c0008",
         "c0009",
         "c0010",
@@ -236,12 +291,12 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
+      "title": "문단 1",
       "start": 27,
       "end": 38,
       "sentenceText": "clothes oh oh oh Oh, she's really sad. I just wish there was a way she could join in.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -336,8 +391,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -364,12 +419,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 38,
       "end": 53,
       "sentenceText": "Coco, that's some sad howling. Calypso, can you make Indy play with me and not Chloe? Indy's in charge of Indy, sweetheart. Aww, but I want to play Wild Girls. What do you love about playing",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -491,8 +546,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -553,20 +608,20 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 3",
       "start": 53,
-      "end": 60,
-      "sentenceText": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with Indy.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "end": 58,
+      "sentenceText": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
           "id": "c0005",
           "start": 53,
-          "end": 60,
-          "text": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with Indy.",
-          "originalText": "wild girls uh the broom and Indie bringing food and I love dancing with Indie",
+          "end": 58,
+          "text": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with",
+          "originalText": "wild girls uh the broom and Indie bringing food and I love dancing with",
           "originalCueRefs": [
             {
               "id": "c0016",
@@ -579,12 +634,6 @@
               "start": 56,
               "end": 58,
               "text": "bringing food and I love dancing with"
-            },
-            {
-              "id": "c0018",
-              "start": 58,
-              "end": 60,
-              "text": "Indie"
             }
           ],
           "cleanedCueRefs": [
@@ -599,12 +648,6 @@
               "start": 56,
               "end": 58,
               "text": "bringing food. And I love dancing with"
-            },
-            {
-              "id": "c0015",
-              "start": 58,
-              "end": 60,
-              "text": "Indy."
             }
           ],
           "sourceCueRefs": [
@@ -625,21 +668,12 @@
               "originalCueIds": [
                 "c0017"
               ]
-            },
-            {
-              "id": "c0018",
-              "start": 58,
-              "end": 60,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0018"
-              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -650,9 +684,9 @@
         {
           "expressionId": "love",
           "cueId": "c0005",
-          "quote": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with Indy.",
+          "quote": "Wild Girls? Uh, the broom. And Indy bringing food. And I love dancing with",
           "start": 53,
-          "end": 60,
+          "end": 58,
           "matchStart": 57,
           "matchEnd": 61
         }
@@ -664,21 +698,27 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
-      "start": 60,
+      "title": "문단 1",
+      "start": 58,
       "end": 67,
-      "sentenceText": "I just like playing with Indy. Okay. Do you think you could scare a",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "sentenceText": "Indy. I just like playing with Indy. Okay. Do you think you could scare a",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0006",
-          "start": 60,
+          "start": 58,
           "end": 67,
-          "text": "I just like playing with Indy. Okay. Do you think you could scare a",
-          "originalText": "I just like playing with Indie okay do you think you could scare a",
+          "text": "Indy. I just like playing with Indy. Okay. Do you think you could scare a",
+          "originalText": "Indie I just like playing with Indie okay do you think you could scare a",
           "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 58,
+              "end": 60,
+              "text": "Indie"
+            },
             {
               "id": "c0019",
               "start": 60,
@@ -700,6 +740,12 @@
           ],
           "cleanedCueRefs": [
             {
+              "id": "c0015",
+              "start": 58,
+              "end": 60,
+              "text": "Indy."
+            },
+            {
               "id": "c0016",
               "start": 60,
               "end": 62,
@@ -719,6 +765,15 @@
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
             {
               "id": "c0019",
               "start": 60,
@@ -749,8 +804,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -761,29 +816,29 @@
         {
           "expressionId": "like",
           "cueId": "c0006",
-          "quote": "I just like playing with Indy. Okay. Do you think you could scare a",
-          "start": 60,
+          "quote": "Indy. I just like playing with Indy. Okay. Do you think you could scare a",
+          "start": 58,
           "end": 67,
-          "matchStart": 7,
-          "matchEnd": 11
+          "matchStart": 13,
+          "matchEnd": 17
         },
         {
           "expressionId": "okay",
           "cueId": "c0006",
-          "quote": "I just like playing with Indy. Okay. Do you think you could scare a",
-          "start": 60,
+          "quote": "Indy. I just like playing with Indy. Okay. Do you think you could scare a",
+          "start": 58,
           "end": 67,
-          "matchStart": 31,
-          "matchEnd": 35
+          "matchStart": 37,
+          "matchEnd": 41
         },
         {
           "expressionId": "think",
           "cueId": "c0006",
-          "quote": "I just like playing with Indy. Okay. Do you think you could scare a",
-          "start": 60,
+          "quote": "Indy. I just like playing with Indy. Okay. Do you think you could scare a",
+          "start": 58,
           "end": 67,
-          "matchStart": 44,
-          "matchEnd": 49
+          "matchStart": 50,
+          "matchEnd": 55
         }
       ],
       "qualityFlags": [
@@ -793,12 +848,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 2",
       "start": 72,
       "end": 79,
       "sentenceText": "scarecrow? What is it? It's the Pink Witch of the woods. Hey, Coco's not a pink witch.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -857,8 +912,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -883,12 +938,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 1",
       "start": 79,
       "end": 85,
       "sentenceText": "Yes, she is. She's got a broom. No, she uses that to... Wait.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -947,8 +1002,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -991,12 +1046,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 2",
       "start": 85,
       "end": 90,
       "sentenceText": "Oh, no! Look, this corn is shriveled up.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1034,8 +1089,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1067,12 +1122,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 3",
       "start": 90,
       "end": 104,
       "sentenceText": "They all are! It must be the work of the Pink Witch. The Pink Witch has cursed our crops. I can't be dealing with witches. I just bought a new quad",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1194,8 +1249,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1210,12 +1265,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 4",
       "start": 105,
       "end": 116,
       "sentenceText": "bike. What are we going to do? I have to take her some of our food every day to keep her happy, otherwise she'll curse our whole farm. No, it's too dangerous.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1316,8 +1371,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1369,12 +1424,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 5",
       "start": 116,
       "end": 121,
       "sentenceText": "Don't worry, I used to be a wild girl.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1412,8 +1467,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]

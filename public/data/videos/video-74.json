@@ -17,28 +17,77 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Rusty Hits His Little Sister a Catch",
+      "title": "Dad's letter from abroad",
       "start": 0,
-      "end": 117,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 12,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Lessons through cricket",
+      "start": 12,
+      "markerStart": 12,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 51,
+      "sceneIds": [
         "c0003",
         "c0004",
         "c0005",
         "c0006",
         "c0007",
-        "c0008",
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Intense backyard cricket",
+      "start": 51,
+      "markerStart": 51,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 74,
+      "sceneIds": [
         "c0009",
         "c0010",
         "c0011",
-        "c0012",
+        "c0012"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "The final wicket",
+      "start": 74,
+      "markerStart": 74,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 117,
+      "sceneIds": [
         "c0013",
         "c0014",
         "c0015",
@@ -225,12 +274,12 @@
     },
     {
       "id": "c0003",
-      "title": "문단 3",
+      "title": "문단 1",
       "start": 12,
       "end": 17,
       "sentenceText": "Rusty, Dad's letter has a P.S. for you. Can you read it?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -289,8 +338,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -315,12 +364,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 2",
       "start": 17,
       "end": 24,
       "sentenceText": "This tiny sounds like he's got some pace on him. He does. I wish I could be there to bowl a few at you, but I can't right now, mate.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -436,8 +485,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -475,12 +524,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 3",
       "start": 24,
       "end": 31,
       "sentenceText": "But look, as you grow up, you'll face harder things things than a cricket ball. And you'll have two choices.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -554,8 +603,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -582,12 +631,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 4",
       "start": 31,
       "end": 37,
       "sentenceText": "Back away and get out. Whose bat is it?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -646,8 +695,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -662,12 +711,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 5",
       "start": 37,
       "end": 44,
       "sentenceText": "Or step in front and play a pull.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -735,8 +784,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -765,12 +814,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 6",
       "start": 44,
       "end": 51,
       "sentenceText": "Just keep your eye on the ball care of your little sister for me. Love, dad.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -838,8 +887,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -893,12 +942,12 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 1",
       "start": 51,
       "end": 56,
       "sentenceText": "Ly's dad had no chance. Wow.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -944,8 +993,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "non-spoken-annotation-removed",
@@ -981,12 +1030,12 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
+      "title": "문단 2",
       "start": 56,
       "end": 62,
       "sentenceText": "Dad or dog? Lunch time! Hang on, Rusty. One more.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1066,8 +1115,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1092,12 +1141,12 @@
     },
     {
       "id": "c0011",
-      "title": "문단 11",
+      "title": "문단 3",
       "start": 62,
       "end": 67,
       "sentenceText": "Okay. Rusty would have played 50 more.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1156,8 +1205,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1182,12 +1231,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 4",
       "start": 67,
       "end": 72,
       "sentenceText": "What a shot! He just loved cricket.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1240,8 +1289,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1270,12 +1319,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 1",
       "start": 74,
       "end": 80,
       "sentenceText": "I told you, you wouldn't get Rusty out. Come on, Pat. This one's for dignity.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1334,8 +1383,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1360,12 +1409,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 2",
       "start": 80,
       "end": 92,
       "sentenceText": "Ly's dad put everything he had into that ball. And Rusty could have smashed it into next week if he wanted to, but instead...",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1475,8 +1524,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1503,12 +1552,12 @@
     },
     {
       "id": "c0015",
-      "title": "문단 15",
+      "title": "문단 3",
       "start": 92,
       "end": 98,
       "sentenceText": "I got it! He hit his little sister a catch. Oh, you got me!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -1588,8 +1637,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1623,12 +1672,12 @@
     },
     {
       "id": "c0016",
-      "title": "문단 16",
+      "title": "문단 4",
       "start": 98,
       "end": 103,
       "sentenceText": "And that's lunch! Thanks, Mr. Heeler. Thanks, Lucky's dad.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 16,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -1687,8 +1736,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 16,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1713,12 +1762,12 @@
     },
     {
       "id": "c0017",
-      "title": "문단 17",
+      "title": "문단 5",
       "start": 103,
       "end": 112,
       "sentenceText": "No worries, Rusty. I got you out! I know. I can't believe it. What a catch.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 17,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -1807,8 +1856,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 17,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1855,12 +1904,12 @@
     },
     {
       "id": "c0018",
-      "title": "문단 18",
+      "title": "문단 6",
       "start": 112,
       "end": 117,
       "sentenceText": "That's what cricket's about, kid.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 18,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
@@ -1898,8 +1947,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 18,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]

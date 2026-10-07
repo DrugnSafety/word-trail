@@ -1,4 +1,4 @@
-export const PRACTICE_ORDER = Object.freeze(['explain', 'point', 'spelling', 'cloze', 'audio', 'meaning', 'reading']);
+export const PRACTICE_ORDER = Object.freeze(['explain', 'point', 'spelling', 'audio', 'cloze', 'meaning', 'family', 'reading']);
 
 export function nextPractice(mode, index, words, hasMeaning = () => true) {
   if (!words.length || index < 0 || index >= words.length) return { complete: true };

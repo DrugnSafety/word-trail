@@ -17,24 +17,77 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "The Done Thing | Turtle Boy - Series 3 | Bluey",
-      "start": 2,
-      "end": 114,
-      "source": "whole-video",
+      "title": "The turtle's race",
+      "start": 0,
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 20,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Seeking shelter from rain",
+      "start": 20,
+      "markerStart": 20,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 49,
+      "sceneIds": [
         "c0003",
-        "c0004",
+        "c0004"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Returning home safe",
+      "start": 49,
+      "markerStart": 49,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 71,
+      "sceneIds": [
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Hoping to take him home",
+      "start": 71,
+      "markerStart": 72,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 1,
+      "end": 114,
+      "sceneIds": [
         "c0007",
-        "c0008"
+        "c0008",
+        "c0009",
+        "c0010"
       ]
     }
   ],
@@ -165,8 +218,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 17,
-      "end": 30,
-      "sentenceText": "yet well done turtle boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
+      "end": 20,
+      "sentenceText": "yet well done turtle",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -174,16 +227,62 @@
         {
           "id": "c0002",
           "start": 17,
-          "end": 30,
-          "text": "yet well done turtle boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
-          "originalText": "yet well done turtle boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
+          "end": 20,
+          "text": "yet well done turtle",
+          "originalText": "yet well done turtle",
           "originalCueRefs": [
             {
               "id": "c0006",
               "start": 17,
               "end": 20,
               "text": "yet well done turtle"
-            },
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 17,
+              "end": 20,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [],
+      "qualityFlags": [
+        "raw-original-text",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 1",
+      "start": 20,
+      "end": 30,
+      "sentenceText": "boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 20,
+          "end": 30,
+          "text": "boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
+          "originalText": "boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
+          "originalCueRefs": [
             {
               "id": "c0007",
               "start": 20,
@@ -211,15 +310,6 @@
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0006",
-              "start": 17,
-              "end": 20,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0006"
-              ]
-            },
             {
               "id": "c0007",
               "start": 20,
@@ -259,8 +349,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 2,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -270,21 +360,21 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0002",
-          "quote": "yet well done turtle boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
-          "start": 17,
+          "cueId": "c0003",
+          "quote": "boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
+          "start": 20,
           "end": 30,
-          "matchStart": 31,
-          "matchEnd": 35
+          "matchStart": 10,
+          "matchEnd": 14
         },
         {
           "expressionId": "know",
-          "cueId": "c0002",
-          "quote": "yet well done turtle boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
-          "start": 17,
+          "cueId": "c0003",
+          "quote": "boy looks like it might rain we can't leave turtle boy in the rain he'll get wet he won't mind he's a turtle oh I know",
+          "start": 20,
           "end": 30,
-          "matchStart": 135,
-          "matchEnd": 139
+          "matchStart": 114,
+          "matchEnd": 118
         }
       ],
       "qualityFlags": [
@@ -293,17 +383,17 @@
       ]
     },
     {
-      "id": "c0003",
-      "title": "문단 3",
+      "id": "c0004",
+      "title": "문단 2",
       "start": 30,
       "end": 39,
       "sentenceText": "You'll be dry under here, Turtleboy.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0003",
+          "id": "c0004",
           "start": 30,
           "end": 39,
           "text": "You'll be dry under here, Turtleboy.",
@@ -337,8 +427,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -350,17 +440,17 @@
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
+      "id": "c0005",
+      "title": "문단 1",
       "start": 49,
       "end": 63,
       "sentenceText": "boy no honey you can't take him home cuz it's not the dumb thing Turtleboy, you're still here, and you're",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
+          "id": "c0005",
           "start": 49,
           "end": 63,
           "text": "boy no honey you can't take him home cuz it's not the dumb thing Turtleboy, you're still here, and you're",
@@ -424,8 +514,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -436,7 +526,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0004",
+          "cueId": "c0005",
           "quote": "boy no honey you can't take him home cuz it's not the dumb thing Turtleboy, you're still here, and you're",
           "start": 49,
           "end": 63,
@@ -445,7 +535,7 @@
         },
         {
           "expressionId": "home",
-          "cueId": "c0004",
+          "cueId": "c0005",
           "quote": "boy no honey you can't take him home cuz it's not the dumb thing Turtleboy, you're still here, and you're",
           "start": 49,
           "end": 63,
@@ -460,21 +550,21 @@
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
+      "id": "c0006",
+      "title": "문단 2",
       "start": 63,
-      "end": 76,
-      "sentenceText": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's ready Whoo! Yeah, he made it! Oh man, that's enough",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "end": 71,
+      "sentenceText": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
+          "id": "c0006",
           "start": 63,
-          "end": 76,
-          "text": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's ready Whoo! Yeah, he made it! Oh man, that's enough",
-          "originalText": "dry Okay Turtle boy you picked up the curry now to get home safe to the turtle misses you ready he's ready woo yeah he made it oh man that's enough",
+          "end": 71,
+          "text": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's",
+          "originalText": "dry Okay Turtle boy you picked up the curry now to get home safe to the turtle misses you ready he's",
           "originalCueRefs": [
             {
               "id": "c0015",
@@ -493,18 +583,6 @@
               "start": 68,
               "end": 71,
               "text": "misses you ready he's"
-            },
-            {
-              "id": "c0018",
-              "start": 71,
-              "end": 73,
-              "text": "ready"
-            },
-            {
-              "id": "c0019",
-              "start": 73,
-              "end": 76,
-              "text": "woo yeah he made it oh man that's enough"
             }
           ],
           "cleanedCueRefs": [
@@ -525,12 +603,6 @@
               "start": 66,
               "end": 68,
               "text": "curry, now to get home safe to the Turtle-"
-            },
-            {
-              "id": "c0021",
-              "start": 73,
-              "end": 76,
-              "text": "Whoo! Yeah, he made it! Oh man, that's enough"
             }
           ],
           "sourceCueRefs": [
@@ -560,30 +632,12 @@
               "originalCueIds": [
                 "c0017"
               ]
-            },
-            {
-              "id": "c0018",
-              "start": 71,
-              "end": 73,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0018"
-              ]
-            },
-            {
-              "id": "c0019",
-              "start": 73,
-              "end": 76,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0019"
-              ]
             }
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -594,28 +648,28 @@
       "targets": [
         {
           "expressionId": "okay",
-          "cueId": "c0005",
-          "quote": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's ready Whoo! Yeah, he made it! Oh man, that's enough",
+          "cueId": "c0006",
+          "quote": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's",
           "start": 63,
-          "end": 76,
+          "end": 71,
           "matchStart": 5,
           "matchEnd": 9
         },
         {
           "expressionId": "home",
-          "cueId": "c0005",
-          "quote": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's ready Whoo! Yeah, he made it! Oh man, that's enough",
+          "cueId": "c0006",
+          "quote": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's",
           "start": 63,
-          "end": 76,
+          "end": 71,
           "matchStart": 60,
           "matchEnd": 64
         },
         {
           "expressionId": "ready",
-          "cueId": "c0005",
-          "quote": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's ready Whoo! Yeah, he made it! Oh man, that's enough",
+          "cueId": "c0006",
+          "quote": "dry! Okay, Turtleboy, we've picked up the curry, now to get home safe to the Turtle- misses you ready he's",
           "start": 63,
-          "end": 76,
+          "end": 71,
           "matchStart": 96,
           "matchEnd": 101
         }
@@ -627,22 +681,34 @@
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
-      "start": 76,
-      "end": 91,
-      "sentenceText": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "id": "c0007",
+      "title": "문단 1",
+      "start": 71,
+      "end": 86,
+      "sentenceText": "ready Whoo! Yeah, he made it! Oh man, that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well,",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
-          "start": 76,
-          "end": 91,
-          "text": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-          "originalText": "of that Dad can I ever take turtle boy home I think his owner has forgotten him well look if he's still here tomorrow then maybe hooray but I'm not sure it's a",
+          "id": "c0007",
+          "start": 71,
+          "end": 86,
+          "text": "ready Whoo! Yeah, he made it! Oh man, that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well,",
+          "originalText": "ready woo yeah he made it oh man that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him well",
           "originalCueRefs": [
+            {
+              "id": "c0018",
+              "start": 71,
+              "end": 73,
+              "text": "ready"
+            },
+            {
+              "id": "c0019",
+              "start": 73,
+              "end": 76,
+              "text": "woo yeah he made it oh man that's enough"
+            },
             {
               "id": "c0020",
               "start": 76,
@@ -660,41 +726,41 @@
               "start": 83,
               "end": 86,
               "text": "I think his owner has forgotten him well"
-            },
-            {
-              "id": "c0023",
-              "start": 86,
-              "end": 88,
-              "text": "look if he's still here tomorrow then"
-            },
-            {
-              "id": "c0024",
-              "start": 88,
-              "end": 91,
-              "text": "maybe hooray but I'm not sure it's a"
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0021",
+              "start": 73,
+              "end": 76,
+              "text": "Whoo! Yeah, he made it! Oh man, that's enough"
+            },
             {
               "id": "c0024",
               "start": 83,
               "end": 86,
               "text": "I think his owner has forgotten him. Well,"
-            },
-            {
-              "id": "c0025",
-              "start": 86,
-              "end": 88,
-              "text": "look, if he's still here tomorrow, then"
-            },
-            {
-              "id": "c0026",
-              "start": 88,
-              "end": 91,
-              "text": "maybe. Hooray! But I'm not sure it's a"
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0018",
+              "start": 71,
+              "end": 73,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0018"
+              ]
+            },
+            {
+              "id": "c0019",
+              "start": 73,
+              "end": 76,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
+            },
             {
               "id": "c0020",
               "start": 76,
@@ -721,7 +787,129 @@
               "originalCueIds": [
                 "c0022"
               ]
+            }
+          ],
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
+          "qualityFlags": [
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "can-i",
+          "cueId": "c0007",
+          "quote": "ready Whoo! Yeah, he made it! Oh man, that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well,",
+          "start": 71,
+          "end": 86,
+          "matchStart": 64,
+          "matchEnd": 69
+        },
+        {
+          "expressionId": "ready",
+          "cueId": "c0007",
+          "quote": "ready Whoo! Yeah, he made it! Oh man, that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well,",
+          "start": 71,
+          "end": 86,
+          "matchStart": 0,
+          "matchEnd": 5
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0007",
+          "quote": "ready Whoo! Yeah, he made it! Oh man, that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well,",
+          "start": 71,
+          "end": 86,
+          "matchStart": 60,
+          "matchEnd": 63
+        },
+        {
+          "expressionId": "home",
+          "cueId": "c0007",
+          "quote": "ready Whoo! Yeah, he made it! Oh man, that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well,",
+          "start": 71,
+          "end": 86,
+          "matchStart": 91,
+          "matchEnd": 95
+        },
+        {
+          "expressionId": "think",
+          "cueId": "c0007",
+          "quote": "ready Whoo! Yeah, he made it! Oh man, that's enough of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well,",
+          "start": 71,
+          "end": 86,
+          "matchStart": 98,
+          "matchEnd": 103
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0008",
+      "title": "문단 2",
+      "start": 86,
+      "end": 92,
+      "sentenceText": "look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a done thing.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0008",
+          "start": 86,
+          "end": 92,
+          "text": "look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a done thing.",
+          "originalText": "look if he's still here tomorrow then maybe hooray but I'm not sure it's a done",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 86,
+              "end": 88,
+              "text": "look if he's still here tomorrow then"
             },
+            {
+              "id": "c0024",
+              "start": 88,
+              "end": 91,
+              "text": "maybe hooray but I'm not sure it's a"
+            },
+            {
+              "id": "c0025",
+              "start": 91,
+              "end": 92,
+              "text": "done"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0025",
+              "start": 86,
+              "end": 88,
+              "text": "look, if he's still here tomorrow, then"
+            },
+            {
+              "id": "c0026",
+              "start": 88,
+              "end": 91,
+              "text": "maybe. Hooray! But I'm not sure it's a"
+            },
+            {
+              "id": "c0027",
+              "start": 91,
+              "end": 92,
+              "text": "done thing."
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0023",
               "start": 86,
@@ -739,14 +927,22 @@
               "originalCueIds": [
                 "c0024"
               ]
+            },
+            {
+              "id": "c0025",
+              "start": 91,
+              "end": 92,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0025"
+              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
-            "raw-original-text",
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
@@ -754,89 +950,46 @@
       ],
       "targets": [
         {
-          "expressionId": "can-i",
-          "cueId": "c0006",
-          "quote": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-          "start": 76,
-          "end": 91,
-          "matchStart": 12,
-          "matchEnd": 17
-        },
-        {
-          "expressionId": "dad",
-          "cueId": "c0006",
-          "quote": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-          "start": 76,
-          "end": 91,
-          "matchStart": 8,
-          "matchEnd": 11
-        },
-        {
-          "expressionId": "home",
-          "cueId": "c0006",
-          "quote": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-          "start": 76,
-          "end": 91,
-          "matchStart": 39,
-          "matchEnd": 43
-        },
-        {
-          "expressionId": "think",
-          "cueId": "c0006",
-          "quote": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-          "start": 76,
-          "end": 91,
-          "matchStart": 46,
-          "matchEnd": 51
-        },
-        {
           "expressionId": "look",
-          "cueId": "c0006",
-          "quote": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-          "start": 76,
-          "end": 91,
-          "matchStart": 87,
-          "matchEnd": 91
+          "cueId": "c0008",
+          "quote": "look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a done thing.",
+          "start": 86,
+          "end": 92,
+          "matchStart": 0,
+          "matchEnd": 4
         },
         {
           "expressionId": "sure",
-          "cueId": "c0006",
-          "quote": "of that Dad can I ever take turtle boy home I think his owner has forgotten him. Well, look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a",
-          "start": 76,
-          "end": 91,
-          "matchStart": 154,
-          "matchEnd": 158
+          "cueId": "c0008",
+          "quote": "look, if he's still here tomorrow, then maybe. Hooray! But I'm not sure it's a done thing.",
+          "start": 86,
+          "end": 92,
+          "matchStart": 67,
+          "matchEnd": 71
         }
       ],
       "qualityFlags": [
-        "raw-original-text",
         "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
-      "start": 91,
+      "id": "c0009",
+      "title": "문단 3",
+      "start": 92,
       "end": 105,
-      "sentenceText": "done thing. One more night, Turtleboy, then you can come home with me. Um, it might be a bit drier back here. And, um, you might",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "sentenceText": "One more night, Turtleboy, then you can come home with me. Um, it might be a bit drier back here. And, um, you might",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
-          "start": 91,
+          "id": "c0009",
+          "start": 92,
           "end": 105,
-          "text": "done thing. One more night, Turtleboy, then you can come home with me. Um, it might be a bit drier back here. And, um, you might",
-          "originalText": "done Thing One More Night turtle boy then you can come home with me um it might be a bit drier back here and um you might",
+          "text": "One more night, Turtleboy, then you can come home with me. Um, it might be a bit drier back here. And, um, you might",
+          "originalText": "Thing One More Night turtle boy then you can come home with me um it might be a bit drier back here and um you might",
           "originalCueRefs": [
-            {
-              "id": "c0025",
-              "start": 91,
-              "end": 92,
-              "text": "done"
-            },
             {
               "id": "c0026",
               "start": 92,
@@ -858,12 +1011,6 @@
           ],
           "cleanedCueRefs": [
             {
-              "id": "c0027",
-              "start": 91,
-              "end": 92,
-              "text": "done thing."
-            },
-            {
               "id": "c0028",
               "start": 92,
               "end": 95,
@@ -883,15 +1030,6 @@
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0025",
-              "start": 91,
-              "end": 92,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0025"
-              ]
-            },
             {
               "id": "c0026",
               "start": 92,
@@ -922,8 +1060,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -933,12 +1071,12 @@
       "targets": [
         {
           "expressionId": "home",
-          "cueId": "c0007",
-          "quote": "done thing. One more night, Turtleboy, then you can come home with me. Um, it might be a bit drier back here. And, um, you might",
-          "start": 91,
+          "cueId": "c0009",
+          "quote": "One more night, Turtleboy, then you can come home with me. Um, it might be a bit drier back here. And, um, you might",
+          "start": 92,
           "end": 105,
-          "matchStart": 57,
-          "matchEnd": 61
+          "matchStart": 45,
+          "matchEnd": 49
         }
       ],
       "qualityFlags": [
@@ -947,17 +1085,17 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0010",
+      "title": "문단 4",
       "start": 105,
       "end": 114,
       "sentenceText": "like to read the newspaper. See you tomorrow. Ready, set, go!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0010",
           "start": 105,
           "end": 114,
           "text": "like to read the newspaper. See you tomorrow. Ready, set, go!",
@@ -1012,8 +1150,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1023,7 +1161,7 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0008",
+          "cueId": "c0010",
           "quote": "like to read the newspaper. See you tomorrow. Ready, set, go!",
           "start": 105,
           "end": 114,
@@ -1032,7 +1170,7 @@
         },
         {
           "expressionId": "see",
-          "cueId": "c0008",
+          "cueId": "c0010",
           "quote": "like to read the newspaper. See you tomorrow. Ready, set, go!",
           "start": 105,
           "end": 114,
@@ -1041,7 +1179,7 @@
         },
         {
           "expressionId": "ready",
-          "cueId": "c0008",
+          "cueId": "c0010",
           "quote": "like to read the newspaper. See you tomorrow. Ready, set, go!",
           "start": 105,
           "end": 114,

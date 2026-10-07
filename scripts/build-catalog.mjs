@@ -2,10 +2,10 @@ import { readFile, readdir, mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-export const CONTENT_VERSION = '2026.09.29-2';
+export const CONTENT_VERSION = '2026.10.06-1';
 export const GENERATION_METHOD = 'editorial-bank+deterministic-match';
 const EXPRESSION_CONTENT_VERSION = '2026.09.25-3';
-const SOURCE_GROUPING_VERSION = '2026.09.29-2';
+const SOURCE_GROUPING_VERSION = '2026.09.30-1';
 const TARGET_SCENE_SECONDS = 5;
 const MAX_SCENE_SECONDS = 15;
 const HARD_GAP_SECONDS = 3;
@@ -103,6 +103,74 @@ export function parseScriptHeadings(text) {
     pendingTitle = '';
   }
   return headings;
+}
+
+function stripDisplayedTimestamp(value, minute, second) {
+  const escapedMinute = String(minute).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const escapedSecond = String(Number(second)).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return value
+    .replace(new RegExp(`^${escapedMinute}분\\s*${escapedSecond}초\\s*`), '')
+    .replace(new RegExp(`^${escapedSecond}초\\s*`), '')
+    .trim();
+}
+
+export function parseChapteredTranscriptText(text, sourceName = 'chaptered-transcript.txt') {
+  const lines = String(text ?? '').replace(/\r\n?/g, '\n').split('\n');
+  let expectedChapterCount;
+  let excerptEnd;
+  let activeChapter;
+  const chapters = [];
+  const sections = [];
+
+  for (const [lineIndex, rawLine] of lines.entries()) {
+    const line = rawLine.trim();
+    if (!line) continue;
+    const expected = line.match(/^expected[- ]chapter[- ]count\s*:\s*(\d+)\s*$/i);
+    if (expected) {
+      expectedChapterCount = Number(expected[1]);
+      continue;
+    }
+    const excerpt = line.match(/^excerpt[- ]end\s*:\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*$/i);
+    if (excerpt) {
+      excerptEnd = timestampToSeconds(excerpt[1]);
+      continue;
+    }
+    const chapter = line.match(/^(?:chapter|챕터)\s*(\d+)\s*[:：-]\s*(.+?)\s*$/iu);
+    if (chapter) {
+      activeChapter = {
+        number: Number(chapter[1]),
+        title: chapter[2].trim(),
+        markerStart: undefined,
+        sections: [],
+        sourceLine: lineIndex + 1,
+      };
+      chapters.push(activeChapter);
+      continue;
+    }
+    const row = line.match(/^(\d{1,3}):([0-5]\d)(.*)$/u);
+    if (!row || !activeChapter) continue;
+    const start = Number(row[1]) * 60 + Number(row[2]);
+    const section = {
+      start,
+      text: stripDisplayedTimestamp(row[3], row[1], row[2]),
+      chapterNumber: activeChapter.number,
+      sourceLine: lineIndex + 1,
+    };
+    if (!section.text) throw new Error(`${sourceName}:${section.sourceLine}: timestamp row has no transcript text`);
+    if (sections.length && start <= sections.at(-1).start) throw new Error(`${sourceName}:${section.sourceLine}: timestamp rows must increase`);
+    activeChapter.markerStart ??= start;
+    activeChapter.sections.push(section);
+    sections.push(section);
+  }
+
+  if (!chapters.length || chapters.some(chapter => !Number.isFinite(chapter.markerStart))) {
+    throw new Error(`${sourceName}: each explicit chapter requires at least one timestamp row`);
+  }
+  for (const [index, section] of sections.entries()) {
+    section.end = sections[index + 1]?.start ?? excerptEnd;
+    if (!(section.end > section.start)) throw new Error(`${sourceName}:${section.sourceLine}: final timestamp row requires a later Excerpt-End`);
+  }
+  return { sourceName, expectedChapterCount, excerptEnd, chapters, sections };
 }
 
 function overlapsOrContainsPoint(original, cue) {
@@ -209,21 +277,23 @@ export function buildOriginalCueGroups(original, cleaned, overrides = []) {
       .filter((part) => /[\p{L}\p{N}]/u.test(part));
     const cleanedRawText = cleanedRawParts.join(' ');
     const removedAnnotation = cleanedRawText && cleanedRawText !== rawText;
+    const explicitText = typeof config.text === 'string' ? config.text.trim() : '';
     const qualityFlags = [
       ...(config.qualityFlags || []),
+      ...(explicitText ? ['user-provided-transcript-text'] : []),
       hasExactCoverage ? 'corrected-text-exact-coverage' : 'raw-original-text',
       ...(!hasExactCoverage && removedAnnotation ? ['non-spoken-annotation-removed'] : []),
     ];
     groups.push({
       start: config.start ?? Math.min(...rawRefs.map((cue) => cue.start)),
       end: config.end ?? Math.max(...rawRefs.map((cue) => cue.end)),
-      text: hasExactCoverage ? corrected.map((item) => item.text).join(' ') : (cleanedRawText || rawText),
+      text: explicitText || (hasExactCoverage ? corrected.map((item) => item.text).join(' ') : (cleanedRawText || rawText)),
       originalText: rawText,
       originalCueRefs: rawRefs.map((cue) => ({ id: cue.id, start: cue.start, end: cue.end, text: cue.text })),
       cleanedCueRefs: hasExactCoverage
         ? corrected.flatMap((item) => item.refs.map((cue) => ({ id: cue.id, start: cue.start, end: cue.end, text: cue.text })))
         : [],
-      textSource: hasExactCoverage ? 'cleaned-exact-coverage' : 'original-captured',
+      textSource: explicitText ? 'user-provided-transcript' : (hasExactCoverage ? 'cleaned-exact-coverage' : 'original-captured'),
       groupingProvenance: config.provenance || 'original-captured-cue',
       qualityFlags: [...new Set(qualityFlags)],
     });
@@ -345,6 +415,13 @@ function combineDialogueCues(cues, index, chapterId, paragraphIndex) {
   };
 }
 
+function isExplicitSourceGroup(cue) {
+  return cue.groupingProvenance === 'parent-explicit-grouping'
+    || cue.groupingProvenance === 'user-provided-script-section'
+    || cue.qualityFlags?.includes('explicit-parent-grouping')
+    || cue.qualityFlags?.includes('explicit-script-section');
+}
+
 export function groupDialogueCues(cues, headings = [], fallbackTitle = '전체 영상') {
   const ordered = [...cues].sort((left, right) => left.start - right.start || left.end - right.end || left.id.localeCompare(right.id));
   const chapters = chapterDefinitions(ordered, headings, fallbackTitle);
@@ -360,8 +437,7 @@ export function groupDialogueCues(cues, headings = [], fallbackTitle = '전체 �
 
   for (const cue of ordered) {
     const chapterId = chapterForCue(cue, chapters).id;
-    const explicitGrouping = cue.groupingProvenance === 'parent-explicit-grouping'
-      || cue.qualityFlags?.includes('explicit-parent-grouping');
+    const explicitGrouping = isExplicitSourceGroup(cue);
     if (explicitGrouping) {
       flush();
       groups.push({ cues: [cue], chapterId });
@@ -390,7 +466,7 @@ export function groupDialogueCues(cues, headings = [], fallbackTitle = '전체 �
     const prior = groups[index - 1];
     const duration = Math.max(...group.cues.map(cue => cue.end)) - Math.min(...group.cues.map(cue => cue.start));
     if (duration >= TARGET_SCENE_SECONDS || group.chapterId !== prior.chapterId) continue;
-    if ([...prior.cues, ...group.cues].some(cue => cue.groupingProvenance === 'parent-explicit-grouping' || cue.qualityFlags?.includes('explicit-parent-grouping'))) continue;
+    if ([...prior.cues, ...group.cues].some(isExplicitSourceGroup)) continue;
     if ([...prior.cues, ...group.cues].some(cue => isNonSpeechAnnotation(cue.text))) continue;
     const combined = [...prior.cues, ...group.cues];
     const combinedDuration = Math.max(...combined.map(cue => cue.end)) - Math.min(...combined.map(cue => cue.start));
@@ -462,9 +538,9 @@ export function validateVideo(video, expressions) {
     for (const chapter of video.chapters || []) {
       if (!/^chapter-[0-9]{3}$/.test(chapter?.id || '') || chapterMap.has(chapter.id)) errors.push(`${chapter?.id || 'chapter'}: invalid-chapter-id`);
       else chapterMap.set(chapter.id, chapter);
-      if (!chapter?.title || !['script-heading', 'whole-video', 'user-provided', 'partial-heading-fallback'].includes(chapter?.source)) errors.push(`${chapter?.id || 'chapter'}: invalid-chapter-source`);
+      if (!chapter?.title || !['script-heading', 'whole-video', 'user-provided', 'youtube-chapter', 'youtube-auto-chapter', 'partial-heading-fallback'].includes(chapter?.source)) errors.push(`${chapter?.id || 'chapter'}: invalid-chapter-source`);
       if (!(chapter?.start >= 0 && chapter.start < chapter.end && chapter.end <= video.duration)) errors.push(`${chapter?.id || 'chapter'}: invalid-chapter-time`);
-      if (['script-heading', 'user-provided', 'partial-heading-fallback'].includes(chapter?.source)) {
+      if (['script-heading', 'user-provided', 'youtube-chapter', 'youtube-auto-chapter', 'partial-heading-fallback'].includes(chapter?.source)) {
         const snapped = chapter.qualityFlags?.includes('chapter-boundary-snapped-to-caption');
         if (!Number.isFinite(chapter.markerStart) || chapter.markerStart < chapter.start || chapter.markerStart >= chapter.end) errors.push(`${chapter.id}: invalid-chapter-marker`);
         if (chapter.snapSeconds !== chapter.markerStart - chapter.start || snapped !== (chapter.snapSeconds > 0)) errors.push(`${chapter.id}: invalid-chapter-snap-provenance`);
@@ -679,8 +755,26 @@ export async function buildCatalog({ rootDir, outputDir, reportPath, expressionP
     if (aligned.excludedZeroDuration) qualityFlags.push('contains-excluded-zero-duration-cues');
     if (aligned.cues.some((cue) => cue.qualityFlags.includes('no-original-overlap'))) qualityFlags.push('contains-cues-without-original-overlap');
 
-    if ((groupingManifest.videos[id] || []).length) qualityFlags.push('contains-explicit-parent-grouping');
-    const capturedHeadings = chapterManifest.videos[id]?.chapters || parseScriptHeadings(markdownText);
+    if ((groupingManifest.videos[id] || []).length) qualityFlags.push('contains-explicit-source-grouping');
+    const videoChapterMetadata = chapterManifest.videos[id];
+    let capturedHeadings;
+    if (videoChapterMetadata?.scriptSource) {
+      const scriptSourcePath = path.join(rootDir, videoChapterMetadata.scriptSource);
+      const chapteredTranscript = parseChapteredTranscriptText(await readFile(scriptSourcePath, 'utf8'), scriptSourcePath);
+      if (chapteredTranscript.expectedChapterCount !== videoChapterMetadata.expectedChapterCount) {
+        throw new Error(`${fileName}: chapter source expected count does not match metadata`);
+      }
+      capturedHeadings = chapteredTranscript.chapters.map((chapter, chapterIndex, chapters) => ({
+        title: chapter.title,
+        markerStart: chapter.markerStart,
+        source: 'user-provided',
+        coverage: chapterIndex < chapters.length - 1 ? 'confirmed-boundaries' : 'confirmed-excerpt',
+        provenance: 'user-provided-chapter-title-and-start',
+      }));
+      if (videoChapterMetadata.unverifiedRemainder) capturedHeadings.push(videoChapterMetadata.unverifiedRemainder);
+    } else {
+      capturedHeadings = videoChapterMetadata?.chapters || parseScriptHeadings(markdownText);
+    }
     const headings = capturedHeadings.map(heading => {
       // Cubby's captured episode announcement says "Puppy". Preserve that
       // source label while correcting this known title mismatch in navigation.
@@ -788,7 +882,7 @@ export async function buildCatalog({ rootDir, outputDir, reportPath, expressionP
     notes: [
       'Cue text is captured transcript data and has not been checked against audio.',
       'Learning scenes group consecutive captured cues into dialogue paragraphs targeting 5 seconds and never exceeding 15 seconds, while parent-specified source groups remain standalone.',
-      'Script headings become chapter labels at their captured cue markers; any pre-heading introduction and videos without headings use an honest whole-video source label and are not presented as verified YouTube chapters.',
+      'Verified YouTube chapter metadata takes precedence when available; script headings are used only as a labeled study-section fallback, and videos without either source use one whole-video section.',
       'Corrected text is used only when cleaned cues cover each referenced original cue exactly; otherwise captured original text is retained.',
       'Scene IDs are newly assigned within this content version and must not be joined to progress from older content versions.',
       'Broad IPA is an editorial learning aid and may differ from Australian speech in the videos.',

@@ -18,31 +18,65 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 3,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Dad Ignores Sat Nav! 🤣 😮 | Funny Bluey Moment - Show and Tell | Bluey",
+      "title": "Setting up the journey",
       "start": 0,
-      "end": 127,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 37,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Ignoring navigation",
+      "start": 37,
+      "markerStart": 37,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 88,
+      "sceneIds": [
         "c0004",
         "c0005",
         "c0006",
         "c0007",
         "c0008",
-        "c0009",
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Following directions",
+      "start": 88,
+      "markerStart": 88,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 127,
+      "sceneIds": [
         "c0010",
         "c0011",
         "c0012",
         "c0013",
-        "c0014",
-        "c0015"
+        "c0014"
       ]
     }
   ],
@@ -444,12 +478,12 @@
     },
     {
       "id": "c0004",
-      "title": "문단 4",
+      "title": "문단 1",
       "start": 37,
       "end": 43,
       "sentenceText": "Oh man, I'm done with this game. In 50 m, turn left.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -495,8 +529,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -521,12 +555,12 @@
     },
     {
       "id": "c0005",
-      "title": "문단 5",
+      "title": "문단 2",
       "start": 43,
       "end": 49,
       "sentenceText": "No. Turn left here. No, I don't want to.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -591,8 +625,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -644,12 +678,12 @@
     },
     {
       "id": "c0006",
-      "title": "문단 6",
+      "title": "문단 3",
       "start": 49,
       "end": 55,
       "sentenceText": "Dad, what are you doing? Did you just say no to sat? Turn left. Turn right.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
@@ -695,8 +729,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -748,12 +782,12 @@
     },
     {
       "id": "c0007",
-      "title": "문단 7",
+      "title": "문단 4",
       "start": 55,
       "end": 67,
       "sentenceText": "I'm sick of it telling me what to do. Proceed to the route. You proceed to the route. route. I do what I want. You can't ignore Satnab. Watch me. But she's trying to help you find your surfboard.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
@@ -863,8 +897,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -909,12 +943,12 @@
     },
     {
       "id": "c0008",
-      "title": "문단 8",
+      "title": "문단 5",
       "start": 67,
       "end": 77,
       "sentenceText": "She's busting me around. That's she's doing. If you ignore Satnab, you're going to get lost. Well, we'll see. Turn right here. Nope.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
@@ -997,8 +1031,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",
@@ -1034,20 +1068,20 @@
     },
     {
       "id": "c0009",
-      "title": "문단 9",
+      "title": "문단 6",
       "start": 77,
-      "end": 84,
-      "sentenceText": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "end": 88,
+      "sentenceText": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
           "id": "c0009",
           "start": 77,
-          "end": 84,
-          "text": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
-          "originalText": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
+          "end": 88,
+          "text": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
+          "originalText": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
           "originalCueRefs": [
             {
               "id": "c0030",
@@ -1060,9 +1094,22 @@
               "start": 79,
               "end": 84,
               "text": "so. Love. Do a Uturn. Nah, I'm good."
+            },
+            {
+              "id": "c0032",
+              "start": 84,
+              "end": 88,
+              "text": "Proceed to the route."
             }
           ],
-          "cleanedCueRefs": [],
+          "cleanedCueRefs": [
+            {
+              "id": "c0043",
+              "start": 84,
+              "end": 88,
+              "text": "Proceed to the route."
+            }
+          ],
           "sourceCueRefs": [
             {
               "id": "c0030",
@@ -1081,14 +1128,24 @@
               "originalCueIds": [
                 "c0031"
               ]
+            },
+            {
+              "id": "c0032",
+              "start": 84,
+              "end": 88,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0032"
+              ]
             }
           ],
-          "textSource": "original-captured",
+          "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "raw-original-text",
+            "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
         }
@@ -1097,91 +1154,86 @@
         {
           "expressionId": "no",
           "cueId": "c0009",
-          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
+          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
           "start": 77,
-          "end": 84,
+          "end": 88,
           "matchStart": 21,
           "matchEnd": 23
         },
         {
           "expressionId": "think",
           "cueId": "c0009",
-          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
+          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
           "start": 77,
-          "end": 84,
+          "end": 88,
           "matchStart": 33,
           "matchEnd": 38
         },
         {
           "expressionId": "love",
           "cueId": "c0009",
-          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
+          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
           "start": 77,
-          "end": 84,
+          "end": 88,
           "matchStart": 43,
           "matchEnd": 47
         },
         {
           "expressionId": "good",
           "cueId": "c0009",
-          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
+          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
           "start": 77,
-          "end": 84,
+          "end": 88,
           "matchStart": 70,
           "matchEnd": 74
         },
         {
           "expressionId": "dont",
           "cueId": "c0009",
-          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good.",
+          "quote": "Continue straight or No, I don't think so. Love. Do a Uturn. Nah, I'm good. Proceed to the route.",
           "start": 77,
-          "end": 84,
+          "end": 88,
           "matchStart": 27,
           "matchEnd": 32
         }
       ],
       "qualityFlags": [
         "raw-original-text",
+        "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
       "id": "c0010",
-      "title": "문단 10",
-      "start": 84,
-      "end": 91,
-      "sentenceText": "Proceed to the route. Statue World. Is your surfboard here?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "title": "문단 1",
+      "start": 88,
+      "end": 97,
+      "sentenceText": "Statue World. Is your surfboard here? No, I think we're lost. We told you.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
-          "start": 84,
-          "end": 91,
-          "text": "Proceed to the route. Statue World. Is your surfboard here?",
-          "originalText": "Proceed to the route. statue world. Is your surfboard here?",
+          "start": 88,
+          "end": 97,
+          "text": "Statue World. Is your surfboard here? No, I think we're lost. We told you.",
+          "originalText": "statue world. Is your surfboard here? No, I think we're lost. We told you.",
           "originalCueRefs": [
-            {
-              "id": "c0032",
-              "start": 84,
-              "end": 88,
-              "text": "Proceed to the route."
-            },
             {
               "id": "c0033",
               "start": 88,
               "end": 91,
               "text": "statue world. Is your surfboard here?"
+            },
+            {
+              "id": "c0034",
+              "start": 91,
+              "end": 97,
+              "text": "No, I think we're lost. We told you."
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0043",
-              "start": 84,
-              "end": 88,
-              "text": "Proceed to the route."
-            },
             {
               "id": "c0044",
               "start": 88,
@@ -1193,69 +1245,7 @@
               "start": 90,
               "end": 91,
               "text": "your surfboard here?"
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0032",
-              "start": 84,
-              "end": 88,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0032"
-              ]
             },
-            {
-              "id": "c0033",
-              "start": 88,
-              "end": 91,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0033"
-              ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0011",
-      "title": "문단 11",
-      "start": 91,
-      "end": 97,
-      "sentenceText": "No, I think we're lost. We told you.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0011",
-          "start": 91,
-          "end": 97,
-          "text": "No, I think we're lost. We told you.",
-          "originalText": "No, I think we're lost. We told you.",
-          "originalCueRefs": [
-            {
-              "id": "c0034",
-              "start": 91,
-              "end": 97,
-              "text": "No, I think we're lost. We told you."
-            }
-          ],
-          "cleanedCueRefs": [
             {
               "id": "c0046",
               "start": 91,
@@ -1271,6 +1261,15 @@
           ],
           "sourceCueRefs": [
             {
+              "id": "c0033",
+              "start": 88,
+              "end": 91,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0033"
+              ]
+            },
+            {
               "id": "c0034",
               "start": 91,
               "end": 97,
@@ -1281,50 +1280,52 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage"
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
           ]
         }
       ],
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0011",
-          "quote": "No, I think we're lost. We told you.",
-          "start": 91,
+          "cueId": "c0010",
+          "quote": "Statue World. Is your surfboard here? No, I think we're lost. We told you.",
+          "start": 88,
           "end": 97,
-          "matchStart": 0,
-          "matchEnd": 2
+          "matchStart": 38,
+          "matchEnd": 40
         },
         {
           "expressionId": "think",
-          "cueId": "c0011",
-          "quote": "No, I think we're lost. We told you.",
-          "start": 91,
+          "cueId": "c0010",
+          "quote": "Statue World. Is your surfboard here? No, I think we're lost. We told you.",
+          "start": 88,
           "end": 97,
-          "matchStart": 6,
-          "matchEnd": 11
+          "matchStart": 44,
+          "matchEnd": 49
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage"
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0012",
-      "title": "문단 12",
+      "id": "c0011",
+      "title": "문단 2",
       "start": 97,
       "end": 102,
       "sentenceText": "How am I going to find a surfboard? You just have to do what Sat Nav says.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0012",
+          "id": "c0011",
           "start": 97,
           "end": 102,
           "text": "How am I going to find a surfboard? You just have to do what Sat Nav says.",
@@ -1379,8 +1380,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1390,7 +1391,7 @@
       "targets": [
         {
           "expressionId": "have-to",
-          "cueId": "c0012",
+          "cueId": "c0011",
           "quote": "How am I going to find a surfboard? You just have to do what Sat Nav says.",
           "start": 97,
           "end": 102,
@@ -1399,7 +1400,7 @@
         },
         {
           "expressionId": "how",
-          "cueId": "c0012",
+          "cueId": "c0011",
           "quote": "How am I going to find a surfboard? You just have to do what Sat Nav says.",
           "start": 97,
           "end": 102,
@@ -1408,7 +1409,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0012",
+          "cueId": "c0011",
           "quote": "How am I going to find a surfboard? You just have to do what Sat Nav says.",
           "start": 97,
           "end": 102,
@@ -1422,17 +1423,17 @@
       ]
     },
     {
-      "id": "c0013",
-      "title": "문단 13",
+      "id": "c0012",
+      "title": "문단 3",
       "start": 102,
       "end": 109,
       "sentenceText": "Really? Yes. Even though she's bossing me around. Yes, she's doing it for a good reason.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0013",
+          "id": "c0012",
           "start": 102,
           "end": 109,
           "text": "Really? Yes. Even though she's bossing me around. Yes, she's doing it for a good reason.",
@@ -1508,8 +1509,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1519,7 +1520,7 @@
       "targets": [
         {
           "expressionId": "yes",
-          "cueId": "c0013",
+          "cueId": "c0012",
           "quote": "Really? Yes. Even though she's bossing me around. Yes, she's doing it for a good reason.",
           "start": 102,
           "end": 109,
@@ -1528,7 +1529,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0013",
+          "cueId": "c0012",
           "quote": "Really? Yes. Even though she's bossing me around. Yes, she's doing it for a good reason.",
           "start": 102,
           "end": 109,
@@ -1542,17 +1543,17 @@
       ]
     },
     {
-      "id": "c0014",
-      "title": "문단 14",
+      "id": "c0013",
+      "title": "문단 4",
       "start": 109,
       "end": 119,
       "sentenceText": "Okay, let's give it a go. Bye, Statue World. In 50 m, turn right. Now turn like she says. This better work.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0014",
+          "id": "c0013",
           "start": 109,
           "end": 119,
           "text": "Okay, let's give it a go. Bye, Statue World. In 50 m, turn right. Now turn like she says. This better work.",
@@ -1622,8 +1623,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -1634,7 +1635,7 @@
       "targets": [
         {
           "expressionId": "okay",
-          "cueId": "c0014",
+          "cueId": "c0013",
           "quote": "Okay, let's give it a go. Bye, Statue World. In 50 m, turn right. Now turn like she says. This better work.",
           "start": 109,
           "end": 119,
@@ -1643,7 +1644,7 @@
         },
         {
           "expressionId": "lets",
-          "cueId": "c0014",
+          "cueId": "c0013",
           "quote": "Okay, let's give it a go. Bye, Statue World. In 50 m, turn right. Now turn like she says. This better work.",
           "start": 109,
           "end": 119,
@@ -1652,7 +1653,7 @@
         },
         {
           "expressionId": "turn",
-          "cueId": "c0014",
+          "cueId": "c0013",
           "quote": "Okay, let's give it a go. Bye, Statue World. In 50 m, turn right. Now turn like she says. This better work.",
           "start": 109,
           "end": 119,
@@ -1661,7 +1662,7 @@
         },
         {
           "expressionId": "like",
-          "cueId": "c0014",
+          "cueId": "c0013",
           "quote": "Okay, let's give it a go. Bye, Statue World. In 50 m, turn right. Now turn like she says. This better work.",
           "start": 109,
           "end": 119,
@@ -1676,17 +1677,17 @@
       ]
     },
     {
-      "id": "c0015",
-      "title": "문단 15",
+      "id": "c0014",
+      "title": "문단 5",
       "start": 119,
       "end": 127,
       "sentenceText": "Turn left here. Well, I just... Okay.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 15,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0015",
+          "id": "c0014",
           "start": 119,
           "end": 127,
           "text": "Turn left here. Well, I just... Okay.",
@@ -1726,8 +1727,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 15,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1736,7 +1737,7 @@
       "targets": [
         {
           "expressionId": "turn",
-          "cueId": "c0015",
+          "cueId": "c0014",
           "quote": "Turn left here. Well, I just... Okay.",
           "start": 119,
           "end": 127,
@@ -1745,7 +1746,7 @@
         },
         {
           "expressionId": "okay",
-          "cueId": "c0015",
+          "cueId": "c0014",
           "quote": "Turn left here. Well, I just... Okay.",
           "start": 119,
           "end": 127,

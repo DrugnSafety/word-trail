@@ -18,26 +18,79 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Cricket",
+      "title": "Rusty's love for cricket",
       "start": 0,
-      "end": 123,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 28,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Planning to defeat Rusty",
+      "start": 28,
+      "markerStart": 28,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 58,
+      "sceneIds": [
         "c0004",
         "c0005",
-        "c0006",
+        "c0006"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Changing the bowling attack",
+      "start": 58,
+      "markerStart": 60,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 90,
+      "sceneIds": [
         "c0007",
         "c0008",
-        "c0009",
-        "c0010"
+        "c0009"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Rusty's secret practice",
+      "start": 90,
+      "markerStart": 90,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 123,
+      "sceneIds": [
+        "c0010",
+        "c0011",
+        "c0012"
       ]
     }
   ],
@@ -274,8 +327,8 @@
       "id": "c0003",
       "title": "문단 3",
       "start": 25,
-      "end": 31,
-      "sentenceText": "That's it, Snickers! Man, this kid's good. Look, he likes to square cut.",
+      "end": 28,
+      "sentenceText": "That's it, Snickers! Man, this kid's good.",
       "chapterId": "chapter-001",
       "paragraphIndex": 3,
       "selectable": true,
@@ -283,21 +336,15 @@
         {
           "id": "c0003",
           "start": 25,
-          "end": 31,
-          "text": "That's it, Snickers! Man, this kid's good. Look, he likes to square cut.",
-          "originalText": "out that's it Snickers man this kid's good look he likes the square cut strip",
+          "end": 28,
+          "text": "That's it, Snickers! Man, this kid's good.",
+          "originalText": "out that's it Snickers man this kid's",
           "originalCueRefs": [
             {
               "id": "c0007",
               "start": 25,
               "end": 28,
               "text": "out that's it Snickers man this kid's"
-            },
-            {
-              "id": "c0008",
-              "start": 28,
-              "end": 31,
-              "text": "good look he likes the square cut strip"
             }
           ],
           "cleanedCueRefs": [
@@ -312,12 +359,6 @@
               "start": 27,
               "end": 28,
               "text": "Man, this kid's good."
-            },
-            {
-              "id": "c0010",
-              "start": 28,
-              "end": 31,
-              "text": "Look, he likes to square cut."
             }
           ],
           "sourceCueRefs": [
@@ -329,7 +370,88 @@
               "originalCueIds": [
                 "c0007"
               ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "thats-it",
+          "cueId": "c0003",
+          "quote": "That's it, Snickers! Man, this kid's good.",
+          "start": 25,
+          "end": 28,
+          "matchStart": 0,
+          "matchEnd": 9
+        },
+        {
+          "expressionId": "good",
+          "cueId": "c0003",
+          "quote": "That's it, Snickers! Man, this kid's good.",
+          "start": 25,
+          "end": 28,
+          "matchStart": 37,
+          "matchEnd": 41
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 1",
+      "start": 28,
+      "end": 33,
+      "sentenceText": "Look, he likes to square cut. Stripe, you and me will move to gully and point.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 28,
+          "end": 33,
+          "text": "Look, he likes to square cut. Stripe, you and me will move to gully and point.",
+          "originalText": "good look he likes the square cut strip you and me will move to Gully and point",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 28,
+              "end": 31,
+              "text": "good look he likes the square cut strip"
             },
+            {
+              "id": "c0009",
+              "start": 31,
+              "end": 33,
+              "text": "you and me will move to Gully and point"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0010",
+              "start": 28,
+              "end": 31,
+              "text": "Look, he likes to square cut."
+            },
+            {
+              "id": "c0011",
+              "start": 31,
+              "end": 33,
+              "text": "Stripe, you and me will move to gully and point."
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0008",
               "start": 28,
@@ -338,12 +460,21 @@
               "originalCueIds": [
                 "c0008"
               ]
+            },
+            {
+              "id": "c0009",
+              "start": 31,
+              "end": 33,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0009"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -352,31 +483,13 @@
       ],
       "targets": [
         {
-          "expressionId": "thats-it",
-          "cueId": "c0003",
-          "quote": "That's it, Snickers! Man, this kid's good. Look, he likes to square cut.",
-          "start": 25,
-          "end": 31,
-          "matchStart": 0,
-          "matchEnd": 9
-        },
-        {
-          "expressionId": "good",
-          "cueId": "c0003",
-          "quote": "That's it, Snickers! Man, this kid's good. Look, he likes to square cut.",
-          "start": 25,
-          "end": 31,
-          "matchStart": 37,
-          "matchEnd": 41
-        },
-        {
           "expressionId": "look",
-          "cueId": "c0003",
-          "quote": "That's it, Snickers! Man, this kid's good. Look, he likes to square cut.",
-          "start": 25,
-          "end": 31,
-          "matchStart": 43,
-          "matchEnd": 47
+          "cueId": "c0004",
+          "quote": "Look, he likes to square cut. Stripe, you and me will move to gully and point.",
+          "start": 28,
+          "end": 33,
+          "matchStart": 0,
+          "matchEnd": 4
         }
       ],
       "qualityFlags": [
@@ -385,28 +498,22 @@
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
-      "start": 31,
-      "end": 43,
-      "sentenceText": "Stripe, you and me will move to gully and point. you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "id": "c0005",
+      "title": "문단 2",
+      "start": 33,
+      "end": 48,
+      "sentenceText": "you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's kitchen uh run hey come back here that",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
-          "start": 31,
-          "end": 43,
-          "text": "Stripe, you and me will move to gully and point. you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's",
-          "originalText": "you and me will move to Gully and point you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's",
+          "id": "c0005",
+          "start": 33,
+          "end": 48,
+          "text": "you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's kitchen uh run hey come back here that",
+          "originalText": "you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's kitchen uh run hey come back here that",
           "originalCueRefs": [
-            {
-              "id": "c0009",
-              "start": 31,
-              "end": 33,
-              "text": "you and me will move to Gully and point"
-            },
             {
               "id": "c0010",
               "start": 33,
@@ -424,26 +531,16 @@
               "start": 39,
               "end": 43,
               "text": "didn't know about Rusty's"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0011",
-              "start": 31,
-              "end": 33,
-              "text": "Stripe, you and me will move to gully and point."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0009",
-              "start": 31,
-              "end": 33,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0009"
-              ]
             },
+            {
+              "id": "c0013",
+              "start": 43,
+              "end": 48,
+              "text": "kitchen uh run hey come back here that"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0010",
               "start": 33,
@@ -470,14 +567,22 @@
               "originalCueIds": [
                 "c0012"
               ]
+            },
+            {
+              "id": "c0013",
+              "start": 43,
+              "end": 48,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0013"
+              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
             "raw-original-text",
             "duration-grouped-dialogue"
           ]
@@ -486,52 +591,45 @@
       "targets": [
         {
           "expressionId": "good",
-          "cueId": "c0004",
-          "quote": "Stripe, you and me will move to gully and point. you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's",
-          "start": 31,
-          "end": 43,
-          "matchStart": 112,
-          "matchEnd": 116
+          "cueId": "c0005",
+          "quote": "you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's kitchen uh run hey come back here that",
+          "start": 33,
+          "end": 48,
+          "matchStart": 63,
+          "matchEnd": 67
         },
         {
           "expressionId": "know",
-          "cueId": "c0004",
-          "quote": "Stripe, you and me will move to gully and point. you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's",
-          "start": 31,
-          "end": 43,
-          "matchStart": 136,
-          "matchEnd": 140
+          "cueId": "c0005",
+          "quote": "you send one to his off stump lure him into the catch it was a good plan but we didn't know about Rusty's kitchen uh run hey come back here that",
+          "start": 33,
+          "end": 48,
+          "matchStart": 87,
+          "matchEnd": 91
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
         "raw-original-text",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
-      "start": 43,
+      "id": "c0006",
+      "title": "문단 3",
+      "start": 48,
       "end": 57,
-      "sentenceText": "kitchen uh run hey come back here that was good motivation to work on your square",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "sentenceText": "was good motivation to work on your square",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
-          "start": 43,
+          "id": "c0006",
+          "start": 48,
           "end": 57,
-          "text": "kitchen uh run hey come back here that was good motivation to work on your square",
-          "originalText": "kitchen uh run hey come back here that was good motivation to work on your square",
+          "text": "was good motivation to work on your square",
+          "originalText": "was good motivation to work on your square",
           "originalCueRefs": [
-            {
-              "id": "c0013",
-              "start": 43,
-              "end": 48,
-              "text": "kitchen uh run hey come back here that"
-            },
             {
               "id": "c0014",
               "start": 48,
@@ -547,15 +645,6 @@
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0013",
-              "start": 43,
-              "end": 48,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0013"
-              ]
-            },
             {
               "id": "c0014",
               "start": 48,
@@ -577,8 +666,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -588,12 +677,12 @@
       "targets": [
         {
           "expressionId": "good",
-          "cueId": "c0005",
-          "quote": "kitchen uh run hey come back here that was good motivation to work on your square",
-          "start": 43,
+          "cueId": "c0006",
+          "quote": "was good motivation to work on your square",
+          "start": 48,
           "end": 57,
-          "matchStart": 43,
-          "matchEnd": 47
+          "matchStart": 4,
+          "matchEnd": 8
         }
       ],
       "qualityFlags": [
@@ -602,17 +691,17 @@
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
+      "id": "c0007",
+      "title": "문단 1",
       "start": 58,
       "end": 69,
       "sentenceText": "cut I had no Yeah, Rusty! It was time to mix up the attack.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
+          "id": "c0007",
           "start": 58,
           "end": 69,
           "text": "cut I had no Yeah, Rusty! It was time to mix up the attack.",
@@ -667,8 +756,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -679,7 +768,7 @@
       "targets": [
         {
           "expressionId": "no",
-          "cueId": "c0006",
+          "cueId": "c0007",
           "quote": "cut I had no Yeah, Rusty! It was time to mix up the attack.",
           "start": 58,
           "end": 69,
@@ -694,17 +783,17 @@
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
+      "id": "c0008",
+      "title": "문단 2",
       "start": 69,
       "end": 82,
       "sentenceText": "attack give me that I've had enough of your pies better spin okay Rusty oh good Misty healer stripe put it right on that crack there see oh yeah good call stripe",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
+          "id": "c0008",
           "start": 69,
           "end": 82,
           "text": "attack give me that I've had enough of your pies better spin okay Rusty oh good Misty healer stripe put it right on that crack there see oh yeah good call stripe",
@@ -776,8 +865,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -787,7 +876,7 @@
       "targets": [
         {
           "expressionId": "give-me",
-          "cueId": "c0007",
+          "cueId": "c0008",
           "quote": "attack give me that I've had enough of your pies better spin okay Rusty oh good Misty healer stripe put it right on that crack there see oh yeah good call stripe",
           "start": 69,
           "end": 82,
@@ -796,7 +885,7 @@
         },
         {
           "expressionId": "okay",
-          "cueId": "c0007",
+          "cueId": "c0008",
           "quote": "attack give me that I've had enough of your pies better spin okay Rusty oh good Misty healer stripe put it right on that crack there see oh yeah good call stripe",
           "start": 69,
           "end": 82,
@@ -805,7 +894,7 @@
         },
         {
           "expressionId": "good",
-          "cueId": "c0007",
+          "cueId": "c0008",
           "quote": "attack give me that I've had enough of your pies better spin okay Rusty oh good Misty healer stripe put it right on that crack there see oh yeah good call stripe",
           "start": 69,
           "end": 82,
@@ -814,7 +903,7 @@
         },
         {
           "expressionId": "see",
-          "cueId": "c0007",
+          "cueId": "c0008",
           "quote": "attack give me that I've had enough of your pies better spin okay Rusty oh good Misty healer stripe put it right on that crack there see oh yeah good call stripe",
           "start": 69,
           "end": 82,
@@ -828,21 +917,21 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
+      "id": "c0009",
+      "title": "문단 3",
       "start": 82,
-      "end": 95,
-      "sentenceText": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "end": 90,
+      "sentenceText": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
+          "id": "c0009",
           "start": 82,
-          "end": 95,
-          "text": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and",
-          "originalText": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away he get a lift home with his mate Jack and",
+          "end": 90,
+          "text": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know",
+          "originalText": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know",
           "originalCueRefs": [
             {
               "id": "c0022",
@@ -861,34 +950,9 @@
               "start": 86,
               "end": 90,
               "text": "have no chance but what we didn't know"
-            },
-            {
-              "id": "c0025",
-              "start": 90,
-              "end": 92,
-              "text": "was that when Rusty's dad was away he"
-            },
-            {
-              "id": "c0026",
-              "start": 92,
-              "end": 95,
-              "text": "get a lift home with his mate Jack and"
             }
           ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0033",
-              "start": 90,
-              "end": 92,
-              "text": "was that when Rusty's dad was away,"
-            },
-            {
-              "id": "c0034",
-              "start": 92,
-              "end": 95,
-              "text": "he'd get a lift home with his mate Jack, and"
-            }
-          ],
+          "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
               "id": "c0022",
@@ -916,7 +980,109 @@
               "originalCueIds": [
                 "c0024"
               ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0009",
+          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know",
+          "start": 82,
+          "end": 90,
+          "matchStart": 84,
+          "matchEnd": 86
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0009",
+          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know",
+          "start": 82,
+          "end": 90,
+          "matchStart": 98,
+          "matchEnd": 102
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0009",
+          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know",
+          "start": 82,
+          "end": 90,
+          "matchStart": 113,
+          "matchEnd": 117
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0010",
+      "title": "문단 1",
+      "start": 90,
+      "end": 98,
+      "sentenceText": "was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and this was his front yard.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0010",
+          "start": 90,
+          "end": 98,
+          "text": "was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and this was his front yard.",
+          "originalText": "was that when Rusty's dad was away he get a lift home with his mate Jack and this was his front",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 90,
+              "end": 92,
+              "text": "was that when Rusty's dad was away he"
             },
+            {
+              "id": "c0026",
+              "start": 92,
+              "end": 95,
+              "text": "get a lift home with his mate Jack and"
+            },
+            {
+              "id": "c0027",
+              "start": 95,
+              "end": 98,
+              "text": "this was his front"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0033",
+              "start": 90,
+              "end": 92,
+              "text": "was that when Rusty's dad was away,"
+            },
+            {
+              "id": "c0034",
+              "start": 92,
+              "end": 95,
+              "text": "he'd get a lift home with his mate Jack, and"
+            },
+            {
+              "id": "c0035",
+              "start": 95,
+              "end": 98,
+              "text": "this was his front yard."
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0025",
               "start": 90,
@@ -934,14 +1100,22 @@
               "originalCueIds": [
                 "c0026"
               ]
+            },
+            {
+              "id": "c0027",
+              "start": 95,
+              "end": 98,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0027"
+              ]
             }
           ],
-          "textSource": "mixed-captured-sources",
+          "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "raw-original-text",
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
           ]
@@ -949,80 +1123,46 @@
       ],
       "targets": [
         {
-          "expressionId": "no",
-          "cueId": "c0008",
-          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and",
-          "start": 82,
-          "end": 95,
-          "matchStart": 84,
-          "matchEnd": 86
-        },
-        {
-          "expressionId": "what",
-          "cueId": "c0008",
-          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and",
-          "start": 82,
-          "end": 95,
-          "matchStart": 98,
-          "matchEnd": 102
-        },
-        {
-          "expressionId": "know",
-          "cueId": "c0008",
-          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and",
-          "start": 82,
-          "end": 95,
-          "matchStart": 113,
-          "matchEnd": 117
-        },
-        {
           "expressionId": "dad",
-          "cueId": "c0008",
-          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and",
-          "start": 82,
-          "end": 95,
-          "matchStart": 140,
-          "matchEnd": 143
+          "cueId": "c0010",
+          "quote": "was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and this was his front yard.",
+          "start": 90,
+          "end": 98,
+          "matchStart": 22,
+          "matchEnd": 25
         },
         {
           "expressionId": "home",
-          "cueId": "c0008",
-          "quote": "couldn't spin to save himself but if he could landed on that crack Russy would have no chance but what we didn't know was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and",
-          "start": 82,
-          "end": 95,
-          "matchStart": 170,
-          "matchEnd": 174
+          "cueId": "c0010",
+          "quote": "was that when Rusty's dad was away, he'd get a lift home with his mate Jack, and this was his front yard.",
+          "start": 90,
+          "end": 98,
+          "matchStart": 52,
+          "matchEnd": 56
         }
       ],
       "qualityFlags": [
-        "raw-original-text",
         "corrected-text-exact-coverage",
         "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
-      "start": 95,
-      "end": 108,
-      "sentenceText": "this was his front yard. yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "id": "c0011",
+      "title": "문단 2",
+      "start": 98,
+      "end": 113,
+      "sentenceText": "yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a rough Wicket yeah he could handle Stripes",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
-          "start": 95,
-          "end": 108,
-          "text": "this was his front yard. yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a",
-          "originalText": "this was his front yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a",
+          "id": "c0011",
+          "start": 98,
+          "end": 113,
+          "text": "yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a rough Wicket yeah he could handle Stripes",
+          "originalText": "yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a rough Wicket yeah he could handle Stripes",
           "originalCueRefs": [
-            {
-              "id": "c0027",
-              "start": 95,
-              "end": 98,
-              "text": "this was his front"
-            },
             {
               "id": "c0028",
               "start": 98,
@@ -1040,26 +1180,22 @@
               "start": 105,
               "end": 108,
               "text": "year so he got pretty good a plan on a"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0035",
-              "start": 95,
-              "end": 98,
-              "text": "this was his front yard."
-            }
-          ],
-          "sourceCueRefs": [
-            {
-              "id": "c0027",
-              "start": 95,
-              "end": 98,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0027"
-              ]
             },
+            {
+              "id": "c0031",
+              "start": 108,
+              "end": 110,
+              "text": "rough"
+            },
+            {
+              "id": "c0032",
+              "start": 110,
+              "end": 113,
+              "text": "Wicket yeah he could handle Stripes"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0028",
               "start": 98,
@@ -1086,80 +1222,7 @@
               "originalCueIds": [
                 "c0030"
               ]
-            }
-          ],
-          "textSource": "mixed-captured-sources",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "raw-original-text",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "good",
-          "cueId": "c0009",
-          "quote": "this was his front yard. yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a",
-          "start": 95,
-          "end": 108,
-          "matchStart": 103,
-          "matchEnd": 107
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "raw-original-text",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0010",
-      "title": "문단 10",
-      "start": 108,
-      "end": 123,
-      "sentenceText": "rough Wicket yeah he could handle Stripes fruit any day what how did he hit that",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0010",
-          "start": 108,
-          "end": 123,
-          "text": "rough Wicket yeah he could handle Stripes fruit any day what how did he hit that",
-          "originalText": "rough Wicket yeah he could handle Stripes fruit any day what how did he hit that",
-          "originalCueRefs": [
-            {
-              "id": "c0031",
-              "start": 108,
-              "end": 110,
-              "text": "rough"
             },
-            {
-              "id": "c0032",
-              "start": 110,
-              "end": 113,
-              "text": "Wicket yeah he could handle Stripes"
-            },
-            {
-              "id": "c0033",
-              "start": 113,
-              "end": 116,
-              "text": "fruit any"
-            },
-            {
-              "id": "c0034",
-              "start": 116,
-              "end": 123,
-              "text": "day what how did he hit that"
-            }
-          ],
-          "cleanedCueRefs": [],
-          "sourceCueRefs": [
             {
               "id": "c0031",
               "start": 108,
@@ -1177,7 +1240,66 @@
               "originalCueIds": [
                 "c0032"
               ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "good",
+          "cueId": "c0011",
+          "quote": "yard got him a not fair Rusty played at Jack a lot that year so he got pretty good a plan on a rough Wicket yeah he could handle Stripes",
+          "start": 98,
+          "end": 113,
+          "matchStart": 78,
+          "matchEnd": 82
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0012",
+      "title": "문단 3",
+      "start": 113,
+      "end": 123,
+      "sentenceText": "fruit any day what how did he hit that",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0012",
+          "start": 113,
+          "end": 123,
+          "text": "fruit any day what how did he hit that",
+          "originalText": "fruit any day what how did he hit that",
+          "originalCueRefs": [
+            {
+              "id": "c0033",
+              "start": 113,
+              "end": 116,
+              "text": "fruit any"
             },
+            {
+              "id": "c0034",
+              "start": 116,
+              "end": 123,
+              "text": "day what how did he hit that"
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
             {
               "id": "c0033",
               "start": 113,
@@ -1199,8 +1321,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1210,21 +1332,21 @@
       "targets": [
         {
           "expressionId": "what",
-          "cueId": "c0010",
-          "quote": "rough Wicket yeah he could handle Stripes fruit any day what how did he hit that",
-          "start": 108,
+          "cueId": "c0012",
+          "quote": "fruit any day what how did he hit that",
+          "start": 113,
           "end": 123,
-          "matchStart": 56,
-          "matchEnd": 60
+          "matchStart": 14,
+          "matchEnd": 18
         },
         {
           "expressionId": "how",
-          "cueId": "c0010",
-          "quote": "rough Wicket yeah he could handle Stripes fruit any day what how did he hit that",
-          "start": 108,
+          "cueId": "c0012",
+          "quote": "fruit any day what how did he hit that",
+          "start": 113,
           "end": 123,
-          "matchStart": 61,
-          "matchEnd": 64
+          "matchStart": 19,
+          "matchEnd": 22
         }
       ],
       "qualityFlags": [

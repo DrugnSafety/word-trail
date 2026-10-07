@@ -169,6 +169,7 @@ test('selected vocabulary metadata persists and invalid optional fields are reje
     [dictationRecord({ selectedKeys: [], words: [{ ...word, key: 'arbitrary-key' }] }), /canonical key/],
     [dictationRecord({ selectedKeys: [], words: [word, { ...word, term: 'Play' }] }), /고유한 단어/],
     [dictationRecord({ words: [{ ...word, meaningKo: '가'.repeat(301) }] }), /300자/],
+    [dictationRecord({ words: [{ ...word, sourceTerm: 'g'.repeat(101) }] }), /100자/],
     [dictationRecord({ words: [{ ...word, sourceIndexes: Array.from({ length: 201 }, (_, index) => index) }] }), /위치 목록/],
     [dictationRecord({ words: [{ ...word, registeredAt: 'yesterday' }] }), /등록 시간/],
     [dictationRecord({ words: [{ ...word, registeredAt: '2026-02-31T12:00:00Z' }] }), /등록 시간/],
@@ -289,6 +290,7 @@ test('expected account scope blocks all user actions before A can act on account
   };
   const store = createStore(auth);
   const actions = [
+    () => store.load('user-a'),
     () => store.startLearning('video-01', 'c0001', 'user-a'),
     () => store.exportData('user-a'),
     () => store.resetProgress('user-a'),
@@ -297,6 +299,46 @@ test('expected account scope blocks all user actions before A can act on account
   for (const action of actions) await assert.rejects(action(), /계정이 변경/);
   assert.equal(fetchCount, 0);
   assert.equal(storage.getItem('wordtrail:guest:v1'), null);
+});
+
+test('scoped load rejects A to B transition before accepting or caching B data', async () => {
+  const storage = new MemoryStorage();
+  let fetchCount = 0;
+  const auth = {
+    config: {
+      supabaseUrl: 'https://test.supabase.co', supabaseAnonKey: 'public',
+      fetch: async () => { fetchCount += 1; return response(200, [{ nickname: 'B' }]); },
+    },
+    storage,
+    async getSession() {
+      await Promise.resolve();
+      return { user: { id: 'user-b', email: 'b@example.com' }, access_token: 'token-b' };
+    },
+  };
+  await assert.rejects(createStore(auth).load('user-a'), /계정이 변경/);
+  assert.equal(fetchCount, 0);
+  assert.equal(storage.getItem('wordtrail:cloud:user-a:v1'), null);
+  assert.equal(storage.getItem('wordtrail:cloud:user-b:v1'), null);
+});
+
+test('scoped load rejects guest to account transition before reading either scope', async () => {
+  const storage = new MemoryStorage();
+  storage.setItem('wordtrail:guest:v1', JSON.stringify({ nickname: '게스트', progress: [], dictations: [], starts: [] }));
+  let fetchCount = 0;
+  const auth = {
+    config: {
+      supabaseUrl: 'https://test.supabase.co', supabaseAnonKey: 'public',
+      fetch: async () => { fetchCount += 1; return response(200, []); },
+    },
+    storage,
+    async getSession() {
+      await Promise.resolve();
+      return { user: { id: 'user-a', email: '' }, access_token: 'token-a' };
+    },
+  };
+  await assert.rejects(createStore(auth).load('guest'), /계정이 변경/);
+  assert.equal(fetchCount, 0);
+  assert.equal(JSON.parse(storage.getItem('wordtrail:guest:v1')).nickname, '게스트');
 });
 
 test('expected guest scope blocks reset before login can delete cloud data', async () => {
@@ -473,7 +515,7 @@ test('SQL keeps quota account-wide and gates bounded progress behind approved st
   assert.match(schema, /octet_length\(record::text\) <= 8192/);
   assert.match(schema, /if v_count >= 5/);
   assert.match(schema, /progress identity cannot be changed/);
-  assert.match(schema, /p_video_id !~ '\^video-\[0-9\]\{2\}\$'/);
+  assert.match(schema, /custom-\[A-Za-z0-9_\-\]\{11\}/);
   assert.match(schema, /on conflict \(user_id, learner_id\) do nothing/);
   assert.match(schema, /create or replace function public\.save_progress/);
   assert.match(schema, /p_expected_updated_at is null or v_current is distinct from p_expected_updated_at/);
@@ -505,6 +547,8 @@ test('SQL keeps quota account-wide and gates bounded progress behind approved st
     assert.match(sql, /selected vocabulary key must reference a stored word/);
   }
   assert.match(vocabularyMigration, /create or replace function public\.guard_dictation_write\(\)/);
+  assert.match(schema, /sourceTerm/);
+  assert.match(vocabularyMigration, /sourceTerm/);
   assert.match(vocabularyMigration, /revoke execute on function public\.guard_dictation_write\(\) from public, anon, authenticated/);
   assert.doesNotMatch(vocabularyMigration, /drop constraint|alter table|grant insert|grant update/i);
 });

@@ -18,28 +18,95 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 5,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Shake It Out | Musical Statues - Series 3 | Bluey",
+      "title": "Starting the game",
       "start": 0,
-      "end": 122,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 18,
       "sceneIds": [
         "c0001",
-        "c0002",
+        "c0002"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Music and dancing",
+      "start": 18,
+      "markerStart": 20,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 60,
+      "sceneIds": [
         "c0003",
         "c0004",
         "c0005",
         "c0006",
         "c0007",
-        "c0008",
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Dance off competition",
+      "start": 60,
+      "markerStart": 60,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 75,
+      "sceneIds": [
         "c0009",
-        "c0010",
+        "c0010"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Radio song request",
+      "start": 75,
+      "markerStart": 75,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 98,
+      "sceneIds": [
         "c0011",
-        "c0012",
+        "c0012"
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "title": "Final dance break",
+      "start": 98,
+      "markerStart": 101,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 3,
+      "end": 122,
+      "sceneIds": [
         "c0013",
         "c0014"
       ]
@@ -268,8 +335,8 @@
       "id": "c0002",
       "title": "문단 2",
       "start": 14,
-      "end": 23,
-      "sentenceText": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
+      "end": 18,
+      "sentenceText": "You blinked. You're all out. See you. Come on, do it properly.",
       "chapterId": "chapter-001",
       "paragraphIndex": 2,
       "selectable": true,
@@ -277,9 +344,9 @@
         {
           "id": "c0002",
           "start": 14,
-          "end": 23,
-          "text": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
-          "originalText": "blinked you blinked you're all out see you come on do it properly oh don't do it at all okay okay no give me that",
+          "end": 18,
+          "text": "You blinked. You're all out. See you. Come on, do it properly.",
+          "originalText": "blinked you blinked you're all out see you come on do it properly oh don't do",
           "originalCueRefs": [
             {
               "id": "c0006",
@@ -292,12 +359,6 @@
               "start": 15,
               "end": 18,
               "text": "you come on do it properly oh don't do"
-            },
-            {
-              "id": "c0008",
-              "start": 18,
-              "end": 23,
-              "text": "it at all okay okay no give me that"
             }
           ],
           "cleanedCueRefs": [
@@ -318,7 +379,90 @@
               "start": 16,
               "end": 18,
               "text": "Come on, do it properly."
+            }
+          ],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 14,
+              "end": 15,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
             },
+            {
+              "id": "c0007",
+              "start": 15,
+              "end": 18,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0007"
+              ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue",
+            "short-dialogue-fragment"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0002",
+          "quote": "You blinked. You're all out. See you. Come on, do it properly.",
+          "start": 14,
+          "end": 18,
+          "matchStart": 38,
+          "matchEnd": 45
+        },
+        {
+          "expressionId": "see",
+          "cueId": "c0002",
+          "quote": "You blinked. You're all out. See you. Come on, do it properly.",
+          "start": 14,
+          "end": 18,
+          "matchStart": 29,
+          "matchEnd": 32
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue",
+        "short-dialogue-fragment"
+      ]
+    },
+    {
+      "id": "c0003",
+      "title": "문단 1",
+      "start": 18,
+      "end": 23,
+      "sentenceText": "Or don't do it at all. Okay, okay. No, give me that.",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0003",
+          "start": 18,
+          "end": 23,
+          "text": "Or don't do it at all. Okay, okay. No, give me that.",
+          "originalText": "it at all okay okay no give me that",
+          "originalCueRefs": [
+            {
+              "id": "c0008",
+              "start": 18,
+              "end": 23,
+              "text": "it at all okay okay no give me that"
+            }
+          ],
+          "cleanedCueRefs": [
             {
               "id": "c0011",
               "start": 18,
@@ -340,24 +484,6 @@
           ],
           "sourceCueRefs": [
             {
-              "id": "c0006",
-              "start": 14,
-              "end": 15,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0006"
-              ]
-            },
-            {
-              "id": "c0007",
-              "start": 15,
-              "end": 18,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0007"
-              ]
-            },
-            {
               "id": "c0008",
               "start": 18,
               "end": 23,
@@ -368,88 +494,68 @@
             }
           ],
           "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 2,
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
+            "corrected-text-exact-coverage"
           ]
         }
       ],
       "targets": [
         {
-          "expressionId": "come-on",
-          "cueId": "c0002",
-          "quote": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
-          "start": 14,
-          "end": 23,
-          "matchStart": 38,
-          "matchEnd": 45
-        },
-        {
           "expressionId": "give-me",
-          "cueId": "c0002",
-          "quote": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
-          "start": 14,
+          "cueId": "c0003",
+          "quote": "Or don't do it at all. Okay, okay. No, give me that.",
+          "start": 18,
           "end": 23,
-          "matchStart": 102,
-          "matchEnd": 109
-        },
-        {
-          "expressionId": "see",
-          "cueId": "c0002",
-          "quote": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
-          "start": 14,
-          "end": 23,
-          "matchStart": 29,
-          "matchEnd": 32
+          "matchStart": 39,
+          "matchEnd": 46
         },
         {
           "expressionId": "okay",
-          "cueId": "c0002",
-          "quote": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
-          "start": 14,
+          "cueId": "c0003",
+          "quote": "Or don't do it at all. Okay, okay. No, give me that.",
+          "start": 18,
           "end": 23,
-          "matchStart": 86,
-          "matchEnd": 90
+          "matchStart": 23,
+          "matchEnd": 27
         },
         {
           "expressionId": "no",
-          "cueId": "c0002",
-          "quote": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
-          "start": 14,
+          "cueId": "c0003",
+          "quote": "Or don't do it at all. Okay, okay. No, give me that.",
+          "start": 18,
           "end": 23,
-          "matchStart": 98,
-          "matchEnd": 100
+          "matchStart": 35,
+          "matchEnd": 37
         },
         {
           "expressionId": "dont",
-          "cueId": "c0002",
-          "quote": "You blinked. You're all out. See you. Come on, do it properly. Or don't do it at all. Okay, okay. No, give me that.",
-          "start": 14,
+          "cueId": "c0003",
+          "quote": "Or don't do it at all. Okay, okay. No, give me that.",
+          "start": 18,
           "end": 23,
-          "matchStart": 66,
-          "matchEnd": 71
+          "matchStart": 3,
+          "matchEnd": 8
         }
       ],
       "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
+        "corrected-text-exact-coverage"
       ]
     },
     {
-      "id": "c0003",
-      "title": "문단 3",
+      "id": "c0004",
+      "title": "문단 2",
       "start": 23,
       "end": 28,
       "sentenceText": "Let's put some real music on. Alright! That's what I'm talking about.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 3,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0003",
+          "id": "c0004",
           "start": 23,
           "end": 28,
           "text": "Let's put some real music on. Alright! That's what I'm talking about.",
@@ -510,8 +616,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -521,7 +627,7 @@
       "targets": [
         {
           "expressionId": "lets",
-          "cueId": "c0003",
+          "cueId": "c0004",
           "quote": "Let's put some real music on. Alright! That's what I'm talking about.",
           "start": 23,
           "end": 28,
@@ -530,7 +636,7 @@
         },
         {
           "expressionId": "what",
-          "cueId": "c0003",
+          "cueId": "c0004",
           "quote": "Let's put some real music on. Alright! That's what I'm talking about.",
           "start": 23,
           "end": 28,
@@ -544,17 +650,17 @@
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
+      "id": "c0005",
+      "title": "문단 3",
       "start": 28,
       "end": 35,
       "sentenceText": "Get that body moving. Come on, Bluey, shake it out. Stop!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
+          "id": "c0005",
           "start": 28,
           "end": 35,
           "text": "Get that body moving. Come on, Bluey, shake it out. Stop!",
@@ -615,8 +721,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -626,7 +732,7 @@
       "targets": [
         {
           "expressionId": "come-on",
-          "cueId": "c0004",
+          "cueId": "c0005",
           "quote": "Get that body moving. Come on, Bluey, shake it out. Stop!",
           "start": 28,
           "end": 35,
@@ -635,7 +741,7 @@
         },
         {
           "expressionId": "stop",
-          "cueId": "c0004",
+          "cueId": "c0005",
           "quote": "Get that body moving. Come on, Bluey, shake it out. Stop!",
           "start": 28,
           "end": 35,
@@ -649,17 +755,17 @@
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
+      "id": "c0006",
+      "title": "문단 4",
       "start": 35,
       "end": 43,
       "sentenceText": "No-one. Okay, here we go again. Oh, yeah, shake it, Chilli. Come on, Bluey, copy my moves.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
+          "id": "c0006",
           "start": 35,
           "end": 43,
           "text": "No-one. Okay, here we go again. Oh, yeah, shake it, Chilli. Come on, Bluey, copy my moves.",
@@ -726,8 +832,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -737,7 +843,7 @@
       "targets": [
         {
           "expressionId": "come-on",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "No-one. Okay, here we go again. Oh, yeah, shake it, Chilli. Come on, Bluey, copy my moves.",
           "start": 35,
           "end": 43,
@@ -746,7 +852,7 @@
         },
         {
           "expressionId": "no",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "No-one. Okay, here we go again. Oh, yeah, shake it, Chilli. Come on, Bluey, copy my moves.",
           "start": 35,
           "end": 43,
@@ -755,7 +861,7 @@
         },
         {
           "expressionId": "okay",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "No-one. Okay, here we go again. Oh, yeah, shake it, Chilli. Come on, Bluey, copy my moves.",
           "start": 35,
           "end": 43,
@@ -764,7 +870,7 @@
         },
         {
           "expressionId": "again",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "No-one. Okay, here we go again. Oh, yeah, shake it, Chilli. Come on, Bluey, copy my moves.",
           "start": 35,
           "end": 43,
@@ -778,17 +884,17 @@
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
+      "id": "c0007",
+      "title": "문단 5",
       "start": 43,
       "end": 50,
       "sentenceText": "Yeah, that's it. Bingo, you kept raising the roof!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-002",
+      "paragraphIndex": 5,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
+          "id": "c0007",
           "start": 43,
           "end": 50,
           "text": "Yeah, that's it. Bingo, you kept raising the roof!",
@@ -843,8 +949,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 5,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -854,7 +960,7 @@
       "targets": [
         {
           "expressionId": "thats-it",
-          "cueId": "c0006",
+          "cueId": "c0007",
           "quote": "Yeah, that's it. Bingo, you kept raising the roof!",
           "start": 43,
           "end": 50,
@@ -868,21 +974,21 @@
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
+      "id": "c0008",
+      "title": "문단 6",
       "start": 50,
-      "end": 58,
-      "sentenceText": "Come on, kid, help me with the music. Okay, go.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "end": 60,
+      "sentenceText": "Come on, kid, help me with the music. Okay, go. Bingo, if this was a dance-off,",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 6,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
+          "id": "c0008",
           "start": 50,
-          "end": 58,
-          "text": "Come on, kid, help me with the music. Okay, go.",
-          "originalText": "ro ro Bingo you kep breing the roof come on",
+          "end": 60,
+          "text": "Come on, kid, help me with the music. Okay, go. Bingo, if this was a dance-off,",
+          "originalText": "ro ro Bingo you kep breing the roof come on kid help me with the music",
           "originalCueRefs": [
             {
               "id": "c0017",
@@ -895,6 +1001,12 @@
               "start": 53,
               "end": 58,
               "text": "ro Bingo you kep breing the roof come on"
+            },
+            {
+              "id": "c0019",
+              "start": 58,
+              "end": 60,
+              "text": "kid help me with the music"
             }
           ],
           "cleanedCueRefs": [
@@ -909,6 +1021,12 @@
               "start": 53,
               "end": 58,
               "text": "Okay, go."
+            },
+            {
+              "id": "c0029",
+              "start": 58,
+              "end": 60,
+              "text": "Bingo, if this was a dance-off,"
             }
           ],
           "sourceCueRefs": [
@@ -929,12 +1047,21 @@
               "originalCueIds": [
                 "c0018"
               ]
+            },
+            {
+              "id": "c0019",
+              "start": 58,
+              "end": 60,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0019"
+              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 6,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -944,28 +1071,28 @@
       "targets": [
         {
           "expressionId": "come-on",
-          "cueId": "c0007",
-          "quote": "Come on, kid, help me with the music. Okay, go.",
+          "cueId": "c0008",
+          "quote": "Come on, kid, help me with the music. Okay, go. Bingo, if this was a dance-off,",
           "start": 50,
-          "end": 58,
+          "end": 60,
           "matchStart": 0,
           "matchEnd": 7
         },
         {
           "expressionId": "help",
-          "cueId": "c0007",
-          "quote": "Come on, kid, help me with the music. Okay, go.",
+          "cueId": "c0008",
+          "quote": "Come on, kid, help me with the music. Okay, go. Bingo, if this was a dance-off,",
           "start": 50,
-          "end": 58,
+          "end": 60,
           "matchStart": 14,
           "matchEnd": 18
         },
         {
           "expressionId": "okay",
-          "cueId": "c0007",
-          "quote": "Come on, kid, help me with the music. Okay, go.",
+          "cueId": "c0008",
+          "quote": "Come on, kid, help me with the music. Okay, go. Bingo, if this was a dance-off,",
           "start": 50,
-          "end": 58,
+          "end": 60,
           "matchStart": 38,
           "matchEnd": 42
         }
@@ -976,59 +1103,50 @@
       ]
     },
     {
-      "id": "c0008",
-      "title": "문단 8",
-      "start": 58,
-      "end": 63,
-      "sentenceText": "Bingo, if this was a dance-off, who would you say is winning?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
+      "id": "c0009",
+      "title": "문단 1",
+      "start": 60,
+      "end": 66,
+      "sentenceText": "who would you say is winning? Mum, definitely.",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0008",
-          "start": 58,
-          "end": 63,
-          "text": "Bingo, if this was a dance-off, who would you say is winning?",
-          "originalText": "kid help me with the music okay",
+          "id": "c0009",
+          "start": 60,
+          "end": 66,
+          "text": "who would you say is winning? Mum, definitely.",
+          "originalText": "okay go Bingo if this was a dance off who",
           "originalCueRefs": [
-            {
-              "id": "c0019",
-              "start": 58,
-              "end": 60,
-              "text": "kid help me with the music"
-            },
             {
               "id": "c0020",
               "start": 60,
               "end": 63,
               "text": "okay"
+            },
+            {
+              "id": "c0021",
+              "start": 63,
+              "end": 66,
+              "text": "go Bingo if this was a dance off who"
             }
           ],
           "cleanedCueRefs": [
-            {
-              "id": "c0029",
-              "start": 58,
-              "end": 60,
-              "text": "Bingo, if this was a dance-off,"
-            },
             {
               "id": "c0030",
               "start": 60,
               "end": 63,
               "text": "who would you say is winning?"
+            },
+            {
+              "id": "c0031",
+              "start": 63,
+              "end": 66,
+              "text": "Mum, definitely."
             }
           ],
           "sourceCueRefs": [
-            {
-              "id": "c0019",
-              "start": 58,
-              "end": 60,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0019"
-              ]
-            },
             {
               "id": "c0020",
               "start": 60,
@@ -1037,69 +1155,7 @@
               "originalCueIds": [
                 "c0020"
               ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0009",
-      "title": "문단 9",
-      "start": 63,
-      "end": 69,
-      "sentenceText": "Mum, definitely. I agree. Come on, Bluey.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0009",
-          "start": 63,
-          "end": 69,
-          "text": "Mum, definitely. I agree. Come on, Bluey.",
-          "originalText": "go Bingo if this was a dance off who would you say is winning B definitely I",
-          "originalCueRefs": [
-            {
-              "id": "c0021",
-              "start": 63,
-              "end": 66,
-              "text": "go Bingo if this was a dance off who"
             },
-            {
-              "id": "c0022",
-              "start": 66,
-              "end": 69,
-              "text": "would you say is winning B definitely I"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0031",
-              "start": 63,
-              "end": 66,
-              "text": "Mum, definitely."
-            },
-            {
-              "id": "c0032",
-              "start": 66,
-              "end": 69,
-              "text": "I agree. Come on, Bluey."
-            }
-          ],
-          "sourceCueRefs": [
             {
               "id": "c0021",
               "start": 63,
@@ -1108,21 +1164,12 @@
               "originalCueIds": [
                 "c0021"
               ]
-            },
-            {
-              "id": "c0022",
-              "start": 66,
-              "end": 69,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0022"
-              ]
             }
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1131,22 +1178,13 @@
       ],
       "targets": [
         {
-          "expressionId": "come-on",
-          "cueId": "c0009",
-          "quote": "Mum, definitely. I agree. Come on, Bluey.",
-          "start": 63,
-          "end": 69,
-          "matchStart": 26,
-          "matchEnd": 33
-        },
-        {
           "expressionId": "mum",
           "cueId": "c0009",
-          "quote": "Mum, definitely. I agree. Come on, Bluey.",
-          "start": 63,
-          "end": 69,
-          "matchStart": 0,
-          "matchEnd": 3
+          "quote": "who would you say is winning? Mum, definitely.",
+          "start": 60,
+          "end": 66,
+          "matchStart": 30,
+          "matchEnd": 33
         }
       ],
       "qualityFlags": [
@@ -1156,21 +1194,27 @@
     },
     {
       "id": "c0010",
-      "title": "문단 10",
-      "start": 69,
-      "end": 79,
-      "sentenceText": "Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans, we just had a song request come in from Ringo Heeler.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "title": "문단 2",
+      "start": 66,
+      "end": 75,
+      "sentenceText": "I agree. Come on, Bluey. Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans,",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
           "id": "c0010",
-          "start": 69,
-          "end": 79,
-          "text": "Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans, we just had a song request come in from Ringo Heeler.",
-          "originalText": "agree come on Blue oh Dad I know play I love cereal hold it right there music fans we just had a song request come in from Ringo",
+          "start": 66,
+          "end": 75,
+          "text": "I agree. Come on, Bluey. Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans,",
+          "originalText": "would you say is winning B definitely I agree come on Blue oh Dad I know play I love cereal",
           "originalCueRefs": [
+            {
+              "id": "c0022",
+              "start": 66,
+              "end": 69,
+              "text": "would you say is winning B definitely I"
+            },
             {
               "id": "c0023",
               "start": 69,
@@ -1182,21 +1226,15 @@
               "start": 71,
               "end": 75,
               "text": "Blue oh Dad I know play I love cereal"
-            },
-            {
-              "id": "c0025",
-              "start": 75,
-              "end": 77,
-              "text": "hold it right there music fans we just"
-            },
-            {
-              "id": "c0026",
-              "start": 77,
-              "end": 79,
-              "text": "had a song request come in from Ringo"
             }
           ],
           "cleanedCueRefs": [
+            {
+              "id": "c0032",
+              "start": 66,
+              "end": 69,
+              "text": "I agree. Come on, Bluey."
+            },
             {
               "id": "c0033",
               "start": 69,
@@ -1208,21 +1246,18 @@
               "start": 71,
               "end": 75,
               "text": "Hold it right there, music fans,"
-            },
-            {
-              "id": "c0035",
-              "start": 75,
-              "end": 77,
-              "text": "we just had a song request"
-            },
-            {
-              "id": "c0036",
-              "start": 77,
-              "end": 79,
-              "text": "come in from Ringo Heeler."
             }
           ],
           "sourceCueRefs": [
+            {
+              "id": "c0022",
+              "start": 66,
+              "end": 69,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0022"
+              ]
+            },
             {
               "id": "c0023",
               "start": 69,
@@ -1240,7 +1275,139 @@
               "originalCueIds": [
                 "c0024"
               ]
+            }
+          ],
+          "textSource": "cleaned-exact-coverage",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
+          "qualityFlags": [
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0010",
+          "quote": "I agree. Come on, Bluey. Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans,",
+          "start": 66,
+          "end": 75,
+          "matchStart": 9,
+          "matchEnd": 16
+        },
+        {
+          "expressionId": "dad",
+          "cueId": "c0010",
+          "quote": "I agree. Come on, Bluey. Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans,",
+          "start": 66,
+          "end": 75,
+          "matchStart": 29,
+          "matchEnd": 32
+        },
+        {
+          "expressionId": "know",
+          "cueId": "c0010",
+          "quote": "I agree. Come on, Bluey. Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans,",
+          "start": 66,
+          "end": 75,
+          "matchStart": 36,
+          "matchEnd": 40
+        },
+        {
+          "expressionId": "play",
+          "cueId": "c0010",
+          "quote": "I agree. Come on, Bluey. Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans,",
+          "start": 66,
+          "end": 75,
+          "matchStart": 42,
+          "matchEnd": 46
+        },
+        {
+          "expressionId": "love",
+          "cueId": "c0010",
+          "quote": "I agree. Come on, Bluey. Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans,",
+          "start": 66,
+          "end": 75,
+          "matchStart": 50,
+          "matchEnd": 54
+        }
+      ],
+      "qualityFlags": [
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0011",
+      "title": "문단 1",
+      "start": 75,
+      "end": 85,
+      "sentenceText": "we just had a song request come in from Ringo Heeler. Bingo Heeler. Who do you dedicate this song to, Ringo?",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0011",
+          "start": 75,
+          "end": 85,
+          "text": "we just had a song request come in from Ringo Heeler. Bingo Heeler. Who do you dedicate this song to, Ringo?",
+          "originalText": "hold it right there music fans we just had a song request come in from Ringo healer Bingo healer who do you dedicate this song to Ringo it's for my sister",
+          "originalCueRefs": [
+            {
+              "id": "c0025",
+              "start": 75,
+              "end": 77,
+              "text": "hold it right there music fans we just"
             },
+            {
+              "id": "c0026",
+              "start": 77,
+              "end": 79,
+              "text": "had a song request come in from Ringo"
+            },
+            {
+              "id": "c0027",
+              "start": 79,
+              "end": 83,
+              "text": "healer Bingo healer who do you dedicate"
+            },
+            {
+              "id": "c0028",
+              "start": 83,
+              "end": 85,
+              "text": "this song to Ringo it's for my sister"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0035",
+              "start": 75,
+              "end": 77,
+              "text": "we just had a song request"
+            },
+            {
+              "id": "c0036",
+              "start": 77,
+              "end": 79,
+              "text": "come in from Ringo Heeler."
+            },
+            {
+              "id": "c0037",
+              "start": 79,
+              "end": 83,
+              "text": "Bingo Heeler. Who do you dedicate"
+            },
+            {
+              "id": "c0038",
+              "start": 83,
+              "end": 85,
+              "text": "this song to, Ringo?"
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0025",
               "start": 75,
@@ -1258,106 +1425,7 @@
               "originalCueIds": [
                 "c0026"
               ]
-            }
-          ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
-          "qualityFlags": [
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "dad",
-          "cueId": "c0010",
-          "quote": "Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans, we just had a song request come in from Ringo Heeler.",
-          "start": 69,
-          "end": 79,
-          "matchStart": 4,
-          "matchEnd": 7
-        },
-        {
-          "expressionId": "know",
-          "cueId": "c0010",
-          "quote": "Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans, we just had a song request come in from Ringo Heeler.",
-          "start": 69,
-          "end": 79,
-          "matchStart": 11,
-          "matchEnd": 15
-        },
-        {
-          "expressionId": "play",
-          "cueId": "c0010",
-          "quote": "Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans, we just had a song request come in from Ringo Heeler.",
-          "start": 69,
-          "end": 79,
-          "matchStart": 17,
-          "matchEnd": 21
-        },
-        {
-          "expressionId": "love",
-          "cueId": "c0010",
-          "quote": "Oh, Dad, I know, play \"I Love Cereal.\" Hold it right there, music fans, we just had a song request come in from Ringo Heeler.",
-          "start": 69,
-          "end": 79,
-          "matchStart": 25,
-          "matchEnd": 29
-        }
-      ],
-      "qualityFlags": [
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0011",
-      "title": "문단 11",
-      "start": 79,
-      "end": 85,
-      "sentenceText": "Bingo Heeler. Who do you dedicate this song to, Ringo?",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0011",
-          "start": 79,
-          "end": 85,
-          "text": "Bingo Heeler. Who do you dedicate this song to, Ringo?",
-          "originalText": "healer Bingo healer who do you dedicate this song to Ringo it's for my sister",
-          "originalCueRefs": [
-            {
-              "id": "c0027",
-              "start": 79,
-              "end": 83,
-              "text": "healer Bingo healer who do you dedicate"
             },
-            {
-              "id": "c0028",
-              "start": 83,
-              "end": 85,
-              "text": "this song to Ringo it's for my sister"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0037",
-              "start": 79,
-              "end": 83,
-              "text": "Bingo Heeler. Who do you dedicate"
-            },
-            {
-              "id": "c0038",
-              "start": 83,
-              "end": 85,
-              "text": "this song to, Ringo?"
-            }
-          ],
-          "sourceCueRefs": [
             {
               "id": "c0027",
               "start": 79,
@@ -1379,8 +1447,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1395,12 +1463,12 @@
     },
     {
       "id": "c0012",
-      "title": "문단 12",
+      "title": "문단 2",
       "start": 85,
       "end": 98,
       "sentenceText": "It's for my sister, Bluey. It's her favourite. Well, alright, this one's going out to Ringo's sister, Louey! Ooh, look out! Yeah, that did",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 12,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1501,8 +1569,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 12,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "duration-grouped-dialogue"
@@ -1536,12 +1604,12 @@
     },
     {
       "id": "c0013",
-      "title": "문단 13",
+      "title": "문단 1",
       "start": 98,
       "end": 103,
       "sentenceText": "it! Ah, yeah, go, Bluey!",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 13,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
@@ -1579,8 +1647,8 @@
           ],
           "textSource": "cleaned-exact-coverage",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 13,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "corrected-text-exact-coverage"
           ]
@@ -1593,12 +1661,12 @@
     },
     {
       "id": "c0014",
-      "title": "문단 14",
+      "title": "문단 2",
       "start": 110,
       "end": 122,
       "sentenceText": "Yeah! Ooh, this is tough. Sorry for the hold-up, folks, we just have to check on some Musical Statues. Sit tight. m",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 14,
+      "chapterId": "chapter-005",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
@@ -1693,8 +1761,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 14,
+          "chapterId": "chapter-005",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "corrected-text-exact-coverage",
             "raw-original-text",

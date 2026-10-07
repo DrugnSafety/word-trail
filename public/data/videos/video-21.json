@@ -18,27 +18,79 @@
   "generationMethod": "editorial-bank+deterministic-match",
   "sourceStatus": "captured-not-audio-verified",
   "reviewStatus": "unreviewed",
-  "contentVersion": "2026.09.29-2",
+  "contentVersion": "2026.10.06-1",
   "groupingMethod": "5-to-15-second-dialogue-paragraphs+script-headings+explicit-source-groups",
+  "chapterMetadataStatus": "youtube-metadata-verified",
+  "expectedChapterCount": 4,
   "chapters": [
     {
       "id": "chapter-001",
-      "title": "Slide 🛝 | Brand New - Series 3 | Bluey",
+      "title": "Starting the slide",
       "start": 0,
-      "end": 125,
-      "source": "whole-video",
+      "markerStart": 0,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 28,
       "sceneIds": [
         "c0001",
         "c0002",
-        "c0003",
+        "c0003"
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "title": "Rescuing the leaf bug",
+      "start": 28,
+      "markerStart": 28,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 53,
+      "sceneIds": [
         "c0004",
-        "c0005",
+        "c0005"
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "title": "Avoiding more bugs",
+      "start": 53,
+      "markerStart": 55,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [
+        "chapter-boundary-snapped-to-caption"
+      ],
+      "snapSeconds": 2,
+      "end": 87,
+      "sceneIds": [
         "c0006",
         "c0007",
-        "c0008",
+        "c0008"
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "title": "Ineffective bug wall",
+      "start": 87,
+      "markerStart": 87,
+      "source": "youtube-chapter",
+      "provenance": "youtube-player-metadata-via-yt-dlp",
+      "coverage": "youtube-metadata-boundary",
+      "qualityFlags": [],
+      "snapSeconds": 0,
+      "end": 125,
+      "sceneIds": [
         "c0009",
         "c0010",
-        "c0011"
+        "c0011",
+        "c0012"
       ]
     }
   ],
@@ -253,8 +305,8 @@
       "id": "c0003",
       "title": "문단 3",
       "start": 23,
-      "end": 38,
-      "sentenceText": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
+      "end": 28,
+      "sentenceText": "go oh no stop stop what why just stop",
       "chapterId": "chapter-001",
       "paragraphIndex": 3,
       "selectable": true,
@@ -262,16 +314,97 @@
         {
           "id": "c0003",
           "start": 23,
-          "end": 38,
-          "text": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
-          "originalText": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
+          "end": 28,
+          "text": "go oh no stop stop what why just stop",
+          "originalText": "go oh no stop stop what why just stop",
           "originalCueRefs": [
             {
               "id": "c0006",
               "start": 23,
               "end": 28,
               "text": "go oh no stop stop what why just stop"
-            },
+            }
+          ],
+          "cleanedCueRefs": [],
+          "sourceCueRefs": [
+            {
+              "id": "c0006",
+              "start": 23,
+              "end": 28,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0006"
+              ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "original-captured-cue",
+          "chapterId": "chapter-001",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "no",
+          "cueId": "c0003",
+          "quote": "go oh no stop stop what why just stop",
+          "start": 23,
+          "end": 28,
+          "matchStart": 6,
+          "matchEnd": 8
+        },
+        {
+          "expressionId": "stop",
+          "cueId": "c0003",
+          "quote": "go oh no stop stop what why just stop",
+          "start": 23,
+          "end": 28,
+          "matchStart": 9,
+          "matchEnd": 13
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0003",
+          "quote": "go oh no stop stop what why just stop",
+          "start": 23,
+          "end": 28,
+          "matchStart": 19,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0003",
+          "quote": "go oh no stop stop what why just stop",
+          "start": 23,
+          "end": 28,
+          "matchStart": 24,
+          "matchEnd": 27
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text"
+      ]
+    },
+    {
+      "id": "c0004",
+      "title": "문단 1",
+      "start": 28,
+      "end": 40,
+      "sentenceText": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0004",
+          "start": 28,
+          "end": 40,
+          "text": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+          "originalText": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+          "originalCueRefs": [
             {
               "id": "c0007",
               "start": 28,
@@ -289,19 +422,16 @@
               "start": 33,
               "end": 38,
               "text": "the way a she's so cute you have to be"
+            },
+            {
+              "id": "c0010",
+              "start": 38,
+              "end": 40,
+              "text": "more careful leus you're lucky we didn't"
             }
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0006",
-              "start": 23,
-              "end": 28,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0006"
-              ]
-            },
             {
               "id": "c0007",
               "start": 28,
@@ -328,12 +458,21 @@
               "originalCueIds": [
                 "c0009"
               ]
+            },
+            {
+              "id": "c0010",
+              "start": 38,
+              "end": 40,
+              "groupingProvenance": "original-captured-cue",
+              "originalCueIds": [
+                "c0010"
+              ]
             }
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 3,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -343,57 +482,48 @@
       "targets": [
         {
           "expressionId": "have-to",
-          "cueId": "c0003",
-          "quote": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
-          "start": 23,
-          "end": 38,
-          "matchStart": 109,
-          "matchEnd": 116
+          "cueId": "c0004",
+          "quote": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+          "start": 28,
+          "end": 40,
+          "matchStart": 71,
+          "matchEnd": 78
         },
         {
-          "expressionId": "no",
-          "cueId": "c0003",
-          "quote": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
-          "start": 23,
-          "end": 38,
-          "matchStart": 6,
+          "expressionId": "okay",
+          "cueId": "c0004",
+          "quote": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+          "start": 28,
+          "end": 40,
+          "matchStart": 0,
+          "matchEnd": 4
+        },
+        {
+          "expressionId": "why",
+          "cueId": "c0004",
+          "quote": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+          "start": 28,
+          "end": 40,
+          "matchStart": 5,
           "matchEnd": 8
         },
         {
           "expressionId": "stop",
-          "cueId": "c0003",
-          "quote": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
-          "start": 23,
-          "end": 38,
-          "matchStart": 9,
-          "matchEnd": 13
+          "cueId": "c0004",
+          "quote": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+          "start": 28,
+          "end": 40,
+          "matchStart": 16,
+          "matchEnd": 20
         },
         {
-          "expressionId": "what",
-          "cueId": "c0003",
-          "quote": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
-          "start": 23,
-          "end": 38,
-          "matchStart": 19,
-          "matchEnd": 23
-        },
-        {
-          "expressionId": "why",
-          "cueId": "c0003",
-          "quote": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
-          "start": 23,
-          "end": 38,
-          "matchStart": 24,
-          "matchEnd": 27
-        },
-        {
-          "expressionId": "okay",
-          "cueId": "c0003",
-          "quote": "go oh no stop stop what why just stop okay why did we stop there's a leaf bug in the way a she's so cute you have to be",
-          "start": 23,
-          "end": 38,
-          "matchStart": 38,
-          "matchEnd": 42
+          "expressionId": "careful",
+          "cueId": "c0004",
+          "quote": "okay why did we stop there's a leaf bug in the way a she's so cute you have to be more careful leus you're lucky we didn't",
+          "start": 28,
+          "end": 40,
+          "matchStart": 87,
+          "matchEnd": 94
         }
       ],
       "qualityFlags": [
@@ -402,28 +532,22 @@
       ]
     },
     {
-      "id": "c0004",
-      "title": "문단 4",
-      "start": 38,
+      "id": "c0005",
+      "title": "문단 2",
+      "start": 40,
       "end": 53,
-      "sentenceText": "more careful leus you're lucky we didn't squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 4,
+      "sentenceText": "squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
+      "chapterId": "chapter-002",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0004",
-          "start": 38,
+          "id": "c0005",
+          "start": 40,
           "end": 53,
-          "text": "more careful leus you're lucky we didn't squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
-          "originalText": "more careful leus you're lucky we didn't squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
+          "text": "squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
+          "originalText": "squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
           "originalCueRefs": [
-            {
-              "id": "c0010",
-              "start": 38,
-              "end": 40,
-              "text": "more careful leus you're lucky we didn't"
-            },
             {
               "id": "c0011",
               "start": 40,
@@ -445,15 +569,6 @@
           ],
           "cleanedCueRefs": [],
           "sourceCueRefs": [
-            {
-              "id": "c0010",
-              "start": 38,
-              "end": 40,
-              "groupingProvenance": "original-captured-cue",
-              "originalCueIds": [
-                "c0010"
-              ]
-            },
             {
               "id": "c0011",
               "start": 40,
@@ -484,8 +599,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 4,
+          "chapterId": "chapter-002",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -495,39 +610,30 @@
       "targets": [
         {
           "expressionId": "come-on",
-          "cueId": "c0004",
-          "quote": "more careful leus you're lucky we didn't squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
-          "start": 38,
+          "cueId": "c0005",
+          "quote": "squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
+          "start": 40,
           "end": 53,
-          "matchStart": 80,
-          "matchEnd": 87
-        },
-        {
-          "expressionId": "careful",
-          "cueId": "c0004",
-          "quote": "more careful leus you're lucky we didn't squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
-          "start": 38,
-          "end": 53,
-          "matchStart": 5,
-          "matchEnd": 12
+          "matchStart": 39,
+          "matchEnd": 46
         },
         {
           "expressionId": "little",
-          "cueId": "c0004",
-          "quote": "more careful leus you're lucky we didn't squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
-          "start": 38,
+          "cueId": "c0005",
+          "quote": "squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
+          "start": 40,
           "end": 53,
-          "matchStart": 88,
-          "matchEnd": 94
+          "matchStart": 47,
+          "matchEnd": 53
         },
         {
           "expressionId": "okay",
-          "cueId": "c0004",
-          "quote": "more careful leus you're lucky we didn't squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
-          "start": 38,
+          "cueId": "c0005",
+          "quote": "squash you I'll move her off the slide come on little fellow okay you can go Lea hooray bye",
+          "start": 40,
           "end": 53,
-          "matchStart": 102,
-          "matchEnd": 106
+          "matchStart": 61,
+          "matchEnd": 65
         }
       ],
       "qualityFlags": [
@@ -536,17 +642,17 @@
       ]
     },
     {
-      "id": "c0005",
-      "title": "문단 5",
+      "id": "c0006",
+      "title": "문단 1",
       "start": 53,
       "end": 67,
       "sentenceText": "Lea oh wait stop hey it's a ladyb bird oh I love ladybirds we can't squish them come on",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 5,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 1,
       "selectable": true,
       "cues": [
         {
-          "id": "c0005",
+          "id": "c0006",
           "start": 53,
           "end": 67,
           "text": "Lea oh wait stop hey it's a ladyb bird oh I love ladybirds we can't squish them come on",
@@ -603,8 +709,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 5,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 1,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -614,7 +720,7 @@
       "targets": [
         {
           "expressionId": "come-on",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "Lea oh wait stop hey it's a ladyb bird oh I love ladybirds we can't squish them come on",
           "start": 53,
           "end": 67,
@@ -623,7 +729,7 @@
         },
         {
           "expressionId": "wait",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "Lea oh wait stop hey it's a ladyb bird oh I love ladybirds we can't squish them come on",
           "start": 53,
           "end": 67,
@@ -632,7 +738,7 @@
         },
         {
           "expressionId": "stop",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "Lea oh wait stop hey it's a ladyb bird oh I love ladybirds we can't squish them come on",
           "start": 53,
           "end": 67,
@@ -641,7 +747,7 @@
         },
         {
           "expressionId": "love",
-          "cueId": "c0005",
+          "cueId": "c0006",
           "quote": "Lea oh wait stop hey it's a ladyb bird oh I love ladybirds we can't squish them come on",
           "start": 53,
           "end": 67,
@@ -655,17 +761,17 @@
       ]
     },
     {
-      "id": "c0006",
-      "title": "문단 6",
+      "id": "c0007",
+      "title": "문단 2",
       "start": 68,
       "end": 80,
       "sentenceText": "ladybird hey now there's an ant on the slide Bingo can we squish ants well I don't like them as much as lady Birds but I still don't think we should squish them.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 6,
+      "chapterId": "chapter-003",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0006",
+          "id": "c0007",
           "start": 68,
           "end": 80,
           "text": "ladybird hey now there's an ant on the slide Bingo can we squish ants well I don't like them as much as lady Birds but I still don't think we should squish them.",
@@ -744,8 +850,8 @@
           ],
           "textSource": "mixed-captured-sources",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 6,
+          "chapterId": "chapter-003",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "corrected-text-exact-coverage",
@@ -756,7 +862,7 @@
       "targets": [
         {
           "expressionId": "like",
-          "cueId": "c0006",
+          "cueId": "c0007",
           "quote": "ladybird hey now there's an ant on the slide Bingo can we squish ants well I don't like them as much as lady Birds but I still don't think we should squish them.",
           "start": 68,
           "end": 80,
@@ -765,7 +871,7 @@
         },
         {
           "expressionId": "think",
-          "cueId": "c0006",
+          "cueId": "c0007",
           "quote": "ladybird hey now there's an ant on the slide Bingo can we squish ants well I don't like them as much as lady Birds but I still don't think we should squish them.",
           "start": 68,
           "end": 80,
@@ -774,7 +880,7 @@
         },
         {
           "expressionId": "dont",
-          "cueId": "c0006",
+          "cueId": "c0007",
           "quote": "ladybird hey now there's an ant on the slide Bingo can we squish ants well I don't like them as much as lady Birds but I still don't think we should squish them.",
           "start": 68,
           "end": 80,
@@ -789,21 +895,21 @@
       ]
     },
     {
-      "id": "c0007",
-      "title": "문단 7",
+      "id": "c0008",
+      "title": "문단 3",
       "start": 80,
-      "end": 93,
-      "sentenceText": "them me neither come on oh there's another one what are we going to do ooh I know If we make walls, the little bugs",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 7,
+      "end": 87,
+      "sentenceText": "them me neither come on oh there's another one what are we going to do ooh",
+      "chapterId": "chapter-003",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0007",
+          "id": "c0008",
           "start": 80,
-          "end": 93,
-          "text": "them me neither come on oh there's another one what are we going to do ooh I know If we make walls, the little bugs",
-          "originalText": "them me neither come on oh there's another one what are we going to do ooh I know if we make walls the little bugs won't",
+          "end": 87,
+          "text": "them me neither come on oh there's another one what are we going to do ooh",
+          "originalText": "them me neither come on oh there's another one what are we going to do ooh",
           "originalCueRefs": [
             {
               "id": "c0021",
@@ -816,34 +922,9 @@
               "start": 83,
               "end": 87,
               "text": "another one what are we going to do ooh"
-            },
-            {
-              "id": "c0023",
-              "start": 87,
-              "end": 88,
-              "text": "I"
-            },
-            {
-              "id": "c0024",
-              "start": 88,
-              "end": 91,
-              "text": "know"
-            },
-            {
-              "id": "c0025",
-              "start": 91,
-              "end": 93,
-              "text": "if we make walls the little bugs won't"
             }
           ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0036",
-              "start": 91,
-              "end": 93,
-              "text": "If we make walls, the little bugs"
-            }
-          ],
+          "cleanedCueRefs": [],
           "sourceCueRefs": [
             {
               "id": "c0021",
@@ -862,7 +943,112 @@
               "originalCueIds": [
                 "c0022"
               ]
+            }
+          ],
+          "textSource": "original-captured",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-003",
+          "paragraphIndex": 3,
+          "qualityFlags": [
+            "raw-original-text",
+            "duration-grouped-dialogue"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "expressionId": "come-on",
+          "cueId": "c0008",
+          "quote": "them me neither come on oh there's another one what are we going to do ooh",
+          "start": 80,
+          "end": 87,
+          "matchStart": 16,
+          "matchEnd": 23
+        },
+        {
+          "expressionId": "what",
+          "cueId": "c0008",
+          "quote": "them me neither come on oh there's another one what are we going to do ooh",
+          "start": 80,
+          "end": 87,
+          "matchStart": 47,
+          "matchEnd": 51
+        }
+      ],
+      "qualityFlags": [
+        "raw-original-text",
+        "duration-grouped-dialogue"
+      ]
+    },
+    {
+      "id": "c0009",
+      "title": "문단 1",
+      "start": 87,
+      "end": 98,
+      "sentenceText": "I know If we make walls, the little bugs won't be able to get over them. Oh, yeah! There.",
+      "chapterId": "chapter-004",
+      "paragraphIndex": 1,
+      "selectable": true,
+      "cues": [
+        {
+          "id": "c0009",
+          "start": 87,
+          "end": 98,
+          "text": "I know If we make walls, the little bugs won't be able to get over them. Oh, yeah! There.",
+          "originalText": "I know if we make walls the little bugs won't be able to get over them oh yeah there",
+          "originalCueRefs": [
+            {
+              "id": "c0023",
+              "start": 87,
+              "end": 88,
+              "text": "I"
             },
+            {
+              "id": "c0024",
+              "start": 88,
+              "end": 91,
+              "text": "know"
+            },
+            {
+              "id": "c0025",
+              "start": 91,
+              "end": 93,
+              "text": "if we make walls the little bugs won't"
+            },
+            {
+              "id": "c0026",
+              "start": 93,
+              "end": 98,
+              "text": "be able to get over them oh yeah there"
+            }
+          ],
+          "cleanedCueRefs": [
+            {
+              "id": "c0036",
+              "start": 91,
+              "end": 93,
+              "text": "If we make walls, the little bugs"
+            },
+            {
+              "id": "c0037",
+              "start": 93,
+              "end": 96,
+              "text": "won't be able to get over them."
+            },
+            {
+              "id": "c0038",
+              "start": 96,
+              "end": 97,
+              "text": "Oh, yeah!"
+            },
+            {
+              "id": "c0039",
+              "start": 97,
+              "end": 98,
+              "text": "There."
+            }
+          ],
+          "sourceCueRefs": [
             {
               "id": "c0023",
               "start": 87,
@@ -889,108 +1075,7 @@
               "originalCueIds": [
                 "c0025"
               ]
-            }
-          ],
-          "textSource": "mixed-captured-sources",
-          "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 7,
-          "qualityFlags": [
-            "raw-original-text",
-            "corrected-text-exact-coverage",
-            "duration-grouped-dialogue"
-          ]
-        }
-      ],
-      "targets": [
-        {
-          "expressionId": "come-on",
-          "cueId": "c0007",
-          "quote": "them me neither come on oh there's another one what are we going to do ooh I know If we make walls, the little bugs",
-          "start": 80,
-          "end": 93,
-          "matchStart": 16,
-          "matchEnd": 23
-        },
-        {
-          "expressionId": "what",
-          "cueId": "c0007",
-          "quote": "them me neither come on oh there's another one what are we going to do ooh I know If we make walls, the little bugs",
-          "start": 80,
-          "end": 93,
-          "matchStart": 47,
-          "matchEnd": 51
-        },
-        {
-          "expressionId": "know",
-          "cueId": "c0007",
-          "quote": "them me neither come on oh there's another one what are we going to do ooh I know If we make walls, the little bugs",
-          "start": 80,
-          "end": 93,
-          "matchStart": 77,
-          "matchEnd": 81
-        },
-        {
-          "expressionId": "little",
-          "cueId": "c0007",
-          "quote": "them me neither come on oh there's another one what are we going to do ooh I know If we make walls, the little bugs",
-          "start": 80,
-          "end": 93,
-          "matchStart": 104,
-          "matchEnd": 110
-        }
-      ],
-      "qualityFlags": [
-        "raw-original-text",
-        "corrected-text-exact-coverage",
-        "duration-grouped-dialogue"
-      ]
-    },
-    {
-      "id": "c0008",
-      "title": "문단 8",
-      "start": 93,
-      "end": 98,
-      "sentenceText": "won't be able to get over them. Oh, yeah! There.",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 8,
-      "selectable": true,
-      "cues": [
-        {
-          "id": "c0008",
-          "start": 93,
-          "end": 98,
-          "text": "won't be able to get over them. Oh, yeah! There.",
-          "originalText": "be able to get over them oh yeah there",
-          "originalCueRefs": [
-            {
-              "id": "c0026",
-              "start": 93,
-              "end": 98,
-              "text": "be able to get over them oh yeah there"
-            }
-          ],
-          "cleanedCueRefs": [
-            {
-              "id": "c0037",
-              "start": 93,
-              "end": 96,
-              "text": "won't be able to get over them."
             },
-            {
-              "id": "c0038",
-              "start": 96,
-              "end": 97,
-              "text": "Oh, yeah!"
-            },
-            {
-              "id": "c0039",
-              "start": 97,
-              "end": 98,
-              "text": "There."
-            }
-          ],
-          "sourceCueRefs": [
             {
               "id": "c0026",
               "start": 93,
@@ -1001,32 +1086,55 @@
               ]
             }
           ],
-          "textSource": "cleaned-exact-coverage",
-          "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 8,
+          "textSource": "mixed-captured-sources",
+          "groupingProvenance": "duration-dialogue-grouping",
+          "chapterId": "chapter-004",
+          "paragraphIndex": 1,
           "qualityFlags": [
-            "corrected-text-exact-coverage"
+            "raw-original-text",
+            "corrected-text-exact-coverage",
+            "duration-grouped-dialogue"
           ]
         }
       ],
-      "targets": [],
+      "targets": [
+        {
+          "expressionId": "know",
+          "cueId": "c0009",
+          "quote": "I know If we make walls, the little bugs won't be able to get over them. Oh, yeah! There.",
+          "start": 87,
+          "end": 98,
+          "matchStart": 2,
+          "matchEnd": 6
+        },
+        {
+          "expressionId": "little",
+          "cueId": "c0009",
+          "quote": "I know If we make walls, the little bugs won't be able to get over them. Oh, yeah! There.",
+          "start": 87,
+          "end": 98,
+          "matchStart": 29,
+          "matchEnd": 35
+        }
+      ],
       "qualityFlags": [
-        "corrected-text-exact-coverage"
+        "raw-original-text",
+        "corrected-text-exact-coverage",
+        "duration-grouped-dialogue"
       ]
     },
     {
-      "id": "c0009",
-      "title": "문단 9",
+      "id": "c0010",
+      "title": "문단 2",
       "start": 98,
       "end": 109,
       "sentenceText": "lucky you're so smart Leela grasshoppers come F I can't",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 9,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 2,
       "selectable": true,
       "cues": [
         {
-          "id": "c0009",
+          "id": "c0010",
           "start": 98,
           "end": 109,
           "text": "lucky you're so smart Leela grasshoppers come F I can't",
@@ -1068,8 +1176,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 9,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 2,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1083,17 +1191,17 @@
       ]
     },
     {
-      "id": "c0010",
-      "title": "문단 10",
+      "id": "c0011",
+      "title": "문단 3",
       "start": 109,
       "end": 121,
       "sentenceText": "stop woo that was close yeah Grandpa you're lucky bngo can fly too the walls aren't working the bugs just fly over",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 10,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 3,
       "selectable": true,
       "cues": [
         {
-          "id": "c0010",
+          "id": "c0011",
           "start": 109,
           "end": 121,
           "text": "stop woo that was close yeah Grandpa you're lucky bngo can fly too the walls aren't working the bugs just fly over",
@@ -1150,8 +1258,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "duration-dialogue-grouping",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 10,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 3,
           "qualityFlags": [
             "raw-original-text",
             "duration-grouped-dialogue"
@@ -1161,7 +1269,7 @@
       "targets": [
         {
           "expressionId": "stop",
-          "cueId": "c0010",
+          "cueId": "c0011",
           "quote": "stop woo that was close yeah Grandpa you're lucky bngo can fly too the walls aren't working the bugs just fly over",
           "start": 109,
           "end": 121,
@@ -1175,17 +1283,17 @@
       ]
     },
     {
-      "id": "c0011",
-      "title": "문단 11",
+      "id": "c0012",
+      "title": "문단 4",
       "start": 122,
       "end": 125,
       "sentenceText": "a",
-      "chapterId": "chapter-001",
-      "paragraphIndex": 11,
+      "chapterId": "chapter-004",
+      "paragraphIndex": 4,
       "selectable": true,
       "cues": [
         {
-          "id": "c0011",
+          "id": "c0012",
           "start": 122,
           "end": 125,
           "text": "a",
@@ -1212,8 +1320,8 @@
           ],
           "textSource": "original-captured",
           "groupingProvenance": "original-captured-cue",
-          "chapterId": "chapter-001",
-          "paragraphIndex": 11,
+          "chapterId": "chapter-004",
+          "paragraphIndex": 4,
           "qualityFlags": [
             "raw-original-text",
             "short-dialogue-fragment"

@@ -3,14 +3,18 @@ import { spawn } from 'node:child_process';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import meaningHandler from '../api/meaning.js';
+import usageHandler from '../api/ai-usage.js';
 
 const root = fileURLToPath(new URL('../public/', import.meta.url));
-const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.ico': 'image/x-icon' };
+const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.ico': 'image/x-icon', '.mp3': 'audio/mpeg' };
 function createAppServer() {
   return http.createServer(async (req, res) => {
     try {
       const url = new URL(req.url, 'http://localhost');
       const requestPath = decodeURIComponent(url.pathname);
+      if (requestPath === '/api/meaning') { await meaningHandler(req, res); return; }
+      if (requestPath === '/api/ai-usage') { await usageHandler(req, res); return; }
       const filename = path.resolve(root, `.${requestPath === '/' ? '/index.html' : requestPath}`);
       if (!filename.startsWith(root) || !['GET', 'HEAD'].includes(req.method)) {
         res.writeHead(403).end('Forbidden'); return;
